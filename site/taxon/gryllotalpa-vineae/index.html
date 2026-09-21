@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gryllotalpa vineae</title>
+<meta name="description" content="Gryllotalpa vineae in audioBlast: 804 recordings, 35 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/gryllotalpa-vineae/">
+<meta property="og:title" content="Gryllotalpa vineae">
+<meta property="og:description" content="Gryllotalpa vineae in audioBlast: 804 recordings, 35 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/3HGFW">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/gryllotalpa-vineae/", "name": "Gryllotalpa vineae", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/gryllotalpa-vineae/", "sameAs": "https://api.audioblast.org/taxon/CoL/3HGFW", "alternateName": ["la Courtiliêre des vignes", "Vineyard Mole-cricket"], "parentTaxon": {"@type": "Taxon", "name": "Gryllotalpa", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/gryllotalpa/"}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/gryllidea/"><span class="rk">Infraorder</span><span>Gryllidea</span></a><span class="sep">›</span><a href="/taxon/gryllotalpoidea/"><span class="rk">Superfamily</span><span>Gryllotalpoidea</span></a><span class="sep">›</span><a href="/taxon/gryllotalpidae/"><span class="rk">Family</span><span>Gryllotalpidae</span></a><span class="sep">›</span><a href="/taxon/gryllotalpinae/"><span class="rk">Subfamily</span><span>Gryllotalpinae</span></a><span class="sep">›</span><a href="/taxon/gryllotalpini/"><span class="rk">Tribe</span><span>Gryllotalpini</span></a><span class="sep">›</span><a href="/taxon/gryllotalpa/"><span class="rk">Genus</span><i>Gryllotalpa</i></a></nav>
+<h1><i>Gryllotalpa vineae</i></h1>
+<p class="rank">Species</p>
+<ul class="vern">
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1886">la Courtiliêre des vignes</a> <code>fr</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/33407">Vineyard Mole-cricket</a> <code>en</code></li>
+</ul>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>804</b> <span>recordings</span></div>
+<div><b>35</b> <span>trait measurements</span></div>
+<div><b>8</b> <span>annotations</span></div>
+<div><b>7</b> <span>images</span></div>
+<div><b>5</b> <span>references</span></div>
+<div><b>3</b> <span>specimens</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">behaviour · bio.acousti.ca</p><p>Calling song fundamental frequency 3512 +/- 107 Hz, n = 33, pulse length 6-8 msec., pulse interval 30 msec. at 9oC. to 14 msec at 14oC. but also dependent on time after start of singing period (fig. 3D and 3E). Song a continuous trill of musical note A7 ASA. Intensity of song 2 to 10 x W.m.-a (83 to 90dB) at 1 m. vertically above mouths of burrow.
+
+Singing burrow with two openings each 30 mm. diarn., separated by a distance, centre to centre, of 40mm. Passages leading to surface merge about 45 mm. below surface. The common passage runs horizontally for about 40mm. and then opens into a spherical chamber about 30 mm. diam.. from which a tunnel about I5 mm. diam. communicates with rest of burrow. Burrow flares exponen- tially out from spherical chamber, its cross sectional area doubling about every I5rnm. of its length (fig. 4D, E and F).</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/15181">this account</a> <a href="https://bio.acousti.ca/node/15181">at bio.acousti.ca</a></p>
+<p class="topic">behaviour · bio.acousti.ca</p><p>Le chant est fort, désagréable, et audible à 200 m.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47387">this account</a> <a href="https://bio.acousti.ca/node/47387">at bio.acousti.ca</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Acoustic traits</h2>
+<p class="note">35 measurements across 12 traits. Each name links to its term in the audioBlast vocabulary.</p><div class="traits">
+<div class="trait"><h3><a href="https://vocab.audioblast.org/PeakFrequency">Peak Frequency (kHz)</a></h3><p class="vals"><a href="#t-peak-frequency-khz">6.85, 3.49, 3.45</a></p><p class="qual">13 measurements · Call, Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/FrequencyRange50%">Frequency Spectrum (50%) (kHz)</a></h3><p class="vals"><a href="#t-frequency-spectrum-50-khz">3.45-3.53, 3.4-3.49, 6.72-7.02</a></p><p class="qual">5 measurements · Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/FrequencyRange25%">Frequency Spectrum (25%) (kHz)</a></h3><p class="vals"><a href="#t-frequency-spectrum-25-khz">3.4-3.57, 3.45-3.57, 3.36-3.53</a></p><p class="qual">5 measurements · Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundPropagationDistance">Sound Propagation Distance (m)</a></h3><p class="vals"><a href="#t-sound-propagation-distance-m">500, 200</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllableInterval">Syllable Interval</a></h3><p class="vals"><a href="#t-syllable-interval">0.030, 0.009</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3>Syllable Duration (song is syllable sequence)</h3><p class="vals"><a href="#t-syllable-duration-song-is-syllable-sequence">0.06-0.08, 0.006-0.012</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CrepitationPresence">Crepitation (Presence)</a></h3><p class="vals"><a href="#t-crepitation-presence">Absent</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundProductionMethod">Sound Production Method</a></h3><p class="vals"><a href="#t-sound-production-method">Elytral Stridulation</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SongStructure">Song Structure</a></h3><p class="vals"><a href="#t-song-structure">Syllables</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/AcousticBurrowPresence">Acoustic Burrow (Presence)</a></h3><p class="vals"><a href="#t-acoustic-burrow-presence">Present</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfCall">Time Of Day Of Call</a></h3><p class="vals"><a href="#t-time-of-day-of-call">Night</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3>Syllable Repetition Rate (Continuous Song) (Hz)</h3><p class="vals"><a href="#t-syllable-repetition-rate-continuous-song-hz">35-90</a></p><p class="qual">Calling Call</p></div>
+</div>
+<h3 class="sub">Measurements</h3>
+<p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
+<tr id="t-peak-frequency-khz"><td>Peak Frequency (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37008">6.85</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37005">3.49</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37002">3.45</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36999">3.49</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36996">3.49</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/34161">3.4</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32564">3.512±0.107</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33882">3.0-5.0</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37182">3.4453125-3.5314453125</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37183">3.4453125-3.5314453125</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37184">3.40224609375-3.48837890625</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37185">3.4453125-3.5314453125</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37186">6.76142578125-6.9767578125</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-frequency-spectrum-50-khz"><td>Frequency Spectrum (50%) (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36997">3.45-3.53</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37000">3.45-3.53</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37003">3.4-3.49</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37006">3.45-3.53</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37009">6.72-7.02</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-frequency-spectrum-25-khz"><td>Frequency Spectrum (25%) (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36998">3.4-3.57</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37001">3.45-3.57</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37004">3.36-3.53</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37007">3.4-3.53</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37010">6.68-7.11</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-propagation-distance-m"><td>Sound Propagation Distance (m)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33879">500</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32563">200</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-interval"><td>Syllable Interval</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32566">0.030</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">9</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32567">0.009</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">14</td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-duration-song-is-syllable-sequence"><td>Syllable Duration (song is syllable sequence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32565">0.06-0.08</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33880">0.006-0.012</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35584">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-production-method"><td>Sound Production Method</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35038">Elytral Stridulation</a></td><td></td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-song-structure"><td>Song Structure</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33878">Syllables</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-acoustic-burrow-presence"><td>Acoustic Burrow (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33883">Present</a></td><td></td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-call"><td>Time Of Day Of Call</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33877">Night</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-repetition-rate-continuous-song-hz"><td>Syllable Repetition Rate (Continuous Song) (Hz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33881">35-90</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+</tbody></table></div>
+</div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">804 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">585:1 Gryllotalpa vineae (820a)</div><div class="d">571 s</div><div class="m">
+<span>W. J. Reynolds; David R. Ragge</span>
+<span>1991-11-25</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10753">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10753">record</a></span>
+</div></div>
+<div class="rec"><div class="t">585:2 Gryllotalpa vineae (820b)</div><div class="d">190 s</div><div class="m">
+<span>W. J. Reynolds; David R. Ragge</span>
+<span>1991-11-25</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10754">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10754">record</a></span>
+</div></div>
+<div class="rec"><div class="t">585:3 Gryllotalpa vineae (821a)</div><div class="d">337 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1991-11-26</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10755">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10755">record</a></span>
+</div></div>
+<div class="rec"><div class="t">585:4 Gryllotalpa vineae (821b)</div><div class="d">311 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1991-11-26</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10756">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10756">record</a></span>
+</div></div>
+<div class="rec"><div class="t">899:13 Gryllotalpa vinae (112r10)</div><div class="d">10 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11096">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11096">record</a></span>
+</div></div>
+<div class="rec"><div class="t">field recording, 16°C (Uher 4000IC?, tape no. U7g)</div><div class="d">26 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51319">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51319">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1151103 Vineyard Mole-cricket (Gryllotalpa vineae) - calling song</div><div class="d">161 s</div><div class="m">
+<span>João Ferreira Tomás</span>
+<span>2026-05-16</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1151103">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1151103">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1101538 Vineyard Mole-cricket (Gryllotalpa vineae) - calling song</div><div class="d">47 s</div><div class="m">
+<span>Esperanza Poveda</span>
+<span>2026-03-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1101538">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1101538">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1101537 Vineyard Mole-cricket (Gryllotalpa vineae) - calling song</div><div class="d">59 s</div><div class="m">
+<span>Esperanza Poveda</span>
+<span>2026-03-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1101537">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1101537">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1101536 Vineyard Mole-cricket (Gryllotalpa vineae) - calling song</div><div class="d">178 s</div><div class="m">
+<span>Esperanza Poveda</span>
+<span>2026-03-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1101536">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1101536">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1101535 Vineyard Mole-cricket (Gryllotalpa vineae) - calling song</div><div class="d">82 s</div><div class="m">
+<span>Esperanza Poveda</span>
+<span>2026-03-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1101535">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1101535">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1101529 Vineyard Mole-cricket (Gryllotalpa vineae) - calling song</div><div class="d">35 s</div><div class="m">
+<span>Esperanza Poveda</span>
+<span>2026-03-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1101529">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1101529">record</a></span>
+</div></div>
+</div>
+<p class="more">792 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Gryllotalpa vineae">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Annotations</h2>
+<p class="note">Regions of a recording marked as this taxon, by a person or by an algorithm.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Recording</th><th>From</th><th>To</th><th>Type</th><th>Annotator</th><th>Record</th></tr></thead><tbody>
+<tr><td class="n">10753</td><td class="n">0</td><td class="n">44</td><td>Voice Introduction</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/61">view</a></td></tr>
+<tr><td class="n">10753</td><td class="n">44</td><td class="n">53</td><td>Call</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/62">view</a></td></tr>
+<tr><td class="n">10754</td><td class="n">0</td><td class="n">4</td><td>Voice Introduction</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/63">view</a></td></tr>
+<tr><td class="n">10754</td><td class="n">5</td><td class="n">23</td><td>Call</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/64">view</a></td></tr>
+<tr><td class="n">10755</td><td class="n">0</td><td class="n">39</td><td>Voice Introduction</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/65">view</a></td></tr>
+<tr><td class="n">10755</td><td class="n">38</td><td class="n">60</td><td>Call</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/66">view</a></td></tr>
+<tr><td class="n">10756</td><td class="n">0</td><td class="n">3</td><td>Voice Introduction</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/67">view</a></td></tr>
+<tr><td class="n">10756</td><td class="n">4</td><td class="n">34</td><td>Call</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/68">view</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Figures</h2>
+<p class="note">Oscillograms, traces and photographs held against this taxon.</p><div class="figs">
+<figure><img src="https://bio.acousti.ca/sites/default/files/bc-3.png" alt="Illustration: bc-3.png" loading="lazy" width="779" height="774"><figcaption><b>Illustration</b><span><a href="https://api.audioblast.org/image/bio.acousti.ca/20605">bc-3.png</a></span></figcaption></figure>
+<figure><img src="https://bio.acousti.ca/sites/default/files/bc-1.png" alt="Illustration: bc-1.png" loading="lazy" width="810" height="593"><figcaption><b>Illustration</b><span><a href="https://api.audioblast.org/image/bio.acousti.ca/20603">bc-1.png</a></span></figcaption></figure>
+<figure><img src="https://bio.acousti.ca/sites/default/files/bc02.png" alt="Illustration: bc02.png" loading="lazy" width="1009" height="717"><figcaption><b>Illustration</b><span><a href="https://api.audioblast.org/image/bio.acousti.ca/20604">bc02.png</a></span></figcaption></figure>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Within</h3>
+<ul>
+<li><a href="/taxon/gryllotalpa/"><i>Gryllotalpa</i> <span class="n">3,281</span></a></li>
+<li><a href="/taxon/gryllotalpini/"><span>Gryllotalpini</span> <span class="n">3,281</span></a></li>
+<li><a href="/taxon/gryllotalpinae/"><span>Gryllotalpinae</span> <span class="n">4,319</span></a></li>
+<li><a href="/taxon/gryllotalpidae/"><span>Gryllotalpidae</span> <span class="n">4,454</span></a></li>
+<li><a href="/taxon/gryllotalpoidea/"><span>Gryllotalpoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllidea/"><span>Gryllidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/gryllotalpa-australis/"><i>Gryllotalpa australis</i> <span class="n">21</span></a></li>
+<li><a href="/taxon/gryllotalpa-gryllotalpa/"><i>Gryllotalpa gryllotalpa</i> <span class="n">1,128</span></a></li>
+<li><a href="/taxon/gryllotalpa-rufescens/"><i>Gryllotalpa rufescens</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllotalpa-unispina/"><i>Gryllotalpa unispina</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/gryllotalpa-major/"><i>Gryllotalpa major</i> <span class="n">54</span></a></li>
+<li><a href="/taxon/gryllotalpa-howensis/"><i>Gryllotalpa howensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllotalpa-monanka/"><i>Gryllotalpa monanka</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/gryllotalpa-microptera/"><i>Gryllotalpa microptera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllotalpa-krimbasi/"><i>Gryllotalpa krimbasi</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/gryllotalpa-orientalis/"><i>Gryllotalpa orientalis</i> <span class="n">246</span></a></li>
+<li><a href="/taxon/gryllotalpa-pluvialis/"><i>Gryllotalpa pluvialis</i> <span class="n">189</span></a></li>
+<li><a href="/taxon/gryllotalpa-weisei/"><i>Gryllotalpa weisei</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllotalpa-africana/"><i>Gryllotalpa africana</i> <span class="n">270</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Specimens</h2>
+<p class="note">Occurrences the recordings are of, in Darwin Core terms.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Catalogue</th><th>Institution</th><th>Basis</th><th>Sex</th><th>Life stage</th></tr></thead><tbody>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/12592">010210902</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>Male</td><td>Adult</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/12702">010211143</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/12691">010211141</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>References</h2>
+<p class="note">Publications audioBlast links to this taxon.</p><ul class="refs">
+<li><span class="who">Bennet-Clark, H. C. (1970)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/12689">The Mechanism and Efficiency of Sound Production in Mole Crickets</a><br><span class="where">Journal of Experimental Biology, 52, 619-652</span></li>
+<li><span class="who">Bennet-Clark, H. C. (1970)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/15180">A new French mole cricket, differing in song and morphology from Gryllotalpa gryllotalpa L. (Orthoptera: Gryllotalpidae)</a><br><span class="where">Proceedings of the Royal Entomological Society of London. Series B, Taxonomy, 39, 125 - 132</span><br><a href="https://doi.org/10.1111/syen.1970.39.issue-9-1010.1111/j.1365-3113.1970.tb00265.x">doi:10.1111/syen.1970.39.issue-9-1010.1111/j.1365-3113.1970.tb00265.x</a></li>
+<li><span class="who">Forrest, TG (1982)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/53142">Acoustic communication and baffling behaviors of crickets</a><br><span class="where">The Florida Entomologist, 65, 33–44</span></li>
+<li><span class="who">Bennet-Clark, H. C.; Bailey, Winston J. (2002)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/47868">Ticking of the clockwork cricket: the role of the escapement mechanism.</a><br><span class="where">J Exp Biol, 205, 613-25</span></li>
+<li><span class="who">Baker, Edward; Broom, Yoke-Shum (2015)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/15179">Natural History Museum Sound Archive I: Orthoptera: Gryllotalpidae Leach, 1815, including 3D scans of burrow casts of Gryllotalpa gryllotalpa (Linnaeus, 1758) and Gryllotalpa vineae Bennet-Clark, 1970</a><br><span class="where">Biodiversity Data Journal, 3, e7442</span><br><a href="https://doi.org/10.3897/BDJ.3.e7442">doi:10.3897/BDJ.3.e7442</a></li>
+</ul></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td>bio.acousti.ca</td><td><i>Gryllotalpa vineae</i></td><td>Species</td><td>Gryllotalpidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/247">bio.acousti.ca/247</a></td></tr>
+<tr><td>iNaturalist</td><td><i>Gryllotalpa vineae</i></td><td>Species</td><td>Gryllotalpidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/503713">iNaturalist/503713</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/gryllotalpa-vineae/&quot;,
+  &quot;name&quot;: &quot;Gryllotalpa vineae&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/gryllotalpa-vineae/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/3HGFW&quot;,
+  &quot;alternateName&quot;: [
+    &quot;la Courtiliêre des vignes&quot;,
+    &quot;Vineyard Mole-cricket&quot;
+  ],
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Gryllotalpa&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/gryllotalpa/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/3HGFW</p>
+</div></footer>
+</body>
+</html>
