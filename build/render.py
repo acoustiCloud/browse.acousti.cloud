@@ -19,6 +19,15 @@ ITALIC_RANKS = ("genus", "species", "subgenus", "subspecies")
 # A page shows this many measurements and links out for the rest
 TRAIT_ROW_CAP = 60
 
+# While the site is small enough to read whole, the index lists every page. Past that it offers
+# entry points instead: a front page that is two megabytes of links is not a way in.
+SHOW_ALL_BELOW = 200
+# The ranks worth offering as a way in. A kingdom is not one: Animalia is everything audioBlast
+# holds and Plantae is nothing, so neither gets a reader anywhere. Someone looking for frogs wants
+# Anura, and someone looking for crickets wants Gryllidae.
+ENTRY_RANKS = ("class", "order", "family")
+ENTRIES = 30
+
 
 def slug(name):
     """
@@ -551,10 +560,10 @@ def index(pages, roots, stats, changed):
             format(count, ",") if count else "—"))
     w("</ul></div></div></div></section>")
 
-    if pages:
+    if len(pages) < SHOW_ALL_BELOW:
         w("<section><div class=\"wrap\"><h2>Every page</h2>")
-        w("<p class=\"note\">%d built so far. The "
-          "<a href=\"/sitemap.xml\">sitemap</a> lists them all.</p>" % len(pages))
+        w("<p class=\"note\">%d built so far. The <a href=\"/sitemap.xml\">sitemap</a> lists "
+          "them all.</p>" % len(pages))
         by_rank = {}
         for node, count in pages:
             by_rank.setdefault((node.get("rank") or "").lower(), []).append((node, count))
@@ -567,9 +576,27 @@ def index(pages, roots, stats, changed):
             for node, count in group:
                 w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
                     path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
-                    format(count, ",") if count else "—"))
+                    format(count, ",") if count else "\u2014"))
             w("</ul>")
         w("</div></section>")
+    elif pages:
+        already = set()
+        for node, _ in roots:
+            already.add(node["id"])
+        picked = [(node, count) for node, count in pages
+                  if (node.get("rank") or "").lower() in ENTRY_RANKS
+                  and node["id"] not in already and count]
+        picked.sort(key=lambda pair: -pair[1])
+        w("<section><div class=\"wrap\"><h2>Major groups</h2>")
+        w("<p class=\"note\">Where most of the recordings are, of %s pages built. Every one is "
+          "in the <a href=\"/sitemap.xml\">sitemap</a>, and each page leads to what sits above, "
+          "below and beside it.</p>" % format(len(pages), ","))
+        w("<ul class=\"tiles\">")
+        for node, count in picked[:ENTRIES]:
+            w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
+                path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
+                format(count, ",")))
+        w("</ul></div></section>")
 
     w("<footer><div class=\"wrap\">")
     w("<p>Built %s from the <a href=\"%s\">audioBlast API</a>. "
