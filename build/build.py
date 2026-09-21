@@ -133,7 +133,7 @@ def build(names, deep=False):
         started = time.time()
         data = gather(node, seen_counts)
         path, size = write(node, data)
-        built.append(path)
+        built.append((path, node, data["counts"]["recordings"]))
         broken = sum(1 for i in data["linked"]["images"] if not i["_live"])
         sys.stderr.write("  %-34s %6.1fkB  %5.1fs  %s recordings%s\n" % (
             path, size / 1024, time.time() - started, format(data["counts"]["recordings"], ","),
@@ -154,11 +154,25 @@ def main():
     built = build(args.taxon, deep=args.deep)
 
     if built:
+        # The roots of what was built: a page whose parent was not built is a way in
+        ids = {node["id"] for _, node, _ in built}
+        roots = [(node, count) for _, node, count in built
+                 if node.get("parent_id") not in ids]
+        roots.sort(key=lambda pair: -pair[1])
+        counts = api.get(api.API + "/standalone/data/fetch_data_counts/?output=nakedJSON")
+        held = counts.get("counts", {}) if isinstance(counts, dict) else {}
+        stats = [(len(built), "pages built"),
+                 (int(held.get("recordings", 0)), "recordings in audioBlast"),
+                 (int(held.get("traits", 0)), "trait measurements"),
+                 (api.count("taxa", source=api.COL), "taxa in the Catalogue of Life spine")]
         changed = datetime.date.today().isoformat()
         os.makedirs(OUT, exist_ok=True)
         with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as handle:
-            handle.write(render.sitemap(built, changed))
-        sys.stderr.write("\n%d page%s in %.1fs, sitemap.xml written\n"
+            handle.write(render.sitemap([path for path, _, _ in built] + ["/"], changed))
+        with open(os.path.join(OUT, "index.html"), "w", encoding="utf-8") as handle:
+            handle.write(render.index([(node, count) for _, node, count in built],
+                                      roots, stats, changed))
+        sys.stderr.write("\n%d page%s in %.1fs, index and sitemap written\n"
                          % (len(built), "" if len(built) == 1 else "s", time.time() - started))
     else:
         sys.stderr.write("\nNothing built\n")

@@ -108,6 +108,16 @@ a:hover{color:var(--accent)}
 h1{margin:0;font-family:var(--display);font-weight:600;
    font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
 h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
 .rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
       text-transform:uppercase;color:var(--accent)}
 .vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
@@ -495,6 +505,78 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     w("<p class=\"iri\">%s/taxon/CoL/%s</p>" % (API, e(node["id"])))
     w("</div></footer>\n</body>\n</html>")
     return "\n".join(out)
+
+
+def index(pages, roots, stats, changed):
+    """
+    The way in. It lists only taxa that have been built, so the front of the site can never point
+    at a page that does not exist: the roots of whatever has been built, and, while the site is
+    small enough to show whole, everything else grouped by rank.
+    """
+    out = []
+    w = out.append
+    w("<!doctype html>" + chr(10) + "<html lang=\"en\">" + chr(10) + "<head>" + chr(10) + "<meta charset=\"utf-8\">")
+    w("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")
+    w("<title>browse.acousti.cloud</title>")
+    w("<meta name=\"description\" content=\"A page for each taxon audioBlast holds recordings, "
+      "traits and annotations of, built from the audioBlast API.\">")
+    w("<link rel=\"canonical\" href=\"%s/\">" % SITE)
+    w("<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>")
+    w("<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?"
+      "family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&"
+      "family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap\">")
+    w("<style>%s</style>" % STYLE)
+    w("</head>" + chr(10) + "<body>")
+
+    w("<header class=\"masthead\"><div class=\"wrap\">")
+    w("<p class=\"rank\">browse.acousti.cloud</p>")
+    w("<h1>The sounds we hold, by taxon</h1>")
+    w("<p class=\"lede\">A page for every taxon <a href=\"https://audioblast.org\">audioBlast</a> "
+      "holds recordings, traits or annotations of. Classification follows the "
+      "<a href=\"https://www.catalogueoflife.org\">Catalogue of Life</a>; the records come from the "
+      "collections audioBlast draws on, each keeping its own account of what a taxon is.</p>")
+    w("</div></header>")
+
+    w("<div class=\"glance\"><div class=\"wrap\">")
+    for n, label in stats:
+        w("<div><b>%s</b> <span>%s</span></div>" % (format(n, ","), e(label)))
+    w("</div></div>")
+
+    w("<section><div class=\"wrap\"><h2>Start here</h2>")
+    w("<p class=\"note\">Counts are recordings at or below each taxon.</p>")
+    w("<div class=\"nav\"><div><ul>")
+    for node, count in roots:
+        w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
+            path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
+            format(count, ",") if count else "—"))
+    w("</ul></div></div></div></section>")
+
+    if pages:
+        w("<section><div class=\"wrap\"><h2>Every page</h2>")
+        w("<p class=\"note\">%d built so far. The "
+          "<a href=\"/sitemap.xml\">sitemap</a> lists them all.</p>" % len(pages))
+        by_rank = {}
+        for node, count in pages:
+            by_rank.setdefault((node.get("rank") or "").lower(), []).append((node, count))
+        order = ["domain", "kingdom", "phylum", "subphylum", "class", "order", "suborder",
+                 "infraorder", "superfamily", "family", "subfamily", "tribe", "genus",
+                 "species", "subspecies"]
+        for rank in sorted(by_rank, key=lambda r: (order.index(r) if r in order else 99, r)):
+            group = sorted(by_rank[rank], key=lambda pair: pair[0]["taxon"])
+            w("<h3 class=\"sub\">%s</h3><ul class=\"tiles\">" % e(rank or "unranked"))
+            for node, count in group:
+                w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
+                    path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
+                    format(count, ",") if count else "—"))
+            w("</ul>")
+        w("</div></section>")
+
+    w("<footer><div class=\"wrap\">")
+    w("<p>Built %s from the <a href=\"%s\">audioBlast API</a>. "
+      "Source at <a href=\"https://github.com/acoustiCloud/browse.acousti.cloud\">GitHub</a>.</p>"
+      % (e(changed), API))
+    w("</div></footer>" + chr(10) + "</body>" + chr(10) + "</html>")
+    return chr(10).join(out)
 
 
 def sitemap(paths, changed):
