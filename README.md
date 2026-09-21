@@ -20,7 +20,7 @@ py build.py "Gryllotalpa vineae"              one taxon
 py build.py "Gryllotalpidae" --deep           that taxon and everything below it
 ```
 
-Pages are written to `site/taxon/<slug>/index.html`, and `site/sitemap.xml` lists what was built.
+Pages are written to `docs/taxon/<slug>/index.html`, and `docs/sitemap.xml` lists what was built.
 A page costs about 40 requests and three seconds, so a large build is bounded by the number of
 requests rather than by anything complicated.
 
@@ -64,8 +64,9 @@ differing only in a capital letter or a question mark.
 build/   api.py      reading audioBlast
          render.py   one taxon page, and the sitemap
          build.py    what to build, and writing it out
-site/    the built site, served by GitHub Pages
+docs/    the built site. GitHub Pages serves a branch from its root or from /docs,
+         and nowhere else, so that is the name.
 ```
 
-`site/` is committed: GitHub Pages serves what is in the repository, so the build output belongs
+`docs/` is committed: GitHub Pages serves what is in the repository, so the build output belongs
 in it.

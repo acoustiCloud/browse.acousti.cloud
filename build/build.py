@@ -4,7 +4,7 @@ Build taxon pages for browse.acousti.cloud.
   py build.py "Gryllotalpa vineae"          one taxon
   py build.py "Gryllotalpa vineae" --deep   that taxon and everything below it
 
-Output goes to site/taxon/<slug>/index.html, with site/sitemap.xml listing what was built.
+Output goes to docs/taxon/<slug>/index.html, with docs/sitemap.xml listing what was built.
 Nothing in the output calls the API: a page is finished when it is written.
 """
 
@@ -20,7 +20,8 @@ import api
 import render
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = os.path.join(ROOT, "site")
+# GitHub Pages serves a branch from its root or from /docs, and nowhere else
+OUT = os.path.join(ROOT, "docs")
 # Recordings roll up by rank in the join view, so a count against a rank is the count at or below
 COUNTABLE = ("kingdom", "class", "order", "suborder", "family", "subfamily", "tribe", "genus", "species")
 
@@ -105,7 +106,7 @@ def gather(node, seen_counts):
 
 def write(node, data):
     path = render.path_of(node["taxon"])
-    folder = os.path.join(SITE, path.strip("/").replace("/", os.sep))
+    folder = os.path.join(OUT, path.strip("/").replace("/", os.sep))
     os.makedirs(folder, exist_ok=True)
     html = render.page(node, data["lineage"], data["children"], data["siblings"], data["sources"],
                        data["records"], data["linked"], data["counts"], data["child_counts"],
@@ -154,8 +155,8 @@ def main():
 
     if built:
         changed = datetime.date.today().isoformat()
-        os.makedirs(SITE, exist_ok=True)
-        with open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8") as handle:
+        os.makedirs(OUT, exist_ok=True)
+        with open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8") as handle:
             handle.write(render.sitemap(built, changed))
         sys.stderr.write("\n%d page%s in %.1fs, sitemap.xml written\n"
                          % (len(built), "" if len(built) == 1 else "s", time.time() - started))
