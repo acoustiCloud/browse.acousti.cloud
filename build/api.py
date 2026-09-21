@@ -1,10 +1,13 @@
 """
 Reading audioBlast for the browse build.
 
-Everything here is a targeted query: one taxon's worth. Pages are assembled per taxon rather than
-from harvested tables because the API charges roughly three seconds for any page of a large
+Everything here is a targeted query: one taxon's worth. Pages are assembled per taxon rather
+than from harvested tables, because the API charges roughly three seconds for any page of a large
 module beyond the first, whatever the page size, so pulling recordingstaxa whole costs about
 fifteen minutes while the first page of a filtered query costs a quarter of a second.
+
+An id filter takes a list and taxa has a classification endpoint, so a set of records is one
+request rather than one each: a page costs seventeen requests where it once cost forty-four.
 
 The API refuses a parameter it does not recognise with a 400 naming what the module accepts, so a
 mistyped filter fails here rather than silently returning an unfiltered table.
@@ -73,17 +76,13 @@ def col_by_id(col_id):
     return found[0] if found else None
 
 
-def lineage(col_id, depth=30):
-    """Root first, this taxon last."""
-    chain = []
-    seen = set()
-    current = col_by_id(col_id)
-    while current and current["id"] not in seen and len(chain) < depth:
-        seen.add(current["id"])
-        chain.append(current)
-        parent = current.get("parent_id")
-        current = col_by_id(parent) if parent else None
-    return list(reversed(chain))
+def lineage(col_id):
+    """
+    Root first, this taxon last. One request: the API walks parent_id itself, which it has to do
+    anyway and can do without fourteen round trips.
+    """
+    got = rows("taxa/classification", source=COL, id=col_id)
+    return got if isinstance(got, list) else []
 
 
 def children(col_id, limit=1000):
@@ -95,13 +94,18 @@ def children(col_id, limit=1000):
 def source_rows(col_id):
     """The rows of other sources that skos:exactMatch this CoL taxon."""
     links = rows("links", object_type="taxa", object_source=COL, object_id=col_id)
-    out = []
+    wanted, remarks = {}, {}
     for link in links:
         if link.get("predicate") != EXACT_MATCH:
             continue
-        found = rows("taxa", source=link["subject_source"], id=link["subject_id"])
-        for row in found:
-            row["_remarks"] = link.get("remarks")
+        wanted.setdefault(link["subject_source"], []).append(link["subject_id"])
+        remarks[(link["subject_source"], link["subject_id"])] = link.get("remarks")
+    out = []
+    # Grouped by source rather than asked for in one call: an id is only unique within its source,
+    # so source=a,b with id=x,y would match x from b as readily as from a
+    for source, ids in wanted.items():
+        for row in rows("taxa", source=source, id=",".join(ids)):
+            row["_remarks"] = remarks.get((row["source"], row["id"]))
             out.append(row)
     return out
 
@@ -145,18 +149,19 @@ LINKED_KINDS = {
 
 def linked(source, taxon_id, cap=12):
     """
-    Records that point at a source's taxon row. Each is a request of its own, because the id
-    filter takes a single value: `id=a,b` matches nothing and `id=a&id=b` keeps only the last.
-    Capped, since a page shows a handful and the rest are a link away.
+    Records that point at a source's taxon row, one request per kind rather than per record now
+    that an id filter takes a list. Capped: a page shows a handful and the rest are a link away.
     """
     out = {kind: [] for kind in LINKED_KINDS}
     links = rows("links", object_type="taxa", object_source=source, object_id=taxon_id, limit=1000)
+    wanted = {}
     for link in links:
         kind = link.get("subject_type")
         if kind not in LINKED_KINDS or link.get("predicate") != LINKED_KINDS[kind]:
             continue
-        if len(out[kind]) >= cap:
-            continue
-        for row in rows(kind, source=link["subject_source"], id=link["subject_id"]):
-            out[kind].append(row)
+        ids = wanted.setdefault((kind, link["subject_source"]), [])
+        if len(ids) < cap:
+            ids.append(link["subject_id"])
+    for (kind, held_by), ids in wanted.items():
+        out[kind].extend(rows(kind, source=held_by, id=",".join(ids), limit=cap))
     return out
