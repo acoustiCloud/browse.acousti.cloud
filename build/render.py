@@ -420,7 +420,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     # Up as well as down and across: the breadcrumb is chrome at the top of the page, and someone
     # reading the browse section should be able to climb from it without going back up there
     ancestors = list(reversed(lineage[:-1]))
-    groups = (("Within", ancestors, "This is the root of the classification."),
+    groups = (("Higher classification", ancestors, "This is the root of the classification."),
               ("Contains", children, "Nothing below this taxon in audioBlast."),
               ("Alongside", siblings, "No sibling taxa held."))
     for heading, group, empty in groups:
