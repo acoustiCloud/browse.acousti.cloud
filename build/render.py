@@ -246,6 +246,22 @@ def schema_for(node, vernacular, lineage):
     return data
 
 
+def breadcrumbs_for(lineage):
+    """
+    The classification as a BreadcrumbList. It says to a search engine what the nav at the top of
+    the page says to a reader, and is what puts the hierarchy in a result instead of a bare URL.
+    """
+    return {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": at + 1, "name": step["taxon"],
+             "item": SITE + path_of(step["taxon"])}
+            for at, step in enumerate(lineage)
+        ],
+    }
+
+
 def page(node, lineage, children, siblings, sources, records, linked, counts, child_counts, release):
     """One taxon page. Everything passed in is already fetched; nothing here calls the API."""
     out = []
@@ -272,6 +288,9 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     w("<style>%s</style>" % STYLE)
     w("<script type=\"application/ld+json\">%s</script>" %
       json.dumps(schema_for(node, vernacular, lineage), ensure_ascii=False))
+    if len(lineage) > 1:
+        w("<script type=\"application/ld+json\">%s</script>" %
+          json.dumps(breadcrumbs_for(lineage), ensure_ascii=False))
     w("</head>\n<body>")
 
     # masthead ---------------------------------------------------------------------------------
