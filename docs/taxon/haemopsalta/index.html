@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haemopsalta</title>
+<meta name="description" content="Haemopsalta in audioBlast: 564 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/haemopsalta/">
+<meta property="og:title" content="Haemopsalta">
+<meta property="og:description" content="Haemopsalta in audioBlast: 564 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8HK89">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/haemopsalta/", "name": "Haemopsalta", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/haemopsalta/", "sameAs": "https://api.audioblast.org/taxon/CoL/8HK89", "parentTaxon": {"@type": "Taxon", "name": "Cicadettini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/cicadettini/"}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hemiptera/"><span class="rk">Order</span><span>Hemiptera</span></a><span class="sep">›</span><a href="/taxon/auchenorrhyncha/"><span class="rk">Suborder</span><span>Auchenorrhyncha</span></a><span class="sep">›</span><a href="/taxon/cicadomorpha/"><span class="rk">Infraorder</span><span>Cicadomorpha</span></a><span class="sep">›</span><a href="/taxon/clypeata/"><span class="rk">Parvorder</span><span>Clypeata</span></a><span class="sep">›</span><a href="/taxon/cicadoidea/"><span class="rk">Superfamily</span><span>Cicadoidea</span></a><span class="sep">›</span><a href="/taxon/cicadidae/"><span class="rk">Family</span><span>Cicadidae</span></a><span class="sep">›</span><a href="/taxon/cicadettinae/"><span class="rk">Subfamily</span><span>Cicadettinae</span></a><span class="sep">›</span><a href="/taxon/cicadettini/"><span class="rk">Tribe</span><span>Cicadettini</span></a></nav>
+<h1><i>Haemopsalta</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>564</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">564 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">iNat8264599 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2017-10-05</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=15740">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/15740">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9368652 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2018-01-05</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17049">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17049">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9418993 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Nathan Emery</span>
+<span>2018-01-09</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17154">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17154">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9572114 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2018-01-23</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17332">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17332">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9572304 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2018-01-23</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17333">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17333">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9573530 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2018-01-23</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17344">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17344">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9735382 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2018-02-05</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17571">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17571">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9772585 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Christie</span>
+<span>2018-02-08</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17688">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17688">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9779862 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Joel Poyitt</span>
+<span>2018-02-08</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17665">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17665">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat9975624 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Joel Poyitt</span>
+<span>2018-02-24</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=17980">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/17980">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat10135850 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Joel Poyitt</span>
+<span>2018-03-08</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=18203">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/18203">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat10270710 Red Squeaker (Haemopsalta rubea)</div><div class="d"></div><div class="m">
+<span>Joel Poyitt</span>
+<span>2018-03-17</span>
+<span>iNaturalist</span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=18452">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/18452">record</a></span>
+</div></div>
+</div>
+<p class="more">552 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Haemopsalta">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/cicadettini/"><span>Cicadettini</span> <span class="n">16,139</span></a></li>
+<li><a href="/taxon/cicadettinae/"><span>Cicadettinae</span> <span class="n">25,889</span></a></li>
+<li><a href="/taxon/cicadidae/"><span>Cicadidae</span> <span class="n">69,996</span></a></li>
+<li><a href="/taxon/cicadoidea/"><span>Cicadoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/clypeata/"><span>Clypeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadomorpha/"><span>Cicadomorpha</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/auchenorrhyncha/"><span>Auchenorrhyncha</span> <span class="n">60,351</span></a></li>
+<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">70,069</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/haemopsalta-aktites/"><i>Haemopsalta aktites</i> <span class="n">154</span></a></li>
+<li><a href="/taxon/haemopsalta-rubea/"><i>Haemopsalta rubea</i> <span class="n">396</span></a></li>
+<li><a href="/taxon/haemopsalta-eximia/"><i>Haemopsalta eximia</i> <span class="n">14</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/adelia/"><i>Adelia</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/amphipsalta/"><i>Amphipsalta</i> <span class="n">421</span></a></li>
+<li><a href="/taxon/atrapsalta/"><i>Atrapsalta</i> <span class="n">1,468</span></a></li>
+<li><a href="/taxon/auscala/"><i>Auscala</i> <span class="n">231</span></a></li>
+<li><a href="/taxon/cicadetta/"><i>Cicadetta</i> <span class="n">352</span></a></li>
+<li><a href="/taxon/berberigetta/"><i>Berberigetta</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/birrima/"><i>Birrima</i> <span class="n">315</span></a></li>
+<li><a href="/taxon/caledopsalta/"><i>Caledopsalta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caliginopsalta/"><i>Caliginopsalta</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/chelapsalta/"><i>Chelapsalta</i> <span class="n">46</span></a></li>
+<li><a href="/taxon/cicadettana/"><i>Cicadettana</i> <span class="n">22</span></a></li>
+<li><a href="/taxon/clinata/"><i>Clinata</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/clinopsalta/"><i>Clinopsalta</i> <span class="n">370</span></a></li>
+<li><a href="/taxon/crotopsalta/"><i>Crotopsalta</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/diemeniana/"><i>Diemeniana</i> <span class="n">102</span></a></li>
+<li><a href="/taxon/dimissalna/"><i>Dimissalna</i> <span class="n">192</span></a></li>
+<li><a href="/taxon/drymopsalta/"><i>Drymopsalta</i> <span class="n">1</span></a></li>
+<li><a href="/taxon/erempsalta/"><i>Erempsalta</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/euboeana/"><i>Euboeana</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/euryphara/"><i>Euryphara</i> <span class="n">48</span></a></li>
+<li><a href="/taxon/ewartia/"><i>Ewartia</i> <span class="n">155</span></a></li>
+<li><a href="/taxon/falcatpsalta/"><i>Falcatpsalta</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/galanga/"><i>Galanga</i> <span class="n">1,722</span></a></li>
+<li><a href="/taxon/gelidea/"><i>Gelidea</i> <span class="n">93</span></a></li>
+<li><a href="/taxon/ggomapsalta/"><i>Ggomapsalta</i> <span class="n">1</span></a></li>
+<li><a href="/taxon/graminitigrina/"><i>Graminitigrina</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/gudanga/"><i>Gudanga</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/hilaphura/"><i>Hilaphura</i> <span class="n">16</span></a></li>
+<li><a href="/taxon/huechys/"><i>Huechys</i> <span class="n">46</span></a></li>
+<li><a href="/taxon/kikihia/"><i>Kikihia</i> <span class="n">186</span></a></li>
+<li><a href="/taxon/kobonga/"><i>Kobonga</i> <span class="n">88</span></a></li>
+<li><a href="/taxon/kosemia/"><i>Kosemia</i> <span class="n">54</span></a></li>
+<li><a href="/taxon/limnopsalta/"><i>Limnopsalta</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/maoricicada/"><i>Maoricicada</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/marteena/"><i>Marteena</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/melampsalta/"><i>Melampsalta</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/mugadina/"><i>Mugadina</i> <span class="n">26</span></a></li>
+<li><a href="/taxon/myopsalta/"><i>Myopsalta</i> <span class="n">604</span></a></li>
+<li><a href="/taxon/neopunia/"><i>Neopunia</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/notopsalta/"><i>Notopsalta</i> <span class="n">20</span></a></li>
+<li><a href="/taxon/oligoglena/"><i>Oligoglena</i> <span class="n">86</span></a></li>
+<li><a href="/taxon/palapsalta/"><i>Palapsalta</i> <span class="n">91</span></a></li>
+<li><a href="/taxon/pauropsalta/"><i>Pauropsalta</i> <span class="n">616</span></a></li>
+<li><a href="/taxon/philipsalta/"><i>Philipsalta</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/physeema/"><i>Physeema</i> <span class="n">122</span></a></li>
+<li><a href="/taxon/pinheya/"><i>Pinheya</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pipilopsalta/"><i>Pipilopsalta</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/platypsalta/"><i>Platypsalta</i> <span class="n">5</span></a></li>
+<li><a href="/taxon/popplepsalta/"><i>Popplepsalta</i> <span class="n">1,164</span></a></li>
+<li><a href="/taxon/pyropsalta/"><i>Pyropsalta</i> <span class="n">5</span></a></li>
+<li><a href="/taxon/rhodopsalta/"><i>Rhodopsalta</i> <span class="n">27</span></a></li>
+<li><a href="/taxon/scieroptera/"><i>Scieroptera</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/stellenboschia/"><i>Stellenboschia</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/sylphoides/"><i>Sylphoides</i> <span class="n">48</span></a></li>
+<li><a href="/taxon/taurella/"><i>Taurella</i> <span class="n">43</span></a></li>
+<li><a href="/taxon/telmapsalta/"><i>Telmapsalta</i> <span class="n">555</span></a></li>
+<li><a href="/taxon/terepsalta/"><i>Terepsalta</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/tettigetta/"><i>Tettigetta</i> <span class="n">30</span></a></li>
+<li><a href="/taxon/tettigettalna/"><i>Tettigettalna</i> <span class="n">1,263</span></a></li>
+<li><a href="/taxon/tettigettula/"><i>Tettigettula</i> <span class="n">108</span></a></li>
+<li><a href="/taxon/tibeta/"><i>Tibeta</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/toxala/"><i>Toxala</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/tympanistalna/"><i>Tympanistalna</i> <span class="n">108</span></a></li>
+<li><a href="/taxon/urabunana/"><i>Urabunana</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/yoyetta/"><i>Yoyetta</i> <span class="n">4,528</span></a></li>
+<li><a href="/taxon/afromelampsalta/"><i>Afromelampsalta</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/xeropsalta/"><i>Xeropsalta</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/pericallea/"><i>Pericallea</i> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td>iNaturalist</td><td><i>Haemopsalta</i></td><td>Genus</td><td>Cicadidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/525682">iNaturalist/525682</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/haemopsalta/&quot;,
+  &quot;name&quot;: &quot;Haemopsalta&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/haemopsalta/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8HK89&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Cicadettini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/cicadettini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8HK89</p>
+</div></footer>
+</body>
+</html>
