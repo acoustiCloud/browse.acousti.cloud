@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tettigonia viridissima</title>
+<meta name="description" content="Tettigonia viridissima in audioBlast: 5,016 recordings, 36 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/tettigonia-viridissima/">
+<meta property="og:title" content="Tettigonia viridissima">
+<meta property="og:description" content="Tettigonia viridissima in audioBlast: 5,016 recordings, 36 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/55WDR">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/tettigonia-viridissima/", "name": "Tettigonia viridissima", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/tettigonia-viridissima/", "sameAs": "https://api.audioblast.org/taxon/CoL/55WDR", "alternateName": ["Lehtohepokatti", "Great Green Bush-Cricket", "la Grande Sauterelle verte", "Grünes Heupferd", "Grote groene sabelsprinkhaan", "Stor Grøn Løvgræshoppe", "Grön Vårtbitare", "Grønn Lauvgrashoppe"], "parentTaxon": {"@type": "Taxon", "name": "Tettigonia", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/tettigonia/"}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/tettigoniinae/"><span class="rk">Subfamily</span><span>Tettigoniinae</span></a><span class="sep">›</span><a href="/taxon/tettigoniini/"><span class="rk">Tribe</span><span>Tettigoniini</span></a><span class="sep">›</span><a href="/taxon/tettigonia/"><span class="rk">Genus</span><i>Tettigonia</i></a></nav>
+<h1><i>Tettigonia viridissima</i></h1>
+<p class="rank">Species</p>
+<ul class="vern">
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1350">Lehtohepokatti</a> <code>fi</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1569">Great Green Bush-Cricket</a> <code>en</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1687">la Grande Sauterelle verte</a> <code>fr</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1729">Grünes Heupferd</a> <code>de</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32479">Grote groene sabelsprinkhaan</a> <code>nl</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32672">Stor Grøn Løvgræshoppe</a> <code>da</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32673">Grön Vårtbitare</a> <code>sv</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32674">Grønn Lauvgrashoppe</a> <code>nn</code></li>
+</ul>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>5,016</b> <span>recordings</span></div>
+<div><b>36</b> <span>trait measurements</span></div>
+<div><b>3</b> <span>annotations</span></div>
+<div><b>9</b> <span>references</span></div>
+<div><b>8</b> <span>specimens</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">behaviour · bio.acousti.ca</p><p>The great green bush-cricket is nocturnal, but the males often sing from mid-afternoon onwards. The song is one of the loudest emitted by any British orthopteran, and cen be heard at distances of several meters (Ragge, 1965, says 200 metres, but this is presumably for those with better hearing than mine!). The tone is slightly metallic and rasping, and is produced in continuous, prolonged bursts. When singing the male appears to &#x27;pump&#x27; his abdomen rhythmically - presumably to anhance respiration. Even when singing the crypti ccoloration of a male perched among vegetation makes it very difficult to locate. There is some competition between males for song perches, and where the population is dense one may nip an intruder with his mandibles. The latter will usually dive down into lower vegetation.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47378">this account</a> <a href="https://bio.acousti.ca/node/47378">at bio.acousti.ca</a></p>
+<p class="topic">behaviour · bio.acousti.ca</p><p>The loud calling song, produced mainly in the late afternoon and after dark, consists of sequences of closely spaced disyllabic echemes. The echeme repetition rate depends on temperature: 10-15/s is common, but in high daytime tempertaures the rate may increase to 20/s and on cool nights may be as low as 5/s. Typically the echeme sequences are interrupted at irregular intervals by very short pauses (Figs 188-190), usually of less than a second and sometimes, at high temperatures, as short as 0.2-0.3 s. Occasionally, long echeme-sequences are produced without even the briefest interruption (Figs 191, 192); the longest uninterrupted sequence we have recorded lasted 3 minutes 9 seconds.
+
+Oscillographic analysis shows that nearly all the sound is produced by the closing strokes of the fore wings, although quiet opening hemisyllables are sometimes present. The duration of the two closing hemisyllables comprising each echeme again depends on temperature: 15-25 ms for each hemisyllable is common, but in hot conditions they may last 10 ms or even less and on cool nights tehy may be as long as 50 ms. The second hemisyllable in each echeme is often slightly longer tahn the first. The gap between the two hemisyllables varies from about 6 ms (warm conditions) to about 35 ms (cool conditions), and the interval between successive echemes varies from about 20 ms to about 100 ms, again depending on temperature.
+
+Each closing hemisyllable is typically broken up into a very variable number of discrete pulses of sound separated by gaps of varying duration but usually of theorder of 1 ms. There are sometimes fewer than 10 of these pulses in one hemisyllable (see for example Fig. 204) and so, in such cases, they are unlikely to represent individual tooth-impacts.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47428">this account</a> <a href="https://bio.acousti.ca/node/47428">at bio.acousti.ca</a></p>
+<p class="topic">behaviour · bio.acousti.ca</p><p>The song is a loud buzzing audible from about 50m. As two syllables are coupled into a double sound, the song - in contrast to T. cantans - is always clearly cut up into &#x27;pulses&#x27; of sound.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47438">this account</a> <a href="https://bio.acousti.ca/node/47438">at bio.acousti.ca</a></p>
+<p class="topic">behaviour · bio.acousti.ca</p><p>Lehtohepokatilla on kovaäänien kutsulaulu, joka voi kuulua jopa yli sadan metrin päähän. Laji aloittaa laulunsa yleensä iltapäivälla, ja mikäli lämpötila on riittävä, laulu on kiihkeimmillään illalla ja se jatkuu heikentyneenä aamuun asti. Sirittääkseen lehtohepokatti vaattii noin kymmenen asteen tai heiman korkeamman lämpötilan. Kutsulaulu jatkuu lämpimällä ilmalla pitkään ilman taukoja (CD2, CD3), mutta lämpötilan laskiessa se muuttuu katkonaiseksi (CD27). Soiton alkaessa iltapäivällä tai lämpimänä päivänä jo aamupäivän puolella se on aluksi katkonaista. Äänen voimakkuuden huippu on noin 10 kHz:n taajuudessa (kuva s. 34).</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47569">this account</a> <a href="https://bio.acousti.ca/node/47569">at bio.acousti.ca</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Acoustic traits</h2>
+<p class="note">36 measurements across 17 traits. Each name links to its term in the audioBlast vocabulary.</p><div class="traits">
+<div class="trait"><h3><a href="https://vocab.audioblast.org/PeakFrequency">Peak Frequency (kHz)</a></h3><p class="vals"><a href="#t-peak-frequency-khz">12.36, 10.68, 12</a></p><p class="qual">6 measurements · Call, Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfHighestAcousticActivity">Time Of Day Of Highest Acoustic Activity</a></h3><p class="vals"><a href="#t-time-of-day-of-highest-acoustic-activity">Evening, LateAfternoon, 1500-2400</a></p><p class="qual">4 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundPropagationDistance">Sound Propagation Distance (m)</a></h3><p class="vals"><a href="#t-sound-propagation-distance-m">50–200</a></p><p class="qual">3 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllableDurationInEcheme">Syllable Duration (in Echeme)</a></h3><p class="vals"><a href="#t-syllable-duration-in-echeme">&lt;0.050, &gt;0.010, 0.015-0.025</a></p><p class="qual">3 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeRepetitionRate">Echeme Repetition Rate (Hz)</a></h3><p class="vals"><a href="#t-echeme-repetition-rate-hz">&gt;5, &lt;20, 10-15</a></p><p class="qual">3 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeInterval">Echeme Interval</a></h3><p class="vals"><a href="#t-echeme-interval">0.020, Cool</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllableInterval">Syllable Interval</a></h3><p class="vals"><a href="#t-syllable-interval">0.035, 0.006</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfCall">Time Of Day Of Call</a></h3><p class="vals"><a href="#t-time-of-day-of-call">MidAfternoon-Night, Afternoon-Morning</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/FrequencyRange50%">Frequency Spectrum (50%) (kHz)</a></h3><p class="vals"><a href="#t-frequency-spectrum-50-khz">9.78-11.84, 11.63-12.58</a></p><p class="qual">2 measurements · Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/FrequencyRange25%">Frequency Spectrum (25%) (kHz)</a></h3><p class="vals"><a href="#t-frequency-spectrum-25-khz">9.3-12.23, 11.46-13.82</a></p><p class="qual">2 measurements · Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CentreFrequency">Centre Frequency (kHz)</a></h3><p class="vals"><a href="#t-centre-frequency-khz">12.03</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CrepitationPresence">Crepitation (Presence)</a></h3><p class="vals"><a href="#t-crepitation-presence">Absent</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/MinimumCallingTemperature">Minimum Calling Temperature</a></h3><p class="vals"><a href="#t-minimum-calling-temperature">10</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllablesPerEcheme">Syllables per Echeme</a></h3><p class="vals"><a href="#t-syllables-per-echeme">2</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SongStructure">Song Structure</a></h3><p class="vals"><a href="#t-song-structure">Echemes</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundProductionMethod">Sound Production Method</a></h3><p class="vals"><a href="#t-sound-production-method">Elytral Stridulation (Closing Hemisyllable only)</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CallDuration">Call Duration</a></h3><p class="vals"><a href="#t-call-duration">&lt;189</a></p><p class="qual">Calling Call</p></div>
+</div>
+<h3 class="sub">Measurements</h3>
+<p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
+<tr id="t-peak-frequency-khz"><td>Peak Frequency (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36930">12.36</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36891">10.68</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33147">12</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33083">10</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37147">9.30234375-11.24033203125</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37160">11.8001953125-13.13525390625</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-highest-acoustic-activity"><td>Time Of Day Of Highest Acoustic Activity</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33081">Evening</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32675">LateAfternoon</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/2045">1500-2400</a></td><td></td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32675.2">AfterDark</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-propagation-distance-m"><td>Sound Propagation Distance (m)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33079">100</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32715">50</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32556">200</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-duration-in-echeme"><td>Syllable Duration (in Echeme)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32685">&lt;0.050</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">Cool</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32684">&gt;0.010</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">Hot</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32683">0.015-0.025</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-echeme-repetition-rate-hz"><td>Echeme Repetition Rate (Hz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32679">&gt;5</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">Low</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32678">&lt;20</a></td><td>Calling Call</td><td></td><td></td><td class="n">Warm</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32677">10-15</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-echeme-interval"><td>Echeme Interval</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32688">0.020</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">Hot</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32689">Cool</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">0.100</td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-interval"><td>Syllable Interval</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32687">0.035</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">Cool</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32686">0.006</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">Warm</td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-call"><td>Time Of Day Of Call</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32555">MidAfternoon-Night</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33080">Afternoon-Morning</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-frequency-spectrum-50-khz"><td>Frequency Spectrum (50%) (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36892">9.78-11.84</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36931">11.63-12.58</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-frequency-spectrum-25-khz"><td>Frequency Spectrum (25%) (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36893">9.3-12.23</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36932">11.46-13.82</a></td><td>Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-centre-frequency-khz"><td>Centre Frequency (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/37385">12.03</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36398">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-minimum-calling-temperature"><td>Minimum Calling Temperature</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33082">10</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllables-per-echeme"><td>Syllables per Echeme</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32682">2</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-song-structure"><td>Song Structure</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32676">Echemes</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-production-method"><td>Sound Production Method</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32681">Elytral Stridulation (Closing Hemisyllable only)</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-call-duration"><td>Call Duration</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32680">&lt;189</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+</tbody></table></div>
+</div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">5,016 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">579:28 Tettigonia viridissima (794r10) 16-Nov</div><div class="d">88 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1990-07-16</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10338">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10338">record</a></span>
+</div></div>
+<div class="rec"><div class="t">597:7 Tettigonia viridissima (003r5)</div><div class="d">1323 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1959-08-24</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10977">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10977">record</a></span>
+</div></div>
+<div class="rec"><div class="t">600:4 Tettigonia viridissima (15r1)</div><div class="d">967 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1967-08-28</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11025">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11025">record</a></span>
+</div></div>
+<div class="rec"><div class="t">600:5 Tettigonia viridissima (15r2)</div><div class="d">533 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1967-09-03</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11026">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11026">record</a></span>
+</div></div>
+<div class="rec"><div class="t">896:6 Tettigonia viridissima (61r1)</div><div class="d">154 s</div><div class="m">
+<span>G. F. Wade</span>
+<span>1962-08-17</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11059">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11059">record</a></span>
+</div></div>
+<div class="rec"><div class="t">897:2 Tettigonia viridissima (63)</div><div class="d">360 s</div><div class="m">
+<span>David R. Ragge; J. F. Burton; G. F. Wade</span>
+<span>1962-08-19</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11064">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11064">record</a></span>
+</div></div>
+<div class="rec"><div class="t">134_7_Tettigonia viridissima</div><div class="d">300 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1974-08-24</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12761">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12761">record</a></span>
+</div></div>
+<div class="rec"><div class="t">565_6_Tettigonia viridissima</div><div class="d">66 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12773">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12773">record</a></span>
+</div></div>
+<div class="rec"><div class="t">565_7_Tettigonia viridissima</div><div class="d">28 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12774">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12774">record</a></span>
+</div></div>
+<div class="rec"><div class="t">26 Great Green Bush-cricket</div><div class="d">36 s</div><div class="m">
+<span>2016-03-12</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12943">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12943">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Tettigonia viridissima 868_2</div><div class="d">59 s</div><div class="m">
+<span>P Rudkin</span>
+<span>1998-06-21</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=15131">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/15131">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Tettigonia viridissima</div><div class="d">34 s</div><div class="m">
+<span>2005-08-22</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=15356">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/15356">record</a></span>
+</div></div>
+</div>
+<p class="more">5,004 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Tettigonia viridissima">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Annotations</h2>
+<p class="note">Regions of a recording marked as this taxon, by a person or by an algorithm.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Recording</th><th>From</th><th>To</th><th>Type</th><th>Annotator</th><th>Record</th></tr></thead><tbody>
+<tr><td class="n">9131</td><td class="n">15</td><td class="n">30</td><td>Call</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/146">view</a></td></tr>
+<tr><td class="n">11059</td><td class="n">1.595901</td><td class="n">11.49966</td><td>Voice Introduction</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/201">view</a></td></tr>
+<tr><td class="n">11059</td><td class="n">15.23229</td><td class="n">63.36285</td><td>Call</td><td>Edward Baker</td><td class="n"><a href="https://api.audioblast.org/annotation/bio.acousti.ca/202">view</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/tettigonia/"><i>Tettigonia</i> <span class="n">8,114</span></a></li>
+<li><a href="/taxon/tettigoniini/"><span>Tettigoniini</span> <span class="n">8,774</span></a></li>
+<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,430</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/tettigonia-armeniaca/"><i>Tettigonia armeniaca</i> <span class="n">42</span></a></li>
+<li><a href="/taxon/tettigonia-balcanica/"><i>Tettigonia balcanica</i> <span class="n">50</span></a></li>
+<li><a href="/taxon/tettigonia-cantans/"><i>Tettigonia cantans</i> <span class="n">2,442</span></a></li>
+<li><a href="/taxon/tettigonia-caudata/"><i>Tettigonia caudata</i> <span class="n">342</span></a></li>
+<li><a href="/taxon/tettigonia-chinensis/"><i>Tettigonia chinensis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/tettigonia-hispanica/"><i>Tettigonia hispanica</i> <span class="n">106</span></a></li>
+<li><a href="/taxon/tettigonia-longispina/"><i>Tettigonia longispina</i> <span class="n">80</span></a></li>
+<li><a href="/taxon/tettigonia-orientalis/"><i>Tettigonia orientalis</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/tettigonia-tsushimensis/"><i>Tettigonia tsushimensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/tettigonia-ussuriana/"><i>Tettigonia ussuriana</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/tettigonia-uvarovi/"><i>Tettigonia uvarovi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigonia-yama/"><i>Tettigonia yama</i> <span class="n">6</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Specimens</h2>
+<p class="note">Occurrences the recordings are of, in Darwin Core terms.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Catalogue</th><th>Institution</th><th>Basis</th><th>Sex</th><th>Life stage</th></tr></thead><tbody>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15130">2</a></td><td>BioAcoustica</td><td>LivingSpecimen</td><td>Male</td><td>Adult</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15308">010210772</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>Male</td><td>Adult</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15309">010210771</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>Male</td><td>adult</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15490">010210927</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15492">010210928</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15493">010210929</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15494">010210930</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15606">010211042</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>References</h2>
+<p class="note">Publications audioBlast links to this taxon.</p><ul class="refs">
+<li><span class="who">Autrum, H. (1960)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/17253">Phasische und tonische antworten vom tympanalorgan of Tettigonia viridissima</a><br><span class="where">Acoustica, 10, 339-348</span></li>
+<li><span class="who">Ahlén, Ingemar (1981)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/17245">Ultraljud hos svenska vårtbitare</a><br><span class="where">Entomologisk Tidskrift, 102, 27-41</span></li>
+<li><span class="who">Arak, Anthony; Eiriksson, Thorleifur; Radesäter, Tommy (1990)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/17225">The adaptive significance of acoustic spacing in male bushcrickets Tettigonia viridissima: a perturbation experiment</a><br><span class="where">Behavioral Ecology and Sociobiology, 26</span><br><a href="https://doi.org/10.1007/BF00174019">doi:10.1007/BF00174019</a></li>
+<li><span class="who">Bangert, Marc; Kalmring, Klaus; Sickmann, Thomas; Stephen, Richard; Jatho, Martin; Lakes-Harlan, Reinhard (1998)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/57939">Stimulus transmission in the auditory receptor organs of the foreleg of bushcrickets (Tettigoniidae) I. The role of the tympana</a><br><a href="https://doi.org/10.1016/S0378-5955(97)00177-9">doi:10.1016/S0378-5955(97)00177-9</a></li>
+<li><span class="who">Hartbauer, Manfred; Ofner, Elisabeth; Grossauer, Viktoria; Siemers, Björn M. (2010)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/57966">The Cercal Organ May Provide Singing Tettigoniids a Backup Sensory System for the Detection of Eavesdropping Bats</a><br><a href="https://doi.org/10.1371/journal.pone.0012698">doi:10.1371/journal.pone.0012698</a></li>
+<li><span class="who">Grzywacz, Beata; Heller, Klaus-Gerhard; Lehmann, Arne W.; Warchałowska-Śliwa, Elżbieta; Lehmann, Gerlind U.C. (2014)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/47345">Chromosomal diversification in the flightless Western Mediterranean bushcricket genus Odontura (Orthoptera: Tettigoniidae: Phaneropterinae) inferred from molecular data</a><br><span class="where">Journal of Zoological Systematics and Evolutionary Research, 52, 109 - 118</span><br><a href="https://doi.org/10.1111/jzs.2014.52.issue-210.1111/jzs.12046">doi:10.1111/jzs.2014.52.issue-210.1111/jzs.12046</a></li>
+<li><span class="who">Jeliazkov, Alienor; Bas, Yves; Kerbiriou, Christian; Julien, Jean-François; Penone, Caterina; Le Viol, Isabelle (2016)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/47341">Large-scale semi-automated acoustic monitoring allows to detect temporal decline of bush-crickets</a><br><span class="where">Global Ecology and Conservation, 6, 208 - 218</span><br><a href="https://doi.org/10.1016/j.gecco.2016.02.008">doi:10.1016/j.gecco.2016.02.008</a></li>
+<li><span class="who">Grzywacz, Beata; Heller, Klaus-Gerhard; Warchałowska-Śliwa, Elżbieta; Karamysheva, Tatyana V.; Chobanov, Dragan Petrov (2017)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/47346">Evolution and systematics of Green Bush-crickets (Orthoptera: Tettigoniidae: Tettigonia) in the Western Palaearctic: testing concordance between molecular, acoustic, and morphological data</a><br><span class="where">Organisms Diversity &amp; Evolution, 17, 213 - 228</span><br><a href="https://doi.org/10.1007/s13127-016-0313-3">doi:10.1007/s13127-016-0313-3</a></li>
+<li><span class="who">Montealegre-Zapata, Fernando; Ogden, Jessica; Jonsson, Thorin; Soulsbury, Carl D. (2017)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/50909">Morphological determinants of carrier frequency signal in katydids (Orthoptera): a comparative analysis using biophysical evidence</a><br><span class="where">Journal of Evolutionary Biology</span><br><a href="https://doi.org/10.1111/jeb.13179">doi:10.1111/jeb.13179</a></li>
+</ul></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td>bio.acousti.ca</td><td><i>Tettigonia viridissima</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/84">bio.acousti.ca/84</a></td></tr>
+<tr><td>iNaturalist</td><td><i>Tettigonia viridissima</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/133250">iNaturalist/133250</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/tettigonia-viridissima/&quot;,
+  &quot;name&quot;: &quot;Tettigonia viridissima&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/tettigonia-viridissima/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/55WDR&quot;,
+  &quot;alternateName&quot;: [
+    &quot;Lehtohepokatti&quot;,
+    &quot;Great Green Bush-Cricket&quot;,
+    &quot;la Grande Sauterelle verte&quot;,
+    &quot;Grünes Heupferd&quot;,
+    &quot;Grote groene sabelsprinkhaan&quot;,
+    &quot;Stor Grøn Løvgræshoppe&quot;,
+    &quot;Grön Vårtbitare&quot;,
+    &quot;Grønn Lauvgrashoppe&quot;
+  ],
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Tettigonia&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/tettigonia/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/55WDR</p>
+</div></footer>
+</body>
+</html>

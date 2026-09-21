@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tettigonia hispanica</title>
+<meta name="description" content="Tettigonia hispanica in audioBlast: 106 recordings, 7 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/tettigonia-hispanica/">
+<meta property="og:title" content="Tettigonia hispanica">
+<meta property="og:description" content="Tettigonia hispanica in audioBlast: 106 recordings, 7 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/55VSP">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/tettigonia-hispanica/", "name": "Tettigonia hispanica", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/tettigonia-hispanica/", "sameAs": "https://api.audioblast.org/taxon/CoL/55VSP", "alternateName": ["Spanish Green Bush-cricket"], "parentTaxon": {"@type": "Taxon", "name": "Tettigonia", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/tettigonia/"}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/tettigoniinae/"><span class="rk">Subfamily</span><span>Tettigoniinae</span></a><span class="sep">›</span><a href="/taxon/tettigoniini/"><span class="rk">Tribe</span><span>Tettigoniini</span></a><span class="sep">›</span><a href="/taxon/tettigonia/"><span class="rk">Genus</span><i>Tettigonia</i></a></nav>
+<h1><i>Tettigonia hispanica</i></h1>
+<p class="rank">Species</p>
+<ul class="vern">
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32690">Spanish Green Bush-cricket</a> <code>en</code></li>
+</ul>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>106</b> <span>recordings</span></div>
+<div><b>7</b> <span>trait measurements</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">behaviour · bio.acousti.ca</p><p>The loud calling song is very similar in rhythmic pattern to that of T. viridissima, consisting of sequences of disyllabic echemes and varying with temperature in a similar way; it is also produced mainly in the afternoon and after dark. However, it has a more sibilant quality and at a given temperature the echeme repetiton rate is lower than in T, viridissima, varying from 2 to 10/s at temperatures ranging from 15 to 30°C. The echeme-sequences are typically interrupted at irregular intervals (usually more frequently than T. viridissima) by very short pauses of about 0.2-1.0s, but occassionally there are much longer pauses and sometimes the sequences continue for up to a minute or more without interruption, especially at lower temperatures and at night.
+
+Oscillographic analysis shows that most of the sound is produced by the closing strokes of the fore wings, but in all the songs studied there were quiet opening hemisyllables. The durationa nd structure of the closing hemisyllables and the gap between each pair are similar to those of t. viridissima; as in that species, the second closing hemisyllable of each pair is usually slightly longer than the first. The intervals between successive echemes are about 50-300ms, depending on the temperature.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47430">this account</a> <a href="https://bio.acousti.ca/node/47430">at bio.acousti.ca</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Acoustic traits</h2>
+<p class="note">7 measurements across 5 traits. Each name links to its term in the audioBlast vocabulary.</p><div class="traits">
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeRepetitionRate">Echeme Repetition Rate (Hz)</a></h3><p class="vals"><a href="#t-echeme-repetition-rate-hz">10, 2</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfHighestAcousticActivity">Time Of Day Of Highest Acoustic Activity</a></h3><p class="vals"><a href="#t-time-of-day-of-highest-acoustic-activity">Afternoon, AfterDark</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CrepitationPresence">Crepitation (Presence)</a></h3><p class="vals"><a href="#t-crepitation-presence">Absent</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllablesPerEcheme">Syllables per Echeme</a></h3><p class="vals"><a href="#t-syllables-per-echeme">2</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeInterval">Echeme Interval</a></h3><p class="vals"><a href="#t-echeme-interval">0.05-0.3</a></p><p class="qual">Calling Call</p></div>
+</div>
+<h3 class="sub">Measurements</h3>
+<p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
+<tr id="t-echeme-repetition-rate-hz"><td>Echeme Repetition Rate (Hz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32694">10</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">30</td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32693">2</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n">15</td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-highest-acoustic-activity"><td>Time Of Day Of Highest Acoustic Activity</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32692">Afternoon</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32692.2">AfterDark</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36395">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllables-per-echeme"><td>Syllables per Echeme</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32691">2</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-echeme-interval"><td>Echeme Interval</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32695">0.05-0.3</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+</tbody></table></div>
+</div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">106 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">586:1 Tettigonia hispanica (754r1)</div><div class="d">193 s</div><div class="m">
+<span>Fer Willemse</span>
+<span>1989-07-28</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10763">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10763">record</a></span>
+</div></div>
+<div class="rec"><div class="t">586:2 Tettigonia hispanica (754r2)</div><div class="d">120 s</div><div class="m">
+<span>Fer Willemse</span>
+<span>1989-07-23</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10764">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10764">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Spain, Avila, Puerto de Serranillos; field recording; 23°C; recorder: Uher4200IC; microphone: UherM645; tape no.: U40/84g.</div><div class="d">5 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52310">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52310">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Spain, Avila, E Navacepeda del Tormes; field recording; at 21.00 h; 15°C; light: no sun; recorder: Uher4200IC; microphone: UherM645; tape no.: U40/84r.</div><div class="d">18 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52311">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52311">record</a></span>
+</div></div>
+<div class="rec"><div class="t">España, Avila; Lab recording; 7/9/1989; 26°C; recorder: Kenwood KX880HX; microphone: AKG D202; tape: S-MX90; tape no.: KW04:09.10-12.40; filter: microphone filter below 100 Hz.</div><div class="d">28 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52312">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52312">record</a></span>
+</div></div>
+<div class="rec"><div class="t">563:13 Tettigonia hispanica (764r1)</div><div class="d">76 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1989-07-20</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9897">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9897">record</a></span>
+</div></div>
+<div class="rec"><div class="t">563:14 Tettigonia hispanica (764r2)</div><div class="d">649 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1989-07-20</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9898">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9898">record</a></span>
+</div></div>
+<div class="rec"><div class="t">563:15 Tettigonia hispanica (764r3)</div><div class="d">322 s</div><div class="m">
+<span>Fer Willemse</span>
+<span>1989-07-20</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9899">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9899">record</a></span>
+</div></div>
+<div class="rec"><div class="t">563:16 Tettigonia hispanica (764r4)</div><div class="d">380 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1989-07-22</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9900">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9900">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1161979 Spanish Green Bush-cricket (Tettigonia hispanica) - calling song</div><div class="d">17 s</div><div class="m">
+<span>Marta Granadina</span>
+<span>2026-07-23</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1161979">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1161979">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1095459 Spanish Green Bush-cricket (Tettigonia hispanica) - calling song</div><div class="d">38 s</div><div class="m">
+<span>Julien Barataud</span>
+<span>2025-08-10</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1095459">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1095459">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1095457 Spanish Green Bush-cricket (Tettigonia hispanica) - calling song</div><div class="d">39 s</div><div class="m">
+<span>Julien Barataud</span>
+<span>2025-08-10</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1095457">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1095457">record</a></span>
+</div></div>
+</div>
+<p class="more">94 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Tettigonia hispanica">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/tettigonia/"><i>Tettigonia</i> <span class="n">8,114</span></a></li>
+<li><a href="/taxon/tettigoniini/"><span>Tettigoniini</span> <span class="n">8,774</span></a></li>
+<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,430</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/tettigonia-armeniaca/"><i>Tettigonia armeniaca</i> <span class="n">42</span></a></li>
+<li><a href="/taxon/tettigonia-balcanica/"><i>Tettigonia balcanica</i> <span class="n">50</span></a></li>
+<li><a href="/taxon/tettigonia-cantans/"><i>Tettigonia cantans</i> <span class="n">2,442</span></a></li>
+<li><a href="/taxon/tettigonia-caudata/"><i>Tettigonia caudata</i> <span class="n">342</span></a></li>
+<li><a href="/taxon/tettigonia-chinensis/"><i>Tettigonia chinensis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/tettigonia-longispina/"><i>Tettigonia longispina</i> <span class="n">80</span></a></li>
+<li><a href="/taxon/tettigonia-orientalis/"><i>Tettigonia orientalis</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/tettigonia-tsushimensis/"><i>Tettigonia tsushimensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/tettigonia-ussuriana/"><i>Tettigonia ussuriana</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/tettigonia-uvarovi/"><i>Tettigonia uvarovi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigonia-viridissima/"><i>Tettigonia viridissima</i> <span class="n">5,016</span></a></li>
+<li><a href="/taxon/tettigonia-yama/"><i>Tettigonia yama</i> <span class="n">6</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td>bio.acousti.ca</td><td><i>Tettigonia hispanica</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/339">bio.acousti.ca/339</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/tettigonia-hispanica/&quot;,
+  &quot;name&quot;: &quot;Tettigonia hispanica&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/tettigonia-hispanica/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/55VSP&quot;,
+  &quot;alternateName&quot;: [
+    &quot;Spanish Green Bush-cricket&quot;
+  ],
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Tettigonia&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/tettigonia/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/55VSP</p>
+</div></footer>
+</body>
+</html>

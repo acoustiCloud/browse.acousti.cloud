@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pholidoptera aptera</title>
+<meta name="description" content="Pholidoptera aptera in audioBlast: 521 recordings, 14 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/pholidoptera-aptera/">
+<meta property="og:title" content="Pholidoptera aptera">
+<meta property="og:description" content="Pholidoptera aptera in audioBlast: 521 recordings, 14 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4GLS9">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/pholidoptera-aptera/", "name": "Pholidoptera aptera", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/pholidoptera-aptera/", "sameAs": "https://api.audioblast.org/taxon/CoL/4GLS9", "alternateName": ["Alpen-Strauchschrecke", "Alpine Dark Bush-cricket", "Decticelle aptère"], "parentTaxon": {"@type": "Taxon", "name": "Pholidoptera", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/pholidoptera/"}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/tettigoniinae/"><span class="rk">Subfamily</span><span>Tettigoniinae</span></a><span class="sep">›</span><a href="/taxon/pholidopterini/"><span class="rk">Tribe</span><span>Pholidopterini</span></a><span class="sep">›</span><a href="/taxon/pholidoptera/"><span class="rk">Genus</span><i>Pholidoptera</i></a></nav>
+<h1><i>Pholidoptera aptera</i></h1>
+<p class="rank">Species</p>
+<ul class="vern">
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1742">Alpen-Strauchschrecke</a> <code>de</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32727">Alpine Dark Bush-cricket</a> <code>en</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/33217">Decticelle aptère</a> <code>fr</code></li>
+</ul>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>521</b> <span>recordings</span></div>
+<div><b>14</b> <span>trait measurements</span></div>
+<div><b>1</b> <span>specimens</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">behaviour · bio.acousti.ca</p><p>The song is very loud and conspicuous, audible from about 50m. It consists of a short sequence of sharp, rapidly repeated chirps and sounds rather like &#x27;shishishishishi&#x27;. There is often a regular alternation song between two males, in which the &#x27;shi&#x27; sound of one of them always falls exactly in the pause between two chirps of the other.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47454">this account</a> <a href="https://bio.acousti.ca/node/47454">at bio.acousti.ca</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Acoustic traits</h2>
+<p class="note">14 measurements across 13 traits. Each name links to its term in the audioBlast vocabulary.</p><div class="traits">
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeDuration">Echeme Duration</a></h3><p class="vals"><a href="#t-echeme-duration">0.040-0.050, 0.20-0.150</a></p><p class="qual">2 measurements · Calling Call (cool night), Calling Call (sunny day)</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CrepitationPresence">Crepitation (Presence)</a></h3><p class="vals"><a href="#t-crepitation-presence">Absent</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllablesPerEcheme">Syllables per Echeme</a></h3><p class="vals"><a href="#t-syllables-per-echeme">3</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="http://vocab.acousti.ca/bioacoustica#Male_Song_Synchronisation">Male Song Synchronisation</a></h3><p class="vals"><a href="#t-male-song-synchronisation">Present</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfCall">Time Of Day Of Call</a></h3><p class="vals"><a href="#t-time-of-day-of-call">Night</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3>Song Alternation</h3><p class="vals"><a href="#t-song-alternation">Present</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundPropagationDistance">Sound Propagation Distance (m)</a></h3><p class="vals"><a href="#t-sound-propagation-distance-m">50</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfHighestAcousticActivity">Time Of Day Of Highest Acoustic Activity</a></h3><p class="vals"><a href="#t-time-of-day-of-highest-acoustic-activity">0900-2400</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeSequenceInterval">Echeme Sequence Interval</a></h3><p class="vals"><a href="#t-echeme-sequence-interval">5-10</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/HemisyllableDurationFinal">HemisyllableDurationFinal</a></h3><p class="vals"><a href="#t-hemisyllabledurationfinal">0.025-0.030</a></p><p class="qual">Calling Call (cool night)</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemesPerEchemeSequence">Echemes Per Echeme Sequence</a></h3><p class="vals"><a href="#t-echemes-per-echeme-sequence">5-40</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/EchemeRepetitionRate">Echeme Repetition Rate (Hz)</a></h3><p class="vals"><a href="#t-echeme-repetition-rate-hz">2-8</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllableDurationInEcheme">Syllable Duration (in Echeme)</a></h3><p class="vals"><a href="#t-syllable-duration-in-echeme">0.005-0.010</a></p><p class="qual">Calling Call (sunny day)</p></div>
+</div>
+<h3 class="sub">Measurements</h3>
+<p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
+<tr id="t-echeme-duration"><td>Echeme Duration</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33282">0.040-0.050</a></td><td>Calling Call (sunny day)</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33280">0.20-0.150</a></td><td>Calling Call (cool night)</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36118">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllables-per-echeme"><td>Syllables per Echeme</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33278">3</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-male-song-synchronisation"><td>Male Song Synchronisation</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33277">Present</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-call"><td>Time Of Day Of Call</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33273">Night</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-song-alternation"><td>Song Alternation</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32729">Present</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-propagation-distance-m"><td>Sound Propagation Distance (m)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32728">50</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-highest-acoustic-activity"><td>Time Of Day Of Highest Acoustic Activity</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/2066">0900-2400</a></td><td></td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-echeme-sequence-interval"><td>Echeme Sequence Interval</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33276">5-10</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-hemisyllabledurationfinal"><td>HemisyllableDurationFinal</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33279">0.025-0.030</a></td><td>Calling Call (cool night)</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-echemes-per-echeme-sequence"><td>Echemes Per Echeme Sequence</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33274">5-40</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-echeme-repetition-rate-hz"><td>Echeme Repetition Rate (Hz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33275">2-8</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-duration-in-echeme"><td>Syllable Duration (in Echeme)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/33281">0.005-0.010</a></td><td>Calling Call (sunny day)</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+</tbody></table></div>
+</div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">521 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">594:11 Pholidoptera aptera (845r4)</div><div class="d">162 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1992-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10950">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10950">record</a></span>
+</div></div>
+<div class="rec"><div class="t">97_2_Pholidoptera aptera</div><div class="d">173 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1973-08-12</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12096">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12096">record</a></span>
+</div></div>
+<div class="rec"><div class="t">565_11_Pholidoptera aptera</div><div class="d">22 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12097">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12097">record</a></span>
+</div></div>
+<div class="rec"><div class="t">423:10 Pholiodoptera aptera (601r4)</div><div class="d">110 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1985-08-27</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9534">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9534">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1144832 Pholidoptera aptera - uncertain</div><div class="d">126 s</div><div class="m">
+<span>Walter Wallner</span>
+<span>2026-06-12</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1144832">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1144832">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1037616 Pholidoptera aptera - calling song</div><div class="d">174 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2025-08-13</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1037616">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1037616">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1172896 Pholidoptera aptera - calling song</div><div class="d">68 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2026-08-14</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1172896">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1172896">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1172261 Pholidoptera aptera - calling song</div><div class="d">91 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2026-08-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1172261">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1172261">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1172250 Pholidoptera aptera - calling song</div><div class="d">32 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2026-08-11</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1172250">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1172250">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1165084 Pholidoptera aptera - calling song</div><div class="d">134 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2026-08-07</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1165084">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1165084">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1165070 Pholidoptera aptera - calling song</div><div class="d">74 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2026-08-07</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1165070">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1165070">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1165067 Pholidoptera aptera - calling song</div><div class="d">79 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2026-08-07</span>
+<span>xeno-canto</span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1165067">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1165067">record</a></span>
+</div></div>
+</div>
+<p class="more">509 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Pholidoptera aptera">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pholidoptera/"><i>Pholidoptera</i> <span class="n">7,520</span></a></li>
+<li><a href="/taxon/pholidopterini/"><span>Pholidopterini</span> <span class="n">10,801</span></a></li>
+<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,430</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/pholidoptera-aptera-aptera/"><i>Pholidoptera aptera aptera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholidoptera-aptera-goidanichi/"><i>Pholidoptera aptera goidanichi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholidoptera-aptera-karnyi/"><i>Pholidoptera aptera karnyi</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/pholidoptera-brevipes/"><i>Pholidoptera brevipes</i> <span class="n">26</span></a></li>
+<li><a href="/taxon/pholidoptera-dalmatica/"><i>Pholidoptera dalmatica</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/pholidoptera-ebneri/"><i>Pholidoptera ebneri</i> <span class="n">16</span></a></li>
+<li><a href="/taxon/pholidoptera-fallax/"><i>Pholidoptera fallax</i> <span class="n">405</span></a></li>
+<li><a href="/taxon/pholidoptera-femorata/"><i>Pholidoptera femorata</i> <span class="n">480</span></a></li>
+<li><a href="/taxon/pholidoptera-frivaldszkyi/"><i>Pholidoptera frivaldszkyi</i> <span class="n">63</span></a></li>
+<li><a href="/taxon/pholidoptera-griseoaptera/"><i>Pholidoptera griseoaptera</i> <span class="n">5,469</span></a></li>
+<li><a href="/taxon/pholidoptera-littoralis/"><i>Pholidoptera littoralis</i> <span class="n">272</span></a></li>
+<li><a href="/taxon/pholidoptera-macedonica/"><i>Pholidoptera macedonica</i> <span class="n">88</span></a></li>
+<li><a href="/taxon/pholidoptera-transsylvanica/"><i>Pholidoptera transsylvanica</i> <span class="n">48</span></a></li>
+<li><a href="/taxon/pholidoptera-lucasi/"><i>Pholidoptera lucasi</i> <span class="n">28</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Specimens</h2>
+<p class="note">Occurrences the recordings are of, in Darwin Core terms.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Catalogue</th><th>Institution</th><th>Basis</th><th>Sex</th><th>Life stage</th></tr></thead><tbody>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15348">010210861</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>Male</td><td>Adult</td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td>iNaturalist</td><td><i>Pholidoptera aptera</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/332407">iNaturalist/332407</a></td></tr>
+<tr><td>bio.acousti.ca</td><td><i>Pholidoptera aptera</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/217">bio.acousti.ca/217</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/pholidoptera-aptera/&quot;,
+  &quot;name&quot;: &quot;Pholidoptera aptera&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholidoptera-aptera/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4GLS9&quot;,
+  &quot;alternateName&quot;: [
+    &quot;Alpen-Strauchschrecke&quot;,
+    &quot;Alpine Dark Bush-cricket&quot;,
+    &quot;Decticelle aptère&quot;
+  ],
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pholidoptera&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholidoptera/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4GLS9</p>
+</div></footer>
+</body>
+</html>

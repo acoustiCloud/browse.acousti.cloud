@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polysarcus denticauda</title>
+<meta name="description" content="Polysarcus denticauda in audioBlast: 456 recordings, 11 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/polysarcus-denticauda/">
+<meta property="og:title" content="Polysarcus denticauda">
+<meta property="og:description" content="Polysarcus denticauda in audioBlast: 456 recordings, 11 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4LLM2">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/polysarcus-denticauda/", "name": "Polysarcus denticauda", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/polysarcus-denticauda/", "sameAs": "https://api.audioblast.org/taxon/CoL/4LLM2", "alternateName": ["le Barbitiste ventru", "Wanstschrecke", "Large Saw-tailed Bush-cricket"], "parentTaxon": {"@type": "Taxon", "name": "Polysarcus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/polysarcus/"}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/phaneropterinae/"><span class="rk">Subfamily</span><span>Phaneropterinae</span></a><span class="sep">›</span><a href="/taxon/barbitistini/"><span class="rk">Tribe</span><span>Barbitistini</span></a><span class="sep">›</span><a href="/taxon/polysarcus/"><span class="rk">Genus</span><i>Polysarcus</i></a></nav>
+<h1><i>Polysarcus denticauda</i></h1>
+<p class="rank">Species</p>
+<ul class="vern">
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1677">le Barbitiste ventru</a> <code>fr</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/1724">Wanstschrecke</a> <code>de</code></li>
+<li><a href="https://api.audioblast.org/vernacular-name/bio.acousti.ca/32541">Large Saw-tailed Bush-cricket</a> <code>en</code></li>
+</ul>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>456</b> <span>recordings</span></div>
+<div><b>11</b> <span>trait measurements</span></div>
+<div><b>2</b> <span>references</span></div>
+<div><b>3</b> <span>specimens</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">behaviour · bio.acousti.ca</p><p>The calling song of the male, produced mainly in warm sunshine, is loud, rather complex and highly characteristic. Typically it consists of a prolonged buzz of rapidly repeated syllables (often produced while the male moves through the vegetation) interrupted at lon intervals (often of 1-3 minutes) by a series of loud &#x27;clicks&#x27;. The syllable repetiton rate is usually within the range 15-35/s for most of the buzzing phase, but for a few seconds before the clicks are proiduced the rater is increased to about double this value, ranging from 25/s to 70/s or even faster. Oscillographic analysis shows that, during at least the prolonged slower buzz, each syllable is composed of two quite distinct sounds so that it appears to be a diplosyllable. Heller (1988) has shown, however, that both sounds are produced during the closing stroke of the fore wings, the opening stroke being very rapid and silent. This dual structure of the closing hemisyllable often persists during the more rapid buzz that preceds the clicks, but sometimes these more rapidly repeated hemisyllables become almost or copletely uniform bursts of sound. The slow hemisyllables usually last about 20-50 ms and the faster ones about 10-30 ms.
+
+The acceleration in syllab;e repetition rate preceeding the clicks usually begins about 5-10 s before the first click, and generally lasts no more than a second or two until the maximum rate is achieved. Sometimes there is only a single click, but more often there are a series of clicks (often 2-6, but sometimes as many as 20 or more) with the buzzing continuing between them. When there are only a few clicks, they are repeated at ever descreasing intervals (the first interval usually being about 1-2 s); each click is followed by a very brief pause (usually within the range 50-150 ms) and then the high-speed buzzing is resumed until the next click. When there are a large number of clicks, the later ones are generally repeated at a fairly constant rate (often baout 5-7/s), and the buzzing between them becomes reduced to the slower of the two rates or even slower.
+
+After the last click there is sometimes a pause of several seconds before the cycle begins again with a long period of slow-rate buzzing, but more often there is only a very short interval (less than 200 ms) and sometimes, especially if there are a large number of clicks, the buzzing follows immediately after the last click with no pause whatever. Sometimes there is a short period (usually about 1 s) of rapid buzzing after the last click before the syllable repetition rate is reduced to the slower rate.
+
+Heller (1988) has shown that during the buzzing phase the fore wings are vibrated in a relatively open position, and the clicks are produced by the forewings being moved to a much more closed position, each click being a closing hemisyllable using a more proximal part of the file.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47371">this account</a> <a href="https://bio.acousti.ca/node/47371">at bio.acousti.ca</a></p>
+<p class="topic">behaviour · bio.acousti.ca</p><p>If danger threatens it remains motionless, but betrays itself by its loud song, audible from about 30-50m. The song is composed of five phases. Phase 1 consists of a long, uniform sequence of buzzing sounds, during parts of which the bush-cricket wanders around. In Phase 2 the frequency is distinctly higher and yhe insect stands still. Phase 3 is a uniform, very shrill buzz which usually lasts c. 10 sec. Phase 4 is characterized by a series of five to nine quite sharp &#x27;tsick&#x27;-sounds, which follow one another at ever-decreasing intervals. In Phase 5, a succession of &#x27;stuttering&#x27; syllables follows, leading back to Phase 1.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47412">this account</a> <a href="https://bio.acousti.ca/node/47412">at bio.acousti.ca</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Acoustic traits</h2>
+<p class="note">11 measurements across 9 traits. Each name links to its term in the audioBlast vocabulary.</p><div class="traits">
+<div class="trait"><h3>Syllable Repetition Rate (Continuous Song) (Hz)</h3><p class="vals"><a href="#t-syllable-repetition-rate-continuous-song-hz">15-35, 25-70</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SyllableDurationInEcheme">Syllable Duration (in Echeme)</a></h3><p class="vals"><a href="#t-syllable-duration-in-echeme">0.02-0.05, 0.01-0.03</a></p><p class="qual">2 measurements · Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/CrepitationPresence">Crepitation (Presence)</a></h3><p class="vals"><a href="#t-crepitation-presence">Absent</a></p></div>
+<div class="trait"><h3>Duration of Component Call</h3><p class="vals"><a href="#t-duration-of-component-call">10</a></p><p class="qual">Calling Call (Phase 3)</p></div>
+<div class="trait"><h3>Number of component calls</h3><p class="vals"><a href="#t-number-of-component-calls">5</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundProductionMethod">Sound Production Method</a></h3><p class="vals"><a href="#t-sound-production-method">Elytral Stridulation (Closing Hemisyllable Only)</a></p><p class="qual">Calling Call</p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/Frequency">Frequency (kHz)</a></h3><p class="vals"><a href="#t-frequency-khz">10-25</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/TimeOfDayOfHighestAcousticActivity">Time Of Day Of Highest Acoustic Activity</a></h3><p class="vals"><a href="#t-time-of-day-of-highest-acoustic-activity">0900-1800</a></p></div>
+<div class="trait"><h3><a href="https://vocab.audioblast.org/SoundPropagationDistance">Sound Propagation Distance (m)</a></h3><p class="vals"><a href="#t-sound-propagation-distance-m">30-50</a></p><p class="qual">Calling Call</p></div>
+</div>
+<h3 class="sub">Measurements</h3>
+<p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
+<tr id="t-syllable-repetition-rate-continuous-song-hz"><td>Syllable Repetition Rate (Continuous Song) (Hz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32568">15-35</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32568.2">25-70</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-syllable-duration-in-echeme"><td>Syllable Duration (in Echeme)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32570">0.02-0.05</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr><td></td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32570.2">0.01-0.03</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36191">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-duration-of-component-call"><td>Duration of Component Call</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32619">10</a></td><td>Calling Call (Phase 3)</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-number-of-component-calls"><td>Number of component calls</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32618">5</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-production-method"><td>Sound Production Method</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32569">Elytral Stridulation (Closing Hemisyllable Only)</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-frequency-khz"><td>Frequency (kHz)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/2036">10-25</a></td><td></td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-time-of-day-of-highest-acoustic-activity"><td>Time Of Day Of Highest Acoustic Activity</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/2035">0900-1800</a></td><td></td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-sound-propagation-distance-m"><td>Sound Propagation Distance (m)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32617">30-50</a></td><td>Calling Call</td><td></td><td>Male</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+</tbody></table></div>
+</div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">456 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">565_2_Polysarcus denticauda</div><div class="d">56 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12672">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12672">record</a></span>
+</div></div>
+<div class="rec"><div class="t">field recording, 10:10 h, 25°C (Uher 4200IC, tape no.: U13g)</div><div class="d">42 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52119">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52119">record</a></span>
+</div></div>
+<div class="rec"><div class="t">lab recording, 9/6/1992, 27°C, 60 W bulb for heat (Aiwa DAT with Aiwa CM-S1 stereo, tape: SonyDT-60, tape no. D05:53.10-57.30)</div><div class="d">114 s</div><div class="m">
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52120">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52120">record</a></span>
+</div></div>
+<div class="rec"><div class="t">403:14 Polysarcus denticauda (458)</div><div class="d">209 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9224">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9224">record</a></span>
+</div></div>
+<div class="rec"><div class="t">403:15 Polysarcus denticauda (458b)</div><div class="d">97 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9225">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9225">record</a></span>
+</div></div>
+<div class="rec"><div class="t">403:16 Polysarcus denticauda (458c)</div><div class="d">151 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9226">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9226">record</a></span>
+</div></div>
+<div class="rec"><div class="t">404:1 Polysarcus denticauda (459)</div><div class="d">278 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9227">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9227">record</a></span>
+</div></div>
+<div class="rec"><div class="t">404:2 Polysarcus denticauda (459b)</div><div class="d">82 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9228">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9228">record</a></span>
+</div></div>
+<div class="rec"><div class="t">404:3 Polysarcus denticauda (459c)</div><div class="d">98 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9229">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9229">record</a></span>
+</div></div>
+<div class="rec"><div class="t">404:4 Polysarcus denticauda (460)</div><div class="d">478 s</div><div class="m">
+<span>W. J. Reynolds</span>
+<span>1982-09-09</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9230">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9230">record</a></span>
+</div></div>
+<div class="rec"><div class="t">433:23 Polysarcus denticauda (668r8)</div><div class="d">279 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1987-09-16</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9741">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9741">record</a></span>
+</div></div>
+<div class="rec"><div class="t">434:1 Polysarcus denticauda (669r1)</div><div class="d">358 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1987-09-16</span>
+<span>bio.acousti.ca</span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9742">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9742">record</a></span>
+</div></div>
+</div>
+<p class="more">444 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Polysarcus denticauda">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/polysarcus/"><i>Polysarcus</i> <span class="n">579</span></a></li>
+<li><a href="/taxon/barbitistini/"><span>Barbitistini</span> <span class="n">9,221</span></a></li>
+<li><a href="/taxon/phaneropterinae/"><span>Phaneropterinae</span> <span class="n">16,099</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/polysarcus-scutatus/"><i>Polysarcus scutatus</i> <span class="n">123</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Specimens</h2>
+<p class="note">Occurrences the recordings are of, in Darwin Core terms.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Catalogue</th><th>Institution</th><th>Basis</th><th>Sex</th><th>Life stage</th></tr></thead><tbody>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15840">010211270</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15841">010211271</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+<tr><td class="n"><a href="https://api.audioblast.org/specimen/bio.acousti.ca/15842">010211272</a></td><td>NHMUK</td><td>PreservedSpecimen</td><td>—</td><td>—</td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>References</h2>
+<p class="note">Publications audioBlast links to this taxon.</p><ul class="refs">
+<li><span class="who">Bangert, Marc; Kalmring, Klaus; Sickmann, Thomas; Stephen, Richard; Jatho, Martin; Lakes-Harlan, Reinhard (1998)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/57939">Stimulus transmission in the auditory receptor organs of the foreleg of bushcrickets (Tettigoniidae) I. The role of the tympana</a><br><a href="https://doi.org/10.1016/S0378-5955(97)00177-9">doi:10.1016/S0378-5955(97)00177-9</a></li>
+<li><span class="who">Grzywacz, Beata; Heller, Klaus-Gerhard; Lehmann, Arne W.; Warchałowska-Śliwa, Elżbieta; Lehmann, Gerlind U.C. (2014)</span> <a href="https://api.audioblast.org/reference/bio.acousti.ca/47345">Chromosomal diversification in the flightless Western Mediterranean bushcricket genus Odontura (Orthoptera: Tettigoniidae: Phaneropterinae) inferred from molecular data</a><br><span class="where">Journal of Zoological Systematics and Evolutionary Research, 52, 109 - 118</span><br><a href="https://doi.org/10.1111/jzs.2014.52.issue-210.1111/jzs.12046">doi:10.1111/jzs.2014.52.issue-210.1111/jzs.12046</a></li>
+</ul></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td>bio.acousti.ca</td><td><i>Polysarcus denticauda</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/444">bio.acousti.ca/444</a></td></tr>
+<tr><td>iNaturalist</td><td><i>Polysarcus denticauda</i></td><td>Species</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/470754">iNaturalist/470754</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/polysarcus-denticauda/&quot;,
+  &quot;name&quot;: &quot;Polysarcus denticauda&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/polysarcus-denticauda/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4LLM2&quot;,
+  &quot;alternateName&quot;: [
+    &quot;le Barbitiste ventru&quot;,
+    &quot;Wanstschrecke&quot;,
+    &quot;Large Saw-tailed Bush-cricket&quot;
+  ],
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Polysarcus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/polysarcus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4LLM2</p>
+</div></footer>
+</body>
+</html>
