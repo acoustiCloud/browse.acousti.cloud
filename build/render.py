@@ -114,6 +114,34 @@ def common_name(vernacular):
     return (english or vernacular)[0].get("vernacularName")
 
 
+# Who each source is, set once before the build starts. Empty until then, which is what a page
+# built on its own gets: the source's name, printed as it always was, with no mark beside it.
+_sources = {}
+
+
+def set_sources(known):
+    global _sources
+    _sources = dict(known)
+
+
+def source_mark(source):
+    """
+    A source's name with its mark before it. The logo is decorative beside the name it labels, so
+    it is hidden from a screen reader rather than read out twice, and the source's full name is
+    on the wrapper for anyone who does not recognise the mark.
+    """
+    shown = e(source or "")
+    entry = _sources.get(source or "")
+    if entry is None:
+        return shown
+    if entry.get("mark"):
+        mark = ("<img class=\"mk\" src=\"%s\" alt=\"\" width=\"16\" height=\"16\" loading=\"lazy\">"
+                % e(entry["mark"]))
+    else:
+        mark = "<span class=\"mk mono\" aria-hidden=\"true\">%s</span>" % e(entry["initials"])
+    return "<span class=\"srcof\" title=\"%s\">%s%s</span>" % (e(entry["name"]), mark, shown)
+
+
 def record(kind, row, text=None, id_field="id"):
     """
     A link to a record's own address in the API. Everything audioBlast holds dereferences at
@@ -192,6 +220,10 @@ h1 i{font-style:italic}
 .groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
            font-variant-numeric:tabular-nums;color:var(--muted)}
 .groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -409,7 +441,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
         w("<p class=\"note\">What the sources say about this taxon, as written.</p><div class=\"prose\">")
         for d in descriptions:
             w("<p class=\"topic\">%s · %s</p><p>%s</p><p class=\"src\">%s%s</p>" % (
-                e(d.get("topic") or "general"), e(d.get("source")), e(d["value"]),
+                e(d.get("topic") or "general"), source_mark(d.get("source")), e(d["value"]),
                 record("description", d, "this account"), at_source(d, "at %s" % d.get("source"))))
         w("</div></div></section>")
 
@@ -462,7 +494,8 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
                     anchor, e(trait) if i == 0 else "",
                     API, e(r.get("source")), e(r.get("id")), e(r.get("value") or "—"),
                     e(r.get("call_type") or ""), e(r.get("call_part") or ""),
-                    e(r.get("sex") or ""), e(r.get("temperature") or ""), e(r.get("source"))))
+                    e(r.get("sex") or ""), e(r.get("temperature") or ""),
+                    source_mark(r.get("source"))))
                 shown_rows += 1
         w("</tbody></table></div>")
         if len(rows) > shown_rows:
@@ -482,7 +515,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
               (e(r["name"]), (e(r.get("duration")) + " s") if has(r.get("duration")) else ""))
             for bit in [e(r.get("author")) if has(r.get("author")) else "",
                         e(r.get("date")) if has(r.get("date")) else "",
-                        e(r.get("source"))]:
+                        source_mark(r.get("source"))]:
                 if bit:
                     w("<span>%s</span>" % bit)
             w("<span><a href=\"%s/?source=%s&amp;id=%s\">listen ›</a></span>" %
@@ -591,7 +624,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     for s in sources:
         w("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td>"
           "<td class=\"n\"><a href=\"%s/taxon/%s/%s\">%s/%s</a></td></tr>" %
-          (e(s["source"]), name_html(s["taxon"], s.get("rank")), e(s.get("rank") or "—"),
+          (source_mark(s["source"]), name_html(s["taxon"], s.get("rank")), e(s.get("rank") or "—"),
            e(s.get("family") or "—"), API, e(s["source"]), e(s["id"]), e(s["source"]), e(s["id"])))
     w("</tbody></table></div></div></section>")
 

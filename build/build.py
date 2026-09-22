@@ -24,6 +24,7 @@ import urllib.request
 
 import api
 import render
+import sources as source_register
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # GitHub Pages serves a branch from its root or from /docs, and nowhere else
@@ -256,6 +257,11 @@ def main():
     nodes = discover(args.taxon, args.deep)
     print("  %d taxa in %.1fs" % (len(nodes), time.time() - started), file=sys.stderr)
     render.set_paths(resolve_paths(nodes))
+    known = source_register.resolve(OUT)
+    with_logo = sum(1 for entry in known.values() if entry.get("mark"))
+    print("  %d sources, %d with a logo, %d shown by their initials"
+          % (len(known), with_logo, len(known) - with_logo), file=sys.stderr)
+    render.set_sources(known)
     print("Building, %d at a time:" % args.workers, file=sys.stderr)
     built = build(nodes, args.workers)
 
