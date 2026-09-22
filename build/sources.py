@@ -26,10 +26,11 @@ KNOWN = {
     "iNaturalist":      {"name": "iNaturalist",        "url": "https://www.inaturalist.org"},
     "xeno-canto":       {"name": "xeno-canto",         "url": "https://xeno-canto.org", "initials": "XC"},
     "Plazi":            {"name": "Plazi",              "url": "https://plazi.org"},
-    # The Tierstimmenarchiv at the Museum fuer Naturkunde. Its own logo is a wide wordmark
-    # with fine line art, unreadable at the size a mark is shown, so it keeps initials.
+    # The Tierstimmenarchiv at the Museum fuer Naturkunde. Its mark is two wolves in a ring,
+    # line art that dissolves at 16px, so it keeps initials. They match the source string
+    # rather than the name: two different abbreviations side by side read as two things.
     "TSA":              {"name": "Animal Sound Archive",
-                         "url": "https://suche.tierstimmenarchiv.de", "initials": "ASA"},
+                         "url": "https://suche.tierstimmenarchiv.de", "initials": "TSA"},
     # Small ingests (github.com/audioblast/small_ingests) are a route in, not an
     # organisation with a mark of its own, so they are named and left unbadged.
     "sounds_of_norway": {"name": "Sounds of Norway",   "url": "", "badge": False},
