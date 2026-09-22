@@ -132,7 +132,9 @@ def source_mark(source):
     """
     shown = e(source or "")
     entry = _sources.get(source or "")
-    if entry is None:
+    # A source with no mark of its own is named and left alone: a badge that stands for nothing
+    # is noise beside the sources that have one.
+    if entry is None or entry.get("badge") is False:
         return shown
     if entry.get("mark"):
         mark = ("<img class=\"mk\" src=\"%s\" alt=\"\" width=\"16\" height=\"16\" loading=\"lazy\">"

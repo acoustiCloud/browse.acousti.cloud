@@ -22,17 +22,26 @@ import api
 # a wrong one sends a reader somewhere that is not the source.
 KNOWN = {
     "CoL":              {"name": "Catalogue of Life",  "url": "https://www.catalogueoflife.org", "initials": "CoL"},
-    "bio.acousti.ca":   {"name": "BioAcoustica",       "url": "https://bio.acousti.ca"},
+    "bio.acousti.ca":   {"name": "BioAcoustica",       "url": "http://bio.acousti.ca"},
     "iNaturalist":      {"name": "iNaturalist",        "url": "https://www.inaturalist.org"},
     "xeno-canto":       {"name": "xeno-canto",         "url": "https://xeno-canto.org", "initials": "XC"},
     "Plazi":            {"name": "Plazi",              "url": "https://plazi.org"},
-    "sounds_of_norway": {"name": "Sounds of Norway",   "url": ""},
-    "unp":              {"name": "Urban Nature Project", "url": "", "initials": "UNP"},
-    "ColinBirds":       {"name": "ColinBirds",         "url": ""},
-    "Mikula_etal_2020": {"name": "Mikula et al. 2020", "url": "", "initials": "M"},
+    # Small ingests (github.com/audioblast/small_ingests) are a route in, not an
+    # organisation with a mark of its own, so they are named and left unbadged.
+    "sounds_of_norway": {"name": "Sounds of Norway",   "url": "", "badge": False},
+    "unp":              {"name": "Urban Nature Project",
+                         "url": "https://www.nhm.ac.uk/about-us/urban-nature-project.html",
+                         "initials": "UNP"},
+    "ColinBirds":       {"name": "ColinBirds",
+                         "url": "https://github.com/audioblast/small_ingests",
+                         "badge": False},
+    "Mikula_etal_2020": {"name": "Mikula et al. 2020",
+                         "url": "https://github.com/audioblast/small_ingests",
+                         "badge": False},
     # Taxon sources, which show in the table of what each source calls this taxon
     "taxonBot":         {"name": "taxonBot",         "url": "", "initials": "tB"},
-    "osf":              {"name": "OSF",              "url": "", "initials": "OSF"},
+    "osf":              {"name": "Orthoptera Species File",
+                         "url": "https://orthoptera.speciesfile.org", "initials": "OSF"},
 }
 
 # The file extensions a logo may arrive as, and nothing else: a build writes what it fetches into
