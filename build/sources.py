@@ -44,7 +44,6 @@ KNOWN = {
                          "url": "https://github.com/audioblast/small_ingests",
                          "badge": False},
     # Taxon sources, which show in the table of what each source calls this taxon
-    "taxonBot":         {"name": "taxonBot",         "url": "", "initials": "tB"},
     "osf":              {"name": "Orthoptera Species File",
                          "url": "https://orthoptera.speciesfile.org", "initials": "OSF"},
 }

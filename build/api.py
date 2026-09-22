@@ -91,12 +91,22 @@ def children(col_id, limit=1000):
 
 # --- what each source says this taxon is -----------------------------------------------------
 
+# Sources whose rows a page does not show. taxonBot is being retired, so its content is left
+# out rather than shown and then explained. Excluded here, at the one place source rows are
+# read, so nothing downstream sees them: not the table of what each source calls a taxon, not
+# the names records are looked up by, not the images, descriptions or references hanging off
+# them.
+EXCLUDED_SOURCES = {"taxonBot"}
+
+
 def source_rows(col_id):
     """The rows of other sources that skos:exactMatch this CoL taxon."""
     links = rows("links", object_type="taxa", object_source=COL, object_id=col_id)
     wanted, remarks = {}, {}
     for link in links:
         if link.get("predicate") != EXACT_MATCH:
+            continue
+        if link["subject_source"] in EXCLUDED_SOURCES:
             continue
         wanted.setdefault(link["subject_source"], []).append(link["subject_id"])
         remarks[(link["subject_source"], link["subject_id"])] = link.get("remarks")
