@@ -11,6 +11,7 @@ them, and a homepage is given only where the data itself points at one.
 
 import os
 import re
+import shutil
 import urllib.error
 import urllib.request
 
@@ -29,6 +30,9 @@ KNOWN = {
     "unp":              {"name": "Urban Nature Project", "url": "", "initials": "UNP"},
     "ColinBirds":       {"name": "ColinBirds",         "url": ""},
     "Mikula_etal_2020": {"name": "Mikula et al. 2020", "url": "", "initials": "M"},
+    # Taxon sources, which show in the table of what each source calls this taxon
+    "taxonBot":         {"name": "taxonBot",         "url": "", "initials": "tB"},
+    "osf":              {"name": "OSF",              "url": "", "initials": "OSF"},
 }
 
 # The file extensions a logo may arrive as, and nothing else: a build writes what it fetches into
@@ -38,6 +42,10 @@ SERVABLE = {
     "image/jpeg": ".jpg", "image/webp": ".webp",
 }
 MAX_LOGO = 96 * 1024
+
+# Logos held here rather than fetched, for sources whose own site publishes nothing usable at the
+# size these are shown. Named for the source's slug. An API logo still wins over one of these.
+HELD = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos")
 
 
 # Words that carry no identity, so "Sounds of Norway" is SN rather than SO
@@ -120,9 +128,20 @@ def fetch_logo(url, into, name):
     return "/logo/" + filename
 
 
+def held_logo(name, into):
+    """A logo kept in the repo, copied into the site beside the fetched ones."""
+    for ext in (".svg", ".png", ".webp", ".jpg"):
+        path = os.path.join(HELD, name + ext)
+        if os.path.exists(path):
+            os.makedirs(into, exist_ok=True)
+            shutil.copyfile(path, os.path.join(into, name + ext))
+            return "/logo/" + name + ext
+    return None
+
+
 def resolve(out):
     """
-    The register with each logo fetched into `out`/logo. A source whose logo is missing, too big,
+    The register with every logo placed under `out`/logo. A source whose logo is missing, too big,
     or not an image keeps its initials: a broken image next to every record would be worse than
     the plain text this replaces.
     """
@@ -130,5 +149,6 @@ def resolve(out):
     into = os.path.join(out, "logo")
     for source, entry in sorted(known.items()):
         url = entry.get("logo")
-        entry["mark"] = fetch_logo(url, into, slug(source)) if url else None
+        name = slug(source)
+        entry["mark"] = (fetch_logo(url, into, name) if url else None) or held_logo(name, into)
     return known
