@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Callicrania</title>
-<meta name="description" content="Callicrania in audioBlast: 2 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Callicrania</title>
+<meta name="description" content="Callicrania in audioBlast: 57 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/callicrania/">
-<meta property="og:title" content="Callicrania">
-<meta property="og:description" content="Callicrania in audioBlast: 2 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Callicrania">
+<meta property="og:description" content="Callicrania in audioBlast: 57 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NNS8">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/bradyporinae/"><span class="rk">Subfamily</span><span>Bradyporinae</span></a><span class="sep">›</span><a href="/taxon/ephippigerini/"><span class="rk">Tribe</span><span>Ephippigerini</span></a></nav>
-<h1><i>Callicrania</i></h1>
+<h1>Bioacoustics of <i>Callicrania</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>2</b> <span>recordings</span></div>
+<div><b>57</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,24 +196,95 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36514">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36514">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">2 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">Spain, Navarra, Puerto de Velate N Pamplona; Lab recording; date recorded: 8/27/1984; temperature: 23°C; light: position-detection lamp; recorder: Racal; microphone: B&amp;K 1/4&quot; ohne Schutzgitter; tape no.: R84-6; with female response.</div><div class="d">7 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=50903">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/50903">record</a></span>
-</div></div>
+<p class="note">57 in audioBlast.</p><div class="recs">
 <div class="rec"><div class="t">417:13 Platystolus faberi(552r3)</div><div class="d">201 s</div><div class="m">
 <span>W. J. Reynolds</span>
 <span>1984-08-28</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9448">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9448">record</a></span>
 </div></div>
+<div class="rec"><div class="t">Spain, Navarra, Puerto de Velate N Pamplona; Lab recording; date recorded: 8/27/1984; temperature: 23°C; light: position-detection lamp; recorder: Racal; microphone: B&amp;K 1/4&quot; ohne Schutzgitter; tape no.: R84-6; with female response.</div><div class="d">7 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=50903">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/50903">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC832308 Faber&#x27;s Bush-cricket (Callicrania faberi) - uncertain</div><div class="d">30 s</div><div class="m">
+<span>João Tomás</span>
+<span>2023-09-28</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=832308">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/832308">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC939849 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">4 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-10-05</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=939849">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/939849">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC939846 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-10-05</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=939846">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/939846">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC934367 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-09-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=934367">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/934367">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC939845 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-10-05</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=939845">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/939845">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC939841 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-10-05</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=939841">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/939841">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC939839 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-10-05</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=939839">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/939839">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC934549 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-09-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=934549">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/934549">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC934327 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">2 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-09-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=934327">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/934327">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC939836 Lleida Saddle Bush-cricket (Callicrania plaxicauda) - calling song</div><div class="d">2 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-10-05</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=939836">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/939836">record</a></span>
+</div></div>
 </div>
+<p class="more">45 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Callicrania">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
@@ -206,15 +292,15 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <ul>
 <li><a href="/taxon/ephippigerini/"><span>Ephippigerini</span> <span class="n">4,987</span></a></li>
 <li><a href="/taxon/bradyporinae/"><span>Bradyporinae</span> <span class="n">5,188</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
@@ -225,21 +311,21 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/albarracinia/"><i>Albarracinia</i> <span class="n">170</span></a></li>
-<li><a href="/taxon/baetica/"><i>Baetica</i> <span class="n">132</span></a></li>
-<li><a href="/taxon/corsteropleurus/"><i>Corsteropleurus</i> <span class="n">66</span></a></li>
-<li><a href="/taxon/ephippiger/"><i>Ephippiger</i> <span class="n">1,610</span></a></li>
-<li><a href="/taxon/ephippigerida/"><i>Ephippigerida</i> <span class="n">6</span></a></li>
-<li><a href="/taxon/lluciapomaresius/"><i>Lluciapomaresius</i> <span class="n">411</span></a></li>
-<li><a href="/taxon/lucasinova/"><i>Lucasinova</i> <span class="n">74</span></a></li>
-<li><a href="/taxon/neocallicrania/"><i>Neocallicrania</i> <span class="n">134</span></a></li>
-<li><a href="/taxon/parasteropleurus/"><i>Parasteropleurus</i> <span class="n">438</span></a></li>
-<li><a href="/taxon/platystolus/"><i>Platystolus</i> <span class="n">1</span></a></li>
-<li><a href="/taxon/sabaterpia/"><i>Sabaterpia</i> <span class="n">36</span></a></li>
-<li><a href="/taxon/sorapagus/"><i>Sorapagus</i> <span class="n">250</span></a></li>
-<li><a href="/taxon/steropleurus/"><i>Steropleurus</i> <span class="n">343</span></a></li>
-<li><a href="/taxon/synephippius/"><i>Synephippius</i> <span class="n">124</span></a></li>
-<li><a href="/taxon/uromenus/"><i>Uromenus</i> <span class="n">1,192</span></a></li>
+<li><a href="/taxon/albarracinia/"><i>Albarracinia</i> <span class="n">255</span></a></li>
+<li><a href="/taxon/baetica/"><i>Baetica</i> <span class="n">198</span></a></li>
+<li><a href="/taxon/corsteropleurus/"><i>Corsteropleurus</i> <span class="n">99</span></a></li>
+<li><a href="/taxon/ephippiger/"><i>Ephippiger</i> <span class="n">2,263</span></a></li>
+<li><a href="/taxon/ephippigerida/"><i>Ephippigerida</i> <span class="n">76</span></a></li>
+<li><a href="/taxon/lluciapomaresius/"><i>Lluciapomaresius</i> <span class="n">598</span></a></li>
+<li><a href="/taxon/lucasinova/"><i>Lucasinova</i> <span class="n">111</span></a></li>
+<li><a href="/taxon/neocallicrania/"><i>Neocallicrania</i> <span class="n">226</span></a></li>
+<li><a href="/taxon/parasteropleurus/"><i>Parasteropleurus</i> <span class="n">603</span></a></li>
+<li><a href="/taxon/platystolus/"><i>Platystolus</i> <span class="n">23</span></a></li>
+<li><a href="/taxon/sabaterpia/"><i>Sabaterpia</i> <span class="n">53</span></a></li>
+<li><a href="/taxon/sorapagus/"><i>Sorapagus</i> <span class="n">368</span></a></li>
+<li><a href="/taxon/steropleurus/"><i>Steropleurus</i> <span class="n">517</span></a></li>
+<li><a href="/taxon/synephippius/"><i>Synephippius</i> <span class="n">186</span></a></li>
+<li><a href="/taxon/uromenus/"><i>Uromenus</i> <span class="n">1,579</span></a></li>
 <li><a href="/taxon/baratia/"><i>Baratia</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/dinarippiger/"><i>Dinarippiger</i> <span class="n">2</span></a></li>
 </ul>
@@ -248,7 +334,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><i>Callicrania</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/724">bio.acousti.ca/724</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Callicrania</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/724">bio.acousti.ca/724</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

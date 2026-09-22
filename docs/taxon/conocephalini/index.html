@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Conocephalini</title>
-<meta name="description" content="Conocephalini in audioBlast: 1,570 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Conocephalini</title>
+<meta name="description" content="Conocephalini in audioBlast: 1,583 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/conocephalini/">
-<meta property="og:title" content="Conocephalini">
-<meta property="og:description" content="Conocephalini in audioBlast: 1,570 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Conocephalini">
+<meta property="og:description" content="Conocephalini in audioBlast: 1,583 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8PSZV">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/conocephalinae/"><span class="rk">Subfamily</span><span>Conocephalinae</span></a></nav>
-<h1><span>Conocephalini</span></h1>
+<h1>Bioacoustics of <span>Conocephalini</span></h1>
 <p class="rank">Tribe</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>1,570</b> <span>recordings</span></div>
+<div><b>1,583</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,109 +196,97 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35289">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35289">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">1,570 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">Conocephalus chinensis</div><div class="d">50 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52487">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52487">record</a></span>
-</div></div>
-<div class="rec"><div class="t">Almeria, Garrucha N Mojacar, lab recording, 26/8/1984, 24.5°C (position-detection lamp, Racal with B&amp;K 1/4&quot; without protection grid, tape no. R84-5)</div><div class="d">25 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51098">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51098">record</a></span>
+<p class="note">1,583 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">Anisoptera fuscus; Studio recording; 2000-08-08: Italy Abruzzo, P.N. del Abruzzo (AQ), Pescasserola; Calling song, 23,4 degrees Celsius</div><div class="d">45 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=16850">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/16850">record</a></span>
 </div></div>
 <div class="rec"><div class="t">lab recording, 1972, 22°C (Uher 4000 L Report with Uher M537, tape no. CS_U03g)</div><div class="d">28 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51109">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51109">record</a></span>
 </div></div>
 <div class="rec"><div class="t">field recording (Kenwood KX880HX with copy of Uher Report 4400, tape: Sony Metal ES 60IV, tape no. U02B:08.10-08.36, equalizer: 5+10kHz +12db, &lt;=3kHz -12dB, strongly filtered at low freqencies)</div><div class="d">12 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51110">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51110">record</a></span>
 </div></div>
 <div class="rec"><div class="t">lab recording, 26°C, 3/8/2015 (Zoom-H4 digital recorder, sample rate 96 kHz)</div><div class="d">30 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51111">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51111">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:11 Conocephalus semivittatus semivittatus (681a)</div><div class="d">114 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10288">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10288">record</a></span>
+<div class="rec"><div class="t">Limestone Co., TX, cage in lab, 25.9ºC, 19 sec.</div><div class="d">19 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51875">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51875">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:12 Conocephalus semivittatus semivittatus (681b)</div><div class="d">197 s</div><div class="m">
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10289">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10289">record</a></span>
+<div class="rec"><div class="t">Clarke Co., MS, cage in lab, 25.3ºC, 20 sec.</div><div class="d">20 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51872">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51872">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:13 Conocephalus semivittatus semivittatus (681c)</div><div class="d">109 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10290">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10290">record</a></span>
+<div class="rec"><div class="t">Levy Co., FL, cage in lab, temp. 25.8 degrees C, 19 sec.</div><div class="d">19 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51866">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51866">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:14 Conocephalus semivittatus semivittatus (682a)</div><div class="d">84 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10291">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10291">record</a></span>
+<div class="rec"><div class="t">Hancock Co., MS, cage in lab, temp. 25.7 degrees C, 20 sec.</div><div class="d">19 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51863">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51863">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:15 Conocephalus semivittatus semivittatus (682b)</div><div class="d">94 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10292">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10292">record</a></span>
+<div class="rec"><div class="t">Glades Co., FL, cage in lab, 26.2ºC, 19 sec.</div><div class="d">18 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51874">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51874">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:16 Conocephalus semivittatus semivittatus (682c)</div><div class="d">172 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10293">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10293">record</a></span>
+<div class="rec"><div class="t">Orchelimum nigripes OSF 1100</div><div class="d">20 s</div><div class="m">
+<span>2017-02-07</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=16640">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/16640">record</a></span>
 </div></div>
-<div class="rec"><div class="t">577:17 Conocephalus semivittatus semivittatus (683a)</div><div class="d">63 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1988-03-01</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10294">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10294">record</a></span>
+<div class="rec"><div class="t">Shelby Co., OH, cage in low-noise room, temp. 24 degrees C, 21 sec.</div><div class="d">20 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51873">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51873">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Dade Co., FL, cage in lab, temp. 33ºC, 23 sec.</div><div class="d">23 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51871">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51871">record</a></span>
 </div></div>
 </div>
-<p class="more">1,558 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;tribe=Conocephalini">audioBlast browser</a>.</p>
+<p class="more">1,571 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;tribe=Conocephalini">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/conocephalinae/"><span>Conocephalinae</span> <span class="n">6,396</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/conocephalinae/"><span>Conocephalinae</span> <span class="n">6,420</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/conocephalus/"><i>Conocephalus</i> <span class="n">1,045</span></a></li>
+<li><a href="/taxon/conocephalus/"><i>Conocephalus</i> <span class="n">1,968</span></a></li>
 <li><a href="/taxon/odontoxiphidium/"><i>Odontoxiphidium</i> <span class="n">6</span></a></li>
-<li><a href="/taxon/orchelimum/"><i>Orchelimum</i> <span class="n">488</span></a></li>
+<li><a href="/taxon/orchelimum/"><i>Orchelimum</i> <span class="n">758</span></a></li>
 <li><a href="/taxon/thyridorhoptrum/"><i>Thyridorhoptrum</i> <span class="n">4</span></a></li>
 <li><a href="/taxon/xiphelimum/"><i>Xiphelimum</i> <span class="n">27</span></a></li>
 <li><a href="/taxon/karniellina/"><span>Karniellina</span> <span class="n">—</span></a></li>
@@ -291,19 +294,20 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/agraeciini/"><span>Agraeciini</span> <span class="n">419</span></a></li>
+<li><a href="/taxon/agraeciini/"><span>Agraeciini</span> <span class="n">431</span></a></li>
 <li><a href="/taxon/armadillagraeciini/"><span>Armadillagraeciini</span> <span class="n">2</span></a></li>
 <li><a href="/taxon/cestrophorini/"><span>Cestrophorini</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/coniungopterini/"><span>Coniungopterini</span> <span class="n">12</span></a></li>
-<li><a href="/taxon/copiphorini/"><span>Copiphorini</span> <span class="n">4,393</span></a></li>
+<li><a href="/taxon/copiphorini/"><span>Copiphorini</span> <span class="n">4,392</span></a></li>
 </ul>
 </div>
 </div></div></section>
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><span>Conocephalini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1198">bio.acousti.ca/1198</a></td></tr>
-<tr><td>iNaturalist</td><td><span>Conocephalini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/325335">iNaturalist/325335</a></td></tr>
+<tr><td>osf</td><td><span>Conocephalini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/osf/843039">osf/843039</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><span>Conocephalini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1198">bio.acousti.ca/1198</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><span>Conocephalini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/325335">iNaturalist/325335</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

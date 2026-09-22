@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pholidopterini</title>
-<meta name="description" content="Pholidopterini in audioBlast: 10,801 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Pholidopterini</title>
+<meta name="description" content="Pholidopterini in audioBlast: 10,861 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/pholidopterini/">
-<meta property="og:title" content="Pholidopterini">
-<meta property="og:description" content="Pholidopterini in audioBlast: 10,801 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Pholidopterini">
+<meta property="og:description" content="Pholidopterini in audioBlast: 10,861 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8PTFP">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/tettigoniinae/"><span class="rk">Subfamily</span><span>Tettigoniinae</span></a></nav>
-<h1><span>Pholidopterini</span></h1>
+<h1>Bioacoustics of <span>Pholidopterini</span></h1>
 <p class="rank">Tribe</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>10,801</b> <span>recordings</span></div>
+<div><b>10,861</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,133 +196,121 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36126">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36126">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">10,801 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">laboratory, 24 ºC (Uher 4200IC with Uher M645, 24:00 h, darkness)</div><div class="d">64 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51256">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51256">record</a></span>
+<p class="note">10,861 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">600:8 Pholidoptera griseoaptera (21r1)</div><div class="d">87 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11029">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11029">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907906 Eupholidoptera anatolica - calling song</div><div class="d">193 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-21</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907906">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907906">record</a></span>
+<div class="rec"><div class="t">896:7 Pholidoptera griseoaptera (61r2)</div><div class="d">391 s</div><div class="m">
+<span>David R. Ragge; J. F. Burton; G. F. Wade</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11060">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11060">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907905 Eupholidoptera anatolica - calling song</div><div class="d">64 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-21</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907905">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907905">record</a></span>
+<div class="rec"><div class="t">897:9 Pholidoptera griseoaptera (67r3)</div><div class="d">373 s</div><div class="m">
+<span>David R. Ragge; J. F. Burton; G. F. Wade</span>
+<span>1962-08-21</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11071">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11071">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907904 Eupholidoptera anatolica - calling song</div><div class="d">23 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-18</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907904">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907904">record</a></span>
+<div class="rec"><div class="t">898:1 Pholidoptera griseoaptera (73r1)</div><div class="d">343 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11078">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11078">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907903 Eupholidoptera anatolica - calling song</div><div class="d">85 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-17</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907903">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907903">record</a></span>
+<div class="rec"><div class="t">898:3 Pholidoptera griseoaptera (73r3)</div><div class="d">79 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11080">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11080">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907902 Eupholidoptera anatolica - calling song</div><div class="d">54 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-17</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907902">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907902">record</a></span>
+<div class="rec"><div class="t">97_3a_Pholidoptera griseoaptera</div><div class="d">873 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1973-08-12</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12103">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12103">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907901 Eupholidoptera anatolica - calling song</div><div class="d">83 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-16</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907901">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907901">record</a></span>
+<div class="rec"><div class="t">565_12_Pholidoptera griseoaptera</div><div class="d">60 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12108">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12108">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907900 Eupholidoptera anatolica - calling song</div><div class="d">30 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-16</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907900">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907900">record</a></span>
+<div class="rec"><div class="t">565_13_Pholidoptera griseoaptera</div><div class="d">22 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12109">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12109">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC786827 Eupholidoptera anatolica - calling song</div><div class="d">52 s</div><div class="m">
-<span>Baudewijn Odé</span>
-<span>2009-06-16</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=786827">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/786827">record</a></span>
+<div class="rec"><div class="t">27 Dark Bush-cricket</div><div class="d">54 s</div><div class="m">
+<span>2016-03-12</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12944">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12944">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC907908 Eupholidoptera anatolica - calling song</div><div class="d">235 s</div><div class="m">
-<span>Dragan Chobanov</span>
-<span>2014-09-22</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=907908">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/907908">record</a></span>
+<div class="rec"><div class="t">Pholidoptera griseoaptera 133_6</div><div class="d">110 s</div><div class="m">
+<span>David R. Ragge</span>
+<span>1974-08-21</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=15126">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/15126">record</a></span>
 </div></div>
-<div class="rec"><div class="t">lab recording, 19/8/1991, 15°C (Sony WM-D3 with Uher M645, tape no. S1/91A)</div><div class="d">31 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51257">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51257">record</a></span>
+<div class="rec"><div class="t">lab recording, 11/9/1978 at 23.00 h, 26°C (UHER 4200IC, tape no. U4)</div><div class="d">24 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51978">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51978">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC866886 Annamaria&#x27;s Marbled Bush-cricket (Eupholidoptera annamariae) - calling song</div><div class="d">61 s</div><div class="m">
-<span>K.-G. Heller</span>
-<span>1991-08-19</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866886">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/866886">record</a></span>
+<div class="rec"><div class="t">lab recording, 18/8/1990, 26°C (Kenwood KX880HX with AKG D202, tape: S-MES90, tape no. KW32:21.30-22.30, microphone filter below 100 Hz)</div><div class="d">11 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51979">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51979">record</a></span>
 </div></div>
 </div>
-<p class="more">10,789 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;tribe=Pholidopterini">audioBlast browser</a>.</p>
+<p class="more">10,849 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;tribe=Pholidopterini">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,430</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,707</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/eupholidoptera/"><i>Eupholidoptera</i> <span class="n">3,154</span></a></li>
-<li><a href="/taxon/parapholidoptera/"><i>Parapholidoptera</i> <span class="n">26</span></a></li>
-<li><a href="/taxon/pholidoptera/"><i>Pholidoptera</i> <span class="n">7,520</span></a></li>
-<li><a href="/taxon/psorodonotus/"><i>Psorodonotus</i> <span class="n">175</span></a></li>
+<li><a href="/taxon/eupholidoptera/"><i>Eupholidoptera</i> <span class="n">4,395</span></a></li>
+<li><a href="/taxon/parapholidoptera/"><i>Parapholidoptera</i> <span class="n">41</span></a></li>
+<li><a href="/taxon/pholidoptera/"><i>Pholidoptera</i> <span class="n">10,218</span></a></li>
+<li><a href="/taxon/psorodonotus/"><i>Psorodonotus</i> <span class="n">259</span></a></li>
 <li><a href="/taxon/aparapholidoptera/"><i>Aparapholidoptera</i> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
 <ul>
 <li><a href="/taxon/bolua/"><i>Bolua</i> <span class="n">2</span></a></li>
-<li><a href="/taxon/tettigoniini/"><span>Tettigoniini</span> <span class="n">8,774</span></a></li>
+<li><a href="/taxon/tettigoniini/"><span>Tettigoniini</span> <span class="n">8,975</span></a></li>
 <li><a href="/taxon/arytropteridini/"><span>Arytropteridini</span> <span class="n">6</span></a></li>
 <li><a href="/taxon/ctenodecticini/"><span>Ctenodecticini</span> <span class="n">191</span></a></li>
-<li><a href="/taxon/decticini/"><span>Decticini</span> <span class="n">2,316</span></a></li>
+<li><a href="/taxon/decticini/"><span>Decticini</span> <span class="n">2,325</span></a></li>
 <li><a href="/taxon/drymadusini/"><span>Drymadusini</span> <span class="n">107</span></a></li>
 <li><a href="/taxon/gampsocleidini/"><span>Gampsocleidini</span> <span class="n">517</span></a></li>
 <li><a href="/taxon/glyphonotini/"><span>Glyphonotini</span> <span class="n">34</span></a></li>
 <li><a href="/taxon/onconotini/"><span>Onconotini</span> <span class="n">21</span></a></li>
 <li><a href="/taxon/plagiostirini/"><span>Plagiostirini</span> <span class="n">14</span></a></li>
-<li><a href="/taxon/platycleidini/"><span>Platycleidini</span> <span class="n">15,302</span></a></li>
+<li><a href="/taxon/platycleidini/"><span>Platycleidini</span> <span class="n">15,306</span></a></li>
 <li><a href="/taxon/apteropedetini/"><span>Apteropedetini</span> <span class="n">26</span></a></li>
 </ul>
 </div>
@@ -315,8 +318,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>iNaturalist</td><td><span>Pholidopterini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523128">iNaturalist/523128</a></td></tr>
-<tr><td>bio.acousti.ca</td><td><span>Pholidopterini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1217">bio.acousti.ca/1217</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><span>Pholidopterini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523128">iNaturalist/523128</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><span>Pholidopterini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1217">bio.acousti.ca/1217</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

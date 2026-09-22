@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pseudorhynchus</title>
-<meta name="description" content="Pseudorhynchus in audioBlast: 69 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Pseudorhynchus</title>
+<meta name="description" content="Pseudorhynchus in audioBlast: 74 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/pseudorhynchus/">
-<meta property="og:title" content="Pseudorhynchus">
-<meta property="og:description" content="Pseudorhynchus in audioBlast: 69 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Pseudorhynchus">
+<meta property="og:description" content="Pseudorhynchus in audioBlast: 74 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NY93">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/conocephalinae/"><span class="rk">Subfamily</span><span>Conocephalinae</span></a><span class="sep">›</span><a href="/taxon/copiphorini/"><span class="rk">Tribe</span><span>Copiphorini</span></a></nav>
-<h1><i>Pseudorhynchus</i></h1>
+<h1>Bioacoustics of <i>Pseudorhynchus</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>69</b> <span>recordings</span></div>
+<div><b>74</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,119 +196,121 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36652">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36652">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">69 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">Pseudorhynchus japonicus</div><div class="d">50 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52476">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52476">record</a></span>
+<p class="note">74 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">XC1084168 Mimicking Snout-nosed Katydid (Pseudorhynchus mimeticus) - calling song</div><div class="d">14 s</div><div class="m">
+<span>Marc Anderson</span>
+<span>2026-02-25</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1084168">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1084168">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat201468188 Mimicking Snout-nose (Pseudorhynchus mimeticus)</div><div class="d"></div><div class="m">
+<span>Nick Lambert</span>
+<span>2024-03-06</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=919406">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/919406">record</a></span>
 </div></div>
 <div class="rec"><div class="t">598:31 Pseudorrhynchus lessonii (671r31)</div><div class="d">69 s</div><div class="m">
 <span>1983-05-16</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11013">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11013">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat31825166 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Reiner Richter</span>
 <span>2019-08-29</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=46374">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/46374">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat58492594 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Nick Lambert</span>
 <span>2020-09-04</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=134335">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/134335">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat60498645 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Thomas Mesaglio</span>
 <span>2020-09-23</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=137940">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/137940">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat135887424 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>James Tweed</span>
 <span>2022-09-20</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=538982">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/538982">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat139207964 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>James K. Douch</span>
 <span>2022-10-18</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=551309">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/551309">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat145381845 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Sofia Zvolanek</span>
 <span>2022-12-28</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1188876">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/1188876">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat180897772 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Jono Dashper</span>
 <span>2023-08-30</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=802940">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/802940">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat180898076 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Juliet Seers</span>
 <span>2023-08-30</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=802909">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/802909">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat180898076 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
 <span>Juliet Seers</span>
 <span>2023-08-30</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=802910">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/802910">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat204002215 Lesson&#x27;s Mimicking Snout-nose (Pseudorhynchus lessonii)</div><div class="d"></div><div class="m">
-<span>Dr Pamela Muggeridge</span>
-<span>2024-03-23</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=940915">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/940915">record</a></span>
-</div></div>
 </div>
-<p class="more">57 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Pseudorhynchus">audioBlast browser</a>.</p>
+<p class="more">62 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Pseudorhynchus">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/copiphorini/"><span>Copiphorini</span> <span class="n">4,393</span></a></li>
-<li><a href="/taxon/conocephalinae/"><span>Conocephalinae</span> <span class="n">6,396</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/copiphorini/"><span>Copiphorini</span> <span class="n">4,392</span></a></li>
+<li><a href="/taxon/conocephalinae/"><span>Conocephalinae</span> <span class="n">6,420</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/pseudorhynchus-crassiceps/"><i>Pseudorhynchus crassiceps</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pseudorhynchus-crassiceps/"><i>Pseudorhynchus crassiceps</i> <span class="n">9</span></a></li>
 <li><a href="/taxon/pseudorhynchus-hastifer/"><i>Pseudorhynchus hastifer</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/pseudorhynchus-lessonii/"><i>Pseudorhynchus lessonii</i> <span class="n">42</span></a></li>
-<li><a href="/taxon/pseudorhynchus-mimeticus/"><i>Pseudorhynchus mimeticus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pseudorhynchus-mimeticus/"><i>Pseudorhynchus mimeticus</i> <span class="n">8</span></a></li>
 <li><a href="/taxon/pseudorhynchus-pungens/"><i>Pseudorhynchus pungens</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/pseudorhynchus-robustus/"><i>Pseudorhynchus robustus</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/pseudorhynchus-lanceolatus/"><i>Pseudorhynchus lanceolatus</i> <span class="n">—</span></a></li>
@@ -306,23 +323,23 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <li><a href="/taxon/artiotonus/"><i>Artiotonus</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/bucrates/"><i>Bucrates</i> <span class="n">23</span></a></li>
 <li><a href="/taxon/banza/"><i>Banza</i> <span class="n">6</span></a></li>
-<li><a href="/taxon/copiphora/"><i>Copiphora</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/copiphora/"><i>Copiphora</i> <span class="n">17</span></a></li>
 <li><a href="/taxon/brachycaulopsis/"><i>Brachycaulopsis</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/caetitus/"><i>Caetitus</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/euconocephalus/"><i>Euconocephalus</i> <span class="n">119</span></a></li>
+<li><a href="/taxon/euconocephalus/"><i>Euconocephalus</i> <span class="n">172</span></a></li>
 <li><a href="/taxon/clasma/"><i>Clasma</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/daedalellus/"><i>Daedalellus</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/erioloides/"><i>Erioloides</i> <span class="n">2</span></a></li>
-<li><a href="/taxon/neoconocephalus/"><i>Neoconocephalus</i> <span class="n">2,729</span></a></li>
+<li><a href="/taxon/neoconocephalus/"><i>Neoconocephalus</i> <span class="n">3,265</span></a></li>
 <li><a href="/taxon/lanista/"><i>Lanista</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/lirometopum/"><i>Lirometopum</i> <span class="n">4</span></a></li>
 <li><a href="/taxon/moncheca/"><i>Moncheca</i> <span class="n">2</span></a></li>
-<li><a href="/taxon/mygalopsis/"><i>Mygalopsis</i> <span class="n">26</span></a></li>
+<li><a href="/taxon/mygalopsis/"><i>Mygalopsis</i> <span class="n">37</span></a></li>
 <li><a href="/taxon/panacanthus/"><i>Panacanthus</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/plastocorypha/"><i>Plastocorypha</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/podacanthophorus/"><i>Podacanthophorus</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/pyrgocorypha/"><i>Pyrgocorypha</i> <span class="n">3</span></a></li>
-<li><a href="/taxon/ruspolia/"><i>Ruspolia</i> <span class="n">1,351</span></a></li>
+<li><a href="/taxon/ruspolia/"><i>Ruspolia</i> <span class="n">1,807</span></a></li>
 <li><a href="/taxon/vestria/"><i>Vestria</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/xestophrys/"><i>Xestophrys</i> <span class="n">16</span></a></li>
 <li><a href="/taxon/parvarhynchus/"><i>Parvarhynchus</i> <span class="n">—</span></a></li>
@@ -332,8 +349,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><i>Pseudorhynchus</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/431">bio.acousti.ca/431</a></td></tr>
-<tr><td>iNaturalist</td><td><i>Pseudorhynchus</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/211882">iNaturalist/211882</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Pseudorhynchus</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/431">bio.acousti.ca/431</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><i>Pseudorhynchus</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/211882">iNaturalist/211882</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

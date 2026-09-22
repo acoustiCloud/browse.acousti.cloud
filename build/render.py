@@ -380,13 +380,17 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     common = common_name(vernacular)
     # A name shared with another taxon needs its rank to tell the two pages apart
     called = name if not shares_name(node) else "%s (%s)" % (name, (node.get("rank") or "taxon").lower())
-    w("<title>%s</title>" % e(called if common is None else "%s \u2014 %s" % (called, common)))
+    # What the page is: the sound of a taxon, not the taxon. It says so in the one line a
+    # search result gives it, and the share card says the same, because a page has one title.
+    titled = "Bioacoustics of %s" % (
+        called if common is None else "%s \u2014 %s" % (called, common))
+    w("<title>%s</title>" % e(titled))
     said = called if common is None else "%s (%s)" % (common, called)
     summary = "%s in audioBlast: %s recordings, %s trait measurements, and the sources that hold them." % (
         e(said), format(counts.get("recordings", 0), ","), format(counts.get("traits", 0), ","))
     w("<meta name=\"description\" content=\"%s\">" % summary)
     w("<link rel=\"canonical\" href=\"%s%s\">" % (SITE, path_for(node)))
-    w("<meta property=\"og:title\" content=\"%s\">" % e(said))
+    w("<meta property=\"og:title\" content=\"%s\">" % e(titled))
     w("<meta property=\"og:description\" content=\"%s\">" % summary)
     w("<meta property=\"og:type\" content=\"article\">")
     w("<link rel=\"alternate\" type=\"application/ld+json\" href=\"%s/taxon/%s/%s\">" % (API, "CoL", node["id"]))
@@ -413,7 +417,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
             name_html(step["taxon"], step.get("rank"))))
     w("<nav class=\"crumb\" aria-label=\"Classification\">%s</nav>" %
       "<span class=\"sep\">›</span>".join(crumb))
-    w("<h1>%s</h1>" % name_html(name, rank))
+    w("<h1>Bioacoustics of %s</h1>" % name_html(name, rank))
     w("<p class=\"rank\">%s</p>" % e(node.get("rank") or ""))
     if vernacular:
         w("<ul class=\"vern\">")

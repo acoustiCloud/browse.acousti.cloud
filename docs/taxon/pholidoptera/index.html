@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pholidoptera</title>
-<meta name="description" content="Pholidoptera in audioBlast: 7,520 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Pholidoptera</title>
+<meta name="description" content="Pholidoptera in audioBlast: 10,218 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/pholidoptera/">
-<meta property="og:title" content="Pholidoptera">
-<meta property="og:description" content="Pholidoptera in audioBlast: 7,520 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Pholidoptera">
+<meta property="og:description" content="Pholidoptera in audioBlast: 10,218 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NXJ4">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/tettigoniinae/"><span class="rk">Subfamily</span><span>Tettigoniinae</span></a><span class="sep">›</span><a href="/taxon/pholidopterini/"><span class="rk">Tribe</span><span>Pholidopterini</span></a></nav>
-<h1><i>Pholidoptera</i></h1>
+<h1>Bioacoustics of <i>Pholidoptera</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>7,520</b> <span>recordings</span></div>
+<div><b>10,218</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 <div><b>5</b> <span>annotations</span></div>
 </div></div>
@@ -182,95 +197,81 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36117">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36117">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">7,520 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">594:11 Pholidoptera aptera (845r4)</div><div class="d">162 s</div><div class="m">
-<span>David R. Ragge</span>
-<span>1992-09-09</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10950">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10950">record</a></span>
+<p class="note">10,218 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">600:8 Pholidoptera griseoaptera (21r1)</div><div class="d">87 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11029">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11029">record</a></span>
 </div></div>
-<div class="rec"><div class="t">97_2_Pholidoptera aptera</div><div class="d">173 s</div><div class="m">
+<div class="rec"><div class="t">896:7 Pholidoptera griseoaptera (61r2)</div><div class="d">391 s</div><div class="m">
+<span>David R. Ragge; J. F. Burton; G. F. Wade</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11060">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11060">record</a></span>
+</div></div>
+<div class="rec"><div class="t">897:9 Pholidoptera griseoaptera (67r3)</div><div class="d">373 s</div><div class="m">
+<span>David R. Ragge; J. F. Burton; G. F. Wade</span>
+<span>1962-08-21</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11071">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11071">record</a></span>
+</div></div>
+<div class="rec"><div class="t">898:1 Pholidoptera griseoaptera (73r1)</div><div class="d">343 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11078">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11078">record</a></span>
+</div></div>
+<div class="rec"><div class="t">898:3 Pholidoptera griseoaptera (73r3)</div><div class="d">79 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11080">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11080">record</a></span>
+</div></div>
+<div class="rec"><div class="t">97_3a_Pholidoptera griseoaptera</div><div class="d">873 s</div><div class="m">
 <span>David R. Ragge</span>
 <span>1973-08-12</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12096">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12096">record</a></span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12103">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12103">record</a></span>
 </div></div>
-<div class="rec"><div class="t">565_11_Pholidoptera aptera</div><div class="d">22 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12097">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12097">record</a></span>
+<div class="rec"><div class="t">565_12_Pholidoptera griseoaptera</div><div class="d">60 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12108">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12108">record</a></span>
 </div></div>
-<div class="rec"><div class="t">423:10 Pholiodoptera aptera (601r4)</div><div class="d">110 s</div><div class="m">
+<div class="rec"><div class="t">565_13_Pholidoptera griseoaptera</div><div class="d">22 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12109">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12109">record</a></span>
+</div></div>
+<div class="rec"><div class="t">27 Dark Bush-cricket</div><div class="d">54 s</div><div class="m">
+<span>2016-03-12</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12944">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12944">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Pholidoptera griseoaptera 133_6</div><div class="d">110 s</div><div class="m">
 <span>David R. Ragge</span>
-<span>1985-08-27</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9534">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9534">record</a></span>
+<span>1974-08-21</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=15126">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/15126">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1144832 Pholidoptera aptera - uncertain</div><div class="d">126 s</div><div class="m">
-<span>Walter Wallner</span>
-<span>2026-06-12</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1144832">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1144832">record</a></span>
+<div class="rec"><div class="t">lab recording, 11/9/1978 at 23.00 h, 26°C (UHER 4200IC, tape no. U4)</div><div class="d">24 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51978">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51978">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1037616 Pholidoptera aptera - calling song</div><div class="d">174 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2025-08-13</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1037616">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1037616">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1172896 Pholidoptera aptera - calling song</div><div class="d">68 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2026-08-14</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1172896">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1172896">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1172261 Pholidoptera aptera - calling song</div><div class="d">91 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2026-08-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1172261">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1172261">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1172250 Pholidoptera aptera - calling song</div><div class="d">32 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2026-08-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1172250">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1172250">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1165084 Pholidoptera aptera - calling song</div><div class="d">134 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2026-08-07</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1165084">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1165084">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1165070 Pholidoptera aptera - calling song</div><div class="d">74 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2026-08-07</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1165070">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1165070">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1165067 Pholidoptera aptera - calling song</div><div class="d">79 s</div><div class="m">
-<span>Cedric Mroczko</span>
-<span>2026-08-07</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1165067">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1165067">record</a></span>
+<div class="rec"><div class="t">lab recording, 18/8/1990, 26°C (Kenwood KX880HX with AKG D202, tape: S-MES90, tape no. KW32:21.30-22.30, microphone filter below 100 Hz)</div><div class="d">11 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51979">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51979">record</a></span>
 </div></div>
 </div>
-<p class="more">7,508 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Pholidoptera">audioBlast browser</a>.</p>
+<p class="more">10,206 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Pholidoptera">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Annotations</h2>
 <p class="note">Regions of a recording marked as this taxon, by a person or by an algorithm.</p>
@@ -285,41 +286,41 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/pholidopterini/"><span>Pholidopterini</span> <span class="n">10,801</span></a></li>
-<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,430</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/pholidopterini/"><span>Pholidopterini</span> <span class="n">10,861</span></a></li>
+<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,707</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/pholidoptera-aptera/"><i>Pholidoptera aptera</i> <span class="n">521</span></a></li>
-<li><a href="/taxon/pholidoptera-brevipes/"><i>Pholidoptera brevipes</i> <span class="n">26</span></a></li>
-<li><a href="/taxon/pholidoptera-dalmatica/"><i>Pholidoptera dalmatica</i> <span class="n">24</span></a></li>
-<li><a href="/taxon/pholidoptera-ebneri/"><i>Pholidoptera ebneri</i> <span class="n">16</span></a></li>
-<li><a href="/taxon/pholidoptera-fallax/"><i>Pholidoptera fallax</i> <span class="n">405</span></a></li>
-<li><a href="/taxon/pholidoptera-femorata/"><i>Pholidoptera femorata</i> <span class="n">480</span></a></li>
-<li><a href="/taxon/pholidoptera-frivaldszkyi/"><i>Pholidoptera frivaldszkyi</i> <span class="n">63</span></a></li>
-<li><a href="/taxon/pholidoptera-griseoaptera/"><i>Pholidoptera griseoaptera</i> <span class="n">5,469</span></a></li>
-<li><a href="/taxon/pholidoptera-littoralis/"><i>Pholidoptera littoralis</i> <span class="n">272</span></a></li>
-<li><a href="/taxon/pholidoptera-macedonica/"><i>Pholidoptera macedonica</i> <span class="n">88</span></a></li>
-<li><a href="/taxon/pholidoptera-transsylvanica/"><i>Pholidoptera transsylvanica</i> <span class="n">48</span></a></li>
-<li><a href="/taxon/pholidoptera-lucasi/"><i>Pholidoptera lucasi</i> <span class="n">28</span></a></li>
+<li><a href="/taxon/pholidoptera-aptera/"><i>Pholidoptera aptera</i> <span class="n">713</span></a></li>
+<li><a href="/taxon/pholidoptera-brevipes/"><i>Pholidoptera brevipes</i> <span class="n">39</span></a></li>
+<li><a href="/taxon/pholidoptera-dalmatica/"><i>Pholidoptera dalmatica</i> <span class="n">35</span></a></li>
+<li><a href="/taxon/pholidoptera-ebneri/"><i>Pholidoptera ebneri</i> <span class="n">32</span></a></li>
+<li><a href="/taxon/pholidoptera-fallax/"><i>Pholidoptera fallax</i> <span class="n">540</span></a></li>
+<li><a href="/taxon/pholidoptera-femorata/"><i>Pholidoptera femorata</i> <span class="n">640</span></a></li>
+<li><a href="/taxon/pholidoptera-frivaldszkyi/"><i>Pholidoptera frivaldszkyi</i> <span class="n">84</span></a></li>
+<li><a href="/taxon/pholidoptera-griseoaptera/"><i>Pholidoptera griseoaptera</i> <span class="n">7,372</span></a></li>
+<li><a href="/taxon/pholidoptera-littoralis/"><i>Pholidoptera littoralis</i> <span class="n">377</span></a></li>
+<li><a href="/taxon/pholidoptera-macedonica/"><i>Pholidoptera macedonica</i> <span class="n">132</span></a></li>
+<li><a href="/taxon/pholidoptera-transsylvanica/"><i>Pholidoptera transsylvanica</i> <span class="n">64</span></a></li>
+<li><a href="/taxon/pholidoptera-lucasi/"><i>Pholidoptera lucasi</i> <span class="n">42</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/eupholidoptera/"><i>Eupholidoptera</i> <span class="n">3,154</span></a></li>
-<li><a href="/taxon/parapholidoptera/"><i>Parapholidoptera</i> <span class="n">26</span></a></li>
-<li><a href="/taxon/psorodonotus/"><i>Psorodonotus</i> <span class="n">175</span></a></li>
+<li><a href="/taxon/eupholidoptera/"><i>Eupholidoptera</i> <span class="n">4,395</span></a></li>
+<li><a href="/taxon/parapholidoptera/"><i>Parapholidoptera</i> <span class="n">41</span></a></li>
+<li><a href="/taxon/psorodonotus/"><i>Psorodonotus</i> <span class="n">259</span></a></li>
 <li><a href="/taxon/aparapholidoptera/"><i>Aparapholidoptera</i> <span class="n">—</span></a></li>
 </ul>
 </div>
@@ -327,8 +328,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><i>Pholidoptera</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/115">bio.acousti.ca/115</a></td></tr>
-<tr><td>iNaturalist</td><td><i>Pholidoptera</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/55360">iNaturalist/55360</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Pholidoptera</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/115">bio.acousti.ca/115</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><i>Pholidoptera</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/55360">iNaturalist/55360</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mogoplistinae</title>
+<title>Bioacoustics of Mogoplistinae</title>
 <meta name="description" content="Mogoplistinae in audioBlast: 476 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/mogoplistinae/">
-<meta property="og:title" content="Mogoplistinae">
+<meta property="og:title" content="Bioacoustics of Mogoplistinae">
 <meta property="og:description" content="Mogoplistinae in audioBlast: 476 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NKXY">
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,7 +182,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/gryllidea/"><span class="rk">Infraorder</span><span>Gryllidea</span></a><span class="sep">›</span><a href="/taxon/grylloidea/"><span class="rk">Superfamily</span><span>Grylloidea</span></a><span class="sep">›</span><a href="/taxon/mogoplistidae/"><span class="rk">Family</span><span>Mogoplistidae</span></a></nav>
-<h1><span>Mogoplistinae</span></h1>
+<h1>Bioacoustics of <span>Mogoplistinae</span></h1>
 <p class="rank">Subfamily</p>
 </div></header>
 <div class="glance"><div class="wrap">
@@ -181,87 +196,94 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35848">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35848">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
 <p class="note">476 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">577:1 Cycloptiloides canariensis (254)</div><div class="d">64 s</div><div class="m">
-<span>1978-04-26</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10278">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10278">record</a></span>
-</div></div>
-<div class="rec"><div class="t">iNat337095395 Cycloptiloides canariensis</div><div class="d"></div><div class="m">
-<span>Werner Reitmeier</span>
-<span>2016-02-10</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1756454">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/1756454">record</a></span>
-</div></div>
 <div class="rec"><div class="t">373:1 Cycloptiloides sp.(292)</div><div class="d">268 s</div><div class="m">
 <span>W. J. Reynolds</span>
 <span>1979-04-26</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=8972">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/8972">record</a></span>
 </div></div>
 <div class="rec"><div class="t">373:2 Cycloptiloides sp.(292b)</div><div class="d">435 s</div><div class="m">
 <span>W. J. Reynolds</span>
 <span>1979-04-26</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=8973">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/8973">record</a></span>
 </div></div>
 <div class="rec"><div class="t">373:3 Cycloptiloides sp.(293)</div><div class="d">537 s</div><div class="m">
 <span>W. J. Reynolds</span>
 <span>1979-05-07</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=8974">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/8974">record</a></span>
 </div></div>
 <div class="rec"><div class="t">373:4 Cycloptiloides sp.(293b)</div><div class="d">222 s</div><div class="m">
 <span>W. J. Reynolds</span>
 <span>1979-05-07</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=8975">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/8975">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat9136363 Two-Toothed Scaly Cricket (Cycloptilum bidens)</div><div class="d"></div><div class="m">
-<span>Kevin Judge</span>
-<span>2010-10-05</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=16631">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/16631">record</a></span>
+<div class="rec"><div class="t">iNat28777205 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Jacqui Geux</span>
+<span>2019-07-13</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=43554">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/43554">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat41206488 Two-Toothed Scaly Cricket (Cycloptilum bidens)</div><div class="d"></div><div class="m">
-<span>aispinsects</span>
-<span>2020-03-22</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=65944">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/65944">record</a></span>
+<div class="rec"><div class="t">iNat102346496 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Mel</span>
+<span>2021-12-02</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=334772">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/334772">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC821007 Forest scaly cricket (Cycloptilum trigonipalpum) - calling song</div><div class="d">14 s</div><div class="m">
-<span>Stuart Fisher</span>
-<span>2010-06-02</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=821007">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/821007">record</a></span>
+<div class="rec"><div class="t">iNat113205483 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>kikuyu</span>
+<span>2022-04-29</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=407472">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/407472">record</a></span>
 </div></div>
-<div class="rec"><div class="t">Thailand, Nakhon Ratchasima, Khao Yai, Nam Tok Pakluai Mai (Orchid waterfall); Lab recording; date recorded: 5/5/1995 at 4:00:00; temperature: 21°C; light: dark; recorder: Sony D7; microphone: Sennheiser stereo (small); tape: Sony DT-60; tape no.: D31:45.</div><div class="d">32 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51202">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51202">record</a></span>
+<div class="rec"><div class="t">iNat155438910 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Samuel Brown</span>
+<span>2023-04-12</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=647634">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/647634">record</a></span>
 </div></div>
-<div class="rec"><div class="t">Thailand, Nakhon Ratchasima, Khao Yai, Nam Tok Pakluai Mai (Orchid waterfall); Lab recording; date recorded: 5/6/1995 at 3:30:00; temperature: 23°C; light: dark; recorder: Sony D7; microphone: Sennheiser stereo (small); tape: Sony DT-60; tape no.: D31:58.</div><div class="d">9 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51203">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51203">record</a></span>
+<div class="rec"><div class="t">iNat155725347 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Halema J</span>
+<span>2023-04-20</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=649778">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/649778">record</a></span>
 </div></div>
-<div class="rec"><div class="t">Thailand, Nakhon Ratchasima, Khao Yai, Nam Tok Pakluai Mai (Orchid waterfall); Lab recording; date recorded: 6/16/1995 at 4:00:00; temperature: 20°C; recorder: Sony D7; microphone: Sennheiser stereo (small); tape: Sony DT-60; tape no.: D32:25.30-29.05; fi</div><div class="d">29 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51204">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51204">record</a></span>
+<div class="rec"><div class="t">iNat156866503 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Samuel Brown</span>
+<span>2023-04-26</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=657847">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/657847">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat162771318 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Samuel Brown</span>
+<span>2023-05-18</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=705666">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/705666">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat209056934 Ornebius aperta</div><div class="d"></div><div class="m">
+<span>Samuel Brown</span>
+<span>2024-04-18</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=980860">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/980860">record</a></span>
 </div></div>
 </div>
 <p class="more">464 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;subfamily=Mogoplistinae">audioBlast browser</a>.</p>
@@ -273,12 +295,12 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <li><a href="/taxon/mogoplistidae/"><span>Mogoplistidae</span> <span class="n">476</span></a></li>
 <li><a href="/taxon/grylloidea/"><span>Grylloidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/gryllidea/"><span>Gryllidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
@@ -297,8 +319,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><span>Mogoplistinae</span></td><td>Subfamily</td><td>Mogoplistidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/563">bio.acousti.ca/563</a></td></tr>
-<tr><td>iNaturalist</td><td><span>Mogoplistinae</span></td><td>Subfamily</td><td>Mogoplistidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523908">iNaturalist/523908</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><span>Mogoplistinae</span></td><td>Subfamily</td><td>Mogoplistidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/563">bio.acousti.ca/563</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><span>Mogoplistinae</span></td><td>Subfamily</td><td>Mogoplistidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523908">iNaturalist/523908</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

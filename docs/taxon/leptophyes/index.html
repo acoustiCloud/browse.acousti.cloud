@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leptophyes</title>
-<meta name="description" content="Leptophyes in audioBlast: 2,398 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Leptophyes</title>
+<meta name="description" content="Leptophyes in audioBlast: 3,289 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/leptophyes/">
-<meta property="og:title" content="Leptophyes">
-<meta property="og:description" content="Leptophyes in audioBlast: 2,398 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Leptophyes">
+<meta property="og:description" content="Leptophyes in audioBlast: 3,289 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NTGZ">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/phaneropterinae/"><span class="rk">Subfamily</span><span>Phaneropterinae</span></a><span class="sep">›</span><a href="/taxon/barbitistini/"><span class="rk">Tribe</span><span>Barbitistini</span></a></nav>
-<h1><i>Leptophyes</i></h1>
+<h1>Bioacoustics of <i>Leptophyes</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>2,398</b> <span>recordings</span></div>
+<div><b>3,289</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,143 +196,141 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36544">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36544">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">2,398 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">lab recording, 23.5°C, position-detection lamp (Racal with B&amp;K 1/2&quot;, tape no. RKG96-2)</div><div class="d">27 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51543">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51543">record</a></span>
+<p class="note">3,289 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">lab recording, 24°C, position-detection lamp, Racal with B&amp;K 1/4&quot; (tape no. R81-6)</div><div class="d">2 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51544">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51544">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:15 Leptophyes albovittata (432)</div><div class="d">254 s</div><div class="m">
+<div class="rec"><div class="t">lab recording, 26°C, Kenwood KX880HX with AKG D202 (S-MES90, tape no. KW32:20.00-21.00; filter: microphone filter below 100 Hz)</div><div class="d">4 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51545">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51545">record</a></span>
+</div></div>
+<div class="rec"><div class="t">415:11 Leptophyes boscii (540a)</div><div class="d">373 s</div><div class="m">
 <span>W. J. Reynolds</span>
-<span>1981-11-02</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9187">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9187">record</a></span>
+<span>1984-08-01</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9406">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9406">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:16 Leptophyes albovittata (432b)</div><div class="d">96 s</div><div class="m">
+<div class="rec"><div class="t">415:12 Leptophyes boscii (540b)</div><div class="d">172 s</div><div class="m">
 <span>W. J. Reynolds</span>
-<span>1981-11-02</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9188">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9188">record</a></span>
+<span>1984-08-01</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9407">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9407">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:17 Leptophyes albovittata (432c)</div><div class="d">51 s</div><div class="m">
+<div class="rec"><div class="t">416:4 Leptophyes boscii(542a)</div><div class="d">290 s</div><div class="m">
 <span>W. J. Reynolds</span>
-<span>1981-11-02</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9189">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9189">record</a></span>
+<span>1984-08-03</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9411">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9411">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:18 Leptophyes albovittata (433)</div><div class="d">149 s</div><div class="m">
+<div class="rec"><div class="t">416:5 Leptophyes boscii(542b)</div><div class="d">53 s</div><div class="m">
 <span>W. J. Reynolds</span>
-<span>1981-09-02</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9190">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9190">record</a></span>
+<span>1984-08-03</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9412">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9412">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:19 Leptophyes albovittata (433b)</div><div class="d">101 s</div><div class="m">
+<div class="rec"><div class="t">416:6 Leptophyes boscii(542c)</div><div class="d">121 s</div><div class="m">
 <span>W. J. Reynolds</span>
-<span>1981-09-02</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9191">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9191">record</a></span>
+<span>1984-08-03</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9413">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9413">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:22 Leptophyes albovittata (435)</div><div class="d">132 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1981-09-09</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9194">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9194">record</a></span>
+<div class="rec"><div class="t">XC967684 Leptophyes boscii - calling song</div><div class="d">32 s</div><div class="m">
+<span>Julien Barataud</span>
+<span>2024-09-01</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=967684">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/967684">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:23 Leptophyes albovittata (435b)</div><div class="d">131 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1981-09-09</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9195">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9195">record</a></span>
+<div class="rec"><div class="t">XC967680 Leptophyes boscii - calling song</div><div class="d">86 s</div><div class="m">
+<span>Julien Barataud</span>
+<span>2024-08-24</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=967680">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/967680">record</a></span>
 </div></div>
-<div class="rec"><div class="t">401:24 Leptophyes albovittata (435c)</div><div class="d">75 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1981-09-09</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9196">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9196">record</a></span>
-</div></div>
-<div class="rec"><div class="t">401:25 Leptophyes albovittata (436)</div><div class="d">116 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1981-09-10</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9197">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9197">record</a></span>
-</div></div>
-<div class="rec"><div class="t">401:26 Leptophyes albovittata (436b)</div><div class="d">178 s</div><div class="m">
-<span>W. J. Reynolds</span>
-<span>1981-09-10</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=9198">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/9198">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC967673 Striped Bush-cricket (Leptophyes albovittata) - calling song</div><div class="d">66 s</div><div class="m">
+<div class="rec"><div class="t">XC967677 Leptophyes boscii - calling song</div><div class="d">72 s</div><div class="m">
 <span>Julien Barataud</span>
 <span>2021-08-05</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=967673">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/967673">record</a></span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=967677">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/967677">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC967688 Leptophyes boscii - calling song</div><div class="d">72 s</div><div class="m">
+<span>Julien Barataud</span>
+<span>2021-07-31</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=967688">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/967688">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC967687 Leptophyes boscii - calling song</div><div class="d">57 s</div><div class="m">
+<span>Julien Barataud</span>
+<span>2021-07-31</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=967687">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/967687">record</a></span>
 </div></div>
 </div>
-<p class="more">2,386 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Leptophyes">audioBlast browser</a>.</p>
+<p class="more">3,277 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Leptophyes">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/barbitistini/"><span>Barbitistini</span> <span class="n">9,221</span></a></li>
-<li><a href="/taxon/phaneropterinae/"><span>Phaneropterinae</span> <span class="n">16,099</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/barbitistini/"><span>Barbitistini</span> <span class="n">9,224</span></a></li>
+<li><a href="/taxon/phaneropterinae/"><span>Phaneropterinae</span> <span class="n">16,141</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/leptophyes-albovittata/"><i>Leptophyes albovittata</i> <span class="n">150</span></a></li>
-<li><a href="/taxon/leptophyes-discoidalis/"><i>Leptophyes discoidalis</i> <span class="n">48</span></a></li>
+<li><a href="/taxon/leptophyes-albovittata/"><i>Leptophyes albovittata</i> <span class="n">225</span></a></li>
+<li><a href="/taxon/leptophyes-discoidalis/"><i>Leptophyes discoidalis</i> <span class="n">72</span></a></li>
 <li><a href="/taxon/leptophyes-intermedia/"><i>Leptophyes intermedia</i> <span class="n">2</span></a></li>
-<li><a href="/taxon/leptophyes-laticauda/"><i>Leptophyes laticauda</i> <span class="n">663</span></a></li>
-<li><a href="/taxon/leptophyes-lisae/"><i>Leptophyes lisae</i> <span class="n">78</span></a></li>
-<li><a href="/taxon/leptophyes-punctatissima/"><i>Leptophyes punctatissima</i> <span class="n">1,275</span></a></li>
-<li><a href="/taxon/leptophyes-sicula/"><i>Leptophyes sicula</i> <span class="n">54</span></a></li>
-<li><a href="/taxon/leptophyes-boscii/"><i>Leptophyes boscii</i> <span class="n">128</span></a></li>
+<li><a href="/taxon/leptophyes-laticauda/"><i>Leptophyes laticauda</i> <span class="n">884</span></a></li>
+<li><a href="/taxon/leptophyes-lisae/"><i>Leptophyes lisae</i> <span class="n">117</span></a></li>
+<li><a href="/taxon/leptophyes-punctatissima/"><i>Leptophyes punctatissima</i> <span class="n">1,700</span></a></li>
+<li><a href="/taxon/leptophyes-sicula/"><i>Leptophyes sicula</i> <span class="n">81</span></a></li>
+<li><a href="/taxon/leptophyes-boscii/"><i>Leptophyes boscii</i> <span class="n">192</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/ancistrura/"><i>Ancistrura</i> <span class="n">244</span></a></li>
-<li><a href="/taxon/andreiniimon/"><i>Andreiniimon</i> <span class="n">102</span></a></li>
-<li><a href="/taxon/barbitistes/"><i>Barbitistes</i> <span class="n">2,093</span></a></li>
-<li><a href="/taxon/isophya/"><i>Isophya</i> <span class="n">2,562</span></a></li>
-<li><a href="/taxon/metaplastes/"><i>Metaplastes</i> <span class="n">498</span></a></li>
-<li><a href="/taxon/poecilimon/"><i>Poecilimon</i> <span class="n">796</span></a></li>
-<li><a href="/taxon/polysarcus/"><i>Polysarcus</i> <span class="n">579</span></a></li>
+<li><a href="/taxon/ancistrura/"><i>Ancistrura</i> <span class="n">366</span></a></li>
+<li><a href="/taxon/andreiniimon/"><i>Andreiniimon</i> <span class="n">153</span></a></li>
+<li><a href="/taxon/barbitistes/"><i>Barbitistes</i> <span class="n">2,932</span></a></li>
+<li><a href="/taxon/isophya/"><i>Isophya</i> <span class="n">4,136</span></a></li>
+<li><a href="/taxon/metaplastes/"><i>Metaplastes</i> <span class="n">758</span></a></li>
+<li><a href="/taxon/poecilimon/"><i>Poecilimon</i> <span class="n">3,528</span></a></li>
+<li><a href="/taxon/polysarcus/"><i>Polysarcus</i> <span class="n">774</span></a></li>
 </ul>
 </div>
 </div></div></section>
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>iNaturalist</td><td><i>Leptophyes</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/131036">iNaturalist/131036</a></td></tr>
-<tr><td>bio.acousti.ca</td><td><i>Leptophyes</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/170">bio.acousti.ca/170</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><i>Leptophyes</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/131036">iNaturalist/131036</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Leptophyes</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/170">bio.acousti.ca/170</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

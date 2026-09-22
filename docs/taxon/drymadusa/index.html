@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Drymadusa</title>
-<meta name="description" content="Drymadusa in audioBlast: 49 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Drymadusa</title>
+<meta name="description" content="Drymadusa in audioBlast: 65 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/drymadusa/">
-<meta property="og:title" content="Drymadusa">
-<meta property="og:description" content="Drymadusa in audioBlast: 49 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Drymadusa">
+<meta property="og:description" content="Drymadusa in audioBlast: 65 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NR3P">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/tettigoniinae/"><span class="rk">Subfamily</span><span>Tettigoniinae</span></a><span class="sep">›</span><a href="/taxon/drymadusini/"><span class="rk">Tribe</span><span>Drymadusini</span></a></nav>
-<h1><i>Drymadusa</i></h1>
+<h1>Bioacoustics of <i>Drymadusa</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>49</b> <span>recordings</span></div>
+<div><b>65</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,128 +196,124 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35431">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35431">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">49 in audioBlast.</p><div class="recs">
+<p class="note">65 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">lab recording, 30/9/1981, 22°C, position-detection lamp (Racal with B&amp;K 1/2&quot; or 1/4&quot;, tape no. R81-8, series of single chirps)</div><div class="d">14 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51187">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51187">record</a></span>
+</div></div>
+<div class="rec"><div class="t">field recording, 20/8/1981, 22°C (Uher 4400IC, tape no. U26/81g)</div><div class="d">23 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51188">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51188">record</a></span>
+</div></div>
 <div class="rec"><div class="t">569:16 Drymadusa dorsalis (715r3)</div><div class="d">65 s</div><div class="m">
 <span>Fer Willemse</span>
 <span>1988-08-09</span>
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10070">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10070">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC885799 Drymadusa dorsalis - calling song</div><div class="d">17 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>2011-08-07</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=885799">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/885799">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866725 Drymadusa dorsalis - calling song</div><div class="d">37 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-09-27</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866725">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866725">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866724 Drymadusa dorsalis - calling song</div><div class="d">27 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-09-17</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866724">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866724">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866723 Drymadusa dorsalis - calling song</div><div class="d">12 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-09-15</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866723">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866723">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866722 Drymadusa dorsalis - calling song</div><div class="d">17 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-09-15</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866722">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866722">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866721 Drymadusa dorsalis - calling song</div><div class="d">20 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-08-20</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866721">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866721">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866720 Drymadusa dorsalis - calling song</div><div class="d">33 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-08-20</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866720">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866720">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866719 Drymadusa dorsalis - calling song</div><div class="d">29 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-08-20</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866719">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866719">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC866718 Drymadusa dorsalis - calling song</div><div class="d">15 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-08-20</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866718">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/866718">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC866717 Drymadusa dorsalis - calling song</div><div class="d">31 s</div><div class="m">
-<span>K.-G. Heller</span>
-<span>1981-09-30</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866717">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/866717">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC866716 Drymadusa dorsalis - calling song</div><div class="d">87 s</div><div class="m">
-<span>K.-G. Heller</span>
-<span>1981-09-30</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=866716">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/866716">record</a></span>
-</div></div>
 </div>
-<p class="more">37 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Drymadusa">audioBlast browser</a>.</p>
+<p class="more">53 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Drymadusa">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
 <li><a href="/taxon/drymadusini/"><span>Drymadusini</span> <span class="n">107</span></a></li>
-<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,430</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/tettigoniinae/"><span>Tettigoniinae</span> <span class="n">38,707</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/drymadusa-dorsalis/"><i>Drymadusa dorsalis</i> <span class="n">49</span></a></li>
+<li><a href="/taxon/drymadusa-dorsalis/"><i>Drymadusa dorsalis</i> <span class="n">65</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/anadrymadusa/"><i>Anadrymadusa</i> <span class="n">1</span></a></li>
-<li><a href="/taxon/atlanticus/"><i>Atlanticus</i> <span class="n">33</span></a></li>
+<li><a href="/taxon/anadrymadusa/"><i>Anadrymadusa</i> <span class="n">47</span></a></li>
+<li><a href="/taxon/atlanticus/"><i>Atlanticus</i> <span class="n">39</span></a></li>
 <li><a href="/taxon/lithodusa/"><i>Lithodusa</i> <span class="n">4</span></a></li>
 <li><a href="/taxon/novadrymadusa/"><i>Novadrymadusa</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/paradrymadusa/"><i>Paradrymadusa</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/paradrymadusa/"><i>Paradrymadusa</i> <span class="n">18</span></a></li>
 <li><a href="/taxon/paratlanticus/"><i>Paratlanticus</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/scotodrymadusa/"><i>Scotodrymadusa</i> <span class="n">4</span></a></li>
 <li><a href="/taxon/uvarovina/"><i>Uvarovina</i> <span class="n">2</span></a></li>
@@ -312,8 +323,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>iNaturalist</td><td><i>Drymadusa</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/766521">iNaturalist/766521</a></td></tr>
-<tr><td>bio.acousti.ca</td><td><i>Drymadusa</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/521">bio.acousti.ca/521</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><i>Drymadusa</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/766521">iNaturalist/766521</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Drymadusa</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/521">bio.acousti.ca/521</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

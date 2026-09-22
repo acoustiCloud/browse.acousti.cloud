@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phyllomimini</title>
+<title>Bioacoustics of Phyllomimini</title>
 <meta name="description" content="Phyllomimini in audioBlast: 102 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/phyllomimini/">
-<meta property="og:title" content="Phyllomimini">
+<meta property="og:title" content="Bioacoustics of Phyllomimini">
 <meta property="og:description" content="Phyllomimini in audioBlast: 102 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8PTFW">
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,7 +182,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/pseudophyllinae/"><span class="rk">Subfamily</span><span>Pseudophyllinae</span></a><span class="sep">›</span><a href="/taxon/pseudophylliti/"><span class="rk">Supertribe</span><span>Pseudophylliti</span></a></nav>
-<h1><span>Phyllomimini</span></h1>
+<h1>Bioacoustics of <span>Phyllomimini</span></h1>
 <p class="rank">Tribe</p>
 </div></header>
 <div class="glance"><div class="wrap">
@@ -182,88 +197,85 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36130">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/36130">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
 <p class="note">102 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">598:16 Phyllozelus sp. (671r16)</div><div class="d">69 s</div><div class="m">
+<span>1986-02-23</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10998">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10998">record</a></span>
+</div></div>
+<div class="rec"><div class="t">593:10 Phyllomimus ?inversus (831r1)</div><div class="d">166 s</div><div class="m">
+<span>1991-11-22</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10926">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10926">record</a></span>
+</div></div>
+<div class="rec"><div class="t">593:11 Phyllomimus ?inversus (831r2)</div><div class="d">101 s</div><div class="m">
+<span>1991-11-27</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10927">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10927">record</a></span>
+</div></div>
 <div class="rec"><div class="t">field recording, 12/2/1989 at 20:30 h, 24°C (Sony WM-D3, tape: TDK SA-X90 IECII/Type II, tape no. S1/89A)</div><div class="d">6 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=50997">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/50997">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874663 Chondroderella borneensis - calling song</div><div class="d">16 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1989-02-12</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874663">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874663">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874662 Chondroderella borneensis - calling song</div><div class="d">78 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1989-02-12</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874662">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874662">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874661 Chondroderella borneensis - calling song</div><div class="d">6 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1989-02-12</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874661">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874661">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874660 Chondroderella borneensis - calling song</div><div class="d">33 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1981-03-26</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874660">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874660">record</a></span>
 </div></div>
-<div class="rec"><div class="t">Indonesia, Java, Cibodas [Tjibodas]; Lab recording; date recorded: 4/26/1993; temperature: 25°C; light: dark; recorder: Aiwa DAT; microphone: Sennheiser stereo (small); tape: Sony DT-60; tape no.: D21:54.50-1.01.48.</div><div class="d">33 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51670">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51670">record</a></span>
+<div class="rec"><div class="t">field recording at 20:30 h, 27°C (estimated), 2 individuals duetting (Uher 4200IC, tape no. 22/81r)</div><div class="d">18 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52124">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52124">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC874136 Mioacris javana - calling song</div><div class="d">399 s</div><div class="m">
-<span>S. Ingrisch</span>
-<span>1993-04-26</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874136">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/874136">record</a></span>
+<div class="rec"><div class="t">field recording. 23°C (Sony WM-D3, tape: TDK SA-X90 IECII/TypeII, tape no. S1/89A)</div><div class="d">13 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52125">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52125">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC874135 Mioacris javana - calling song</div><div class="d">134 s</div><div class="m">
-<span>S. Ingrisch</span>
-<span>1993-04-24</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874135">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/874135">record</a></span>
+<div class="rec"><div class="t">XC875155 Promeca perakana - calling song</div><div class="d">23 s</div><div class="m">
+<span>K.-G. Heller</span>
+<span>1989-02-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=875155">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/875155">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC873332 Mioacris javana - calling song</div><div class="d">399 s</div><div class="m">
-<span>S. Ingrisch</span>
-<span>1993-04-26</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=873332">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/873332">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC873331 Mioacris javana - calling song</div><div class="d">134 s</div><div class="m">
-<span>S. Ingrisch</span>
-<span>1993-04-24</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=873331">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/873331">record</a></span>
-</div></div>
-<div class="rec"><div class="t">593:10 Phyllomimus ?inversus (831r1)</div><div class="d">166 s</div><div class="m">
-<span>1991-11-22</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10926">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10926">record</a></span>
-</div></div>
-<div class="rec"><div class="t">593:11 Phyllomimus ?inversus (831r2)</div><div class="d">101 s</div><div class="m">
-<span>1991-11-27</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=10927">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/10927">record</a></span>
+<div class="rec"><div class="t">XC875154 Promeca perakana - calling song</div><div class="d">23 s</div><div class="m">
+<span>K.-G. Heller</span>
+<span>1989-02-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=875154">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/875154">record</a></span>
 </div></div>
 </div>
 <p class="more">90 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;tribe=Phyllomimini">audioBlast browser</a>.</p>
@@ -273,16 +285,16 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <div><h3>Higher classification</h3>
 <ul>
 <li><a href="/taxon/pseudophylliti/"><span>Pseudophylliti</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/pseudophyllinae/"><span>Pseudophyllinae</span> <span class="n">3,763</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/pseudophyllinae/"><span>Pseudophyllinae</span> <span class="n">3,792</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
@@ -290,13 +302,13 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <ul>
 <li><a href="/taxon/acauloplacella/"><i>Acauloplacella</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/acauloplax/"><i>Acauloplax</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/chondroderella/"><i>Chondroderella</i> <span class="n">10</span></a></li>
-<li><a href="/taxon/mioacris/"><i>Mioacris</i> <span class="n">10</span></a></li>
-<li><a href="/taxon/phyllomimus/"><i>Phyllomimus</i> <span class="n">11</span></a></li>
+<li><a href="/taxon/chondroderella/"><i>Chondroderella</i> <span class="n">15</span></a></li>
+<li><a href="/taxon/mioacris/"><i>Mioacris</i> <span class="n">15</span></a></li>
+<li><a href="/taxon/phyllomimus/"><i>Phyllomimus</i> <span class="n">52</span></a></li>
 <li><a href="/taxon/phyllozelus/"><i>Phyllozelus</i> <span class="n">1</span></a></li>
-<li><a href="/taxon/promeca/"><i>Promeca</i> <span class="n">56</span></a></li>
+<li><a href="/taxon/promeca/"><i>Promeca</i> <span class="n">84</span></a></li>
 <li><a href="/taxon/stenampyx/"><i>Stenampyx</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/tympanophyllum/"><i>Tympanophyllum</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/tympanophyllum/"><i>Tympanophyllum</i> <span class="n">26</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
@@ -315,8 +327,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>iNaturalist</td><td><span>Phyllomimini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523197">iNaturalist/523197</a></td></tr>
-<tr><td>bio.acousti.ca</td><td><span>Phyllomimini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1212">bio.acousti.ca/1212</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><span>Phyllomimini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523197">iNaturalist/523197</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><span>Phyllomimini</span></td><td>Tribe</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1212">bio.acousti.ca/1212</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Locustini</title>
+<title>Bioacoustics of Locustini</title>
 <meta name="description" content="Locustini in audioBlast: 159 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/locustini/">
-<meta property="og:title" content="Locustini">
+<meta property="og:title" content="Bioacoustics of Locustini">
 <meta property="og:description" content="Locustini in audioBlast: 159 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8PT93">
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,7 +182,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/caelifera/"><span class="rk">Suborder</span><span>Caelifera</span></a><span class="sep">›</span><a href="/taxon/acrididea/"><span class="rk">Infraorder</span><span>Acrididea</span></a><span class="sep">›</span><a href="/taxon/acridoidea/"><span class="rk">Superfamily</span><span>Acridoidea</span></a><span class="sep">›</span><a href="/taxon/acrididae/"><span class="rk">Family</span><span>Acrididae</span></a><span class="sep">›</span><a href="/taxon/oedipodinae/"><span class="rk">Subfamily</span><span>Oedipodinae</span></a></nav>
-<h1><span>Locustini</span></h1>
+<h1>Bioacoustics of <span>Locustini</span></h1>
 <p class="rank">Tribe</p>
 </div></header>
 <div class="glance"><div class="wrap">
@@ -176,7 +191,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 </div></div>
 <section><div class="wrap"><h2>Account</h2>
 <p class="note">What the sources say about this taxon, as written.</p><div class="prose">
-<p class="topic">behaviour · bio.acousti.ca</p><p>They rub a smooth stridulatory keel on the inner side of the hind femur again a raised, toothed strodulatory vein in the medial area of the fore wing. Well-defined courtship songs are absent.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47504">this account</a> <a href="https://bio.acousti.ca/node/47504">at bio.acousti.ca</a></p>
+<p class="topic">behaviour · <span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></p><p>They rub a smooth stridulatory keel on the inner side of the hind femur again a raised, toothed strodulatory vein in the medial area of the fore wing. Well-defined courtship songs are absent.</p><p class="src"><a href="https://api.audioblast.org/description/bio.acousti.ca/47504">this account</a> <a href="https://bio.acousti.ca/node/47504">at bio.acousti.ca</a></p>
 </div></div></section>
 <section><div class="wrap"><h2>Acoustic traits</h2>
 <p class="note">1 measurements across 1 traits. Each name links to its term in the audioBlast vocabulary.</p><div class="traits">
@@ -185,92 +200,94 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-song-presence"><td>Song (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32832">Absent</a></td><td>Courtship Call</td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-song-presence"><td>Song (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/32832">Absent</a></td><td>Courtship Call</td><td></td><td></td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
 <p class="note">159 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">598:36 Gastrimagus marmoratus (671r36)</div><div class="d">228 s</div><div class="m">
-<span>E. Sismondo</span>
-<span>1986-11-09</span>
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=11018">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/11018">record</a></span>
+<div class="rec"><div class="t">XC1175370 Rattle Grasshopper (Psophus stridulus) - flight song</div><div class="d">187 s</div><div class="m">
+<span>Ulf Elman</span>
+<span>2026-09-01</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1175370">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1175370">record</a></span>
 </div></div>
-<div class="rec"><div class="t">Locusta migratoria</div><div class="d">50 s</div><div class="m">
-<span>bio.acousti.ca</span>
-<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=52504">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/52504">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1150252 Locusta migratoria - calling song</div><div class="d">39 s</div><div class="m">
-<span>CESARE_BRIZIO</span>
-<span>2025-06-12</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1150252">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1150252">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1041137 Locusta migratoria - flight song</div><div class="d">10 s</div><div class="m">
-<span>Albert Lastukhin</span>
-<span>2023-09-08</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1041137">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1041137">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1054157 Locusta migratoria - wings flapping</div><div class="d">2 s</div><div class="m">
+<div class="rec"><div class="t">XC1039499 Rattle Grasshopper (Psophus stridulus) - wing rattling</div><div class="d">2 s</div><div class="m">
 <span>Cedric Mroczko</span>
-<span>2025-11-07</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1054157">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1054157">record</a></span>
+<span>2025-09-06</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1039499">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1039499">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC994498 Locusta migratoria - wings flapping</div><div class="d">18 s</div><div class="m">
-<span>Gautier Laurent</span>
-<span>2025-04-23</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=994498">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/994498">record</a></span>
-</div></div>
-<div class="rec"><div class="t">XC1039582 Locusta migratoria - wing flaps, nuptial flight</div><div class="d">2 s</div><div class="m">
+<div class="rec"><div class="t">XC1039496 Rattle Grasshopper (Psophus stridulus) - wing rattling</div><div class="d">2 s</div><div class="m">
 <span>Cedric Mroczko</span>
-<span>2025-09-07</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1039582">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1039582">record</a></span>
+<span>2025-09-06</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1039496">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1039496">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC920632 Locusta migratoria - courtship song, flight song</div><div class="d">12 s</div><div class="m">
-<span>Rob Felix</span>
-<span>2024-07-10</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=920632">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/920632">record</a></span>
+<div class="rec"><div class="t">XC495962 Rattle Grasshopper (Psophus stridulus) - calling song</div><div class="d">25 s</div><div class="m">
+<span>Robert Ekman</span>
+<span>2019-08-27</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=495962">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/495962">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC833954 Locusta migratoria - wings flapping</div><div class="d">4 s</div><div class="m">
-<span>Albert Lastukhin</span>
-<span>2023-09-08</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=833954">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/833954">record</a></span>
+<div class="rec"><div class="t">XC934421 Rattle Grasshopper (Psophus stridulus) - crepitation</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-09-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=934421">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/934421">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC751900 Locusta migratoria - rivalry song</div><div class="d">53 s</div><div class="m">
+<div class="rec"><div class="t">XC931797 Rattle Grasshopper (Psophus stridulus) - wing rattling</div><div class="d">4 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-08-18</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=931797">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/931797">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC931796 Rattle Grasshopper (Psophus stridulus) - wing rattling</div><div class="d">5 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-08-18</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=931796">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/931796">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC853584 Rattle Grasshopper (Psophus stridulus) - calling song</div><div class="d">344 s</div><div class="m">
 <span>Baudewijn Odé</span>
-<span>2001-10-02</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=751900">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/751900">record</a></span>
+<span>2012-09-13</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=853584">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/853584">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC751745 Locusta migratoria - calling song, rivalry song</div><div class="d">86 s</div><div class="m">
+<div class="rec"><div class="t">XC853369 Rattle Grasshopper (Psophus stridulus) - calling song</div><div class="d">33 s</div><div class="m">
 <span>Baudewijn Odé</span>
-<span>1993-02-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=751745">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/751745">record</a></span>
+<span>2020-08-11</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=853369">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/853369">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC751744 Locusta migratoria - calling song, rivalry song</div><div class="d">4 s</div><div class="m">
+<div class="rec"><div class="t">XC849612 Rattle Grasshopper (Psophus stridulus) - calling song</div><div class="d">23 s</div><div class="m">
 <span>Baudewijn Odé</span>
-<span>1993-02-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=751744">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/751744">record</a></span>
+<span>2020-08-11</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=849612">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/849612">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC823560 Rattle Grasshopper (Psophus stridulus) - wing rattle</div><div class="d">3 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2023-08-14</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=823560">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/823560">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC929519 Rattle Grasshopper (Psophus stridulus) - crepitation</div><div class="d">51 s</div><div class="m">
+<span>Cedric Mroczko</span>
+<span>2024-08-12</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=929519">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/929519">record</a></span>
 </div></div>
 </div>
 <p class="more">147 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;tribe=Locustini">audioBlast browser</a>.</p>
@@ -279,22 +296,22 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/oedipodinae/"><span>Oedipodinae</span> <span class="n">922</span></a></li>
-<li><a href="/taxon/acrididae/"><span>Acrididae</span> <span class="n">14,370</span></a></li>
+<li><a href="/taxon/oedipodinae/"><span>Oedipodinae</span> <span class="n">1,136</span></a></li>
+<li><a href="/taxon/acrididae/"><span>Acrididae</span> <span class="n">15,834</span></a></li>
 <li><a href="/taxon/acridoidea/"><span>Acridoidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/acrididea/"><span>Acrididea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/caelifera/"><span>Caelifera</span> <span class="n">14,497</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/caelifera/"><span>Caelifera</span> <span class="n">15,973</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/gastrimargus/"><i>Gastrimargus</i> <span class="n">1</span></a></li>
+<li><a href="/taxon/gastrimargus/"><i>Gastrimargus</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/locustana/"><i>Locustana</i> <span class="n">2</span></a></li>
 <li><a href="/taxon/pternoscirta/"><i>Pternoscirta</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/locustina/"><span>Locustina</span> <span class="n">—</span></a></li>
@@ -305,21 +322,21 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <li><a href="/taxon/austroicetes/"><i>Austroicetes</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/chortoicetes/"><i>Chortoicetes</i> <span class="n">3</span></a></li>
 <li><a href="/taxon/leptopternis/"><i>Leptopternis</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/morphacris/"><i>Morphacris</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/morphacris/"><i>Morphacris</i> <span class="n">32</span></a></li>
 <li><a href="/taxon/promesosternus/"><i>Promesosternus</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/pycnostictus/"><i>Pycnostictus</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/bryodemini/"><span>Bryodemini</span> <span class="n">57</span></a></li>
-<li><a href="/taxon/oedipodini/"><span>Oedipodini</span> <span class="n">94</span></a></li>
-<li><a href="/taxon/trimerotropini/"><span>Trimerotropini</span> <span class="n">152</span></a></li>
+<li><a href="/taxon/bryodemini/"><span>Bryodemini</span> <span class="n">81</span></a></li>
+<li><a href="/taxon/oedipodini/"><span>Oedipodini</span> <span class="n">107</span></a></li>
+<li><a href="/taxon/trimerotropini/"><span>Trimerotropini</span> <span class="n">167</span></a></li>
 <li><a href="/taxon/acrotylini/"><span>Acrotylini</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arphiini/"><span>Arphiini</span> <span class="n">15</span></a></li>
-<li><a href="/taxon/chortophagini/"><span>Chortophagini</span> <span class="n">15</span></a></li>
-<li><a href="/taxon/epacromiini/"><span>Epacromiini</span> <span class="n">62</span></a></li>
+<li><a href="/taxon/chortophagini/"><span>Chortophagini</span> <span class="n">21</span></a></li>
+<li><a href="/taxon/epacromiini/"><span>Epacromiini</span> <span class="n">98</span></a></li>
 <li><a href="/taxon/machaerocerini/"><span>Machaerocerini</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/parapleurini/"><span>Parapleurini</span> <span class="n">312</span></a></li>
+<li><a href="/taxon/parapleurini/"><span>Parapleurini</span> <span class="n">422</span></a></li>
 <li><a href="/taxon/psinidiini/"><span>Psinidiini</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/sphingonotini/"><span>Sphingonotini</span> <span class="n">24</span></a></li>
-<li><a href="/taxon/trilophidiini/"><span>Trilophidiini</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/sphingonotini/"><span>Sphingonotini</span> <span class="n">32</span></a></li>
+<li><a href="/taxon/trilophidiini/"><span>Trilophidiini</span> <span class="n">4</span></a></li>
 <li><a href="/taxon/hippiscini/"><span>Hippiscini</span> <span class="n">3</span></a></li>
 </ul>
 </div>
@@ -327,8 +344,8 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><span>Locustini</span></td><td>Tribe</td><td>Acrididae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1149">bio.acousti.ca/1149</a></td></tr>
-<tr><td>iNaturalist</td><td><span>Locustini</span></td><td>Tribe</td><td>Acrididae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523483">iNaturalist/523483</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><span>Locustini</span></td><td>Tribe</td><td>Acrididae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1149">bio.acousti.ca/1149</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><span>Locustini</span></td><td>Tribe</td><td>Acrididae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523483">iNaturalist/523483</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

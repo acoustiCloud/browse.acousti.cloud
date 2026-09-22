@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sauromys</title>
+<title>Bioacoustics of Sauromys</title>
 <meta name="description" content="Sauromys in audioBlast: 4 recordings, 0 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/sauromys/">
-<meta property="og:title" content="Sauromys">
+<meta property="og:title" content="Bioacoustics of Sauromys">
 <meta property="og:description" content="Sauromys in audioBlast: 4 recordings, 0 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/7CSY">
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,7 +182,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/mammalia/"><span class="rk">Class</span><span>Mammalia</span></a><span class="sep">›</span><a href="/taxon/theria/"><span class="rk">Subclass</span><span>Theria</span></a><span class="sep">›</span><a href="/taxon/eutheria/"><span class="rk">Infraclass</span><span>Eutheria</span></a><span class="sep">›</span><a href="/taxon/chiroptera/"><span class="rk">Order</span><span>Chiroptera</span></a><span class="sep">›</span><a href="/taxon/yangochiroptera/"><span class="rk">Suborder</span><span>Yangochiroptera</span></a><span class="sep">›</span><a href="/taxon/vespertilionoidea/"><span class="rk">Superfamily</span><span>Vespertilionoidea</span></a><span class="sep">›</span><a href="/taxon/molossidae/"><span class="rk">Family</span><span>Molossidae</span></a><span class="sep">›</span><a href="/taxon/molossinae/"><span class="rk">Subfamily</span><span>Molossinae</span></a></nav>
-<h1><i>Sauromys</i></h1>
+<h1>Bioacoustics of <i>Sauromys</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
@@ -178,28 +193,28 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <div class="rec"><div class="t">iNat109297269 Roberts&#x27;s flat-headed bat (Sauromys petrophilus)</div><div class="d"></div><div class="m">
 <span>Berty van Hensbergen</span>
 <span>2022-03-12</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=377144">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/377144">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat260700705 Roberts&#x27;s flat-headed bat (Sauromys petrophilus)</div><div class="d"></div><div class="m">
 <span>Alex Rebelo</span>
 <span>2020-09-09</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1300592">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/1300592">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat109297269 Roberts&#x27;s flat-headed bat (Sauromys petrophilus)</div><div class="d"></div><div class="m">
 <span>Berty van Hensbergen</span>
 <span>2022-03-12</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=377144">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/377144">record</a></span>
 </div></div>
 <div class="rec"><div class="t">iNat260700705 Roberts&#x27;s flat-headed bat (Sauromys petrophilus)</div><div class="d"></div><div class="m">
 <span>Alex Rebelo</span>
 <span>2020-09-09</span>
-<span>iNaturalist</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
 <span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1300592">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/iNaturalist/1300592">record</a></span>
 </div></div>
@@ -209,20 +224,20 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/molossinae/"><span>Molossinae</span> <span class="n">977</span></a></li>
-<li><a href="/taxon/molossidae/"><span>Molossidae</span> <span class="n">1,491</span></a></li>
+<li><a href="/taxon/molossinae/"><span>Molossinae</span> <span class="n">3,355</span></a></li>
+<li><a href="/taxon/molossidae/"><span>Molossidae</span> <span class="n">3,966</span></a></li>
 <li><a href="/taxon/vespertilionoidea/"><span>Vespertilionoidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/yangochiroptera/"><span>Yangochiroptera</span> <span class="n">8,067</span></a></li>
-<li><a href="/taxon/chiroptera/"><span>Chiroptera</span> <span class="n">12,736</span></a></li>
+<li><a href="/taxon/yangochiroptera/"><span>Yangochiroptera</span> <span class="n">23,405</span></a></li>
+<li><a href="/taxon/chiroptera/"><span>Chiroptera</span> <span class="n">34,789</span></a></li>
 <li><a href="/taxon/eutheria/"><span>Eutheria</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/theria/"><span>Theria</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/mammalia/"><span>Mammalia</span> <span class="n">46,664</span></a></li>
+<li><a href="/taxon/mammalia/"><span>Mammalia</span> <span class="n">81,496</span></a></li>
 <li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
@@ -235,26 +250,26 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <ul>
 <li><a href="/taxon/chaerephon/"><i>Chaerephon</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/cheiromeles/"><i>Cheiromeles</i> <span class="n">22</span></a></li>
-<li><a href="/taxon/cynomops/"><i>Cynomops</i> <span class="n">9</span></a></li>
-<li><a href="/taxon/mormopterus/"><i>Mormopterus</i> <span class="n">3</span></a></li>
-<li><a href="/taxon/eumops/"><i>Eumops</i> <span class="n">97</span></a></li>
-<li><a href="/taxon/molossus/"><i>Molossus</i> <span class="n">73</span></a></li>
+<li><a href="/taxon/cynomops/"><i>Cynomops</i> <span class="n">26</span></a></li>
+<li><a href="/taxon/mormopterus/"><i>Mormopterus</i> <span class="n">5</span></a></li>
+<li><a href="/taxon/eumops/"><i>Eumops</i> <span class="n">110</span></a></li>
+<li><a href="/taxon/molossus/"><i>Molossus</i> <span class="n">339</span></a></li>
 <li><a href="/taxon/molossops/"><i>Molossops</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/mops/"><i>Mops</i> <span class="n">4</span></a></li>
-<li><a href="/taxon/nyctinomops/"><i>Nyctinomops</i> <span class="n">23</span></a></li>
-<li><a href="/taxon/promops/"><i>Promops</i> <span class="n">6</span></a></li>
-<li><a href="/taxon/tadarida/"><i>Tadarida</i> <span class="n">1,090</span></a></li>
+<li><a href="/taxon/mops/"><i>Mops</i> <span class="n">25</span></a></li>
+<li><a href="/taxon/nyctinomops/"><i>Nyctinomops</i> <span class="n">35</span></a></li>
+<li><a href="/taxon/promops/"><i>Promops</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/tadarida/"><i>Tadarida</i> <span class="n">4,790</span></a></li>
 <li><a href="/taxon/cabreramops/"><i>Cabreramops</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/neoplatymops/"><i>Neoplatymops</i> <span class="n">—</span></a></li>
 <li><a href="/taxon/ozimops/"><i>Ozimops</i> <span class="n">14</span></a></li>
-<li><a href="/taxon/austronomus/"><i>Austronomus</i> <span class="n">146</span></a></li>
+<li><a href="/taxon/austronomus/"><i>Austronomus</i> <span class="n">222</span></a></li>
 </ul>
 </div>
 </div></div></section>
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>iNaturalist</td><td><i>Sauromys</i></td><td>Genus</td><td>Molossidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/71914">iNaturalist/71914</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><i>Sauromys</i></td><td>Genus</td><td>Molossidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/71914">iNaturalist/71914</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

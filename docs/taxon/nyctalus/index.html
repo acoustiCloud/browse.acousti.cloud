@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nyctalus</title>
-<meta name="description" content="Nyctalus in audioBlast: 1,432 recordings, 0 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Nyctalus</title>
+<meta name="description" content="Nyctalus in audioBlast: 6,268 recordings, 0 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/nyctalus/">
-<meta property="og:title" content="Nyctalus">
-<meta property="og:description" content="Nyctalus in audioBlast: 1,432 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Nyctalus">
+<meta property="og:description" content="Nyctalus in audioBlast: 6,268 recordings, 0 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/63GBW">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,144 +182,143 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/mammalia/"><span class="rk">Class</span><span>Mammalia</span></a><span class="sep">›</span><a href="/taxon/theria/"><span class="rk">Subclass</span><span>Theria</span></a><span class="sep">›</span><a href="/taxon/eutheria/"><span class="rk">Infraclass</span><span>Eutheria</span></a><span class="sep">›</span><a href="/taxon/chiroptera/"><span class="rk">Order</span><span>Chiroptera</span></a><span class="sep">›</span><a href="/taxon/yangochiroptera/"><span class="rk">Suborder</span><span>Yangochiroptera</span></a><span class="sep">›</span><a href="/taxon/vespertilionoidea/"><span class="rk">Superfamily</span><span>Vespertilionoidea</span></a><span class="sep">›</span><a href="/taxon/vespertilionidae/"><span class="rk">Family</span><span>Vespertilionidae</span></a><span class="sep">›</span><a href="/taxon/vespertilioninae/"><span class="rk">Subfamily</span><span>Vespertilioninae</span></a><span class="sep">›</span><a href="/taxon/pipistrellini/"><span class="rk">Tribe</span><span>Pipistrellini</span></a></nav>
-<h1><i>Nyctalus</i></h1>
+<h1>Bioacoustics of <i>Nyctalus</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>1,432</b> <span>recordings</span></div>
+<div><b>6,268</b> <span>recordings</span></div>
 </div></div>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">1,432 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">iNat77796348 Giant Noctule (Nyctalus lasiopterus)</div><div class="d"></div><div class="m">
-<span>Sara Navarro</span>
-<span>2021-05-01</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=213911">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/213911">record</a></span>
+<p class="note">6,268 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">40 Noctule Bat Roost</div><div class="d">34 s</div><div class="m">
+<span>2016-03-13</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=12958">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/12958">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat294792446 Giant Noctule (Nyctalus lasiopterus)</div><div class="d"></div><div class="m">
-<span>Laine Romain</span>
-<span>2025-06-12</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1552610">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/1552610">record</a></span>
+<div class="rec"><div class="t">iNat854329 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
+<span>Donald Hobern</span>
+<span>2014-08-30</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1794">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/1794">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat386967199 Giant Noctule (Nyctalus lasiopterus)</div><div class="d"></div><div class="m">
-<span>Milan Pestalozzi</span>
-<span>2026-07-21</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=2097033">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/2097033">record</a></span>
+<div class="rec"><div class="t">iNat1738121 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
+<span>Donald Hobern</span>
+<span>2015-07-07</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=3655">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/3655">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat386967199 Giant Noctule (Nyctalus lasiopterus)</div><div class="d"></div><div class="m">
-<span>Milan Pestalozzi</span>
-<span>2026-07-21</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=2097031">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/2097031">record</a></span>
+<div class="rec"><div class="t">iNat28959773 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
+<span>Desmond Ney</span>
+<span>2019-07-12</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=43715">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/43715">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat397139757 Giant Noctule (Nyctalus lasiopterus)</div><div class="d"></div><div class="m">
-<span>Pedro Eça</span>
-<span>2026-08-25</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=2146008">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/2146008">record</a></span>
-</div></div>
-<div class="rec"><div class="t">iNat45749643 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45767892 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
-<span>2020-04-06</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87677">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/87677">record</a></span>
+<span>2020-04-07</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87749">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87749">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat45749643 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45767892 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
-<span>2020-04-06</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87679">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/87679">record</a></span>
+<span>2020-04-07</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87750">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87750">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat45786460 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45786459 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
 <span>2020-04-05</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87834">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/87834">record</a></span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87818">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87818">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat45786460 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45786459 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
 <span>2020-04-05</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87835">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/87835">record</a></span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87819">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87819">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat45787150 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45787151 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
 <span>2020-04-05</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87839">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/87839">record</a></span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87841">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87841">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat45787150 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45787151 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
 <span>2020-04-05</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87840">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/87840">record</a></span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87842">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87842">record</a></span>
 </div></div>
-<div class="rec"><div class="t">iNat46262528 Lesser Noctule (Nyctalus leisleri)</div><div class="d"></div><div class="m">
+<div class="rec"><div class="t">iNat45787594 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
 <span>jfgodeau</span>
-<span>2018-06-07</span>
-<span>iNaturalist</span>
-<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=90386">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/iNaturalist/90386">record</a></span>
+<span>2020-04-05</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87849">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87849">record</a></span>
+</div></div>
+<div class="rec"><div class="t">iNat45787594 Common Noctule (Nyctalus noctula)</div><div class="d"></div><div class="m">
+<span>jfgodeau</span>
+<span>2020-04-05</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=87850">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/87850">record</a></span>
 </div></div>
 </div>
-<p class="more">1,420 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Nyctalus">audioBlast browser</a>.</p>
+<p class="more">6,256 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Nyctalus">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/pipistrellini/"><span>Pipistrellini</span> <span class="n">4,382</span></a></li>
-<li><a href="/taxon/vespertilioninae/"><span>Vespertilioninae</span> <span class="n">6,477</span></a></li>
-<li><a href="/taxon/vespertilionidae/"><span>Vespertilionidae</span> <span class="n">9,649</span></a></li>
+<li><a href="/taxon/pipistrellini/"><span>Pipistrellini</span> <span class="n">12,622</span></a></li>
+<li><a href="/taxon/vespertilioninae/"><span>Vespertilioninae</span> <span class="n">17,873</span></a></li>
+<li><a href="/taxon/vespertilionidae/"><span>Vespertilionidae</span> <span class="n">26,945</span></a></li>
 <li><a href="/taxon/vespertilionoidea/"><span>Vespertilionoidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/yangochiroptera/"><span>Yangochiroptera</span> <span class="n">8,067</span></a></li>
-<li><a href="/taxon/chiroptera/"><span>Chiroptera</span> <span class="n">12,736</span></a></li>
+<li><a href="/taxon/yangochiroptera/"><span>Yangochiroptera</span> <span class="n">23,405</span></a></li>
+<li><a href="/taxon/chiroptera/"><span>Chiroptera</span> <span class="n">34,789</span></a></li>
 <li><a href="/taxon/eutheria/"><span>Eutheria</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/theria/"><span>Theria</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/mammalia/"><span>Mammalia</span> <span class="n">46,664</span></a></li>
+<li><a href="/taxon/mammalia/"><span>Mammalia</span> <span class="n">81,496</span></a></li>
 <li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
-<li><a href="/taxon/nyctalus-aviator/"><i>Nyctalus aviator</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/nyctalus-aviator/"><i>Nyctalus aviator</i> <span class="n">27</span></a></li>
 <li><a href="/taxon/nyctalus-azoreum/"><i>Nyctalus azoreum</i> <span class="n">8</span></a></li>
-<li><a href="/taxon/nyctalus-lasiopterus/"><i>Nyctalus lasiopterus</i> <span class="n">15</span></a></li>
-<li><a href="/taxon/nyctalus-noctula/"><i>Nyctalus noctula</i> <span class="n">972</span></a></li>
-<li><a href="/taxon/nyctalus-plancyi/"><i>Nyctalus plancyi</i> <span class="n">6</span></a></li>
-<li><a href="/taxon/nyctalus-leisleri/"><i>Nyctalus leisleri</i> <span class="n">429</span></a></li>
+<li><a href="/taxon/nyctalus-lasiopterus/"><i>Nyctalus lasiopterus</i> <span class="n">124</span></a></li>
+<li><a href="/taxon/nyctalus-noctula/"><i>Nyctalus noctula</i> <span class="n">4,224</span></a></li>
+<li><a href="/taxon/nyctalus-plancyi/"><i>Nyctalus plancyi</i> <span class="n">82</span></a></li>
+<li><a href="/taxon/nyctalus-leisleri/"><i>Nyctalus leisleri</i> <span class="n">1,803</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/pipistrellus/"><i>Pipistrellus</i> <span class="n">4,334</span></a></li>
+<li><a href="/taxon/pipistrellus/"><i>Pipistrellus</i> <span class="n">17,236</span></a></li>
 </ul>
 </div>
 </div></div></section>
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>iNaturalist</td><td><i>Nyctalus</i></td><td>Genus</td><td>Vespertilionidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/40570">iNaturalist/40570</a></td></tr>
-<tr><td>bio.acousti.ca</td><td><i>Nyctalus</i></td><td>Genus</td><td>Vespertilionidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1430">bio.acousti.ca/1430</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><i>Nyctalus</i></td><td>Genus</td><td>Vespertilionidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/40570">iNaturalist/40570</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Nyctalus</i></td><td>Genus</td><td>Vespertilionidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/1430">bio.acousti.ca/1430</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

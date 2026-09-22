@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Eneopterinae</title>
+<title>Bioacoustics of Eneopterinae</title>
 <meta name="description" content="Eneopterinae in audioBlast: 422 recordings, 2 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/eneopterinae/">
-<meta property="og:title" content="Eneopterinae">
+<meta property="og:title" content="Bioacoustics of Eneopterinae">
 <meta property="og:description" content="Eneopterinae in audioBlast: 422 recordings, 2 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NKVB">
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,7 +182,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/gryllidea/"><span class="rk">Infraorder</span><span>Gryllidea</span></a><span class="sep">›</span><a href="/taxon/grylloidea/"><span class="rk">Superfamily</span><span>Grylloidea</span></a><span class="sep">›</span><a href="/taxon/gryllidae/"><span class="rk">Family</span><span>Gryllidae</span></a></nav>
-<h1><span>Eneopterinae</span></h1>
+<h1>Bioacoustics of <span>Eneopterinae</span></h1>
 <p class="rank">Subfamily</p>
 </div></header>
 <div class="glance"><div class="wrap">
@@ -177,7 +192,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 </div></div>
 <section><div class="wrap"><h2>Account</h2>
 <p class="note">What the sources say about this taxon, as written.</p><div class="prose">
-<p class="topic">behaviour · bio.acousti.ca</p><p>Several hypotheses were previously proposed about the evolution of acoustic devices and signals, using the phylogeny previously reconstructed with the morphological char- acters only (Robillard and Desutter-Grandcolas, 2004a,b,c).
+<p class="topic">behaviour · <span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></p><p>Several hypotheses were previously proposed about the evolution of acoustic devices and signals, using the phylogeny previously reconstructed with the morphological char- acters only (Robillard and Desutter-Grandcolas, 2004a,b,c).
 
 In molecular and combined analyses, the mute species Swezwilderia bryani and Paranisitra longipes are never sister clades; despite the unstable position of Swezwilderia, the hypothesis of multiple and independent losses of acoustic communication (Alexander, 1962; Otte, 1992) is corroborated here in Eneopterinae. These losses however appear as direct evolutionary events, involving no intermediate state between functional acoustic devices and their loss. These results thus partly invalidate previous hypotheses about the loss of acoustic communication in crickets, generally considered as a sequential, regressive process (Alexander, 1962; Otte, 1992).
 
@@ -195,95 +210,91 @@ Further analyses of spectral components of the calling song also revealed a case
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35458">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
-<tr id="t-sound-production-method"><td>Sound Production Method</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/34796">Elytral Stridulation</a></td><td></td><td></td><td></td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35458">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
+<tr id="t-sound-production-method"><td>Sound Production Method</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/34796">Elytral Stridulation</a></td><td></td><td></td><td></td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
 <p class="note">422 in audioBlast.</p><div class="recs">
-<div class="rec"><div class="t">XC1092873 Agnotecous obscurus - calling song</div><div class="d">120 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-11-01</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092873">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092873">record</a></span>
+<div class="rec"><div class="t">iNat19053616 Mottled Bush Cricket (Eurepa marginipennis)</div><div class="d"></div><div class="m">
+<span>James Bailey</span>
+<span>2018-10-29</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=357518">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/357518">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092872 Agnotecous obscurus - calling song</div><div class="d">138 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-11-01</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092872">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092872">record</a></span>
+<div class="rec"><div class="t">iNat38724261 Mottled Bush Cricket (Eurepa marginipennis)</div><div class="d"></div><div class="m">
+<span>Reiner Richter</span>
+<span>2020-02-11</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=58018">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/58018">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092604 Agnotecous obscurus - calling song</div><div class="d">119 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2009-09-21</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092604">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092604">record</a></span>
+<div class="rec"><div class="t">iNat216121937 Mottled Bush Cricket (Eurepa marginipennis)</div><div class="d"></div><div class="m">
+<span>Enot Poluskuns</span>
+<span>2022-12-16</span>
+<span><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></span>
+<span><a href="https://view.audioblast.org/?source=iNaturalist&amp;id=1041343">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/iNaturalist/1041343">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092445 Agnotecous obscurus - calling song</div><div class="d">173 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092445">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092445">record</a></span>
+<div class="rec"><div class="t">Cardiodactylus novaeguineae</div><div class="d">28 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=53593">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/53593">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092443 Agnotecous obscurus - calling song</div><div class="d">137 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092443">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092443">record</a></span>
+<div class="rec"><div class="t">XC1146460 Sad cricket (Cardiodactylus novaeguineae) - calling song</div><div class="d">31 s</div><div class="m">
+<span>Marc Anderson</span>
+<span>2026-05-30</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1146460">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1146460">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092440 Agnotecous obscurus - calling song</div><div class="d">73 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092440">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092440">record</a></span>
+<div class="rec"><div class="t">マツムシ</div><div class="d">60 s</div><div class="m">
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
+<span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=17299">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/bio.acousti.ca/17299">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092439 Agnotecous obscurus - calling song</div><div class="d">70 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092439">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092439">record</a></span>
+<div class="rec"><div class="t">XC1173409 Xenogryllus marmoratus - calling song</div><div class="d">274 s</div><div class="m">
+<span>Ray Tsu 诸仁</span>
+<span>2026-08-18</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1173409">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1173409">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092417 Agnotecous obscurus - calling song</div><div class="d">137 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092417">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092417">record</a></span>
+<div class="rec"><div class="t">XC1047587 Xenogryllus marmoratus - calling song, juvenile call</div><div class="d">39 s</div><div class="m">
+<span>Dave Guo</span>
+<span>2025-09-09</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1047587">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1047587">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092416 Agnotecous obscurus - calling song</div><div class="d">79 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092416">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092416">record</a></span>
+<div class="rec"><div class="t">XC1047483 Xenogryllus marmoratus - calling song</div><div class="d">30 s</div><div class="m">
+<span>Dave Guo</span>
+<span>2025-09-04</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1047483">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1047483">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092414 Agnotecous obscurus - calling song</div><div class="d">121 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092414">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092414">record</a></span>
+<div class="rec"><div class="t">XC1047482 Xenogryllus marmoratus - calling song</div><div class="d">19 s</div><div class="m">
+<span>Dave Guo</span>
+<span>2025-09-04</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1047482">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1047482">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092412 Agnotecous obscurus - calling song</div><div class="d">118 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2010-12-11</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092412">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092412">record</a></span>
+<div class="rec"><div class="t">XC929483 Xenogryllus marmoratus - calling song</div><div class="d">158 s</div><div class="m">
+<span>Ray Tsu 诸仁</span>
+<span>2024-08-24</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=929483">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/929483">record</a></span>
 </div></div>
-<div class="rec"><div class="t">XC1092601 Agnotecous obscurus - calling song</div><div class="d">30 s</div><div class="m">
-<span>Tony Robillard</span>
-<span>2008-05-18</span>
-<span>xeno-canto</span>
-<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092601">listen ›</a></span>
-<span><a href="https://api.audioblast.org/recording/xeno-canto/1092601">record</a></span>
+<div class="rec"><div class="t">XC822006 Xenogryllus marmoratus - calling song</div><div class="d">17 s</div><div class="m">
+<span>Ray Tsu 诸仁</span>
+<span>2023-08-12</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=822006">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/822006">record</a></span>
 </div></div>
 </div>
 <p class="more">410 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;subfamily=Eneopterinae">audioBlast browser</a>.</p>
@@ -292,15 +303,15 @@ Further analyses of spectral components of the calling song also revealed a case
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
-<li><a href="/taxon/gryllidae/"><span>Gryllidae</span> <span class="n">17,313</span></a></li>
+<li><a href="/taxon/gryllidae/"><span>Gryllidae</span> <span class="n">17,445</span></a></li>
 <li><a href="/taxon/grylloidea/"><span>Grylloidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/gryllidea/"><span>Gryllidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
@@ -315,10 +326,10 @@ Further analyses of spectral components of the calling song also revealed a case
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/gryllomorphinae/"><span>Gryllomorphinae</span> <span class="n">555</span></a></li>
+<li><a href="/taxon/gryllomorphinae/"><span>Gryllomorphinae</span> <span class="n">559</span></a></li>
 <li><a href="/taxon/itarinae/"><span>Itarinae</span> <span class="n">3</span></a></li>
 <li><a href="/taxon/landrevinae/"><span>Landrevinae</span> <span class="n">11</span></a></li>
-<li><a href="/taxon/gryllinae/"><span>Gryllinae</span> <span class="n">8,996</span></a></li>
+<li><a href="/taxon/gryllinae/"><span>Gryllinae</span> <span class="n">9,069</span></a></li>
 </ul>
 </div>
 </div></div></section>
@@ -330,8 +341,8 @@ Further analyses of spectral components of the calling song also revealed a case
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><span>Eneopterinae</span></td><td>Subfamily</td><td>Gryllidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/2367">bio.acousti.ca/2367</a></td></tr>
-<tr><td>iNaturalist</td><td><span>Eneopterinae</span></td><td>Subfamily</td><td>Gryllidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523729">iNaturalist/523729</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><span>Eneopterinae</span></td><td>Subfamily</td><td>Gryllidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/2367">bio.acousti.ca/2367</a></td></tr>
+<tr><td><span class="srcof" title="iNaturalist"><span class="mk mono" aria-hidden="true">iN</span>iNaturalist</span></td><td><span>Eneopterinae</span></td><td>Subfamily</td><td>Gryllidae</td><td class="n"><a href="https://api.audioblast.org/taxon/iNaturalist/523729">iNaturalist/523729</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>

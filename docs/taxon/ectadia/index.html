@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ectadia</title>
-<meta name="description" content="Ectadia in audioBlast: 104 recordings, 1 trait measurements, and the sources that hold them.">
+<title>Bioacoustics of Ectadia</title>
+<meta name="description" content="Ectadia in audioBlast: 156 recordings, 1 trait measurements, and the sources that hold them.">
 <link rel="canonical" href="https://browse.acousti.cloud/taxon/ectadia/">
-<meta property="og:title" content="Ectadia">
-<meta property="og:description" content="Ectadia in audioBlast: 104 recordings, 1 trait measurements, and the sources that hold them.">
+<meta property="og:title" content="Bioacoustics of Ectadia">
+<meta property="og:description" content="Ectadia in audioBlast: 156 recordings, 1 trait measurements, and the sources that hold them.">
 <meta property="og:type" content="article">
 <link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NR66">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +56,21 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -167,11 +182,11 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <body>
 <header class="masthead"><div class="wrap">
 <nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/phaneropterinae/"><span class="rk">Subfamily</span><span>Phaneropterinae</span></a><span class="sep">›</span><a href="/taxon/ducetiini/"><span class="rk">Tribe</span><span>Ducetiini</span></a></nav>
-<h1><i>Ectadia</i></h1>
+<h1>Bioacoustics of <i>Ectadia</i></h1>
 <p class="rank">Genus</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>104</b> <span>recordings</span></div>
+<div><b>156</b> <span>recordings</span></div>
 <div><b>1</b> <span>trait measurements</span></div>
 </div></div>
 <section><div class="wrap"><h2>Acoustic traits</h2>
@@ -181,124 +196,124 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <h3 class="sub">Measurements</h3>
 <p class="note">Every value behind the summaries above. Each links to its own record in the API, which carries the reference it was taken from.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Trait</th><th>Value</th><th>Call</th><th>Part</th><th>Sex</th><th>Temp.</th><th>Source</th></tr></thead><tbody>
-<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35443">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td>bio.acousti.ca</td></tr>
+<tr id="t-crepitation-presence"><td>Crepitation (Presence)</td><td class="n"><a href="https://api.audioblast.org/trait/bio.acousti.ca/35443">Absent</a></td><td></td><td></td><td>Male; Female</td><td class="n"></td><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td></tr>
 </tbody></table></div>
 </div></section>
 <section><div class="wrap"><h2>Recordings</h2>
-<p class="note">104 in audioBlast.</p><div class="recs">
+<p class="note">156 in audioBlast.</p><div class="recs">
 <div class="rec"><div class="t">lab recording, 25/10/1995, 22°C, position-detection lamp (Racal with B &amp; K 1/2&quot;, tape no. KG95-1, microphone distance of ECDU9501 ca. 1 m)</div><div class="d">26 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51199">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51199">record</a></span>
 </div></div>
 <div class="rec"><div class="t">lab recording, 24/4/1995, 20.5°C, darkness (Kenwood KX880HX with Sennheiser BlackFire541, tape: TDK MA-X90, tape no. KW81:04.00-04.40)</div><div class="d">18 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51200">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51200">record</a></span>
 </div></div>
 <div class="rec"><div class="t">lab recording, 6/5/1995 at 3:30 h, 23°C, darkness (Sony D7 with small Sennheiser stereo, tape: Sony DT-60, tape no. D31:57.00-58.25, microphone filter below 100 Hz)</div><div class="d">26 s</div><div class="m">
-<span>bio.acousti.ca</span>
+<span><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></span>
 <span><a href="https://view.audioblast.org/?source=bio.acousti.ca&amp;id=51201">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/bio.acousti.ca/51201">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874834 Ectadia fulva - calling song</div><div class="d">107 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-10-28</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874834">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874834">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874833 Ectadia fulva - calling song</div><div class="d">21 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-10-28</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874833">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874833">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874832 Ectadia fulva - calling song</div><div class="d">24 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874832">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874832">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874831 Ectadia fulva - calling song</div><div class="d">46 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874831">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874831">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874830 Ectadia fulva - calling song</div><div class="d">22 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874830">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874830">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874829 Ectadia fulva - calling song</div><div class="d">8 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874829">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874829">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874828 Ectadia fulva - calling song</div><div class="d">20 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874828">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874828">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874827 Ectadia fulva - calling song</div><div class="d">20 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874827">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874827">record</a></span>
 </div></div>
 <div class="rec"><div class="t">XC874826 Ectadia fulva - calling song</div><div class="d">15 s</div><div class="m">
 <span>K.-G. Heller</span>
 <span>1995-11-03</span>
-<span>xeno-canto</span>
+<span><span class="srcof" title="xeno-canto"><span class="mk mono" aria-hidden="true">XC</span>xeno-canto</span></span>
 <span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=874826">listen ›</a></span>
 <span><a href="https://api.audioblast.org/recording/xeno-canto/874826">record</a></span>
 </div></div>
 </div>
-<p class="more">92 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Ectadia">audioBlast browser</a>.</p>
+<p class="more">144 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;genus=Ectadia">audioBlast browser</a>.</p>
 </div></section>
 <section><div class="wrap"><h2>Browse</h2>
 <p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
 <div><h3>Higher classification</h3>
 <ul>
 <li><a href="/taxon/ducetiini/"><span>Ducetiini</span> <span class="n">405</span></a></li>
-<li><a href="/taxon/phaneropterinae/"><span>Phaneropterinae</span> <span class="n">16,099</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
+<li><a href="/taxon/phaneropterinae/"><span>Phaneropterinae</span> <span class="n">16,141</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">74,480</span></a></li>
 <li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">109,738</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
+<li><a href="/taxon/ensifera/"><span>Ensifera</span> <span class="n">110,508</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">126,593</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">198,641</span></a></li>
 <li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
 <li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
-<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">437,239</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,192,071</span></a></li>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul>
 </div>
 <div><h3>Contains</h3>
 <ul>
 <li><a href="/taxon/ectadia-diuturna/"><i>Ectadia diuturna</i> <span class="n">—</span></a></li>
-<li><a href="/taxon/ectadia-fulva/"><i>Ectadia fulva</i> <span class="n">104</span></a></li>
+<li><a href="/taxon/ectadia-fulva/"><i>Ectadia fulva</i> <span class="n">156</span></a></li>
 </ul>
 </div>
 <div><h3>Alongside</h3>
 <ul>
-<li><a href="/taxon/bulbistridulous/"><i>Bulbistridulous</i> <span class="n">4</span></a></li>
-<li><a href="/taxon/ducetia/"><i>Ducetia</i> <span class="n">330</span></a></li>
-<li><a href="/taxon/elimaea/"><i>Elimaea</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/bulbistridulous/"><i>Bulbistridulous</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/ducetia/"><i>Ducetia</i> <span class="n">417</span></a></li>
+<li><a href="/taxon/elimaea/"><i>Elimaea</i> <span class="n">48</span></a></li>
 <li><a href="/taxon/kuwayamaea/"><i>Kuwayamaea</i> <span class="n">4</span></a></li>
-<li><a href="/taxon/orthelimaea/"><i>Orthelimaea</i> <span class="n">6</span></a></li>
-<li><a href="/taxon/paraducetia/"><i>Paraducetia</i> <span class="n">10</span></a></li>
+<li><a href="/taxon/orthelimaea/"><i>Orthelimaea</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/paraducetia/"><i>Paraducetia</i> <span class="n">15</span></a></li>
 <li><a href="/taxon/shirakisotima/"><i>Shirakisotima</i> <span class="n">2</span></a></li>
 </ul>
 </div>
@@ -306,7 +321,7 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <section><div class="wrap"><h2>Sources</h2>
 <p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
 <div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
-<tr><td>bio.acousti.ca</td><td><i>Ectadia</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/4901">bio.acousti.ca/4901</a></td></tr>
+<tr><td><span class="srcof" title="BioAcoustica"><span class="mk mono" aria-hidden="true">BA</span>bio.acousti.ca</span></td><td><i>Ectadia</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/bio.acousti.ca/4901">bio.acousti.ca/4901</a></td></tr>
 </tbody></table></div></div></section>
 <section><div class="wrap"><h2>Machine-readable</h2>
 <p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
