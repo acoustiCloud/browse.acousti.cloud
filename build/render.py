@@ -65,12 +65,38 @@ def slug(name):
     return re.sub(r"[^a-z0-9]+", "-", text.lower().strip()).strip("-")
 
 
+# Where each taxon's page went, by Catalogue of Life id, settled before any page is written.
+# A path cannot be derived from a name: the Catalogue of Life carries monotypic higher taxa named
+# after the genus inside them, so Metrioptera is both an infratribe and the genus beneath it.
+_paths = {}
+
+
+def set_paths(paths):
+    """Fixed once, before the build starts, and only read after."""
+    global _paths
+    _paths = dict(paths)
+
+
+def path_for(node):
+    """The page of a taxon, by id. Falls back to its name for anything built on its own."""
+    return _paths.get(node.get("id")) or path_of(node["taxon"])
+
+
 def e(value):
     return html.escape("" if value is None else str(value))
 
 
 def has(value):
     return value is not None and str(value).strip() != ""
+
+
+def shares_name(node):
+    """
+    Whether another taxon in this build is called the same thing. Only true of the one that gave
+    up the plain slug, so the page someone means by the bare name is left titled by it alone.
+    """
+    path = _paths.get(node.get("id"))
+    return path is not None and path != path_of(node["taxon"])
 
 
 def path_of(name):
@@ -278,10 +304,10 @@ def schema_for(node, vernacular, lineage):
     data = {
         "@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}],
         "@type": "Taxon",
-        "@id": SITE + path_of(node["taxon"]),
+        "@id": SITE + path_for(node),
         "name": node["taxon"],
         "taxonRank": (node.get("rank") or "").lower(),
-        "url": SITE + path_of(node["taxon"]),
+        "url": SITE + path_for(node),
         "sameAs": "%s/taxon/%s/%s" % (API, "CoL", node["id"]),
     }
     if vernacular:
@@ -289,7 +315,7 @@ def schema_for(node, vernacular, lineage):
     if parent:
         data["parentTaxon"] = {"@type": "Taxon", "name": parent["taxon"],
                                "taxonRank": (parent.get("rank") or "").lower(),
-                               "url": SITE + path_of(parent["taxon"])}
+                               "url": SITE + path_for(parent)}
     return data
 
 
@@ -303,7 +329,7 @@ def breadcrumbs_for(lineage):
         "@type": "BreadcrumbList",
         "itemListElement": [
             {"@type": "ListItem", "position": at + 1, "name": step["taxon"],
-             "item": SITE + path_of(step["taxon"])}
+             "item": SITE + path_for(step)}
             for at, step in enumerate(lineage)
         ],
     }
@@ -320,12 +346,14 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     w("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">")
     w("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")
     common = common_name(vernacular)
-    w("<title>%s</title>" % e(name if common is None else "%s \u2014 %s" % (name, common)))
-    said = name if common is None else "%s (%s)" % (common, name)
+    # A name shared with another taxon needs its rank to tell the two pages apart
+    called = name if not shares_name(node) else "%s (%s)" % (name, (node.get("rank") or "taxon").lower())
+    w("<title>%s</title>" % e(called if common is None else "%s \u2014 %s" % (called, common)))
+    said = called if common is None else "%s (%s)" % (common, called)
     summary = "%s in audioBlast: %s recordings, %s trait measurements, and the sources that hold them." % (
         e(said), format(counts.get("recordings", 0), ","), format(counts.get("traits", 0), ","))
     w("<meta name=\"description\" content=\"%s\">" % summary)
-    w("<link rel=\"canonical\" href=\"%s%s\">" % (SITE, path_of(name)))
+    w("<link rel=\"canonical\" href=\"%s%s\">" % (SITE, path_for(node)))
     w("<meta property=\"og:title\" content=\"%s\">" % e(said))
     w("<meta property=\"og:description\" content=\"%s\">" % summary)
     w("<meta property=\"og:type\" content=\"article\">")
@@ -349,7 +377,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
     crumb = []
     for step in lineage[:-1]:
         crumb.append("<a href=\"%s\"><span class=\"rk\">%s</span>%s</a>" % (
-            path_of(step["taxon"]), e(step.get("rank") or ""),
+            path_for(step), e(step.get("rank") or ""),
             name_html(step["taxon"], step.get("rank"))))
     w("<nav class=\"crumb\" aria-label=\"Classification\">%s</nav>" %
       "<span class=\"sep\">›</span>".join(crumb))
@@ -517,7 +545,7 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
             for child in group:
                 n = child_counts.get(child["id"])
                 w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" %
-                  (path_of(child["taxon"]), name_html(child["taxon"], child.get("rank")),
+                  (path_for(child), name_html(child["taxon"], child.get("rank")),
                    format(n, ",") if n else "—"))
             w("</ul>")
         else:
@@ -627,7 +655,7 @@ def index(pages, roots, stats, changed):
         for label, node, count in groups:
             w("<li><a href=\"%s\"><span class=\"what\">%s</span>"
               "<span class=\"sci\">%s</span><span class=\"n\">%s</span></a></li>"
-              % (path_of(node["taxon"]), e(label), name_html(node["taxon"], node.get("rank")),
+              % (path_for(node), e(label), name_html(node["taxon"], node.get("rank")),
                  format(count, ",")))
         w("</ul></div></section>")
 
@@ -637,7 +665,7 @@ def index(pages, roots, stats, changed):
     w("<div class=\"nav\"><div><ul>")
     for node, count in roots:
         w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
-            path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
+            path_for(node), name_html(node["taxon"], node.get("rank")),
             format(count, ",") if count else "—"))
     w("</ul></div></div></div></section>")
 
@@ -656,7 +684,7 @@ def index(pages, roots, stats, changed):
             w("<h3 class=\"sub\">%s</h3><ul class=\"tiles\">" % e(rank or "unranked"))
             for node, count in group:
                 w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
-                    path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
+                    path_for(node), name_html(node["taxon"], node.get("rank")),
                     format(count, ",") if count else "\u2014"))
             w("</ul>")
         w("</div></section>")
@@ -675,7 +703,7 @@ def index(pages, roots, stats, changed):
         w("<ul class=\"tiles\">")
         for node, count in picked[:ENTRIES]:
             w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
-                path_of(node["taxon"]), name_html(node["taxon"], node.get("rank")),
+                path_for(node), name_html(node["taxon"], node.get("rank")),
                 format(count, ",")))
         w("</ul></div></section>")
 

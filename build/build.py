@@ -110,6 +110,55 @@ def discover(names, deep):
     return list(found.values())
 
 
+def resolve_paths(nodes):
+    """
+    Where each page goes, decided for the whole set at once.
+
+    Two taxa can share a name: the Catalogue of Life carries monotypic higher taxa named after
+    the genus inside them, so Metrioptera is both an infratribe and the genus beneath it. Deriving
+    a path from a name gave both the same one, and under a thread pool which survived depended on
+    which finished last.
+
+    Where names collide the deepest keeps the plain slug, since someone typing metrioptera wants
+    the genus rather than the rank above it, and the rest carry their rank.
+    """
+    known = {node["id"]: node for node in nodes}
+
+    def depth(node):
+        seen, below, parent = set(), 0, node.get("parent_id")
+        while parent in known and parent not in seen:
+            seen.add(parent)
+            below += 1
+            parent = known[parent].get("parent_id")
+        return below
+
+    sharing = {}
+    for node in nodes:
+        sharing.setdefault(render.slug(node["taxon"]), []).append(node)
+
+    paths, clashed = {}, 0
+    for slug, together in sharing.items():
+        if len(together) > 1:
+            clashed += len(together) - 1
+            together = sorted(together, key=lambda one: (-depth(one), one["id"]))
+        paths[together[0]["id"]] = "/taxon/%s/" % slug
+        for other in together[1:]:
+            rank = render.slug(other.get("rank") or "") or "taxon"
+            paths[other["id"]] = "/taxon/%s-%s/" % (slug, rank)
+
+    # Silently losing a page is the bug this exists to prevent, so a path still wanted twice stops
+    # the build rather than letting one win
+    taken = {}
+    for col_id, path in paths.items():
+        if path in taken:
+            sys.exit("two taxa want %s: %s and %s" % (path, taken[path], col_id))
+        taken[path] = col_id
+    if clashed:
+        print("  %d name%s shared, given their rank in the path"
+              % (clashed, "" if clashed == 1 else "s"), file=sys.stderr)
+    return paths
+
+
 def gather(node):
     """Everything one page needs."""
     chain = api.lineage(node["id"])
@@ -157,7 +206,7 @@ def gather(node):
 
 
 def write(node, data):
-    path = render.path_of(node["taxon"])
+    path = render.path_for(node)
     folder = os.path.join(OUT, path.strip("/").replace("/", os.sep))
     os.makedirs(folder, exist_ok=True)
     html = render.page(node, data["lineage"], data["children"], data["siblings"], data["sources"],
@@ -206,6 +255,7 @@ def main():
     print("Finding what to build:", file=sys.stderr)
     nodes = discover(args.taxon, args.deep)
     print("  %d taxa in %.1fs" % (len(nodes), time.time() - started), file=sys.stderr)
+    render.set_paths(resolve_paths(nodes))
     print("Building, %d at a time:" % args.workers, file=sys.stderr)
     built = build(nodes, args.workers)
 
