@@ -52,6 +52,17 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -165,52 +176,39 @@ footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
 <p class="lede">A page for every taxon <a href="https://audioblast.org">audioBlast</a> holds recordings, traits or annotations of. Classification follows the <a href="https://www.catalogueoflife.org">Catalogue of Life</a>; the records come from the collections audioBlast draws on, each keeping its own account of what a taxon is.</p>
 </div></header>
 <div class="glance"><div class="wrap">
-<div><b>18,443</b> <span>pages built</span></div>
-<div><b>1,138,720</b> <span>recordings in audioBlast</span></div>
+<div><b>18,406</b> <span>pages built</span></div>
+<div><b>1,296,754</b> <span>recordings in audioBlast</span></div>
 <div><b>24,196</b> <span>trait measurements</span></div>
 <div><b>18,443</b> <span>taxa in the Catalogue of Life spine</span></div>
 </div></div>
-<section><div class="wrap"><h2>Start here</h2>
-<p class="note">Counts are recordings at or below each taxon.</p>
+<section><div class="wrap"><h2>Listen to</h2>
+<p class="note">Recordings at or below each group.</p><ul class="groups">
+<li><a href="/taxon/anura/"><span class="what">Frogs and toads</span><span class="sci"><span>Anura</span></span><span class="n">192,134</span></a></li>
+<li><a href="/taxon/orthoptera/"><span class="what">Crickets, katydids and grasshoppers</span><span class="sci"><span>Orthoptera</span></span><span class="n">124,319</span></a></li>
+<li><a href="/taxon/hemiptera/"><span class="what">Cicadas, hoppers and other true bugs</span><span class="sci"><span>Hemiptera</span></span><span class="n">70,069</span></a></li>
+<li><a href="/taxon/chiroptera/"><span class="what">Bats</span><span class="sci"><span>Chiroptera</span></span><span class="n">12,736</span></a></li>
+<li><a href="/taxon/rodentia/"><span class="what">Rodents</span><span class="sci"><span>Rodentia</span></span><span class="n">12,006</span></a></li>
+<li><a href="/taxon/carnivora/"><span class="what">Carnivores</span><span class="sci"><span>Carnivora</span></span><span class="n">11,360</span></a></li>
+<li><a href="/taxon/artiodactyla/"><span class="what">Hoofed mammals</span><span class="sci"><span>Artiodactyla</span></span><span class="n">4,352</span></a></li>
+<li><a href="/taxon/primates/"><span class="what">Primates</span><span class="sci"><span>Primates</span></span><span class="n">3,084</span></a></li>
+<li><a href="/taxon/hymenoptera/"><span class="what">Bees, wasps and ants</span><span class="sci"><span>Hymenoptera</span></span><span class="n">1,465</span></a></li>
+<li><a href="/taxon/squamata/"><span class="what">Lizards and snakes</span><span class="sci"><span>Squamata</span></span><span class="n">1,273</span></a></li>
+<li><a href="/taxon/coleoptera/"><span class="what">Beetles</span><span class="sci"><span>Coleoptera</span></span><span class="n">572</span></a></li>
+<li><a href="/taxon/lepidoptera/"><span class="what">Moths and butterflies</span><span class="sci"><span>Lepidoptera</span></span><span class="n">250</span></a></li>
+<li><a href="/taxon/crocodylia/"><span class="what">Crocodiles and alligators</span><span class="sci"><span>Crocodylia</span></span><span class="n">160</span></a></li>
+<li><a href="/taxon/diptera/"><span class="what">Flies</span><span class="sci"><span>Diptera</span></span><span class="n">126</span></a></li>
+<li><a href="/taxon/cetacea/"><span class="what">Whales and dolphins</span><span class="sci"><span>Cetacea</span></span><span class="n">79</span></a></li>
+<li><a href="/taxon/aves/"><span class="what">Birds</span><span class="sci"><span>Aves</span></span><span class="n">58</span></a></li>
+<li><a href="/taxon/testudines/"><span class="what">Turtles and tortoises</span><span class="sci"><span>Testudines</span></span><span class="n">38</span></a></li>
+<li><a href="/taxon/caudata/"><span class="what">Salamanders and newts</span><span class="sci"><span>Caudata</span></span><span class="n">32</span></a></li>
+</ul></div></section>
+<section><div class="wrap"><h2>The whole tree</h2>
+<p class="note">Every taxon audioBlast holds, from the top.</p>
 <div class="nav"><div><ul>
 <li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
 </ul></div></div></div></section>
-<section><div class="wrap"><h2>Major groups</h2>
-<p class="note">Where most of the recordings are, of 18,443 pages built. Every one is in the <a href="/sitemap.xml">sitemap</a>, and each page leads to what sits above, below and beside it.</p>
-<ul class="tiles">
-<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">196,878</span></a></li>
-<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">192,168</span></a></li>
-<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">192,134</span></a></li>
-<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">124,319</span></a></li>
-<li><a href="/taxon/hylidae/"><span>Hylidae</span> <span class="n">93,312</span></a></li>
-<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">73,956</span></a></li>
-<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">70,069</span></a></li>
-<li><a href="/taxon/cicadidae/"><span>Cicadidae</span> <span class="n">69,996</span></a></li>
-<li><a href="/taxon/mammalia/"><span>Mammalia</span> <span class="n">46,664</span></a></li>
-<li><a href="/taxon/ranidae/"><span>Ranidae</span> <span class="n">31,061</span></a></li>
-<li><a href="/taxon/gryllidae/"><span>Gryllidae</span> <span class="n">17,313</span></a></li>
-<li><a href="/taxon/bufonidae/"><span>Bufonidae</span> <span class="n">14,702</span></a></li>
-<li><a href="/taxon/acrididae/"><span>Acrididae</span> <span class="n">14,370</span></a></li>
-<li><a href="/taxon/chiroptera/"><span>Chiroptera</span> <span class="n">12,736</span></a></li>
-<li><a href="/taxon/rodentia/"><span>Rodentia</span> <span class="n">12,006</span></a></li>
-<li><a href="/taxon/carnivora/"><span>Carnivora</span> <span class="n">11,360</span></a></li>
-<li><a href="/taxon/sciuridae/"><span>Sciuridae</span> <span class="n">11,186</span></a></li>
-<li><a href="/taxon/vespertilionidae/"><span>Vespertilionidae</span> <span class="n">9,649</span></a></li>
-<li><a href="/taxon/myobatrachidae/"><span>Myobatrachidae</span> <span class="n">9,421</span></a></li>
-<li><a href="/taxon/canidae/"><span>Canidae</span> <span class="n">8,743</span></a></li>
-<li><a href="/taxon/oecanthidae/"><span>Oecanthidae</span> <span class="n">8,150</span></a></li>
-<li><a href="/taxon/limnodynastidae/"><span>Limnodynastidae</span> <span class="n">7,341</span></a></li>
-<li><a href="/taxon/microhylidae/"><span>Microhylidae</span> <span class="n">6,142</span></a></li>
-<li><a href="/taxon/trigonidiidae/"><span>Trigonidiidae</span> <span class="n">5,030</span></a></li>
-<li><a href="/taxon/pelodryadidae/"><span>Pelodryadidae</span> <span class="n">4,651</span></a></li>
-<li><a href="/taxon/pyxicephalidae/"><span>Pyxicephalidae</span> <span class="n">4,637</span></a></li>
-<li><a href="/taxon/gryllotalpidae/"><span>Gryllotalpidae</span> <span class="n">4,454</span></a></li>
-<li><a href="/taxon/artiodactyla/"><span>Artiodactyla</span> <span class="n">4,352</span></a></li>
-<li><a href="/taxon/leptodactylidae/"><span>Leptodactylidae</span> <span class="n">4,083</span></a></li>
-<li><a href="/taxon/rhacophoridae/"><span>Rhacophoridae</span> <span class="n">3,458</span></a></li>
-</ul></div></section>
 <footer><div class="wrap">
-<p>Built 2026-09-21 from the <a href="https://api.audioblast.org">audioBlast API</a>. Source at <a href="https://github.com/acoustiCloud/browse.acousti.cloud">GitHub</a>.</p>
+<p>Built 2026-09-22 from the <a href="https://api.audioblast.org">audioBlast API</a>. Source at <a href="https://github.com/acoustiCloud/browse.acousti.cloud">GitHub</a>.</p>
 </div></footer>
 </body>
 </html>

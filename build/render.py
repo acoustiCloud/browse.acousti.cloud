@@ -28,6 +28,31 @@ SHOW_ALL_BELOW = 200
 ENTRY_RANKS = ("class", "order", "family")
 ENTRIES = 30
 
+# What the groups are called by people who are not taxonomists, in the order they are worth
+# offering. Only the ones actually built are shown, so this can name more than the site holds.
+# Hylidae and Tettigoniidae are deliberately absent: they sit inside Anura and Orthoptera, and a
+# way in should not offer the same recordings twice under two names.
+HUMAN_GROUPS = [
+    ("Anura", "Frogs and toads"),
+    ("Orthoptera", "Crickets, katydids and grasshoppers"),
+    ("Hemiptera", "Cicadas, hoppers and other true bugs"),
+    ("Chiroptera", "Bats"),
+    ("Rodentia", "Rodents"),
+    ("Carnivora", "Carnivores"),
+    ("Artiodactyla", "Hoofed mammals"),
+    ("Primates", "Primates"),
+    ("Hymenoptera", "Bees, wasps and ants"),
+    ("Squamata", "Lizards and snakes"),
+    ("Coleoptera", "Beetles"),
+    ("Lepidoptera", "Moths and butterflies"),
+    ("Crocodylia", "Crocodiles and alligators"),
+    ("Diptera", "Flies"),
+    ("Cetacea", "Whales and dolphins"),
+    ("Aves", "Birds"),
+    ("Testudines", "Turtles and tortoises"),
+    ("Caudata", "Salamanders and newts"),
+]
+
 
 def slug(name):
     """
@@ -50,6 +75,17 @@ def has(value):
 
 def path_of(name):
     return "/taxon/%s/" % slug(name)
+
+
+def common_name(vernacular):
+    """
+    The name to lead with, preferring English where a taxon has one. A page titled only with a
+    binomial answers a question almost nobody types.
+    """
+    if not vernacular:
+        return None
+    english = [v for v in vernacular if (v.get("language") or "").lower().startswith("en")]
+    return (english or vernacular)[0].get("vernacularName")
 
 
 def record(kind, row, text=None, id_field="id"):
@@ -119,6 +155,17 @@ h1{margin:0;font-family:var(--display);font-weight:600;
 h1 i{font-style:italic}
 .lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
       line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
 .tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
        grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
 .tiles li{border-bottom:1px solid var(--rule)}
@@ -272,12 +319,14 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
 
     w("<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">")
     w("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">")
-    w("<title>%s</title>" % e(name))
+    common = common_name(vernacular)
+    w("<title>%s</title>" % e(name if common is None else "%s \u2014 %s" % (name, common)))
+    said = name if common is None else "%s (%s)" % (common, name)
     summary = "%s in audioBlast: %s recordings, %s trait measurements, and the sources that hold them." % (
-        e(name), format(counts.get("recordings", 0), ","), format(counts.get("traits", 0), ","))
+        e(said), format(counts.get("recordings", 0), ","), format(counts.get("traits", 0), ","))
     w("<meta name=\"description\" content=\"%s\">" % summary)
     w("<link rel=\"canonical\" href=\"%s%s\">" % (SITE, path_of(name)))
-    w("<meta property=\"og:title\" content=\"%s\">" % e(name))
+    w("<meta property=\"og:title\" content=\"%s\">" % e(said))
     w("<meta property=\"og:description\" content=\"%s\">" % summary)
     w("<meta property=\"og:type\" content=\"article\">")
     w("<link rel=\"alternate\" type=\"application/ld+json\" href=\"%s/taxon/%s/%s\">" % (API, "CoL", node["id"]))
@@ -570,8 +619,21 @@ def index(pages, roots, stats, changed):
         w("<div><b>%s</b> <span>%s</span></div>" % (format(n, ","), e(label)))
     w("</div></div>")
 
-    w("<section><div class=\"wrap\"><h2>Start here</h2>")
-    w("<p class=\"note\">Counts are recordings at or below each taxon.</p>")
+    held = {node["taxon"]: (node, count) for node, count in pages}
+    groups = [(label,) + held[taxon] for taxon, label in HUMAN_GROUPS if taxon in held]
+    if groups:
+        w("<section><div class=\"wrap\"><h2>Listen to</h2>")
+        w("<p class=\"note\">Recordings at or below each group.</p><ul class=\"groups\">")
+        for label, node, count in groups:
+            w("<li><a href=\"%s\"><span class=\"what\">%s</span>"
+              "<span class=\"sci\">%s</span><span class=\"n\">%s</span></a></li>"
+              % (path_of(node["taxon"]), e(label), name_html(node["taxon"], node.get("rank")),
+                 format(count, ",")))
+        w("</ul></div></section>")
+
+    w("<section><div class=\"wrap\"><h2>%s</h2>" % ("The whole tree" if groups else "Start here"))
+    w("<p class=\"note\">%s</p>" % ("Every taxon audioBlast holds, from the top."
+                                     if groups else "Counts are recordings at or below each taxon."))
     w("<div class=\"nav\"><div><ul>")
     for node, count in roots:
         w("<li><a href=\"%s\">%s <span class=\"n\">%s</span></a></li>" % (
@@ -598,7 +660,7 @@ def index(pages, roots, stats, changed):
                     format(count, ",") if count else "\u2014"))
             w("</ul>")
         w("</div></section>")
-    elif pages:
+    elif pages and not groups:
         already = set()
         for node, _ in roots:
             already.add(node["id"])

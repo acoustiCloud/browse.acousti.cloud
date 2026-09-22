@@ -53,7 +53,9 @@ def scan():
         above = CRUMB_HREF.findall(crumb.group(0)) if crumb else []
         pages["/taxon/%s/" % slug] = {
             "id": col.group(1),
-            "taxon": title.group(1).strip(),
+            # A title now reads "Gryllotalpa vineae - Vineyard Mole-cricket"; the taxon is the
+            # part before the dash, and everything downstream matches on that
+            "taxon": title.group(1).split("—")[0].strip(),
             "rank": (rank.group(1).strip() if rank else ""),
             "count": int(recordings.group(1).replace(",", "")) if recordings else 0,
             "parent_path": above[-1] if above else None,
