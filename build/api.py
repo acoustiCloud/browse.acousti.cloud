@@ -165,6 +165,8 @@ LINKED_KINDS = {
     "references": ABOUT,
     "specimens": TO_TAXON,
     "vernacularnames": DENOTES,
+    # About, not denotes: a rendering is of the sound a taxon makes and is never one of its names
+    "onomatopoeia": ABOUT,
 }
 
 

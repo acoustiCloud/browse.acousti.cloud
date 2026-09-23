@@ -236,6 +236,12 @@ h1 i{font-style:italic}
 .tiles a:hover .n{color:var(--accent)}
 .rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
       text-transform:uppercase;color:var(--accent)}
+.onom{margin:16px 0 0;padding:0;list-style:none;display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:0 26px}
+.onom li{display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 9px;padding:9px 0;
+         border-bottom:1px solid var(--rule)}
+.onom .w{font-family:var(--display);font-size:1.1rem;line-height:1.3}
+.onom .r{margin-left:auto;display:flex;gap:10px;white-space:nowrap}
 .vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
       font-family:var(--display);font-size:1.06rem}
 .vern li{display:flex;align-items:baseline;gap:7px}
@@ -450,6 +456,20 @@ def page(node, lineage, children, siblings, sources, records, linked, counts, ch
                 e(d.get("topic") or "general"), source_mark(d.get("source")), e(d["value"]),
                 record("description", d, "this account"), at_source(d, "at %s" % d.get("source"))))
         w("</div></div></section>")
+
+    # in words ---------------------------------------------------------------------------------
+    renderings = [o for o in linked.get("onomatopoeia", []) if has(o.get("word"))]
+    if renderings:
+        w("<section><div class=\"wrap\"><h2>In words</h2>")
+        w("<p class=\"note\">How the sound has been written down. A rendering is of the sound and "
+          "not a name for the taxon, which is what a vernacular name is.</p><ul class=\"onom\">")
+        for o in renderings:
+            about = " ".join("<code>%s</code>" % e(bit) for bit in
+                             (o.get("kind"), o.get("language"), o.get("lifeStage")) if has(bit))
+            w("<li><span class=\"w\">%s</span>%s<span class=\"r\">%s%s</span></li>" % (
+                e(o["word"]), (" " + about) if about else "",
+                record("onomatopoeia", o, "record"), at_source(o)))
+        w("</ul></div></section>")
 
     # traits -----------------------------------------------------------------------------------
     by_trait = {}
