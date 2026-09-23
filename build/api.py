@@ -122,16 +122,27 @@ def source_rows(col_id):
 
 # --- the records a taxon has -----------------------------------------------------------------
 
+# The ranks the join view has a column for. A count against one of these is the count at or
+# below it, because the view carries every rank of a record's classification.
+ROLLUP = ("kingdom", "class", "order", "suborder", "family", "subfamily", "tribe", "genus", "species")
+
+
 def recordings(name, rank, limit=200):
     """
     Recordings of a taxon, through the join view. recordings.taxon is a full-text field, so
     filtering it would return anything sharing a word: 921 rows for Gryllotalpa vineae where the
     join gives the 536 that are actually of it.
+
+    Two ways in, because the view's columns stop at species. A rank with a column rolls up, so a
+    species carries its subspecies' recordings too. A rank without one is matched on the name
+    itself, which recordingstaxa (unlike recordings) compares exactly: Cettia major major finds
+    its own 18 rows rather than the 37,404 a full-text match returns. That count is of records
+    identified to exactly that taxon, since there is no column to roll anything up by.
     """
     field = (rank or "").lower()
-    if field not in ("kingdom", "class", "order", "suborder", "family", "subfamily", "tribe", "genus", "species"):
-        return [], 0
-    return rows("recordingstaxa", limit=limit, **{field: name}), count("recordingstaxa", **{field: name})
+    if field in ROLLUP:
+        return rows("recordingstaxa", limit=limit, **{field: name}), count("recordingstaxa", **{field: name})
+    return rows("recordingstaxa", limit=limit, taxon=name), count("recordingstaxa", taxon=name)
 
 
 def traits(name, limit=200):

@@ -29,8 +29,10 @@ import sources as source_register
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # GitHub Pages serves a branch from its root or from /docs, and nowhere else
 OUT = os.path.join(ROOT, "docs")
-# Recordings roll up by rank in the join view, so a count against a rank is the count at or below
-COUNTABLE = ("kingdom", "class", "order", "suborder", "family", "subfamily", "tribe", "genus", "species")
+# Recordings roll up by rank in the join view, so a count against a rank is the count at or below.
+# Below species there is no column, and api.recordings() matches the name exactly instead, so a
+# count is still available for those: it is of that taxon alone rather than of everything under it.
+COUNTABLE = api.ROLLUP
 # How many parents to ask about at once while walking down the tree
 PARENTS_PER_CALL = 20
 
@@ -56,10 +58,17 @@ def shared(cache, key, produce):
 
 
 def count_at_or_below(rank, name):
+    """
+    What to show beside a taxon in a list of children, siblings or ancestors. A rank the view has
+    a column for counts everything at or below it; one it does not counts that taxon alone, which
+    is the honest answer rather than no answer.
+    """
     rank = (rank or "").lower()
-    if rank not in COUNTABLE:
+    if not rank:
         return None
-    return shared(_counts, (rank, name), lambda: api.count("recordingstaxa", **{rank: name}))
+    if rank in COUNTABLE:
+        return shared(_counts, (rank, name), lambda: api.count("recordingstaxa", **{rank: name}))
+    return shared(_counts, ("=", name), lambda: api.count("recordingstaxa", taxon=name))
 
 
 def children_of(col_id):
