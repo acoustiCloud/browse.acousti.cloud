@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Pholcophora</title>
+<meta name="description" content="Pholcophora in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/pholcophora/">
+<meta property="og:title" content="Bioacoustics of Pholcophora">
+<meta property="og:description" content="Pholcophora in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CVJGJ">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/pholcophora/", "name": "Pholcophora", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/pholcophora/", "sameAs": "https://api.audioblast.org/taxon/CoL/CVJGJ", "parentTaxon": {"@type": "Taxon", "name": "Pholcidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pholcidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Pholcidae", "item": "https://browse.acousti.cloud/taxon/pholcidae/"}, {"@type": "ListItem", "position": 8, "name": "Pholcophora", "item": "https://browse.acousti.cloud/taxon/pholcophora/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/pholcidae/"><span class="rk">Family</span><span>Pholcidae</span></a></nav>
+<h1>Bioacoustics of <i>Pholcophora</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Composition The genus now includes 11 nominal species. Of these, seven occur in North America and are here considered to represent ‘true’ Pholcophora : Pholcophora americana Banks, 1896 ; P. maria Gertsch, 1977 ; P. mazatlan sp. nov. ; P. mexcala Gertsch, 1982 ; P. papanoa sp. nov. ; P. tehuacan sp. nov. ; P. texana Gertsch, 1935 . The Caribbean P. bahama Gertsch, 1982 is here considered to be misplaced (see Relationships above). All extant species are treated below except P. bahama and P. mexcala for which we have no new data [in 2019 we searched at four localities close to Mezcala (= “Mexcala”) but could not find P. mexcala ]. Three nominal species are only known from amber fossils originating from Hispaniola ( Wunderlich 1988 ): P. brevipes Wunderlich, 1988 ; P. gracilis Wunderlich, 1988 ; and P. longicornis Wunderlich, 1988 . We did not re-examine the amber specimens but judging from their geographic origin we speculate that the three species are part of the clade including Caribbean ‘ Pholcophora ’ and Papiamenta . However, the three amber species fit the diagnosis above with respect to the strong male cheliceral apophyses originating proximally and the simple rod-shaped procursus. They are unusually small (but in this respect similar to the exceptionally small extant P. tehuacan sp. nov. and P. maria ), and the original descriptions remain silent about male cheliceral stridulation and male sternal humps. The females of the three fossil species remain unknown.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03F087F1AC7EFFDB094162B7E16AFE94#C343656CAC7DFFDB0BA9654BE16AFE94">this account</a> <a href="https://treatment.plazi.org/id/03F087F1AC7EFFDB094162B7E16AFE94">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis Easily distinguished from only other North American Ninetinae genus Tolteca by strong male cheliceral apophyses originating proximally ( Figs 5A–B , 10A–B ; in Tolteca small and originating distally); also by presence of stridulatory ridges on male chelicerae; most species (except P. tehuacan Huber sp. nov. ) also by larger size (body length ~1.7–3.1; in Tolteca ~1.1–1.4) and longer legs (tibia 1&gt;1.0, in Tolteca &lt;0.7); from most species of Tolteca also by absence of knob-shaped structure between epigynum and pedicel (also absent in Tolteca sinnombre Huber sp. nov. ). From other geographically close genera ( Papiamenta , Galapa ) also by simple rod-shaped procursus ( Figs 5C–E , 10C–E ; much shorter in Papiamenta ; with dorsal process in Galapa ); by presence of humps on male sternum (absent in Papiamenta ); and by unmodified male cheliceral fangs (with processes in Galapa ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03F087F1AC7EFFDB094162B7E16AFE94#C343656CAC7EFFDF0BA96373E08AFE07">this account</a> <a href="https://treatment.plazi.org/id/03F087F1AC7EFFDB094162B7E16AFE94">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description Male MEASUREMENTS . Total body length 1.2–3.1, carapace width 0.55–1.40. Legs relatively short, tibia 1: 0.65–1.85, i.e., 1.2–2.0 × carapace width; tibia 1 L/d 8–16; tibia 2 much shorter than tibia 4 (tibia 2 / tibia 4: 0.75–0.85). COLOUR . Live specimens ( Fig. 3 ) ochre to brown, prosoma sometimes reddish (which is lost in ethanol); carapace monochromous, sometimes with indistinct darker median Y-mark; abdomen colour slightly variable, usually monochromous, sometimes with indistinct dorsal marks (bluish in ethanol); legs without dark or light bands, femora sometimes distally darkened. BODY . Ocular area barely raised (cf. Fig. 8A ), eight eyes, AME relatively large, diameter 20–60 µm, 45–75% of PME diameter; carapace with low and indistinct thoracic groove (cf. Figs 8A , 13A ). Clypeus unmodified but sometimes slightly more protruding than in female. Sternum wider than long, with pair of distinct anterior processes near leg coxae 1. Abdomen globular; gonopore with four epiandrous spigots arranged in two pairs ( Fig. 29C ; examined: P. americana Banks, 1896 ; P. tehuacan sp. nov. ); ALS with seven spigots each (cf. Figs 8C , 29G ): one strongly widened spigot, one long pointed spigot, and five cylindrical spigots (one of which is unusually large); PMS with two short, pointed spigots; PLS without spigots. CHELICERAE . With one pair of large frontal apophyses ( Figs 5A–B , 10A–B ); with stridulatory files ( Fig. 29A ), distances between ridges ~2.0–3.8 µm, distances proximally often smaller than distally. PALPS . Coxa unmodified; trochanter barely modified (with indistinct or without ventral projection); femur proximally with retrolateral-ventral process and prolateral stridulatory pick (modified hair), distally widened but simple, slightly curved towards dorsal, in P. texana Gertsch, 1935 with distinctive brush of feathered hairs ventrally ( Fig. 19A, C ); femur-patella joints slightly shifted toward prolateral side; tibia globular, with two trichobothria; tibia-tarsus joints not shifted to one side; palpal tarsal organ raised, capsulate with small opening ( Fig. 29E ; diameter of opening ~1.5 µm – measured in P. tehuacan sp. nov. only); procursus simple and straight, without dorsal flap, not strongly elongated, often with semi-transparent distal element; genital bulb distally cone-shaped, with species-specific sclerotized and membranous elements. LEGS . Without spines and curved hairs; in some species with very short vertical hairs in higher than usual density on tibiae (only anterior tibiae or all tibiae) (length of hairs ~30 µm). Trichobothria in usual arrangement: three on each tibia (except tibia 1: prolateral trichobothrium absent), one on each metatarsus; slightly feathered ( Figs 18F , 24E ); length of dorsal trichobothrium on tibia 1: ~90 µm; retrolateral trichobothrium of tibia 1 in very distal position (at 50–65% of tibia length). Tarsus 1 with 5–8 pseudosegments, sometimes only distally fairly distinct; tarsus 4 distally with one comb-hair on prolateral side (cf. Figs 13H , 24H ); leg tarsal organs very small, capsulate with small opening (cf. Fig. 8F–H ; diameter of opening ~1.3–1.8 µm); three claws (cf. Figs 13G , 24G , 29H ). Female In general (size, colour) similar to male but sternum without pair of anterior humps, leg tibia 1 with usual low number of short vertical hairs, and chelicerae without stridulatory ridges; legs either slightly shorter than in males or of same length (only P. americana with reasonable sample size: male/female tibia 1 length: 1.12). Spinnerets, comb-hairs, and leg tarsal organs as in male; palpal tarsal organ slightly less strongly raised ( Figs 18E , 23H ). Epigynum main (anterior) plate large, rectangular to oval, sometimes posteriorly excavated, weakly protruding in lateral view; posterior plate also large, short but wide, median part sometimes separated from lateral parts by whitish band. Without knob-shaped structure between epigynum and pedicel. Internal genitalia variable: either without sacs ( Fig. 33A–H; P . americana Banks, 1896 ; P. mazatlan Huber sp. nov. ; P. papanoa Huber sp. nov. ; P. “Mex354”) or with pair of distinct membranous sacs ( Fig. 33I–L; P . texana Gertsch, 1935; P. tehuacan sp. nov. ); in Caribbean ‘ Pholcophora ’ with single median tube-like sac ( Fig. 33M–N; P . bahama Gertsch, 1982 ; P. “ Car 544”; P. “Cu12-325”); with pair of distinct transversal sclerites; apparently without pore plates (possibly with very indistinct pair of pore plates near median line, indicated in Fig. 33E–F, J–L ). Relationships In the molecular analysis of Eberle et al. (2018) , the type species Pholcophora americana was part of a North American-Caribbean clade of Ninetinae , together with “ Pholcophora ? Car 544”, an unidentified Cuban species (“Gen. Cu12-325”; treated below as “ Pholcophora ? Cu12-325”), and the genus Papiamenta . The genus Tolteca was not included. Our new molecular analyses mostly support this North American-Caribbean clade ( Fig. 1 ; see also general results of molecular analyses above), and they also support the idea that Caribbean ‘ Pholcophora ’ are not true Pholcophora but more closely related with the Caribbean genus Papiamenta . Our analyses suggest a sister group relationship between true Pholcophora and the Caribbean clade ( Papiamenta + Caribbean ‘ Pholcophora ’). By contrast, preliminary analyses of UCE data (G. Meng, L. Podsiadlowski, B.A. Huber, unpubl. data) suggest a sister-group relationship between true Pholcophora and Tolteca . Since we consider these UCE results more reliable, we will not further discuss relationships here, except for two species not yet included in any molecular dataset: Pholcophora maria Gertsch, 1977 from Yucatán, and Pholcophora bahama Gertsch, 1982 from the Bahamas . Judging from the female internal genitalia (compare Huber 2000 : fig. 1357 with Fig. 28B ), we hypothesize that Pholcophora maria is closely related with the newly described P. tehuacan sp. nov. It is thus probably a true Pholcophora . Pholcophora bahama resembles “ Pholcophora ? Car 544” in having a median tube-like sac in the female internal genitalia (compare Huber 2000 : fig. 1356 with Fig. 31G ). It is thus probably not a true Pholcophora but part of the Caribbean clade.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03F087F1AC7EFFDB094162B7E16AFE94#C343656CAC7FFFDC0BA965D9E1D5FA01">this account</a> <a href="https://treatment.plazi.org/id/03F087F1AC7EFFDB094162B7E16AFE94">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pholcidae/"><span>Pholcidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/pholcophora-americana/"><i>Pholcophora americana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora-texana/"><i>Pholcophora texana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora-mazatlan/"><i>Pholcophora mazatlan</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora-papanoa/"><i>Pholcophora papanoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora-tehuacan/"><i>Pholcophora tehuacan</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/holocnemus/"><i>Holocnemus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aetana/"><i>Aetana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arnapa/"><i>Arnapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/artema/"><i>Artema</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anopsicus/"><i>Anopsicus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anansus/"><i>Anansus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/belisana/"><i>Belisana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/calapnita/"><i>Calapnita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/chisosa/"><i>Chisosa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/changminia/"><i>Changminia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza/"><i>Crossopriza</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ciboneya/"><i>Ciboneya</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/galapa/"><i>Galapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita/"><i>Guaranita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hoplopholcus/"><i>Hoplopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hantu/"><i>Hantu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ibotyporanga/"><i>Ibotyporanga</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/holocneminus/"><i>Holocneminus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kambiwa/"><i>Kambiwa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/magana/"><i>Magana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/maghreba/"><i>Maghreba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/leptopholcus/"><i>Leptopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/micropholcus/"><i>Micropholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nerudia/"><i>Nerudia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nyikoa/"><i>Nyikoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ninetis/"><i>Ninetis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nita/"><i>Nita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/panjange/"><i>Panjange</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcus/"><i>Pholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physocyclus/"><i>Physocyclus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/priscula/"><i>Priscula</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psilochorus/"><i>Psilochorus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/quamtana/"><i>Quamtana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savarna/"><i>Savarna</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/spermophora/"><i>Spermophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/smeringopus/"><i>Smeringopus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenosfemuraia/"><i>Stenosfemuraia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus/"><i>Stygopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tolteca/"><i>Tolteca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caipira/"><i>Caipira</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Pholcophora</i></td><td>Genus</td><td>Pholcidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Pholcophora">Plazi/Pholcophora</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/pholcophora/&quot;,
+  &quot;name&quot;: &quot;Pholcophora&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholcophora/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CVJGJ&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pholcidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholcidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CVJGJ</p>
+</div></footer>
+</body>
+</html>

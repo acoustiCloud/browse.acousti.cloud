@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Microthalestris</title>
+<meta name="description" content="Microthalestris in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/microthalestris/">
+<meta property="og:title" content="Bioacoustics of Microthalestris">
+<meta property="og:description" content="Microthalestris in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8RZXX">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/microthalestris/", "name": "Microthalestris", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/microthalestris/", "sameAs": "https://api.audioblast.org/taxon/CoL/8RZXX", "parentTaxon": {"@type": "Taxon", "name": "Parastenheliidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/parastenheliidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Crustacea", "item": "https://browse.acousti.cloud/taxon/crustacea/"}, {"@type": "ListItem", "position": 5, "name": "Copepoda", "item": "https://browse.acousti.cloud/taxon/copepoda/"}, {"@type": "ListItem", "position": 6, "name": "Neocopepoda", "item": "https://browse.acousti.cloud/taxon/neocopepoda/"}, {"@type": "ListItem", "position": 7, "name": "Podoplea", "item": "https://browse.acousti.cloud/taxon/podoplea/"}, {"@type": "ListItem", "position": 8, "name": "Parastenheliidae", "item": "https://browse.acousti.cloud/taxon/parastenheliidae/"}, {"@type": "ListItem", "position": 9, "name": "Microthalestris", "item": "https://browse.acousti.cloud/taxon/microthalestris/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/crustacea/"><span class="rk">Subphylum</span><span>Crustacea</span></a><span class="sep">›</span><a href="/taxon/copepoda/"><span class="rk">Class</span><span>Copepoda</span></a><span class="sep">›</span><a href="/taxon/neocopepoda/"><span class="rk">Infraclass</span><span>Neocopepoda</span></a><span class="sep">›</span><a href="/taxon/podoplea/"><span class="rk">Superorder</span><span>Podoplea</span></a><span class="sep">›</span><a href="/taxon/parastenheliidae/"><span class="rk">Family</span><span>Parastenheliidae</span></a></nav>
+<h1>Bioacoustics of <i>Microthalestris</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Various authors have reported on what they individually regard as Parastenhelia spinosa or varieties/species sharing some of its morphological characteristics, but recognise a wide range of variation in features such as segmentation of the female antennule, modification of the caudal ramus setae (particularly V ), setation of the antennary exopod and endopod, relative proportions of P1 rami and form of their terminal elements, armature formulae of P2–P4, shape and armature of ♀ P5 exopod, and segmentation of ♂ P5 exopod. The magnitude of this variability, or the identity of differences which might represent true genetic discontinuity (and thus distinct species), is in many cases impossible to determine due to the inaccurate and/or incomplete descriptions and illustrations [especially the original description by Fischer (1860) ] which have accompanied many published reports. The currently accepted concept of P. spinosa being a highly variable, cosmopolitan taxon has grown over time since 1860 by the gradual accumulation of differences observed in what were wrongly assumed to be geographically isolated populations of the same species. The historical review presented below aims at (a) pointing out some important misconceptions in the taxonomy of the species, (b) assigning distinct specific status to some of its radically divergent “populations”, and (c) formulating a working hypothesis and baseline for future comparisons and revisionary work . Parastenhelia spinosa was first described as Harpacticus spinosus by Fischer [1860: 665–666 , Table XXI (figures 51–53), XXII (figure 66)] from the island of Madeira [ Lang (1948: 589) stated incorrectly that Fischer did not disclose the type locality] but the description is severely lacking in any real detail (8-segmented antennule, ovate female P5 with four spines on exopod and baseoendopod, caudal ramus seta V swollen at base) and only his illustration of the P1 provides the barest minimum to identify it as a member of the Parastenheliidae .The inaccuracies expressed in the few poorly rendered drawings (maxilliped, P1, female P5, caudal rami) and the lack of the male make the description virtually useless for comparative purposes. Harpacticus spinosus is placed in Microthalestris solely on account of its elongate P1 exp-2 but cannot be treated as anything more than a species inquirenda in this genus. Had Lang’s (1948) fixation of H. spinosus as the type of Parastenhelia been valid, this would have threatened stability and universality in the application of the name of the type species since its taxonomic identity cannot be determined from its name-bearing type . Although Lang (1936a: 21) considered the possibility that Fischer’s (1860) species was conspecific with Parastenhelia forficula var. littoralis (sensu Sars 1911 ) he recommended to set it aside on the grounds that it cannot be identified with any degree of confidence. Unfortunately, he changed his opinion by not only reinstating it as a valid species but also by illegitimately fixing it as the type of the genus ( Lang 1944: 13 ; 1948: 586–588 ). Claus (1863: 131–132 , Plate XVII, figs 7–11) described Thalestris forficula Claus, 1863 as one of ten species assigned to his new genus Thalestris Claus, 1862 ( type species by subsequent designation: Thalestris longimana Claus, 1863 ). The author reluctantly included H. spinosus in the genus as well as two other Harpacticus species previously described by Fischer (1860) . His description of T. forficula , based on material from Messina ( Sicily ), included illustrations of the antennule of both sexes, P1, caudal rami and the female genital field.The most significant information that can be extracted from Claus’s (1863) concise description is the 8-segmented condition of the female antennule, the presence of an apophysis on the male P3 endopod, the modified caudal seta (V) displaying a basal swelling, and the length of the relatively short inner seta on P1 enp-1 which extends only to about 40% of the segment length. No information was given about the armature of P2–P 5 in both sexes, or the segmentation of the male P5 exopod. P1 P2 P3 P4 P 5 ♀ P 5 ♂ exp enp exp enp exp enp exp enp e b e b S Parastenhelia Thompson &amp; Scott, 1903 Pa. hornelli Thompson &amp; Scott, 1903 0.0.022 1 1.111 –––––– ––––– 2 –––––– –––––– 1.1.223 3 1.1.221 6 5 7 2 3 sensu Noodt (1955a) ** –––––– –––– 1.1.0–123 1.1.121 1.1.223 1.1.221 1.1.223 1.1.221 6 5 – – – sensu Apostolov (1973) ** 0.1.022 1.111 1.1.123 0.1.121 4 1.1.223 1.1.221 5 1.1.223 1.1.221 6 5 7 2 1 sensu Apostolov &amp; Pandourski (1999) ** –––––– –––– –––––– ––––– 4 –––––– 1.1.321 –––––– –––––– 6 5 – – – sensu Zaleha et al. (2006) ** –––––– –––– 0.1.123 1.1.121 0.1.223 1.1.221 0.1.323 1.1.221 – – – – – Pa. similis Thompson &amp; Scott, 1903 6 0.1.022 1.111 1.1.123 1.1.121 2 1.1.323 1.1.221 5 1.1.323 1.1.221 6 5 6 7 2 3 Pa. oligochaeta Wells &amp; Rao, 1987 0.1.022 1.111 0.1.123 0.1.021 8 0.1.323 0.1.021 9 1.1.323 0.1.021 6 5 6 2 1 Pa. willemvervoorti sp. nov. 10 0.0.022 11 1.111 1.1.123 1.1.121 2 0.1.323 1.1.221 5 0.1.323 1.1.221 12 6 – 7 2 2 Pa. sp. sensu Zaleha et al. (2018) ** –––––– –––– 1.1.212 1.1.123 1.1.122 1.1.122 1.1.121 1.1.222 – 3 – – – Microthalestris Sars, 1905 M. spinosa ( Fischer, 1860 ) comb. nov. * 0.?.022 ?.011 13 –––––– –––––– –––––– –––––– –––––– –––––– 4 4 – – – sensu Pesta (1959) ** 0.1.022 1.111 –––––– –––––– 0.1.223 –––––– 5 –––––– –––––– 6 5 – – – sensu Marinov (1974) 0.1.022 1.111 0.1.123 0.1.121 0.1.223 1.1.221 5 0.1.223 1.1.221 6 5 7 2 1 sensu Wells &amp; Rao (1987) ** –––––– –––– –––––– –––––– –––––– –––––– –––––– –––––– – – 6 – 3 sensu Kornev &amp; Chertoprud (2008) ** 0.1.022 1.111 1.1.123 1.1.121 0.1.2–323 1.1.221 0.1.2–323 1.1.1–221 8 5 7 2 3 f. bulgarica Apostolov, 1968 ** 13 0.1.022 1.011 13 0.1.123 0.1.121 1.1.223 –––––– 5 0.1.223 1.1.221 6–7 5 7 2 1 M. forficula ( Claus, 1863 ) comb. nov. * 0.1.022 1.111 –––––– –––––– –––––– –––––– –––––– –––––– – – – – – sensu Wilson (1932b) ** 0.1.022 1.111 –––––– –––––– –––––– –––––– 15 –––––– –––––– 8 5 7 2 3 M. forficuloides ( Scott &amp; Scott, 1894 ) 0.1.022 1.111 –––––– –––––– 0.1.323 –––––– 5 0.1.223 1.1.121 8 5 7 2 1 M. littoralis Sars, 1911 0.1.022 1.111 –––––– –––––– –––––– –––––– –––––– –––––– 6 5 – – – sensu Willey (1935) ** –––––– –––– –––––– –––––– –––––– 0.1.221 –––––– ?.?.121 – – – – – sensu Nicholls (1945) ** 0.0.022 11 1.111 –––––– –––––– –––––– –––––– –––––– –––––– 6 5 7 2 1 M. gracilis ( Brady, 1910 ) comb. nov. 16 0.1.022 1.111 0.0.223 1.1.120 –––––– –––––– –––––– –––––– 6 4 – – – M. antarctica ( Scott, 1912 ) comb. nov. 0.1.022 1.111 1.1.123 1.1.121 –––––– 1.1.321 17 1.1.223 3 1.1.121 6 5 – – – M. costata ( Pallares, 1982 ) comb. nov. 18 0.1.022 1.111 1.1.123 1.1.121 2 1.1.323 1.1.321 5 1.1.323 1.1.221 6 5 7 2 3 M. minuta ( Pallares, 1982 ) comb. nov. 0.1.022 1.111 1.1.123 1.1.021 1.1.223 1.1.121 5 1.1.323 1.1.221 19 6 5 7 2 1 M. bulbosa ( Gee, 2006 ) comb. nov. 0.1.022 1.111 1.1.123 0.1.021 1.1.323 0.1.221 20 0.1.323 1.1.221 12 6 5 7 2 3 ......continued on the next page P1 P2 P3 P4 P5 ♀ P5 ♂ exp enp exp enp exp enp exp enp e b e b S M. campbelliensis sp. nov. 0.1.022 1.111 1.1.123 1.1.121 0.1.223 1.1.221 5 0.1.223 1.1.121 6 5 7 2 3 M. polaris sp. nov. 21 0.1.022 1.111 1.1.123 1.1.121 1.1.323 1.1.221 5 0.1.323 1.1.121 8 5 7 2 3 M. santacruzensis sp. nov. 0.1.022 1.111 –––––– –––––– 0.0.123 –––––– 5 –––––– –––––– 6 5 6 22 2 1 M. sarsi sp. nov. 0.1.022 1.111 1.1.123 1.1.121 1.1.223 1.1.221 5,23 0.1.223 1.1.121 8 5 6 2 3 M. variabilis sp. nov. 24 0.1.022 1.111 1.0.123 1.1.121 2 1.0.223 1.1.121 5 1.1.123 1.1.121 6 5 7 2 3 Thalestrella Monard, 1935a T. ornatissima Monard. 1935a 0.1.022 1.111 0.1.223 1.1.121 0.1.223 1.1.221 0.1.323 1.1.221 6 5 4 2 1 T. arenicola ( Noodt, 1964 ) comb. nov. 0.0.022 1.011 13 0.1.223 1.1.121 0.1.223 1.1.221 0.1.323 1.1.221 6 5 4 1 1 T. psammophila ( Wells, 1967 ) comb. nov. 0.1.022 1.111 0.1.223 28 1.1.121 0.1.323 1.1.221 0.1.323 1.1.221 5 5 4 2 1 T. reducta ( Apostolov, 1975 ) comb. nov. 0.0.022 1.111 0.1.223 1.1.121 0.1.223 1.1.121 0.1.223 1.1.121 6 5 5 2 1 T. bengalensis ( Wells &amp; Rao, 1987 ) comb. nov. 0.1.022 1.111 0.1.223 1.1.121 0.1.323 1.1.221 0.1.323 1.1.221 5 5 4 2 1 T. obscura ( Mielke, 1994b ) comb. nov. 0.0.022 1.111 0.1.223 1.1.121 0.1.323 1.1.221 0.1.323 1.1.221 5 5 4 2 1 T. pulchra ( Mielke, 1994b ) comb. nov. 0.1.022 1.111 0.1.223 1.1.121 0.1.323 1.1.221 0.1.323 1.1.221 6 5 4 2 1 Paraleptomesochra Wells, 1967 Par. minima Wells, 1967 0.022 1.011 1.1.121 1.0.010 1.1.121 1.0.010 1.1.121 1.0.010 6 3 4 2 1 Par. wellsi Rao, 1972 0.022 1.011 1.1.121 1.0.020 1.1.121 1.0.020 1.1.221 1.0.020 6 3 4 1 1 Psammoleptomesochra Mielke, 1994a Ps. australis Mielke, 1994a 0.0.022 1.111 0.0.022 0.0.021 26 0.0.022 0.0.021 26 0.0.122 1.0.021 26 6 4 5 27 2 1 Foweya Gee, 2006 F. anglica ( Norman &amp; Scott, 1905 ) 0.1.022 1.111 1.1.223 1.1.221 1.1.323 1.1.321 1.1.323 1.1.221 6 5 6 2 1 F. tertia ( Kunz, 1975 ) 0.1.022 1.111 1.1.223 1.1.221 28 1.1.323 1.1.321 29 1.1.323 1.1.221 6 5 5 2 1 Johnwellsia gen. nov. J. bipartita gen. et sp. nov. 0.1.022 1.111 1.1.123 1.1.121 30 1.1.323 1.1.221 31 1.1.323 1.1.121 6 5 4 2 2 Karaytugia gen. nov. K. aydini (Kuru &amp; Karaytuð, 2015) comb. nov. 0.1.022 1.111 1.1.123 1.1.121 1.1.323 1.1.221 5 0.1.323 1.1.121 6 5 5 2 2 Penicillicaris gen. nov. Pe. pectinimana ( Car, 1884 ) comb. nov. 0.1.022 1.111 ?.?.123 ?.1.121 ?.?.323 ?.1.221 5 ?.?.223 ?.1.221 6(7) 5 7 2 1 ......continued on the next page P1 P2 P3 P4 P5 ♀ P5 ♂ exp enp exp enp exp enp exp enp e b e b S Pe. maldivensis sp. nov. 0.0.022 11 1.111 –––––– –––––– –––––– –––––– 5 0.1.223 1.1.121 6 5 7 2 1 Pe. penicillata sp. nov. 0.1.022 1.111 –––––– 1.221 ?.?.323 1.321 5, 32 ?.1.323 ?.?.221 12 6 5 7 2 1 Pe. sewelli sp. nov. 33 0.1.022 1.011 13 1.1.123 1.1.121 1.1.223 1.1.221 5 –––––– ?.?.221 6 5 7 2 1 M. forficula sensu Scott (1894a) ** 0.1.012 34 1.011 13 –––––– –––––– –––––– –––––– 0.1.223 1.1.221 6 4 35 – – – M. littoralis sensu Brian (1921) ** –––––– –––– –––––– –––––– –––––– –––––– 5 –––––– –––––– – – 7 2 1 M. littoralis f. scotti sensu Sewell (1940) ** 0.0.022 11 1.011 13 –––––– –––––– –––––– –––––– –––––– –––––– 6 5 – – – Porirualia gen. nov. Po. megarostrum ( Wells, Hicks &amp; Coull, 1982 ) comb. nov. 0.1.022 1.111 1.1.123 1.1.121 1.1.323 1.1.221 12 1.1.323 1.1.221 6 5 6 2 1 Po. pyriformis ( Song, Kim &amp; Chang, 2003 ) comb. nov. 0.1.022 1.111 1.1.123 1.1.121 2 1.1.223 1.1.221 36 0.1.223 1.1.221 6 5 5 2 1 1 The absence of the inner seta on exp-2 requires confirmation. 2 2-segmented in ♂ (1.221); Thompson &amp; Scott (1903) do not illustrate the inner seta on ♂ enp-1 in Pa. hornelli which is possibly an observational error (but see Apostolov 1973 : Fig. 9–9). 3 The short, fine, distal inner seta on exp-3 is probably overlooked. 4 0.221 in ♂. 5 1.1.02 + apo in ♂. 6 Based on Wells &amp; Rao’s (1987) redescription of Pa. hornelli from Middle and South Andaman Islands. The original description of Pa. similis by Thompson &amp; Scott (1903) lacks information on P2–P3 and figures P4 exp-3 with only two inner setae (the short distal one being overlooked). 7 Wells &amp; Rao (1987) claim that exp-2 is unarmed and has only a long spinule. This observation is probably correct since in all other species with a 3-segmented exopod the inner seta arises from the distal corner and not from halfway along the inner margin. 8 2-segmented in ♂ (0.121). 9 0.1.02 + apo in ♂. 10 Note that the armature formulae given by Wells &amp; Rao (1987 : Table 4) for the exopod of P3 and both rami of P4 are incorrect. 11 Both sexes were figured ( Vervoort 1964 : Figs 68c, 69a) without an inner seta on exp-2 which is probably an oversight. The same error probably applies to Sewell’s (1940) descriptions of Pa. littoralis (Text-Fig. 26–G) and Pa. littoralis f. scotti (Text-Fig. 28–D). 12 Armature pattern of enp-3 121 in ♂. 13 The vestigial seta was probably overlooked in the descriptions by Fischer (1860) , Car (1884) , Scott (1894a) , Sewell (1940) , Apostolov (1973) and Noodt (1964) . 14 Armature formula of P1 and P4 based on Apostolov (1973) who also reported a different armature for the ♀ P5 exopod (six setae). 15 1.1.12 + apo in ♂ P3 endopod. 16 Brady’s (1910) description is grossly inadequate and incomplete; the setal counts presented here for P2 and P5 baseoendopod are based on his illustrations (Textfig. VIII: Figs 3–4) and are most certainly incorrect, as well as his claim that the endopodal armature pattern for P2–P4 is [1.1.120]. 17 Based on Lang’s (1936a : Fig. 37) supplementary description (as Pa. gracilis ). 18 Pallares (1982: 10) erroneously stated that P3–P4 exp-3 display a [333] pattern in the male; probably not having consulted Pallares’s drawings of the male, Mielke (1990: 166) accepted this as an additional difference between the type population and his material collected from Bahía Lapataia near Ushuaia ( Argentina ). 19 Armature pattern of enp-3 021 in ♂ . 20 0.1.12 + apo in ♂ . 21 The single ♀ observed by Mielke (1974: 20) showed an aberrant setal pattern on one side of P2 enp-2 (with two inner setae) and P4 exp-3 (with inner seta). 22 There is confusion over the exact number of elements on the exopod. Pallares (1963) states that there are three outer, one inner and two apical elements but in a subsequent account ( Pallares 1968: 65 ) explicitly states that there are seven without going into detail about their position. We have adopted Pallares’s original observation pending reexamination of new material. 23 Lang’s (1936b: 24) only female displayed the atypical 121 pattern on enp-3. 24 Mielke (1990) recorded a high degree of variability in the armature of P2–P4. Some specimens displayed (a) an inner seta on P2–P3 exp-2, (b) only one (instead of two) inner seta on P3 exp-3, (c) two (instead of one) inner setae on P4 exp-3, (d) two (instead of one) inner setae on P3–P4 enp-3, and/or (e) only two (instead of three) outer spines on P4 exp-3. One male lacked the inner seta on P4 enp-2. 25 According to Wells (2007: 596) the original report of three inner setae on P2 exp-3 is wrong. 26 The endopodal armature pattern differs from Mielke’s (1994a: 257) in two aspects; the apical spiniform element on enp-3 is here considered as the homologue of the outer spine in other genera, and the two minute and fine setae originating from the inner corner of enp-3 are included in the formulae. 27 Inner seta minuscule ( Mielke 1994a : Fig. 4C ). 28 2-segmented in ♂ (1.321). 29 1.1. 321 in ♂ ; Kunz (1975) did not illustrate the ♀ condition but listed the armature formula of P3 endopod as 1.1. 221 in his Table 5; Gee (2006) re-examined the type material and noted that the armature formula is as in F. anglica . 30 2-segmented in ♂ (1.121). 31 1.1.021 in ♂ . 32 Willey (1935) reported some specimens with a 3-segmented endopod in the ♀ (1.1.221). 33 P3 endopod ♂ and P 5 ♂ based on Vervoort’s (1964) description of Pa. spinosa [partim]. According to Sewell (1940 : Text-fig. 27H) P2 exp-1 lacks an inner seta but Vervoort shows a small inner element which is included in the armature formula here. 34 Scott (1894a : Plate 12, Fig. 39) most likely overlooked the short inner seta on exp-3. 35 Sewell (1940: 196) claims the proximal inner seta was overlooked in Scott’s (1894a) description, bringing the total to five. 36 1.221 in ♂ . In a paper written in old Danish and completely lacking in illustrations, Boeck (1865: 266–267) described a new species, Thalestris karmensis Boeck, 1865 , based on specimens collected from Karmøy in Norway ; this species fell into oblivion until it was discussed by Sars (1905 – see below). In a similar contribution, Boeck (1873: 56) provided a short unillustrated text description of Dactylopus longipes Boeck, 1873 , obtained from 29 m depth in the Oslofjord in Norway . His female specimens were characterized by a 9-segmented antennule, a long and slender P1 exopod which is shorter than enp-1, a 2-segmented P1 endopod with a very long enp-1 which bears a seta in the proximal quarter of the inner margin, and a P5 exopod with eight elements. Based on this short description Lang (1936a: 31) would later synonymize D. longipes with Thalestris forficula which he had previously placed in Parastenhelia ( Lang 1934: 24 ) . Thomson’s (1883: 104–105 ; Plate X, Figs 16–21) material of Thalestris forficula from Otago Harbour in New Zealand agrees with the description of Claus (1863) in the 8-segmented condition of the female antennule and the basally inflated setae V on the caudal ramus but differs in size (1,000 vs 800 μm) and the morphology of P1. The female P5 bears six and five setae on the exopod and endopodal lobe, respectively. Lang (1934: 25) lists Thomson’s record but does not appear to question its identity. In later accounts he accepts it as a record of either Parastenhelia forficula var. littoralis ( Lang 1936a: 52 ) or P. spinosa ( Lang 1948: 588 ) . Car (1884: 248–249 , Plate XVIII, Figs 1 –8) provided an illustrated description of a new species, Thalestris pectinimana Car, 1884 , based on a single ovigerous female collected in the vicinity of Trieste, northeastern Italy . The author did not compare T. pectinimana with other congeners nor did he present a justification for its recognition as a distinct species. Illustrations were provided for the female in lateral aspect, antennule, antenna, maxilliped, distal segments of the P1 rami and P5. The species is characterized by the 8-segmented antennule, the large P5 with seven setae on the foliaceous exopod and five elements on the endopodal lobe, and the presence of distinct pectinate spines on the terminal segments of P1 exopod and endopod. No information was given on the armature of P2–P4. The species has not been recorded again since its original description. Pesta (1920: 590) listed it as a junior subjective synonym of Phyllothalestris mysis ( Claus, 1863 ) but this was rejected by Lang (1936a: 49) who considered it a valid species of Thalestris . Lang (1948: 497 , 588) revised his previous opinion and considered T. pectinimana conspecific with Parastenhelia spinosa , more specifically (based on P5 morphology) with the form described as Microthalestris littoralis f. penicillata by Willey (1935: 82) . This claim is dubious since Willey did not describe the female P5 but only stated that it displays “… the fifth foot of littoralis ”. According to Sars’s (1911: Suppl. Plate 11) description of M. littoralis the female P5 has only six setae on the exopod while T. pectinimana exhibits seven.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/951887EAFFD7FFBCFF51D13AE09BFBFD#55AB6577FFD7FF87FF51D172E08FFB7A">this account</a> <a href="https://treatment.plazi.org/id/951887EAFFD7FFBCFF51D13AE09BFBFD">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/parastenheliidae/"><span>Parastenheliidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/podoplea/"><span>Podoplea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/neocopepoda/"><span>Neocopepoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/copepoda/"><span>Copepoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/crustacea/"><span>Crustacea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/porirualia/"><i>Porirualia</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Microthalestris</i></td><td>Genus</td><td>Miraciidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Microthalestris">Plazi/Microthalestris</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/microthalestris/&quot;,
+  &quot;name&quot;: &quot;Microthalestris&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/microthalestris/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8RZXX&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Parastenheliidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/parastenheliidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8RZXX</p>
+</div></footer>
+</body>
+</html>

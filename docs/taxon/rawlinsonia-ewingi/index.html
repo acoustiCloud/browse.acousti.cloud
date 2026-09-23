@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Rawlinsonia ewingi</title>
+<meta name="description" content="Rawlinsonia ewingi in audioBlast: 13 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/rawlinsonia-ewingi/">
+<meta property="og:title" content="Bioacoustics of Rawlinsonia ewingi">
+<meta property="og:description" content="Rawlinsonia ewingi in audioBlast: 13 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/V5H6S">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/rawlinsonia-ewingi/", "name": "Rawlinsonia ewingi", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/rawlinsonia-ewingi/", "sameAs": "https://api.audioblast.org/taxon/CoL/V5H6S", "parentTaxon": {"@type": "Taxon", "name": "Rawlinsonia", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/rawlinsonia/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Pelodryadidae", "item": "https://browse.acousti.cloud/taxon/pelodryadidae/"}, {"@type": "ListItem", "position": 11, "name": "Rawlinsonia", "item": "https://browse.acousti.cloud/taxon/rawlinsonia/"}, {"@type": "ListItem", "position": 12, "name": "Rawlinsonia ewingi", "item": "https://browse.acousti.cloud/taxon/rawlinsonia-ewingi/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/pelodryadidae/"><span class="rk">Family</span><span>Pelodryadidae</span></a><span class="sep">›</span><a href="/taxon/rawlinsonia/"><span class="rk">Genus</span><i>Rawlinsonia</i></a></nav>
+<h1>Bioacoustics of <i>Rawlinsonia ewingi</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>13</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">biology_ecology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Ecology. The species is recorded commonly via FrogID (&gt;18,000 records from 10 November 2017 – 30 June 2022 ), and is relatively commonly heard calling in disturbed areas, with 24% of FrogID records from urban habitats and 47% of records from rural areas. Litoria ewingii have been recorded calling year-round in association with rainfall, with a distinct peak July–November based on FrogID submissions. Breeding occurs in static ephemeral or permanent waterbodies, including dams, ponds, swamps, inundated ditches and streamside ponds and pools ( Anstis 2017 , Parkin pers. obs ). For a detailed description of tadpole development and morphology, see Anstis (2017) . Tadpoles are highly sensitive to increases in salinity (Chinanthamby et al. 2006). Conservation status. Based on its widespread distribution (&gt; 200,000 km 2 ), relative abundance in FrogID submissions, and the lack of evidence for a population decline, Litoria ewingii likely qualifies for the listing of Least Concern under the IUCN Red List criteria ( IUCN 2022 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03D587FFFFFDFFADFF5F5A1FFCA9FECC#C3666562FFF9FFADFF0F5B1CFCA9FECC">this account</a> <a href="https://treatment.plazi.org/id/03D587FFFFFDFFADFF5F5A1FFCA9FECC">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Redescription of Holotype . We redescribe the holotype based on images of the preserved specimen after more than 180 years in preservative ( Fig. 9 ). Habitus moderately robust. Head slightly longer than wide, widest at commissure of the jaws. Tympanum smaller than eye, rounded and partially obscured by a tympanic fold. Snout rounded in dorsal and lateral profiles. Fingers unwebbed and toes with moderate webbing. Finger and toe pads wider than digits. Sub-articular tubercles visible, metacarpal tubercles prominent, inner-metatarsal tubercles somewhat prominent, oblong-shaped and approximately one-third the length of the fourth toe. Arms and legs moderately long and slender. Texture of dorsal surface finely granular, ventral surface coarsely granular, inguinal region, lower surface of tibia, upper surface of thighs and throat smooth. Colour in preservative. Dorsum varies tonally between copper-brown—beige and cream with faded dark bifurcated markings running longitudinally from between eyes to vent. Ventral surface light coppery-yellow. Variation. Summary of variation in morphometric characters for each sex is presented in Table 6 . Colour and pattern (in life). Variation in colour described from images taken in life ( Fig 10 ). Dorsum base colour varies from cream, beige, grey to light copper brown, occasionally even lime green (i.e., Fig 10 /D and F), often fading in intensity posteriorly. Darker grey to copper-brown longitudinally aligned and bifurcated (occasionally completely separated) bands usually extend from between eyes to vent, although may be faded or absent in some individuals. Upper surface of legs brown, cream to grey or green with posterior edge of thigh orange-yellow and typically unpatterned (n=27/32), but sometimes with scattered dark spots, flecks or lines (n=5/32). Light cream zone usually present on posterior edge of shoulder, with grey, pink or yellow in armpit. Brown, grey or silver stripe runs from rostrum through eye and fades into the lateral zone. Cream stripe typically runs from below eye to edge of mouth, often extending to the shoulder or elbow. Iris cream to coppery. Character Litoria ewingii females males Litoria calliscelis females males Litoria sibilis sp. nov. females males SVL 37.4±4.4 31.4±2.1 34.1±4.9 31.5±2.7 36.6±4.7 31.5±2.6 28.1–44.8 28.5–35.5 27.8–40.3 27.4–33.7 27.9–42.7 25.1–34.5 Fin3DW 1.3±0.4 1.0±0.2 1.6±0.4 1.1±0.1 1.4±0.4 1.1±0.2 0.9–2.2 0.7–1.2 1.2–2.2 1.0–1.3 1.0–2.0 0.7–1.4 Fin3W 0.8±0.2 0.6±0.1 0.8±0.1 0.7±0.1 1.0±0.2 0.7±0.2 0.5–1.2 0.4–0.8 0.6–0.9 0.6–0.8 0.7–1.2 0.5–1.0 Toe4DW 1.2±0.3 0.9±0.2 1.4±0.4 1.0±0.2 1.4±0.4 1.0±0.2 0.7–1.9 0.5–1.4 0.9–2.0 0.8–1.1 0.8–1.9 0.6–1.4 AL 17.8±2.4 14.9±1.2 16.7±2.9 15.1±1.3 18.3±2.8 14.7±1.5 13.5–22.1 13.4–17.2 12.4–19.5 13.2–16.4 12.9–21.0 11.3–16.4 DFE 6.2±0.5 5.4±0.4 6.5±1.0 5.7±0.5 6.5±1.0 5.5±0.4 5.0–7.1 4.9–6.3 5.7–8.0 5.0–6.1 4.6–7.4 4.4–5.9 EN 2.7±0.4 2.4±0.2 2.8±0.4 2.3±0.3 2.9±0.4 2.5±0.2 2.1–3.4 2.1–2.8 2.2–3.2 1.9–2.6 2.1–3.5 2.3–3.1 ED 3.4±0.3 3.0±0.4 3.8±0.6 3.2±0.3 3.8±0.4 3.4±0.3 2.6–3.7 2.3–3.7 3.0–4.7 2.8–3.5 3.1–4.5 3.0–4.1 THL 18.1±2.8 15.5±1.3 16.1±2.8 15.5±1.0 17.8±2.5 14.8±1.2 13.3–22.8 13.5–17.6 12.1–19.7 14.4–16.9 12.9–21.1 12.4–16.9 FOL 26.6±3.7 22.7±1.9 25.1±4.3 22.6±2.0 27.1±4.4 22.2±2.3 20.2–33.1 19.6–25.9 19.0–30.2 19.5–24.4 19.0–31.7 16.9–24.5 HDD 4.7±0.7 3.8±0.5 4.7±0.7 4.0±0.4 4.9±0.7 4.0±0.4 3.3–6.1 2.8–4.5 3.7–5.4 3.4–4.4 3.8–6.2 3.5–4.9 HL 12.6±1.6 11.1±2.0 13.9±2.3 12.6±0.9 15.2±1.9 12.8±0.9 10.3–15.8 9.0–14.8 10.7–16.2 11.1–13.4 11.8–17.5 10.9–13.9 HW 11.0±1.1 9.6±0.6 11.3±2.4 9.9±0.6 11.6±1.5 9.8±0.7 9.1–12.3 8.6–10.7 8.3–14.6 9.2–10.9 8.5–13.1 7.9–10.6 IMT 1.3±0.2 1.1±0.2 1.3±0.4 1.5±0.2 1.2±0.3 1.0±0.2 1.0–1.9 0.7–1.4 0.8–1.8 0.9–1.4 0.9–1.6 0.7–1.3 IND 2.5±0.3 2.4±0.2 2.6±0.3 2.3±0.1 2.6±0.3 2.3±0.1 2.3–3.4 2.1–2.9 2.3–2.8 2.2–2.5 2.2–3.2 2.0–2.6 IOD 3.6±0.3 3.1±0.4 3.6±0.3 3.5±0.2 3.7±0.4 3.3±0.3 2.9–4.0 2.4–3.6 3.2–4.1 3.2–3.6 3.1–4.3 2.8–3.7 LAL 7.9±1.1 6.8±0.5 7.5±0.7 6.9±0.5 8.3±1.5 6.9±0.6 5.9–10.0 5.6–7.7 6.3–8.2 6.3–7.4 5.4–9.9 5.4–7.6 HAL 10.5±1.5 8.9±0.7 10.3±1.9 8.9±0.8 11.0±1.8 8.8±1.0 7.4–13.0 7.9–10.2 7.9–12.5 7.9–9.7 7.7–12.7 6.6–10.0 NS 2.3±0.3 1.9±0.2 2.4±0.5 2.2±0.1 2.3±0.4 2.2±0.2 1.6–2.7 1.5–2.2 1.6–3.0 2.0–2.4 2.0–2.9 1.8–2.6 FL 16.3±2.4 13.8±1.2 15.3±2.7 13.8±1.5 16.2±2.6 12.9±1.2 12.2–20.4 11.9–16.3 11.8–18.2 11.6–15.3 11.2–19.2 9.9–14.1 SL 4.9±0.5 4.3±0.2 5.0±0.4 4.6±0.2 5.2±0.7 4.5±0.3 4.1–5.7 3.8–4.7 4.3–5.5 4.5–4.8 3.7–5.9 4.0–5.0 TL 18.5±2.6 15.6±1.2 17.5±3.0 15.9±1.1 19.3±2.7 15.8±1.1 13.9–23.1 14.0–18.3 13.3–20.5 14.4–17.2 14.4–22.9 13.4–17.4 UAL 6.5±0.6 5.4±0.9 5.9±1.0 5.8±0.6 6.7±1.4 5.6±0.7 5.8–7.7 4.5–7.4 5.2–7.3 5.0–6.5 3.8–8.3 4.4–6.9 Advertisement Call. Call description is based on the calls of 219 individuals. The advertisement call of Litoria ewingii has a duration of 1.05– 6.66 s (mean 2.42 s ) and comprises 4–22 distinctly pulsed notes (mean 9) with most calls (85.4%) beginning with a long note followed by a series of shorter notes. Note duration is between 0.10– 0.48 s (mean 0.22 s ). In the majority of calls (51.6%), notes rise in amplitude, appearing as a wedge shape in waveform view with a short interval between notes ( Fig. 7 ). Dominant frequency has a range of 1817–3167 Hz (mean 2485 Hz) and remains fairly stable throughout the call. Comparisons with similar species. Litoria ewingii may occur in sympatry with L. verreauxii and L. paraewingi where identification can be challenging, particularly for hybrid individuals. It shares a broad zone of overlap with Litoria verreauxii in eastern Victoria and southern NSW where occasional hybridisation occurs due to mis-mating ( Smith et al. 2012 ). In addition, Litoria ewingii shares a narrow hybrid “tension” zone with L. paraewingi in central Victoria ( Watson et al. 1971 , Smith et al. 2013). Non-hybrid Litoria ewingii can be readily distinguished from L. verreauxii using the following characters: finger and toe pads distinctly wider than digits ( L. ewingii mean Fin3W/ Fin3DW 0.6; Toe4W/Toe4DW 0.7 versus L. verreauxii mean Fin3W/Fin3DW 0.9; Toe4W/Toe4DW 1.0, n = 47), extensive webbing on the toes ( L. ewingii webbing usually extends to the 1 st or halfway between the 1 st and 2 nd subarticular tubercle on the 4 th toe versus extending to the 2 nd subarticular tubercle on the 4 th toe for L. verreauxii [see Fig 8 for comparison]), and by an absence of patterning in the inguinal region (versus present in L. verreauxii ). Distinguishing Litoria ewingii from L. paraewingi may be especially problematic where their distributions overlap, and mating-calls are unavailable. Watson et al . (1971) note in the original description of Litoria paraewingi that the species is morphologically indistinguishable from northern L. ewingii , however, L. paraewingi can be distinguished from southern populations of L. ewingii by smaller adult body size, relatively longer head and a straight versus rounded canthus rostralis. Litoria ewingii is allopatric with L. sibilus and L. calliscelis , separated from the latter by a gap of approximately 80 km across the Coorong region and adjacent northern Naracoorte Coastal Plain. Dispersal across this landscape is likely hindered due to a lack of suitable breeding habitat—the Coorong is characterised by an expanse of saline coastal flats and the predominantly dry, mallee-dominated northern Naracoorte Coastal Plain is lacking in sufficient surface waters for breeding. Despite significant overlap in morphological characters between Litoria ewingii , L. calliscelis and L. sibilus , some aspects of colour/pattern may be useful for identification. Litoria ewingii usually have a plain, unpatterned posterior edge of the thigh (n=27/32), compared to thigh patterning comprising dark spots and blotches for L. calliscelis (n=10/11) and L. sibilus (n=26/27). L. ewingii can be further distinguished from L. calliscelis by a typical absence of inguinal patterning (n=29/33) versus inguinal pattern usually comprising a single dark spot at the junction of the thigh and abdomen (n=7/11).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03D587FFFFFDFFADFF5F5A1FFCA9FECC#C3666562FFFAFFA2FF0F5E46FCC4FDB5">this account</a> <a href="https://treatment.plazi.org/id/03D587FFFFFDFFADFF5F5A1FFCA9FECC">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">13 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">Litoria ewingii - call</div><div class="d">1294 s</div><div class="m">
+<span>Hess, Felix</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Litoria_ewingi_A_40_1_1">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Litoria_ewingi_A_40_1_1">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC956636 Whistling Tree Frog (Litoria ewingii) - advertisement call</div><div class="d">114 s</div><div class="m">
+<span>Olivier SWIFT</span>
+<span>2012-01-13</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=956636">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/956636">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC913160 Whistling Tree Frog (Litoria ewingii) - uncertain</div><div class="d">56 s</div><div class="m">
+<span>Nick Talbot</span>
+<span>2024-01-06</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=913160">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/913160">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC883139 Whistling Tree Frog (Litoria ewingii) - advertisement call</div><div class="d">26 s</div><div class="m">
+<span>Marc Anderson</span>
+<span>2020-11-17</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=883139">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/883139">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1068537 Whistling Tree Frog (Litoria ewingii sibilus) - Communication call</div><div class="d">153 s</div><div class="m">
+<span>Khristos Nizamis</span>
+<span>2025-04-06</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1068537">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1068537">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Litoria ewingii - call</div><div class="d">1294 s</div><div class="m">
+<span>Hess, Felix</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Litoria_ewingi_A_40_1_1">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Litoria_ewingi_A_40_1_1">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC956636 Whistling Tree Frog (Litoria ewingii) - advertisement call</div><div class="d">114 s</div><div class="m">
+<span>Olivier SWIFT</span>
+<span>2012-01-13</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=956636">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/956636">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC913160 Whistling Tree Frog (Litoria ewingii) - uncertain</div><div class="d">56 s</div><div class="m">
+<span>Nick Talbot</span>
+<span>2024-01-06</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=913160">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/913160">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC883139 Whistling Tree Frog (Litoria ewingii) - advertisement call</div><div class="d">26 s</div><div class="m">
+<span>Marc Anderson</span>
+<span>2020-11-17</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=883139">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/883139">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Litoria ewingii - call</div><div class="d">1294 s</div><div class="m">
+<span>Hess, Felix</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Litoria_ewingi_A_40_1_1">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Litoria_ewingi_A_40_1_1">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC956636 Whistling Tree Frog (Litoria ewingii) - advertisement call</div><div class="d">114 s</div><div class="m">
+<span>Olivier SWIFT</span>
+<span>2012-01-13</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=956636">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/956636">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC913160 Whistling Tree Frog (Litoria ewingii) - uncertain</div><div class="d">56 s</div><div class="m">
+<span>Nick Talbot</span>
+<span>2024-01-06</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=913160">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/913160">record</a></span>
+</div></div>
+</div>
+<p class="more">1 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Rawlinsonia ewingi">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/rawlinsonia/"><i>Rawlinsonia</i> <span class="n">873</span></a></li>
+<li><a href="/taxon/pelodryadidae/"><span>Pelodryadidae</span> <span class="n">4,690</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/rawlinsonia-calliscelis/"><i>Rawlinsonia calliscelis</i> <span class="n">56</span></a></li>
+<li><a href="/taxon/rawlinsonia-corbeni/"><i>Rawlinsonia corbeni</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/rawlinsonia-jervisiensis/"><i>Rawlinsonia jervisiensis</i> <span class="n">16</span></a></li>
+<li><a href="/taxon/rawlinsonia-paraewingi/"><i>Rawlinsonia paraewingi</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rawlinsonia-verreauxii/"><i>Rawlinsonia verreauxii</i> <span class="n">156</span></a></li>
+<li><a href="/taxon/rawlinsonia-littlejohni/"><i>Rawlinsonia littlejohni</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rawlinsonia-watsoni/"><i>Rawlinsonia watsoni</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rawlinsonia-sibilus/"><i>Rawlinsonia sibilus</i> <span class="n">10</span></a></li>
+<li><a href="/taxon/rawlinsonia-revelata/"><i>Rawlinsonia revelata</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/rawlinsonia-eungellensis/"><i>Rawlinsonia eungellensis</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Litoria ewingii</i></td><td>Species</td><td>Pelodryadidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Litoria ewingii">Plazi/Litoria ewingii</a></td></tr>
+<tr><td><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></td><td><i>Litoria ewingii</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/xeno-canto/Litoria ewingii">xeno-canto/Litoria ewingii</a></td></tr>
+<tr><td><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></td><td><i>Litoria ewingii</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/TSA/Litoria ewingii">TSA/Litoria ewingii</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/rawlinsonia-ewingi/&quot;,
+  &quot;name&quot;: &quot;Rawlinsonia ewingi&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/rawlinsonia-ewingi/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/V5H6S&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Rawlinsonia&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/rawlinsonia/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/V5H6S</p>
+</div></footer>
+</body>
+</html>

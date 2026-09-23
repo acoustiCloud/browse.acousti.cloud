@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Homolophus</title>
+<meta name="description" content="Homolophus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/homolophus/">
+<meta property="og:title" content="Bioacoustics of Homolophus">
+<meta property="og:description" content="Homolophus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/7PKNR">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/homolophus/", "name": "Homolophus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/homolophus/", "sameAs": "https://api.audioblast.org/taxon/CoL/7PKNR", "parentTaxon": {"@type": "Taxon", "name": "Opilionini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/opilionini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Opiliones", "item": "https://browse.acousti.cloud/taxon/opiliones/"}, {"@type": "ListItem", "position": 7, "name": "Eupnoi", "item": "https://browse.acousti.cloud/taxon/eupnoi/"}, {"@type": "ListItem", "position": 8, "name": "Phalangioidea", "item": "https://browse.acousti.cloud/taxon/phalangioidea/"}, {"@type": "ListItem", "position": 9, "name": "Phalangiidae", "item": "https://browse.acousti.cloud/taxon/phalangiidae/"}, {"@type": "ListItem", "position": 10, "name": "Opilioninae", "item": "https://browse.acousti.cloud/taxon/opilioninae/"}, {"@type": "ListItem", "position": 11, "name": "Opilionini", "item": "https://browse.acousti.cloud/taxon/opilionini/"}, {"@type": "ListItem", "position": 12, "name": "Homolophus", "item": "https://browse.acousti.cloud/taxon/homolophus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/opiliones/"><span class="rk">Order</span><span>Opiliones</span></a><span class="sep">›</span><a href="/taxon/eupnoi/"><span class="rk">Suborder</span><span>Eupnoi</span></a><span class="sep">›</span><a href="/taxon/phalangioidea/"><span class="rk">Superfamily</span><span>Phalangioidea</span></a><span class="sep">›</span><a href="/taxon/phalangiidae/"><span class="rk">Family</span><span>Phalangiidae</span></a><span class="sep">›</span><a href="/taxon/opilioninae/"><span class="rk">Subfamily</span><span>Opilioninae</span></a><span class="sep">›</span><a href="/taxon/opilionini/"><span class="rk">Tribe</span><span>Opilionini</span></a></nav>
+<h1>Bioacoustics of <i>Homolophus</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description . Medium to very large harvestmen (body length 4–10 mm ). Body oviform with normal integument, often with indistinct dark brown hourglass-shaped (centered at junction of cephalothorax and abdomen), remainder of body light brown, almost yellow with brown specks and splotches (sometimes areas where muscles are attached on other side of exoskeleton); indistinct (often broken) central longitudinal light colored stripe extends length of body on most species (sometimes less distinct on darkly colored males). Chelicerae generally short, often sexually dimorphic with males being more enlarged (but not greatly enlarged and without any larger pointed tubercles or apophysis (examples, Figs. 10 H &amp; L , 21 E &amp; I ) generally with blackish brown tabby marks and splotches (example Fig. 34 G ); basal segment ventrally straight and smooth or with blunt to slightly pointed rounded bulge, often distodorsally with several denticles; distal segment with several sparse denticles. Few species (examples Figs. 19 F–G &amp; J–K; 31 G–H &amp; K–L) with longer more slender chelicerae, fewer to no denticles in both sexes, and generally lack tabby marks. Pedipalps short, femur and patella with some black-tipped denticles (no exceedingly large denticles) mainly on dorsal surface, less on patella, almost none on tarsus except ventral row of sensory microdenticles (sexually dimorphic), without extra-large denticles on femora, without patellar apophysis. Supracheliceral lamellae short, smooth, no denticles, only slightly visible from above.Anterior edge of cephalothorax sexually dimorphic in outline and armaments. Males with fewer denticles, front edge extended on both lateral corners, only slightly in center (examples Figs. 1 A–D, F); front edge of females reduced on both lateral sides and extended in center (more rounded or pointed, but longest at center (examples Figs. 10 D ; 12 C , 15 C–D). Frontal edge of cephalothorax with only few low small denticles to groups of larger denticles which may be very dense. No large trident of forward-pointing spines or tubercles are present anteriorly on cephalothorax. Preocular area of cephalothorax without noticeable “mound” (examples Figs. 3 B , 5 B &amp; D , 30 B , etc.). Saddle usually forms dark central longitudinal pattern which may cover anterior 2/3 or entire length of abdomen. Often saddle appears to be continuation of dark markings on cephalothorax. Shape and details of pattern can be useful in identification, but considerable intraspecific variation exists especially in levels of pigmentation. Furthermore, pattern may lack contrast with rest of abdomen. Ocularium above light creamy to yellowish brown; distant from frontal margin of cephalothorax by about its length or more, not tall nor canaliculate above, only with few small denticles (no large pointed denticles). Ozopores easily seen from above, no guard denticles overhanging openings (examples Figs. 1 A–D, F; 30 C, etc.). Genital operculum only with sparse setae. Thoracic tergites I, II, and abdominal tergites I–VII, often with transverse row of short, occasionally very long, denticles (examples Figs. 1 B–D, notably longer in H. snegovayae Kurt, 2015 ). Legs vary in lengths and widths based on species group and gender: some relatively short (first femur shorter than body length: often less than 2/3 of length; examples, Figs. 22 A , 26 A , 33 A ); femora to tibiae thickened, especially so in legs I and III; often with sexual dimorphism (first pair of legs especially thicker in males). Other species with long to exceptionally long legs (examples Figs. 6 A , 20 A , 31 D ). Each segment cylindrical or angular (slightly to greater pentagonal or hexagonal) in cross-section. Often with rows of denticles. Femora, patellae, and tibiae generally with many denticles, especially dense on distoventral surfaces of tibiae of first legs. Legs normally smoother on taxa with more slender, longer legs, and not noticeably enlarged in males. Tibia laterally with spiracle near its basal joint. Leg I metatarsi not spiny, but 1 species with dark “tubercle looking” structures that at higher magnification are thickly packed “brushes” of short setae. Penis greatly varies in length ( 2–6 mm long), related to large differences in male body lengths. Truncus with sclerotized margins, generally flattened dorsoventrally, with broad base (often widest at point slightly distal to base; enlarged to accommodate muscle bundle), narrowing to glans (some species widened towards center of truncus but still slightly tapered at junction to glans, examples Figs 18 D , 22 B &amp; C , 27 K , 33 D , 34 H ); without lateral incisions or similar structures, sometimes with alae (longitudinal ridge) on each distolateral side (examples Figs. 9 E , 18 D &amp; E , 34 J &amp; H ); bowed, recurved (very rarely procurved; Fig. 13 B ) in lateral view. Glans in profile mostly triangular with rounded “lower” side appearing boat- or banana-shaped, generally with 2 pairs (there are some exceptions, Figs. 13 C &amp; E , 18 C &amp; E , 30 K &amp; L , 31 O &amp; P ) of stiffened setae on each side anteriorly (examples Fig. 5 C &amp; E , 9 C &amp; E ); stylus relatively long. The musculature of the penis is a useful structure for taxonomic study. Martens (1976) emphasized the importance of the number and position of muscles in male the genitalia for systematics of harvestmen. He illustrated musculature in penes of all middle European species in Martens (1978) and showed that the bundle of penial musculature is limited to only the basal part of penis in Zacheus C.L. Koch, 1839 (Phalangiinae) , whereas it extends to the distal end of the truncus in Egaenus C.L. Koch, 1839 (Opilioninae) . To add to the library of data for future studies on this topic we have presented an illustration ( Fig. 1G ) of such a structure from the most widely distributed species ( H . nordenskioeldi ). The only previously published illustrations of the musculature of Homolophus penes are the two species illustrated ( H . arcticus and H . rishiri ) by Tsurusaki (1987) and H. nepalicus by Martens (1973) . The intrinsic muscle of the penis is elongated in Homolophus (occupying more than half of the length of the truncus). The tendon is central with the muscle being attached to the internal truncus walls and especially the basal most region. Females differ from the above description in several points: Coxae smooth unarmed (only with scattered setae), rounded and blunt in form. Legs dark to blackish brown; metatarsi and tarsi slightly lighter. Form and coloration of female similar to male, except chelicerae and legs I, III less developed. Chelicerae rarely with any dorsal denticles on basal joint. Armament of pedipalp very weak, only with some denticles on femur and patella. Like the male, the mesal side of the chelicerae has a series of setae distally which are missing on the reverse side. List 1. Current status of Homolophus species (synonyms and misplaced species not included). Scientific names preceded by an * are illustrated and described herein. Otherwise modern descriptions and illustrations are found in 1 Das &amp; Bastawade, 2006 ; 2 Kurt, 2014 ; 3 Kurt, 2015 ; 4 Šilhavý 1967 ; 5 Snegovaya, 2012 ; 6 Staręga &amp; Snegovaya, 2008 ; 7 Staręga, 2003 ; 8 Tchemeris et al. 1998 ; 9 Tsurusaki 1987 ; 10 Tsurusaki et al. 2000 ; 11 Zhu et al. 1999 . If known or described by only one sex, this will be noted at end of line. 1. * Homolophus albofasciatus ( Kulczyński, 1901 ) 2. * Homolophus almasyi ( Roewer, 1911 ) 3. * Homolophus andreevae Staręga &amp; Snegovaya, 2008 6 4. * Homolophus arcticus Banks, 1893 8, 10 5. Homolophus asiaticus ( Gricenko, 1979a ) 8 6. Homolophus bastawadei Staręga, 2013 [Replacement name for Euphalangium martensi Das &amp; Bastawade, 2006 ] 1 7. * Homolophus betpakdalensis ( Gricenko, 1976 ) 8. * Homolophus charitonovi ( Gricenko, 1972 ) 9. * Homolophus chemerisi Staręga &amp; Snegovaya, 2008 6 10. * Homolophus chevrizovi Staręga &amp; Snegovaya, 2008 6 11. * Homolophus gobiensis Tsurusaki, Tchemeris &amp; Logunov, 2000 5, 10 12. Homolophus gricenkoi Staręga &amp; Snegovaya, 2008 6 , female unknown 13. Homolophus hunan Zhu, Song &amp; Kim, 1999 , female unknown 14 . * Homolophus kozlovi sp. nov. , female unknown 15. Homolophus luteus ( Suzuki, 1966 ) , female unknown 16. * Homolophus martensi ( Staręga, 1986 ) [nec martensi Das &amp; Bastawade, 2006 ; a junior homonym] 17. * Homolophus milkoi sp. nov. , female unknown 18. Homolophus nakhichevanicus Snegovaya, 2012 2, 5 19. Homolophus nepalicus ( Roewer, 1912 ) , female unknown 20. * Homolophus nordenskioeldi (L. Koch, 1879a ) 8 21. * Homolophus pallens ( Kulczyński, 1901 ) 5, 8 , female unknown 22. Homolophus panpema Suzuki, 1966 23. Homolophus rishiri Tsurusaki, 1987 9 24. * Homolophus silhavyi Staręga &amp; Snegovaya, 2008 6 25. Homolophus snegovayae Kurt, 2015 3 26. Homolophus thienshanensis ( Šilhavý, 1967 ) , male unknown 27. * Homolophus tibetanus ( Roewer, 1911 ) 7 28. Homolophus transbaicalicus ( Kulczyński, 1901 ) 11 , both sexes known ( Roewer, 1923 ) 29. * Homolophus vladimirae ( Šilhavý, 1967 ) 4, 5 , both sexes known, but female not described Validity of some names of species currently assigned to Homolophus . Placement in the genus and validity of species is not certain, all need to be redescribed and illustrated: 1. Homolophus consputus (Simon, 1895) nomen dubium 2. Homolophus nigridorsus ( Caporiacco, 1934 ) nomen dubium 3. Homolophus serrulatus (Karsch, 1881) , Staręga (2003) recognized serrulatus in its new combination with Homolophus and newly synonomized 5 other species under it. Although this species is known by numerous descriptions and drawings, none mention the penis. Each will have to be re-examined with a descriptive eye towards the genitalia. 4. Homolophus turcicus ( Roewer, 1956 ) nomen dubium . Identification . Although a taxonomic key to all species of Homolophus would be very useful, the knowledge of the genus is not well enough understood for this at the moment. The penis has not been illustrated for several species (those listed above as nomen dubium, H. thienshanensis , and some of the species described from about the turn of the 1800s). Until that time, we are only able to provide a taxonomic key for the recognition and separation of the species from this study. Hopefully, further couplets in the key can be added as more species and females are described/redescribed and revised. The present study is not a full generic revision. There are no couplets in the key to follow for females. It is not that all females cannot be identified but rather that so many have not been described and compared (List 1). The anatomy of the ovipositor and especially the seminal receptacles should be studied/illustrated to detect any features useful in the recognition of these species (most likely in conjunction with a full generic revision). Anyone needing an identification should try the key below and then compare their specimen to the descriptions and the diagnoses. To be certain of an identification the specimen should also be compared to the other species described in the 11 publications detailed in List 1.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/039C113F097EFF8998EBD8B4FCB3FCAC#C32FF3A2097FFF8998BBDC4AFCB3FCAC">this account</a> <a href="https://treatment.plazi.org/id/039C113F097EFF8998EBD8B4FCB3FCAC">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/opilionini/"><span>Opilionini</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/opilioninae/"><span>Opilioninae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/phalangiidae/"><span>Phalangiidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/phalangioidea/"><span>Phalangioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/eupnoi/"><span>Eupnoi</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/opiliones/"><span>Opiliones</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<p class="none">No sibling taxa held.</p>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Homolophus</i></td><td>Genus</td><td>Phalangiidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Homolophus">Plazi/Homolophus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/homolophus/&quot;,
+  &quot;name&quot;: &quot;Homolophus&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/homolophus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/7PKNR&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Opilionini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/opilionini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/7PKNR</p>
+</div></footer>
+</body>
+</html>

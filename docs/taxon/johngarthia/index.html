@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Johngarthia</title>
+<meta name="description" content="Johngarthia in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/johngarthia/">
+<meta property="og:title" content="Bioacoustics of Johngarthia">
+<meta property="og:description" content="Johngarthia in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/7PLWS">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/johngarthia/", "name": "Johngarthia", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/johngarthia/", "sameAs": "https://api.audioblast.org/taxon/CoL/7PLWS", "parentTaxon": {"@type": "Taxon", "name": "Gecarcinidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/gecarcinidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Crustacea", "item": "https://browse.acousti.cloud/taxon/crustacea/"}, {"@type": "ListItem", "position": 5, "name": "Malacostraca", "item": "https://browse.acousti.cloud/taxon/malacostraca/"}, {"@type": "ListItem", "position": 6, "name": "Decapoda", "item": "https://browse.acousti.cloud/taxon/decapoda/"}, {"@type": "ListItem", "position": 7, "name": "Pleocyemata", "item": "https://browse.acousti.cloud/taxon/pleocyemata/"}, {"@type": "ListItem", "position": 8, "name": "Brachyura", "item": "https://browse.acousti.cloud/taxon/brachyura/"}, {"@type": "ListItem", "position": 9, "name": "Eubrachyura", "item": "https://browse.acousti.cloud/taxon/eubrachyura/"}, {"@type": "ListItem", "position": 10, "name": "Thoracotremata", "item": "https://browse.acousti.cloud/taxon/thoracotremata/"}, {"@type": "ListItem", "position": 11, "name": "Gecarcinoidea", "item": "https://browse.acousti.cloud/taxon/gecarcinoidea/"}, {"@type": "ListItem", "position": 12, "name": "Gecarcinidae", "item": "https://browse.acousti.cloud/taxon/gecarcinidae/"}, {"@type": "ListItem", "position": 13, "name": "Johngarthia", "item": "https://browse.acousti.cloud/taxon/johngarthia/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/crustacea/"><span class="rk">Subphylum</span><span>Crustacea</span></a><span class="sep">›</span><a href="/taxon/malacostraca/"><span class="rk">Class</span><span>Malacostraca</span></a><span class="sep">›</span><a href="/taxon/decapoda/"><span class="rk">Order</span><span>Decapoda</span></a><span class="sep">›</span><a href="/taxon/pleocyemata/"><span class="rk">Suborder</span><span>Pleocyemata</span></a><span class="sep">›</span><a href="/taxon/brachyura/"><span class="rk">Infraorder</span><span>Brachyura</span></a><span class="sep">›</span><a href="/taxon/eubrachyura/"><span class="rk">Section Zoology</span><span>Eubrachyura</span></a><span class="sep">›</span><a href="/taxon/thoracotremata/"><span class="rk">Subsection Zoology</span><span>Thoracotremata</span></a><span class="sep">›</span><a href="/taxon/gecarcinoidea/"><span class="rk">Superfamily</span><span>Gecarcinoidea</span></a><span class="sep">›</span><a href="/taxon/gecarcinidae/"><span class="rk">Family</span><span>Gecarcinidae</span></a></nav>
+<h1>Bioacoustics of <i>Johngarthia</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Several species initially assigned to Gecarcinus were separated by Türkay (1970) , who created the subgenus Johngarthia for them, subsequently elevated to genus rank ( Türkay 1987 ). Tavares (1989 , 1991 ) found no synapomorphies to support the monophyly of Johngarthia . Colavite et al. (2021) , who studied the morphology of the first zoeal stage of J. lagostoma , endemic to the Atlantic oceanic islands of Ascencion , Trindade and Martin Vaz, Fernando de Noronha and the Rocas Atoll, suggested that the uncommon large eyes of the first zoea could be an autapomorphy of the species, but ultimately found that this character was actually more widespread within Johngarthia . Colavite et al. (2021) concluded that no characters of the first zoeal stage could be set forth as diagnostic for this genus to date and again questioned the validity of Johngarthia in relation to Gecarcinus . Nevertheless, the genus is used by Tavares &amp; Mendonça Jr (2022) . In the phylogenetic tree of Toledano-Carrasco et al. (2021) and Guinot et al. (2025 : tables 2, 3, fig. 16), which indicated a high divergence between Gecarcinus and Hartnollius (with values comparable to the divergence between species of different genera, such as those of Discoplax longipes with Tuerkayana latens ), the genetic distance between Gecarcinus and Johngarthia was lower than that between Gecarcinus and Hartnollius . Morphologically, species of Johngarthia also show similarities with Gecarcinus , such as the locking pleonal structures in the form of a setose and more or less marked prominence ( Gecarcinus ruricola , see Guinot et al. 2025 : fig. 2E; G. quadratus , see Köhnk et al. 2017 : fig. 19c, d; Johngarthia , see Guinot &amp; Bouchard 1998 : fig. 25A, as G. planatus ). Gecarcinus ruricola , in particular, bears a striking resemblance to J. lagostoma in terms of its globular carapace, eyes englobed within the carapace, a recessed antenna, and a mxp3 with a long, obliquely directed merus that reaches almost to the front ( G. ruricola , see Guinot et al. 2025 : figs 2d, 6; J. lagostoma , see Türkay 1970 : fig. 5b, c; Tavares &amp; Mendonça Jr 2022 : fig. 47A). However, there are many distinctive characters between Johngarthia and Gecarcinus : in the former, the mxp3 merus has a slit-shaped fissure approximately on the inner margin ( J. weileri , see Fig.2E; J . lagostoma, see Tavares 1989 : fig. 9, as Gearcinus lagostoma ; Tavares &amp; Mendonça Jr 2022 : fig.47A-C); the exopod is reduced to a plate fused to the internal face of the ischium, with setae extending beyond the ischium-merus articulation, in J. weileri as in J.lagostoma (see Tavares &amp; Mendonça Jr 2022 : fig. 47B, C); and the G1 is thick, short, and its tip lacks projecting distal setae ( J. lagostoma , see Tavares 1989 : fig. 17d, as Gecarcinus lagostoma ; Tavares &amp; Mendonça Jr 2022 : fig. 47G). Johngarthia differs from Gecarcinus in the adult features already mentioned ( Türkay 1970 ; Perger et al. 2011 ), but also in its larval characters. Cuesta et al. (2007) showed that the difference in the mxp3 exopod seen in adults of Gecarcinus and Johngarthia is also observable in megalopa. The case of the genus Discoplax A. Milne Edwards, 1867 A. Milne Edwards (1867 ; 1873 ) considered Discoplax to be ‘among the grapses’, but the genus was very quickly assigned to the Gecarcinidae sensu lato . Many authors ( Ortmann 1894 ; Alcock 1900 ; see also Balss 1934 ; Türkay 1974b ) have regarded Discoplax as a junior synonym of Cardisoma , and the type species was therefore named Cardisoma longipes . But Guinot (1988 , 1994 ) considered Discoplax a distinct genus, a position adopted by Türkay (1987) , Ng (1998) and Ng et al. (2001), as well as by subsequent authors. The inclusion of Discoplax , with its three cave-dwelling species, among the land crabs of the family Gecarcinidae sensu lato has apparently never been questioned. Our morphological examination of the three species of Discoplax , D. longipes ( Figs 1B ; 2A ; 6A ; 7A ; 8D ), D. gracilipes and D. michalis , clearly highlights the numerous characters that diverge significantly from those of the Gecarcinoidea n. stat. and the Cardisomatidae n. fam. The main differences are the location of the penis (emerging a short distance from the P5 coxa), the slightly sexually dimorphic chelipeds, the morphology of the male and female pleons and their slight sexual dimorphism ( Figs 6A ; 8D : male and female pleons of D. longipes , respectively), the vulvae, the flat carapace with numerous striae, the presence of a stridulatory apparatus (see Table 1 and Diagnosis of Cardisomatidae n. fam. ). Are these differences related to the cave-dwelling habits of all the species in the genus? Apparently not, since adaptations to cave life usually include long legs (only D. gracilipes has very long legs), reduced eyes, light body, and depigmentation, all features absent in Discoplax . In Discoplax longipes , eggs are laid and incubated in the caves where the adults live, and females carrying ripe eggs migrate directly to the sea; the species does not appear to carry out organised spawning migrations ( Türkay 1987 ). The type species Discoplax longipes is known only from the Loyalty islands , an isolated archipelago of three main islands (Ouvéa, Lifou and Maré) located northeast of the New Caledonian mainland of Grande Terre. The islands are essentially old coral atolls, whose current topography is the result of sea-level fluctuations and erosion. This has led to a karst landscape dotted with numerous caves.Today, many of these caves are flooded and exhibit a wide diversity of sizes, shapes and depths, ranging from a few metres deep to several kilometres in length. The waters in these caves are invariably fresh, although they may be brackish in deeper parts due to seawater percolation through the porous rocks. In Xodre Cave on Lifou Island, where several specimens have been collected by hand, the underground lake is located 400 m from the entrance. The crabs were collected deep in caves, which are sometimes several hundred metres from the sea, therefore completely isolated and without any real communication with the sea (B. Séret, pers. comm.). Despite its normal habitus is D. longipes a troglobite? It should also be noted that there are reasonable doubts regarding the conspecific status of some specimens with D. longipes from the Loyalty Islands: for example, ofTürkay (1974a, as Cardisoma longipes ) from many islands in the western Pacific (e.g. Fiji and the Cook Islands ), of Yaldwyn (1970 , as Cardisoma longipes ) from Niue , of Sendler (1923) and Poupin &amp; Juncker (2010) from French Polynesia . Even though a Niue specimen clustered with the Loyalty Island material during a molecular analysis performed by Ng &amp; Shih (2015 : fig. 17). The ecology of D. michalis in Guam was described in detail by Ng &amp; Guinot (2001 : fig. 8A, as D. longipes ): it is frequently observed in the water, sometimes as deep as two metres; it also shelters in deep crevices and cracks; there is no indication that it digs permanent burrows, and none have been observed. According to Gustav Paulay, who collected a good series of specimens of D. michalis (as D. longipes ) in Guam and Niue , in the central Pacifc, the species is not a true cave crab, but rather a species closely associated with karst environments, using caves whenever possible. In Niue , it is also found in deep crevices outside caves during the day, with locals catching it at night or on full moon nights for food. On this same island, ovigerous female of D. michalis reach the sea by using the karst formations, which corresponds to the migration of the females for the reproduction and the release of the eggs into the sea. In Guam , ovigerous specimens have been observed climbing down the karst cliff face from just outside Tumon Bay, and a male specimen was even collected near the University of Guam Marine Biology Laboratory, in areas where no caves are known to exist nearby. Presumably, D. michalis is also present in the deep crevices and uneven terrain of the karst forest, emerging out to forage only at night. In summary of all these informations, D. michalis may well be a troglophile. The third species of Discoplax , D. gracilipes , has been found only in the Philippines , on and around Panglao Island. Located about a kilometre southwest of the island of Bohol , this large and predominantly limestone island has numerous anchialine sinkholes and caves. Specimens of D. gracilipes have generally been collected from anchialine pools in water at a depth of one metre, either by hand or using baited traps ( Ng &amp; Guinot 2001 ). Virata Cave, in the southermost part of Panglao, is only about 100 m from the sea, with its entrance opening onto degraded secondary forest. Water is present at the bottom of the deep cave only during the wet season. According the local villagers, D. gracilipes hides in the caves during the day but forages near the entrance and nearby forest at night. The gecarcinid Gecarcoidea lalandii has also been observed in the cave, but it is also relatively common outside. D. gracilipes is regularly caught by the locals for food, especially during the wet season when fishing in the open sea is impossible. These crabs are also more easier to catch when they wander further from the caves in search of food. ( Ng &amp; Guinot 2001 ). It is worth noting that, just outside the cave, Tuerkayana hirtipes and T. rotundum are also present, even deep inside the caves, according to the locals. These are stygophilic species. A crucial question arises: are crabs of the genus Discoplax that live in caves with specific temperatures and humidity levels truly land crabs, like other species Gecarcinoidea n. stat. ? The latter are terrestrial, live on land in regions with high ambient temperatures, and their major challenge is avoiding desiccation (note that some cardisomatids are stygophilic, see above). In the book Biology of the Land Crabs ( Burggren &amp; McMahon 1988 ), Discoplax is only mentioned as Cardisoma longipes in a list and on a map ( Hartnoll 1988a: 21 , fig. 2.5). The Discoplax species do not fit into any of the five grades (T1 to T5) of terrestrial adaptations categorised by Hartnoll (1988a) and, to our knowledge, are not known to possess any of the multiple adaptations that would allow increasing levels of autonomy from the aquatic environment. It is clear that the karstic and anchialine species of Discoplax , which spend part of their time (or even perhaps permanently) in water and part of their time out of water, and which even venture far from caves, are not true terrestrial crabs. Phylogenetically, Discoplax belongs to the Gecarcinoidea n. stat. Genetic data (e.g. Ng &amp; Shih 2015 ; L. M. Tsang et al. 2014 ) do not contradict the relationships between Discoplax and Gecarcinidae sensu lato and even recognise a Discoplax - Cardisoma sister clade (see Genetic data ). However, from an ecological perspective, Discoplax consitutes a unique lineage that did not completely colonise terrestrial habitats. They did not acquire the multiple morphological adaptations for the two lifestyles, i.e., no changes, neither for terrestrial environments nor for life in dark caves. This explains why Discoplax is not modified and exhibits significant morphological differences (see Table 1 ). Brachyuran crabs that have emerged from the sea onto land have several times colonised the semi-terrestrial and terrestrial habitats. In any case, some would have ventured into subterranean habitats. Or is the hypothesis of a secondary return to an aquatic freshwater habitat by these terrestrial crabs more plausible? Determining the appropriate history and transition for Discoplax will require further research.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03871F323B77FE3D23901901291F86BA#C334FDAF3B77FE3D23901922291F86BA">this account</a> <a href="https://treatment.plazi.org/id/03871F323B77FE3D23901901291F86BA">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/gecarcinidae/"><span>Gecarcinidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gecarcinoidea/"><span>Gecarcinoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/thoracotremata/"><span>Thoracotremata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/eubrachyura/"><span>Eubrachyura</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/brachyura/"><span>Brachyura</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/pleocyemata/"><span>Pleocyemata</span> <span class="n">24</span></a></li>
+<li><a href="/taxon/decapoda/"><span>Decapoda</span> <span class="n">24</span></a></li>
+<li><a href="/taxon/malacostraca/"><span>Malacostraca</span> <span class="n">43</span></a></li>
+<li><a href="/taxon/crustacea/"><span>Crustacea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/gecarcoidea/"><i>Gecarcoidea</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hartnollius/"><i>Hartnollius</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gecarcinus/"><i>Gecarcinus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Johngarthia</i></td><td>Genus</td><td>Gecarcinidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Johngarthia">Plazi/Johngarthia</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/johngarthia/&quot;,
+  &quot;name&quot;: &quot;Johngarthia&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/johngarthia/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/7PLWS&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Gecarcinidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/gecarcinidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/7PLWS</p>
+</div></footer>
+</body>
+</html>

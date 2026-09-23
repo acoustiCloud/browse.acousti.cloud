@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Indoseges</title>
+<meta name="description" content="Indoseges in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/indoseges/">
+<meta property="og:title" content="Bioacoustics of Indoseges">
+<meta property="og:description" content="Indoseges in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CV9ML">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/indoseges/", "name": "Indoseges", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/indoseges/", "sameAs": "https://api.audioblast.org/taxon/CoL/CV9ML", "parentTaxon": {"@type": "Taxon", "name": "Segestriidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/segestriidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Segestriidae", "item": "https://browse.acousti.cloud/taxon/segestriidae/"}, {"@type": "ListItem", "position": 8, "name": "Indoseges", "item": "https://browse.acousti.cloud/taxon/indoseges/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/segestriidae/"><span class="rk">Family</span><span>Segestriidae</span></a></nav>
+<h1>Bioacoustics of <i>Indoseges</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description ( Fig. 1–17 ): Colouration: Spider in life blackish-brown with glossy integument (17 A,B), overall males darker than females. In ethanol, carapace greenish-brown (thoracic area) to brownish-black (cephalic area) ( Fig. 1 A , 4 A , 6 A , 9 A , 11 A , 13 A , 15 A ); median eyes translucent and lateral eyes pale, all eyes with black rim ( Fig. 4 D , 6D , 9D ); legs and palp orangish-green except brownish-black femora and greenish-brown tibia, few small black patches on patella and tibia ( Fig. 1 A , 3 , 4 A , 6 A , 8 , 11 A , 13 A , 15 A ), ventrally pale greenish-brown ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ); abdomen dorsally greyish-brown with few pale patches ( Fig. 1 A , 4 A , 6 A , 9 A , 11 A , 13 A , 15 A ), ventrally pale greyish mottled with pale dots or without any pattern, two orange spots and black patches on epigastric area ( Fig. 5 A , 10 A ); labium orangish-brown, lighter anteriorly ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ); endites orangish-brown except for white proximal end ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ); sternum orangish-brown with faint black patches laterally and medially ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ); chelicerae brownish-black ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ). Morphometry and setae (male, female): Total length 6.82–7.50 (5.09–12.80), carapace 3.32–3.89 long, 2.09–2.58 wide (2.48–4.89 long, 0.99–2.82 wide), abdomen 3.50–3.83 long, 2.00–2.31 wide (2.61–8.58 long, 1.67–4.33 wide). Carapace: longer than broad, narrowed anteriorly; cephalic area higher than thoracic area; integument rough, covered with long and short brown hairs; caput slightly raised; thoracic fovea indistinct ( Fig. 1 A , 4 A , 6 A , 9 A , 11 A , 13 A , 15 A ). Eyes: six, grouped in three pairs, anterior median eyes absent, lateral eyes placed on a single tubercle, posterior row straight or slightly recurved ( Fig. 1 D , 4 D , 6 D , 9 D , 11 D , 13 D , 15 C ). Chelicerae: conical with rough integument due to files or hairs; having distinct retrolateral basal transverse ridge; covered with stiff hairs with tuberculated base except for posterior and basal lateral sides; prominent depression on the posterior distal region to fit distal part of endites; fangs short, shaft with an internal serrula and about 2.5 times longer than wide, with three promarginal teeth and one retromarginal tooth ( Fig. 6 E , 11 E , 13 E , 15 D ). Labium: longer than wide, narrowed down in anterior one-third, separated from sternum by partially membranous suture, covered with few long and short black hairs ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ). Labrum: well developed and is about length of the labium ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ), distal end having a row of median microsetae. Endites: broader at the base, narrowed medially and rounded proximally, covered with long black hairs ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ), dorso-distally depressed to fit cheliceral distal end, serrula with a single row of fine minute teeth forming a ridge-like structure. Sternum: longer than wide, margins with precoxal triangles, concave anteriorly, rebordered and not fused with carapace or pedicel, covered with long black hairs ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ). Abdomen: longer than wide, uniformly hairy ( Fig. 1 A , 4 A , 6 A , 9 A , 11 A , 13 A , 15 A ), coated with short setae, and scattered long setae among them; book lung and tracheal opening weakly sclerotized ( Fig. 5 A , 10 A ). Spinnerets: three pairs, covered with brown hairs; anterior lateral spinnerets with three segments, the basal segment crossed by a diagonal membranous stripe, colulus distinct, short and covered with long hairs ( Fig. 1 C , 4 C , 6 C , 9 C , 11 C , 13 C ). Legs: robust, prograde, with third pair directed forward; each leg with three tarsal claws, two paired claws with long dentitions ( Fig. 4 E , 9 E , 11 F , 13 F ), teeth largest on leg I, unpaired claw with one small tooth ( Fig. 4 E , 9 E , 11 F , 13 F ), true claw tufts absent; leg pairs I–II with more setae and macrosetae than pairs III–IV; metatarsi and tarsi IV with ventral brush of thickened and serrated setae and metatarsi IV with preening comb on distal ventro or ventro-retrolateral ( Fig.7 D ); trichoboth- ria on dorsal subdistal region of metatarsi I–IV and dorsal basal half of tibia I–IV; male tarsi I–II incrassate and with ventral scopulae or tenant setae ( Fig. 2 F,G ); in males femur, tibiae and metatarsi of all legs with macrosetae; male metatarsi Ilacks any apophysis ( Fig. 2 A,B ) and with thorn-like or cuspule-like macrosetae on ventral side of distal half; males with or without distinct pointed basal tibial apophysis on prolateral side of tibiae I ( Fig. 2 A–C , Fig. 7 A–C ), male tibiae Ialso with a row of short macrosetae on retrolateral side or ventro-retrolateral side ( Fig. 2 B , 7 A ); males with a cluster of stridulatory macrosetae on femur I, that could be on tubercle-like apophysis ( Fig. 2 A–D , 7 A–C ); in females tarsi I–II with ventro-prolateral lines of thickened tactile setae, interspersed with lines of chemosensory setae; females tibiae and metatarsi of all legs with macrosetae, but only ventro-prolateral, ventroretrolateral, and sometimes prolateral and retrolateral; female femur I–II with one macroseta. Leg formula in male 1243 or 2143 and female 1243 or 1423. Palp: tibiae of male palp incrassate/swollen basally slightly to distinctly, longer than cymbium, with one dorsal trichobothrium and without any macrosetae; cymbium with distal notch dividing it into two unequal short processes, prolateral portion slightly longer than retrolateral one and without any scopulae or sensory setae; bulb pear-shaped, abruptly narrowed in mid-portion between bulb and embolus, embolus long, tubular, tapers and gradually bends dorsally, twists at the base 90° or 110° along with distal bulb and spatulated distally with an embolic opening on one side; spermatic duct broad, emerging at the base of bulb, coiling gradually towards mid-portion and enters embolus ( Fig. 3 A–D , 8 A–D ); female palp short and robust, with one smooth claw, turned inward almost 90°; macrosetae present on prolateral sides of tibiae and tarsi, tarsi with more than ten macrosetae ( Fig. 4 F , 9 F , 11 G , 13 G , 15 E ); tibiae with a single dorsal trichobothrium. Female genitalia: epigynal plate distinct and sclerotized; internal genitalia composed by anterior receptaculum, uterus externus, interpulmonary fold and posterior receptaculum; anterior receptaculum divided into dorsal and ventral lobe; dorsal lobe small, weakly sclerotized and transparent; ventral lobe strongly sclerotized and with multiple elongated entapophyses; glandular duct plate sclerotized and located in central area at the junction of both lobes; uterus externus indistinct or weakly sclerotized and transparent; interpulmonary fold strongly sclerotized forming a median flap; posterior receptaculum sac-like or shape variable, and with small tubular invaginations ( Fig. 5 A–E , 10 A–E , 12 A–D , 14 A–D , 16 A–D ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/4608A06B99429A1F2F9D9FD26B1A26EA#86BB42F699419A1F2FCD9BC26C9021A6">this account</a> <a href="https://treatment.plazi.org/id/4608A06B99429A1F2F9D9FD26B1A26EA">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis: Indoseges gen. nov. resembles Ariadninae genera, but differs from Segestriinae genera Gippsicola Hogg, 1900 and Segestria Latreille, 1804 by having labium narrowed distally ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ), posterior eyes in a straight line or slightly recurved ( Fig. 1 D , 4 D , 6 D , 9 D , 11 D , 13 D , 15 C ), lateral basal transverse ridge present on chelicerae, and chelicerae with three promarginal and one retromarginal teeth ( Fig. 6 E , 11 E , 13 E , 15 D ) ( Beatty, 1970 ; Grismado, 2008 ; Ramírez, 2014 ; Giroti &amp; Brescovit, 2015,2017,2018; Marsh et al . 2018 ; Fomichev &amp; Marusik, 2020 ). Among Ariadninae , it differs from both Ariadna and Citharoceps by having: male tarsi I–II incrassate and with ventral scopulae ( Fig. 2 F,G ), presence of 4–5 ventral spines on metatarsi Iof males, and female femur I–II with one macrosetae. Additional characters that separates it from Ariadna : labrum as long as labium and distally with a row of dorsal median microsetae ( Fig. 1 B , 4 B , 6 B , 9 B , 11 B , 13 B , 15 B ), but in Ariadna labrum longer than the labium and without dorsal median microsetae; males lack apophysis on metatarsi I ( Fig. 2 A,B ), but in Ariadna apophysis may or may not present on metatarsi Iof males; males with a cluster of stridulatory macrosetae on femur I, which could be on tubercle-like apophysis ( Fig. 2 A–D , 7 A–C ), but in Ariadna a cluster of stridulatory macrosetae may or may not present on femur Iof males and apophysis absent; female palp tarsi with more than ten macrosetae ( Fig. 4 F , 9 F , 11 G , 13 G , 15 E ), but in Ariadna number of macrosetae five or more; and presence of conspicuous median flap in female genitalia ( Fig. 5 C,E , 10 C,E , 12 B,D , 14 B,D , 16 B,D ), but absent in Ariadna . Additional characters that separates it from Citharoceps : stridulatory apparatus in the cephalic area absent, but present in Citharoceps ; a stridulatory thorn in the prolateral region of femur I absent, but present in Citharoceps ; presence of tubular invaginations on posterior receptaculum in females ( Fig. 5 B–E , 10 B–E , 12 A–C , 14 A–C , 16 A–D ), but absent in Citharoceps ; and labium-sternum junction length is greater than the endite-sternum junction; but in Citharoceps labium-sternum junction is equal or smaller than the length of endite-sternum junction ( Beatty, 1970 ; Grismado, 2008 ; Ramírez, 2014 ; Giroti &amp; Brescovit, 2015 , 2018 ; Siliwal et al . 2017 ; Marsh et al . 2018 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/4608A06B99429A1F2F9D9FD26B1A26EA#86BB42F699429A1E2F9D9E266C6F2086">this account</a> <a href="https://treatment.plazi.org/id/4608A06B99429A1F2F9D9FD26B1A26EA">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/segestriidae/"><span>Segestriidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/indoseges-sushildutta/"><i>Indoseges sushildutta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/indoseges-malkangiri/"><i>Indoseges malkangiri</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/ariadna/"><i>Ariadna</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Indoseges</i></td><td>Genus</td><td>Segestriidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Indoseges">Plazi/Indoseges</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/indoseges/&quot;,
+  &quot;name&quot;: &quot;Indoseges&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/indoseges/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CV9ML&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Segestriidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/segestriidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CV9ML</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Parnisa infuscata</title>
+<meta name="description" content="Parnisa infuscata in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/parnisa-infuscata/">
+<meta property="og:title" content="Bioacoustics of Parnisa infuscata">
+<meta property="og:description" content="Parnisa infuscata in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CPW4K">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/parnisa-infuscata/", "name": "Parnisa infuscata", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/parnisa-infuscata/", "sameAs": "https://api.audioblast.org/taxon/CoL/CPW4K", "parentTaxon": {"@type": "Taxon", "name": "Parnisa", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/parnisa/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hemiptera", "item": "https://browse.acousti.cloud/taxon/hemiptera/"}, {"@type": "ListItem", "position": 7, "name": "Auchenorrhyncha", "item": "https://browse.acousti.cloud/taxon/auchenorrhyncha/"}, {"@type": "ListItem", "position": 8, "name": "Cicadomorpha", "item": "https://browse.acousti.cloud/taxon/cicadomorpha/"}, {"@type": "ListItem", "position": 9, "name": "Clypeata", "item": "https://browse.acousti.cloud/taxon/clypeata/"}, {"@type": "ListItem", "position": 10, "name": "Cicadoidea", "item": "https://browse.acousti.cloud/taxon/cicadoidea/"}, {"@type": "ListItem", "position": 11, "name": "Cicadidae", "item": "https://browse.acousti.cloud/taxon/cicadidae/"}, {"@type": "ListItem", "position": 12, "name": "Cicadettinae", "item": "https://browse.acousti.cloud/taxon/cicadettinae/"}, {"@type": "ListItem", "position": 13, "name": "Parnisini", "item": "https://browse.acousti.cloud/taxon/parnisini/"}, {"@type": "ListItem", "position": 14, "name": "Parnisa", "item": "https://browse.acousti.cloud/taxon/parnisa/"}, {"@type": "ListItem", "position": 15, "name": "Parnisa infuscata", "item": "https://browse.acousti.cloud/taxon/parnisa-infuscata/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hemiptera/"><span class="rk">Order</span><span>Hemiptera</span></a><span class="sep">›</span><a href="/taxon/auchenorrhyncha/"><span class="rk">Suborder</span><span>Auchenorrhyncha</span></a><span class="sep">›</span><a href="/taxon/cicadomorpha/"><span class="rk">Infraorder</span><span>Cicadomorpha</span></a><span class="sep">›</span><a href="/taxon/clypeata/"><span class="rk">Parvorder</span><span>Clypeata</span></a><span class="sep">›</span><a href="/taxon/cicadoidea/"><span class="rk">Superfamily</span><span>Cicadoidea</span></a><span class="sep">›</span><a href="/taxon/cicadidae/"><span class="rk">Family</span><span>Cicadidae</span></a><span class="sep">›</span><a href="/taxon/cicadettinae/"><span class="rk">Subfamily</span><span>Cicadettinae</span></a><span class="sep">›</span><a href="/taxon/parnisini/"><span class="rk">Tribe</span><span>Parnisini</span></a><span class="sep">›</span><a href="/taxon/parnisa/"><span class="rk">Genus</span><i>Parnisa</i></a></nav>
+<h1>Bioacoustics of <i>Parnisa infuscata</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Ground color of head piceous marked with castaneous, tawny, and greenish-ochraceous, thorax tawny marked with castaneous and piceous, and abdominal tergites primarily piceous marked with transverse castaneous, tawny, ochraceous, and ferruginous fasciae, ventral abdominal sternites primarily red. Head. Head not as wide as mesonotum, dorsal head piceous except greenish-ochraceous epicranial suture posterior to median ocellus, greenish-ochraceous posterior head margin, tawny anterolateral corner of vertex and posterior margin of supra-antennal plate, and castaneous supra-antennal plate. Ocelli red, eyes fuscous. Short golden pile on dorsum, dense short and long silvery pile posterior to eye. Gena and lorum piceous except castaneous anteromedial corner of lorum and tawny lateral lorum margin and margin to antennal cavity on gena, covered with short silvery pile, lorum and gena posterior to ventral eye radiating long silvery pile. Postclypeus apex smoothly rounded anteriorly, lacking central sulcus, piceous ventrally and within eleven transverse grooves, transverse ridges and lateral margin tawny, greenish-ochraceous triangular mark on dorsal surface extending along ventral midline as fascia to between last two transverse ridges, short silvery pile laterally and within transverse grooves, long silvery pile radiating from ventral surface. Anteclypeus piceous, covered with short silvery pile, radiating sparse long silvery pile. Mentum greenish-ochraceous, labium castaneous with piceous tip, reaching to middle trochanters, radiating golden pile. Scape castaneous with greenish-ochraceous annular mark distally, pedicel and remaining antennal segments piceous. Thorax. Thorax tawny marked with castaneous and piceous. Pronotum tawny anteriorly, greenish-ochraceous medial fascia not reaching anterior or posterior margins, pronotal collar tawny with castaneous anterolateral ends and castaneous mark on both sides of medial fascia posterior terminus, disks castaneous with C-shaped piceous mark on either side of midline, piceous within posterior half of paramedian fissure, anterior and posterior lateral fissure, irregular piceous mark connecting marks in paramedian and posterior lateral fissures continuing anteriorly across disk to anterior mark in lateral fissure, anterior and lateral half of lateral piceous. Lateral part of pronotal collar adpressed. Pronotum covered with sparse, short silvery pile, sparse, short piceous pile also on pronotal collar lateral angle. Mesonotum tawny medially, castaneous laterally, anterior submedian sigillae, fascia within lateral sigillae, lateral margin, piceous fascia on dorsal midline expanding posteriorly between anterior arms or cruciform elevation and scutal depressions piceous, cruciform elevation castaneous with tawny anterior arms, piceous spots on anterior midline and piceous between lateral margins between anterior and posterior arms, wing groove greenish-ochraceous with red anterior and piceous posterior spots. Mesonotum with sparse silvery pile dorsally, denser anterolaterally, around posterolateral curve, and between anterior arms of cruciform elevation, wing groove radiating long silvery pile. Metanotum castaneous medially, piceous with castaneous margins laterally. Ventral thoracic plates castaneous, except piceous basisterna 2 and 3, piceous margins of trochantin 2 and meron 2, tawny anepisternum 2, tawny with faint reddish hue on katepisternum 2, tawny lateral epimeron 2, and tawny epimeral lobe, covered with short and radiating long silvery pile. Wings. Fore wings and hind wings hyaline, with eight and five apical cells respectively. Venation castaneous basally becoming testaceous then piceous distally in apical cells, except greenish-ochraceous proximal costal margin and postcostal space, piceous anterior margin or costal vein and radius &amp; subcostal vein, piceous mark at fore wing base, arculus at intersection of radius &amp; subcostal vein, and piceous posterior of proximal half of anal vein 2 + 3, pterostigma present, expanded giving the appearance of an additional apical cell. Basal cell hyaline, infuscation on radial and radiomedial crossveins, infuscation extending from radial crossvein onto base of radius anterior 2, light infuscation on wing margin distal to apical cell 1. Basal membrane grayish with darker posterior margin, reddish orange spot at base. Hind wing venation greenish-ochraceous basally becoming piceous distally except piceous cubitus anterior and anal vein 2, tawny cubitus posterior and anal vein 1, and ochraceous anal vein 3, anal vein 3 short, about one-third the length of anal vein 2 with curved terminus, spot of infuscation on distal anal vein 2, expanding into anal cell 2 and onto wing margin. Basal half of anal cell 3 gray, anal cell 2 along anal vein 3 to curve, anal cell 3 along anal vein 3 to curve margined with gray, gray margined with infuscation. Legs. Tawny, piceous marks on proximal coxae margins, fore coxa with piceous proximal fascia, hind coxa with castaneous fascia, reddish spot on distal coxa next to joint, trochanters and femora striped with castaneous, tibiae castaneous with proximal piceous spot, pretarsi piceous except for castaneous mesotarsus and pretarsus of middle and hind legs, pretarsal claws piceous, covered with short silvery pile, radiating long silvery pile from legs. Fore femora with proximal spine longest almost parallel to secondary spine, secondary spine about as long as tertiary spine, tertiary spine with curve towards apex, angled more than secondary spine, and apical spine shortest, triangular, angled closest to femoral axis. Spines castaneous with piceous tips, primary and secondary spines with tawny base. Tibial spurs and tibial combs castaneous. Male meracanthus ochraceous with piceous base, triangular, pointed, reaching anterior margin of medial operculum. Opercula. Male operculum ochraceous with piceous spot on base, lateral base and posterior to meracanthus, marks fuse together in paratype , not covering tympanal cavity or reaching anterior margin of sternite II posteriorly, not covering tympanal cavity anteromedially, lateral rectangular extension at base, lateral margin straight to smoothly curving posterolateral corner continuous with curving posterior margin, medial margin rounded, reaching to medial sternite I, anteromedial margin straight, angled to base at lateral meracanthus. Operculum with short silvery pile, radiating long silvery pile from margin. Abdomen. Abdominal tergite 1 tawny with piceous fascia on anterolateral timbal cavity, tergite 2 piceous anteriorly, tawny posteriorly, tawny extending into dorsoposterior timbal cavity, posterior midline castaneous in paratype , tergites 3–8 forming a dorsal ridge, piceous with tawny posterior margin, amount of tawny greatest in tergite 8, castaneous posterior midline in paratype , red membrane separating tergites, covered with silvery pile, sparse, short golden pile on dorsal midline and anterior tergites. Timbal cover absent, timbal semi-transparent with piceous anterior and lateral margins, with ten ribs. Sternite I tawny with castaneous posterior margin along medial tympanal cavity, sternite II tawny medially and posterolaterally, small piceous spot on either side of anterior midline posterior to margin, piceous anterior margin lateral to meracanthus, piceous laterally, sternite III with transverse castaneous fascia on anterior midline, reddish-ochracous anteriorly, reddish posteriorly, sternites III–VI reddish, male sternite VII reddish with tawny posterior third and transverse posteriorly margin, male sternite VIII tawny with reddish anterior and open U-shaped notch posteriorly, epipleurites piceous surrounded by reddish, sternites with short silvery and radiating long silvery pile, denser laterally and on epipleurites, long pile denser on sternite VIII. Genitalia. Pygofer piceous anteriorly, anterodorsally, along ventral margin, and dorsal beak, castaneous posterodorsally anterior to dorsal beak, with short silvery pile, dorsal beak straight, about twice as long as piceous anal styles, anal tube ochraceous. Upper pygofer lobe elongated finger-like extension, angled laterally from triangular base, then curving dorsomedially toward but not reaching midline forming a smooth curve when viewed from the posterior, tawny proximally, piceous distally, completely castaneous in paratype . Pygofer basal lobe short, adjacent to base of upper pygofer lobe. Uncus lobes absent. Claspers tubular, angled mediad, with truncated terminus where meeting along midline. Aedeagus ochraceous with elongated pseudoparameres and large terminal membrane. Measurements (mm). N = three males , mean (range). Length of body: males 16.24 (15.33–16.83); length of fore wing: males 19.49 (18.70–19.98); width of fore wing: males 7.13 (6.90–7.35); length of head: males 2.49 (2.36–2.60); width of head including eyes: males 4.60 (4.55–4.64); width of pronotum including suprahumeral plates: males 5.45 (5.40–5.50); width of mesonotum: males 5.25 (5.20–5.30). Calling song. The calling song of Parnisa infuscata sp. nov. (see https://doi.org/10.5061/dryad.ngf1vhj3c for all audio recordings) consists of a continuous train of pulses that are grouped in syllables in a cyclical pattern, alternating one longer syllable and 2−7 (n = 4 individuals) much shorter ones, with the duration of shorter syllables being shorter than the interval between them ( Figure 2 ). Each pulse is a periodically amplitude-modulated (AM) tonal sound wave with an average carrier frequency of 9.5 kHz and amplitude modulation frequency (or “pulse repetition rate”) of about 800 Hz. In other terms, this temporal pattern might be described as a long sequence resulting from the repetition, for an indefinite time (&gt; 1 min, 4 individuals), of an echeme that is formed by a single longer syllable and a variable number of shorter syllables. Energy is distributed along a broad bandwidth (4.5−18.5 kHz) and concentrated around 8−11 kHz; amplitude of shorter and longer syllables is similar, and the amplitude envelope is nearly constant along the entire song ( Figure 3 ). Song parameters and measurements for each individual recorded are summarized in Table 1 . Individuals (recordings) Acoustic parameter 1 (ASEC 17845) 2 (ASEC 17846) 3 (ASEC 17847) 4 (ASEC 17894) Duration of longer syllables (ms) 485 ± 60* (400−627; 15) 591 ± 51* (531−727; 15) 826 ± 98* (611−984; 15) 672 ± 103* (482−850; 15) Interval between longer syllables (ms) 298 ± 18 (268−331; 15) 224 ± 13 (183−237; 15) 222 ± 22 (195−254; 15) 192 ± 24 (154−222; 15) Duration of shorter syllables (ms) 14 ± 4 (7−21; 30) 20 ± 3 (15−23; 20) 19 ± 2 (12−22; 35) 27 ± 3 (25−34; 39) Interval between shorter syllables (ms) 34 ± 4 (26−41; 25) 32 ± 2 (26−33; 15) 27 ± 2 (25−34; 27) 37 ± 3 (31−41; 24) Period of longer syllables (ms) 783 ± 66 (698−925; 15) 814 ± 50 (746−939; 15) 1048 ± 110 (819−1232; 15) 864 ± 117 (646−1064; 15) Period of shorter syllables (ms) 46 ± 5 (35−54; 25) 51 ± 3 (46−55; 15) 47 ± 2 (40−49; 27) 63 ± 3 (58−66; 24) No. of shorter syllables between longer ones 6 (5−7; 30)** 4 (3−5; 30)** 5(4–6; 30)** 3 (2–3; 15)** Pulse repetition rate of longer syllables (pulses/s) 854 ± 31 (792−897; 15) 844 ± 41 (777−956; 15) 827 ± 45 (762−892; 15) 936 ± 41 (851−990; 15) Pulse repetition rate of shorter syllables (pulses/s) 745 ± 46 (651−812; 15) 727 ± 25 (696−788; 15) 810 ± 57 (730−933; 15) 857 ± 63 (735−951; 15) Carrier frequency of longer syllables (Hz) 9175 ± 638 (8625−10031; 15) 9713 ± 974 (8719−11250; 15) 9256 ± 798 (8625−10781; 15) - Carrier frequency of shorter syllables (Hz) 8931 ± 532 (8625−10125; 15) 10175 ± 1005 (8813−11344; 15) 9938 ± 840 (8719−11063; 15) - * mean ± standard deviation (range; sample size) ** mode (range; sample size). Singing activity. Cicadas were observed singing with their head upward on short shrubs at the type locality, and on the face of a rock boulder at Itambé (see https://doi.org/10.5061/dryad.ngf1vhj3c for a video recording). In both localities, the habitat was campo rupestre above 1,300 m asl, and singing activity was recorded during the hottest times of the day. Due to the low amplitude and high frequency of the song, it is difficult for an observer to hear and locate the singer except at close range.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03C287A0FFFE377684D4021AFE75EAAC#C371653DFFFE3776848401ABFD3BE9D3">this account</a> <a href="https://treatment.plazi.org/id/03C287A0FFFE377684D4021AFE75EAAC">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/parnisa/"><i>Parnisa</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/parnisini/"><span>Parnisini</span> <span class="n">7</span></a></li>
+<li><a href="/taxon/cicadettinae/"><span>Cicadettinae</span> <span class="n">25,888</span></a></li>
+<li><a href="/taxon/cicadidae/"><span>Cicadidae</span> <span class="n">71,984</span></a></li>
+<li><a href="/taxon/cicadoidea/"><span>Cicadoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/clypeata/"><span>Clypeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadomorpha/"><span>Cicadomorpha</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/auchenorrhyncha/"><span>Auchenorrhyncha</span> <span class="n">60,410</span></a></li>
+<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">72,144</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/parnisa-haemorrhagica/"><i>Parnisa haemorrhagica</i> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Parnisa infuscata</i></td><td>Species</td><td>Cicadidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Parnisa infuscata">Plazi/Parnisa infuscata</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/parnisa-infuscata/&quot;,
+  &quot;name&quot;: &quot;Parnisa infuscata&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/parnisa-infuscata/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CPW4K&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Parnisa&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/parnisa/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CPW4K</p>
+</div></footer>
+</body>
+</html>

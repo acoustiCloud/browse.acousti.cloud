@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Callitrichia</title>
+<meta name="description" content="Callitrichia in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/callitrichia/">
+<meta property="og:title" content="Bioacoustics of Callitrichia">
+<meta property="og:description" content="Callitrichia in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CTV7L">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/callitrichia/", "name": "Callitrichia", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/callitrichia/", "sameAs": "https://api.audioblast.org/taxon/CoL/CTV7L", "parentTaxon": {"@type": "Taxon", "name": "Linyphiidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/linyphiidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Linyphiidae", "item": "https://browse.acousti.cloud/taxon/linyphiidae/"}, {"@type": "ListItem", "position": 8, "name": "Callitrichia", "item": "https://browse.acousti.cloud/taxon/callitrichia/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/linyphiidae/"><span class="rk">Family</span><span>Linyphiidae</span></a></nav>
+<h1>Bioacoustics of <i>Callitrichia</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Scharff (1990a) briefly addressed the issues about the subsequently proposed synonymies, one among Oedothorax , Callitrichia and Toschia by Wunderlich (1978) and the other between Callitrichia and Atypena ( Jocqué, 1983 ) , and argued in favour of treating all taxa as separate genera until a complete revision of all genera has been done. He also suggested a close relationship of Ophrynia with the above-mentioned genera based on resemblance in the shape of the embolic division. However, he stated that the paracymbium of Ophrynia differed significantly from that of those genera, although this may only be true for species like Ca. infecta ( Jocqué &amp; Scharff, 1986 ) comb. nov. (fig. 128 in Jocqué &amp; Scharff, 1986 ) and Ca. uncata ( Jocqué &amp; Scharff, 1986 ) comb. nov. ( Fig. 18A , arrow), both with the terminal area of the paracymbium ventrodistally extended (pers. obs.). In our view, the distally wide paracymbium of other Ophrynia species , including the type species Ca. superciliosa ( Jocqué, 1981 ) comb. nov. , resembles considerably that of Callitrichia and Toschia , which in turn is different from the narrow terminal part of the paracymbium of Oedothorax species from the Palearctic realm. Although the type species Ca. hamifera was not included in our analysis, we consider Ca. sellafrontis a suitable representative due to its many shared features with Ca. hamifera , including two cluster of special dense setae at interocular region, posterior median eye lobe ( Fig. 19H ; fig. 53c, d in Holm, 1962 ), male palpal tibial apophysis shape ( Fig. 20A–C ; fig. 53a, b in Holm, 1962 ), paracymbium shape ( Fig. 20A ; fig. 54c in Holm, 1962 ), protegulum morphology ( Fig. 20D ; fig. 21a in Fage &amp; Simon, 1936 ), the shape of embolic division ( Fig. 20B ; fig. 54a in Holm, 1962 ), and the shape of epigyne ( Fig. 20F ; fig. 53e in Holm, 1962 ). We also consider Ca. uncata and Ca. juguma (Scharff, 1990) comb. nov. valid representatives for Ophrynia , since they share the following common male features with the type species of Ophrynia ( Ca. superciliosa ): inter-AME-PME groove; palpal tibial prolateral apophysis broad, flat, with a retrolateral branch; embolic division with a moderate, poorly sclerotized ventral radical process and a round tip of radical tail piece. Furthermore, Ca. juguma resembles Ca. superciliosa especially by the dentate tips of the bifid palpal tibial apophysis ( Fig. 21A, C ; figs 39, 40 in Jocqué, 1981 ), enlarged terminal part of paracymbium without extended ventrodistal angle ( Fig. 21A ; fig. 39 in Jocqué, 1981 , in contrast to Ca. uncata , Fig. 18A ), bifid anterior radical process ( Fig. 21B ; fig. 41 in Jocqué, 1981 ), papillae on ventral radical process, and perpendicular lateral setae on metatarsi and tarsi of legs I and II of the male, which is the only proposed synapomorphy of Ophrynia ( Scharff, 1990a ) . The results of our phylogenetic analysis placed the two original Ophrynia species as sister to Ca. sellafrontis . Features supporting this relationship are related to the reduction of spinnerets gland spigots, including the absence of the aciniform and the minor ampullate gland spigots, as well as the absence of the aggregated gland spigot (also in Ca. convector ). This high degree of reduction of spigots has not been seen in other studied species so far. This close relationship between the original Ophrynia species and Ca. sellafrontis renders the remaining Callitrichia species a paraphyletic assemblage. The truncated protegulum is a newly proposed synapomorphy of the redefined Callitricha . The original generic description of Toschia by di Caporiacco (1949) included two species, and proposed several features that are not unique for the current members described under Toschia to date. Holm’s (1962) account for this genus also includes diagnostic characteristics not exclusive to Toschia (e.g. lack of carapace modification), and states that the cheliceral stridulatory organ of the type species of Toschia (namely Ca. picta ( Caporiacco, 1949 ) comb. nov. ) is absent. However, our observations refute this previous statement; the cheliceral stridulatory organ is present in Toschia (see Fig. 22D ). Jocqué (1984) mentioned the need of a detailed study of the male palp, given the difficulty to place species with certainty to either Toschia , Atypena [proposed by Jocque (1983) as a senior synonym of Callitrichia ] or Oedothorax . Interestingly, however, he assigned Ca. minuta ( Jocqué, 1984 ) comb. nov. to Toschia based on the distally wide paracymbium, a common feature shared by many Callitrichia species. Additionally, Ca. minuta share with Ca. legrandi ( Jocqué, 1985 ) comb. nov. the vertical palpal tibial apophysis, the small apophysis retrolateral to it, the absence of ventral radical process, the less enlarged terminal part of paracymbium, and the smaller body size. We provisionally transfer Toschia spinosa Holm, 1968 to Holmelgonia (but see below) based on the presence of a central embolar apophysis (fig. 28 in Holm, 1968 ), a feature shared with the type species Ho. nemoralis ( Holm, 1962 ) [fig. 55 in Jocqué &amp; Sharff (1986) and other Holmelgonia species , and absent in Callitrichia ]. In addition, despite the lack of detail in the original palpal drawing of Toschia celans Gao et al. , 1996 , some features can be recognized, such as the embolic division with a radix not connected to the embolus via a membrane, and the paracymbium base covered by the retrolateral apophysis (absent in other species of Toschia ). Given that these palpal features are significantly different from the general configuration of Callitrichia , and that all type specimens for this species are seemingly lost (therefore, no further inspection is possible), we conclude that this species is most likely misplaced in Toschia , and we provisionally transfer it to Callitrichia [ Ca. celans (Gao et al ., 1996) comb. nov. incertae sedis ]. Remaining Toschia species can be confidently transferred to Callitrichia according to inspection of the figures in their original descriptions by Holm (1962) , Jocqué (1981) and Jocqué &amp; Scharff (1986) . Jocqué (1984) questioned the generic position of Typhistes gloriosus based on a unique ‘long downpointing apophysis’ (i.e. the ventral radical process as defined in the present study) among other features. He also proposed that the genus Typhistes is closely related to Oedothorax and Atypena (i.e. as Callitrichia ). The results of our phylogenetic analysis are in agreement with Jocqué (1984) , placing Typhistes gloriosus within Callitrichia ; we therefore transfer this species to Callitrichia as Ca. gloriosa ( Jocqué, 1984 ) comb. nov. Monophyly: This genus is supported by the following two unambiguous character transformations: the distal part of the protegulum forming a rim (Ch 38, synapomorphic) and the number of aciniform gland spigots on posterior lateral spinneret equal to, or more than, three (Ch 116, homoplastic). Diagnosis: Callitrichia is similar to other taxa in Clade 13 in the palpal morphology and other somatic features, but is characterized and can be distinguished by the following combination of palpal and epigynal features: 1. Paracymbium: median- to large-sized; base covered by cymbial basal retrolateral extension from dorsal view (invisible from dorsal view in Oedothorax ); terminal part moderately to greatly enlarged (slender in Oedothorax ; moderately enlarged in Mitrager ); distal setae group with distal position (with middle position in Oedothorax ); distal clasp anteriorly extended, without striae (retrolaterally extended and/or with striae in many Mitrager ). 2. Copulatory bulb: embolus retrolaterally curved, short, usually stout, basal protuberance absent (prolaterally curved, with basal protuberance in Oedothorax ); embolic membrane flat, with few or no papillae (cylindrical in Oedothorax ); embolus–radix membranous region not extended to prolateral side of radix (extended to prolateral side in Oedothorax ); ventral radical process present in most species [except Ca. macrophthalma (Locket &amp; Russell- Smith , 1980) comb. nov. , Ca. legrandi and Ca. paralegrandi ( Tanasevitch, 2016 ) comb. nov. ] (absent in Oedothorax and most Mitrager species ), degree of extension varies from low [e.g. Ca. holmi ( Wunderlich, 1978 ) comb. nov. , Ca. uncata ] to high [ Ca. gloriosa , Ca. pileata ( Jocqué &amp; Scharff, 1986 ) comb. nov. ]; in many species, radix with papillae in area between anterior radical process and ventral radical process [radical papillae absent in Oedothorax , Atypena and Mitrager , except M. clypeellum (Tanasevitch, 1998) comb. nov. ]; lateral extension of radix absent (except in Ca. macrophthalma and Ca. convector ); tegular papillae absent; central emboliar apophysis absent (present in Ho. basalis ); marginal suprategular apophysis present, distal suprategular apophysis straight, distally oriented, mostly round at tip. 3. Palpal tibia: prolateral apophysis ranges from vertically highly extended (e.g. Ca. sellafrontis ) to low (e.g. Ca. legrandi ) (not vertically extended in Oedothorax and most Mitrager , except M. noordami ); retrolateral apophysis inconspicuous (conspicuous in Mitrager , Atypena and some ‘ Oedothorax ’ incertae sedis ). 4. Epigyne: different from Oedothorax in that the entrance of copulatory ducts into the spermathecae are ectal to the exits of fertilization ducts from the spermathecae. Description: The genus includes medium-sized erigonines with a mostly variegated opisthosoma [except Ca. latitibialis ( Bosmans, 1988 ) comb. nov. , Ca. legrandi, Ca. longiducta ( Bosmans, 1988 ) comb. nov. , Ca. macrophthalma, Ca. monoceros ( Miller, 1970 ) comb. nov. , Ca. monticola (Tullgren, 1910) , Ca. muscicola ( Bosmans, 1988 ) comb. nov. , Ca. obtusifrons Miller, 1970 , Ca. paralegrandi and Ca. pilosa ( Wunderlich, 1978 ) comb. nov. ]. Male prosoma varies in degree of modification, ranging from absent to prominent PME hump, inter-AME-PME groove and inter-AME-PME lobe. One sub-AME seta. Chelicerae of normal form and size, without mastidia.This genus also shares those features defining Clade 13 (see above). For palpal and epigynal feature see diagnosis. Species included: The genus comprise 55 species and one subspecies as follows. Twenty-two species originally placed in Callitrichia : Ca. afromontana Scharff, 1990 , Ca. aliena Holm, 1962 , Ca. cacuminata Holm, 1962 , Ca. crinigera Scharff, 1990 , Ca. glabriceps Holm, 1962 , Ca. hamifera , Ca. inacuminata Bosmans, 1977 , Ca. incerta Miller, 1970 , Ca. kenyae Fage, 1936 , Ca. marakweti Fage, 1936 , Ca. meruensis Holm, 1962 , Ca. mira ( Jocqué &amp; Scharff, 1986 ) , Ca. monticola , Ca. obtusifrons , Ca. paludicola Holm, 1962 , Ca. pileata ( Jocqué &amp; Scharff, 1986 ) , Ca. hirsuta nom. nov. ( Jocqué &amp; Scharff, 1986 ), Ca. ruwenzoriensis Holm, 1962 , Ca. sellafrontis , Ca. silvatica Holm, 1962 , Ca. taeniata Holm, 1968 and Ca. turrita Holm, 1962 . Twelve species (plus one subspecies) here transferred from Ophrynia : Ca. galeata ( Jocqué &amp; Scharff, 1986 ) comb. nov. , Ca. galeata lukwangulensis ( Jocqué &amp; Scharff, 1986 ) comb. nov. , Ca. infecta comb. nov. , Ca. insulana (Scharff, 1990) comb. nov. , Ca. juguma comb. nov. , Ca. perspicuua (Scharff, 1990) comb. nov. , Ca. revelatrix ( Jocqué &amp; Scharff, 1986 ) comb. nov. , Ca. rostrata ( Jocqué &amp; Scharff, 1986 ) comb. nov. , Ca. summicola ( Jocqué &amp; Scharff, 1986 ) comb. nov. , Ca. superciliosa , Ca. trituberculata ( Bosmans, 1988 ) comb. nov. , Ca. truncatula (Scharff, 1990) comb. nov. , Ca. uncata . Eight species here transferred from Toschia : Ca. aberdarensis ( Holm, 1962 ) comb. nov. , Ca. casta ( Jocqué &amp; Scharff, 1986 ) comb. nov. , Ca. concolor ( Caporiacco, 1949 ) comb. nov. , Ca. cypericola ( Jocqué, 1981 ) comb. nov. , Ca. minuta , Ca. picta , Ca. telekii ( Holm, 1962 ) comb. nov. and Ca. virgo ( Jocqué &amp; Scharff, 1986 ) comb. nov. Eleven species here transferred from Oedothorax : Ca. convector , Ca. holmi (= Ca. simplex ( Jocqué &amp; Scharff, 1986 ) , synon. nov.), Ca. latitibialis , Ca. legrandi , Ca. longiducta , Ca. muscicola , Ca. pilosa , Ca. paralegrandi , Ca. monoceros , Ca. macropthalma and Ca. usitata . One species here transferred from Toschia celans : Ca. gloriosa . One species misplaced in Toschia ( T. celans ) here transferred as Ca. celans . The following species are here transferred to other genera: Atypena formosana ( Oi, 1977 ) from Callitrichia ; Holmelgonia spinosa ( Holm, 1968 ) comb. nov. from Toschia . Distribution: Tanzania , Malawi , Cameroon , Algeria , Kenya , Nigeria , Uganda , Angola , South Africa , Congo , Comoros , Ethiopia , India (Himalaya), Thailand . Natural history: Species of this genus have been found in litter, low vegetations and under stones in habitats like montane rain forests, evergreen forests and gallery forests.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B787C7FFFF7607FC63D1D64B5FF1A9#C304655AFFFE7607FF10D7304B5FF1A9">this account</a> <a href="https://treatment.plazi.org/id/03B787C7FFFF7607FC63D1D64B5FF1A9">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/linyphiidae/"><span>Linyphiidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/callitrichia-pilosa/"><i>Callitrichia pilosa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/callitrichia-picta/"><i>Callitrichia picta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/callitrichia-convector/"><i>Callitrichia convector</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/callitrichia-latitibialis/"><i>Callitrichia latitibialis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/callitrichia-gloriosa/"><i>Callitrichia gloriosa</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/agyneta/"><i>Agyneta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/afroneta/"><i>Afroneta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anibontes/"><i>Anibontes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/atypena/"><i>Atypena</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/asemostera/"><i>Asemostera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/araeoncus/"><i>Araeoncus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/asiagone/"><i>Asiagone</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/camafroneta/"><i>Camafroneta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/canariphantes/"><i>Canariphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/bolyphantes/"><i>Bolyphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caracladus/"><i>Caracladus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/centromerus/"><i>Centromerus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ceraticelus/"><i>Ceraticelus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ceratinella/"><i>Ceratinella</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/bathyphantes/"><i>Bathyphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/dicymbium/"><i>Dicymbium</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/dactylopisthes/"><i>Dactylopisthes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/eridantes/"><i>Eridantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/erigomicronus/"><i>Erigomicronus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/erigone/"><i>Erigone</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/erigonoplus/"><i>Erigonoplus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/diplocephaloides/"><i>Diplocephaloides</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/diplocephalus/"><i>Diplocephalus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/dubiaranea/"><i>Dubiaranea</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/emertongone/"><i>Emertongone</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/esophyllas/"><i>Esophyllas</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gongylidioides/"><i>Gongylidioides</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/holmelgonia/"><i>Holmelgonia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/laetesia/"><i>Laetesia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/incestophantes/"><i>Incestophantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/jilinus/"><i>Jilinus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/lepthyphantes/"><i>Lepthyphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ketambea/"><i>Ketambea</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/linyphia/"><i>Linyphia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/neriene/"><i>Neriene</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/mermessus/"><i>Mermessus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/maorineta/"><i>Maorineta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nasoona/"><i>Nasoona</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nasoonaria/"><i>Nasoonaria</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/oaphantes/"><i>Oaphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/oryphantes/"><i>Oryphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nematogmus/"><i>Nematogmus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/mitrager/"><i>Mitrager</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ostearius/"><i>Ostearius</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/oedothorax/"><i>Oedothorax</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/neodietrichia/"><i>Neodietrichia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/oia/"><i>Oia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/piniphantes/"><i>Piniphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/parameioneta/"><i>Parameioneta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/palliduphantes/"><i>Palliduphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/parapelecopsis/"><i>Parapelecopsis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pelecopsis/"><i>Pelecopsis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/poeciloneta/"><i>Poeciloneta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/prosoponoides/"><i>Prosoponoides</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/porrhomma/"><i>Porrhomma</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/putaoa/"><i>Putaoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/platyspira/"><i>Platyspira</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pseudotyphistes/"><i>Pseudotyphistes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/scirites/"><i>Scirites</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/solenysa/"><i>Solenysa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savignia/"><i>Savignia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savigniorrhipis/"><i>Savigniorrhipis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/scyletria/"><i>Scyletria</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/sisicus/"><i>Sisicus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapinocyba/"><i>Tapinocyba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapinopa/"><i>Tapinopa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/taranucnus/"><i>Taranucnus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tennesseellum/"><i>Tennesseellum</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tutaibo/"><i>Tutaibo</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/xim/"><i>Xim</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ummeliata/"><i>Ummeliata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/vietnagone/"><i>Vietnagone</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/troglohyphantes/"><i>Troglohyphantes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/walckenaeria/"><i>Walckenaeria</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/weintrauboa/"><i>Weintrauboa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/wuliphantes/"><i>Wuliphantes</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Callitrichia</i></td><td>Genus</td><td>Linyphiidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Callitrichia">Plazi/Callitrichia</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/callitrichia/&quot;,
+  &quot;name&quot;: &quot;Callitrichia&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/callitrichia/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CTV7L&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Linyphiidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/linyphiidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CTV7L</p>
+</div></footer>
+</body>
+</html>

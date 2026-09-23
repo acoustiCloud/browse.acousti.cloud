@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Rana kyoto</title>
+<meta name="description" content="Rana kyoto in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/rana-kyoto/">
+<meta property="og:title" content="Bioacoustics of Rana kyoto">
+<meta property="og:description" content="Rana kyoto in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/SKFC3">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/rana-kyoto/", "name": "Rana kyoto", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/rana-kyoto/", "sameAs": "https://api.audioblast.org/taxon/CoL/SKFC3", "parentTaxon": {"@type": "Taxon", "name": "Rana", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/rana/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Ranidae", "item": "https://browse.acousti.cloud/taxon/ranidae/"}, {"@type": "ListItem", "position": 11, "name": "Rana", "item": "https://browse.acousti.cloud/taxon/rana/"}, {"@type": "ListItem", "position": 12, "name": "Rana kyoto", "item": "https://browse.acousti.cloud/taxon/rana-kyoto/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/ranidae/"><span class="rk">Family</span><span>Ranidae</span></a><span class="sep">›</span><a href="/taxon/rana/"><span class="rk">Genus</span><i>Rana</i></a></nav>
+<h1>Bioacoustics of <i>Rana kyoto</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis: A small-sized form of the genus (adult males 28.8–43.9 mm , females 27.4–48.3 mm in SVL after fixation); reddish-, dark-, or pale-brown dorsally; a dark mask covering tympanum; a dark shoulder chevron of inverted V shape present but indistinct; dorsal and lateral skin nearly smooth with minute granules; supratympanic and dorsolateral fold present; dark mottling present in throat, chest, ventrolateral area, and ventral side of thigh and tibia; heels overlapping when limbs are held at right angles to body; tibiotarsal articulation reaching eye or beyond; tip of digit blunt, slightly dilated but not grooved; toe web developed poorly; males with internal vocal sacs. The new species is similar to the other members of the Rana tagoi complex, as well as R. sauteri and the members of the R. johnsi Smith group ( Wan et al . 2020 ) but can be distinguished from them by the combination of following characters: small adult body size; less developed toe webs; digit characteristics; dense dark markings on ventral part of legs; small, poorly-pigmented larvae without sucker; low dominant frequency of advertisement call; and chromosome number of 2n = 26.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/039E878AFFC1FFDAF9A0669D5CC928EE#C32D6517FFC1FFDEF9F060265C3A2DA1">this account</a> <a href="https://treatment.plazi.org/id/039E878AFFC1FFDAF9A0669D5CC928EE">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of holotype (measurements in mm): A breeding male SVL 31.2; habitus moderately stout ( Fig. 8 ); head as long as broad (HL 11.5, 36.9%SVL; HW 11.0, 35.4%SVL); snout rounded; eye large, eyelid length slightly greater than snout length (EL 4.9, 15.6%SVL; SL 4.1, 13.1%SVL); snout projecting beyond lower jaw, rounded in lateral profile; canthus rostralis rounded; lores slightly oblique, concave; nostril lateral, below canthus, nearer to corner of eye than to tip of snout (S-NL 2.2, 7.0%SVL; N-EL 1.6, 5.2%SVL); internarial distance (IND 3.7, 12.0%SVL) wider than interorbital distance (IOD 2.0, 6.5% SVL) and upper eyelid (UEW 3.2, 10.1% SVL) but narrower than intercanthal distance (5.3, 17.1% SVL); pupil elliptical; tympanum distinct, diameter (TD 1.1, 3.6% SVL) one-fourth that of eye, and separated from posterior corner of eye by more than half of tympanum diameter (T-EL 0.8, 2.4% SVL); vomerine teeth in oval, oblique series (right with four and left with five teeth), beginning from a line connecting centers of choanae and extending posteromedially, groups more widely separated from each other than from choanae, and anterior margin of series outlined by dark pigmentation; tongue notched posteriorly, without papilla; vocal sac bipartite, consisting of two laterally situated parts, with a pinhole-like opening near each jaw commissure. Forelimb stout and moderately long (LAL 14.2, 45.6%SVL: Fig. 8 ); fingers unwebbed; third finger longest (4.5, 14.5%SVL); finger length formula: II&lt;I&lt;IV&lt;III; finger tips blunt, slightly dilated but not grooved; subarticular tubercles distinct; no fringes of skin along fingers; distinct nuptial pads on first finger; the pads divided into two parts, and covered with minute asperities. Hindlimb moderately long (HLL 52.3, 167.6% SVL: Fig. 6 ); tibia moderately long (TL 15.5, 49.6% SVL), heels overlapping when limbs are held at right angles to body; tibiotarsal articulation of adpressed limb reaching anterior margin of eye; foot (FL 16.5, 52.8%SVL) longer than tibia; toe length formula I&lt;II&lt;V&lt;III&lt;IV; toe tips similar to those of fingers; webbing developed poorly, formula: I 2– 21 / 2 II 1–3 III 2– 31 / 2 IV 31 / 4 – 11 / 2 V; toes without lateral fringes; subarticular tubercles distinct; inner metatarsal tubercle oval, length (IMTL 1.6, 5.2%SVL) shorter than first toe (1TOEL 3.0, 9.5%SVL); outer metatarsal tubercle rounded and small. Dorsal skin nearly smooth and both sides of body relatively granular ( Fig. 8 ); chevron marking in scapular region indistinct; a distinct supratympanic fold from posterior margin of eye to axilla; a dorsolateral fold from supratympanic fold to groin; a junction of supratympanic and dorsolateral folds swelling outside; skin of both sides of body flabby; throat and chest smooth; abdomen weakly rugose. Color in life brown dorsally with dark blotches; sides of body dark brown; dorsolateral fold brown with darker outline; dark brown blotches on head forming interrupted interorbital bar; lore with distinct black bar below canthus; labium with heavy, dusty dark pigmentations; distinct black marking below supratympanic fold, from behind eye, covering tympanum, and reaching above arm insertion; iris gold with reddish portions anteriorly and posteriorly; dorsal surface of limbs marked with alternating, dark brown crossbars, three on lower arm, three to four on thigh, four on tibia, and two to three on tarsus; throat and chest with heavy, dark pigmentation; the pigmentation relatively sparse in abdomen and almost absent on lower part; palm sparsely pigmented; ventral side of arm unpigmented in radial side but heavily pigmented in ulnar side; ventral side of thigh nearly unpigmented on proximal side but with dark blotches and dots on distal side; ventral side of tibia and tarsus with dark blotches; under side of foot dark brown. In preservative, coloration faded and became grayish but no obvious change in pattern was observed. Variation: A summary of morphometric data is shown in Table 1 together with those on the allied species R. t. tagoi . Original measurements are available from Figshare (DOI: 10.6084/m9.figshare.21315384). Adult body size is apparently smaller in populations sympatric with R. t. tagoi (male: 28.8–35.9 mm ; female: 27.4–36.9 mm ) than in solitary populations (36.0– 43.9 mm ; 48.0– 48.3 mm ). In the latter populations, females seem to be larger than males, although the tendency is not recognized in the former. When the hindlimb is bent forward along the body, tibiotarsal joint usually reaches between snout and anterior corner of eye in males, whereas it reaches between nostril and center of eye in females. Development of toe web varies from moderate (I 13 / 4 –2 II 1– 11 / 2 III 2–3 IV 3–1 V) to poor (I 2– 21 / 2 II 2–3 III 21 / 2 –4 IV 33 / 4 –2 V) in males, and from moderate (I 13 / 4 – 21 / 2 II 1–2 III 2–3 IV 3– 11 / 2 V) to rudimentary (I 2– 21 / 2 II 2–3 III 2–4 IV 31 / 2 –2 V) in females. Generally, breeding males tend to have more developed web than males in the other season and females. Some have tubercles laying on the chevron marking in scapular region. Dorsal ground color varies from orange to dark brown. Individuals seem to change their dorsal color slightly from light to dark, and especially males in breeding season tend to become darker color than in the other seasons. Dark pigmentation on throat more or less sparse in some males, and almost absent in females. Development of ventral dark pigmentation also varies among individuals, and some have totally creamy ventrum. Most males have fine dots or blotches on ventral side of legs, but such a marking is less developed in females. Ground color of ventral side of legs varies from light yellow to pale pink. Eggs and larvae: Diameter of fresh egg varies from 2.0 to 3.2 mm before oviposition, and 3.1 to 3.4 at morula stage. Clutch size 33–53, eggs yolky, black or dark-gray in animal hemisphere and white or cream in vegetal hemisphere. Larva at stage 33 monotone gray dorsally without obvious marking; ventrum largely unpigmented except for oral area, and yolky intestine can be seen through the skin; total length 18.8–19.6 mm in preservation (5% formalin); head-body oval, depressed; eyes dorsolateral, not visible from below; tail long, body/tail ratio of 0.44–0.47; dental formula 1:1+1/1+1:2 (n = 3) in this stage. Frog SVL at metamorphosis 6.7–7.0 mm (n = 4). Karyotype: One male (KUHE 44758) had diploid chromosome of 2n = 26, with five large and eight small pairs. One small pair had secondary constriction on the long arm. Call characteristics: The advertisement call of the holotype (KUHE 48482: Fig. 7 ) was recorded at the type locality at the water temperature of 8.7°C. The call recording was stored in Figshare (DOI: 10.6084/m9.figshare.21315384). Of 20 calls measured, nine were single note call (type I), seven were two-notes call with longer first note (type II-B), and four were three-notes calls (type III-A (1) and III-C (3)). Mean (± SD) call duration (s) of single-, two-, and three-note calls were 0.38±0.11, 1.64±0.33, and 2.78±0.82, respectively. Single note calls contained 15.3±5.1 pulses in average. In two-notes calls, duration (s) and pulse number of the first note (0.81±0.25 and 42.6±11.9, respectively) was longer and larger than in the last one (0.32±0.05 and 13.6±3.4). Note duration (s) and pulse number, respectively, in three note calls were as follows: 0.34±0.02 and 19.3± 1.2 in the first note, 0.64±0.04 and 32.0± 2.6 in the middle note, and 0.40±0.06 and 15.7± 3.8 in the last note. A similar dominant frequency (Hz) was recorded among each note/call: 895.9± 49.8 in one-note call; 849.8 ± 19.7 and 925.0± 38.3 in the first and last notes of two-notes calls; and 847.9±23.3, 847.9±23.3, and 905.3±73.0 in the first, middle, and last notes of three-notes calls. Each note contained clear harmonics. Frequency modulation was not recognized in the most notes, but the middle note had modulation in one of the three-notes calls. For the variation of calls among individuals/localities, see RESULTS section and Table 5 . Breeding female often produces a call when it is handled. This call sounds higher pitch than mating call of the male, and could be a distress call. Comparisons: Among brown frogs of the genus Rana Linnaeus 1758 , Rana kyoto sp. nov. resembles the Rana tagoi complex, R. sauteri , R. johnsi and its close relatives. However, by its blunt digit tips without groove (tips grooved in R. sauteri and R. johnsi : Boulenger 1909 ; Smith 1921 ; Chou &amp; Lin 1997 ) and small (TTL ca. 20 mm in St. 35), endotrophic larva without sucker (abdominal sucker present in tadpole of R. sauteri , and TTL can exceed 30 mm in St. 26–32 and can exceed 40 mm in St. 33–41: Lai et al. 2003 ), the new species can be distinguished from them and all the other congeners except for taxa belonging to the R. tagoi complex ( R. tagoi sspp., R. neba , and R. sakuraii ). By its subterranean breeding habit, the new species is also distinguishable from all the other congeners except for the R. tagoi complex and R. iberica Boulenger ( Rosa &amp; Penado, 2013 ) Rana kyoto sp. nov. is distinct by its small adult SVL (males ca. 29–36 mm in sympatric area with R. tagoi and 36–44 mm in solitary area) compared to all the other members of the R. tagoi complex, i.e., R. t. tagoi (males 38–58 mm ), R. t. okiensis ( 38–46 mm ), R. t. yakushimensis ( 37–48 mm ), R. sakuraii ( 38–56 mm ), and R. neba ( 37–48 mm ) ( Matsui &amp; Maeda 2018 ; present study). In the populations sympatric with R. t. tagoi , the new species tends to show relatively narrower head, larger eye, and wider internarial distance than R. t. tagoi ( Fig. 6 ). In adult toe webs, Rana kyoto sp. nov. shows less developed webs (in most breeding males, the margins of innermost and/or outermost webs do not reach to the 1 st phalanges of 1 st and 5 th toes) than in R. t. tagoi , R. t. okiensis , R. t. yakushimensis , and R. sakuraii (in most breeding males, these webs reach to the 1 st phalange or tip pad of each toe). By the presence of dark blotches/dots on ventral surface of legs, the new species is also distinguishable from R. t. tagoi and R. neba (topotypes of both species usually lacking such markings). By the division of the nuptial pad of 1 st finger into two parts separated by smooth skin, the breeding males of R. kyoto sp. nov. can be distinguished from R. sakuraii (breeding male with multimodal but continuous nuptial pad on 1 st finger). Also, in mature males, the new species can be distinguished from R. sakuraii by the presence of a vocal sac (vocal sac absent in R. sakuraii ). Mating call of Rana kyoto sp. nov. is characterized by low dominant frequency (ca. 0.7–0.9 kHz in average), lack of obvious frequency modulation in each note, and few note number (1–4, mode: 1) with short last note (generally NL ratio of first/last notes is 3/2 or more) ( Fig. 7 ; Table 5 ). Compared to the new species, calls of topotypic R. t. tagoi show higher dominant frequency (ca. 0.9–1.2 kHz in average) with modulation at least within the first note in some cases, and higher number of notes (2–8, mode: 3) with last note longer than the first (NL ratio of first/last notes is 2/3 or less) ( Shimada et al . 2021 ; Table 5 ). Calls of R. t. tagoi in Kinki District also show a dominant frequency higher than the new species (ca. 0.8–1.4 kHz in average) with modulation at least within the first note in many cases, notes higher in number (1–12, mode: 2 and 4) and last note longer than the first ( Table 5 ). Calls of R. neba show high dominant frequency (ca. 1.1–1.2 kHz in average) with obvious modulation within the first note, and more note number (3–7) with the last note similar to the first/middle ones in length ( Shimada et al . 2021 ). Calls of R. sakuraii (dominant frequency: 0.9/3.1 kHz; note number: 4; obvious modulation absent: Matsui &amp; Maeda 2018 ), R. t. yakushimensis (1.0/1.7 kHz; 1–4; obvious modulation present: Matsui &amp; Maeda 2018 ), and R. t. okiensis (0.7 kHz; 4–6; modulation present: Matsui &amp; Maeda 2018 ) are not fully examined, but seem to be distinguishable from the call of R. kyoto sp. nov by the combination of traits described above. In R. kyoto sp. nov. , the animal hemisphere of eggs at early developmental stage is usually dark brown or almost black, whereas the animal hemisphere at early stage is pale gray to dark brown in R. t. tagoi and R. sakuraii . Dorsal coloration of larva is also darker in the new species than in R. t. tagoi from Kinki District. At least in grown larvae (St. 33–35), the new species tends to have more tooth rows (generally 1:1+1/1+1:2) than R. t. tagoi from Kinki District at the similar stage (1:1+1/1+1:1) and tends to have fewer rows than those of R. sakuraii (generally 1:2+2/2+2:1 or 1:2+2/1+1:1: Kishimoto &amp; Hayashi 2020 , shown as stages 28–30 by their own staging method roughly correspond to St. 33–35 in this study), although all of them show variation in this trait ( Kishimoto &amp; Hayashi 2020 ; Matsui &amp; Maeda 2018 ). By its diploid chromosome 2n = 26, R. kyoto sp. nov. is separated from R. neba (2n = 28 following Ryuzaki et al . 2014 , although the presence of variation in the latter is suspected: Eto &amp; Matsui 2021b ). Range: Known from northern part of Kinki District, central-western part of Honshu Island, Japan . Kyoto Prefecture : Kyotango City , Kyoto City , Nantan City ; Fukui Prefecture : Mihama Town , Oi Town ; Shiga Prefecture : Otsu City, Takashima City ; Hyogo Prefecture : Asago City , Kobe City , Nishinomiya City , Sasayama City , Shin’onsen Town , Shiso City , Toyooka City , Yabu City ; Tottori Prefecture : Wakasa Town . Natural history: Inhabits montane forest. Topotypic Rana kyoto sp. nov. breeds in early spring, early to late April ( Sugahara &amp; Matsui 1997 ), whereas it breeds from late April to late May around Kobe City, Hyogo Pref. ( Daito &amp; Nakamizo 1993 ; Eto, unpublished data), the only known solitary range of this species without any close relatives. Rana kyoto sp. nov. is a subterranean breeding species, and the males call inside crevices of rock bed or under rocks near springs or streams, with their bodies almost invisible from the outside while calling. Two or more males often call in a same burrow. Such a burrow is partially filled by water exuded from the back, and males sit inside soaking their bodies in the water. Females lay eggs inside such a burrow, and hatched tadpoles stay inside or around the burrow almost two months until they complete metamorphosis. Larvae can metamorphose even without feeding in the captivity, although it may feed detritus in the wild. Metamorphosis begins at mid June in the type locality ( Sugihara et al . 2022 ). In many known habitats, the new species occurs syntopically with its close relative R. t. tagoi . Their breeding sites are close to each other in the type locality and both of them use subterranean water current for oviposition site; however, it seems they prefer different micro habitat and generally they do not share same burrow ( Sugahara &amp; Matsui 1997 ). In the type locality of R. kyoto sp. nov. , R. t. tagoi starts calling at mid May, which lasts until early June ( Sugahara &amp; Matsui 1997 ). They begin metamorphosis at mid July ( Sugihara et al ., 2022 ). In addition to R. t. tagoi , another close relative R. sakuraii also co-occurs in several areas such as northern part of Kyoto Pref. and Hira Mountains of Shiga Pref.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/039E878AFFC1FFDAF9A0669D5CC928EE#C32D6517FFC2FFDAF9F066D45CC928EE">this account</a> <a href="https://treatment.plazi.org/id/039E878AFFC1FFDAF9A0669D5CC928EE">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/rana/"><i>Rana</i> <span class="n">3,074</span></a></li>
+<li><a href="/taxon/ranidae/"><span>Ranidae</span> <span class="n">35,149</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/rana-amurensis/"><i>Rana amurensis</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/rana-arvalis/"><i>Rana arvalis</i> <span class="n">726</span></a></li>
+<li><a href="/taxon/rana-asiatica/"><i>Rana asiatica</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/rana-coreana/"><i>Rana coreana</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rana-dybowskii/"><i>Rana dybowskii</i> <span class="n">15</span></a></li>
+<li><a href="/taxon/rana-neba/"><i>Rana neba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/rana-tagoi/"><i>Rana tagoi</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/rana-temporaria/"><i>Rana temporaria</i> <span class="n">1,534</span></a></li>
+<li><a href="/taxon/rana-zhenhaiensis/"><i>Rana zhenhaiensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rana-italica/"><i>Rana italica</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rana-uenoi/"><i>Rana uenoi</i> <span class="n">16</span></a></li>
+<li><a href="/taxon/rana-ornativentris/"><i>Rana ornativentris</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/rana-dalmatina/"><i>Rana dalmatina</i> <span class="n">388</span></a></li>
+<li><a href="/taxon/rana-latastei/"><i>Rana latastei</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/rana-taihangensis/"><i>Rana taihangensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/rana-macrocnemis/"><i>Rana macrocnemis</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/rana-pseudodalmatina/"><i>Rana pseudodalmatina</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/rana-chensinensis/"><i>Rana chensinensis</i> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Rana kyoto</i></td><td>Species</td><td>Ranidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Rana kyoto">Plazi/Rana kyoto</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/rana-kyoto/&quot;,
+  &quot;name&quot;: &quot;Rana kyoto&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/rana-kyoto/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/SKFC3&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Rana&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/rana/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/SKFC3</p>
+</div></footer>
+</body>
+</html>

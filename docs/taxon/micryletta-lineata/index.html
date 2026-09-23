@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Micryletta lineata</title>
+<meta name="description" content="Micryletta lineata in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/micryletta-lineata/">
+<meta property="og:title" content="Bioacoustics of Micryletta lineata">
+<meta property="og:description" content="Micryletta lineata in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/QRBCF">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/micryletta-lineata/", "name": "Micryletta lineata", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/micryletta-lineata/", "sameAs": "https://api.audioblast.org/taxon/CoL/QRBCF", "parentTaxon": {"@type": "Taxon", "name": "Micryletta", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/micryletta/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Microhylidae", "item": "https://browse.acousti.cloud/taxon/microhylidae/"}, {"@type": "ListItem", "position": 11, "name": "Microhylinae", "item": "https://browse.acousti.cloud/taxon/microhylinae/"}, {"@type": "ListItem", "position": 12, "name": "Micryletta", "item": "https://browse.acousti.cloud/taxon/micryletta/"}, {"@type": "ListItem", "position": 13, "name": "Micryletta lineata", "item": "https://browse.acousti.cloud/taxon/micryletta-lineata/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/microhylidae/"><span class="rk">Family</span><span>Microhylidae</span></a><span class="sep">›</span><a href="/taxon/microhylinae/"><span class="rk">Subfamily</span><span>Microhylinae</span></a><span class="sep">›</span><a href="/taxon/micryletta/"><span class="rk">Genus</span><i>Micryletta</i></a></nav>
+<h1>Bioacoustics of <i>Micryletta lineata</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">distribution · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Distribution.— Presently, M. lineata is restricted to the Isthmus of Kra region in southern Myanmar ( Tanintharyi Region ) and adjacent western Thailand , reaching its apparent northern latitudinal limit at nearly 158N. Micryletta lineata likely has a larger distribution and possibly extends north into the Salween Basin of Myanmar and south into northern Peninsular Malaysia , although these areas have yet to be thoroughly investigated. Specimens of Micryletta from this area must be examined closely (optimally integrating both morphology, genetics, and bioacoustics) owing to demonstration of sympatry of M. inornata sensu stricto and M. lineata . Natural history.— Micryletta lineata is a diurnal terrestrial frog usually found among leaf litter and often near forest streams. Tadpole morphology, diet, advertisement calls, and various other crucial facets of the ecology and biology of M. lineata have yet to be characterized. Comparison to other Myanmar Micryletta . — Our sample of Tanintharyi M. inornata is small (single adult female [ Fig. 6 ] and single immature female). Morphometrically, all its measurements lie within the range of the sample of M. lineata ( Table 5 ). Its distinguishing attributes are a combination of coloration features: dorsal nape with a single median narrow dark nape bar vs. few scattered small dark spots or smudge; upper lip uniformly white vs. mottled or narrow white stripe with dark ventral border; side of trunk with broad dark, irregular-edged stripe vs. narrow, smooth-edged stripe of series of spots and bars as continuation of postocular stripe; ventrally chin unicolor vs. dark bordered lower lip; and unicolor chest vs. diffuse reticulate chest pattern. PC1 PC2 PC3 PC4 PC5 Standard deviation 2.136 1.728 1.296 1.195 1.09 Proportion of variance 0.268 0.176 0.099 0.084 0.07 Cumulative proportion 0.268 0.444 0.543 0.627 0.697 Eigenvalue 4.563 2.984 1.68 1.428 1.188 HeadL –0.098 0.351 –0.367 0.278 –0.134 HeadWP –0.116 0.413 –0.236 –0.023 –0.205 SnEye –0.204 0.096 –0.022 –0.23 0.56 NarEye –0.043 0.083 –0.141 0.298 0.72 EyeD –0.022 0.425 –0.093 –0.251 0.007 IntOrb –0.129 0.445 –0.049 –0.061 –0.138 IntNar –0.155 0.358 0.2 –0.141 0.167 TrunkL –0.043 0.101 0.453 –0.485 0.04 ForarmL –0.235 0.13 0.345 0.112 –0.153 HandL –0.243 0.037 0.406 0.313 –0.012 3rd FingL –0.255 0.083 0.378 0.388 0.01 ThighL –0.237 –0.126 –0.111 –0.412 0.054 CrusL –0.391 –0.133 –0.117 –0.1 –0.142 TarsL –0.354 –0.011 –0.159 0.101 –0.012 FootL –0.358 –0.22 –0.026 –0.059 –0.049 HindlL –0.361 –0.184 –0.218 0.02 0.042 4th ToeL –0.343 –0.18 –0.084 –0.06 –0.094 PC1 PC2 PC3 PC4 PC5 Standard deviation 2.310 1.523 1.345 1.185 1.032 Proportion of variance 0.314 0.136 0.106 0.083 0.063 Cumulative proportion 0.314 0.450 0.557 0.639 0.702 Eigenvalue 5.335 2.319 1.809 1.404 1.064 HeadL –0.184 0.089 0.355 –0.051 0.228 HeadWP –0.204 0.335 0.174 –0.178 0.102 SnEye 0.008 0.533 –0.150 –0.052 0.142 NarEye –0.111 0.361 –0.268 0.124 0.237 EyeD 0.080 0.003 0.528 0.218 –0.334 IntOrb –0.219 0.334 0.296 0.127 –0.237 IntNar –0.008 0.493 –0.157 0.062 –0.219 TrunkL 0.171 0.057 –0.408 –0.267 –0.315 ForarmL –0.263 0.034 0.266 –0.241 0.363 HandL –0.212 –0.053 0.015 –0.512 –0.430 3rd FingL –0.255 –0.035 0.049 –0.536 –0.069 ThighL –0.328 –0.117 –0.203 0.054 0.241 CrusL –0.336 –0.177 –0.140 0.203 0.059 TarsL –0.312 0.107 –0.030 0.332 –0.376 FootL –0.368 –0.165 –0.076 0.094 –0.101 HindlL –0.381 –0.137 –0.167 0.188 –0.111 4th ToeL –0.225 0.005 –0.152 –0.053 –0.018 We have 14 specimens representing northern Myanmar M. aishani ( Tables 5 , 6 ). Morphometrically, M. aishani and M. lineata share most traits, although the former has a larger head in both length and width even though they share similar SVLs. It is important to note that both sexes of the Kachin M. aishani are significantly smaller than the topotypic M. aishani with no overlap of body lengths (Das et al., 2019: table 3). Furthermore, coloration differs between Kachin M. aishani and Tanintharyi M. lineata : dorsally snout usually with faint marks or reticulation vs. often unicolor; lateral trunk stripe continuous for third or more of length vs. series of spots and bars; dorsal surface of femur light and dark variegated vs. distinctly longitudinally striped, median light stripe bordered anteriorly and posterior by dark color; upper lip with longitudinal white stripe irregular vs. mottled or narrow white stripe with dark ventral border; dark postorbital strip crosses tympanum vs. dark postorbital strip not on tympanum. Conservation status.— Specific threats imposing substantial risk to populations of M. lineata in southern Myanmar are largely unknown, but presumably include those endangering other anurans in Southeast Asia—primarily rapid rates of deforestation ( Rowley et al., 2010 ). In the Tanintharyi Region , Connette et al. (2017) reported extensive deforestation of critical lowland wet evergreen forest which hosts a wide array of endemic or seriously threatened species (e.g., Cyrtodactylus , Panthera , Elephas ). Indeed, between 2002 to 2014, the Tanintharyi Region lost 185,952 ha of forest (Bhagwat et al., 2017), largely owing to expanding oil palm plantations (which, in Myanmar , are specific to the Tanintharyi Region ). Despite the increasing loss of forest throughout southern Myanmar , the Tanintharyi Region , along with Kachin State in the north, remain the country’s major strongholds for remaining intact forest tracts (Bhagwat et al., 2017). Presently, the International Union for the Conservation of Nature (IUCN) Red List of Threatened Species (IUCN, 2020) contains classifications for three Paddy Frog species: M. inornata (Least Concern) , M. steinegeri (Vulnerable) , and M. erythropoda (Data Deficient [DD]). In Myanmar , M. lineata occurs at an approximate extent of occurrence (EOO) of 21,054 km 2 , whereas its distribution in adjacent Thailand is largely uncharacterized. Given the uncertainty surrounding the distribution of this species, and a lack of population density estimates in this region, we recommend classifying M. lineata as DD under the IUCN Red List, although substantial concerns exist regarding accelerating rates of deforestation of lowland evergreen wet forests in the Tanintharyi Region.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03FC0732113FFFE6FCFEFF20FBB8F921#C34FE5AF113CFFE6FFC2F8CAFBB8F921">this account</a> <a href="https://treatment.plazi.org/id/03FC0732113FFFE6FCFEFF20FBB8F921">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/micryletta/"><i>Micryletta</i> <span class="n">22</span></a></li>
+<li><a href="/taxon/microhylinae/"><span>Microhylinae</span> <span class="n">1,789</span></a></li>
+<li><a href="/taxon/microhylidae/"><span>Microhylidae</span> <span class="n">6,621</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/micryletta-steinegeri/"><i>Micryletta steinegeri</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/micryletta-erythropoda/"><i>Micryletta erythropoda</i> <span class="n">4</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Micryletta lineata</i></td><td>Species</td><td>Microhylidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Micryletta lineata">Plazi/Micryletta lineata</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/micryletta-lineata/&quot;,
+  &quot;name&quot;: &quot;Micryletta lineata&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/micryletta-lineata/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/QRBCF&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Micryletta&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/micryletta/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/QRBCF</p>
+</div></footer>
+</body>
+</html>

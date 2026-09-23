@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Stygopholcus</title>
+<meta name="description" content="Stygopholcus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/stygopholcus/">
+<meta property="og:title" content="Bioacoustics of Stygopholcus">
+<meta property="og:description" content="Stygopholcus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CVRKZ">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/stygopholcus/", "name": "Stygopholcus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/stygopholcus/", "sameAs": "https://api.audioblast.org/taxon/CoL/CVRKZ", "parentTaxon": {"@type": "Taxon", "name": "Pholcidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pholcidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Pholcidae", "item": "https://browse.acousti.cloud/taxon/pholcidae/"}, {"@type": "ListItem", "position": 8, "name": "Stygopholcus", "item": "https://browse.acousti.cloud/taxon/stygopholcus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/pholcidae/"><span class="rk">Family</span><span>Pholcidae</span></a></nav>
+<h1>Bioacoustics of <i>Stygopholcus</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Authority of Stygopholcus There has long been disagreement about the publication that has made the genus name Stygopholcus validly available. Some cataloguers such as Roewer (1942) and Brignoli (1983) considered the original description to be in Kratochvíl (1940) , while Bonnet (1958) cited Absolon &amp; Kratochvíl (1932) as the source for the name. Platnick (1993) first opted for Kratochvíl (1940) , later ( Platnick 2000 ) for Absolon &amp; Kratochvíl (1932) . The World Spider Catalog (2020) adopted Platnick’s later view. A third option, namely Kratochvíl (1932) , was offered by Kratochvíl himself ( Kratochvíl 1940 ), and adopted by Senglet (1971) . The name Stygopholcus is first mentioned in two papers in 1932: in one of these, Absolon &amp; Kratochvíl (1932) explicitly refer to the other publication ( Kratochvíl 1932 ) as the source of the name: “Mit dem Namen Stygopholcus n. g. hat J. Kratochvíl (siehe “Sur quelques Araignées de Slavonie central”, Bulletin de l’Institut national agronomique, Sign. C. 23, Brno 1932) die Art Holocnemus ( Hoplopholcus ) absoloni Kulcz. als selbständige Gattung abgetrennt.” [“ With the name Stygopholcus n. g. , J. Kratochvíl (see “Sur quelques Araignées de Slavonie central”, Bulletin de l’Institut national agronomique, Sign. C. 23, Brno 1932) has moved the species Holocnemus (Hoplopholcus) absoloni Kulcz. to constitute a separate genus” ]. Other than this statement, Absolon &amp; Kratochvíl (1932) just say a few words about the habitat of S. absoloni . Absolon &amp; Kratochvíl (1932) thus fail to satisfy a requirement of ICZN (1999) Article 13.1.1 for names published after 1930 to be available: “… be accompanied by a description or definition that states in words characters that are purported to differentiate the taxon.” The fact that Absolon &amp; Kratochvíl (1932) contains a bibliographic reference to such a published statement could be construed as satisfying ICZN Article 13.1.2. We do not know which 1932 paper was published first. However, if Kratochvíl (1932) was published first, it has priority for that reason; if it was published second, it has priority because Absolon &amp; Kratochvíl (1932) refer to a statement that was not yet published at the time. Confusingly, the paper to which Absolon &amp; Kratochvíl (1932) refer was originally also not intended to be the source of the name. Kratochvíl (1932) referred to “ Stygopholcus n. g. in lit., jejž popíši na jiném mistě” [ “ Stygopholcus n.g. in lit., that Iwill describe elsewhere” ], suggesting that the genus name was intended to be made available in an upcoming publication (possibly Kratochvíl 1934 ). However, Kratochvíl (1932) provides “characters that are purported to differentiate the taxon”, satisfying ICZN Article 13.1.1; and he explicitly names “ H. absoloni Kulcz. ” as the only species to be included in the genus, satisfying the requirements of ICZN Article 13.3 regarding the fixation of a type species. From a formal perspective, Kratochvíl’s (1932) intentions (of making the name available later) are as irrelevant as the confusion between genus rank (in the Czech text) and subgenus rank (in the French summary), and the minimalist nature of his diagnosis: he mentions that (1) the female sternum process present in Holocnemus pluchei is absent in Stygopholcus ; (2) the abdomen shape differs between Holocnemus and Stygopholcus ; (3) the female palp of Stygopholcus resembles that of Pholcus rather than that of Holocnemus pluchei (which is enlarged); and (4) Stygopholcus has cheliceral stridulation like Holocnemus (in contrast to Pholcus ). We conclude that Stygopholcus was made available by Kratochvíl (1932) . Identity of Stygopholcus absoloni ( Kulczyński, 1914 ) In the original description of “ Holocnemus ( Hoplopholcus ) Absolonii ”, Kulczyński (1914) mentions two caves near Trebinje by name: “Mares et feminae lecta sunt prope Trebinje in speluncis: Ilijina pećina … et Zovica jama…” [“ males and females were collected in caves near Trebinje: Ilijina cave … and Zovica pit … ”]. He then notes that according to Absolon (“Teste Cel. C. Absolon”), this species has been found in many other caves in southeastern Herzegovina (southern region of modern Bosnia and Herzegovina ). This strongly suggests that he had only seen the specimens from the two caves near Trebinje. Any specimens he had from these caves, and only these specimens, constitute the type series ( syntypes ). In Kulczyński’s (1914) long original text, the morphology is described in considerable detail but complex shapes are notoriously difficult to understand from text alone. However, he was obviously aware of differences among the specimens available to him, starting a paragraph with “Maris palpi variant paululo formâ, etiam mandibularum armatura paulo mutabilis” [“ the male palps vary slightly in shape, and also the armature of the chelicerae is slightly variable ”]. He clearly interpreted this as intraspecific variation, but without specifying to which variant(s) his four figures referred. When Kratochvíl (1940) made a first careful and detailed revision of Stygopholcus , he realized that Kulczyński’s (1914) figures represented the two variants, which Kratochvíl interpreted (correctly) as different species. He considered Kulczyński’s (1914) fig. 25 to represent one species, figs 24, and 26– 27 the other species. This view was accepted by subsequent cataloguers and authors, also by Senglet (1971 , 2001 ), the only author other than Kratochvíl who studied Stygopholcus in some detail. Since Kulczyński’s (1914) figures of the male palps are in different views, we checked Kratochvíl’s (1940) distinction of the two putative species by orienting palps of both species in exactly the same positions as in Kulczyński’s (1914) figures. There is no doubt that Kratochvíl (1940) was right in this respect. Kratochvíl’s (1940) error was that he felt either entitled or obliged (or both) to designate new types from a new type locality for S. absoloni , choosing a cave ~ 35 km NW of Trebinje, “Grabova peć kod Grabova dola”. We can only speculate about his motivation, but it seems reasonable to assume that he had been postponing his detailed revision of the genus for many years (at least since 1932), hoping to eventually be able to see Kulczyński’s type series. This hope was frustrated, as indicated in a footnote ( Kratochvíl 1940: 16 ) where he explicitly stated that the specimens from Ilijina pećina and Zovica jama were not accessible to him. Unfortunately, among his rich new material there were no specimens from any of these two caves. We made a major effort to locate Kulczyński’s types , but found only one vial, deposited in the Museum &amp; Institute of Zoology, PAS, in Warsaw, Poland . The supposed types of S. absoloni deposited in Prague and listed in Růžička et al. (2005) are Kratochvíl’s erroneous ‘types’ from “Grabova peć kod Grabova dola”. Kulczyński’s true type vial contains a label in his own handwriting, but the only locality information on this label is “Trebinje”. A second, very detailed label says “Ilijina pećina”, but other information on this label leaves no doubt that it was added much later. Fortunately, Kulczyński’s original catalogue (in Warsaw) offers a clear hint about the origin of the specimens in the vial. It says “Jaskinie koło Trebinje” [“ caves near Trebinje ”], suggesting that Kulczyński joined the specimens from Ilijina pećina and Zovica jama. This type vial contains only three specimens , one male and two females . This is clearly only part of Kulczyński’s material, because he obviously had at least two males available. However, both variants/ species are represented in this vial. Circumstantial evidence suggests that one female is from Ilijina pećina (it corresponds to more recently collected females from this cave). This forces us to conclude that the other specimens ( one male and one female ) are from Zovica jama. This is clearly a case where a lectotype should be designated for S. absoloni in order to provide stability and avoid further confusion about the basics (ICZN Recommendation 74G). However, it is not obvious which specimen would best serve as a lectotype . Selecting the male specimen has one major disadvantage: it makes Zovica jama the type locality, a cave that we were not able to locate, and that was even unknown to local cavers in Trebinje we met in 2014. On the other hand, Ilijina pećina is well known and easily accessible, providing a precise type locality. Selecting the female from Ilijina pećina would thus seem to better satisfy ICZN Recommendation 74E (Verification of locality). At the same time, selecting the male specimen as lectotype has also advantages. Most importantly, it preserves the prevailing usage of the name. This male is the same variant/species as Kratochvíl’s (1940) S. absoloni ʻtypesʼ from “Grabova peć kod Grabova dola”, and it also corresponds to what Senglet (1971) interpreted as S. absoloni . Thus, selecting the male satisfies ICZN Recommendation 74A (Agreement with previous restriction). Asecond (minor) advantage is the fact that species in Stygopholcus are slightly easier to distinguish by males than by females (as in most Pholcidae ). Thus, we decided to select the male as lectotype , mainly for two reasons: it seems to better serve stability, one of the major guiding principles of the Code. Second, it is possible that the exact location of Zovica jama will eventually be determined, weakening the argument against selecting the male.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/038C46268351FF9FFDA9160CFADBFCBC#C33FA4BB8351FF91FF2C1714FB6BF91C">this account</a> <a href="https://treatment.plazi.org/id/038C46268351FF9FFDA9160CFADBFCBC">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description Male BODY. Total body length ~5–6; carapace width ~1.5–2.5. Carapace with deep central pit and pair of shallow furrows diverging from posterior side of pit toward posterior rim ( Figs 39 , 61 , 91 , 107 ); ocular area slightly raised, eye triads relatively close together (distance PME–PME similar to PME diameter), each secondary eye (especially PME) accompanied by indistinct elevation (arrows in Fig. 61 ; “pseudoeyes”; cf. Huber 2009 ), AME relatively large (usually ~40–50% of PME small diameter). Clypeus high, unmodified or with indistinct modified area medially (arrow in Fig. 129 ). Abdomen oval, never elevated or pointed above spinnerets ( Figs 1–5 ). Male gonopore with 4–8 epiandrous spigots ( Figs 62 , 92 , 143 ), ALS with only two spigots each: one large widened spigot and one pointed spigot ( Figs 69 , 135 ); PMS with two spigots each (cf. female, Fig. 42 ); PLS without spigots. COLOR. In general ochre-yellow to brown, with distinct dark pattern in S. photophilus , without or with reduced dark pattern in other (troglophile) species. Carapace mostly pale, with darker ocular area and posterior triangle ( Figs 1–2, 4 ); sternum either dark brown to black ( S. photophilus ), or light brown, with darker brown radial marks (other species). Legs in S. photophilus with dark rings on femora (subdistally) and tibiae (proximally and subdistally) and with short dark longitudinal lines dorsally on femora ( Figs 127–128 ); in other species monochromous, without dark rings and longitudinal lines. Abdomen in S. photophilus with distinct dorsal and ventral patterns; in other species with fewer dorsal and lateral dark marks restricted to posterior part and without or with indistinct ventral pattern. CHELICERAE. Chelicerae with 1–4 modified (cone-shaped to club-shaped) hairs on each distal cheliceral apophysis and ~10–40 club-shaped hairs on frontal face ( Figs 19 , 27–28 , 51 , 63–64 , 93–94 , 119 , 130, 132 ); in S. photophilus with strongly sculptured median edge ( Fig. 131 ); with stridulatory ridges ( Figs 35 , 71 , 95 , 133 ), distances between ridges ~ 6–9 µm in ‘northern clade’, ~ 3 µm in S. photophilus . PALPS. In general as in Figs 6–11 ; coxa with rounded retrolateral hump; trochanter barely modified; femur widening distally, slightly curved towards dorsal, with proximal retrolateral process, indistinct transversal dark line on retrolateral side, and stridulatory pick (modified hair) on prolateral side ( Figs 65 , 103 ); femur-patella joints shifted toward prolateral side (arrows in Fig. 6 ); tibia-tarsus joints shifted toward retrolateral side (arrows in Fig. 8 ); palpal tarsus without dorsal macrotrichia, palpal tarsal organ exposed ( Figs 30 , 104 ); procursus dorsally with approximately five ( S. photophilus ) to ten (other species) weakly to strongly curved hairs; procursus without ventral ‘knee’, distally with strong ventral spine, with dorsal and prolateral processes of variable size, and distinctive brushes of hair-shaped retrolateral membranous processes ( Figs 29 , 67 , 99 , 137 ); genital bulb with basal sclerite connecting to tarsus (bs in Figs 15 , 118 ), with small and weakly sclerotized ( S. photophilus ) or transparent (other species) dorsal process (arrows in Figs 17 , 117 ), and main sclerite consisting of retrolateral and dorsal processes (rp and dp in Figs 15–18 , 118 ); sperm duct opening directly on genital bulb at basis of dorsal process (arrow in Fig. 32 ). LEGS. Legs long and relatively thin, leg 1 length ~35–60, tibia 1 length ~10–15, tibia 2 longer than tibia 4 (1.1–1.2×). Tibia 1 L/d ~60–75. Femur 1 usually with spines ventrally in one row ( S. photophilus ) or two rows (other species) ( Fig. 73 ), in very small males rarely without spines; spines proximally gradually transforming into regular setae; spines never present on femur 2 or on tibia 1; legs without curved hairs; with few short vertical hairs; retrolateral trichobothrium in proximal position (at 2–4% of tibia length in tibia 1), prolateral trichobothrium absent on tibia 1, present on other tibiae. Tarsal pseudosegments very indistinct, never regular rings but rather indistinct irregular platelets. Tarsus 4 with two rows of prolatero-ventral comb-hairs ( Figs 34 , 74 ; see also Huber &amp; Fleckenstein 2008 : fig. 13). Tarsal organs of legs capsulate, with weakly ( S. photophilus ) to strongly (other species) undulating rim ( Figs 75 , 97 ). Female In general very similar to male; chelicerae with less distinct or without stridulatory files ( Figs 36 , 72 , 96 , 134 ); legs slightly shorter than in male, without spines. All tarsal organs capsulate (i.e., also on palps; Figs 37 , 109 , 141 ). Representatives of the ‘northern clade’ with pair of indistinct processes posteriorly on carapace (arrows in Figs 39 , 107 ) acting against pair of poorly visible plates on abdomen. Epigynum usually consisting of large, simple anterior plate and short but wide posterior plate ( Figs 23 , 55 , 85 , 123 ); in S. photophilus with pair of bulging areas in front of anterior plate (arrows in Fig. 144 ). Internal genitalia ( Figs 145–156 ) with sclerotized arc that consists of dorsal and ventral parts (da and va in Figs 153, 156 ) and is variably visible in uncleared specimens; uterus externus with median ventral pouch, usually clearly visible as round or oval structure in untreated specimens (e.g., Figs 55–60 ); with pair of sclerites originating from posterior margin and either slightly converging anteriorly or parallel (arrows in Figs 25 , 125 ), indistinct in S. skotophilus ; pore plates large, flat, with homogeneously distributed pores ( Figs 22 , 54 , 84 , 122). Relationships Stygopholcus is morphologically very similar and geographically very close to Hoplopholcus ( Huber 2020 ) . This led to a debate between A. Senglet and P. Brignoli in the 1970s and 80s, on whether the two genera should be synonymized or not ( Senglet 1971 ; Brignoli 1971 , 1976 , 1983 ). In the end, Senglet (2001) presented a series of morphological differences, and since version 2.5 of the World Spider Catalog ( Platnick 2002 ) Stygopholcus has been listed as a valid genus. The most recent molecular phylogeny of Pholcidae ( Eberle et al. 2018 ) has suggested that Stygopholcus and Hoplopholcus are not even sister taxa, placing Stygopholcus closer to Crossopriza than to Hoplopholcus (with a ‘reasonable’ bootstrap support of 87). Morphological characters that support a sister-group relationship between Stygopholcus and Crossopriza are the female stridulatory apparatus between prosoma and abdomen and the dark lines on the legs. However, a convincing morphological analysis will require a detailed study of Crossopriza (a revision is in preparation) and of Holocnemus . The type species of Holocnemus ( H. pluchei ) was not included in the molecular analysis of Eberle et al. (2018) , and the two species of Holocnemus that were included ( H. caudatus and H. hispanicus ) may in fact be misplaced in Holocnemus and belong to Crossopriza (B.A. Huber, unpubl. data). The monophyly of Stygopholcus is strongly supported by molecular data (maximum bootstrap support; Eberle et al. 2018 ) and by several putative synapomorphies: (1) male chelicerae with club-shaped hairs on frontal face ( Figs 19 , 51 ); (2) unique undulating rim of leg tarsal organs ( Figs 38 , 75 , 97 , 142 ); (3) transparent to weakly sclerotized process dorsally on genital bulb (arrows in Figs 17 , 117 ). Within Stygopholcus , there is strong evidence that S. photophilus is sister to all other species (the ‘northern clade’). Both a six genes approach ( Eberle et al. 2018 ) and a study using hundreds of universal single-copy orthologs (L. Dietz et al. , unpublished data) consistently recovered this relationship, and numerous morphological characters are shared by all species except S. photophilus . Some of these are likely to be synapomorphies: (1) spines on male femur 1 arranged in two rows rather than in just one ( Fig. 73 ); (2) dorsalbulbal processwithtwoseparatetips ( Figs 17–18 , 49–50 , 81–82 ); (3) troglophile mode of life and corresponding pale coloration ( Figs 1–2 ). Within the ‘northern clade’, there is equally strong support for the relationship absoloni + ( skotophilus + montenegrinus ). Several morphological characters shared by S. skotophilus and S. montenegrinus support this view, even though it is not clear yet if all of these shared similarities are synapomorphies: (1) procursus straight (rather than weakly curved toward femur as in S. absoloni ) ( Fig. 44 ); (2) distance betweentipsof dorsalbulbalprocess (bulbal measure D; Fig. 17 )&gt; 0.24 (&lt; 0.24 in S. absoloni ) ( Fig. 159 ); (3) sizeofbulb (bulbal measure E; Fig. 15 )&gt; 0.80 (&lt; 0.78 in S. absoloni ) ( Fig. 160 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/038C46268351FF9FFDA9160CFADBFCBC#C33FA4BB8355FF9DFF2C1318FB33F88A">this account</a> <a href="https://treatment.plazi.org/id/038C46268351FF9FFDA9160CFADBFCBC">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pholcidae/"><span>Pholcidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/stygopholcus-absoloni/"><i>Stygopholcus absoloni</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus-skotophilus/"><i>Stygopholcus skotophilus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus-photophilus/"><i>Stygopholcus photophilus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus-montenegrinus/"><i>Stygopholcus montenegrinus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/holocnemus/"><i>Holocnemus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aetana/"><i>Aetana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arnapa/"><i>Arnapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/artema/"><i>Artema</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anopsicus/"><i>Anopsicus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anansus/"><i>Anansus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/belisana/"><i>Belisana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/calapnita/"><i>Calapnita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/chisosa/"><i>Chisosa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/changminia/"><i>Changminia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza/"><i>Crossopriza</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ciboneya/"><i>Ciboneya</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/galapa/"><i>Galapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita/"><i>Guaranita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hoplopholcus/"><i>Hoplopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hantu/"><i>Hantu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ibotyporanga/"><i>Ibotyporanga</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/holocneminus/"><i>Holocneminus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kambiwa/"><i>Kambiwa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/magana/"><i>Magana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/maghreba/"><i>Maghreba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/leptopholcus/"><i>Leptopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/micropholcus/"><i>Micropholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nerudia/"><i>Nerudia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nyikoa/"><i>Nyikoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ninetis/"><i>Ninetis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nita/"><i>Nita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/panjange/"><i>Panjange</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora/"><i>Pholcophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcus/"><i>Pholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physocyclus/"><i>Physocyclus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/priscula/"><i>Priscula</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psilochorus/"><i>Psilochorus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/quamtana/"><i>Quamtana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savarna/"><i>Savarna</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/spermophora/"><i>Spermophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/smeringopus/"><i>Smeringopus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenosfemuraia/"><i>Stenosfemuraia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tolteca/"><i>Tolteca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caipira/"><i>Caipira</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Stygopholcus</i></td><td>Genus</td><td>Pholcidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Stygopholcus">Plazi/Stygopholcus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/stygopholcus/&quot;,
+  &quot;name&quot;: &quot;Stygopholcus&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/stygopholcus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CVRKZ&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pholcidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholcidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CVRKZ</p>
+</div></footer>
+</body>
+</html>

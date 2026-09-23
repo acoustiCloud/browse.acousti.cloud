@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Orthotomus chaktomuk</title>
+<meta name="description" content="Orthotomus chaktomuk in audioBlast: 81 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/orthotomus-chaktomuk/">
+<meta property="og:title" content="Bioacoustics of Orthotomus chaktomuk">
+<meta property="og:description" content="Orthotomus chaktomuk in audioBlast: 81 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/74Y9H">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/orthotomus-chaktomuk/", "name": "Orthotomus chaktomuk", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/orthotomus-chaktomuk/", "sameAs": "https://api.audioblast.org/taxon/CoL/74Y9H", "parentTaxon": {"@type": "Taxon", "name": "Orthotomus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/orthotomus/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Aves", "item": "https://browse.acousti.cloud/taxon/aves/"}, {"@type": "ListItem", "position": 9, "name": "Passeriformes", "item": "https://browse.acousti.cloud/taxon/passeriformes/"}, {"@type": "ListItem", "position": 10, "name": "Cisticolidae", "item": "https://browse.acousti.cloud/taxon/cisticolidae/"}, {"@type": "ListItem", "position": 11, "name": "Orthotomus", "item": "https://browse.acousti.cloud/taxon/orthotomus/"}, {"@type": "ListItem", "position": 12, "name": "Orthotomus chaktomuk", "item": "https://browse.acousti.cloud/taxon/orthotomus-chaktomuk/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/aves/"><span class="rk">Class</span><span>Aves</span></a><span class="sep">›</span><a href="/taxon/passeriformes/"><span class="rk">Order</span><span>Passeriformes</span></a><span class="sep">›</span><a href="/taxon/cisticolidae/"><span class="rk">Family</span><span>Cisticolidae</span></a><span class="sep">›</span><a href="/taxon/orthotomus/"><span class="rk">Genus</span><i>Orthotomus</i></a></nav>
+<h1>Bioacoustics of <i>Orthotomus chaktomuk</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>81</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">biology_ecology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>ECOLOGY AND BEHAVIOUR Habitat All observations of O. chaktomuk were made on level ground in very dense humid evergreen scrub (multi-stemmed woody plants, 2–6 m tall), sometimes admixed with long grasses or trees ( Plate 5 ), at elevations of 3–25 m above sea level. Trees occur exceptionally; where present they are typically scarce, the scrub forming a dense layer with occasional tree canopies emerging from it. Orthotomus chaktomuk has not been seen in forest (defined as a habitat where trees predominate) and is therefore assumed to be absent from it. At all locations where birds have been found, the scrub is located within a floodplain and experiences seasonal or permanent (artificial) flooding. The presence of seasonally flooded scrub in any location is probably typically transitory, since in the absence of disturbance by people, large ungulates or hydrological processes it would presumably revert to seasonally flooded forest. Orthotomus atrogularis is sometimes found in seasonally flooded scrub occupied by O. chaktomuk ( Figure 1 , Table SOM 1). Where the two species are syntopic, O. atrogularis is much the rarer. Typically O. atrogularis is found in the edge and canopy of taller forest habitats, showing a preference for disturbed and secondary forest because these offer an abundance of vines ( Madge 2006 , Wells 2007 ). In some parts of the Tonle Sap floodplain where O. chaktomuk is absent, O. atrogularis is common in seasonally flooded forest and scrub, presumably because this habitat also offers an abundance of edge surfaces. At the other end of the habitat continuum, O. sutorius replaces O. chaktomuk in open scrub and gardens, although at some locations the two species are syntopic, even vocalising from the same individual plants (SPM pers. obs.). Orthotomus chaktomuk possibly occupies a habitat intermediate between those of O. atrogularis and O. sutorius . However, as in other geographic areas where more than one lowland tailorbird species is present, habitat niches are difficult to define and distinguish. Ecological interactions and habitat associations of O. chaktomuk and other lowland tailorbirds are worthy of further research. Birds sharing the habitat of O. chaktomuk include widespread species oOEen associated with gardens, e.g. Yellow-vented Bulbul Pycnonotus goiavier , Pied Fantail Rhipidura javanica , Oriental Magpie Robin Copsychus saularis , sometimes O. sutorius , and species usually associated with dense lowland humid evergreen scrub, including Striped Tit Babbler Macronous gularis , Yellow-bellied Prinia Prinia flaviventris , Plain Prinia Prinia inornata , Olivebacked Sunbird Cinnyris jugularis and O. atrogularis . From October to April, Palearctic migrants (e.g. Dusky Warbler Phylloscopus fuscatus and Siberian Rubythroat Luscinia calliope ) are abundant in this habitat. In locations where it occurs, O. chaktomuk oOEen appears to be one of the most abundant bird species. Behaviour Owing to the structural characteristics of its habitat, O. chaktomuk is rarely seen without the aid of playback of vocalisations, and thus data on ‘normal’ behaviour are few. Almost all encounters have been with what appear to be adult male–female pairs, or adult malefemale pairs with one subadult. Prior to moult, immature birds were seen singly, in male–female pairs of exclusively immature birds or in male–female pairs consisting of one immature and one adult bird. Birds usually stay within dense vegetation, where they glean and sally-glean from live and dead leaves of multi-stemmed bushes and occasionally vines, from ground-level to canopy. Orthotomus chaktomuk has not been observed foraging in trees. When vegetation is flooded, birds typically forage below the crown of the bush, on hanging branches just above the water. One individual that was lured out of dense scrub with the aid of playback foraged on long grass-stems, gleaning leaves of a vine that was growing amongst the grass. Individuals have been observed taking the following prey (once each): a small fly Diptera, a small spider Araneae, a small caterpillar Lepidoptera and a small katydid Tettigoniidae ; all were consumed immediately. In response to playback, birds that have approached the observer have been seen to sing, usually in a duet, while perched (usually on or near the top of vegetation, including trees; Media Files SOM 1–3) and occasionally in song flight. Singing is sometimes accompanied by rapid downwards tail-wagging. Sometimes, while singing in duet, perched birds droop and shiver their wings. Immature males gave a simpler, less developed song than adults. During March and April only males responded strongly to playback of vocalisations; females typically did not respond, or did so only briefly. Because this was in stark contrast to behaviour at other times of year it is thought to indicate that females were on the nest. Although there are no data on the timing of breeding of lowland tailorbirds in Cambodia , in Thailand O. atrogularis pairs with dependent young have been recorded from July to early September ( Round 2008 ).The nest and eggs of O. chaktomuk remain to be described.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03DC87E5FFEFFF864FE4FB3343C4F90B#C36F6578FFE8FF894F28F96342D4FC23">this account</a> <a href="https://treatment.plazi.org/id/03DC87E5FFEFFF864FE4FB3343C4F90B">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis of species Head : in male entirely rich cinnamon-rufous crown and contrasting white cheeks, very similar to O. atrogularis , differing from O. ruficeps and O. sepium in cheek colour ( Table 2 , Plate 3 a–c). Rufous of crown less extensive in female. Upperparts and wings : mid-grey in adult, superficially similar to those of O. sepium but lacking olive tones, strikingly different from O. atrogularis which is yellowishgreen ( Table 2 , Plate 3a, c ); tail with dark grey subterminal band and whitish tips when fresh. Underparts : pale grey ground colour Species Crown Cheeks Malar stripe Mantle and rump Wing Chin Throat Breast Belly Vent Thighs Tail O.chaktomuk Rich cinnamon- Whitish White, Mid-grey Mid-grey Dark-grey with Dark-grey with Mid-grey with Light-grey, Greyish-white Whitish- Mid-grey with rufous black speckled white speckling white speckling white speckling darker on flanks cinnamon blackish subterminal band and whitish tips O.a.nitidus Dull brick-red Whitish White, Bright Bright Black with Black with Whitish,black White with Bright sulphur Bright Bright black speckled yellow-olive yellow-olive white speckling white speckling streaking on upper-breast greenish- yellow flanks yellow yellowish- orange yellowishgreen O.r.cineraceus Bright Orange-rufous Orange-rufous Dark Dull Bright orange Mid-grey Pale-grey Whitish-grey White Bright Dull olive- orange-rufous brownish-grey olive-brown orange-rufous brown,whitish terminal tips O.s. sepium Fore-crown rufous,central mid- and hind- crown olive-rufous Cinnamon- rufous Cinnamon- rufous Brownish- olive Dull brown with dull olive fringing Pale orange- rufous Dark olive-grey Greyish-olive Pale greyish- olive Whitish-grey Pale cinnamon- rufous Pale olive- brown with whitish terminal tips with profuse blackish throat-streaking in males (largely absent in females) with white drop-shaped marks, extensive mid-grey on flanks, and white vent; underparts of both sexes superficially similar to those of respective sexes of O. atrogularis owing to throat-streaking, but greyer on flanks and vent white, O. ruficeps and O. sepium lacking throat-streaking in both sexes ( Table 2 , Plate 3b, c ); further distinguished from other members of the genus by whitish-cinnamon thighs. Vocalisations : loud, lengthy, complex and highly varied. Very similar to O. atrogularis . Compared to O. atrogularis , phrases are given at a quicker pace and the gaps between phrases are shorter. Subjectively, these characteristics mean that the vocalisations of O. chaktomuk sound faster and more complicated than those of O. atrogularis . Sexing and ageing Based on field observations ( Plate 4 a–k, Media Files SOM 1–3) and specimens ( Plate 2 a–c), female O. chaktomuk can be distinguished from males by paler cinnamon-rufous on crown, which is restricted to forecrown and sides of mid-crown (in lateral view this appears as a short cinnamon-rufous supercilium), paler grey upperparts and wings and whitish underparts with usually faint dark streaking. The latter is usually evident only at the edges of the throat/upper breast, although some (possibly older birds) show stronger and more extensive streaking on throat and breast. Even in these extreme individuals, the degree of female streaking does not approach that in males ( Plate 4 a–g). All three immature paratypes show shorter tails than adults ( Table 1 ). Immature birds possess bright yellowisholive fringing to the wing-feathers ( Plate 4h ), which are moulted during August and replaced with grey adult-type feathers ( Plate 4 i–j). Immatures are browner (slightly olive) above and paler below, with reduced streaking ( Plate 4 h–j). Wing-feathers of subadults appear as in adults, except sometimes they retain yellowish-olivefringed greater coverts ( Plate 4k ). Overall, subadults resemble adults, but are paler and less heavily marked below. In adults, there is individual variation in colour tone of grey feathering above and below, and intensity of throat-streaking (e.g. Media Files SOM 1–3). It is unknown if this is age-related.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03DC87E5FFEFFF864FE4FB3343C4F90B#C36F6578FFECFF8D4F28FA9B4515FB43">this account</a> <a href="https://treatment.plazi.org/id/03DC87E5FFEFFF864FE4FB3343C4F90B">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of species The detailed description below was completed in the NHMUK based primarily on the prepared specimens ( Plates 1–2 ), supplemented by information from individuals observed and photographed in the field ( Plate 4 ). It refers to the holotype unless otherwise stated. Although moult of body feathers was almost complete when specimens were collected, all adult specimens retained a few head, throat or breast feathers in pin. The holotype and paratypes were in wing moult. Moult of wing feathers is complete by late August and followed immediately by moult and replacement of tail feathers, which were very worn in all specimens. Subjective colour assessments of plumage are, where possible, followed by a formal colour classification taken from Smithe (1975) . Head and face Crown from forehead to nape, lores, and feathers on orbital ring and just behind eye rich cinnamon-rufous (136 Raw Sienna) (slightly richer-coloured in the adult male paratype ); hindcrown slightly darker and more brownish (23 Raw Umber). Crown feathers in moult with newer feathers slightly richer rufous. On the immature female paratypes the crown is less richly coloured than that of the holotype (240 Kingfisher Rufous) and the cinnamon-rufous lores and feathering on the orbital ring and immediately behind the eye are replaced by rufous-buff (118 Warm Buff). The rufous crown feathering extends from the bill only as far back as the anterior of the mid-crown where dark-grey feathers predominate, imparting an overall greyish-brown colour (129 Dark Brownish Olive) to the hindcrown. Five blackish rictal bristles per side, anterior two c. 3 mm , twice the length of posterior three. Ear-coverts, cheeks and moustachial stripe almost white contrasting strongly with crown and underparts; however, feathers have buff (124 Buff) tips imparting an off-white wash.Feathers of submoustachial stripe and malar stripe white with very dark grey (82 Blackish Neutral Gray) bases and sometimes tips and fringes; white predominates, giving an impression of white speckling on a blackish base and contrasting strongly with the whitish cheeks. The malar stripe on the immature paratypes is quite different to that of the adult male specimens. It is made up of white feathers with pale grey central portions (85 Light Neutral Gray) and therefore contrasts little with the cheeks. Upperparts Boundary between hindcrown and upper neck abrupt. Upper neck, mantle and rump concolorous mid-grey (84 Medium Neutral Gray), slightly blue-toned approaching 78 Plumbeous (all feathers fresh and body moult apparently completed). Feathers on mantle and particularly rump relatively long and filamentous. Wings Wings of all prepared specimens in active moult ( Table 1 ). On all specimens, fresh adult feathers are slightly darker grey (83 Dark Neutral Gray) than mantle, tinged very slightly brownish with mid-grey (84 Medium Neutral Gray) fringing (slightly broader on outer webs). Fresh primaries with off-white inner webs; worn adult rectrices buffy-brown (239 Ground Cinnamon) lacking fringing or pale webs. Underside of remiges dull silver-grey (84 Medium Neutral Gray). Underwing-coverts paler grey (85 Light Neutral Gray). Alula and axillaries contrasting white. Unmoulted rectrices of the immature male paratype and immature female paratypes differ strikingly from those of adult male specimens in being fringed bright olive-green (50 Yellowish Olive-Green). Tail Slightly rounded, outermost pair of rectrices 7 mm shorter than central pair. Tail of holotype very worn, buffy-brown (239 Ground Cinnamon), dorsal side slightly darker than ventral but heavily worn. Whitish-buff terminal tips just visible on all but central rectrices. Tail of immature female paratype (NHMUK 2012.9.4) less worn than that of the holotype (and other paratypes ) and is dark greyish-brown (21 Fuscous) with broader whitish tips than those shown by other specimens. Field observations indicate that fresh tail feathers are mid-grey (similar in colouration to fresh wing feathers and therefore probably 83 Dark Neutral Gray or 84 Medium Neutral Gray) with a blackish-grey subterminal band (c. 1 cm wide) and whitish tips. Underparts The holotype shows white chin feathers with very dark grey (82 Blackish Neutral Gray) bases, tips and fringes, therefore darker overall than feathers on malar stripe, the latter overhanging those on throat. In the holotype , feathers of throat in an advanced stage of moult, some feathers in pin visible. Throat similar in colouration to chin although with much less white; feathers almost entirely solid dark grey (82 Blackish Neutral Gray) gradually becoming darker towards the breast (83 Dark Neutral Gray) with some white tips throughout. On the breast some dark grey feathers (83 Dark Neutral Gray) possess contrasting white rachis and base of barbs on distal two-thirds of feather, creating a pattern of whitish drops on a mid-grey background. On the edges of the breast, solid mid-grey (84 Medium Neutral Gray) feathers predominate. On the adult male paratype (NHMUK 2012.9.2), the whitish drop-shaped marks on the breast are better developed than on the holotype and extend onto the throat, perhaps because the darker fringes are more worn. Field observations indicate that there is variation in the extent and intensity of dark throat-streaking in males (Media files SOM 1–2). The boundary between breast and belly is gradual; feathers tend towards lighter grey on belly (86 Pale Neutral Grey) and flanks (85 Light Neutral Gray). Flank feathers are relatively long. Vent greyish-white (paler than 86 Pale Neutral Gray). Thighs whitish-cinnamon (6 Salmon). The underparts of the immature male paratype (NHMUK 2012.9.3) differ from those of the adult male holotype in being paler with reduced dark grey on the throat and upper breast. There is an almost complete lack of dark tones on the throat, and the very dark grey (82 Blackish Neutral Gray) area on the throat is much smaller and barely extends onto the breast. On the throat and breast, feathers with white shaOEs and distal portions are more abundant than on the holotype , giving the throat a more speckled appearance. On the breast, solid white and pale grey feathers predominate such that the overall colour is whitish-grey (86 Pale Neutral Gray) rapidly grading to off-white on the belly. Flank feathers of the immature male are slightly whiter than those of the holotype . The underparts of the immature female paratypes are even paler than those of the immature male and almost completely lack dark tones. In those two specimens the chin and throat are white. Although there is a small area of mid-grey (84 Medium Neutral Gray) on the sides of the upper breast and the flank feathers are pale grey (86 Pale Neutral Gray or 85 Light Neutral Gray), the underparts are otherwise off-white. Bare parts Upper mandible dark horn, lower mandible pink horn, paler and pinker at base (more extensively pink on adult male paratype ). Bill slender. Culmen decurved close to tip, not strongly carinated, tip very slightly hooked.Gonys convex.Tarsus and toes pinkish (slightly darker in adult male paratype , paler in immature male paratype ); soles of the feet pale pink. Claws pale brownish pink, becoming paler towards tips. On female paratypes tarsi, feet, soles and lower mandibles are paler than those of the holotype . Iris orange-brown. Inside of mouth pale pink. Description of vocalisations For clarity we use the following terminology to describe vocalisations: note – a single song element; strophe – a continuous flow of notes, separated from other strophes by silent pauses; phrase – one or more strophes given in quick succession; and song – one or more phrases given in quick succession; strophe pace – number of notes per strophe/strophe length; phrase pace (for phrases with more than one strophe) – phrase duration/strophes per phrase. Note that recordings varied in length and quality, so only those with good quality strophes were analysed. Male O. chaktomuk songs are lengthy, oOEen lasting more than one minute ( Figure S1 o–s, S1u, Media Files SOM 1–6). They consist of multiple phrases repeated at intervals of 0.42–4.30 seconds, typically much shorter than the maximum interval (mean: 1.7 seconds). Phrases are made up of 2–5 strophes, which are given at 0.12–0.95 second intervals. Males occasionally switch to a different strophe type mid-way through a song, although not within the same phrase. Strophes are also sometimes given singly.Strophes are trilled, consist of 3–18 notes and typically last 0.17–0.49 seconds ( Table 3 ). Twelve distinct male strophe types are known, ranging from up, down or ‘overslurred’ (the latter referring to sequences of notes that rise and then fall) trills (oOEen with a louder initial or terminal note) to a mix of trilled notes and upslurs, downslurs or ‘overslurs’ ( Table 3 , Figure S1 a–l, Media Files SOM 1–6). Within strophe type , number of notes varies slightly ( Table 4 ). Female O. chaktomuk vocalisations are typically emitted whilst the male is vocalising, but are sometimes given between male vocalisations ( Figure S1 o–s, S1u, Media File S1–6). Females give a stereotyped trill at a higher frequency than male vocalisations (typically 5–16 notes lasting 0.24–0.84 seconds; Table 3 , Figure S 1m , Media File S1–6). Females, and exceptionally males, sometimes produce a nasal squeak consisting of a single note with harmonics ( Figure S1n , Media File S6). This vocalisation is usually given singly ( Figure S1p ), but occasionally more than one is repeated in quick succession; when many squeaks are given in sequence the first is usually longer than others ( Figure S 1t , Media File S6).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03DC87E5FFEFFF864FE4FB3343C4F90B#C36F6578FFEDFF884F7DFA94438CF984">this account</a> <a href="https://treatment.plazi.org/id/03DC87E5FFEFFF864FE4FB3343C4F90B">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">81 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">XC983123 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">19 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2025-03-11</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=983123">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/983123">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC983122 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">33 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2025-03-11</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=983122">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/983122">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC983121 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">44 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2025-03-11</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=983121">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/983121">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC981884 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">88 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2025-03-11</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=981884">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/981884">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC892388 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">36 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2024-03-30</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=892388">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/892388">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC891715 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">44 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2024-03-30</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=891715">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/891715">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC891326 Cambodian Tailorbird (Orthotomus chaktomuk) - duet, song</div><div class="d">64 s</div><div class="m">
+<span>Ding Li Yong</span>
+<span>2024-03-30</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=891326">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/891326">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC295712 Cambodian Tailorbird (Orthotomus chaktomuk) - call</div><div class="d">2 s</div><div class="m">
+<span>Ross Gallardy</span>
+<span>2015-03-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=295712">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/295712">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC295711 Cambodian Tailorbird (Orthotomus chaktomuk) - call</div><div class="d">24 s</div><div class="m">
+<span>Ross Gallardy</span>
+<span>2015-03-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=295711">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/295711">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC295710 Cambodian Tailorbird (Orthotomus chaktomuk) - call</div><div class="d">14 s</div><div class="m">
+<span>Ross Gallardy</span>
+<span>2015-03-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=295710">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/295710">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC295709 Cambodian Tailorbird (Orthotomus chaktomuk) - call</div><div class="d">18 s</div><div class="m">
+<span>Ross Gallardy</span>
+<span>2015-03-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=295709">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/295709">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC185449 Cambodian Tailorbird (Orthotomus chaktomuk) - call</div><div class="d">12 s</div><div class="m">
+<span>Bram Piot</span>
+<span>2014-07-05</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=185449">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/185449">record</a></span>
+</div></div>
+</div>
+<p class="more">69 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Orthotomus chaktomuk">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/orthotomus/"><i>Orthotomus</i> <span class="n">10,171</span></a></li>
+<li><a href="/taxon/cisticolidae/"><span>Cisticolidae</span> <span class="n">35,589</span></a></li>
+<li><a href="/taxon/passeriformes/"><span>Passeriformes</span> <span class="n">3,734,628</span></a></li>
+<li><a href="/taxon/aves/"><span>Aves</span> <span class="n">4,892,510</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/orthotomus-cinereiceps/"><i>Orthotomus cinereiceps</i> <span class="n">59</span></a></li>
+<li><a href="/taxon/orthotomus-sutorius/"><i>Orthotomus sutorius</i> <span class="n">5,707</span></a></li>
+<li><a href="/taxon/orthotomus-nigriceps/"><i>Orthotomus nigriceps</i> <span class="n">102</span></a></li>
+<li><a href="/taxon/orthotomus-atrogularis/"><i>Orthotomus atrogularis</i> <span class="n">1,407</span></a></li>
+<li><a href="/taxon/orthotomus-derbianus/"><i>Orthotomus derbianus</i> <span class="n">162</span></a></li>
+<li><a href="/taxon/orthotomus-ruficeps/"><i>Orthotomus ruficeps</i> <span class="n">1,263</span></a></li>
+<li><a href="/taxon/orthotomus-castaneiceps/"><i>Orthotomus castaneiceps</i> <span class="n">56</span></a></li>
+<li><a href="/taxon/orthotomus-frontalis/"><i>Orthotomus frontalis</i> <span class="n">118</span></a></li>
+<li><a href="/taxon/orthotomus-samarensis/"><i>Orthotomus samarensis</i> <span class="n">92</span></a></li>
+<li><a href="/taxon/orthotomus-sepium/"><i>Orthotomus sepium</i> <span class="n">296</span></a></li>
+<li><a href="/taxon/orthotomus-chloronotus/"><i>Orthotomus chloronotus</i> <span class="n">87</span></a></li>
+<li><a href="/taxon/orthotomus-sericeus/"><i>Orthotomus sericeus</i> <span class="n">741</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Orthotomus chaktomuk</i></td><td>Species</td><td>Cisticolidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Orthotomus chaktomuk">Plazi/Orthotomus chaktomuk</a></td></tr>
+<tr><td><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></td><td><i>Orthotomus chaktomuk</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/xeno-canto/Orthotomus chaktomuk">xeno-canto/Orthotomus chaktomuk</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/orthotomus-chaktomuk/&quot;,
+  &quot;name&quot;: &quot;Orthotomus chaktomuk&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/orthotomus-chaktomuk/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/74Y9H&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Orthotomus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/orthotomus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/74Y9H</p>
+</div></footer>
+</body>
+</html>

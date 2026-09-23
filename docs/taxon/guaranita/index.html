@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Guaranita</title>
+<meta name="description" content="Guaranita in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/guaranita/">
+<meta property="og:title" content="Bioacoustics of Guaranita">
+<meta property="og:description" content="Guaranita in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CV4HX">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/guaranita/", "name": "Guaranita", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/guaranita/", "sameAs": "https://api.audioblast.org/taxon/CoL/CV4HX", "parentTaxon": {"@type": "Taxon", "name": "Pholcidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pholcidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Pholcidae", "item": "https://browse.acousti.cloud/taxon/pholcidae/"}, {"@type": "ListItem", "position": 8, "name": "Guaranita", "item": "https://browse.acousti.cloud/taxon/guaranita/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/pholcidae/"><span class="rk">Family</span><span>Pholcidae</span></a></nav>
+<h1>Bioacoustics of <i>Guaranita</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description Male MEASUREMENTS . Total body length 0.9–1.1, carapace width 0.4–0.5. Legs relatively short, tibia 1 0.5–0.6; tibia 1 L/d 7 – 9; leg formula 4-1-2-3; metatarsus 1 shorter than tibia 1 or same length (metatarsus 1/ tibia 1: 0.95 – 1.00); tibia 2 much shorter than tibia 4 (tibia 2 /tibia 4: 0.65–0.75). COLOUR . Live specimens reddish brown ( Fig. 2 ); abdomen without or with very indistinct marks; legs without dark or light bands. Color in ethanol similar but paler, ochre-yellow. BODY . Ocular area barely raised, eight eyes ( Figs 6A , 11A – D , 17A , 27A ),AME relatively large (diameter: 25–30 µm, i.e., 50–60% of PME diameter). Carapace without thoracic groove ( Figs 6A , 11A – D , 17A , 27A ). Clypeus usually unmodified, only in G. dobby with distinct median process ( Torres et al. 2016 : fig. 9). Sternum slightly wider than long, with pair of rounded anterior processes near leg coxae 1, processes apparently without pores. Abdomen globular; four (rarely five) epiandrous spigots arranged in two pairs ( Figs 11E – F , 17F , 27F ); ALS with seven spigots each (as in female, cf. Figs 6C , 11H , 17B – D , 27C – E ): one strongly widened spigot, one long pointed spigot, and five cylindrical spigots (one of which is unusually large); PMS with two short, pointed spigots (as in female, cf. Figs 6D , 27D ); PLS without spigots ( Figs 17B , 27C – D ). CHELICERAE . With pair of long frontal apophyses (e.g., Figs 4A – C , 11A – B ); with stridulatory files on relatively small lateral patches ( Figs 12A , 18A – B , 27G ), with ~15 – 25 stridulatory ridges each. PALPS . Coxa unmodified; trochanter without or with very indistinct ventral projection; femur cylindrical, slightly widened distally, proximally without or with very low retrolateral hump, with prolateral stridulatory pick (modified hair; Fig. 27H ); patella short; tibia oval to globular, with two trichobothria; palpal tarsal organ raised, capsulate ( Figs 13A , 28A – B ), with small opening (diameter of opening ~1.1– 1.5 µm); procursus with distinctive dorsal flap, large semi-transparent ventral membrane, and complex tip bent towards dorsal (e.g., Figs 4D – F , 12C – F ); genital bulb with simple proximal sclerite, distinct distal (main) sclerite, and variably complex ‘embolar division’ consisting of membranous and sclerotized elements ( Figs 4G – I , 29 ). LEGS . Without spines and curved hairs; with ‘short vertical hairs’ in 1 – 2 rows on tibia 1 ( Figs 13D , 19A – C , 30A – B ; length of hairs ~10 – 15 µm). Trichobothria in usual arrangement: three on each tibia (except tibia 1: prolateral trichobothrium absent), one on each metatarsus, slightly feathered (as in female, cf. Fig. 28E – F ); length of trichobothria ~60 µm; retrolateral trichobothrium of tibia 1 in very distal position (at ~55–65% of tibia length). Tibiae and metatarsi with tiny pores with cuticular rim (diameter of opening ~0.6 µm; as in female, cf. Figs 6E – F , 19F , 31A ). Metatarsi 3 and 4 with ~1 – 5 slender hairs ventrally ( Figs 13E , 19G – H , 31C ), with bases as in regular hairs but shafts reminding of trichobothria (i.e., feathered and small proximal diameter: ~2 µm; regular leg hair proximal diameter: 3 – 4 µm). Tarsus 1 with 5–6 pseudosegments, poorly visible in dissecting microscope; tarsus 4 distally with one comb-hair on prolateral side (as in female, cf. Fig. 31D ); leg tarsal organs very small, not raised, capsulate ( Fig. 13C ), with small opening (diameter of opening ~0.8–1.0 µm); three claws, superior claws with 8 – 11 tines (as in female, cf. Figs 7F , 13F – G , 20D – H , 31D – F ). Female In general, similar to male but chelicerae without stridulatory files ( Figs 12B , 18C ), sternum without pair of anterior humps, palpal tarsal organ only weakly raised ( Figs 19E , 28C – D ), and tibia 1 with usual low number of short vertical hairs; legs either slightly shorter than in males or of same length [only G. goloboffi Huber, 2000 , G. munda ( Gertsch, 1982 ) , and G. yaculica Huber, 2000 with reasonable sample sizes: male/female tibia 1 length: 1.00 – 1.08]. Spinnerets, leg pores, leg tarsal organs, and combhairs as in male. Main (anterior) epigynal plate usually trapezoidal, only in G. dobby Torres et al. , 2016 rather triangular, weakly protruding (e.g., Figs 5A , 10A , 16A ); posterior plate simple, short but wide. Internal genitalia very simple, usually with distinct median structure (poorly developed in G. dobby ), sometimes with membranous median sac (receptacle?) (e.g., Figs 5C – D , 10C – D , 32 ); apparently with very small pore plates (arrows in Fig. 32 ). The “pair of receptacles” mentioned and illustrated in Torres et al. (2016: 10 , fig. 14) is a misinterpretation either of the book lungs or of a pair of silk glands. Relationships The molecular analysis of Eberle et al. (2018) included only a single species of Guaranita ( G. yaculica ), which was placed (with moderate support) as sister to the South American Ninetinae genera Pemona and Kambiwa . Preliminary analyses of molecular (UCE) data (G. Meng, B.A. Huber, L. Podsiadlowski, unpubl. data) support the close relationship among these three genera and add Galapa to this clade, a genus not included in Eberle et al. (2018) . Our new SEM data confirm the position of Guaranita among Ninetinae (in particular the small opening of the tarsal organs; cf. character 57 in Huber 2000 ). Within Guaranita , our CO1 data suggest that the morphologically distinct G. dobby is sister to the other species, a topology that is also supported by preliminary analyses of UCE data. Natural history While Guaranita auadae Huber sp. nov. , G. dobby , and G. goloboffi were found in relatively arid environments with cacti and low bushes ( Fig. 34A, D – F ), G. munda and G. yaculica were collected in dry to humid forests ( Fig. 33B – C ). In arid environments, the specimens were collected by turning stones and rocks; in more humid environments by shaking dead bromeliads lying on the ground and by sifting leaf litter. Guaranita munda was collected by turning stones of a loosely built wall situated in a low forest ( Fig. 33B ). When disturbed by turning a rock, the spiders ran rapidly a few centimeters over the rock surface but seemed reluctant to drop to the ground. Webs were not seen in the field but the spiders quickly built flimsy webs in small glass vials. We never found more than one species of Guaranita at one locality. Other pholcid spiders sharing the microhabitats of Guaranita were Gertschiola macrostyla (Mello-Leit„o, 1941) and Nerudia spp. (Ninetinae) , and several small undescribed representatives of Modisiminae Simon, 1893. Eggs sacs were carried under the prosoma and contained 5 – 8 eggs arranged in a single layer ( Fig. 2A – B, D, H ); they are thus among the smallest egg-sacs known in pholcids ( Huber &amp; Eberle 2021 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/7F0B87C4FFA58035FDE2FE3CFACAFD63#BFB86559FFA5803BFF3AFC22FE35F881">this account</a> <a href="https://treatment.plazi.org/id/7F0B87C4FFA58035FDE2FE3CFACAFD63">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pholcidae/"><span>Pholcidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/guaranita-dobby/"><i>Guaranita dobby</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita-goloboffi/"><i>Guaranita goloboffi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita-yaculica/"><i>Guaranita yaculica</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita-munda/"><i>Guaranita munda</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita-auadae/"><i>Guaranita auadae</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/holocnemus/"><i>Holocnemus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aetana/"><i>Aetana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arnapa/"><i>Arnapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/artema/"><i>Artema</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anopsicus/"><i>Anopsicus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anansus/"><i>Anansus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/belisana/"><i>Belisana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/calapnita/"><i>Calapnita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/chisosa/"><i>Chisosa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/changminia/"><i>Changminia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza/"><i>Crossopriza</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ciboneya/"><i>Ciboneya</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/galapa/"><i>Galapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hoplopholcus/"><i>Hoplopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hantu/"><i>Hantu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ibotyporanga/"><i>Ibotyporanga</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/holocneminus/"><i>Holocneminus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kambiwa/"><i>Kambiwa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/magana/"><i>Magana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/maghreba/"><i>Maghreba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/leptopholcus/"><i>Leptopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/micropholcus/"><i>Micropholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nerudia/"><i>Nerudia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nyikoa/"><i>Nyikoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ninetis/"><i>Ninetis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nita/"><i>Nita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/panjange/"><i>Panjange</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora/"><i>Pholcophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcus/"><i>Pholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physocyclus/"><i>Physocyclus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/priscula/"><i>Priscula</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psilochorus/"><i>Psilochorus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/quamtana/"><i>Quamtana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savarna/"><i>Savarna</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/spermophora/"><i>Spermophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/smeringopus/"><i>Smeringopus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenosfemuraia/"><i>Stenosfemuraia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus/"><i>Stygopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tolteca/"><i>Tolteca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caipira/"><i>Caipira</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Guaranita</i></td><td>Genus</td><td>Pholcidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Guaranita">Plazi/Guaranita</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/guaranita/&quot;,
+  &quot;name&quot;: &quot;Guaranita&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/guaranita/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CV4HX&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pholcidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholcidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CV4HX</p>
+</div></footer>
+</body>
+</html>

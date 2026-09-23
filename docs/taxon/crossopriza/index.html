@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Crossopriza</title>
+<meta name="description" content="Crossopriza in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/crossopriza/">
+<meta property="og:title" content="Bioacoustics of Crossopriza">
+<meta property="og:description" content="Crossopriza in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CTXF9">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/crossopriza/", "name": "Crossopriza", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/crossopriza/", "sameAs": "https://api.audioblast.org/taxon/CoL/CTXF9", "parentTaxon": {"@type": "Taxon", "name": "Pholcidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pholcidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Pholcidae", "item": "https://browse.acousti.cloud/taxon/pholcidae/"}, {"@type": "ListItem", "position": 8, "name": "Crossopriza", "item": "https://browse.acousti.cloud/taxon/crossopriza/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/pholcidae/"><span class="rk">Family</span><span>Pholcidae</span></a></nav>
+<h1>Bioacoustics of <i>Crossopriza</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description Male BODY. Total body length ~2.5–6.5; carapace width ~1.0–2.4. Carapace with deep central pit and pair of shallow furrows diverging from posterior side of pit toward posterior rim of carapace (cf. Figs 468 , 595 ); ocular area slightly raised, eye triads relatively close together (distance PME–PME = 0.5–1.2 × PME diameter), each secondary eye (especially PME) accompanied by small elevation (arrows in Fig. 467 ; “pseudo-eyes”; cf. Huber 2009a ), sometimes very distinct (i.e., reflecting light), e.g., in C. miskin sp. nov. PME oval; AME large (~70–110% of PME small diameter). Clypeus high, usually unmodified, in C. sengleti sp. nov. with rounded median process ( Fig. 768 ), in C. johncloudsleyi Deeleman-Reinhold &amp; van Harten, 2001 with pair of small hooked processes ( Deeleman-Reinhold &amp; van Harten 2001 : fig. 14; Huber 2009a ). Abdomen oval, dorsally posteriorly usually angular ( Fig. 394 ), sometimes rounded ( Fig. 476 ) or pointed ( Fig. 699 ). Male gonopore with 4–6 epiandrous spigots (sometimes asymmetric: 2+3; Figs 420 , 507 , 606 , 854 ), ALS with only two spigots each: one large widened spigot and one pointed spigot ( Figs 424 , 505 , 607 ); PMS with two spigots each ( Figs 424 , 505 , 607 ); PLS without spigots. COLOR. In general ochre-yellow to light brown. Carapace mostly pale, with darker median mark, without lateral marks (cf. Figs 391 , 481 , 702 ); sternum light brown to dark brown, with darker radial marks. Legs without or with indistinct darker rings, with oval to short longitudinal line-shaped dark marks on femora and tibiae (cf. Figs 558 , 577 , 709 ), sometimes also a few on metatarsi, rarely on femora only. Abdomen usually with distinct dorsal and ventral patterns: dark heart-mark and further dark and whitish marks dorsally and laterally, ventral median band variably distinct, rarely absent (e.g., C. sengleti sp. nov. ). Cave-dwelling species slightly lighter/paler (see C. moqal sp. nov. ; C. kittan sp. nov. ). CHELICERAE. Chelicerae with one large modified (cone-shaped) hair on each main cheliceral apophysis ( Figs 598 , 845 , 859 ); main cheliceral apophyses usually in lateral position, in some species moved to frontal position; in latter case sometimes with additional pair of lateral apophyses (without modified hairs; e.g., Figs 731 , 774 , 814 ). With fine to distinct stridulatory ridges ( Figs 421 , 500 , 599 , 841 ), distances between ridges ~3.5–8.0 µm, sometimes variable within file (distances proximally larger than distally; see C. sahtan sp. nov. , C. maculipes ). PALPS. Coxa with rounded retrolateral-ventral hump, without distinct apophysis; trochanter barely modified, slightly protruding ventrally; femur distally widened, on ventral side usually protruding, without dorsal apophysis, without proximal retrolateral process, without or with indistinct transversal dark line on retrolateral side, with stridulatory pick (modified hair) on prolateral side ( Fig. 842 ); femurpatella joints shifted toward prolateral side (arrows in Fig. 354 ); tibia-tarsus joints shifted toward retrolateral side (arrows in Fig. 356 ); palpal tarsus without dorsal macrotrichia, palpal tarsal organ capsulate ( Figs 426 , 602 , 849 , 862 ); procursus dorsally with straight or weakly curved hairs; procursus with prolateral process set with numerous long hairs, without ventral ‘knee’, distally usually with ventral sclerite (absent in C. miskin sp. nov. ), usually without membranous transparent process (present in C. soudanensis ; Fig. 358 ), tip of procursus not curved towards dorsal, with one or more transparent hair-like or spine-like processes on retrolateral side ( Figs 417 , 506 , 596 , 847 , 857 ); genital bulb with basal sclerite connecting to tarsus (bs in Fig. 361 ), and distal (main) sclerite often with distinctive set of prolateral (slightly ventral) apophyses and ridges (e.g., Figs 406 , 440 , 716 , 789 ), without retrolateral pocket; sperm duct opening in membranous area on prolateral side of distal bulbal sclerite (arrows in Figs 419 , 597 , 848 , 858 ). LEGS. Long and relatively thin, leg 1 length ~20–65, tibia 1 length ~5.5–18, tibia 2 longer than tibia 4 (~1.1–1.3 ×). Tibia 1 L/d usually ~50–80,&gt; 80 in the slightly troglomorphic C. kittan sp. nov. Femur 1 usually thicker than other femora; femur 1 with spines ventrally in one row, in very small males rarely without spines; spines proximally gradually transforming into regular setae; spines rarely present on femur 2 ( C. sanaa sp. nov. ); legs without curved hairs; with few short vertical hairs; retrolateral trichobothrium in proximal position (at 2–5% of tibia length in tibia 1), prolateral trichobothrium absent on tibia 1, present on other tibiae. Tarsal pseudosegments very indistinct except a few (~2–3) distally, proximally with indistinct irregular platelets rather than distinct rings. Tarsal organs of legs capsulate, with round or weakly undulating rim ( Figs 428–431 , 863 ). Female In general similar to male; chelicerae either with indistinct and small stridulatory files (with slightly larger distances between ridges than in males; 4.0–8.5 µm) or without stridulatory files ( Figs 422 , 469 , 501 , 600 , 843 , 861 ); legs slightly shorter than in male, without spines. Usually with pair of variably distinct processes posteriorly on carapace (arrows in Figs 468 , 595 ) acting against pair of variably distinct plates on abdomen ( Figs 660 , 797 ), absent in C. johncloudsleyi . Epigynum usually consisting of large, simple anterior plate and short but wide posterior plate; anterior plate usually with pair of distinct pockets, sometimes close together on median elevated ridge, sometimes more like furrows than pockets; epigynum usually without processes, only in C. johncloudsleyi with two pairs of distinct apophyses ( Deeleman-Reinhold &amp; van Harten 2001 : fig. 11; Huber 2009a : fig. 30); without bulging areas in front of anterior plate. Internal genitalia with sclerotized arc that consists of dorsal and ventral parts (da and va in Figs 388 , 447 ) and is variably visible in uncleared specimens; uterus externus sometimes with small median ventral structure (pouch or pocket?), sometimes visible as round structure in untreated specimens (e.g., Figs 463 , 551 , 612 , 837 ); pore plates large, flat, of variable shape and position, pores either homogeneously distributed or in groups.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/671CB865FFCEFF9EFDCDFBFFFC6F8DCA#A7AF5AF8FFCDFF98FF2AFEA6FD618F8D">this account</a> <a href="https://treatment.plazi.org/id/671CB865FFCEFF9EFDCDFBFFFC6F8DCA">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis Long-legged pholcids with spotted leg femora and tibiae (e.g., Figs 558 , 577 , 709 ), abdomen dorsoposteriorly often angular or pointed (e.g., Figs 394, 398 , 699 ), females with paired stridulatory apparatus between carapace and abdomen ( Figs 468 , 595 , 660 , 797 ). Distinguished from similar genera ( Maghreba gen. nov. , Stygopholcus , Holocnemus ) by combination of: male chelicerae with only one pair of modified (cone-shaped) hairs at tips of main cheliceral apophyses (e.g., Figs 598 , 845 , 859 ; in contrast to Stygopholcus , H. reini , and H. caudatus ); male palpal coxa with rounded retrolateral hump, without distinct process (in contrast to Maghreba ); male palpal femur without retrolateral proximal process (in contrast to Stygopholcus and Maghreba ); male palpal femur without dorsal process (in contrast to Maghreba ); male palpal tarsal organ capsulate (e.g., Figs 426 , 602 , 849 , 862 ; in contrast to Stygopholcus ); procursus usually with distinct prolateral hump set with numerous hairs (e.g., Figs 357 , 376 , 616 , 628 ); procursus tip not strongly bent towards dorsal (in contrast to Maghreba ); procursus usually without transparent membranous process at tip (in contrast to Maghreba ; present in C. soudanensis ); genital bulb without slender dorsal process (in contrast to Stygopholcus ); distal (main) bulbal sclerite without deep retrolateral pocket (in contrast to Maghreba ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/671CB865FFCEFF9EFDCDFBFFFC6F8DCA#A7AF5AF8FFCEFF9AFF2AFA13FD4D8B82">this account</a> <a href="https://treatment.plazi.org/id/671CB865FFCEFF9EFDCDFBFFFC6F8DCA">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pholcidae/"><span>Pholcidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/crossopriza-khayyami/"><i>Crossopriza khayyami</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-moqal/"><i>Crossopriza moqal</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-malegaon/"><i>Crossopriza malegaon</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-illizi/"><i>Crossopriza illizi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-surobi/"><i>Crossopriza surobi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-sengleti/"><i>Crossopriza sengleti</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-miskin/"><i>Crossopriza miskin</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-dhofar/"><i>Crossopriza dhofar</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-manakhah/"><i>Crossopriza manakhah</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-ibnsinai/"><i>Crossopriza ibnsinai</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-kittan/"><i>Crossopriza kittan</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-kandahar/"><i>Crossopriza kandahar</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-sahtan/"><i>Crossopriza sahtan</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-srinagar/"><i>Crossopriza srinagar</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-parsa/"><i>Crossopriza parsa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-tiwi/"><i>Crossopriza tiwi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-sanaa/"><i>Crossopriza sanaa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-ghul/"><i>Crossopriza ghul</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-johncloudsleyi/"><i>Crossopriza johncloudsleyi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-lyoni/"><i>Crossopriza lyoni</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-maculipes/"><i>Crossopriza maculipes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-pristina/"><i>Crossopriza pristina</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-semicaudata/"><i>Crossopriza semicaudata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza-soudanensis/"><i>Crossopriza soudanensis</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/holocnemus/"><i>Holocnemus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aetana/"><i>Aetana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arnapa/"><i>Arnapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/artema/"><i>Artema</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anopsicus/"><i>Anopsicus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anansus/"><i>Anansus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/belisana/"><i>Belisana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/calapnita/"><i>Calapnita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/chisosa/"><i>Chisosa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/changminia/"><i>Changminia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ciboneya/"><i>Ciboneya</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/galapa/"><i>Galapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita/"><i>Guaranita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hoplopholcus/"><i>Hoplopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hantu/"><i>Hantu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ibotyporanga/"><i>Ibotyporanga</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/holocneminus/"><i>Holocneminus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kambiwa/"><i>Kambiwa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/magana/"><i>Magana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/maghreba/"><i>Maghreba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/leptopholcus/"><i>Leptopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/micropholcus/"><i>Micropholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nerudia/"><i>Nerudia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nyikoa/"><i>Nyikoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ninetis/"><i>Ninetis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nita/"><i>Nita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/panjange/"><i>Panjange</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora/"><i>Pholcophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcus/"><i>Pholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physocyclus/"><i>Physocyclus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/priscula/"><i>Priscula</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psilochorus/"><i>Psilochorus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/quamtana/"><i>Quamtana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savarna/"><i>Savarna</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/spermophora/"><i>Spermophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/smeringopus/"><i>Smeringopus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenosfemuraia/"><i>Stenosfemuraia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus/"><i>Stygopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tolteca/"><i>Tolteca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caipira/"><i>Caipira</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Crossopriza</i></td><td>Genus</td><td>Pholcidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Crossopriza">Plazi/Crossopriza</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/crossopriza/&quot;,
+  &quot;name&quot;: &quot;Crossopriza&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/crossopriza/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CTXF9&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pholcidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholcidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CTXF9</p>
+</div></footer>
+</body>
+</html>

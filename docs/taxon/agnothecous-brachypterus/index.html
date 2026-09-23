@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Agnothecous brachypterus</title>
+<meta name="description" content="Agnothecous brachypterus in audioBlast: 19 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/agnothecous-brachypterus/">
+<meta property="og:title" content="Bioacoustics of Agnothecous brachypterus">
+<meta property="og:description" content="Agnothecous brachypterus in audioBlast: 19 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/BV6RB">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/agnothecous-brachypterus/", "name": "Agnothecous brachypterus", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/agnothecous-brachypterus/", "sameAs": "https://api.audioblast.org/taxon/CoL/BV6RB", "parentTaxon": {"@type": "Taxon", "name": "Agnothecous", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/agnothecous/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Orthoptera", "item": "https://browse.acousti.cloud/taxon/orthoptera/"}, {"@type": "ListItem", "position": 7, "name": "Ensifera", "item": "https://browse.acousti.cloud/taxon/ensifera-suborder/"}, {"@type": "ListItem", "position": 8, "name": "Gryllidea", "item": "https://browse.acousti.cloud/taxon/gryllidea/"}, {"@type": "ListItem", "position": 9, "name": "Grylloidea", "item": "https://browse.acousti.cloud/taxon/grylloidea/"}, {"@type": "ListItem", "position": 10, "name": "Gryllidae", "item": "https://browse.acousti.cloud/taxon/gryllidae/"}, {"@type": "ListItem", "position": 11, "name": "Eneopterinae", "item": "https://browse.acousti.cloud/taxon/eneopterinae/"}, {"@type": "ListItem", "position": 12, "name": "Lebinthini", "item": "https://browse.acousti.cloud/taxon/lebinthini/"}, {"@type": "ListItem", "position": 13, "name": "Lebinthina", "item": "https://browse.acousti.cloud/taxon/lebinthina/"}, {"@type": "ListItem", "position": 14, "name": "Agnothecous", "item": "https://browse.acousti.cloud/taxon/agnothecous/"}, {"@type": "ListItem", "position": 15, "name": "Agnothecous brachypterus", "item": "https://browse.acousti.cloud/taxon/agnothecous-brachypterus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera-suborder/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/gryllidea/"><span class="rk">Infraorder</span><span>Gryllidea</span></a><span class="sep">›</span><a href="/taxon/grylloidea/"><span class="rk">Superfamily</span><span>Grylloidea</span></a><span class="sep">›</span><a href="/taxon/gryllidae/"><span class="rk">Family</span><span>Gryllidae</span></a><span class="sep">›</span><a href="/taxon/eneopterinae/"><span class="rk">Subfamily</span><span>Eneopterinae</span></a><span class="sep">›</span><a href="/taxon/lebinthini/"><span class="rk">Tribe</span><span>Lebinthini</span></a><span class="sep">›</span><a href="/taxon/lebinthina/"><span class="rk">Subtribe</span><span>Lebinthina</span></a><span class="sep">›</span><a href="/taxon/agnothecous/"><span class="rk">Genus</span><i>Agnothecous</i></a></nav>
+<h1>Bioacoustics of <i>Agnothecous brachypterus</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>19</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Size variable. Colouration close to that of nominal A. brachypterus , but usually less contrasted: wide yellow line behind the eyes present, but occiput darker, with fewer and thinner yellow lines; head dorsum dark brown, the outer triangles of the fastigium between median and each lateral ocellus lighter. Face dark brown, with a variable thin, light line under median ocellus and two small yellowish spots close to epistemal suture. Cheeks dark brown, variously mottled with yellow. Mid third of the eyes black brown, the upper third lighter with a darker line close to upper margin, and the lower third brownish separated from the black brown band by a lighter line. Maxillary palpi dark brown, with a dorso-lateral yellow spot on distal half of 5th joint (in A. b. brachypterus they are entirely dark brown, the 5th joint being lighter on distal half). FI, FII black with a more or less conspicuous yellow ring, subapical on FI, distal and wider on FII (in A. b. brachypterus , only the distal part of FII is more or less yellowish). TIII serrulation: 5–9 inner (m=6.7, n=10) and 9–13 outer (m=11.1, n=10) spines above spurs; 5–7 inner (m=5.3, n=10) and 6–9 outer (m=7.5, n=10) spines between spurs. Tarsomeres III-1 : 1 spine (n=5) on inner edges and 3–5 spines (m=3.8, n=5) on dorsal outer edges in males, in addition to apical spines (females: 1–3 spines (m=1.7, n=5) on inner edges and 3–4 spines (m=3.9, n=5) on dorsal outer edges); 1–2 outer lateral spines at one fourth of tarsomere length. TI black brown to black with a conspicuous yellow ring at mid length; their base and apex more or less mottled with yellow. TII black brown to black, with a transverse yellow spot on dorsal side close to the knee, and a variable yellow, distal ring (sometimes absent). FIII light brown, darker on dorsal inner and outer halves; inner and outer ventral margins light yellow with a row of brown spots. TIII light brown with a dorsal yellow spot near the knee. Tarsi I, II: tarsomeres 1 and 3 black brown with yellow base, tarsomeres 2 black brown. Tarsi III: tarsomeres black brown, marked with yellow at base or at mid length. Spurs yellow with black apex. Suranal plate and dorsal part of cerci basis yellowish, the ventral part of cerci basis brown; cerci otherwise yellowish with brown spots. Male: FW proportion and venation as in A. b. brachypterus , with the dorsal field only slightly shorter than the lateral field ( Desutter-Grandcolas &amp; Robillard 2006: Fig. 2 C ), the dorsal field not reaching tergite 3 distal margin. FW venation ( Fig. 2 A): CuA1 and CuA2 fused at base; mirror and c2 cell almost equal in size; chords conspicuous; harp with two transverse veins fused at mid length. Apical field restricted to a few cells in E alignment. Stridulatory file with 160 – 183 teeth (mean 169, n=5). Lateral field venation: R bifurcated twice over its whole length; 4–7 additional longitudinal, parallel veins (mean 5.4, n=8). FW brown, the file and plectrum somewhat yellowish; lateral field light yellow, the longitudinal veins light ochre, the transverse veins brown. Subgenital plate very long and quite low in lateral view; glandular area on dorsal margin mid length highly protruding. Male genitalia: Very similar to that of A. b. brachypterus (see Desutter-Grandcolas &amp; Robillard 2006 : Fig. 6 F–H), especially for the distal margin of pseudepiphallic sclerite (bisinuated, with one median and two lateral processes almost equal in length), but characterized by the smaller width of pseudepiphallic apex, not as divergent as in A. b. brachypterus , the shape of pseudepiphallic sclerite seen in dorsal view (lateral margins more strongly convergent in distal half, and the relative size of pseudepiphallic distal lobes (lateral ones somewhat shorter) ( Figs 2 C, D). Female: FWs shorter than in A. brachypterus , and separated by a distance greater than their own length; venation made of strong longitudinal parallel veins, with 4 – 5 veins in dorsal field, in addition to a fainter, irregularly bifurcated vein along the limit with lateral field, and 3 – 4 longitudinal parallel veins in the lateral field ( Fig. 2 B); very faint transverse veins on dorsal field. FW colouration more or less whitish brown, the veins brown, the vein separating the dorsal and the lateral field yellowish. Tergites abundantly covered with short setae; brownish mottled with black and yellow; a short longitudinal, yellow line along tergite mid line. Subgenital plate light yellow with a longitudinal, median brown line growing wider toward posterior margin ( Fig. 2 E). Ovipositor slightly shorter than FIII; much shorter than in A. brachypterus (10.5–12.3, m=11.1, n=5, against 12.1–13.3, m=12.7, n= 4 in A. brachypterus from Sarramea, and 12.8 for the female type according to Gorochov, 1986 ). Female genitalia: Copulatory papilla very similar to that of A. brachypterus (compare Figs 2 F, G with Desutter-Grandcolas &amp; Robillard 2006 , Fig. 3 R). Measurements. See Table 3 . Variation. Head dorsum variously marbled with yellowish brown, but sometimes entirely dark brown except for yellow lines on occiput; yellow patterns on the face variously surrounded, from homogeneous dark brown to yellowish brown. In darker specimens, cheeks black brown hardly mottled with yellow under the eyes; in lighter specimens, cheeks largely bordered with yellow on lower margin. Some specimens present an additional yellow spot on TII at about mid length dorsally. In male FW lateral field sometimes brown over part of its basal third, the veins being always light ochre over their whole length; R rarely bifurcated only once over its whole length. Colouration of female subgenital plate not always conspicuous (as in specimens TR 117 and TR 112). According to the general colouration of the specimens, FIII variously coloured, from light yellowish brown to dark brown with light yellow ventral part; in the same way, lateral parts of the fastigium between the median and the lateral ocelli more or less of lighter colouration (note: all the specimens collected in 2009 are very dark in colouration, without yellow ring on TII). PronL PronW FWL FWW FIIIL FIIIW TIIIL OL Male holotype 2.9 4.7 3.6 2.9 11.2 4 8.7 Males (n=4) 2.8–3.1 4.5–5.1 3.1–3.5 2.8–3 10.5–11.9 3.4–4.1 8.4–10.1 (Mean) (2.9) (4.8) (3.2) (2.9) (10.8) (3.7) (8.9) Female allotype 3.2 5.2 0.7 - 12.3 4.3 10.5 11.5 Females (n=4) 2.7–3.1 4.5–5.3 0.4 – 0.9 - 10.5–12.8 3.2–4.6 8.6–10.5 10.5–12.3 (Mean) (2.9) (5) (0.8) - (11.9) (4) (9.7) (11.1) Habitat and life history traits. A. brachypterus pocquensis lives in secondary forest, in the leaf litter. Males emit their calling song at night, perched on prominent position in the leaf litter and sometimes on tree trunks. Behaviour. Mating behaviour briefly observed in the field and includes multiple copulations and intercopulatory songs (T. Robillard &amp; F. Muller, pers. obs.). Calling song ( Fig. 3 ): At 22°C, the calling song of A. brachypterus pocquensis ( TR 111: MNHN- ENSIF2267) consists of a succession of echemes of 2.3 ± 0.4 s emitted every 12.9 ± 0.7 s , with a duty cycle of 18.8 %; each echeme is made of 84 ± 15 syllables, with the following characteristics: syllable duration=12.8 ± 1.7 ms; syllable period = 27.6 ± 1.5 ms; syllable duty cycle = 46.9%; the dominant frequency is 19.2 ± 1.8 kHz and corresponds to the second frequency peak of the song.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B44635FFEEC520FF7912585F98FD24#C307A4A8FFEEC520FF2B16805E4BFDC4">this account</a> <a href="https://treatment.plazi.org/id/03B44635FFEEC520FF7912585F98FD24">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Very close to the specimens of A. brachypterus Gorochov, 1986 from Sarramea, from which it differs by the shape of pseudepiphallus apex in male genitalia (more narrow with less divergent lateral margins, and shorter disto-lateral angles, Fig. 2 C), a higher number of stridulatory teeth in males, smaller and largely separated FWs and a shorter ovipositor in females.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B44635FFEEC520FF7912585F98FD24#C307A4A8FFEEC52CFF2B16755E76F97A">this account</a> <a href="https://treatment.plazi.org/id/03B44635FFEEC520FF7912585F98FD24">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">19 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">XC1092578 Agnotecous brachypterus - calling song</div><div class="d">101 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2009-05-02</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092578">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092578">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092230 Agnotecous brachypterus - calling song</div><div class="d">171 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092230">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092230">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092229 Agnotecous brachypterus - calling song</div><div class="d">131 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092229">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092229">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092224 Agnotecous brachypterus - calling song</div><div class="d">90 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092224">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092224">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092223 Agnotecous brachypterus - calling song</div><div class="d">150 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092223">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092223">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092221 Agnotecous brachypterus - calling song</div><div class="d">93 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092221">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092221">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092219 Agnotecous brachypterus - calling song</div><div class="d">34 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092219">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092219">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092217 Agnotecous brachypterus - calling song</div><div class="d">61 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2008-05-07</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092217">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092217">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092583 Agnotecous brachypterus pocquensis - calling song</div><div class="d">194 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2009-01-12</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092583">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092583">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092581 Agnotecous brachypterus pocquensis - calling song</div><div class="d">108 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2009-05-02</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092581">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092581">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092580 Agnotecous brachypterus pocquensis - calling song</div><div class="d">125 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2009-05-02</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092580">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092580">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1092578 Agnotecous brachypterus - calling song</div><div class="d">101 s</div><div class="m">
+<span>Tony Robillard</span>
+<span>2009-05-02</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1092578">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1092578">record</a></span>
+</div></div>
+</div>
+<p class="more">7 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;species=Agnothecous brachypterus">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/agnothecous/"><i>Agnothecous</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/lebinthina/"><span>Lebinthina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/lebinthini/"><span>Lebinthini</span> <span class="n">75</span></a></li>
+<li><a href="/taxon/eneopterinae/"><span>Eneopterinae</span> <span class="n">458</span></a></li>
+<li><a href="/taxon/gryllidae/"><span>Gryllidae</span> <span class="n">18,520</span></a></li>
+<li><a href="/taxon/grylloidea/"><span>Grylloidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllidea/"><span>Gryllidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera-suborder/"><span>Ensifera</span> <span class="n">116,644</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">143,044</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/agnothecous-brachypterus-pocquensis/"><i>Agnothecous brachypterus pocquensis</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/agnothecous-obscurus/"><i>Agnothecous obscurus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-sarramea/"><i>Agnothecous sarramea</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-occidentalis/"><i>Agnothecous occidentalis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-minoris/"><i>Agnothecous minoris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-meridionalis/"><i>Agnothecous meridionalis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-azurensis/"><i>Agnothecous azurensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-doensis/"><i>Agnothecous doensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-clarus/"><i>Agnothecous clarus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-pinsula/"><i>Agnothecous pinsula</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-chopardi/"><i>Agnothecous chopardi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-robustus/"><i>Agnothecous robustus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/agnothecous-petchekara/"><i>Agnothecous petchekara</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></td><td><i>Agnotecous brachypterus</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/xeno-canto/Agnotecous brachypterus">xeno-canto/Agnotecous brachypterus</a></td></tr>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Agnotecous brachypterus</i></td><td>Species</td><td>Haglotettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Agnotecous brachypterus">Plazi/Agnotecous brachypterus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/agnothecous-brachypterus/&quot;,
+  &quot;name&quot;: &quot;Agnothecous brachypterus&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/agnothecous-brachypterus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/BV6RB&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Agnothecous&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/agnothecous/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/BV6RB</p>
+</div></footer>
+</body>
+</html>

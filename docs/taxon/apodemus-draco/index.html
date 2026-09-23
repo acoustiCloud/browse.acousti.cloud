@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Apodemus draco</title>
+<meta name="description" content="Apodemus draco in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/apodemus-draco/">
+<meta property="og:title" content="Bioacoustics of Apodemus draco">
+<meta property="og:description" content="Apodemus draco in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/FRHW">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/apodemus-draco/", "name": "Apodemus draco", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/apodemus-draco/", "sameAs": "https://api.audioblast.org/taxon/CoL/FRHW", "parentTaxon": {"@type": "Taxon", "name": "Apodemus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/apodemus/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Mammalia", "item": "https://browse.acousti.cloud/taxon/mammalia/"}, {"@type": "ListItem", "position": 9, "name": "Theria", "item": "https://browse.acousti.cloud/taxon/theria/"}, {"@type": "ListItem", "position": 10, "name": "Eutheria", "item": "https://browse.acousti.cloud/taxon/eutheria/"}, {"@type": "ListItem", "position": 11, "name": "Rodentia", "item": "https://browse.acousti.cloud/taxon/rodentia/"}, {"@type": "ListItem", "position": 12, "name": "Myomorpha", "item": "https://browse.acousti.cloud/taxon/myomorpha/"}, {"@type": "ListItem", "position": 13, "name": "Muroidea", "item": "https://browse.acousti.cloud/taxon/muroidea/"}, {"@type": "ListItem", "position": 14, "name": "Muridae", "item": "https://browse.acousti.cloud/taxon/muridae/"}, {"@type": "ListItem", "position": 15, "name": "Murinae", "item": "https://browse.acousti.cloud/taxon/murinae/"}, {"@type": "ListItem", "position": 16, "name": "Apodemus", "item": "https://browse.acousti.cloud/taxon/apodemus/"}, {"@type": "ListItem", "position": 17, "name": "Apodemus draco", "item": "https://browse.acousti.cloud/taxon/apodemus-draco/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/mammalia/"><span class="rk">Class</span><span>Mammalia</span></a><span class="sep">›</span><a href="/taxon/theria/"><span class="rk">Subclass</span><span>Theria</span></a><span class="sep">›</span><a href="/taxon/eutheria/"><span class="rk">Infraclass</span><span>Eutheria</span></a><span class="sep">›</span><a href="/taxon/rodentia/"><span class="rk">Order</span><span>Rodentia</span></a><span class="sep">›</span><a href="/taxon/myomorpha/"><span class="rk">Suborder</span><span>Myomorpha</span></a><span class="sep">›</span><a href="/taxon/muroidea/"><span class="rk">Superfamily</span><span>Muroidea</span></a><span class="sep">›</span><a href="/taxon/muridae/"><span class="rk">Family</span><span>Muridae</span></a><span class="sep">›</span><a href="/taxon/murinae/"><span class="rk">Subfamily</span><span>Murinae</span></a><span class="sep">›</span><a href="/taxon/apodemus/"><span class="rk">Genus</span><i>Apodemus</i></a></nav>
+<h1>Bioacoustics of <i>Apodemus draco</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">materials · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Materials Type status: Other material. Occurrence: occurrenceID: 82DEE185-6CDF-5BD6-A9EF-92B8BAFD9117 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yulong Snow Mountain, Lijiang, Yunnan ; decimalLatitude: 27.2000000 ; decimalLongitude: 100.2400000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 85F53B25-F5BC-5B54-8855-D787C433AECF ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Zhiziluo, Fugong, Yunnan ; decimalLatitude: 26.6000000 ; decimalLongitude: 99.0000000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 64B91FF0-62C8-5476-AD51-7031E5F8B4E8 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Dandanglika, Dulongjiang, Yunnan ; decimalLatitude: 28.1100000 ; decimalLongitude: 98.1800000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: B23C7ABB-F4B3-57A4-B89C-864220596F5B ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Cangshan, Dali, Yunnan ; decimalLatitude: 25.6800000 ; decimalLongitude: 100.1000000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: DA75D392-111B-5FB6-85CC-B84B24C6F5F0 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Lushui, Yunnan ; decimalLatitude: 25.9600000 ; decimalLongitude: 98.9600000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 122A9DE5-6E9A-5A4F-B3C0-1B090E49AFA2 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Longma Shan, Yunlong, Yunnan ; decimalLatitude: 26.2100000 ; decimalLongitude: 99.2200000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 6943B142-993D-5C09-B7E1-C6EB1C5B55F8 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Zhiziluo, Fugong, Yunnan ; decimalLatitude: 26.5900000 ; decimalLongitude: 99.0200000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: AE10B015-79C3-588F-BBE1-9183D46F6BB2 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Laojun Shan, Lijiang, Yunnan ; decimalLatitude: 26.8500000 ; decimalLongitude: 99.6200000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 7EC24DCB-E5EA-5BD9-9F72-F56B03FC5256 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yaping, Fugong, Yunnan ; decimalLatitude: 27.2100000 ; decimalLongitude: 98.7000000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: C2BA8601-DD7A-5C62-B108-43A198113881 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Haba Snow Mountain, Shangri-la, Yunnan ; decimalLatitude: 27.3500000 ; decimalLongitude: 100.0900000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: A338792E-D9FC-576F-A9E3-DA265CAAC266 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Kangpu, Weixi, Yunnan ; decimalLatitude: 27.6300000 ; decimalLongitude: 99.1200000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: DF24E05D-F7E9-583E-B296-022EA48F4EE3 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Shika Snow Mountain, Shangri-la, Yunnan ; decimalLatitude: 27.7800000 ; decimalLongitude: 99.6000000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 29D19631-B2F1-5B44-B32C-BFC18ABEA453 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Shika Snow Mountain, Shangri-la, Yunnan ; decimalLatitude: 27.7900000 ; decimalLongitude: 99.5900000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 8833597A-FAC6-549F-95A2-65E49AC9CA7C ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Bingzhongluo, Gongshan, Yunnan ; decimalLatitude: 27.9500000 ; decimalLongitude: 98.5000000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 5E2E8F82-C5E5-5069-BEC9-CFE294772BAA ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Gezan, Shangri-la, Yunnan ; decimalLatitude: 28.1400000 ; decimalLongitude: 99.9000000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 3D4C8688-1D8A-51DA-B18E-52BB356EA512 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Meili Snow Mountain, Deqin, Yunnan ; decimalLatitude: 28.2600000 ; decimalLongitude: 98.7200000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 06AE2AA8-3386-5FC3-AB39-FC702B9ECA4B ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Meili Snow Mountain, Deqin, Yunnan ; decimalLatitude: 28.2800000 ; decimalLongitude: 98.7300000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 8426D505-CDC1-5E4A-936F-C919DC757E57 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Meili Snow Mountain, Deqin, Yunnan ; decimalLatitude: 28.2900000 ; decimalLongitude: 98.7300000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: D055252A-10BA-504F-902D-A4C1EC1D6948 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Baima Snow Mountain, Deqin, Yunnan ; decimalLatitude: 28.3400000 ; decimalLongitude: 99.0300000 ; Identification: identificationReferences: Song et al. 2021 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 2EC02BAA-E9CC-50DE-BF8B-E38D26BAADD7 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yubeng, Mt. Meili, YN ; decimalLatitude: 28.3740000 ; decimalLongitude: 98.8150000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 2FC73391-A735-5740-AD19-C16BAC40269A ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Ciguzuzu field, Mt. Haba, YN ; decimalLatitude: 27.3170000 ; decimalLongitude: 100.1090000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 2F311ACF-15A2-5482-A41C-618F277B7385 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Qiaotou, Mt. Haba, YN ; decimalLatitude: 27.2910000 ; decimalLongitude: 100.1000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 1E67792A-E56D-5854-BB17-2558414581FD ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Dajianshanping, Mt. Haba, YN ; decimalLatitude: 27.3810000 ; decimalLongitude: 100.0900000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 8D5B2309-B160-5AC5-9F3D-18E1FE4211C4 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Daojiaoping, Mt. Haba, YN ; decimalLatitude: 27.3550000 ; decimalLongitude: 100.0900000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 88E24D36-0514-59E3-81AF-DFC4317B944C ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Edi, Mt. Haba, YN ; decimalLatitude: 27.4000000 ; decimalLongitude: 100.1200000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: BAEA9EAF-34CD-5F41-9422-6907EE081565 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Daju, Mt. Yulong, YN ; decimalLatitude: 27.2980000 ; decimalLongitude: 100.2500000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 54373FE7-E2AD-5A84-B4CB-3BD6A77FAE4F ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Maoniupinig, Mt. Yulong, YN ; decimalLatitude: 27.1630000 ; decimalLongitude: 100.2480000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 6619A063-24FA-579E-A775-4A26E5C4F55A ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Ganhaizi, Mt. Yulong, YN ; decimalLatitude: 27.1070000 ; decimalLongitude: 100.2580000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 62FB9BE3-6801-5705-BEAE-390E2701BDAF ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yunshanping, Mt. Yulong, YN ; decimalLatitude: 27.1140000 ; decimalLongitude: 100.2190000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 08849EC4-519D-5C87-9FBF-9FFC944593A6 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Tacheng, Weixi, YN ; decimalLatitude: 27.5000000 ; decimalLongitude: 98.9600000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 6AD3F10C-389F-5400-8404-103260E7C739 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Xinshengqiao, Lanping, YN ; decimalLatitude: 26.4800000 ; decimalLongitude: 99.3200000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 1F9527EB-E63A-5E4A-89E1-B6EBAF10DF0E ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Nuodeng, Yunlong, YN ; decimalLatitude: 25.8900000 ; decimalLongitude: 99.367 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: E01304B1-D5D7-5CE9-BBB2-DEC894BC6BDE ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Caojian, Yunlong, YN ; decimalLatitude: 25.6600000 ; decimalLongitude: 99.1320000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: F417F8C9-C45B-52F9-B8EC-250A15AD86FE ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Xujiaba, Mt. Ailao, YN ; decimalLatitude: 23.2430000 ; decimalLongitude: 102.3700000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 134B1379-3191-578F-ABA4-5A6F7CF565A4 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Shale, Nanjian, YN ; decimalLatitude: 24.9100000 ; decimalLongitude: 100.4100000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 96EFA602-5E72-5EF0-823D-57BC22C4605A ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Baohua, Nanjian, YN ; decimalLatitude: 24.9110000 ; decimalLongitude: 100.4910000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 49AF39F1-2E94-50CF-9B27-91F861637981 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Modaohe, Jindong, YN ; decimalLatitude: 23.3500000 ; decimalLongitude: 101.5000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 8765AB0D-0FDC-503E-902A-C661E72FD871 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Wangjiajing, Jindong, YN ; decimalLatitude: 24.4100000 ; decimalLongitude: 100.7800000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 909B5F01-202A-5734-9A37-F4109F45545F ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Raomalu, Jindong, YN ; decimalLatitude: 24.0200000 ; decimalLongitude: 101.0000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 69C99398-7BAF-59DD-AA98-8602D0A2FD3B ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Dazhaizi, Jindong, YN ; decimalLatitude: 24.2200000 ; decimalLongitude: 100.8800000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 1AC07AD9-3632-50EE-8E28-2040780F735E ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Huangcaoling, Jindong, YN ; decimalLatitude: 24.2000000 ; decimalLongitude: 101.1600000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 404EB792-57D2-5D2F-B00B-7673C27BB4AB ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Luodang, Fengqing, YN ; decimalLatitude: 24.5270000 ; decimalLongitude: 100.0200000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 7A75918C-022C-5CD4-9BA3-92E2A9139F73 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Lushi, Fengqing, YN ; decimalLatitude: 24.8430000 ; decimalLongitude: 100.0040000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 9D9CD1AB-05C7-5373-BA26-2EA60534B822 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Wumeng, Luquan, YN ; decimalLatitude: 26.0210000 ; decimalLongitude: 102.7900000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 06C87838-1AF9-553A-AFBF-A0FE72375826 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Fenghuangchang, Mt. Jiaozi, YN ; decimalLatitude: 25.9500000 ; decimalLongitude: 102.7000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 1CF57BD5-FE70-5391-9754-AADB3DA6637D ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Hongtudi, Mt. Jiaozi, YN ; decimalLatitude: 26.1000000 ; decimalLongitude: 102.5300000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: BF44FABD-ADDA-582A-A8AF-3955A7833814 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Daohe, Yongde, YN ; decimalLatitude: 24.2440000 ; decimalLongitude: 99.6320000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 655A12A3-C87A-5B46-A284-923F2376350F ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Zhongjiaochang, Yongde, YN ; decimalLatitude: 23.9900000 ; decimalLongitude: 99.5900000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 8995A5E7-9F86-52CA-8279-0BCBB5AE382C ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Taojin river, Yongde, YN ; decimalLatitude: 23.8700000 ; decimalLongitude: 99.4900000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: AE0A5CE8-870C-50A5-996A-F6797FD1B85A ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yangwanshun, Yongde, YN ; decimalLatitude: 24.0600000 ; decimalLongitude: 99.6140000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 1A5F18A3-08AA-57E8-A8E7-B5E2D6B010E5 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Xiaoxueshan, Yongde, YN ; decimalLatitude: 24.0580000 ; decimalLongitude: 99.6130000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 8BC2B1CD-12F1-54AD-932B-A64635A956AB ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yinchangjie, Yongde, YN ; decimalLatitude: 24.1950000 ; decimalLongitude: 99.6580000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: BF856341-A9FE-5318-80F6-5354C6DBAE1B ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Ganhe, Yongde, YN ; decimalLatitude: 23.8710000 ; decimalLongitude: 99.2730000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 7A6BCEA9-066B-51CC-A08F-05AE43D14305 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Bangdong, Lincang, YN ; decimalLatitude: 24.2830000 ; decimalLongitude: 100.4290000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 36F7959D-D1A8-52B4-AE02-E397C97B8606 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Mengku, Mt. Bangma, YN ; decimalLatitude: 23.5350000 ; decimalLongitude: 99.8000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: D40B3BBB-967B-56A7-B858-4BE1DC80CCAB ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Xiaobangma, Mt. Bangma, YN ; decimalLatitude: 23.4600000 ; decimalLongitude: 99.7280000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: B0181B51-07B0-5806-9310-1467F6F603A5 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Dabangma, Mt. Bangma, YN ; decimalLatitude: 23.5450000 ; decimalLongitude: 99.7000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 49047A90-213E-525C-ADBC-AC9802E0A14B ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Dizhengdang, Gongshan, YN ; decimalLatitude: 28.0790000 ; decimalLongitude: 98.3260000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: D6C72930-95EB-56CC-A5D9-B64C6FD2CEC9 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Baihualing, Baoshan, YN ; decimalLatitude: 25.1300000 ; decimalLongitude: 98.7700000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 16281402-97D6-57BD-8150-11E7E611A7D4 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Pianma, Lushui, YN ; decimalLatitude: 26.0090000 ; decimalLongitude: 98.6370000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: EFDBF40B-219C-5A07-92CC-F4ED8D2DE23C ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yaojiaping, Tengchong, YN ; decimalLatitude: 26.9100000 ; decimalLongitude: 98.7900000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 36D4A58B-40B9-53AF-A324-5219E06799DF ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Shibali, Mt. Gaoligong, YN ; decimalLatitude: 25.1300000 ; decimalLongitude: 98.7160000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: F34BC05D-FDFD-5CFA-947E-3ECBA43898A0 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Mingguang, Tengcheng, YN ; decimalLatitude: 25.7260000 ; decimalLongitude: 98.5560000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: CCC7709D-C6B7-5891-BEB4-68FDA1511419 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Liangshan, Longlin, YN ; decimalLatitude: 24.3500000 ; decimalLongitude: 98.8000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 5C57F079-EDD3-5198-AD94-EAD0FA96BA77 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Kunming, YN ; decimalLatitude: 24.9200000 ; decimalLongitude: 102.8100000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 81C005AC-44E0-5573-BC72-AFA5E5EEB425 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Mt. Wuliang, YN ; decimalLatitude: 24.8420000 ; decimalLongitude: 100.0000000 ; Identification: identificationReferences: Liu et al., 2012 , 2018 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 3BE7BF2A-9D5E-514E-A2F9-FBDBFC863CFB ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Nyingchi County, Tibet Autonomous Region ; decimalLatitude: 29.6100000 ; decimalLongitude: 94.3600000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 531D4AB7-84AB-5518-8CC7-91B5BB07494E ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Milin County, Tibet Autonomous Region ; decimalLatitude: 29.2000000 ; decimalLongitude: 94.2100000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: C01C1A57-A690-5C1B-99D2-BDE5417943B8 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Sejila Mountain, Tibet Autonomous Region ; decimalLatitude: 30.0000000 ; decimalLongitude: 94.9500000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 20E79EE3-B28C-563B-BBB6-F52C736D5231 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Ailao Mountain, Jingdong County, Yunnan Province ; decimalLatitude: 24.2150000 ; decimalLongitude: 101.3270000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 87936155-54C8-5A9F-B1EE-9505FF122283 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Daxue Mountain, Lincang City, Yunnan Province ; decimalLatitude: 24.1030000 ; decimalLongitude: 99.6400000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: 3A4EE7EC-9D6B-5F3D-9285-58FDFF56831D ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Shangri-La County, Yunnan Province ; decimalLatitude: 27.8000000 ; decimalLongitude: 99.7000000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: DFE360D0-30EB-5294-84E9-16283BE513B4 ; Location: higherGeography: Asia ; country: China ; countryCode: CH ; verbatimLocality: Yulong County, Yunnan Province ; decimalLatitude: 26.8000000 ; decimalLongitude: 100.0000000 ; Identification: identificationReferences: Ge et al., 2019 ; identificationRemarks: getotyped Type status: Other material. Occurrence: occurrenceID: CFFA849A-0976-514A-9701-63E79F37E8CA ; Location: higherGeography: Asia ; country: Vietnam ; countryCode: VN ; verbatimLocality: Ta Xua NR, xa Xim Vang, ban Suong Chong ; decimalLatitude: 21.3199640 ; decimalLongitude: 104.4080680 ; Identification: identificationReferences: Balakirev et al. 2025 ; identificationRemarks: getotyped</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/3A428AF06AD45D1480B3AB3242471CB1#35D3D602304072026E2F03B46AFC6679">this account</a> <a href="https://treatment.plazi.org/id/3A428AF06AD45D1480B3AB3242471CB1">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/apodemus/"><i>Apodemus</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/murinae/"><span>Murinae</span> <span class="n">104</span></a></li>
+<li><a href="/taxon/muridae/"><span>Muridae</span> <span class="n">112</span></a></li>
+<li><a href="/taxon/muroidea/"><span>Muroidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/myomorpha/"><span>Myomorpha</span> <span class="n">159</span></a></li>
+<li><a href="/taxon/rodentia/"><span>Rodentia</span> <span class="n">13,686</span></a></li>
+<li><a href="/taxon/eutheria/"><span>Eutheria</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/theria/"><span>Theria</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/mammalia/"><span>Mammalia</span> <span class="n">101,285</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/apodemus-sylvaticus/"><i>Apodemus sylvaticus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/apodemus-witherbyi/"><i>Apodemus witherbyi</i> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Apodemus ilex</i></td><td>Species</td><td>Muridae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Apodemus ilex">Plazi/Apodemus ilex</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/apodemus-draco/&quot;,
+  &quot;name&quot;: &quot;Apodemus draco&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/apodemus-draco/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/FRHW&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Apodemus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/apodemus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/FRHW</p>
+</div></footer>
+</body>
+</html>

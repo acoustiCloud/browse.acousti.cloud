@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Chromis</title>
+<meta name="description" content="Chromis in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/chromis/">
+<meta property="og:title" content="Bioacoustics of Chromis">
+<meta property="og:description" content="Chromis in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/KV4V5">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/chromis/", "name": "Chromis", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/chromis/", "sameAs": "https://api.audioblast.org/taxon/CoL/KV4V5", "parentTaxon": {"@type": "Taxon", "name": "Pomacentridae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pomacentridae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Actinopterygii", "item": "https://browse.acousti.cloud/taxon/actinopterygii/"}, {"@type": "ListItem", "position": 8, "name": "Actinopteri", "item": "https://browse.acousti.cloud/taxon/actinopteri/"}, {"@type": "ListItem", "position": 9, "name": "Teleostei", "item": "https://browse.acousti.cloud/taxon/teleostei/"}, {"@type": "ListItem", "position": 10, "name": "Pomacentridae", "item": "https://browse.acousti.cloud/taxon/pomacentridae/"}, {"@type": "ListItem", "position": 11, "name": "Chromis", "item": "https://browse.acousti.cloud/taxon/chromis/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/actinopterygii/"><span class="rk">Gigaclass</span><span>Actinopterygii</span></a><span class="sep">›</span><a href="/taxon/actinopteri/"><span class="rk">Superclass</span><span>Actinopteri</span></a><span class="sep">›</span><a href="/taxon/teleostei/"><span class="rk">Class</span><span>Teleostei</span></a><span class="sep">›</span><a href="/taxon/pomacentridae/"><span class="rk">Family</span><span>Pomacentridae</span></a></nav>
+<h1>Bioacoustics of <i>Chromis</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>— The largest genus within the subfamily is composed of the species most closely related to Chromis chromis . It retains the majority of species originally classified in Chromis sensu lato . A group with a similar composition has been recovered by other studies ( Quenouille et al., 2004 ; Cooper et al., 2009; Cowman and Bellwood, 2011; Litsios et al., 2012a , 2012b ; Frédérich et al., 2013 ; Rabosky et al., 2013 , 2018 ; Dibattista et al., 2016; Mirande, 2016 ; Gaboriau et al., 2018 ; Delrieu-Trottin et al., 2019). We resolved three clades within Chromis sensu stricto : Chromis ternatensis and its allies; C. ovalis and its allies; and C. chromis and its allies. The group formed by C. ternatensis and its nearest relatives has an available genus-group name, Hoplochromis . The clade that includes C. ovalis also has an available genus-group name, Thrissochromis . We treat these as subgenera of Chromis in the following discussion of relationships within Chromis sensu stricto . As such, Chromis ( Hoplochromis ) is sister to a clade of Chromis ( Chromis ) þ Chromis ( Thrissochromis ) . The subgenus Hoplochromis consists of C. atripectoralis , C. flavaxilla , C. ternatensis , and C. viridis . Species of this group possess XII dorsal-fin spines, as seen in much of Chrominae , though C. ternatensis sometimes has XIII ( Randall et al., 1981 ). These four species appear to share the presence of three spiniform procurrent caudal rays on both upper and lower margins of the caudal-fin base ( Randall et al., 1981 ; Randall, 1994 , 2005; Yoshigou, 2017 ), a condition which is also widely seen in the subgenus Chromis (see below). However, Allen and Randall (1981) reported only two for C. ternatensis and C. viridis (as C. caerulea ). This group has been called ‘‘ Chromis I (paraphyletic)’’ (Cooper and Santini, 2016: fig. 1) and ‘‘ Chromis IP Clade 1’’ (Cowman and Bellwood, 2011: figs. 2b, S6). Resolving a sister-group relation between C. atripectoralis and C. viridis corroborates earlier studies ( Quenouille et al., 2004 ; Cooper et al., 2009; Steinke et al., 2009 ; Cowman and Bellwood, 2011; Hubert et al., 2012 , 2017 ; Litsios et al., 2012a , 2012b ; Frédérich et al., 2013 ; Rabosky et al., 2013 , 2018 ; Lobato et al., 2014 ; DiBattista et al., 2016; Mirande, 2016 ; Gaboriau et al., 2018 ; Delrieu-Trottin et al., 2019) and a close association described in the literature (Allen, 1975a, 1991; Randall et al., 1981 , 1997 ; Myers, 1999 ; Randall, 2005; Allen and Erdmann, 2012), one that dates back to the original description of C. atripectoralis by Welander and Schultz (1951) , who separated it from C. viridis (as C. caerulea ). Randall (1994) described C. flavaxilla from what had been previously considered the Arabian population of C. ternatensis . Moyer and Ida (1976) suggested that C. caerulea [ ¼ C. viridis ] and C. ternatensis were members of a Chromis caerulea group. A group containing some or all four of these species has been consistently recovered ( Quenouille et al., 2004 ; Cooper et al., 2009; Cowman and Bellwood, 2011; Hubert et al., 2011 ; Hofmann et al., 2012 ; Litsios et al., 2012a , 2012b ; Frédérich et al., 2013 ; Rabosky et al., 2013 , 2018 ; Lobato et al., 2014 ; DiBattista et al., 2016; Mirande, 2016 ; Gaboriau et al., 2018 ; Delrieu-Trottin et al., 2019). However, Hoplochromis often has been resolved outside of Chromis sensu stricto (e.g., Cooper et al., 2009; Cowman and Bellwood, 2011; Litsios et al., 2012a , 2012b ; Frédérich et al., 2013 ; Lobato et al., 2014 ; DiBattista et al., 2016; Mirande, 2016 ; Gaboriau et al., 2018 ; Delrieu-Trottin et al., 2019). A nomenclatural problem previously linked C. ternatensis to the blue-green damselfishes when the name Chromis caerulea , a senior synonym of Chromis ternatensis , was consistently misapplied in earlier works to the species now called Chromis viridis ; see Randall et al. (1985 , 1987 ) for further details ( ICZN, 1989 ). Of note, a taxon labeled as the suppressed name ‘‘ Chromis caerulea ’’ has appeared in some phylogenetic studies (GenBank FJ583146 – FJ583148 : Steinke et al., 2009 ; FJ583147 : Litsios et al., 2012a ; Frédérich et al., 2013 ; Delrieu-Trottin et al., 2019; FJ583148 : DiBattista et al., 2016) where it is consistently found with C. atripectoralis and C. viridis . This could represent cryptic diversity, but Froukh and Kochzius (2008) reported that, although there is population structure within C. viridis , individuals of C. atripectoralis and C. viridis formed reciprocally monophyletic groups. In that study, C. atripectoralis exhibited no phylogeographic structure, but Hubert et al. (2012 : fig. S1; table S3) discovered genetically distinct populations in the Indian and Pacific basins (their ‘‘Pattern 2’’). Others have also found divergent lineages within C. atripectoralis and/or C. viridis ( Hubert et al., 2012 , 2017 ; Messmer et al., 2012 ; Liu et al., 2019 ). The identity of the taxon identified as ‘‘ Chromis caerulea ’’ remains unclear. Revised classification Previous classification Comments/remarks Azurina intercrusma Chromis intercrusma XII dorsal-fin spines; eastern Pacific Ocean distribution; 2 exposed spiniform procurrent caudal-fin rays ( Greenfield and Woods, 1980 ); tree-based BOLD searches recover this species in a group with A. atrilobata , A. hirundo , and A. multilineata ; see Discussion Azurina meridiana Chromis meridiana Eastern Pacific Ocean distribution; 2 exposed spiniform procurrent caudal-fin rays ( Greenfield and Woods, 1980 ); see Discussion Chromis athena Chromis athena XIII dorsal spines; few (13–14) tubed lateral line scales; 3 exposed spiniform procurrent caudal-fin rays; similar to C. monochroma (Allen and Randall, 2004a; Allen and Erdmann, 2008a) Chromis axillaris Chromis axillaris XIV dorsal spines; western Indian Ocean distribution; part of deep-dwelling complex (Allen and Erdmann, 2009a); similar to C. pelloura and C. woodsi ( Randall and Allen, 1982 ); see Discussion Chromis bermudae Chromis bermudae XIII dorsal spines; western Atlantic Ocean distribution; likely in the same clade as C. insolata ; see Discussion Chromis dasygenys Chromis dasygenys XIII dorsal spines; recovered in subgenus Thrissochromis (DiBattista et al., 2016) ; see Discussion Chromis durvillei Chromis durvillei XIII dorsal spines; western Indian Ocean distribution; most similar to C. earina ( Quéro et al., 2010 ); part of ‘‘ Chromis alpha complex’’ ( sensu Pyle et al., 2008) Chromis flavicauda Chromis flavicauda XIII dorsal spines; western Atlantic Ocean distribution; likely in the same clade as C. insolata ; see Discussion Chromis jubauna Chromis jubauna XIII dorsal spines; western Atlantic Ocean distribution; likely in the same clade as C. insolata ; see Discussion Chromis klunzingeri Chromis klunzingeri XIII dorsal spines; eastern Indian Ocean distribution Chromis lubbocki Chromis lubbocki XIV dorsal spines; eastern Atlantic Ocean distribution; similar to C. cadenati , C. chromis , and C. limbata ( Wood, 1977 ; Edwards, 1986 ); tree-based BOLD searches recover this species in a group with C. cadenati , C. chromis , and C. limbata ; see Discussion Chromis monochroma Chromis monochroma XIII–XIV dorsal spines; few (14–15) tubed lateral line scales; three exposed spiniform procurrent caudal-fin rays; similar to C. alpha (Allen and Randall, 2004a; Allen and Erdmann, 2008a) Chromis nigroanalis Chromis nigroanalis XIII dorsal spines; similar to C. alpha ( Randall, 1988a ; Allen, 1991; Myers, 1999 ; Randall, 2005; Pyle et al., 2008 ; Allen and Erdmann, 2012) Chromis onumai Chromis onumai XIV dorsal spines; similar to C. albomaculata and C. verater (Senou and Kudo, 2007) or C. mirationis ( Pyle et al., 2008 ) Chromis planesi Chromis planesi XIV dorsal spines; similar to C. fumea , C. mirationis , C. notata , and C. verater ( Lecchini and Williams, 2004 ; Pyle et al., 2008 ) and/or C. mamatapara ( Shepherd et al., 2020 ) Chromis pura Chromis pura XIII dorsal spines; similar to C. kennensis (Allen and Randall, 2004a; Allen and Erdmann, 2012; Iwatsubo and Motomura, 2013 ) and C. notata (Iwatsubo and Motomura, 2013); part of Chromis notata species complex (Iwatsubo and Motomura, 2018) Chromis sanctaehelenae Chromis XIII–XIV dorsal spines; eastern Atlantic Ocean distribution; tree-based BOLD sanctaehelenae searches recover this species in a group with C. cadenati , C. chromis , and C. limbata ; see Discussion Chromis struhsakeri Chromis struhsakeri XIII–XIV dorsal spines; similar to C. mamatapara ( Shepherd et al., 2020 ) ; C. mirationis (Allen and Randall, 1985 ; Yamakawa and Randall, 1989 ), C. okamurai ( Yamakawa and Randall, 1989 ) , and/or C. tingting ( Tea et al., 2019 ) Chromis torquata Chromis torquata XIII dorsal spines; part of C. xanthura complex (Allen, 2018) Chromis trialpha Chromis trialpha XII dorsal spines; recovered in subgenus Hoplochromis (DiBattista et al., 2016) ; see Discussion Chromis unipa Chromis unipa XIV dorsal spines; similar to C. degruyi (Allen and Erdmann, 2009a) Chromis westaustralis Chromis westaustralis XIII dorsal spines; similar to C. fumea (Allen, 1976) , C. kennensis (Allen et al., 2003), C. notata ( Iwatsubo and Motomura, 2013 ) , or C. xanthopterygia ( Randall and McCarthy, 1988 ); part of Chromis notata species complex ( Iwatsubo and Motomura, 2018 ) Chromis xanthochira Chromis xanthochira XIII dorsal spines; similar to C. weberi ( Moyer and Ida, 1976 ; Randall et al., 1981 , 1997 ; Myers, 1999 ) and C. xanthura ( Moyer and Ida, 1976 ) ; see Discussion Chromis xouthos Chromis xouthos XIII dorsal spines; similar to C. pembae (Allen and Erdmann, 2005) ; tree-based BOLD searches recover this species sister to C. pembae Previous Revised classification classification Comments/remarks Pycnochromis agilis Chromis agilis XII dorsal spines, exposed suborbital margin, caudal-fin lobes with filamentous branched tips ( Randall, 1988a ); similar to P. atripes ( Randall, 1988a ; Allen, 1991; Myers, 1999 ; Randall, 2005) and P. pacifica (Allen and Erdmann, 2020); see Discussion Pycnochromis flavipectoralis Chromis XII dorsal spines, exposed suborbital margin, caudal-fin lobes with filamentous flavipectoralis branched tips ( Randall, 1988a ); similar to P. amboinensis (Allen, 1991; Allen and Erdmann, 2012) or P. ovatiformis ( Randall, 1988a ) ; see Discussion Pycnochromis lineatus Chromis lineata XII dorsal spines; small adult size (approximately 40–45 mm SL), elongate body, compact head, yellowish coloration with blue markings; similar to P. acares , P. nigrurus , and P. vanderbilti (Allen, 1975a, 1997; Moyer and Ida, 1976 ; Randall et al., 1981; Myers, 1999 ; Allen and Erdmann, 2012); see Discussion The appearance of XIII (or more) dorsal-fin spines occurs in the clade composed of Chromis ( Chromis ) þ Chromis ( Thrissochromis ) , though C. earina occasionally has XII spines ( Pyle et al., 2008 ). The subgenus Thrissochromis consists of C. abyssicola , C. chrysura , C. dispila , C. fumea , C. hypsilepis , C. katoi , C. kennensis , C. mamatapara , C. mirationis , C. nitida , C. notata , C. okamurai , C. ovalis , C. pamae , C. pelloura , C. randalli , C. tingting , and C. yamakawai . Most species in this group are confined to the western Pacific Ocean. Based on the condition of the ceratomandibular ligament reported in Frédérich et al. (2014 : fig. 2), presence of the ligament may unite Thrissochromis . However, their taxon sampling within Thrissochromis was limited to C. chrysura , C. fumea , C. nitida , and C. notata for the species that we recovered in this subgenus. Although not formally named, earlier phylogenetic studies have found support for a grouping with congruent composition. Quenouille et al. (2004) resolved a clade comprising C. chrysura , C. flavomaculata [ ¼ C. kennensis ], and C. nitida . Several studies expanded the group to include C. fumea and C. notata (Cowman and Bellwood, 2011; Litsios et al., 2012a ; Rabosky et al., 2013 , 2018 ; Gaboriau et al., 2018 ). The latter two studies inferred ‘‘ Chromis bami ’’ as part of this clade but used sequences ( Gaboriau et al., 2018 : appendix 2; Rabosky et al., 2018 : Dryad file ‘‘accession_ numbers.csv’’) generated by Frédérich et al. (2013 : table S1) from a specimen (USNM 336492, KU T764) that has been reidentified as C. chrysura (A. C. Bentley, pers. comm.). All three studies tellingly found their ‘‘ C. bami ’’ sister to C. chrysura . This affects the following GenBank accession numbers: JQ707032 , JQ707067 , JQ707102 , JQ707135 , JQ707169 , JQ707191 , JQ707225 , JQ707261 . Cowman and Bellwood (2011: figs. 2b, S6) called this group ‘‘ Chromis IP Clade 2.’’ Song et al. (2014) , with more limited taxon sampling than the other studies, resolved relationships among C. fumea , C. notata , and C. tingting (as C. mirationis ; see Tea et al., 2019 ) that are consistent with the results of this analysis. DiBattista et al. (2016) added C. pelloura to the clade. Delrieu-Trottin et al. (2019) did not examine C. pelloura but recovered C. pamae and C. randalli inside of an equivalent clade. A close relationship between C. kennensis (as C. flavomaculata ) and C. notata has been suggested based on morphological similarities ( Randall et al., 1981 ; Iwatsubo and Motomura, 2013 ). We follow Iwatsubo and Motomura (2013) in treating C. flavomaculata as a synonym of C. notata and recognizing C. kennensis as the appropriate name for the species previously identified as C. flavomaculata . A sister-group pairing of C. pamae [ ¼ Chromis sp. ‘‘H’’ in Allen, 1975a; Chromis sp. 5 in Allen, 1991] and C. randalli matches statements by previous authors (Allen, 1975a, 1991; Randall and McCosker, 1992 ; Randall, 2005) who commented on their distinctive appearance. In their description of C. pamae , Randall and McCosker (1992) named C. randalli as its closest relative. Both species possess a fusiform or terete body, XV dorsal-fin spines, very small scales on the head, and fleshy orbital papillae similar to those seen in Lepidozygus tapeinosoma ( Greenfield and Hensley, 1970 ; Emery, 1983 ; Randall and McCosker, 1992 ). They are the only two species of Chromis that exclusively have XV dorsal-fin spines ( Randall and McCosker, 1992 ), which is unique for the subfamily ( C. struhsakeri rarely has XV; Randall and Swerdloff, 1973 ). Iwatsubo and Motomura (2018) delimited a Chromis notata species complex composed of C. katoi , C. kennensis , C. notata , C. pura , C. westaustralis , and C. yamakawai . They diagnosed the group by the following: ‘‘XIII (rarely XII or XIV) [dorsal-fin spines], 11–14 (usually 12 or 13) dorsal-fin rays; II [anal-fin spines], 10–12 (usually 11) anal-fin rays; 15 principal caudal-fin rays; 2 spiniform caudal-fin rays; 3–5 scale rows above lateral line, 9–12 scale rows below; 15–21 tubed lateral-line scales; 6–10 þ 18–25 ¼ 26–34 gill rakers; caudal-fin lobes not filamentous; a prominent black blotch covering more than two-thirds of pectoral-fin base; caudal fin yellowish or brownish (not white); and uniformly brownish or grayish head in adults.’’ All putative members of this species group included in our phylogeny ( C. katoi , C. kennensis , C. notata , and C. yamakawai ) clustered together in a clade, along with C. ovalis ( Fig. 1 ). Iwatsubo and Motomura (2018) did not examine C. ovalis , a Hawaiian endemic, but it does share characters and overlap in meristic counts with what they observed in their Chromis notata species group ( Randall and Swerdloff, 1973 ; Randall and Follett, 1989 ). However, C. ovalis has three spiniform procurrent caudal-fin rays (vs. 2 in the Chromis notata group), and its axillary black spot only covers the upper half of the pectoral-fin base (vs. more than two-thirds; only covers upper half in juvenile C. yamakawai ). Chromis ( Chromis ) encompasses the remaining species of Chromis sensu stricto . Cooper and Santini (2016: fig. 1) referred to an equivalent clade as ‘‘ Chromis I (paraphyletic).’’ The species of this group are distinguished from most other chromines by the presence of three exposed spiniform procurrent caudal-fin rays on the upper and lower caudal margins, though some species outside of this group also display three such rays (e.g., Chromis atripectoralis , C. flavaxilla , C. ovalis , C. ternatensis , C. viridis ; Randall et al., 1981 ; Randall and Follett, 1989 ; Randall, 1994 , 2005; Yoshigou, 2017 ). The subgenus Chromis includes two clades that fall entirely outside of the Indo-West Pacific. The first comprises all of the species with XIV dorsal-fin spines found in the central and eastern Atlantic ( C. cadenati , C. chromis , and C. limbata ). Chromis limbata has recently extended its range to the western Atlantic along the coast of Brazil , possibly by rafting via transported oil rigs (Anderson et al., 2017, 2020). Wood (1977) noticed similarities among C. cadenati (as C. lineatus ), C. chromis , and C. limbata . Gaboriau et al. (2018) also recovered all three species together in a clade. We were unable to examine C. lubbocki , but it is most likely related to this clade, based on its XIV dorsal-fin spines and eastern Atlantic distribution. When describing C. lubbocki , Edwards (1986) stated that it closely resembled the three other species of eastern Atlantic Chromis with XIV dorsal-fin spines (i.e., C. cadenati , C. chromis , and C. limbata ) and suggested that it was most similar to C. cadenati . He noted that previous workers had treated C. lubbocki as either C. lineatus [ ¼ C. cadenati ] or C. chromis (e.g., Bowdich, 1825; Cadenat, 1951). A tree-based BOLD identification appears to confirm this by placing unreleased sequences of C. lubbocki with C. cadenati , C. chromis , and C. sanctaehelenae (not shown). Chromis sanctaehelenae is therefore most likely a member of Chromis sensu stricto and part of this clade too. In the original description, Edwards in Edwards and Glass (1987) compared it to C. insolata and other XIII-spined Atlantic Chromis . However, C. sanctaehelenae occasionally displays XIV dorsal-fin spines and has an eastern Atlantic distribution, characteristics that suggest it is more closely related to C. chromis and its allies ( C. cadenati , C. limbata , and C. lubbocki ). As mentioned above, the NJ tree generated by the BOLD identification engine favors the latter hypothesis, finding C. cadenati sister to C. sanctaehelenae . The second group that occurs entirely outside of the Indo-West Pacific is found on both sides of the Isthmus of Panama . This Western Hemisphere group includes C. enchrysura , C. insolata , and C. scotti from the western Atlantic ( C. enchrysura reaches St. Paul’s Rocks; Lubbock and Edwards, 1981 ) and C. alta , C. crusma , C. limbaughi , and C. punctipinnis from the eastern Pacific. Some combination of these species has been recovered as a clade in other phylogenetic studies ( Frédérich et al., 2013 ; DiBattista et al., 2016; Mirande, 2016 ; Gaboriau et al., 2018 ; Rabosky et al., 2018 ). Of these, Chromis insolata is the type species of the genus-group name Heliases , which has been treated as a subgenus by some workers (e.g., Emery, 1968 , 1973 , 1980; Colin, 1974, 1976; Hensley and Smith, 1977 ; Greenwood and Woods, 1980; Smith-Vaniz and Emery, 1980 ). All of the New World Chromis sensu stricto with XIII dorsal-fin spines fall into this group. Beyond these two groups of Chromis , the only other chromine species outside of the Indo-West Pacific reside in Azurina sensu lato (see above).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/A0558C73FFAFFFDB93F516459658FC81#60E66EEEFFAFFFDA920E164590A2FEBA">this account</a> <a href="https://treatment.plazi.org/id/A0558C73FFAFFFDB93F516459658FC81">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Besides the eastern Atlantic clade mentioned above, the other species with XIV dorsal-fin spines (exclusively or modally) occur in the Indo-Pacific: Chromis abyssus , C. albomaculata , C. axillaris , C. circumaurea , C. degruyi , C. mamatapara , C. mirationis , C. okamurai , C. onumai , C. ovalis , C. pelloura , C. planesi , C. struhsakeri , C. tingting , C. unipa , C. verater , and C. woodsi (Allen, 1991; Lecchini and Williams, 2004 ; Senou and Kudo, 2007 ; Pyle et al., 2008 ; Allen and Erdmann, 2009a; Tea et al., 2019 ; Shepherd et al., 2020 ). Randall and Allen (1982) noted that many of the species with XIV dorsal-fin spines occur in deeper water, listing C. axillaris , C. mirationis , C. pelloura , C. struhsakeri , C. verater , and C. woodsi as examples of this phenomenon. They mentioned C. ovalis as an exception: a species with XIV dorsal-fin spines that does not extend past 45 m in depth. Pyle et al. (2008) discussed a deep-dwelling complex composed of C. abyssicola (XIII dorsal-fin spines), C. abyssus , C. axillaris , C. circumaurea , C. degruyi , C. mirationis , C. okamurai , C. onumai , C. planesi , C. struhsakeri , and C. woodsi . Allen and Erdmann (2009a) expanded on this by noting that species with XIV dorsal-fin spines are either confined to deep reefs (. 50 m in depth) or found in subtropical regions (e.g., Hawaii, Japan ). Recent explorations of mesophotic coral reefs have discovered additional deeper water Chromis with XIV spines ( Tea et al., 2019 ; Shepherd et al., 2020 ). Despite the shared dorsal-fin spine count of XIV, Allen and Erdmann (2009a) doubted that these Chromis formed a monophyletic group because of diverse morphological variation observed among the species. The results from our analysis concur, finding these species scattered throughout Chromis sensu stricto ( Fig. 1 ). However, we did find evidence of a monophyletic group composed of a subset of these XIVspined species: C. abyssus , C. albomaculata , C. circumaurea , and C. degruyi (modally XIV in C. degruyi ). Although not named as such, Cowman and Bellwood (2011: figs. 2b, S6) circumscribed a clade that corresponds to Chromis ( Chromis ) , which was composed of what they called Chromis EA ( C. chromis and C. limbata ), Chromis EP ( C. alta and C. punctipinnis ), and Chromis IP Clade 3 ( C. analis and allies). The sister-group relationship shown between C. albicauda and C. analis ( Fig. 1 ) corresponds to published works that have noted their similarity (Allen and Erdmann, 2009a, 2012; Song et al., 2014 ). The clade that includes C. analis has an available name, Dorychromis . A close relationship between C. opercularis and C. xanthura has been proposed previously ( Randall et al., 1981 ; Myers, 1999 ; Allen and Erdmann, 2012) and was confirmed by Motomura et al. (2017) , who delimited a ‘‘ Chromis xanthura species group’’ composed of those two species plus C. anadema . Our results agree with their topology of these three species. Provisional classifications.— The following species previously classified in Chromis sensu lato are tentatively assigned to the newly restricted Chromis sensu stricto : Chromis athena , C. axillaris , C. bermudae , C. dasygenys , C. durvillei , C. flavicauda , C. jubauna , C. katoi , C. klunzingeri , C. lubbocki , C. mirationis , C. monochroma , C. nigroanalis , C. onumai , C. planesi , C. pura , C. sanctaehelenae , C. struhsakeri , C. torquata , C. trialpha , C. unipa , C. westaustralis , C. xanthochira , C. xouthos , and C. yamakawai . Because we were unable to examine these species, the assignments are based on a variety of information, including comparisons to unpublished BOLD sequences, previous literature, and geographic distribution ( Table 2 ). More detailed explanations for select species are provided below. Chromis axillaris is likely part of Chromis sensu stricto based on its XIV dorsal-fin spines and similar coloration to C. pelloura and C. woodsi , with which it shares a western Indian Ocean distribution (Bruner and Arnam, 1979; Randall and Allen, 1982 ). Allen and Randall (1981) tentatively treated specimens of the then undescribed C. pelloura as C. axillaris , noting that the latter species was poorly known at the time. After examining material of C. axillaris , Randall and Allen (1982) described C. pelloura as a new species and identified its closest relative as C. axillaris . Even though C. pelloura and C. woodsi are not closely related in our phylogeny, both were recovered within Chromis sensu stricto . Chromis bermudae , C. flavicauda , and C. jubauna are likely in the same clade as C. insolata because of their XIII dorsal-fin spines and western Atlantic distribution. That particular combination of attributes is distinctive for this group. The only other New World chromines (i.e., Azurina sensu novum ) almost always have XII dorsal-fin spines (see above). All three species share a similar color pattern: dark colored body; yellow caudal fin; varying amount of yellow on caudal peduncle and anal and dorsal fins. Emery (1968) classified C. flavicauda sensu lato as one of four species in the subgenus Heliases , which also included C. enchrysura , C. insolata , and C. scotti . Chromis bermudae was treated as a junior synonym of C. flavicauda (e.g., Smith-Vaniz and Emery, 1980 ; Allen, 1991; Moura, 1995 ; Smith-Vaniz et al., 1999 ) until recently ( Smith-Vaniz and Collette, 2013 ). The two species, both with bright blue bodies, are distinguished by the extent of yellow on the caudal peduncle and anal and dorsal fins, where the yellow is more prevalent in C. bermudae ( Smith-Vaniz and Emery, 1980 ; Moura, 1995 ; Smith-Vaniz and Collette, 2013 ). The extent of yellow on the anal fin is a trait that also serves to differentiate C. flavicauda and C. jubauna ( Moura, 1995 ) . Chromis dasygenys is conditionally classified in Chromis sensu stricto based on the presence of XIII dorsal-fin spines. All currently published GenBank sequences ( HQ945824 , JF493173 , MG220302 ) appear to be misidentified. GenBank BLAST (Altschul et al., 1990; Johnson et al., 2008 ; Boratyn et al., 2013) and BOLD searches suggest they originate from an unknown pomacentrine (either not barcoded or described yet), most similar to Neopomacentrus miryae (approximately 96–97% similarity). Litsios et al. (2012a) recovered it as the sister species of Chrysiptera kuiteri in Pomacentrinae . DiBattista et al. (2016) recovered it as the sister group of a clade composed of Chromis chrysura , C. flavomaculata [ ¼ C. kennensis ], C. fumea , C. nitida , C. notata , and C. pelloura . Gaboriau et al. (2018) found it sister to Teixeirichthys . Rabosky et al. (2018 : Dryad file ‘‘dropped_rogues.csv’’) identified it as a rogue taxon and pruned it from their analyses. Chromis trialpha possesses XII dorsal-fin spines, which is not diagnostic on its own. Allen and Randall (1981) remarked on its similarity to C. elerae which we consider a member of Azurina sensu lato (see above). However, DiBattista et al. (2016) recovered C. trialpha sister to Chromis ( Hoplochromis ) , another group with XII dorsal-fin spines. Furthermore, they resolved Hoplochromis outside of Chromis sensu stricto as part of a basal sister group to the rest of Chrominae . Their data for C. trialpha are not presently available on GenBank. Chromis trialpha is tentatively assigned to Chromis sensu stricto , but that is contingent on the placement of Hoplochromis . Chromis xanthochira is likely a member of Chromis sensu stricto based on the presence of XIII dorsal-fin spines and its similarity to C. weberi ( Moyer and Ida, 1976 ; Randall et al., 1981 , 1997 ; Myers, 1999 ) and C. xanthura ( Moyer and Ida, 1976 ) . The other two species of its eponymous species group ( sensu Moyer and Ida, 1976 ), C. weberi and C. xanthura , are part of Chromis sensu stricto , though not most closely related. Published GenBank sequences for samples identified as C. xanthochira were not included because of ambiguity as to their identity. Some were obtained from specimens ( JF434909 – JF434914 ; JF457398 – JF457403 ; JF458071 – JF458076 ) collected in the western Indian Ocean ( Madagascar and Réunion ) where C. xanthochira is not known to occur (Allen, 1991; Fricke, 1999 ; Fricke et al., 2018 ); AY289561 appears to be from C. fatuhivae , based on BLAST searches; others appear to be C. weberi ( FJ616327 , FJ616435 , FJ616654 , MF123819 ), based on BLAST and BOLD searches.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/A0558C73FFAFFFDB93F516459658FC81#60E66EEEFFB2FFDB903710C49658FC81">this account</a> <a href="https://treatment.plazi.org/id/A0558C73FFAFFFDB93F516459658FC81">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pomacentridae/"><span>Pomacentridae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/teleostei/"><span>Teleostei</span> <span class="n">61</span></a></li>
+<li><a href="/taxon/actinopteri/"><span>Actinopteri</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/actinopterygii/"><span>Actinopterygii</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<p class="none">No sibling taxa held.</p>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Chromis</i></td><td>Genus</td><td>Pomacentridae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Chromis">Plazi/Chromis</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/chromis/&quot;,
+  &quot;name&quot;: &quot;Chromis&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/chromis/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/KV4V5&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pomacentridae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pomacentridae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/KV4V5</p>
+</div></footer>
+</body>
+</html>

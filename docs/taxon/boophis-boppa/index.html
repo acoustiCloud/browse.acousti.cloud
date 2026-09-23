@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Boophis boppa</title>
+<meta name="description" content="Boophis boppa in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/boophis-boppa/">
+<meta property="og:title" content="Bioacoustics of Boophis boppa">
+<meta property="og:description" content="Boophis boppa in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/MHST">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/boophis-boppa/", "name": "Boophis boppa", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/boophis-boppa/", "sameAs": "https://api.audioblast.org/taxon/CoL/MHST", "parentTaxon": {"@type": "Taxon", "name": "Boophis", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/boophis/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Mantellidae", "item": "https://browse.acousti.cloud/taxon/mantellidae/"}, {"@type": "ListItem", "position": 11, "name": "Boophinae", "item": "https://browse.acousti.cloud/taxon/boophinae/"}, {"@type": "ListItem", "position": 12, "name": "Boophis", "item": "https://browse.acousti.cloud/taxon/boophis/"}, {"@type": "ListItem", "position": 13, "name": "Boophis boppa", "item": "https://browse.acousti.cloud/taxon/boophis-boppa/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/mantellidae/"><span class="rk">Family</span><span>Mantellidae</span></a><span class="sep">›</span><a href="/taxon/boophinae/"><span class="rk">Subfamily</span><span>Boophinae</span></a><span class="sep">›</span><a href="/taxon/boophis/"><span class="rk">Genus</span><i>Boophis</i></a></nav>
+<h1>Bioacoustics of <i>Boophis boppa</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis . Boophis boppa ( Figs. 2–4 ) is placed in the family Mantellidae , subfamily Boophinae , and genus Boophis , as diagnosed by Glaw &amp; Vences (2006) . The new species shares the following combination of morphological traits with all other Boophis : presence of intercalary element between ultimate and penultimate phalanges of fingers and toes; presence of nuptial pads and absence of femoral glands in males; absence of gular glands in males; terminal discs of fingers and toes enlarged; lateral metatarsalia separated by webbing; and absence of outer metatarsal tubercle. Furthermore, phylogenetic analyses support the placement of the new species in the genus Boophis . Boophis boppa is placed in the Boophis albipunctatus group as supported by the phylogenetic analyses. Additionally, the following combination of characters provide additional evidence for the inferred phylogenetic relationships: small body size (male SVL &lt; 27 mm ); tubercles or flaps on heel and elbow absent; webbing between fingers present; canthus rostralis indistinct; distinct white tarsal folds present; dorsal coloration translucent green in life and cream-colored in preservative; ventral skin partially transparent in life; red ventral coloration absent; single subgular vocal sac; and vomerine teeth present. Boophis boppa is a member of the monophyletic B. ankaratra complex and cannot easily be distinguished morphologically from other closely related species in the group, which includes B. ankaratra , B. haingana , B. miadana , and B. schuboeae ( Fig. 5 ). Species in this complex lack a dense and regular white-spotted pattern that is present in other members of the B. albipunctatus group; however, most individuals of the new species show some light yellow and white spotting. Boophis boppa differs from syntopic B. ankaratra by lacking a yellow parietal peritoneum, which was present in all live photographs and examined live individuals from two different populations for B. ankaratra (e.g. Fig. 3B and Fig. 5 A). Boophis boppa differs from allopatric B. miadana and B. haingana by having the smallest, non-overlapping body size among these three species (adult male SVL: B. boppa = 20.3–24.4 mm ; B. miadana = 25.5–26.8 mm ; B. haingana 24.8–29.0 mm). However, we could not discern any morphological differences between the new species and B. schuboeae , which occurs sympatrically at Ranomafana National Park, but has not been observed syntopic with B. boppa , instead occurring at lower elevations. While we find discernable morphological differences in life, our observations generally agree with previous studies suggesting that reliable morphological differentiation among specimens of these species is difficult (Glaw et al. 2010). Despite this difficulty, these species all can be easily diagnosed by advertisement call and/or molecular phylogenetics. Bioacoustically, Boophis boppa can easily be distinguished from all other species in this group by having the longest note duration ( Fig. 6 ) and longest intervals between notes and thus the slowest note repetition rate within calls ( Fig. 7 ; Table 2 ). The most similar species in call is B. miadana ( Fig. 6 B; Fig. 7 B), which has the second longest note duration and inter-note interval in the group, but does not overlap with the new species in these values. All other species in this complex have much shorter advertisement calls. Additionally, these differences cannot be attributed to temperature, which fall within 1ºC across the recordings of B. miadana and B. boppa . We did not correct the call of B. schuboeae for temperature (it was ~5°C warmer), as it has dramatically shorter note and internote interval durations (4-fold and 7-fold shorter, respectively) and a much faster note repetition rate than B. boppa , which are differences not likely due to this amount of temperature change. Furthermore, motivation of the calling male was unlikely a factor as the temporal differences remained consistent across hundreds of calls and a variety of motivational states and weather conditions. FIGU RE 3 . Ex-situ dorsal and ventral photographs of ( A ) Boophis boppa ( holotype , KU 336824) and ( B ) Boophis ankaratra (KU 336830) in life. Phylogenetically, Boophis boppa is reciprocally monophyletic to all other species in the complex with strong support based on DNA sequences of the mitochondrial marker 16S ( Fig. 8 ). The new species also shares no haplotypes of the nuclear exon DNAH-3 with other related species ( Fig. 9 ). Importantly, B. ankaratra is also monophyletic, which includes individuals from the southern parts of its range and a specimen from Ranomafana National Park that was syntopic with B. boppa . Although the sister group of B. boppa cannot be determined from the analyses undertaken here, close phylogenetic affinity is suggested with B. ankaratra , B. schuboeae , or B. miadana . Additionally, the low genetic distance among individuals within B. boppa and its monophyly is strong evidence that no genetic admixture is occurring with other species of the B. ankaratra complex. Notably, B. boppa and B. ankaratra occur syntopically and can commonly be found calling within a meter distance from each other, with consistent and strong call differences ( Figs. 6–7 ). Boophis boppa also occurs sympatrically with B. schuboeae (although calling males have thus far not been found together in syntopy) and the calls of these species are highly distinct ( Figs. 6–7 ). Finally, B. miadana is distributed allopatrically and has a genetic distance of 3.5–4.5% compared to B. boppa .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/137187C18225FFA8EB90FC8EDF826CF8#D3C2655C8225FFAEEBC0F9FDDCDF6FBF">this account</a> <a href="https://treatment.plazi.org/id/137187C18225FFA8EB90FC8EDF826CF8">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of the holotype ( Fig. 2 ) . Adult male, SVL 23.4 mm . Body moderately slender; head wider than body, HW 36.3% of SVL; head slightly shorter than wide, HL 33.8% of SVL; snout of moderate length, ESD 15.8% of SVL; snout rounded in dorsal and lateral view; nostrils directed dorsolaterally, nearer to eye than to tip of snout; ED larger than END ; cranial crests absent; canthus rostralis indistinct, loreal region slightly concave; single subgular vocal sac; gular glands absent. Tympanic annulus distinct, round, TD 48.0% of ED; supratympanic fold barely distinct, tympanic membrane transparent. Vomerine odontophores distinct, well separated in two elongated patches, positioned posteromedial to choanae; choanae medium-sized, rounded. Tongue longer than wide; ovoid in shape, posteriorly bifid, free. Arms slender; subarticular tubercles single, round; metacarpal tubercles not recognizable. Nuptial pad on inner finger 1, barely distinguishable; not pigmented, slightly lighter than ground color; fingers moderately webbed and with lateral dermal fringes; webbing formula 1(1.5), 2i (1.5), 2e(1), 3i (2), 3e(1.5), 4(1); relative length of fingers 1&lt;2&lt;4&lt;3, finger 2 distinctly shorter than finger 4, finger 1 slightly shorter than finger 2; finger discs enlarged. Hind limbs slender; femoral glands absent; white tarsal folds distinct; TIBL 52.6% of SVL; FOL 46.6% of SVL; lateral metatarsalia separated by webbing; inner metatarsal tubercle small, distinct, elongated; no outer metatarsal tubercle; toes broadly webbed; webbing formula 1(0.5), 2i (0.75), 2e(0.25), 3i (1), 3e(0.25), 4i (1.25), 4e(1.5), 5(0.5); relative length of toes 1&lt;2&lt;3&lt;5&lt;4; toe discs enlarged. Skin smooth on dorsal surfaces, finely granular on throat and chest, coarsely granular on belly and ventral surfaces of thighs. Enlarged tubercles absent in cloacal region. Muscle from right thigh and liver removed for tissue samples; abdominal cavity of right side opened. After one year in preservative ( Fig. 2 ), body coloration uniform cream-yellow. Dark pigments are present around nostrils. Dark pigmented spots are present on upper eyelids and along the dorsum. In life (Figs. 3A–4), dorsum lime green with numerous white-yellow flecks, dark brown spots present, skin translucent especially on limbs, groin turquoise; upper 3/4 visceral peritoneum white, lower peritoneum and flanks transparent; underside of limbs translucent green, joints turquoise. Pupil black; iris coloration reddish-brown around the pupil and outer edges lighter in color, non-uniform; iris outlined in black; iris periphery blue, posterior edges black; eye periphery black. Color sequence from pupil to eye periphery: black, reddish-brown, yellowish-brown, black, blue, and black. Morphometry of type series . Measurements of the holotype and paratypes are shown in Table 1 . Variation ( Figs. 10–11 ) . In life, dorsal coloration is lime to a light-lime green, with a white venter that is transparent posteriorly and along the flanks. Some individuals of this species have a white spotting pattern, with some spots being light yellow upon closer examination. Given this, the morphological distinction between the Boophis ankaratra complex and other species in the B. albipunctatus group is weakened; however, these spots can be useful in distinguishing B. boppa when present. Brown dorsal spots are also variable, as some individuals may have dense, dark patches, several spots, or none at all ( Fig. 10 ). Additionally, the intensity of the iris coloration is variable ( Fig. 11 ). Bioacoustics ( Figs. 6 A–7A; Table 2 ) . We recorded and analyzed 171 notes from six individuals of Boophis boppa and 209 notes from two individuals B. ankaratra in syntopy with B. boppa . All individuals are adult males recorded at night with mist or light rain at a temperature of 16.9–18.2°C. The males were calling on the upper surfaces of leaves 2–4 m above the ground and were recorded 1 m or less from the male. The advertisement call of this species sounds like a long ‘groan’ to the human observer, emitted frequently in slow-paced succession. We define each groan as a note ( Fig. 6 A), which are arranged in series (each series we consider a call) of 5–16 notes separated by extended periods of silence. Each note in the call of Boophis boppa is strongly amplitude modulated, with the peak amplitude occurring in the last 50% of the note. The notes are strongly pulsed, with a rate of 135–263 (187 ± 31) pulses / s. The note duration is 379–526 (451.6 ± 42.4) ms with an inter-note interval of 989–1659 (1192 ± 167) ms. The dominant frequency measured at peak amplitude is 2929–3531 (3205 ± 139) Hz. The dominant frequency is within the fundamental frequency, which has a lower limit of 2500–2594 (2702 ± 101) Hz and an upper limit of 3001–3431 (3165 ± 91.8) Hz. The first harmonic is 5768–6384 (6073 ± 148) Hz. See Table 2 for a comparison among all identified species in the B. ankaratra complex. comparison are from Glaw et al. (2010). Calls were recorded from males calling at night and were subsequently collected as vouchers. Note envelope is the ratio of the time of peak amplitude to note duration. RNP is an abbreviation for Ranomafana National Park. Data are the range and then the mean ± two standard deviations in parentheses, when appropriate. Species Parameter B. boppa B. B. ankaratra B. B. miadana B. ankaratra haingana schuboeae Locality Maharira, RNP Maharira, RNP Manjakatompo Andohahela Andohahela Vohipara, RNP Temp. (Cº) 16.9–18.2 17.9 18.0 17.6 17.6 23.0 n – individuals 6 2 1 2 2 2 n – calls (note series) 26 4 1 2 2 2 n – notes 171 209 66 150 144 108 Call duration (s) 3.9–22.12 (10.2 ± 3.9) 13.5–27.1 (19.7 ± 6.5) 25.8 16.4–28.4 (22.4 ± 8.5) 12.8–13.1 (13.0 ± 0.2) 13.9–14.8 (14.3 ± 0.6) Note duration (ms) 379.0–526.0 (451.6 ± 42.4) 104.56– 130 (110.5 ± 8.076) 111.5–153.7 (134 ± 10.6) 46.6–85.8 (61.7 ± 12.7) 208.3–316.4 (249.7 ± 29.8) 73.17–169.3 (124.3 ± 20.9) Inter-note 989–1659 204–341 222–318 232–352 591–910 114–248 interval (ms) (1192 ± 167) (269 ± 3) (259 ± 37) (238 ± 86) (675 ± 102) (162 ± 42) Note repetition 0.4–0.8 2.6–2.8 2.5 2.6–3.0 1.0–1.2 3.4 rate (/s) Note envelope shape 0.582–0.954 (0.779 ± 0.087) 0.550– 0.881 (0.746 ± 0.072) 0.539–0.864 (0.72 ± 0.078) 0.173– 0.259 (0.216 ± 0.061) 0.417–0.807 (0.635 ± 0.094) 0.542–0.915 (0.752 ± 0.079) Pulse rate 135-263 147-323 110-169 (143 155-173 76-203 (120 35-234 (119 (/s) (187 ± 31) (212 ± 29) ± 11) (164 ± 13) ± 39) ± 46) Dominant frequency (Hz) 2929–3531 (3205 ± 139) 2584–2756 (2671 ± 68) 2756–3015 (2905 ± 72) 2929 2756–3015 (2893 ± 71) 3359–3531 (3403 ± 45) Lower fundamental 2500-2972 2329-2525 2509-2746 2700-2733 2438-2563 3200-3281 frequency (2702 ± (2435 ± (2659 ± (2716 ± (2506 ± (3248 ± (Hz) 101.046) 55.698) 48.378) 22.988) 29.911) 18.165) Higher fundamental 3001-3431 2636-2839 2802-3028 2936-2955 2818-2967 3289-3350 frequency (3165 ± (2757 ± (2960 ± (2946 ± (2902 ± (3318 ± (Hz) 91.79) 48.063) 43.895) 12.989) 47.896) 12.698) First 5768-6384 5930-7074 5843-6229 6172-6337 6128-6415 6054-6573 harmonic (6073 ± (6322 ± (5996 ± (6254 ± (6268 ± (6437 ± (Hz) 148.285) 295.493) 83.465) 117.035) 78.665) 90.211) Phylogenetics ( Figs. 8–9 ). The phylogenetic results support the morphological diagnosis by placing Boophis boppa in the genus Boophis within the B. albipunctatus group. At the species level, B. boppa is monophyletic with strong support in all analyses (BS&gt; 90%; PP&gt; 0.95; Fig. 8 ). Uncorrected p-distances using the 16S fragment indicate that B. ankaratra has the lowest distance to the new species, at 1.9–3.7%. Additionally, we find that variation in genetic distance among B. boppa and B. ankaratra is not related to geographic proximity. The lowest distance of 1.9% (Imaitso Forest; FMGV 1697) does not correspond to proximate localities and the highest distance of 3.7% is from Ranomafana National Park (Ranomena; ZCMV 5989). This variability in distances is likely a result of varying amounts of sequence overlap being compared. Overall, these results provide strong evidence that the species is a separately evolving lineage and does not reproduce with other species in the complex.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/137187C18225FFA8EB90FC8EDF826CF8#D3C2655C822AFFA9EBC0FB6AD8D76C40">this account</a> <a href="https://treatment.plazi.org/id/137187C18225FFA8EB90FC8EDF826CF8">at Plazi</a></p>
+<p class="topic">distribution · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Distribution ( Fig . 1) . Boophis boppa is known from Ranomafana National Park (RNP), but has only been found at high elevation sites (~ 1046–1312 m , a.s.l.). In addition to the type locality of Maharira, DNA sequences also confirm that specimens FAZC 11454, 11462, and 11480 collected from Farihimazava forest near Antoetra ( 20°50&#x27;06&quot;S , 47°19&#x27;57&quot;E , 1380–1420 m , a.s.l.; ca. 55 km north west of the type locality; see Andreone et al. 2007 ) are conspecific. Additionally, tadpoles ZCMV 9739 collected at Imaloka (RNP: 21°14&#x27;32&quot;S , 47°27&#x27;55&quot;E , 1020 m , a.s.l.) and ZSM 1164/2007 from Sakaroa (RNP: 21°15&#x27;00.1&quot;S , 47°24&#x27;53.6&quot;E ) belong to Boophis boppa . The species has a known elevational distribution of ca. 1020–1400 m , a.s.l. Natural history ( Fig. 12 ) . Boophis boppa was locally abundant but thus far only found in undisturbed, primary forests along fast moving streams and was occasionally found along slow flowing tributaries adjacent to fast streams. Males of the species typically were calling at night from the surfaces of vegetation less than three meters in height ( Fig. 12 A–B). Females of B. boppa were rarely encountered and were only observed while in amplexus ( Fig. 12 C). We also confirm that Boophis boppa is syntopic with Boophis ankaratra at Maharira and that the two species can be found calling less than a meter apart. This is also consistent with Andreone et al. (2007) , which found B. boppa (i.e. Boophis aff. ankaratra ) and B. ankaratra to occur sympatrically. Other syntopic species of Boophis at Maharira include: B. madagascariensis , B. majori , B. aff. marojezensis, B. aff. picturatus , B. popi , and B. reticulatus . Conservation status . The new species is known from Ranomafana National Park and its vicinity, extending into the Antoetra area. While it is known from a geographic area less than ~ 5,000 km 2, there are no known immediate threats, reductions in quality or extent of habitat, or observed declines as the species is well protected within Ranomafana National Park. Therefore, the new species meets only criterion (B1), and could become endangered in the future if the situation changes at Ranomafana, for instance through population declines from chytridiomycosis, which has been detected in the park ( Bletz et al. 2015 ). We recommend a conservation status of Near Threatened, following IUCN (2001) criteria.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/137187C18225FFA8EB90FC8EDF826CF8#D3C2655C822DFFA8EBC0F883DF826CF8">this account</a> <a href="https://treatment.plazi.org/id/137187C18225FFA8EB90FC8EDF826CF8">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/boophis/"><i>Boophis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/boophinae/"><span>Boophinae</span> <span class="n">4</span></a></li>
+<li><a href="/taxon/mantellidae/"><span>Mantellidae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/boophis-luteus/"><i>Boophis luteus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/boophis-pyrrhus/"><i>Boophis pyrrhus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/boophis-ankarafensis/"><i>Boophis ankarafensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/boophis-spinophis/"><i>Boophis spinophis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/boophis-baetkei/"><i>Boophis baetkei</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/boophis-brachychir/"><i>Boophis brachychir</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Boophis boppa</i></td><td>Species</td><td>Mantellidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Boophis boppa">Plazi/Boophis boppa</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/boophis-boppa/&quot;,
+  &quot;name&quot;: &quot;Boophis boppa&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/boophis-boppa/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/MHST&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Boophis&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/boophis/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/MHST</p>
+</div></footer>
+</body>
+</html>

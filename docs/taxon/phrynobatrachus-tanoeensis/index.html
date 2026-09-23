@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Phrynobatrachus tanoeensis</title>
+<meta name="description" content="Phrynobatrachus tanoeensis in audioBlast: 6 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/phrynobatrachus-tanoeensis/">
+<meta property="og:title" content="Bioacoustics of Phrynobatrachus tanoeensis">
+<meta property="og:description" content="Phrynobatrachus tanoeensis in audioBlast: 6 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4GWB9">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/phrynobatrachus-tanoeensis/", "name": "Phrynobatrachus tanoeensis", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/phrynobatrachus-tanoeensis/", "sameAs": "https://api.audioblast.org/taxon/CoL/4GWB9", "parentTaxon": {"@type": "Taxon", "name": "Phrynobatrachus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/phrynobatrachus/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Phrynobatrachidae", "item": "https://browse.acousti.cloud/taxon/phrynobatrachidae/"}, {"@type": "ListItem", "position": 11, "name": "Phrynobatrachus", "item": "https://browse.acousti.cloud/taxon/phrynobatrachus/"}, {"@type": "ListItem", "position": 12, "name": "Phrynobatrachus tanoeensis", "item": "https://browse.acousti.cloud/taxon/phrynobatrachus-tanoeensis/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/phrynobatrachidae/"><span class="rk">Family</span><span>Phrynobatrachidae</span></a><span class="sep">›</span><a href="/taxon/phrynobatrachus/"><span class="rk">Genus</span><i>Phrynobatrachus</i></a></nav>
+<h1>Bioacoustics of <i>Phrynobatrachus tanoeensis</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>6</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of the holotype (measurements in millimetres mm). Adult male with longish, but compact body shape, short snout and large eyes; snout–vent length 22.1; snout rounded in dorsal, moderately pointed in lateral view; head width 6.9; thigh length 8.5, shorter than crus length, 12.0; foot length including longest toe 15.4; eye diameter 2.8, larger than horizontal diameter of tympanum, 1.6; tympanum distinct, round with round median annuli, diameter 0.5; interorbital distance 2.5; distance eye–nostrils 1.9; distance eye–snout 3.0; nostrils much closer to snout than to eye; canthus rostralis rounded; loreal region straight; distinct, slightly bent supratympanal ridge extending from posterior edge of eye to forearm insertion; dorsal skin fine granular, spinulae on posterior part of back indistinct; spinulae on dorsal surfaces of thighs and lower legs; two pairs of narrow, indistinct, commashaped warts; the anterior pair originating slightly posterior to eyelids, slightly converging and extending to about forearm insertion; the posterior pair being shorter and slightly diverging; a few minute round tubercles on eyelids; throat smooth with parallel skin folds along mandibles; whitish spinulae on throat and anterior part of breast indistinct; skin of other ventral surfaces smooth; palmar surface of hand with large, oval palmar and more slender, longish thenar tubercle; fingers with large, undivided oval subarticular tubercles, additional tubercles on hands absent; finger tips roundish, not enlarged to discs; outer part of thumb with indistinct thin nuptial pad; palmar webbing absent; relative finger length: II = IV ý I &lt;III; small round tarsal tubercle present; large, slender oval inner metatarsal tubercle, 1.1, reaching about half length of shortest toe, 2.2; outer metatarsal tubercle round and minute; subarticular tubercles slender oval, not divided; relative toe length: I &lt;II &lt;V &lt;III &lt;IV; pedal webbing pronounced; webbing formula: I(0.5), II(1-0.5), III(1.5-1), IV(2-2), V(1); toe tips very slightly expanded without forming discs. Colour of the holotype in life. Dorsal surfaces light beige to yellowish brown; top of snout with Y-shaped dark figure – the single arm pointing towards snout, and further dark spots; margin of snout and upper eyelids with ill-defined light band; upper eyelids dark brown, connected by dark brown inter-orbital band, this band bordered anteriorly and posteriorly by narrow clear bands; the two pairs of narrow comma shaped scapular ridges marked darker, the posterior pair connected by V-shaped black marking; a pair of white spots at the tips of this V; posterior back with a few further blackish markings; dorsal surfaces of thighs (4) and lower legs (3) with black cross bars; arms, hands and feet with less distinct black cross bars; lateral side of snout, upper lip and area below supratympanal ridge black with some minute white spots on lip; supratympanal ridge dorsally bordered by white band; posterior to this band a wide black lateral band, followed by further black spots on whitish base colour; lower mandible, throat and anterior pectoral region almost uniform dark grey; belly white, densely beset with black spots; posterior belly and lower surfaces of thighs and lower legs rosé. Colour of the holotype in preservation (after seven years in 75% ethanol). Back light brown, a few white spots where skin is rubbed off; snout tip and upper eyelids with some black mottling; loreal triangle from nostrils to anterior eye and tympanal area darker; scapular ridges and supratympanal ridge darker; black and light lateral pattern faded; upper arm with two dark cross bars, lower side reddish brown; lower arm with one dark cross bar close to hand; palmar surfaces of hands uniform light reddish brown; lower side of mandibles light blackish grey; throat skin dark blackish grey with minute white points; belly and pectoral region whitish with dark brown spotting, denser towards throat and flanks; vent surrounded by flat black triangle, bordered by narrow light line; posterior part of thighs uniform light brown; dorsal part of thighs banded with 3-4 light and dark transversal bands; lower legs with three dark cross bars; foot and toes brown with indistinct darker pattern; ventral parts of thigh whitish beige with brownish mottling; ventral sides of lower legs with very dense reddish brown spotting; part of foot darker brown than dorsal part. Variation . Paratypes are similar to holotype , but mostly with less contrasting dorsal pattern. Size (SVL) of adult males ranges from 21.1–23.4 mm (mean ± sd: 21.9 ± 0.8 mm ; N= 10). They are smaller than females, these ranging from 23.8–26.6 mm (mean ± sd: 25.6 ± 1.5 mm ; N= 3; Tables 1–2 ). Further measures and indices are summarized in Table 1 . ZMB status sex SVL HW FL TL FTL ED TD IOD EN ES Webbing formula 80870 holotype M 21.4 6.9 8.5 12.0 15.4 2.8 1.6 2.5 1.9 3.0 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 80871 paratype M 21.6 6.9 8.1 11.7 16.6 3.4 1.7 2.6 2.3 3.7 1(0.5);2(1-0.5); 3(1.5-1);4(2-2.5);5(1) 86962 paratype F 23.8 8.5 8.6 12.4 18.1 3.1 2.4 2.2 2.0 3.0 1(0.5);2(1-0.5); 3(2-1);4(2-2);5(1) 86963 paratype F 26.4 9.2 10.2 13.5 20.1 3.2 1.8 2.9 2.5 3.3 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86961 paratype F 26.6 9.0 10.0 14.1 21.1 3.0 1.9 2.5 2.5 2.7 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86964 paratype j 13.9 3.7 6.8 7.5 10.8 1.5 0.9 1.7 1.2 1.6 86953 paratype M 22.9 8.0 10.3 12.1 17.5 2.5 1.6 2.0 1.9 2.8 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86954 paratype M 21.4 7.4 10.1 12.1 17.3 2.5 1.9 2.0 1.7 2.7 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86955 paratype M 21.8 7.7 9.5 12.2 16.9 2.5 2.0 2.6 1.9 3.0 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86956 paratype M 21.8 8.3 7.9 10.3 16.5 3.0 1.8 2.5 2.3 2.9 1(0.5);2(1-0.5); (1.5-1);4(2-2);5(1) 86957 paratype M 21.3 7.3 9.8 11.8 17.2 2.4 1.4 2.5 1.8 2.8 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86958 paratype M 22.7 8.0 9.1 10.9 17.4 2.9 1.9 2.3 2.4 3.5 1(.05);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86959 paratype M 23.4 7.9 8.2 11.8 17.9 3.5 1.9 2.4 2.1 4.0 1(0.5);2(1-0.5); 3(2-1);4(2-2);5(1) 86960 paratype M 21.1 7.1 9.8 10.7 15.4 2.7 1.4 1.9 1.8 2.9 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) 86965 ref. mat. M 22.1 6.8 10.2 10.5 14.8 2.8 2.2 2.5 2.1 3.0 1(0.5);2(1-0.5); 3(1.5-1);4(2-2);5(1) The dorsal skin may vary from almost smooth to granular. Some small warts may be present on lower flanks and posterior back. In most male paratypes , the posterior half of the back is beset with minute round spinulae. Similar spinulae are present on dorsal surfaces of thigh and lower leg and, less visible, on anterior part of body; the throat and the anterior part of the pectoral region likewise densely beset with whitish, round spinulae. Depending on the preservation the spinulae can be difficult to see. They are best visible when the specimen is slightly dehydrated due to too high ethanol concentration, or after the skin has been carefully towelled. Presumably the distinctiveness of the spinulae may vary as well with the breeding status of the respective male. The spinulae are most pronounced in the male from Ghana (ZMB 86965; Fig. 3 ). Here they cover the entire back from vent to just behind the eyes, as well as the dorsal surfaces of the hind legs. species SVL HW FL TL FTL ED TD tanoeensis sp. nov. 21.9 ± 0.8 7.5 ± 0.5 9.2 ± 0.9 11.6 ± 0.7 16.8 ± 0.9 2.8 ± 0.4 1.7 ± 0.2 M, N= 10 21.1‒23.4 6.9‒8.3 7.9‒10.3 10.3‒12.2 15.4‒17.9 2.4‒3.5 1.4‒2.0 liberiensis 25.3 ± 1.5 8.1 ± 0.7 12.1 ± 1.1 14.3 ± 1.1 20.2 ± 1.6 3.1 ± 0.3 2.2 ± 0.2 M, N= 15 23.5‒28.9 6.2‒9.1 10.8‒14.4 12.8‒17.0 18.1‒24.2 2.6‒3.5 1.8‒2.7 tanoeensis sp. nov. 25.6 ± 1.5 8.9 ± 0.4 9.6 ± 0.9 13.4 ± 0.9 19.8 ± 1.5 3.1 ± 0.1 2.0 ± 0.4 F, N= 3 23.8‒26.6 8.5‒9.2 8.6‒10.2 12.4‒14.1 18.1‒21.1 3.0‒3.2 1.8‒2.4 intermedius 27.2 7.8 14.4 16.5 20.3 3.4 2.3 F, N= 1 liberiensis 31.7 ± 2.4 10.1 ± 0.8 14.7 ± 1.2 17.7 ± 1.1 24.0 ± 1.7 3.3 ± 0.4 2.4 ± 0.3 F, N= 31 25.5‒35.2 8.0‒11.2 11.9‒17.2 13.9‒19.3 19.1‒26.5 2.7‒4.0 1.9‒3.1 continued. species IOD EN ES HW/ SUL FL/ SUL TL/ SUL EN/ES tanoeensis sp. nov. 2.3 ± 0.3 2.0 ± 0.2 3.1 ± 0.4 0.3 ± 0 0.4 ± 0 0.5 ± 0 0.6 ± 0.1 M, N= 10 1.9‒2.6 1.7‒2.4 2.7‒4.0 0.3‒04 0.4‒05 0.5‒0.6 0.5‒0.8 liberiensis 2.1 ± 0.2 1.9 ± 0.2 2.9 ± 0.3 0.3 ± 0 0.5 ± 0 0.6 ± 0 0.6 ± 0.1 M, N= 15 1.8‒2.7 1.6‒2.2 2.4‒3.7 0.2‒0.4 0.4‒0.5 0.5‒0.6 0.6‒0.8 The dorsal warts/ridges may vary from very distinct to almost absent (in live and preserved specimens); often only the anterior pair is present and then longer than in the holotype (e.g. Figs. 2e, g ). Dorsal and lateral colour varies from dark grey or light to dark brown to almost black, with or without lighter patterning. Sometimes a greenish tinge may be present on the back ( Fig. 2d ). Females exhibit more uniform dorsal coloration than males ( Fig. 2g ). Black lateral bands and white lines may be present ( Figs. 2a , c-e) or absent. The dark face mask may be more or less pronounced. The juvenile specimen and some adults exhibit a pair of light dorsal spots posterior to the dorsal ridges ( Figs. 2a, d ). The Throats of female vary from light grey ( Fig. 2h ) to brownish dark with white spots. Further greyish or blackish belly spots are particularly dense close to the forearm insertion and towards flanks. The central parts of female bellies are almost uniform white. The ventral surfaces of female hind legs are greyish to orange, in males the colour is reddish beige or rosé. The pedal webbing may vary slightly. In particular toes III and IV may show slightly less or more webbing than the holotype (in the range of 0.5 phalanx). tanoeensis sp. nov. 2.5 ± 0.3 2.3 ± 0.3 3.0 ± 0.3 0.3 ± 0 0.4 ± 0 0.5 ± 0 0.8 ± 0.1 F, N= 3 2.2‒2.9 2.0‒2.5 2.7‒3.3 0.3‒0.4 0.4 0.5 0.7‒0.9 intermedius 2.6 2.3 3.9 0.3 0.5 0.6 0.6 F, N= 1 liberiensis 2.8 ± 0.4 2.3 ± 0.3 3.5 ± 0.3 0.3 ± 0 0.5 ± 0 0.6 ± 0 0.7 ± 0.1 F, N= 31 2.1‒3.6 1.7‒3.0 2.8‒4.0 0.3 0.4‒0.5 0.5‒0.6 0.5‒0.8 Genetics. We compared parts (up to 538 bp) of the 16S RNA gene from five individuals of the new species, with two sequences of P. intermedius and P. tokba , respectively and, considering the erroneous initial field identification, 27 individuals of P. liberiensis . The P. liberiensis samples covered almost the entire known range of that species from eastern Sierra Leone , Liberia , south-eastern Guinea , western and eastern Ivory Coast and western Ghana ( Fig. 1 ). Phrynobatrachus liberiensis showed some clear intraspecific genetic structure, i.e. a western clade comprising frogs from the Ivorian Banco National Park to Sierra Leone and a Ghanaian clade, comprising samples from Kakum and Ankasa National Parks. The intraspecific variation in P. liberiensis ranged from 0–4.42% (mean ± sd: 2.02 ± 1.35%, N= 351 comparisons). This high genetic variation may indicate further cryptic diversity, i.e. a further undescribed taxon from Ghana . The two included P. tokba sequences differed by 1.36%, while intraspecific variation in P. intermedius was zero. In P. tanoeensis sp. nov . the intraspecific variation ranged from 0–0.19% (mean ± sd: 0.08 ± 0.10%, N= 10 comparisons). Phrynobatrachus tanoeensis sp. nov. differed from P. intermedius by 6.39–6.70% (mean ± sd: 6.64 ± 0.13%, N= 10), and from P. liberiensis by 5.25–7.03% (mean ± sd: 5.95 ± 0.44%, N= 135), and from P. tokba by 6.60– 7.27% (mean ± sd: 6.97 ± 0.30%, N= 22). These differences are well within the range of what has been accepted as genetic distances between other species of the genus (see Discussion). Acoustic . The recorded advertisement calls of two males of the new species comprise an amplitude modulated, short note, with few pulses that are difficult to tell apart (no full amplitude modulation = no complete silence between pulses; Fig. 4a, b ). Call duration and frequency varied and showed some overlap to P. liberiensis calls, recorded in Banco and Taï National Parks, the latter calls as well showing some variation ( Fig. 4 , Table 3 ). However, a comparison of the spectrogram and oscillogram between the calls of both taxa, shows distinct differences ( Fig. 4 ). The advertisement calls of P. tanoeensis sp. nov . are much shorter and less pulsed than the calls of P. liberiensis . These differences are also audible to the human ear. Whereas P. liberiensis calls can be described like a loud, hammer like “ackk,” the calls of the new species sound like a deep, short “tick.” Both species call predominantly during the day, in swamps or from the banks of small forest creeks.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/0388AD2AFFF4F23AFF6CFF2D4DD24DF5#C33B4FB7FFF2F23EFF3CFD4748434E7C">this account</a> <a href="https://treatment.plazi.org/id/0388AD2AFFF4F23AFF6CFF2D4DD24DF5">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis . The overall body shape and morphology, i.e. the presence of a tarsal tubercle, as well as the genetic data confirm that the new species is a member of the genus Phrynobatrachus (Phrynobatrachidae) . From members of the externally-morphologically similar genus Arthroleptis (Arthroleptidae) , the new species differs by: the presence of scapular ridges, pedal webbing and a tarsal tubercle, and the absence of a mid-dorsal skin raphe. From members of the genus Ptychadena ( Ptychadenidae ; juveniles sometimes morphologically similar to Phrynobatrachus ) they differ by a more rounded and shorter snout and the absence of parallel dorsal glandular ridges. The new species can be differentiated from other members of the genus Phrynobatrachus by molecular and acoustic characters (see below), as well as by the combination of the following morphological characters: adult snout–vent length larger than 20 mm but smaller than 30 mm ; a dark face mask; absence of a spiny tubercle on the eyelid; narrow and partly indistinct scapular ridges or comma-shaped warts, in particular no long X-shaped pair of dorsal ridges; distinct spinulae on males’ throats and dorsal surfaces; pronounced pedal webbing; finger- and toe tips not enlarged; a black throat in adult males; a white belly with small blackish spotting in both sexes; more than one wide dark cross bar on hind legs; ventral parts of hind legs in both sexes with rosé to reddish colour. In particular the new species is smaller (&lt; 30 mm ) than P. liberiensis and P. plicatus (Günther, 1858) ; it differs from P. annulatus Perret, 1966 , P. calcaratus (Peters, 1863) , P. taiensis Perret, 1988 , P. villiersi Guibé, 1959 and P. pintoi Hillers, Zimkus &amp; Rödel, 2008 by lacking an eyelid cornicle (spine-like wart on upper eyelid); from all the latter species and P. gutturosus (Chabanaud, 1921) , P. hieroglyphicus Rödel, Ohler &amp; Hillers, 2010 , and P. tokba (Chabanaud, 1921) , the new species differs by more extensive webbing; Phrynobatrachus annulatus , P. fraterculus (Chabanaud, 1921) , P. ghanensis , P. maculiventris Guibé &amp; Lamotte, 1958 , P. pintoi , P. taiensis and P. villiersi all exhibit very distinct, species-specific patterning on the belly, different to the new species which exhibits many small black spots. In contrast P. latifrons , Ahl, 1924 , P. alleni Parker, 1936 (only females, males with yellow belly), P. francisci Boulenger, 1912 , P. natalensis (Smith, 1849) , and P. rainerguentheri Rödel, Onadeko, Barej &amp; Sandberger, 2012 , have predominantly white bellies with at best a few minute black points. Whereas males of the new species have dark grey to black throats, P. alleni and P. latifrons males have yellow throats. These two species, along with all species with an eyelid cornicle, as well as P. francisci , P. gutturosus , P. phyllophilus Rödel &amp; Ernst, 2002 , P. guineensis Guibé &amp; Lamotte, 1962 , P. natalensis , P. rainerguentheri , P. brongersmai Parker, 1936 have a different body shape and a snout which is rounded in dorsal and lateral view (pointed in lateral view in the new species). In P. alleni the head is also relatively flatter in lateral view. Phrynobatrachus guineensis is smaller (&lt; 20 mm ) than the new species, has yellow toe and finger tips and a yellow inguinal patch. Phrynobatrachus phyllophilus shows some black spots on belly and pectoral region but has a more compact body shape and roundish snout, toe and finger tips which are enlarged to small round discs (straight in the new species) and usually only one wide black cross bar on thigh and lower leg (several in the new species). In West Africa, only P. alleni and P. plicatus have scapular ridges formed like an open X, in P. plicatus this X extends to posterior to half-back. The new species shares a black face mask in West Africa only with P. intermedius , P. plicatus and some P. liberiensis and P. rainerguentheri . However, the face mask is always less distinct than in P. plicatus (see discussion for a more in depth comparison with the genetically most similar species).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/0388AD2AFFF4F23AFF6CFF2D4DD24DF5#C33B4FB7FFF4F235FF3CFD084F1F4AFA">this account</a> <a href="https://treatment.plazi.org/id/0388AD2AFFF4F23AFF6CFF2D4DD24DF5">at Plazi</a></p>
+<p class="topic">distribution · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Distribution . The new species is so far only known from two swamp forests, the Tanoé-Ehy Swamp Forest region in south-eastern Ivory Coast and a forest near Ebonloa, south-western Ghana . These localities are only about 40 km apart. Natural history . Both known sites of the new species are predominantly swamp forests ( Fig. 5 ). The mean annual temperature of the Tanoé-Ehy forest is 26°C, the mean annual precipitation is about 2000 mm . This region is characterized by a longer dry season (December to March), followed by the period with high precipitation (March to July). A minor rainy season extends from October to November ( Avenard et al. 1971 ). The Tanoé-Ehy forest mainly consists of moist, partly primary forests on predominantly sandy soil, with vegetation typical for south-eastern Ivory Coast ( Béligné 1994 ). Whereas all collected males from the Tanoé-Ehy forest were encountered well concealed in areas thickly covered with Raphia palms ( Fig. 5b ), the females were seen on muddy ground in open patches of the forest. The canopy of the sites where P. tanoeensis sp. nov. was found had gaps ( Fig. 5a ), and traces of recent human activity were visible. For instance, Raphia palms were used by the local population for palm wine extraction and as construction material. An unpaved road, leading to Dohouan and Nouamou villages, crossed the area. Due to frequent traffic with motorbikes the Dohouan site was quite noisy. The road was only eight meters from the calling site of one male. This swamp forest was surrounded by heavily degraded forest and plantations for subsistence farming (i.e. cassava plantation associated with coconut trees). The Dohouan River, which crosses the Tanoé-Ehy forest, is polluted due to the activity of launderers and people washing their cars and motorbikes. In Ghana , the species was collected in small patches of land within an inundated landscape ( Fig. 5c ). The dominant vegetation on these ‘islands’ are trees with stilt-like roots and Raphia palms.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/0388AD2AFFF4F23AFF6CFF2D4DD24DF5#C33B4FB7FFFEF23DFF3CFF2D48404AF5">this account</a> <a href="https://treatment.plazi.org/id/0388AD2AFFF4F23AFF6CFF2D4DD24DF5">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">6 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">Phrynobatrachus tanoeensis - advertisement call</div><div class="d">69 s</div><div class="m">
+<span>Kouamé, N’goran Germain</span>
+<span>2014-10-15</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Phrynobatrachus_tanoeensis_DIG0198_01">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Phrynobatrachus_tanoeensis_DIG0198_01">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Phrynobatrachus tanoeensis - advertisement call</div><div class="d">92 s</div><div class="m">
+<span>Kouamé, N’goran Germain</span>
+<span>2014-10-15</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Phrynobatrachus_tanoeensis_DIG0198_02">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Phrynobatrachus_tanoeensis_DIG0198_02">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Phrynobatrachus tanoeensis - advertisement call</div><div class="d">69 s</div><div class="m">
+<span>Kouamé, N’goran Germain</span>
+<span>2014-10-15</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Phrynobatrachus_tanoeensis_DIG0198_01">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Phrynobatrachus_tanoeensis_DIG0198_01">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Phrynobatrachus tanoeensis - advertisement call</div><div class="d">92 s</div><div class="m">
+<span>Kouamé, N’goran Germain</span>
+<span>2014-10-15</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Phrynobatrachus_tanoeensis_DIG0198_02">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Phrynobatrachus_tanoeensis_DIG0198_02">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Phrynobatrachus tanoeensis - advertisement call</div><div class="d">69 s</div><div class="m">
+<span>Kouamé, N’goran Germain</span>
+<span>2014-10-15</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Phrynobatrachus_tanoeensis_DIG0198_01">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Phrynobatrachus_tanoeensis_DIG0198_01">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Phrynobatrachus tanoeensis - advertisement call</div><div class="d">92 s</div><div class="m">
+<span>Kouamé, N’goran Germain</span>
+<span>2014-10-15</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Phrynobatrachus_tanoeensis_DIG0198_02">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Phrynobatrachus_tanoeensis_DIG0198_02">record</a></span>
+</div></div>
+</div>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/phrynobatrachus/"><i>Phrynobatrachus</i> <span class="n">207</span></a></li>
+<li><a href="/taxon/phrynobatrachidae/"><span>Phrynobatrachidae</span> <span class="n">161</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/phrynobatrachus-acridoides/"><i>Phrynobatrachus acridoides</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/phrynobatrachus-kakamikro/"><i>Phrynobatrachus kakamikro</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/phrynobatrachus-latifrons/"><i>Phrynobatrachus latifrons</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/phrynobatrachus-mababiensis/"><i>Phrynobatrachus mababiensis</i> <span class="n">50</span></a></li>
+<li><a href="/taxon/phrynobatrachus-tokba/"><i>Phrynobatrachus tokba</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/phrynobatrachus-parvulus/"><i>Phrynobatrachus parvulus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/phrynobatrachus-discogularis/"><i>Phrynobatrachus discogularis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/phrynobatrachus-mayokoensis/"><i>Phrynobatrachus mayokoensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/phrynobatrachus-natalensis/"><i>Phrynobatrachus natalensis</i> <span class="n">117</span></a></li>
+<li><a href="/taxon/phrynobatrachus-bullans/"><i>Phrynobatrachus bullans</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/phrynobatrachus-horsti/"><i>Phrynobatrachus horsti</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/phrynobatrachus-liberiensis/"><i>Phrynobatrachus liberiensis</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/phrynobatrachus-alleni/"><i>Phrynobatrachus alleni</i> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></td><td><i>Phrynobatrachus tanoeensis</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/TSA/Phrynobatrachus tanoeensis">TSA/Phrynobatrachus tanoeensis</a></td></tr>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Phrynobatrachus tanoeensis</i></td><td>Species</td><td>Phrynobatrachidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Phrynobatrachus tanoeensis">Plazi/Phrynobatrachus tanoeensis</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/phrynobatrachus-tanoeensis/&quot;,
+  &quot;name&quot;: &quot;Phrynobatrachus tanoeensis&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/phrynobatrachus-tanoeensis/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4GWB9&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Phrynobatrachus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/phrynobatrachus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4GWB9</p>
+</div></footer>
+</body>
+</html>

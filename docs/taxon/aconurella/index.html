@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Aconurella</title>
+<meta name="description" content="Aconurella in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/aconurella/">
+<meta property="og:title" content="Bioacoustics of Aconurella">
+<meta property="og:description" content="Aconurella in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8HC5Q">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/aconurella/", "name": "Aconurella", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/aconurella/", "sameAs": "https://api.audioblast.org/taxon/CoL/8HC5Q", "parentTaxon": {"@type": "Taxon", "name": "Chiasmini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/chiasmini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hemiptera", "item": "https://browse.acousti.cloud/taxon/hemiptera/"}, {"@type": "ListItem", "position": 7, "name": "Auchenorrhyncha", "item": "https://browse.acousti.cloud/taxon/auchenorrhyncha/"}, {"@type": "ListItem", "position": 8, "name": "Cicadomorpha", "item": "https://browse.acousti.cloud/taxon/cicadomorpha/"}, {"@type": "ListItem", "position": 9, "name": "Clypeata", "item": "https://browse.acousti.cloud/taxon/clypeata/"}, {"@type": "ListItem", "position": 10, "name": "Membracoidea", "item": "https://browse.acousti.cloud/taxon/membracoidea/"}, {"@type": "ListItem", "position": 11, "name": "Cicadellidae", "item": "https://browse.acousti.cloud/taxon/cicadellidae/"}, {"@type": "ListItem", "position": 12, "name": "Deltocephalinae", "item": "https://browse.acousti.cloud/taxon/deltocephalinae/"}, {"@type": "ListItem", "position": 13, "name": "Chiasmini", "item": "https://browse.acousti.cloud/taxon/chiasmini/"}, {"@type": "ListItem", "position": 14, "name": "Aconurella", "item": "https://browse.acousti.cloud/taxon/aconurella/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hemiptera/"><span class="rk">Order</span><span>Hemiptera</span></a><span class="sep">›</span><a href="/taxon/auchenorrhyncha/"><span class="rk">Suborder</span><span>Auchenorrhyncha</span></a><span class="sep">›</span><a href="/taxon/cicadomorpha/"><span class="rk">Infraorder</span><span>Cicadomorpha</span></a><span class="sep">›</span><a href="/taxon/clypeata/"><span class="rk">Parvorder</span><span>Clypeata</span></a><span class="sep">›</span><a href="/taxon/membracoidea/"><span class="rk">Superfamily</span><span>Membracoidea</span></a><span class="sep">›</span><a href="/taxon/cicadellidae/"><span class="rk">Family</span><span>Cicadellidae</span></a><span class="sep">›</span><a href="/taxon/deltocephalinae/"><span class="rk">Subfamily</span><span>Deltocephalinae</span></a><span class="sep">›</span><a href="/taxon/chiasmini/"><span class="rk">Tribe</span><span>Chiasmini</span></a></nav>
+<h1>Bioacoustics of <i>Aconurella</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">biology_ecology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>4. Biology All species of Aconurella are grassland leafhoppers. Usually they inhabit steppes, grassland slopes of low mountains, or meadows on the banks of rivers and lakes in the steppe and desert zones. Data on their host specialization are scarce. Most authors indicate, that they feed on grasses (Gramineae), but the grass species from which specimens were collected, as a rule, remained unidentified. We collected A. prolixa from Botriochloa ischaemum (L.) Keng in low mountains of Northern Caucasus (Sunzhenskiy Range) and from B. ischaemum and Cynodon dactylon (L.) Pers. in Kyrgyzstan . In southern and southeastern Kazakhstan , this species was very numerous on C. dactylon on the banks of rivers and lakes in all localities studied. Mityaev [2002] lists a number of grasses as host plants ( Aeluropus , Aneurolepidium , Elymus , Poa , Cleistogenes ), but, strangely, C. dactylon is absent from this list. Our specimens of A. quadrum were collected from Salsola tragus L. ( Chenopodiaceae ) on sandy soil on the edge of the harvested field in Rostov Oblast. Possibly, this is an accidental find, since only two males and one female were collected. On the other hand, we did not found A. quadrum on any other plants in the steppes, meadows, and the river floodplain in this locality. Dlabola [1956] investigated 15 females collected on sandy soil in Slovakia from unknown host. Mityaev [2002] lists Aeluropus , Secale , and Agropyron as host plants. A. diplachnis is monophagous on Cleistogenes squarrosa (Trin.) Keng in Southern Siberia [ Anufriev, Emelyanov, 1988 and our data], but we collected it also from B. ischaemum in the Sadon-Unal arid depression on Skalisty Range in North Ossetia . Mityaev [2002] considers this species to be oligophagous on Cleistogenes spp. Our specimens of A. sibirica were collected from unidentified Gramineae in steppes of Southern Siberia. Mityaev [2002] collected this species in Kazakhstan in steppes and meadows with Stipa , Festuca , and Cleistogenes . These data indicate that the members of the genus Aconurella can feed on different species of Gramineae, but at least some of them have distinct host preferences. In A. prolixa , these are B. ischaemum and C. dactylon , in A. diplachnis , this is C. squarrosa . Possibly, in A. quadrum and A. sibirica , the number of host species is actually also less than previously assumed. The foregoing allows us to conclude that the most reliable trait for species diagnostics in the genus Aconurella is the structure of the pygofer lobes. Also for this purpose, the shape of a dark pattern on the upper side of the body can be used. The analysis of male calling signals does not always yield good results. Reliable identification of host plants in the field is difficult. A recent comprehensive study of five Aconurella species from China , using various methods previously proposed for species delimitation using molecular data, generally confirmed the recognition of five species recognized by morphological traits [ Yan et al., 2022 ]. Moreover, one of the methods strongly supported the recognition of all five species and thus can be considered the most reliable for species differentiation, as has been also shown in other taxa. These results suggest that the morphological traits previously used to identify Aconurella species are indeed reliable and adequately reflect boundaries between genetically distinct taxa.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/A37587A4F927FFF9C4D5782D16D925E8#63C66539F922FFF9C02E7CD916D925E8">this account</a> <a href="https://treatment.plazi.org/id/A37587A4F927FFF9C4D5782D16D925E8">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1. External morphology and coloration The body length in different species of Aconurella overlaps greatly, so this trait cannot be used for species identification. In some species, there are macropterous and brachypterous forms, but usually, only one form predominates in each species. Among four species studied, A. prolixa and A. quadrum are always macropterous ( Figs 1–7 ). In our material on A. diplachnis Emelyanov, 1964 , brachypterous and subbrachypterous forms prevail ( Figs 8–12 ). All studied specimens of A. sibirica (Lethierry, 1888) are brachypterous ( Figs 13–15 ). Also, the studied species of Aconurella differ in the coloration of the dorsal part of the body. In A. quadrum and A. prolixa , pro- and mesonotum are usually without a black pattern. In A. prolixa , females have not spots on the crown ( Figs 3–4 ), males usually have only a small black spot at the crown apex ( Fig. 2 ); individuals with strongly developed dark pigmentation have two more triangular brown spots on the sides of the crown midline ( Fig. 1 ). A. quadrum has a black diamond-shaped spot on the crown in both males and females ( Figs 6–7 ). In males of A. diplachnis , the dark pattern is strongly developed ( Figs 8–10 ); in males of A. sibirica , it has a similar shape, but is less developed, especially on the pronotum ( Figs 13–14 ). Females of A. diplachnis and A. sibirica are indistinguishable ( Figs 11–12 and 15 ). In most cases, the forewing length and the coloration of the upper side of the body do not show geographical variability. The studied specimens of A. prolixa from Israel , Northern Caucasus, Kazakhstan , Central Asia, and India have exactly the same coloration and dark pattern as specimens from China [ Duan, Zhang, 2012 ] and Pakistan [ Naveed, Zhang, 2018 ]. Our specimens of A. diplachnis and A. sibirica are also similar in coloration to the Chinese ones [ Duan, Zhang, 2012 ]. A. prolixa from different regions is always macropterous, A. diplachnis from China is always macropterous (macropterous and brachypterous in our material), A. sibirica from China is usually brachypterous (always brachypterous in our material). Thus, the dark pattern and the forewing length can be succesfully used for species diagnostics, so the small series and even typically colored single specimens of these species can be identified by external traits. 2. Male genitalia In many leafhopper genera, differences in the aedeagus shape are the most reliable traits for species diagnosis. In different species of Aconurella , the aedeagus shape is similar ( Figs 16–35 ), and small differences between individuals are the result of intraspecific variability, as can be seen from the study of conspecific males from the same locality ( Figs 21–22, 30–31 ). The same is true for the shape of the valve, subgenital plates and styles ( Figs 36–50 ). Usually, the distal process of the style in all species has smooth edges; however, in some males it bears one or more small denticles on the outer or inner edges ( Figs 41, 43–44 ). The most reliable diagnostic trait is the shape and arrangement of denticles on the dorsoapical and posteroventral margins of the pygofer lobes; this trait is currently used by all authors describing Aconurella species ( Figs 51–68 ). In some cases, the shape of a semitransparent, weakly sclerotized area in the central part of the pygofer lobes is no less important for species diagnostics. For example, A. sibirica and A. quadrum are similar in the shape and arrangement of denticles on the pygofer lobes, but differ in the shape of a semitransparent area, band-shaped in A. quadrum ( Figs 59–60 ) and oval in A. sibirica ( Figs 66–68 ). This trait is still underestimated in the species diagnostics in this genus and was illustrated only for the Far Eastern species [ Anufriev, 1972 ; Anufriev, Emelyanov, 1988 ]. Therefore, the only trait of the male genitalia suitable for species diagnostics in Aconurella is the shape and arrangement of denticles on the pygofer lobes and the pattern of sclerotization of their central parts. 3. Male calling signals Small Auchenorrhyncha use for intraspecific communication not air-borne sounds, but vibrational signals transmitted via a solid substrate, i.e. plant stems or leaves on which the insects occur. As shown by ethological experiments, it is the differences in the structure of the calling signals emitted by males to attract conspecific females that constitute the principal precopulatory reproductive barrier in many groups. Therefore, when differentiating close forms by their signals, one can actually discriminate between biological species based on the very criterion of their reproductive isolation. For this reason acoustic analysis in taxonomy is a useful tool for recognition of biological species. On the other hand, species that do nor perceive each other’s signals due to allopatry or differences in host specialization can produce signals with an almost identical temporal pattern [review: Tishechkin, 2013 ]. Male calling signals of four Aconurella species from 14 localities in Russia , Kazakhstan , and Kyrgyzstan were studied ( Fig. 69 ). In A. diplachnis , A. quadrum , and A. prolixa , calling is a phrase lasting from about 10 up to 20–30 s and consisting of discrete syllables usually increasing in amplitude ( Figs 70–95 ). In all three species, the syllable temporal pattern, as a rule, changes in the same way from the beginning to the end of the phrase. The syllables in the initial part of the phrase are longer and consist of several discrete pulses (for example, Figs 75, 77–78, 83 ). Then the number of pulses gradually decreases and they merge with each other (for example, Figs 76, 79, 84–85 ). Often in the last syllables of a phrase, the pulses are almost indistinguishable (for example, Fig 80 ). Sometimes, the phrase begins with syllables with almost indistinguishable pulses, so that the shape of syllables remains almost unchanged throughout the phrase ( Figs 74, 81 ). Occasionally, the male produces shorter successions of syllables, as a rule lasting from 2–3 up to 5–7 s; these signals do not show such a distinct change in the syllable pattern as in prolonged phrases ( Figs 89–90 ). In our recordings, syllable repetition period averages 180–270 ms in A. diplachnis , 260–370 ms in A. prolixa , and 450–600 ms in A. quadrum . Accordingly, the signals of A. quadrum ( Figs 82–85 ) distinctly differ from the signals of A. prolixa and A. diplachnis , whereas the signals of the latter two species sometimes are indistinguishable (cf. Figs 70–81 and 86–95 ). This similarity of the signal patterns can be explained by the fact that A. diplachnis and A. prolixa , apparently, do not perceive each other’s signals due to differences in host specialization. A. sibirica has a completely different calling signal pattern. Signals of this species are phrases produced with irregular intervals of about 4–5 s and more; phrase duration averages 2–3 s ( Figs. 96–97 ). Usually the phrase begins with several discrete pulses followed by prolonged monotonous component ( Fig. 98 ). Sometimes discrete pulses at the beginning of a phrase are almost completely reduced ( Fig. 99 ). In most cases, we have signal recordings of only 1– 3 males from each locality. This is not enough for investigation of the geographical variability of signals, but it should be noted that, in general, the signals of conspecific males from different regions are similar. Thus, the calling signal analysis cannot always help to clarify the status of the species group taxa in this genus. Distinct differences in the signal patterns certainly indicate the species status of taxa, but the similarity of signals may not always be the basis for establishing synonymy.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/A37587A4F927FFF9C4D5782D16D925E8#63C66539F927FFFAC526787317F826E3">this account</a> <a href="https://treatment.plazi.org/id/A37587A4F927FFF9C4D5782D16D925E8">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/chiasmini/"><span>Chiasmini</span> <span class="n">1</span></a></li>
+<li><a href="/taxon/deltocephalinae/"><span>Deltocephalinae</span> <span class="n">1</span></a></li>
+<li><a href="/taxon/cicadellidae/"><span>Cicadellidae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/membracoidea/"><span>Membracoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/clypeata/"><span>Clypeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadomorpha/"><span>Cicadomorpha</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/auchenorrhyncha/"><span>Auchenorrhyncha</span> <span class="n">60,410</span></a></li>
+<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">72,144</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/doratura/"><i>Doratura</i> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Aconurella</i></td><td>Genus</td><td>Cicadellidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Aconurella">Plazi/Aconurella</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/aconurella/&quot;,
+  &quot;name&quot;: &quot;Aconurella&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/aconurella/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8HC5Q&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Chiasmini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/chiasmini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8HC5Q</p>
+</div></footer>
+</body>
+</html>

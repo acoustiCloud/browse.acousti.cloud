@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Smeringopus</title>
+<meta name="description" content="Smeringopus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/smeringopus/">
+<meta property="og:title" content="Bioacoustics of Smeringopus">
+<meta property="og:description" content="Smeringopus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CVQGH">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/smeringopus/", "name": "Smeringopus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/smeringopus/", "sameAs": "https://api.audioblast.org/taxon/CoL/CVQGH", "parentTaxon": {"@type": "Taxon", "name": "Pholcidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pholcidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Pholcidae", "item": "https://browse.acousti.cloud/taxon/pholcidae/"}, {"@type": "ListItem", "position": 8, "name": "Smeringopus", "item": "https://browse.acousti.cloud/taxon/smeringopus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/pholcidae/"><span class="rk">Family</span><span>Pholcidae</span></a></nav>
+<h1>Bioacoustics of <i>Smeringopus</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Relatively large pholcids (body length usually about 5–8 mm ) with elongate abdomen ( Figs. 2–13 ), usually with vivid dark pattern, deep thoracic pit ( Figs. 82 , 414 ), male palpal femur usually with deep retrolateral furrow with distinct proximal rim ( Figs. 344 , 411 ; absent in S. mpanga , S. ruhiza , and chogoria group), cymbium with macrotrichia ( Figs. 158 , 797 ), legs usually with curved hairs on tibiae and metatarsi (absent in thomensis group and cylindrogaster group), without spines on male femora (present in S. saruanle ). Distinguished from Smeringopina by absence of proximal lateral apophyses on male chelicerae, by barely modified male palpal trochanter, and by low number of modified hairs on male chelicerae (usually one on each side, rarely zero). Distinguished from other Smeringopinae genera by male gonopore with only two epiandrous spigots ( Figs. 159 , 347 ) and by absence of stridulatory ridges on chelicerae. Description. Male: Total body length ~3.5–10 (usually ~5–8); carapace width 1.2–3.3 (usually 1.5–2.5). Carapace with deep pit; ocular area weakly raised, eye triads relatively close together (distance PME-PME usually about same as PME diameter), each secondary eye accompanied by more or less distinct elevation ( Figs. 215 , 539 ; ‘pseudo-lenses’; cf. Huber 2009 ), AME relatively large, in low position. Clypeus high, never modified, usually with pair of dark stripes ( Figs. 179 , 570 ). Chelicerae never with stridulatory ridges, usually with pair of small apophyses near fang-joints, each provided with one modified hair ( Figs. 213 , 417 ); representatives of the rubrotinctus group with larger apophyses and without modified hairs ( Figs. 87 , 106 ). Palpal coxa with or without retrolateral apophysis, trochanter barely modified, femur usually with deep retrolateral furrow with distinct proximal rim ( Figs. 344 , 411 ; absent in S. mpanga , S. ruhiza , and chogoria group), cymbium always with macrotrichia ( Figs. 158 , 797 ), sometimes with process near palpal tarsal organ ( Figs. 357 , 367 ; very long in S. chogoria and S. bujongolo : Figs. 131, 132 ), palpal, tarsal organ capsulate ( Figs. 395 , 421 ), procursus never with hinge, tip usually with spine-like process and membranous structures, bulb with usually rather complex embolus and one or two processes arising from embolus or fused proximally to embolus. Legs long and thin, leg 1 length ~25–80 (usually ~35–60), tibia 1 ~6–20 ( Fig. 14 ; usually ~7–15), tibia 2 usually shorter than tibia 4 ( Fig. 16 ), especially in small species ( S. saruanle , S. oromia ). Tibia 1 L/d usually ~40–70, higher only in leaf-dwelling species ( cylindrogaster group: ~80–95). Legs usually without spines on femora (present in S. saruanle ), with curved hairs on tibiae and metatarsi (absent in thomensis group and cylindrogaster group), retrolateral trichobothrium very proximal (at 1.5–3.0%), prolateral trichobothrium always present (also on tibiae 1; Fig. 644 ). Tarsal pseudosegments very indistinct, apparently never regular rings but rather irregular platelets ( Figs. 89 , 346 ). Abdomen elongate, posteriorly rather pointed, never elevated above spinnerets, usually with distinct dark pattern dorsally, oblique lines or marks laterally, and distinctive ventral pattern usually consisting of dark epigastric area, two or three black lines in median part and two lines in posterior part ( Figs. 559, 567 ). Male gonopore always with two spigots ( Figs. 159 , 347 ), each ALS with large widened spigot, pointed spigot, and 5–6 cylindrically shaped spigots ( Figs. 419 , 665 ; S. thomensis with only two small cylindrically shaped spigots: Fig. 737 ; other species of the thomensis group also with reduced number but not studied with SEM). Female usually very similar to male, no sexual dimorphism in PME-PME distance, chelicerae unmodified, legs usually slightly shorter than in males, only in S. natalensis on average longer ( Fig. 15 ). Epigynum either a simple plate ( Figs. 168 , 399 ) or provided with pair of pockets ( Figs. 666, 672 ), very derived in S. isangi (with additional pair of pockets on lateral membranous processes; Fig. 542 ). Internal genitalia with frontal valve that is sometimes widened and divided medially (e.g. Figs. 616 , 790 ); pores of pore plates either homogeneously distributed ( Figs. 99 , 114 ) or in groups ( Figs. 349 , 397 ); rarely with internal pockets in female genitalia ( Figs. 342 , 361 ). Monophyly. In this monograph, I follow a conservative approach, keeping S. rubrotinctus and close relatives (the rubrotinctus species group) in Smeringopus even though preliminary molecular data (Dimitrov, Astrin &amp; Huber, in press) suggest that these taxa (together with the two species comprising the chogoria group) may be more closely related with Smeringopina than with Smeringopus . Following this conservative delimitation of Smeringopus , all cladistic analyses above agree on two synapomorphies for the genus: (1) the presence of curved hairs on the legs (char. 20); and (2) the presence of macrotrichia on the male palpal cymbium (char. 24). The analyses using equal and implied character weighting at K=6 identify one or two further synapomorphies, none of them convincing (char. 25: presence of process on cymbium near palpal tarsal organ; char. 35: epigynum with large posterior indentation). A re-delimited Smeringopus (as suggested by molecular data, i.e. excluding the rubrotinctus group and the chogoria group) would also be supported by two morphological characters: (1) male palpal femur with retrolateral furrow (char. 23); and (2) pore plates in female internal genitalia with pores arranged in groups (char. 36). Further analyses (including a more complete sample of Smeringopina and DNA sequences of more species) are needed to decide if the rubrotinctus and chogoria groups belong either to Smeringopus or to Smeringopina . Generic relationships. All analyses, under all weighting regimes used, agree on a sister group relationship between Smeringopus and Smeringopina . Three morphological characters support this relationship: (1) an elongated abdomen (char. 3); (2) the unique (among Pholcidae ) reduction of epiandrous spigots from 4 to 2 (char. 8); (3) the loss of cheliceral stridulation (char. 9). Preliminary molecular data support this close relationship (Dimitrov, Astrin &amp; Huber, in press), but the details need further investigation (especially regarding the positions of the rubrotinctus and chogoria groups; see Monophyly above). The outgroup sample is too small to allow well-founded conclusions about relationships among the other Smeringopinae , but it is noteworthy that Cenemus (which is endemic to the Seychelles ) consistently groups with these other genera (which are geographically restricted to northern Africa, the Mediterranean, and the Middle East) rather than with Smeringopus and Smeringopina (the two sub-Saharan genera). Cenemus shares with these northern genera the reduction of ALS spigots from 7–8 to 2, but it also shares a derived character with the two sub-Saharan genera (the elongated abdomen, char. 3). Specific relationships. Based on the cladistic analyses above and partly also on superficial similarity and geographic closeness, Smeringopus is here divided into twelve operational species groups, three of them monospecific. Some of these groups are likely monophyletic (e.g., rubrotinctus group, chogoria group, cylindrogaster group, thomensis group), one may be monophyletic even though the cladograms suggest otherwise ( hypocrita group), and at least one is very probably not monophyletic ( peregrinus group). This grouping, even though preliminary and not strictly cladistic, structures the existing diversity and reflects biogeographic patterns. In the descriptive section below, species are ordered according to species groups in the order used here (which in turn is derived from the cladogram in Fig. 1 ). 1. rubrotinctus group. This group includes five species ( S. rubrotinctus , S. mgahinga , S. bwindi , S. ruhiza , S. mpanga ) with an epigynum with posterior indentation ( Figs. 38–57 ; char. 35). In the analyses above, the group is always sister to all other Smeringopus , but molecular data (Dimitrov, Astrin &amp; Huber, in press) suggest a closer relationship with the chogoria group than with other groups. These two groups also share a rather dark, almost purplish coloration ( Figs. 18–23 , 115–118 ) and the geographic distribution ( Fig. 58 ). 2. chogoria group. This group includes two species that are extremely similar in most respects and share a very long process on the male palpal cymbium ( Figs. 131 , 157 ; char. 26). 3. S. ngangao . This species appears very isolated morphologically, especially by the absence of curved hairs on legs and by the absence of a distal apophysis on the procursus. 4. arambourgi group. Three species ( S. arambourgi , S. oromia , S. turkana ) of this largely Ethiopian group share a transversal dark band ventrally on the abdomen ( Figs. 170, 172, 174 ; char. 6). In two species ( S. lineiventris , S. saruanle ) the ventral abdominal pigment is largely or entirely reduced and the transversal band is thus barely visible or absent. Two further species are very likely part of this group but the types are lost and no new material is known to me ( S. affinitatus , S. zonatus ). 5. natalensis group. Most species of this large southern African group ( S. natalensis , S. koppies , S. badplaas , S. florisbad , S. lesnei , S. harare , S. blyde , S. hanglip , S. lydenberg ) are characterized by three (rather than one or two) processes arising from the genital bulb ( Figs. 302, 307 ; char. 32). Two species ( S. mlilwane , S. ndumo ) have only two processes arising from the genital bulb but are tentatively assigned to this group because of other specific similarities (e.g., ventrally strongly curved procursus; female genitalia) and geographic closeness. 6. S. pallidus . The type species of the genus appears very similar to representatives of the arambourgi group above but shares with the following groups a distinct retrolateral apophysis on the male palpal coxa ( Figs. 413 , 732 , 802 ; char. 21). 7. S. lesserti . This species shares with all the following groups the presence of epigynal pockets ( Figs. 423 , 666, 672 ; char. 33) but otherwise (bulbal apophyses, procursus tip) it appears very isolated. 8. hypocrita group. This group is restricted to southern Africa but in contrast to the natalensis group rather to the western than to the eastern side ( Fig. 475 ). The cladistic analyses never resolved this group as monophyletic, but apart from their geographic distribution, the species share a procursus tip that is strongly bent towards prolateral ( Figs. 477, 484 ; char. 18). The cladistic analyses separate the group into a more southern clade ( S. hypocrita , S. sederberg , S. dehoop ; probably also S. lotzi and S. ubicki that were not included in the matrix) and a more northern clade ( S. atomarius , S. uisib , S. tombua ). 9. cylindrogaster group. This group is unique (among Smeringopus ) in its pale coloration, resulting from its unique biology (high in the vegetation rather than near the ground; see Natural history below). The three species ( S. luki , S. isangi , S. cylindrogaster ) share a distinctive color pattern (abdomen dorsally monochromous, ventrally with black spots), an elongated cymbium, and a prominent proximal ventral process of the procursus. Two species occur in central Africa; the third is the only Smeringopus (other than S. pallidus ) that also occurs in western Africa. 10. peregrinus group. Representatives of this large group share with the two following groups a distinctive structure in the female internal genitalia (part of the valve appears medially widened and divided; Figs. 616 , 790 ; char. 37) but the group itself is probably not monophyletic. It is widely distributed in central and eastern Africa ( S. peregrinus , S. peregrinoides , S. katanga , S. butare , S. dundo ) but reaches further south until Namibia ( S. similis ), Zimbabwe , and Mozambique ( S. kalomo , S. chibububo ). S. moxico is tentatively assigned to this group even though the cladistic analysis suggests otherwise. 11. thomensis group. The three species of this group ( S. thomensis , S. principe , S. mayombe ) share the loss of curved hairs on the legs (char. 20) and the reduction of ALS spigots (char. 7; in S. thomensis two tiny cylindrically shaped spigots are still present: Fig. 737 ; in the other two species the spinnerets were studied in the light microscope only and it remains unknown if the spigots are entirely reduced or if two tiny spigots are still present too). They also share a distinctive pattern dorsally on the abdomen ( Figs. 699, 701, 703 ; not coded) and the geographic distribution ( São Tomé and Príncipe Islands and western Congo D.R.). 12. roeweri group. The four species of this group ( S. roeweri , S. lubondai , S. carli , S. sambesicus ) share rounded light projections proximally on the male chelicerae ( Figs. 771 , 779 ; char. 10). The group is widely distributed in central and eastern Africa. Natural history. Even though S. pallidus is a pantropical species, very few studies have been dedicated to exploring its biology in any detail. Jackson (1992) and Jackson et al. (1992) studied whirling behavior as a defense mechanism against predators such as web-invading jumping spiders. It is remarkable that in many places S. pallidus seems to have been largely replaced by other synanthropic species such a Physocyclus globosus . For example, Sánchez Roig (1911) cites S. pallidus (under Pholcus tipuloides ) as “una de las especies más vulgares de Cuba ”, but this does no longer seem to be the case (A. Pérez G. &amp; B. A. Huber, unpubl. obs.); also, Mello-Leitão (1918 , 1946 ) reports the species (under S. geniculatus ) to occur in “todo o Brazil , no littoral” and to be “muito comum no interior das habitações” in Rio de Janeiro , but the species does no longer seem to be common along the Brazilian coast (B.A. Huber, unpubl. obs.). For most other species, label data and observations by the author in South Africa , Kenya , Uganda , Cameroon , Gabon , and Guinea are the only sources of information. Most species prefer the same type of shady, protected habitat that is typical for pholcid spiders: holes and caverns, undersides of overhangs, dark spaces under logs and rocks and between buttresses. Here the spiders build their sheet webs that are more or less domed, with the animal hanging from the apex of the dome. Unlike most other pholcids but like many other Smeringopinae , several species of Smeringopus seem to be fairly tolerant against aridity. This may explain to some degree the fact that several species have invaded human constructions and it is thus remarkable that only one species has spread all over the world. Smeringopus occurs from sea level to over 3700 m , but only representatives of the rubrotinctus species group have been found beyond 2300 m . Most species of the rubrotinctus group appear restricted to high altitudes, and S. bujongolo is currently the pholcid spider with the highest known record in Africa (at 3780 m ). Most exceptional both in its morphology and behavior is S. cylindrogaster (its two close relatives share the morphology but their behavior has not been studied). Smeringopus cylindrogaster has shifted its microhabitat to the undersides of alive (green) leaves where it rests in an unusual lamp-shade web in an inverted position ( Fig. 13 ; Huber 2009 ). The entire spider has changed to a pale whitish coloration with black spots that break the contours. Only the dorsal side of the abdomen (that is pressed against the leaf) is monochromous (cf. Figs. 530, 534 ). Unlike other Smeringopus species that whirl or vibrate their bodies when disturbed, S. cylindrogaster remains tightly pressed against the leaf. The facultative construction of silk balls that are attached to the domed webs appears to be plesiomorphic for Smeringopus (see Cladistic analysis, char. 40), but only in a few species have such silk balls actually been observed: in S. pallidus ( Japyassú &amp; Macagnan 2004 ) , S. cylindrogaster ( Huber 2009 ) , S. peregrinus ( Figs. 8 , 623–625 ) and S. ngangao ( Fig. 7 ). Silk balls also occur in other genera of Smeringopinae ( Hoplopholcus , Holocnemus ; Wiehle 1933 ; Sedey &amp; Jakob 1998 ; J. &amp;. F. Murphy, unpubl. obs.), but they have been studied in more detail in only two species ( Hajer &amp; Řeháková 2003 ; Japyassú &amp; Macagnan 2004 ). The conditions under which such structures are incorporated into the web seem to vary among taxa. Distribution. With the exception of the pantropical S. pallidus , Smeringopus is largely restricted to central, eastern, and southern Africa ( Fig. 17 ). Other than S. pallidus , only two species occur outside Africa: (1) S. natalensis (originally from southern Africa) has been able to establish stable populations in Western Australia and New South Wales ( Huber 2001 ); (2) S. lineiventris is only known from Yemen . Only two species occur in western Africa ( S. pallidus and S. cylindrogaster ), where Smeringopus is largely replaced by Smeringopina . The two genera have a wide range of overlap in central Africa. The same occurs with Crossopriza in the Sahel and in north-eastern Africa. At least four species occur on Madagascar ( S. pallidus , S. carli , S. peregrinus , S. kalomo ), but none of them is endemic to the island and it is likely that at least three of them are recent (possibly human) introductions. Composition. As delimited here, Smeringopus now includes 55 described species, 36 of which are newly described below. The collections seen include about 20 further undescribed species that are not treated for various reasons: some are very similar to species treated herein; some are only represented by poorly preserved specimens; most are represented by only one sex. Considering the patchiness of collecting efforts and known distribution patterns in the genus, it appears likely that 50% of the actual species may remain undescribed.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03FBB532FF82170FFF6A0C063E9FFA13#C34857AFFF8D170FFF6A0BC03E9FFA13">this account</a> <a href="https://treatment.plazi.org/id/03FBB532FF82170FFF6A0C063E9FFA13">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pholcidae/"><span>Pholcidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/holocnemus/"><i>Holocnemus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aetana/"><i>Aetana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arnapa/"><i>Arnapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/artema/"><i>Artema</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anopsicus/"><i>Anopsicus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anansus/"><i>Anansus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/belisana/"><i>Belisana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/calapnita/"><i>Calapnita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/chisosa/"><i>Chisosa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/changminia/"><i>Changminia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/crossopriza/"><i>Crossopriza</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ciboneya/"><i>Ciboneya</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/galapa/"><i>Galapa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guaranita/"><i>Guaranita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hoplopholcus/"><i>Hoplopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hantu/"><i>Hantu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ibotyporanga/"><i>Ibotyporanga</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/holocneminus/"><i>Holocneminus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kambiwa/"><i>Kambiwa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/magana/"><i>Magana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/maghreba/"><i>Maghreba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/leptopholcus/"><i>Leptopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/micropholcus/"><i>Micropholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nerudia/"><i>Nerudia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nyikoa/"><i>Nyikoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ninetis/"><i>Ninetis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nita/"><i>Nita</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/panjange/"><i>Panjange</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcophora/"><i>Pholcophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pholcus/"><i>Pholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physocyclus/"><i>Physocyclus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/priscula/"><i>Priscula</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psilochorus/"><i>Psilochorus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/quamtana/"><i>Quamtana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/savarna/"><i>Savarna</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/spermophora/"><i>Spermophora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenosfemuraia/"><i>Stenosfemuraia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stygopholcus/"><i>Stygopholcus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tolteca/"><i>Tolteca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caipira/"><i>Caipira</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Smeringopus</i></td><td>Genus</td><td>Pholcidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Smeringopus">Plazi/Smeringopus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/smeringopus/&quot;,
+  &quot;name&quot;: &quot;Smeringopus&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/smeringopus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CVQGH&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pholcidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pholcidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CVQGH</p>
+</div></footer>
+</body>
+</html>

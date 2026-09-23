@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Tapiena</title>
+<meta name="description" content="Tapiena in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/tapiena/">
+<meta property="og:title" content="Bioacoustics of Tapiena">
+<meta property="og:description" content="Tapiena in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NZV9">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/tapiena/", "name": "Tapiena", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/tapiena/", "sameAs": "https://api.audioblast.org/taxon/CoL/8NZV9", "parentTaxon": {"@type": "Taxon", "name": "Holochlorini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/holochlorini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Orthoptera", "item": "https://browse.acousti.cloud/taxon/orthoptera/"}, {"@type": "ListItem", "position": 7, "name": "Ensifera", "item": "https://browse.acousti.cloud/taxon/ensifera-suborder/"}, {"@type": "ListItem", "position": 8, "name": "Tettigoniidea", "item": "https://browse.acousti.cloud/taxon/tettigoniidea/"}, {"@type": "ListItem", "position": 9, "name": "Tettigonioidea", "item": "https://browse.acousti.cloud/taxon/tettigonioidea/"}, {"@type": "ListItem", "position": 10, "name": "Tettigoniidae", "item": "https://browse.acousti.cloud/taxon/tettigoniidae/"}, {"@type": "ListItem", "position": 11, "name": "Phaneropterinae", "item": "https://browse.acousti.cloud/taxon/phaneropterinae/"}, {"@type": "ListItem", "position": 12, "name": "Holochlorini", "item": "https://browse.acousti.cloud/taxon/holochlorini/"}, {"@type": "ListItem", "position": 13, "name": "Tapiena", "item": "https://browse.acousti.cloud/taxon/tapiena/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera-suborder/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/phaneropterinae/"><span class="rk">Subfamily</span><span>Phaneropterinae</span></a><span class="sep">›</span><a href="/taxon/holochlorini/"><span class="rk">Tribe</span><span>Holochlorini</span></a></nav>
+<h1>Bioacoustics of <i>Tapiena</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1. Occiput dorsally convex. Male tenth abdominal tergum normal, not specialized........................................................ 2 - Occiput dorsally flat. Male tenth abdominal tergum strongly specialized ................................................................... 3 2. Coloration greenish brown. Front part of head, i.e., frons, clypeus and labrum dark brown; occiput and pronotum with narrow dark longitudinal stripe. Tegmen with distinct dark spots, M vein and Cu vein black ( Fig. 7a ). Male cerci very simple, short, strongly curved and crossing each other, abruptly but not strongly constricted behind base half, apex shaped into a spine ( Fig. 3d ) .......................................................................................................................... ................................................................................................................................ Tapiena bivittata Hsia &amp; Xia, 1992 - Coloration concolorous. Occiput and pronotum without any colourful stripe. Tegmen with M vein and Cu vein not black. Tegmen without any dark spots. Male cerci cylindrical, slightly curved, apical part enlarged, with a upcurved hook ( Fig. 3 h) ........................................................................................................... Tapiena simplicis Liu &amp; Xia, 1996 3. Male tenth abdominal tergum not compressed in lateral view; in dorsal view it slightly produced, with apical margin contracting with 4 spines ( Fig. 4d , f) ................................................................... Tapiena quadridens Liu &amp; Xia, 1996 - Male tenth abdominal tergum compressed in lateral view; in dorsal view, it produced backwards into a long median process........................................................................................................................................................................... 4 4. Medial process of male tenth abdominal tergum dorsally not concave, with apical part approximately truncated..... 5 - Medial process of male tenth abdominal tergum somewhat concave dorsally, with apical part concave .................... 8 5. Male tenth abdominal tergum with spiniferous dorsal surface in apical third part, and its ventral margin possessing several big spines; male cerci with apical part bispinose.............................................................................................. 6 - Apical part of male tenth abdominal tergum without spines or slightly spinous; male cerci only with one spine at apex ............................................................................................................................................................................... 7 6. Male tenth abdominal tergum with 4–5 big spines on ventral margin ( Fig. 4 g). Female subgenital plate triangular on the whole, ventral surface in basal part symmetrically intumesced, lateral margins of distal part slightly concave, and apical margin obtuse ( Fig. 4 k) .......................................................................... Tapiena spinicaudata Liu &amp; Xia, 1996 - Male tenth abdominal tergum with 2–3 big spines on ventral margin ( Fig. 4 m). Female subgenital plate pentagonal on the whole, with lateral margins of basal half part extending outwards, lateral margins of distal half part contracting and slightly convex, and apical margin emarginated ( Fig. 4 q) ............ Tapiena parapentagona Liu &amp; Kang , sp. n. 7. Size larger (length of male tegmen: 39mm ; length of male posterior femur: 17.5mm ). In dorsal view, male tenth abdominal tergum with short stick-like structure, apical margin with small symmetrical round lateral lobes ( Fig. 4d ). Female unknown ............................................................................................. Tapiena longzhouensis Liu &amp; Yin, 2004 - Size rather smaller (length of male tegmen: 32mm ; length male posterior femur: 16.5mm ). In dorsal view, male tenth abdominal tergum with long stick-like structure, apical margin without small symmetrical round lateral lobes ( Fig. 4 h). Female unknown ...................................................................................... Tapiena yunnana Xia &amp; Liu, 1989 8. Male tenth abdominal tergum dorsally with an indistinct very narrow median longitudinal furrow in the basal third part; male cerci with obtuse apex.................................................................................................................................. 9 - Male tenth abdominal tergum dorsally thoroughly with a distinct wide median longitudinal furrow, which almost separated the tenth abdominal tergum into two symmetrical lobes ( Fig. 6 o); male cerci with apex incurved into a triangular spine ( Fig. 6 p) .......................................................................................... Tapiena bilobata Liu &amp; Kang, sp. n. 9. Size much smaller (length of tegmen: male 32.5mm , female 37.0mm; length of hind femur: male 16.0mm, female 16.0mm). Male stridulatory file on underside of left tegmen with about 240 fine teeth ( Fig. 6a ). Female subgenital plate triangular on the whole, with lateral margins slightly convex, and apical margin obtuse ( Fig. 6 e) ..................... ................................................................................................................................................ Tapiena stridulous sp. n. - Size much larger (length of male tegmen: 35.0 – 36.0mm; length of hind femur: 17.0mm). Male stridulatory file on underside of left tegmen with about 150 rather distinct fine teeth and about apical 25 indistinct teeth ( Fig. 6b ). Female unknown ................................................................................................ Tapiena hainanensis Liu &amp; Xia, 1996</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/038887C57D04B95BA48FA0B4FA6EFF5B#C33B65587D04B95BA48FA0E2FA6EFF5B">this account</a> <a href="https://treatment.plazi.org/id/038887C57D04B95BA48FA0B4FA6EFF5B">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Fastigium verticis conical, of sub-equal width with scapus at base, distinctly narrowed at apex; dorsal furrow narrow; apex rounded, separated by a transverse furrow from fastigium frontis. Fastigium frontis with apex truncated. Occiput slightly convex, or with dorsal margin approximately flattened. Pronotal disc approximately flattened; anterior margin approximately straight, posterior margin rounded; transverse sulcus crossing midline lying in about middle of pronotum; elongate middle line usually indistinct, just possessing trace in middle, or even inexistent; lateral lobes of pronotum slightly higher than long; humeral sinus distinct. Tegmen widened, with sub-parallel margins; apical part conical, with approaching margins, apex rounded; radius sector bifurcated. Hind wings slightly projecting beyond tegmina. Each tibia with dorsal surface sulcate. Anterior femur with ventro-internal spines, median femur with ventro-external spines, and posterior femur with internal and external ventral spines; anterior and median tibiae usually without dorsal spinules, posterior tibiae with dorso-internal and external spinules. Male . Stridulatory file on underside of left tegmen cambered, simple, with dense fine teeth. Tenth abdominal tergum various, normal or strongly produced. Epiproct usually concealed under the tenth abdominal tergum. Cerci various through different species. Female . Tenth abdominal tergum with apical margin slightly broadly triangularly produced. Supra-anal plate obtuse triangular. Cerci faintly curved, narrow, conical, apex obtuse. Ovipositor falcate, upcurved, ventral valves serrulate near apex, dorsal valves mostly indistinctly denticulate.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/038887C57D07B95AA48FA128FF02FD80#C33B65587D07B959A4DEA71EFBCBF81D">this account</a> <a href="https://treatment.plazi.org/id/038887C57D07B95AA48FA128FF02FD80">at Plazi</a></p>
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1. Distribution: Africa................................................................... T. minor Bolívar, 1906 - Distribution: Asia..................................................................................... 2 2. Distribution: India ............... T. acutangula (Brunner von Wattenwyl, 1878) or T. latifolia Ingrisch &amp; Shishodia, 2000 - Distribution: China and Southeast Asia.................................................................... 3 3. Tenth abdominal tergite with apical process highly modified into a large laterally compressed plate (Figs. 1A– 1I , 5F)...... 4 - Tenth abdominal tergite simple, with little or no modification, often forming a simple plate (not laterally compressed) (Figs. 1J–1L, 6E, 6F)....................................................................................... 13 4. Apical process of tenth abdominal tergite bilobate apically (in dorsal view) ( Figs. 2 A–2E)............................ 5 - Apical process of tenth abdominal tergite not furrowed or bifurcate apically, often tapering into an acute, obtuse or truncated apex (in dorsal view) ( Figs. 2 F–2H, 5E).................................................................... 9 5. Subgenital plate with stylus distinctively longer than apical lobe ( Figs. 3 A, 3B).................................... 6 - Subgenital plate with stylus about same length as, or only slightly longer than apical lobe ( Figs. 3 C–3E)................ 7 6. Stridulatory file on left tegmen with about 240 fine teeth. Apical process of tenth abdominal tergite with short lobes at apex diverging outwards from one another; excision between lobes broadly rounded (in dorsal view) ( Fig. 2 A)............................................................................................. T. stridulous Liu &amp; Kang, 2010 - Stridulatory file on left tegmen with about 150 rather distinct fine teeth and about apical 25 indistinct teeth. Apical process of tenth abdominal tergite with short lobes at apex not diverging outwards from one another; excision between lobes truncated (in dorsal view) ( Fig. 2 B).......................................................... T. hainanensis Liu &amp; Xia, 1996 7. Apical process of tenth abdominal tergite distinctively forked or bilobate apically (in dorsal view) ( Figs. 2 C, 2D); in lateral view, with ventral process pointing ventrad (Figs. 1C, 1D). Cercus more slender and gently curved inwards ( Fig. 4 A)..... 8 - Apical process of tenth abdominal tergite feebly bilobate apically (in dorsal view) ( Fig. 2 E); in lateral view, with ventral process pointing ventrad-posteriorly (Fig. 1E). Cercus more robust with interior margin more concave ( Fig. 4 B)............................................................................................. T. longzhouensis Liu, 2004 8. Apical process of tenth abdominal tergite tapering to an acute apex, with ventral process short and forked apically (in lateral view) (Fig. 1C); forked into two triangular lobes; excision between lobes subacute (in dorsal view) ( Fig. 2 C)................................................................................................ T. javanica Karny, 1926 - Apical process of tenth abdominal tergite blunt, with ventral process long and acute apically (in lateral view) (Fig. 1D); forked into two truncated lobes; excision between lobes rounded (in dorsal view) ( Fig. 2 D).......... T. bilobata Liu &amp; Kang, 2010 9. Apical process of tenth abdominal tergite with dorsal surface spiniferous in the apical third, with numerous spines along ventral margin (Figs. 1F, 1G). Cercus with two processes at the apex, with a large distal spine and small subapical spine on exterior margin ( Figs. 4 C, 4D)................................................................................. 10 - Apical process of tenth abdominal tergite with dorsal surface not spiniferous; with few or no spines along ventral margin. Cercus not as above...................................................................................... 11 10. Apical process of tenth abdominal tergite with 4–5 spines on ventral margin, apex more blunt (in lateral view) (Fig. 1F)................................................................................ T. spinicaudata Liu &amp; Xia, 1996 - Apical process of tenth abdominal tergite with 2–3 spines on ventral margin, apex more acute (in lateral view) (Fig. 1G)............................................................................ T. parapentagona Liu &amp; Kang, 2010 11. Apical process of tenth abdominal tergite forming a triangular ventral process (in lateral view) (Figs. 1H, 1I , 2G, 2H)...... 12 - Apical process of tenth abdominal tergite produced into two long processes, not forming a triangular ventral process (in lateral view) ( Fig. 5 F)........................................................................... T. sakaerat sp. n. 12. Apical process of tenth abdominal tergite with apex acute (in lateral view and dorsally) (Figs. 1H, 2G).................................................................................... T. cucullata (Brunner von Wattenwyl, 1891) - Apical process of tenth abdominal tergite with apex truncated (in lateral view and dorsally) (Fig. 1I , 2H)............................................................................................... T. yunnana Xia &amp; Liu, 1990 13. Tenth abdominal tergite with teeth or long process apically (in dorsal view) ( Figs. 2 I, 2J)............................ 14 - Tenth abdominal tergite without tooth or long process apically (in dorsal view)................................... 15 14. Tenth abdominal tergite with a long process that tapers into an acute apex (Figs. 1J, 2I ). Cercus simple with two small apical spines (Figs. 1J, 2I ).................................................................. T. ensigera Karny, 1923 - Tenth abdominal tergite with four teeth apically, two lateral and two medial teeth (in dorsal view) ( Fig. 2 J). Cercus with interior margin inflated from middle with apex forming a wide compressed tooth ( Fig. 4 E)...... T. quadridens Liu &amp; Xia, 1996 15. Cercus simple, bent inwards apically into an acute apex ( Fig. 4 F).......................... T. bivittata Xia &amp; Liu, 1992 - Cercus modified (Figs. 1K, 1L, 4G– 4I , 6E–6G)............................................................. 16 16. Tenth abdominal tergite excised in the middle, to form two lobes............................................... 17 - Tenth abdominal tergite not excised in the middle........................................................... 18 17. Cercus with apex forming a broad, ovate node (Fig. 1K)...................................... T. bullata Karny, 1923 - Cercus distinctively bilobate apically with obtuse inner tooth (Fig. 1L)........................... T. incisa Karny, 1923 18. Cercus elongated; with apex acute and sclerotized, with dorsal margin denticulate ( Figs. 6 F, 6G). Subgenital plate deeply excised between apical lobes ( Fig. 6 G)...................................................... T. denticulata sp. n. - Cercus not as above. Subgenital plate not deeply excised between apical lobes ( Figs. 3 F–3H)........................ 19 19. Cercus more with more than apical half lamellate, narrowing into an apex that recurved dorsally ( Figs. 4 G, 4H).......... 20 - Cercus apical part enlarged apically, with an upcurved hook ( Fig. 4 I)....................... T. simplicis Liu &amp; Xia, 1996 20. Cercus with a lamellate appendage pointing dorsally in the middle ( Fig. 4 G). Subgenital plate with posterior margin triangularly excised between the lobes ( Fig. 3 F)............................................. T. stylata Bey-Bienko, 1935 - Cercus without a lamellate appendage pointing dorsally in the middle ( Fig. 4 H). Subgenital plate with posterior margin roundly excised between the lobes ( Fig. 3 G)............................................. T. cerciata Hebard, 1922</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/38500F2CB74CFFCBFF31FAF1A5C241F2#F8E3EDB1B74CFFCBFF31FA2BA5C241F2">this account</a> <a href="https://treatment.plazi.org/id/38500F2CB74CFFCBFF31FAF1A5C241F2">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/holochlorini/"><span>Holochlorini</span> <span class="n">266</span></a></li>
+<li><a href="/taxon/phaneropterinae/"><span>Phaneropterinae</span> <span class="n">19,596</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">83,915</span></a></li>
+<li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera-suborder/"><span>Ensifera</span> <span class="n">116,644</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">143,044</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/tapiena-bilobata/"><i>Tapiena bilobata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-denticulata/"><i>Tapiena denticulata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-incisa/"><i>Tapiena incisa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-paraincisa/"><i>Tapiena paraincisa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-parapentagona/"><i>Tapiena parapentagona</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-sakaerat/"><i>Tapiena sakaerat</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-stridulous/"><i>Tapiena stridulous</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-dimidia/"><i>Tapiena dimidia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tapiena-munae/"><i>Tapiena munae</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/ancylecha/"><i>Ancylecha</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/arantia/"><i>Arantia</i> <span class="n">1</span></a></li>
+<li><a href="/taxon/arnobia/"><i>Arnobia</i> <span class="n">102</span></a></li>
+<li><a href="/taxon/holochlora/"><i>Holochlora</i> <span class="n">182</span></a></li>
+<li><a href="/taxon/gonatoxia/"><i>Gonatoxia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/sinochlora/"><i>Sinochlora</i> <span class="n">5</span></a></li>
+<li><a href="/taxon/stictophaula/"><i>Stictophaula</i> <span class="n">84</span></a></li>
+<li><a href="/taxon/phaulula/"><i>Phaulula</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/psyrana/"><i>Psyrana</i> <span class="n">34</span></a></li>
+<li><a href="/taxon/calopsyra/"><i>Calopsyra</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/dapanera/"><i>Dapanera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/elbenia/"><i>Elbenia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pseudopsyra/"><i>Pseudopsyra</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/rectimarginalis/"><i>Rectimarginalis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ruidocollaris/"><i>Ruidocollaris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/sympaestria/"><i>Sympaestria</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pulchrapsyra/"><i>Pulchrapsyra</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Tapiena</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Tapiena">Plazi/Tapiena</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/tapiena/&quot;,
+  &quot;name&quot;: &quot;Tapiena&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/tapiena/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8NZV9&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Holochlorini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/holochlorini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8NZV9</p>
+</div></footer>
+</body>
+</html>

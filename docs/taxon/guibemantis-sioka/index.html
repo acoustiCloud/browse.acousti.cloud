@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Guibemantis sioka</title>
+<meta name="description" content="Guibemantis sioka in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/guibemantis-sioka/">
+<meta property="og:title" content="Bioacoustics of Guibemantis sioka">
+<meta property="og:description" content="Guibemantis sioka in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/V44T2">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/guibemantis-sioka/", "name": "Guibemantis sioka", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/guibemantis-sioka/", "sameAs": "https://api.audioblast.org/taxon/CoL/V44T2", "parentTaxon": {"@type": "Taxon", "name": "Guibemantis", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/guibemantis/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Mantellidae", "item": "https://browse.acousti.cloud/taxon/mantellidae/"}, {"@type": "ListItem", "position": 11, "name": "Mantellinae", "item": "https://browse.acousti.cloud/taxon/mantellinae/"}, {"@type": "ListItem", "position": 12, "name": "Guibemantis", "item": "https://browse.acousti.cloud/taxon/guibemantis/"}, {"@type": "ListItem", "position": 13, "name": "Guibemantis sioka", "item": "https://browse.acousti.cloud/taxon/guibemantis-sioka/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/mantellidae/"><span class="rk">Family</span><span>Mantellidae</span></a><span class="sep">›</span><a href="/taxon/mantellinae/"><span class="rk">Subfamily</span><span>Mantellinae</span></a><span class="sep">›</span><a href="/taxon/guibemantis/"><span class="rk">Genus</span><i>Guibemantis</i></a></nav>
+<h1>Bioacoustics of <i>Guibemantis sioka</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">distribution · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Distribution. Guibemantis sioka sp. nov. has only been found at high elevation sites ( Fig. 1 ). The new species is known from the following localities: (1) Ranomafana National Park at Maharira ( 21.3312°S , 47.4106°E , 1330 m a.s.l.), (2) Andohahela National Park ( 24.5440°S , 46.7141°E , ca. 1650 m a.s.l.), and (3) Ivohiboro ( 22.6176°S , 46.7202°E , 1210 m a.s.l.). The species is thus known from an elevational range of 1210–1650 m a.s.l. We note that this species has not been detected elsewhere at Ranomafana National Park, conforming to the pattern in several other frog species at Ranomafana that so far have only or predominantly been observed at the higher-elevation area of Maharira, e.g., Anodonthyla eximia , Gephyromantis runewsweeki or Mantidactylus delormei . Natural History . Guibemantis sioka sp. nov. appears to be rare and secretive, with only three specimens recorded to date. The holotype was found calling late in the night during a light rain, where earlier in the day it had rained heavily. The frog was calling about 2 meters high over a slow-moving ephemeral pool of water while situated on the leaves of a tree overlooking the water, with no other individuals of this species heard or seen at the site. The specimen from Ivohiboro was found two hours after dusk on a very misty night in a 0.03 square km forest fragment that at the time of collection (before the main rainy season) lacked a water body. The forest fragment was located 44 meters from the larger Analamary contiguous forest. The specimen from Andohahela was found during the day in the leaf axil of a Pandanus plant. All other aspects of the natural history of this species are unknown. Conservation status . The new species is known from Ranomafana and Andohahela National Parks, as well as from Ivohiboro which is not a nationally protected park but currently managed as a reserve by the Malagasy nongovernmental organization MICET. Although all forested areas in Madagascar are threatened by anthropogenically induced forest fires, illegal mining, cattle grazing and other anthropogenic activities, we are not aware of immediate threats to this species as all of its known sites of occurrence are located in protected areas. Considering this, a conservation status of Least Concern following IUCN (2001) criteria might be adequate, although due to the low amount of observations it could also be considered as Data Deficient.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/6E753952037DFF98A0E617D900DFFD0E#AEC6DBCF0377FF98A0B6148B00DFFD0E">this account</a> <a href="https://treatment.plazi.org/id/6E753952037DFF98A0E617D900DFFD0E">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of the holotype . Specimen in good state of preservation, with right thigh muscle removed for tissue sample ( Fig. 4 ). For full morphometric measurements see Table 1 . Adult male, SVL 43.0 mm. Body moderately slender; head longer than wide, slightly wider than body; snout rounded in dorsal, ventral, and lateral views; nostrils much nearer to tip of snout than to eye, slightly protuberant and pointed anterolaterally; canthus rostralis distinct, straight; loreal region slightly concave; tympanum distinct, its diameter 47% of eye diameter; distinct supratympanic fold; tongue ovoid, strongly bifid posteriorly; posterior tongue extensions slightly serrated; vomerine teeth quite distinct, forming an elongated aggregation posterolateral of each choana; choanae rounded. Forelimbs slender; subarticular tubercles distinct and single; central metacarpal tubercle rounded but not very prominent, outer metacarpal tubercle more ovoid than the central one but of similar length; a small and distinct prepollex (which could also be considered as an inner metacarpal tubercle) at base of first finger. Fingers largely without webbing, only a minimal trace of webbing recognizable between fingers I and II; relative finger length I&lt;II&lt;IV&lt;III; finger discs distinctly enlarged; nuptial pads absent. Hind limbs long and slender; when adpressed along body, the tibiotarsal articulation reaches between eye and nostril; lateral metatarsalia separated by webbing; inner metatarsal tubercle distinct, ovoid, larger than outer; outer metatarsal tubercle distinct, small and rounded; webbing formula of the foot 1(1), 2i(3), 2e(1), 3i(2), 3e(1), 4i(2.25), 4e(2.25), 5(1); relative toe length I&lt;II&lt;III &lt;V&lt;IV. Skin dorsally smooth with many small spicules across the dorsum; ventral skin smooth with some granulations on posterior belly and in inguinal region. Femoral glands recognizable from external view, distinct and coarsely granular, consisting of many small gland granules in a relatively diffuse field covering most of thigh ventrally, thus of type 1 as defined by Glaw et al. (2000) . In life ( Fig. 2 ), the specimen had a dark brown color on most of the dorsal surface, with a broad and sharply delimited yellow-beige vertebral stripe, darker brown color in the tympanic region, and a narrow yellowish-beige stripe running from the snout tip over the nostrils to the eyes, and along the supratympanic fold. Five slightly darker brown incomplete crossbands dorsally on thigh and three on shank; irregular darker brown markings also dorsally on forelimbs. Flank with rather sharply delimited pattern of gray-whitish vermiculation on a dark brown to blackish color. Upper part of the iris yellowish-beige, lower part of the iris dark brown. Ventrally white on throat changing to a darker beige towards the posterior part of the body, with dense irregular dark spotting especially on chest and belly. Limbs ventrally dark brown. After 11 years in preservative ( Fig. 4 ), the pattern remains identical, with some elements (such as dark crossbands and markings dorsally on limbs) being even more contrasted. Variation . The not fully-grown paratype from Andohahela ( ZSM 319 /2005) had a reddish copper dorsum, no pattern, unpigmented throat and whitish chest and venter with few dark spots, hindlimbs ventrally blackish and fingers and inner two toes ventrally yellowish ( Fig. 3A–B ). It is unclear whether the reddish dorsum represents a distinct color morph or ontogenetic variation. The individual from Ivohiboro ( MA130 ) based on available photographs ( Fig. 3C–E ) had an overall lighter color in life than the holotype , whitish unspotted belly, without conspicuously white color on throat, and very little dark pigment ventrally on limbs. In both, the paratype and the released individual, dark-light vermiculated pattern was distinct on the flanks, and this pattern thus appears to constitute one of the clearest morphological diagnostic features of the new species, although exceptions may occur as more individuals are documented. The Ivohiboro specimen had a SVL of 36.4 mm ; for measurements of the Andohahela paratype , see Table 1 . No traces of webbing between fingers were recognizable in paratype ZSM 319 /2005. Bioacoustics . Advertisement calls recorded from the holotype on 24 January 2013 are here described according to the scheme in previous descriptions of calls of Guibemantis (e.g., Vences et al. 2015 ), which corresponds to a call-centered scheme as defined by Köhler et al. (2017) . The call consists of a single pulsed note resembling a trill composed of somewhat tonal elements and is repeated in series. Data in the following refer to one call series that could be recorded in high quality ( Fig. 5 ). The call series consists of six calls each considered as consisting of one note. Note duration was 86–139 ms (116 ± 20 ms; n=6) and interval between notes was 818–1497 ms (1067 ± 273 ms; n=5). Notes consisted of 2–4 pulses of very unequal duration. Pulse duration was 6–55 ms (22 ± 14 ms; n=17), where the longest durations (38–55 ms) corresponded to the third or fourth pulse in 3–4-pulsed notes, and the shortest durations of 6–7 ms corresponded to the first pulse in 4-pulse notes, respectively. Pulse intensity also increased from first to last pulse in a call. Intervals between pulses were difficult to measure as some low amplitude could be seen on the oscillograms between many pulses, while some other pulses were separated by fully silent intervals; according to approximative measurements, inter-pulse duration was 0–20 ms (10 ± 6 ms; n=12). Pulse rate was 23–29/s. Several frequency bands are recognizable on the spectrogram, possibly due to harmonic effects of the somewhat tonal call, at 1205–1335 Hz, 2457–2583 Hz, 3789–3875 Hz, and 6244 Hz. The second of these frequency bands was most intense, and dominant frequency was observed at 2497 Hz. Phylogenetics. The phylogenetic tree estimated from the 16S RNA barcode fragment supports the morphological diagnosis by placing Guibemantis sioka sp. nov. within the genus Guibemantis as well as the subgenus Guibemantis ( Fig. 7 ). Uncorrected pairwise genetic distances (p-distances) of G. sioka sp. nov. are lowest (6.13–6.98%) to G. kathrinae and then ranging between ~6.5–8.0% to G. depressiceps and G. tornieri . The three G. sioka sp. nov. sequences differ from each other by 0.5% (Ivohiboro to Andohahela) and 2.3% (Ranomafana to both Ivohiboro and Andohahela). In the phylogenetic analysis, G. sioka sp. nov. is sister to the clade containing G. kathrinae and G. tornieri , but without strong bootstrap support. In Gabriel et al. (2024) , the one included G. sioka sp. nov. sequence (from Andohahela) was instead placed sister to G. depressiceps with very low bootstrap support. This exemplifies the need for analyzing the phylogenetic relationships among species in this subgenus with additional molecular markers, ideally with phylogenomic approaches.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/6E753952037DFF98A0E617D900DFFD0E#AEC6DBCF0378FF9BA0B6101D01C6F82D">this account</a> <a href="https://treatment.plazi.org/id/6E753952037DFF98A0E617D900DFFD0E">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis . Guibemantis sioka sp. nov. is allocated to the subgenus Guibemantis in the mantellid genus Guibemantis based on presence of intercalary elements between ultimate and penultimate phalanges of fingers and toes (verified by external inspection), the structure of femoral glands in males (of type 1 sensu Glaw et al. 2000 ; Vences et al. 2007 ), arboreal habits, partly or fully white subgular vocal sac, dorsal skin not tubercular and without dorsolateral ridges, enlarged terminal disks of fingers and toes and body size of males up to 43 mm , and phylogenetic relationships. The new species is distinguished from all species of the subgenus Pandanusicola in the genus Guibemantis by larger body size (adult male SVL 36–43 mm vs. &lt; 34 mm in males of Pandanusicola , and &lt; 31 mm in females of Pandanusicola except G. flavobrunneus ; Glaw &amp; Vences 2007 ; Lehtinen et al. 2011 , 2012 ; Vences et al. 2013 ; Koppetsch et al. 2023 ; Gabriel et al. 2024 ), as well as by numerous details of coloration, natural history, and bioacoustics (where advertisement calls are known). Morphological distinction of the new species within the subgenus Guibemantis is more difficult. It differs from G. diphonus by larger body size (male SVL 36–43 mm vs. 34−36 mm ) and relatively larger hands (ratio HAL/SVL in the adult holotype 0.365 vs. &lt;0.33); from G. kathrinae by smaller body size (SVL 36–43 mm vs. 57−59 mm in verified, topotypical specimens of G. kathrinae ); from most G. tornieri by smaller body size ( 36−43 mm vs. 42−58 mm ); from G. timidus by relatively larger hands (ratio HAL/SVL 0.327 –0.365 vs. &lt;0.32); and from all these species by a vermiculated and contrasted whitish / blackish pattern covering the entire flanks, without yellow elements (vs. lack of vermiculated pattern and often yellow color on posterior flanks in G. diphonus , G. timidus and G. tornieri ; and blackish flanks with white spots in G. kathrinae ). The new species is most similar to G. depressiceps from which it differs by a more contrasted (vs. often poorly contrasted) vermiculated flank pattern, and by larger hands (ratio HAL/SVL of the adult holotype 0.365 vs. 0.298 –0.351 in 19 adult specimens of G. depressiceps measured by Vences &amp; Glaw 2005 ; note however that the relative hand length of the not fully-grown paratype of the new species, 0.327, is within the range of G. depressiceps ). The advertisement call of the new species ( Fig. 5–6 ) differs from all other species in the subgenus Guibemantis by the distinct differences in pulse duration between first and last pulse, and by the longer pulse duration of the last pulse (up to 55 ms). The last pulse is usually much shorter in other species of the subgenus and especially in G. depressiceps as can be seen on the comparative oscillograms (pulse duration of other species have however not been measured in detail due to difficulties in clearly separating pulses from silent intervals). Furthermore, the call differs from those of G. tornieri and G. kathrinae by a much faster repetition rate of 23–29/s (vs. 12–21/s), from that of G. diphonus by absence of a second note type (vs. presence), and from all other species by the rather tonal “trill” structure with multiple distinct (harmonic) frequency bands (vs. more pulsatile without distinct frequency bands) and a higher dominant frequency at 2497 Hz (vs. &lt; 2000 in all other species except G. diphonus ; Fig. 6 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/6E753952037DFF98A0E617D900DFFD0E#AEC6DBCF037AFF95A0B615180654FD9A">this account</a> <a href="https://treatment.plazi.org/id/6E753952037DFF98A0E617D900DFFD0E">at Plazi</a></p>
+<p class="topic">etymology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Etymology . The specific epithet sioka is a Malagasy word meaning “chirp”. The name was chosen to describe the distinct call this species makes, which reminds one of the sound of a bird chirping or emitting trills. The name is to be treated as an invariable noun in apposition.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/6E753952037DFF98A0E617D900DFFD0E#AEC6DBCF037AFF97A0B6148C01AFF89E">this account</a> <a href="https://treatment.plazi.org/id/6E753952037DFF98A0E617D900DFFD0E">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/guibemantis/"><i>Guibemantis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/mantellinae/"><span>Mantellinae</span> <span class="n">13</span></a></li>
+<li><a href="/taxon/mantellidae/"><span>Mantellidae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/guibemantis-diphonus/"><i>Guibemantis diphonus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Guibemantis sioka</i></td><td>Species</td><td>Mantellidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Guibemantis sioka">Plazi/Guibemantis sioka</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/guibemantis-sioka/&quot;,
+  &quot;name&quot;: &quot;Guibemantis sioka&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/guibemantis-sioka/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/V44T2&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Guibemantis&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/guibemantis/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/V44T2</p>
+</div></footer>
+</body>
+</html>

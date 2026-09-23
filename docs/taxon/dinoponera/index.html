@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Dinoponera</title>
+<meta name="description" content="Dinoponera in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/dinoponera/">
+<meta property="og:title" content="Bioacoustics of Dinoponera">
+<meta property="og:description" content="Dinoponera in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/45TH">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/dinoponera/", "name": "Dinoponera", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/dinoponera/", "sameAs": "https://api.audioblast.org/taxon/CoL/45TH", "parentTaxon": {"@type": "Taxon", "name": "Ponerini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/ponerini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hymenoptera", "item": "https://browse.acousti.cloud/taxon/hymenoptera/"}, {"@type": "ListItem", "position": 7, "name": "Apocrita", "item": "https://browse.acousti.cloud/taxon/apocrita/"}, {"@type": "ListItem", "position": 8, "name": "Aculeata", "item": "https://browse.acousti.cloud/taxon/aculeata/"}, {"@type": "ListItem", "position": 9, "name": "Formicoidea", "item": "https://browse.acousti.cloud/taxon/formicoidea/"}, {"@type": "ListItem", "position": 10, "name": "Formicidae", "item": "https://browse.acousti.cloud/taxon/formicidae/"}, {"@type": "ListItem", "position": 11, "name": "Ponerinae", "item": "https://browse.acousti.cloud/taxon/ponerinae/"}, {"@type": "ListItem", "position": 12, "name": "Ponerini", "item": "https://browse.acousti.cloud/taxon/ponerini/"}, {"@type": "ListItem", "position": 13, "name": "Dinoponera", "item": "https://browse.acousti.cloud/taxon/dinoponera/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hymenoptera/"><span class="rk">Order</span><span>Hymenoptera</span></a><span class="sep">›</span><a href="/taxon/apocrita/"><span class="rk">Suborder</span><span>Apocrita</span></a><span class="sep">›</span><a href="/taxon/aculeata/"><span class="rk">Infraorder</span><span>Aculeata</span></a><span class="sep">›</span><a href="/taxon/formicoidea/"><span class="rk">Superfamily</span><span>Formicoidea</span></a><span class="sep">›</span><a href="/taxon/formicidae/"><span class="rk">Family</span><span>Formicidae</span></a><span class="sep">›</span><a href="/taxon/ponerinae/"><span class="rk">Subfamily</span><span>Ponerinae</span></a><span class="sep">›</span><a href="/taxon/ponerini/"><span class="rk">Tribe</span><span>Ponerini</span></a></nav>
+<h1>Bioacoustics of <i>Dinoponera</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Redescription Female MEASUREMENTS. Body length greater than 22 mm . Head width greater than 4 mm . HEAD. In full-face view sub-rectangular, posterior margin concave, lateral margins subparallel, broadly convex. Anterior clypeal margin in frontal view with lateral tooth along same longitudinal axis as antennal insertion; clypeal disc with longitudinal raised area that narrows posteriorly between frontal lobes. Clypeal disc generally microareolate, laterally smooth to striate; anterior margin with hairs as long as or longer than clypeal tooth; external side of tooth usually with row of short hairs. Anterior tentorial pit region with oblique striae. Frontal lobe covers most of antennal insertion, anteriorly distinctly elevated above surrounding cuticle, internal margin forms fine longitudinal strip below frontal lobe surface; anterior region usually areolate, posterior constriction longitudinally striate. Malar area with varying amounts of longitudinal to oblique striae; if present, striae may reach all of anterior ocular margin and extend to gena, rarely surpassing posterior ocular margin. Gena may be smooth and shining to microareolate and opaque; pilosity variable. Anterior gena with or without longitudinal striae and variable appressed pubescence. Eye elliptical to broadly convex, placed on anterior half of head, occupying less than one-fourth of lateral cephalic margin, not reaching lateral cephalic margin in fullface view; circumocular sulcus present. Appressed pubescence present between eye and frontal lobe, extending posteriorly to frons. Frons smooth and shining to microareolate and opaque; insertion of hairs scalloped, posteriorly fading (particularly noticeable in D. hispida ); pilosity variable; pubescence usually very sparse on median portion and densest laterally. Longitudinal median sulcus extends from between frontal lobes to frons, ending in tiny depression. Occipital corner strongly microareolate and opaque to smooth and shining (with no visible microsculpture with up to 32× magnification). Antenna with 12 segments. Scape extends beyond posterior margin of head; length usually longer than head width; smooth or microareolate; pilosity variable. First six funicular segments usually widening towards apex; funiculus with sparse hairs longer than scape diameter usually on first segments, rarely on four to five most apical segments; funicular segments densely covered by appressed and very short pubescence. Ventral surface smooth and shining to weakly microareolate or strigulate and opaque; strigulae absent to covering all surface or just anterior half; pilosity variable; hypostomal tooth usually longitudinally striate. Labrum smooth or weakly transversely striate-punctate; median longitudinal sulcus present or absent. Mandible subtriangular; usually with seven teeth; basal tooth separated from other teeth by diastema; dorsum weakly longitudinally striate only at inner base or along masticatory margin; long hairs present along masticatory margin; integument widely impressed at hair insertions. Mandible ventrally curved in lateral view. Mandible in ventral view with shallow longitudinal basal sulcus that gradually fades apicad; sulcus and row of long, flexuous hairs parallel masticatory margin. Discal area of stipes depressed, usually smooth, sometimes weakly rugulose; usually two long and flexible hairs visible at base. Submentum with weak sulcus at base; discal protuberance present; usually no microsculpturing visible. Palpal formula 4,4. MESOSOMA. In lateral view, dorsal margin slightly divided by promesonotal junction; pronotum slightly higher than rest of mesosoma. Dorsal margin of pronotum in lateral view convex. Pronotum with lateral dorsoposterior swelling of variable convexity; smooth and shining to opaque and microareolate and/or rugulose; lateral surface densely covered by appressed to decumbent pubescence. Anteroventral corner of pronotum rounded, angled or toothed. Propleuron densely punctulate and pubescent. Prosternal process longer than wide. Mesonotal and propodeal dorsal margins in lateral view continuous and widely convex, metanotal groove slightly impressed. Mesopleuron and mesosternum separated by welldeveloped carina. Anepisternum usually with mesopleural pit next to mesometapleural suture and to metathoracic spiracle. Mesometapleural suture straight and well developed. Metanotal spiracular sclerite ovoid. Dorsal and declivitous propodeal margins in lateral view rounded and continuous; propodeal spiracle opening vertical to oblique and slit-shaped; spiracle at same level as surrounding propodeal surface; metapleural-propodeal suture well-marked and straight, or weak and sinuous. Mesometapleuron and lateral surface of propodeum punctulate; appressed pubescence variable in length and density. Mesonotum and propodeal dorsum usually densely covered with punctulae bearing medially converging pubescence. Mesosoma usually with numerous long hairs, distance between each hair usually less than half length. Coxae, femora and tibiae microareolate or smooth, with long hairs throughout each surface, separated from each other by distance less than half its length. Protibial apex with robust seta and well-developed pectinate spur, spur lamellate on inner base. Protibia with pubescence concentrated on opposing side of robust seta. Meso- and metatibia each with row of robust setae around entire apex, each apex with simple spur and pectinate spur; pubescence more concentrated on opposite surface of pectinate spur. Posterior surface of probasitarsus with basal concavity containing row of dark brown setae and parallel row of fine, light brown hairs; surface covered by thick yellow hairs. Tarsi with dark brown setae concentrated ventrally on apex of each tarsomere. Tarsal claws bidentate, arolium absent. METASOMA. Petiolar node in lateral view usually robust and sub-rectangular; taller than long; lateral surface smooth and shining to microareolate and opaque; anterior margin with short, whitish decumbent hairs. Node longer than broad in dorsal view, narrower than either propodeum or abdominal tergite III; lateral margins subparallel to anterodorsally converging, always with rounded corners; integument shining or opaque. Hairs present in variable density. Posterior surface usually with shallow longitudinal sulcus. Petiolar sternite height in lateral view always higher anteriorly than posteriorly; subpetiolar process anteroventrally projecting; anterior apex rounded or longitudinally carinate. Anterior margin of abdominal tergite III in lateral view broadly convex and vertical; dorsal margin broadly convex; prora discrete and slightly concave ventrally. Gastral spiracles rounded. Abdominal tergite III in dorsal view smooth and shining to microareolate and opaque, with hairs of variable length and density; pubescence either present on entire surface or concentrated only laterally. Abdominal pretergite IV with fine transverse striae, stridulatory file of variable size (usually well-developed in D. lucida Emery, 1901 and D. longipes Emery, 1901 ). Pygidium and hypopygidium each with lateral row of stout setae. Apex of hypopygium ending in two robust triangular spines which are usually covered dorsally by pygidium. COLOR. Integument black. Male MEASUREMENTS. Body length (BL1) greater than 12 mm . Head width greater than 2.1 mm . HEAD. In full-face view ovoid, wider than long. Anterior margin of clypeus with a transverse lamella, concave; surface of clypeal disc with slight swelling. Anterior tentorial pit large. Epistomal sulcus usually broadly convex. Supraclypeal area flat and triangular-shaped, located between antennal sockets. Distance between antennal sockets less than their maximum diameter. Torular arch simple, exposing antennal condyles. Frontal carina reduced to a short median longitudinal swelling between posterior margins of antennal sockets. Eye large and convex, occupying entire lateral cephalic margin; inner margin emarginate at height of antennal socket. Median and lateral ocellus present; lateral ocellus surpassing posterior head margin in full-face view, except in some specimens of D. grandis . Posterior margin of head convex. Head punctulate and slightly microareolate, varying from shining to silky sheen; with decumbent to suberect yellowish pubescence; variable density of hairs. Antenna with 13 segments; filiform. Scape wider than all other segments; at least two times as long as pedicel; length approximately half that of third antennal segment. Antenna with appressed pubescence; hairs, if present, only on funiculus. Ventral surface of head varies from microareolate and subopaque to smooth and shining. Mandible reduced, edentate, spoon-shaped in lateral view; weakly punctulate and shiny. Labrum reduced, narrower than labium; anterior margin concave, rarely rounded in D. quadriceps Kempf, 1971 . Palpal formula 4,3, sometimes 5,3. MESOSOMA. Pronotum in dorsal view narrow, with concave posterior margin; posterolateral corner acute and bulging. Mesoscutum in dorsal view rounded; with anteromedian longitudinal carina and lateral parapsidal line; notaulus present or absent; in lateral view with convex dorsal margin. Mesopleural sulcus oblique and well-developed; mesopleural pit easily distinguible, opening anteroventrally. Spiracular sclerite approximately rounded, opening posterodorsally. Scutoscutellar sulcus easily distinguible and usually scrobiculate. Mesoscutellum in dorsal view with concave anterior margin and straight to convex posterior margin, usually with lateral strigulae; dorsal margin in lateral view strongly convex. Metanotum usually with silky sheen, narrow and sub-rectangular in dorsal view, convex in lateral view; metanotal disc slightly rugulose, laterally strigulate. Metapleuron with oblique median depression at posterior metapleural pit; metapleural pit opening usually facing anteroventrally, except in some specimens of D. grandis and D. lucida . Metapleuron with anteroventral carina that extends briefly posterodorsally. Metapleural-propodeal suture forms carina that fades dorsally to propodeal spiracle, becoming broad, sometimes scrobiculate, sulcus. Anterior margin of propodeum in dorsal view with median notch; dorsal and declivitous margins of propodeum slightly discontinuous, sometimes separated by weak carina; propodeal spiracle slit-shaped. Mesosoma varies from microareolate and subopaque to smooth and shining, becoming coarsely punctate on declivitous surface of propodeum, except in D. grandis ; usually with decumbent pubescence; long hairs present or absent. Legs very slightly microareolate and shining; densely pubescent; long hairs present or absent. Protibial apex sometimes with one stout seta; protibial spur well-developed and pectinate with lamellate inner base. Meso- and metatibiae each with two pectinate spurs at apex: one well-developed and the other less developed. Posterior surface of probasitarsus with basal concavity containing row of short setae. Tarsi with decumbent setae, usually more concentrated on apex of each tarsomere; claws bidentate; arolium well-developed. Wings covered by short pubescence. Forewing with pterostigma and following longitudinal veins: C, Sc+R, R, Rs+M, M, M+Cu, Cu and A; crossveins 2r-rs, 2rs-m, 1m-cu and cu-a present. Hindwing with following longitudinal veins: R+Rs, Rs, M+Cu, M, Cu and A; crossveins 1rs-m and cu-a present. METASOMA. Petiolar node in lateral view with rounded dorsal margin, anterior and posterior margins forming a continuous curve, usually with posterior hump; spiracle oval to rounded. Petiolar sternum continuous, lacking well-developed subpetiolar process, usually longitudinally carinate. In dorsal view longer than wide with rounded corners. Sculpturing varies from microareolate and subopaque to smooth and shining; pubescence and pilosity of variable density. Anterior margin of abdominal tergite III in lateral view broadly convex and curving posterad. Gastral spiracles oval to rounded. Abdominal pretergite IV with stridulatory file. Well-marked constriction between abdominal segments III and IV; abdominal tergite VIII (pygidium) triangular to spiniform. Cercus apically dilated, with long hairs; hypopygium elongate, posterior margin concave to straight. Sculpturing varies from microareolate and subopaque to smooth and shining; pubescence and pilosity of variable density. GENITALIA. Basal ring in dorsal view trapezoid, with lateral margins converging anteriorly; dorsoanterior margin thicker, forming lateral loop and median invagination; each loop surrounds a fenestra. Basal ring in lateral view with dorsal margin varying from straight to very concave, some species having anterior lobe; anteroventral process varying from rounded to subquadrate to subtriangular. Parameres notably divided in two regions: gonocoxite anteriorly and gonostylus posteriorly; gonostylus varying from broad and rounded to narrow and sharp. Cuspis volsellaris in lateral view finger-like and ventrally torulose, size variable; digitus volsellaris widening posteriorly, ventral margin varying from broadly to strongly concave; posterior region torulose. Penisvalva highly variable among species, with ventral margin serrated. COLOR. Integument in shades of brown, with legs usually lighter.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/096C6310A110FFC1FDA4A2B2FAD6F5C1#C9DF818DA110FFC6FF45A0A9FC19F771">this account</a> <a href="https://treatment.plazi.org/id/096C6310A110FFC1FDA4A2B2FAD6F5C1">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis Female Mandible subtriangular. Anterior clypeal margin with lateral tooth along same longitudinal axis as antennal insertion. Head width greater than 4 mm . Pygidium and hypopygium each with lateral row of stout setae. Body length (BL) longer than 22 mm . Male Head width, including compound eyes, greater than 2.1 mm . Abdominal pretergite IV with stridulatory file. Meso- and metatibiae each with two pectinate spurs at apex. Easily diagnosed among Ponerinae by the large size (BL1&gt; 12 mm ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/096C6310A110FFC1FDA4A2B2FAD6F5C1#C9DF818DA110FFCBFF45A134FDB9F786">this account</a> <a href="https://treatment.plazi.org/id/096C6310A110FFC1FDA4A2B2FAD6F5C1">at Plazi</a></p>
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Remarks This genus is rarely mistaken with any other due to its enormous size. Dinoponera shares some synapomorphies with Pachycondyla Smith, 1858 , the most notable being the presence of a row of stout setae on the hypopygium on each side of the sting ( Schmidt &amp; Shattuck 2014 ). However, females of Pachycondyla have no tooth on the anterior margin of the clypeus and rarely exceed 2 cm in body length. Neither females nor males of Pachycondyla have a stridulatory file on abdominal pretergite IV, a character present in both sexes of Dinoponera . A possible karyotypic apomorphy of Dinoponera is the presence of a pair of pseudo-acrocentric chromosomes, observed in D. grandis , D. gigantea , D. lucida and D. quadriceps ( Santos et al. 2012 ) .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/096C6310A110FFC1FDA4A2B2FAD6F5C1#C9DF818DA11DFFC6FF45A005FD2BF0D0">this account</a> <a href="https://treatment.plazi.org/id/096C6310A110FFC1FDA4A2B2FAD6F5C1">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/ponerini/"><span>Ponerini</span> <span class="n">12</span></a></li>
+<li><a href="/taxon/ponerinae/"><span>Ponerinae</span> <span class="n">12</span></a></li>
+<li><a href="/taxon/formicidae/"><span>Formicidae</span> <span class="n">117</span></a></li>
+<li><a href="/taxon/formicoidea/"><span>Formicoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/aculeata/"><span>Aculeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/apocrita/"><span>Apocrita</span> <span class="n">1,381</span></a></li>
+<li><a href="/taxon/hymenoptera/"><span>Hymenoptera</span> <span class="n">1,589</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/leptogenys/"><i>Leptogenys</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/megaponera/"><i>Megaponera</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pseudoneoponera/"><i>Pseudoneoponera</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pachycondyla/"><i>Pachycondyla</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/phrynoponera/"><i>Phrynoponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/plectroctena/"><i>Plectroctena</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psalidomyrmex/"><i>Psalidomyrmex</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/streblognathus/"><i>Streblognathus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/austroponera/"><i>Austroponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/bothroponera/"><i>Bothroponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/euponera/"><i>Euponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/neoponera/"><i>Neoponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/rasopone/"><i>Rasopone</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Dinoponera</i></td><td>Genus</td><td>Formicidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Dinoponera">Plazi/Dinoponera</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/dinoponera/&quot;,
+  &quot;name&quot;: &quot;Dinoponera&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/dinoponera/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/45TH&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Ponerini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/ponerini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/45TH</p>
+</div></footer>
+</body>
+</html>

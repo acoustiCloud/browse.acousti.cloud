@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Tormus</title>
+<meta name="description" content="Tormus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/tormus/">
+<meta property="og:title" content="Bioacoustics of Tormus">
+<meta property="og:description" content="Tormus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8X7XB">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/tormus/", "name": "Tormus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/tormus/", "sameAs": "https://api.audioblast.org/taxon/CoL/8X7XB", "parentTaxon": {"@type": "Taxon", "name": "Laccobiini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/laccobiini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Coleoptera", "item": "https://browse.acousti.cloud/taxon/coleoptera/"}, {"@type": "ListItem", "position": 7, "name": "Polyphaga", "item": "https://browse.acousti.cloud/taxon/polyphaga/"}, {"@type": "ListItem", "position": 8, "name": "Staphyliniformia", "item": "https://browse.acousti.cloud/taxon/staphyliniformia/"}, {"@type": "ListItem", "position": 9, "name": "Hydrophiloidea", "item": "https://browse.acousti.cloud/taxon/hydrophiloidea/"}, {"@type": "ListItem", "position": 10, "name": "Hydrophilidae", "item": "https://browse.acousti.cloud/taxon/hydrophilidae/"}, {"@type": "ListItem", "position": 11, "name": "Hydrophilinae", "item": "https://browse.acousti.cloud/taxon/hydrophilinae/"}, {"@type": "ListItem", "position": 12, "name": "Laccobiini", "item": "https://browse.acousti.cloud/taxon/laccobiini/"}, {"@type": "ListItem", "position": 13, "name": "Tormus", "item": "https://browse.acousti.cloud/taxon/tormus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/coleoptera/"><span class="rk">Order</span><span>Coleoptera</span></a><span class="sep">›</span><a href="/taxon/polyphaga/"><span class="rk">Suborder</span><span>Polyphaga</span></a><span class="sep">›</span><a href="/taxon/staphyliniformia/"><span class="rk">Series Zoology</span><span>Staphyliniformia</span></a><span class="sep">›</span><a href="/taxon/hydrophiloidea/"><span class="rk">Superfamily</span><span>Hydrophiloidea</span></a><span class="sep">›</span><a href="/taxon/hydrophilidae/"><span class="rk">Family</span><span>Hydrophilidae</span></a><span class="sep">›</span><a href="/taxon/hydrophilinae/"><span class="rk">Subfamily</span><span>Hydrophilinae</span></a><span class="sep">›</span><a href="/taxon/laccobiini/"><span class="rk">Tribe</span><span>Laccobiini</span></a></nav>
+<h1>Bioacoustics of <i>Tormus</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Redescription of adult. Body elongate oval, highly convex, compressed from sides ( Figs 1A ). General coloration of dorsal surface piceous brown to black, margins of pronotum and lateral margins and apices of elytra pale reddish to various extent; ventral parts of prothorax brownish, meso- and metathorax blackish, epipleura pale reddish; head appendages reddish; legs with dark reddish brown coxae, femora and tibiae; tarsomeres yellowish. Head. Clypeus and frons ( Fig. 4A ) distinctly punctate, frons with several trichobothria ( Fig. 4C ), clypeus without trichobothria; frontoclypeal suture very indistinct; clypeus slightly expanded laterally, covering bases of antennae, anteromedian margin deeply excised, exposing the membrane between clypeus and labrum, lateral margins of clypeus without a bead. Eyes small, not protruding from outline of head, separated by 4.5× width of one eye. Labrum ( Figs 3 A–B) well sclerotized, completely exposed dorsally, widest subbasally, strongly narrowed basally and arcuately narrowing anteriad, shallowly bisinuate on anterior margin; dorsal surface bearing two pairs of long sublateral setae and one pair of submesal setae and the ground punctation similar to that on clypeus; anterior margin mesally with a series of stout blunt spines; epipharynx with a lateral row of stout large spines on each side, median portion with two vertical rows of long cuticular spines, submesally with one pair of anterior and one pair of large posterior porose fields, basal portion with densely pubescent membranous cone. Mandibles ( Fig. 3C ) symmetrical, with arcuate lateral margin, bifid mandibular apex; mediodistal portion with a series of long cuticular projections, medioproximal portion with very fine setae, mola rather large. Maxilla ( Fig. 3E ) with a large subtriangular cardo lacking trichobothria; basistipes triangular, bearing few fine setae only; mediostipes well delimited from lacinia, lacinia moderately sclerotized, bearing stout spines and long thin cuticular projections distally and finer hair-like setae mesally; galea short, with rather stout distal setae arranged into well-defined rows; palpifer rather small, with few rather long setae; maxillary palpus with 4 palpomeres, palpomere 1 minute, palpomeres 2 and 4 subequal in length, ca. twice length of palpomere 3; base of palpomere 4 with a group of ca. three digitiform sensilla on lateral surface. Labium ( Fig. 3D ) with submentum ca. as long and wide as mentum, bearing sparsely arranged setae; mentum transverse, ca. 1.7× wider than long, with continually convex anterior margin and subparallel lateral margins, its surface bearing numerous setae along anterior margin, lateral margins with few sparsely arranged setae only; prementum subdivided into two membranous lobes bearing anteromedian group of long setae, palpifer vaguely sclerotized; labial palpus with three palpomeres, palpomere 1 minute, palpomere 2 ca. as long as palpomere 3 in both sexes, unmodified in males, bearing numerous rather long and stout setae; palpomere 3 without digitiform sensilla, bearing few minute sensilla. Antenna ( Fig. 3F ) with 9 antennomeres, scapus conical, ca. 3× as long as pedicel, pedicel widest proximally, bearing a few pore-like sensilla and two tiny setae, antennomere 3 ca. as long as antennomeres 4–6 combined, cupula small and simple, antennomeres 7–9 forming a distinct, loosely segmented and densely pubescent antennal club. Gula ( Fig. 4B ) extremely narrow, gular sutures nearly fused posteriorly of tentorial pits, the latter closely aggregated, distinct, elongate. Temporae without distinct ridge arising from inner margin of each eye. Prothorax. Pronotum ( Figs 1A , 4 I–J) highly convex, widest subbasally, bearing weakly projecting anterior corners; surface smooth, without any depressions, with distinct punctation, few trichobothria present anterolaterally and posterolaterally; anterior margin slightly angulate mesally, lateral margins forming continuous curve with posterior margin; lateral margin arcuately bent to posterior margin; marginal bead present along whole anterior and lateral margins. Hypomeron ( Fig. 4H ) with rather narrow lateral glabrous portion and densely pubescent median portion, portions not divided by a ridge, hypomeral process large, bearing wide marginal bead, arcuately pointed mesally. Prosternum ( Fig. 4H ) extremely short anterior to procoxae, ca. 0.1× as long as procoxa; mesal portion largely concealed by proxocae but strongly carinate mesally, prosternal process large, nearly completely concealed by procoxae. Coxal cavities delimited internally by median prosternal carina, open posteriorly, coxal fissure rather long, open, notopleural suture distinct but very short. Accessory ridge below posterior pronotal margin very distinct, laterally reaching to lateral margin of hypomeron as a ‘transverse fold’. Profurca ( Fig. 4G ) very short, profurcal arms widely separated, in the form of short but large slightly asymmetrical plate-like extensions directed posteriad and slightly extending of the prothoracic cavity. Mesothorax. Scutum ( Fig. 5G ) bearing few setae mesally; scutellar shield exposed, triangular, pointed posteriorly, ca. as long as wide, bearing indistinct colon-like punctures on its surface. Elytron ( Figs 1A , 5F, 5 I–K) highly convex; sutural stria present, reaching ca. midlength of elytron; nine elytral series distinct only posterolaterally, obliterated anteromesally, formed by punctures of the same size but slightly more impressed than interval punctation; scutellary stria absent (not visible even in slide-mounted elytron); alternate elytral intervals each with numerous trichobothria, punctures of elytral intervals colon-like, each bearing a short club-like seta; lateral edge with a narrow bead; epipleuron moderately wide anteriorly, gradually narrowing to elytra midlength, indistinct more posteriad, its median pubescent portion delimited from lateral narrow bare one by a straight fine line or ridge; ventral elytral surface without any elevated ridges, only with a narrow longitudinal field of fine spines situated sublaterally between anterior fourth and midlength. Mesoventrite ( Figs 5 A–C) divided from mesanepisternum by distinct anapleural suture; mesoventrite subtriangular in shape, widely extending laterad posteriorly, lateral extensions bearing distinct coxal lobes; median portion of mesoventrite elevated into a narrow median crest, the crest strongly angulate in lateral view, bearing few stiff setae apically; mesoventral process narrow; anteromesal portion of mesoventrite with a deep pit; whole surface with scale-like microsculpture, mesally bearing sparsely arranged setae; trochantin well divided from mesoventrite, transverse, long and narrow. Mesanepisterna not meeting anteromesally, narrowly divided by anterior portion of mesoventrite; anterior collar well-defined, moderately wide; mesal portion of each mesanepisternum with few setae, large lateral portions bare. Mesepimeron with large ventral portion, not reaching anterior collar of mesanepisternum anteriorly, forming lateral margin of coxal cavity; its surface with few setae only. Coxal cavities obliquely transverse, ca. 3× wider than long, very narrowly separated from each other by mesoventral and metaventral processes; internal postcoxal wall moderately wide mesally and posteriorly. Mesofurca ( Fig. 5D ) well-developed, long, arising as two basally fused arms from posterior wall of coxal cavities, bearing plate-like extensions at midlength and reaching to dorsolateral body walls. Metathorax. Metanotum very short, weakly sclerotized, ca. 5.5× wider than long, with nearly totally reduced anterior membranous area, alacristae widely separated, slightly diverging anteriad. Metaventrite ( Fig. 5A ) short, ca. as long as mesoventrite, evenly convex, with slightly elevated median portion well defined posteriorly by a blunt ridge with slightly stouter setae, whole surface (except for a small posterior area) bearing rather dense pubescence; metacoxal process rather long and distinctly exposed. Postcoxal ridge very narrow but well-defined. Metanepisternum ca. 7.5× longer than wide, without an obliquely transverse strengthened ridge anteriorly; whole surface sparsely pubescent. Metepimeron without distinct ventral portion. Metafurca ( Figs 7D ) rather large, Y-shaped; stalk very short, without basal extensions; lateral arms rather long, without anterobasal extensions, apical portions widened. Hind wing absent. Legs ( Figs 7 A–C). Coxae with numerous (procoxae) or few (meso- and metacoxae) large spines ventrally close to trochanter articulation, otherwise bare; procoxae subglobular, slightly transverse; mesocoxae transverse, rather robust mesally, narrowly separated; metacoxae narrowly transverse, subrectangular in ventral view. Trochanters with proximal parts concealed by coxae, distal subtriangular parts exposed ventrally, bearing sparsely arranged setae. Femora attached to trochanters by their posteromesal (in meso- and metafemora) or anteromesal (on profemora) portions only, anteromesal (in meso- and metafemora) or posteromesal bases (in profemora) free, rounded; profemora sparsely pubescent ventrally (except for bare posterobasal portion), meso- and metafemora with short sparsely arranged spines; tibial grooves present, deep, defined by a high ridge ventrally and low ridge dorsally. Tibiae slightly longer than femora, abruptly widening subproximally, slightly widening distad; each tibia with three dorsal, three outer lateral, and irregular ventral and inner lateral series of spines; ventral, outer lateral and distally situated inner lateral spines stout and long. Tarsi with 5 tarsomeres, basal pro- and mesotarsomere subequal in length to tarsomere 2, basal metatarsomere distinctly shorter than metatarsomere 2; pro- and mesotarsomere 5 nearly as long as tarsomeres 3–4 combined, metatarsomeres 4 and 5 subequal in length. All tarsomeres with numerous moderately long setae ventrally and few setae of same length dorsally; claws arcuate, without subbasal tooth; tarsi and claws not sexually dimorphic. Abdomen ( Figs 6 A–B) with five exposed ventrites; ventrite 1 with moderately large bare coxal grooves, remaining portion sparsely pubescent, median portion without longitudinal carina; ventrites 2–4 subequal in length, sparsely pubescent on whole surface; ventrite 5 slightly longer than preceding ones, its posterior margin without median emargination or group of enlarged setae; lateral margins of ventrites 1–4 and lateral and posterior margin of ventrite 5 with narrow but distinct bead. Laterosternite 3 simple, dorsal portion not divided from ventral by a ridge, bearing an area of goose-head-shaped cuticular projections which is posteriorly organized into a stridulatory file consisting of obliquely arranged uninterrupted lamellae; laterosternites 4–6 step-like, subdivided into elevated ventral and depressed dorsal portion, nearly without cuticular projections; tergites 1–6 membranous, bearing very fine cuticular asperities posteriorly, tergite 7 moderately sclerotized. Genitalia. Male genitalia ( Figs 7F , 9 ). Aedeagus of simply trilobed type ; parameres ca. as long as phallobase, wide basally, narrowing apicad, apices species-specific in shape; whole paramere bearing numerous pore-like sensilla; median lobe slightly shorter than parameres, widely subrectangular in apical portion, slightly angulate on apex, apodemes rather long and reaching into phallobase, gonoporus apical; phallobase with moderately large but rather indistinctly detached manubrium. Sternite 9 widely tongue-like, with long subbasal lateral struts. Sternite 8 crescent-like without distinct anterior projection. Female genitalia ( Fig. 7E ). Coxostyli 9 very long, cylindrical, gonostyli 9 very short, ca. 0.1× as long as coxostyli 9; each mediotergite 8 with two setae and two pores posteriorly. Description of larva. See under Tormus helmsi .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03FA580C852FFF956BB3FC01FE4AC643#C349BA918522FF8F6ACCFA50FDF9C075">this account</a> <a href="https://treatment.plazi.org/id/03FA580C852FFF956BB3FC01FE4AC643">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Adult. Body highly convex, compressed from sides ( Fig. 1A ); dorsal coloration black, without metallic reflections; clypeus without anterolateral bead ( Fig. 4A ); clypeus with wide anterior emargination exposing the membrane between clypeus and labrum ( Fig. 4A ); labrum completely exposed in dorsal view; eyes not protruding; antenna with 9 antennomeres ( Fig. 3F ); mandibular apex with two apical teeth ( Fig. 3C ); prosternum extremely short in front of procoxae, bearing longitudinal carina mesally ( Fig. 4H ); mesoventrite divided from mesanepisterna by distinct anapleural suture ( Fig. 5A ); anteromedian portion of mesoventrite with a deep pit ( Figs 5 B–C); posteromedian portion of mesoventrite with narrow high triangular projection ( Fig. 5B ); elytron with serial punctures present only posterolaterally ( Figs 1A , 5K ); coxae each with several strong spines ventrally ( Figs 4F , 5C, 5E, 5H ); femora without dense pubescence even basally; basal metatarsomere much shorter than metatarsomere 2 ( Fig. 7C ); abdomen with five ventrites; basal abdominal ventrite not carinate mesally ( Fig. 6A ); abdominal laterosternite 3 with organized stridulatory file ( Fig. 6C ); abdominal apex without apical emargination. By the dark dorsal coloration, highly convex body and partly reduced elytral series, Tormus resembles some genera of the tribes Chaetarthriini ( Amphiops Erichson, 1843 and Micramphiops Short, 2009 : differs by completely divided eyes; Chaetarthria Stephens, 1835 : differs by the presence of series of long setae over the abdominal ventrite 1; Guyanobius Spangler, 1986 : differ by concealed labrum and femora with dense pubescence basally), Berosini (they differ by 8-segmented antennae and abdominal sternite 7 which is concealed within abdomen or visible as fifth abdominal ventrite with a semicircular or rectangular emargination), Anacaenini (some Anacaena Thomson, 1859 : differ by prosternum without median carina and femora with basal dense pubescence) and Coelostomatini (differ in entire clypeus). It may be easily distinguished from all other New Zealand hydrophilids by the combination of highly convex and laterally compressed body, black dorsal coloration, prosternum very short in front of procoxae and carinate mesally, 9-segmented antennae and abdominal ventrite 1 ecarinate mesally. Larva. Head ca. as long as wide ( Fig. 14A ), stemmata very distinct and clearly divided from each other ( Fig. 10A ); nasale slightly asymmetrical, bearing three teeth of which two right ones are smaller than the left one ( Figs 10C , 14B ); epistomal lobes reaching ca. as far as nasale, nearly symmetrical; frontal lines reaching posterior margin of head ( Fig. 10A , 14A ), coronal line absent; submentum clearly divided from head capsule; mandibles symmetrical, each with three inner teeth ( Figs 11 C–D, 13C–D, 15C–D); mesal portions of antennae, maxillae and dorsal face of labium with dense and long pubescence ( Figs 11 , 13 , 15 ); antennae short and stout; antennal sensorium as long as antennomere 3 (e.g., Figs 15 A–B); stipes with five strong setae ( MX 7–11) on inner face ( Fig. 11E ); maxillary palpus ca. as long as stipes; inner appendage of maxillary palpomere 1 present and well sclerotized; ligula absent ( Figs 11 G–I, 13G–I, 15G–I); proscutum without bulges or protruding lobes ( Figs 1 B–D); anterior margin of proscutum with dense row of setae ( Fig. 14C ); meso- and metathorax with small tergites only ( Fig. 14F ); prosternite in form of a pair of separated transverse sclerites ( Figs 12A , 14E ); legs 5-segmented but short ( Fig. 12B ), barely visible in dorsal view; abdomen with indistinct lateral but quite distinct dorsal lobes ( Figs 1 B–D); median and lateral lobes of spiracular atrium fused into one lobe, bifurcate. The larvae of Tormus are most similar to those of Paracymus (based in mandibles with three inner teeth, antennal sensorium as long as antennomere 3, frontal lines reaching posterior margin of the head, rather long maxillary palpomere 1, slightly asymmetrical nasale with distinct large teeth and rather large nearly symmetrical epistomal lobes), but differ from them by the absence of ligula, densely pubescent mouthparts and nasale with three teeth only. By the combination of the reduced ligula and frontal sulci reaching posterior margin of the head, Tormus may also resemble the larvae of Berosus Leach, 1817 , Laccobius Erichson, 1837 and Oocyclus Sharp, 1882 (all with asymmetrical mandibles and left mandible with specialized comb-like structures and with highly projecting left epistomal lobe bearing a series of many stout setae on anterior margin, Berosus with tracheal gills on lateral sides of abdomen and reduced stigmatic atrium, and Laccobius and Oocyclus with nasale not bearing large distinct teeth) and some groups of the Sphaeridiinae (which differ by nasale without distinct teeth and mandibles always with less than three teeth).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03FA580C852FFF956BB3FC01FE4AC643#C349BA91852FFF886A2AFB2DFD2EC15D">this account</a> <a href="https://treatment.plazi.org/id/03FA580C852FFF956BB3FC01FE4AC643">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/laccobiini/"><span>Laccobiini</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/hydrophilinae/"><span>Hydrophilinae</span> <span class="n">8</span></a></li>
+<li><a href="/taxon/hydrophilidae/"><span>Hydrophilidae</span> <span class="n">8</span></a></li>
+<li><a href="/taxon/hydrophiloidea/"><span>Hydrophiloidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/staphyliniformia/"><span>Staphyliniformia</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/polyphaga/"><span>Polyphaga</span> <span class="n">567</span></a></li>
+<li><a href="/taxon/coleoptera/"><span>Coleoptera</span> <span class="n">654</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/laccobius/"><i>Laccobius</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tritonus/"><i>Tritonus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/afrotormus/"><i>Afrotormus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Tormus</i></td><td>Genus</td><td>Hydrophilidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Tormus">Plazi/Tormus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/tormus/&quot;,
+  &quot;name&quot;: &quot;Tormus&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/tormus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8X7XB&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Laccobiini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/laccobiini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8X7XB</p>
+</div></footer>
+</body>
+</html>

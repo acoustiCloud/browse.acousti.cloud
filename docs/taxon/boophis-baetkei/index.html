@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Boophis baetkei</title>
+<meta name="description" content="Boophis baetkei in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/boophis-baetkei/">
+<meta property="og:title" content="Bioacoustics of Boophis baetkei">
+<meta property="og:description" content="Boophis baetkei in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/MHSP">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/boophis-baetkei/", "name": "Boophis baetkei", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/boophis-baetkei/", "sameAs": "https://api.audioblast.org/taxon/CoL/MHSP", "parentTaxon": {"@type": "Taxon", "name": "Boophis", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/boophis/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Mantellidae", "item": "https://browse.acousti.cloud/taxon/mantellidae/"}, {"@type": "ListItem", "position": 11, "name": "Boophinae", "item": "https://browse.acousti.cloud/taxon/boophinae/"}, {"@type": "ListItem", "position": 12, "name": "Boophis", "item": "https://browse.acousti.cloud/taxon/boophis/"}, {"@type": "ListItem", "position": 13, "name": "Boophis baetkei", "item": "https://browse.acousti.cloud/taxon/boophis-baetkei/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/mantellidae/"><span class="rk">Family</span><span>Mantellidae</span></a><span class="sep">›</span><a href="/taxon/boophinae/"><span class="rk">Subfamily</span><span>Boophinae</span></a><span class="sep">›</span><a href="/taxon/boophis/"><span class="rk">Genus</span><i>Boophis</i></a></nav>
+<h1>Bioacoustics of <i>Boophis baetkei</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. A member of the Boophis ulftunni species group (sensu Wollenberg et al. 2008 ). Boophis baetkei is distinguished from other species groups containing green species as follows. From members of the B. albilabris and B. microtympanum species groups, the new species differs by green dorsal colouration with translucent shade in life (versus opaque green) and smaller size. It mainly differs from all species in the B. rappiodes and B. mandraka groups by a pigmented ventral side (versus inner organs visible through transparent ventral skin). Boophis baetkei differs from all species of the B. albipunctatus and B. luteus groups by advertisement call (see below), colouration in life and lack of lateral dermal fringes along lower arm and tarsus. From the other two species in the B. ulftunni group, B. baetkei differs as follows: From B. ulftunni by the lack of reddish brown markings and flecks on mid-dorsum and between eyes, silvery grey iris with brown spots and reticulation (versus bicoloured iris with outer golden-yellow ring and inner purple ring), more extensive webbing between toes, larger adult male size (30.8 versus 21–24 mm SVL), and differences in the advertisement call (see below). From B. lilianae (described below) by presence of distinct patches of vomerine odontophores, relatively larger tympanum, rounded snout in dorsal view (versus mucronate) and larger adult male size (30.8 versus 18.3 mm SVL). Furthermore, B. baetkei differs strongly from all the species contained in the mentioned groups by molecular characters.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/F5408789FFB90163FF550DF5A802E8AD#35F36514FFB90165FF040F30AE20EB35">this account</a> <a href="https://treatment.plazi.org/id/F5408789FFB90163FF550DF5A802E8AD">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of the holotype . Adult male, SVL 30.8 mm . Body slender; head slightly wider than long, wider than body; snout rounded in dorsal view, obtuse in lateral view, nostrils directed laterally, nearer to tip of snout than to eye; canthus rostralis rounded, loreal region slightly concave; tympanum distinct, rounded, TD 43% of ED; supratympanic fold distinct; tongue removed for tissue sample; vomerine odontophores distinct, well separated in two round patches, positioned posteromedian to choanae; choanae medium-sized, rounded. Arms slender, subarticular tubercles single, round; metacarpal tubercles not recognizable; fingers with basal webbing and lateral dermal fringes; webbing formula 1(1.5), 2i (1.5), 2e(1), 3i (2), 3e(1.5), 4(0.5); relative length of fingers 1&lt;2&lt;4&lt;3; finger discs moderately enlarged; distinct, medium-sized nuptial pad on inner side of first finger, unpigmented. Hindlimbs slender; tibiotarsal articulation reaching nostril when hindlimb is adpressed along body; lateral metatarsalia separated by webbing; inner metatarsal tubercle distinct, elongated; no outer metatarsal tubercle; webbing between toes well developed, lateral dermal fringes present; webbing formula 1(0.5), 2i (0.75), 2e(0.25), 3i (1), 3e(0), 4i (1), 4e(1), 5(0); relative length of toes 1&lt;2&lt;5=3&lt;4; toe discs small, only slightly enlarged. Skin smooth on dorsal surfaces, very finely granular on throat, smooth on chest, coarsely granular on belly, glandular around cloacal opening; no distinct enlarged tubercles in the cloacal region. Measurements (in mm): SVL 30.8, HW 11.1, HL 10.6, ED 3.7, END 2.7, NSD 1.9, NND 2.8, TD 1.6, TL 17.1, HAL 9.3, FOL 13.5, FOTL 23.1. After six months in preservative, ground colour of flanks, dorsal and ventral surfaces creamy yellow. Upper surface of head, dorsum, flanks and upper surfaces of limbs covered by regularly scattered small pink spots, most distinct on posterior dorsum. A continuous pink stripe running from the tip of snout along the canthus rostralis (above nostrils) to the upper eyelid and continuing as a supratympanal and dorsolateral stripe which fades at the urostyle. Inner margin of upper eyelid with irregular brown fleck. Nostril bordered with black dorsally. Irregular pink flecks on heel and knee, the first having half the size of the latter. In life, ground colour of upper surface of head, dorsum and flanks translucent green. Small regularly scattered reddish to purplish dots on dorsum, flanks and upper surfaces of limbs. A continuous pinkish golden stripe running from the tip of snout along the canthus rostralis (above nostrils) to the upper eyelid and continues as a supratympanal and dorsolateral stripe which fades at midbody. The pinkish golden stripe on canthus, upper eyelid and above the tympanum is bordered by a dark red line anteriorly and by red spots posteriorly. This red line and the spots become purplish dorsolaterally posterior to tympanum. Upper edge of nostril bordered with fine black line. Pinkish golden flecks encircled by reddish brown line present on heel and knee, the first having half the size of the latter. Dorsal surfaces of fingers and toes yellowish green, terminal discs green. Ventral surfaces of limbs translucent bluish green, chest translucent turquoise green, throat translucent yellowish green. Belly white. Webbing yellowish green. Bones bluish green. Iris silvery grey with fine brown spotting and reticulation. Posterior iris periphery black, followed by light blue. Eye periphery black dorsally ( Fig. 1 ). Variation. Measurements (in mm) of the male paratype are as follows: SVL 30.0, HW 10.7, HL 11.5, ED 3.9, END 2.6, NSD 1.8, NND 3.1, TD 2.0, TL 16.6, HAL 9.1, FOL 13.4, FOTL 21.9. After ten days in preservative, very fine red spotting evenly distributed on dorsal surfaces, more distinct when compared to holotype . In life, pinkish golden stripe running from the tip of snout along the canthus rostralis to the upper eyelid and continues as a supratympanal stripe, fading posterior to tympanum, not continuing as dorsolateral stripe as in the holotype ( Fig. 2A ). Pinkish golden fleck on heel very small, that on knee distinctly smaller and less distinct compared to the holotype . Females are unknown. Molecular differentiation. A 16S rRNA sequence (517 bp) of the holotype of B. baetkei has been deposited in Genbank (accession number EU314954 ). This sequence had an uncorrected sequence divergence of 5.9% (30 substitutions) as compared to B. ulftunni . Vocalization. The advertisement call of Boophis baetkei (recorded from the holotype at an air temperature of ca. 24°C) consists of a series of strongly pulsed notes repeated in regular intervals ( Fig. 2 B). Temporal and spectral call parameters are as follows: call duration, 1026–1963 msec (1565 ± 341); number of notes per call, 8–13 (10.83 ± 1.72); note duration, 58–88 msec (70.13 ± 7.97); note repetition rate within calls, 6.41–7.11 notes/sec (6.92 ± 0.34); number of pulses per note, 9–15 (10.75 ± 1.71); pulse repetition rate within notes, 133–241 pulses/sec (189.17 ± 40.91); maximum call energy at 3108–3910 Hz (3573 ± 248); dominant frequency range approximately 2800–4600 Hz. Calls are repeated at a rate of approximately 11 calls/minute. Amplitude of notes is increasing towards the end of the call. Terminal pulses within notes are sometimes clustered and partly fused. When less motivated, males may emit single notes only in irregular intervals. In comparison, calls of B. ulftunni are composed of a single pulsed note only, exhibiting much longer intervals between pulses. Consequently, note duration is much longer in B. ulftunni when compared to B. baetkei , but overall call duration is significantly shorter. Furthermore, with 5247–6413 Hz, maximum call energy in B. ulftunni calls is higher pitched (see Wollenberg et al. 2008 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/F5408789FFB90163FF550DF5A802E8AD#35F36514FFBB0162FF040D36AEE0EFAD">this account</a> <a href="https://treatment.plazi.org/id/F5408789FFB90163FF550DF5A802E8AD">at Plazi</a></p>
+<p class="topic">distribution · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Distribution and natural history. Only known from the type locality. Both type specimens were collected at night in heavily disturbed transitional forest (that could also be characterized as relatively dry rainforest) at the edge of the Forêt d&#x27;Ambre Special Reserve. The small patch of forest was encircled by an artificial irrigation channel, not containing any water at the time of collection in 2007, and by a stream (width ca. 3-4 m , maximum depth ca. 0.5 m ) at one side which might be used for breeding (tadpoles are unknown). Several males of B. baetkei were heard calling at night from trees and bushes along the edge of this stream in 2007 and 2008 . Lowest calling position of males was at approximately two metres height (i.e. of the type specimens), but most males were calling from far higher positions in trees which were not accessible and prevented further collection. Boophis baetkei occurs in syntopy with B. septentrionalis and B. brachychir . The stream contained large numbers of individuals of the threatened endemic fish Pachypanchax sakaramyi in 2007, but only few in 2008 (at considerably lower water level).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/F5408789FFB90163FF550DF5A802E8AD#35F36514FFBC0163FF040EF5AE72E80D">this account</a> <a href="https://treatment.plazi.org/id/F5408789FFB90163FF550DF5A802E8AD">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/boophis/"><i>Boophis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/boophinae/"><span>Boophinae</span> <span class="n">4</span></a></li>
+<li><a href="/taxon/mantellidae/"><span>Mantellidae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/boophis-luteus/"><i>Boophis luteus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/boophis-pyrrhus/"><i>Boophis pyrrhus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/boophis-ankarafensis/"><i>Boophis ankarafensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/boophis-spinophis/"><i>Boophis spinophis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/boophis-boppa/"><i>Boophis boppa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/boophis-brachychir/"><i>Boophis brachychir</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Boophis baetkei</i></td><td>Species</td><td>Mantellidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Boophis baetkei">Plazi/Boophis baetkei</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/boophis-baetkei/&quot;,
+  &quot;name&quot;: &quot;Boophis baetkei&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/boophis-baetkei/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/MHSP&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Boophis&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/boophis/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/MHSP</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Chryasus</title>
+<meta name="description" content="Chryasus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/chryasus/">
+<meta property="og:title" content="Bioacoustics of Chryasus">
+<meta property="og:description" content="Chryasus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8HG98">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/chryasus/", "name": "Chryasus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/chryasus/", "sameAs": "https://api.audioblast.org/taxon/CoL/8HG98", "parentTaxon": {"@type": "Taxon", "name": "Curculionidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/curculionidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Coleoptera", "item": "https://browse.acousti.cloud/taxon/coleoptera/"}, {"@type": "ListItem", "position": 7, "name": "Polyphaga", "item": "https://browse.acousti.cloud/taxon/polyphaga/"}, {"@type": "ListItem", "position": 8, "name": "Cucujiformia", "item": "https://browse.acousti.cloud/taxon/cucujiformia/"}, {"@type": "ListItem", "position": 9, "name": "Curculionoidea", "item": "https://browse.acousti.cloud/taxon/curculionoidea/"}, {"@type": "ListItem", "position": 10, "name": "Curculionidae", "item": "https://browse.acousti.cloud/taxon/curculionidae/"}, {"@type": "ListItem", "position": 11, "name": "Chryasus", "item": "https://browse.acousti.cloud/taxon/chryasus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/coleoptera/"><span class="rk">Order</span><span>Coleoptera</span></a><span class="sep">›</span><a href="/taxon/polyphaga/"><span class="rk">Suborder</span><span>Polyphaga</span></a><span class="sep">›</span><a href="/taxon/cucujiformia/"><span class="rk">Series Zoology</span><span>Cucujiformia</span></a><span class="sep">›</span><a href="/taxon/curculionoidea/"><span class="rk">Superfamily</span><span>Curculionoidea</span></a><span class="sep">›</span><a href="/taxon/curculionidae/"><span class="rk">Family</span><span>Curculionidae</span></a></nav>
+<h1>Bioacoustics of <i>Chryasus</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. The species subsumed here under Chryasus have ventrally denticulate femora ( Figs. 5–10 ), premucrones, subconnate claws and the distal abdominal tergite is concealed underneath the elytral apices. Some other Neotropical genera have similar, usually single denticles along the edge(s) of a femoral sulcus which is absent in Chryasus . These denticles may not be lined up perfectly in individual specimens or, in rare cases, may even form a seemingly second, parallel row. Because very few other baridine weevils have denticulate femora without a ventral sulcus, this trait is most diagnostic. Comparable femora occur only in species of Ganymela Pascoe, 1886 and Pteridobaris Morimoto &amp; Yoshihara, 1996 . Ganymela (2 species studied) includes large, apparently orchid-associated species with basally inserted antenna, undulate elytra and very small claws. The Southeast Asian Pteridobaris (3 species studied) has the distal tergite partially exposed and does not occur in our study area. Male Chryasus have stridulatory files on the seventh tergite ( Fig. 11 ), pilose patches on ventrites 1, 2 and 5 (appressed or absent in two examined species) and, in the aedeagus, a flagellum with an elongate basal appendage. The metaventrite is tumid with a deeply engraved discrimen in many cases. Large species generally are recognized readily by their conspicuously humped pronotum with vermicular surface, while species in the lower size range tend to blend in with the bulk of miscellaneous other non-descript forms. The genus is known from southern Mexico and Guatemala southward to southern Brazil and from the Antillean islands Dominica (USNM) and Guadeloupe ( Chevrolat 1880 , ASUCOB) and Trinidad and Tobago (JPPC). The species have been found in open areas as well as in cloud forests, between sea level and 2650 m elevation. Two were obtained from spindle-shaped petiole galls of Miconia Ruiz &amp; Pavón ( Melastomataceae ) ( Figs. 2–4 ; Almeida-Cortez et al . 2006 ) and three others were collected from the same plant genus (this paper). Two specimens occurred in flowers of Psychotria micrantha Kunth ( Rubiaceae ), likely an accidental association.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/326487E81937FFD3FF67AF95FDEDFA94#F2D765751937FFD2FF67A88FFA83F897">this account</a> <a href="https://treatment.plazi.org/id/326487E81937FFD3FF67AF95FDEDFA94">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Redescription. Total length 1.9–6.3 mm , width 0.8–3.2 mm ; large species with humped pronotum, salient metaventrite and rhombic-cuneate outline, body more ovate to oblong-linear in lower size range; integument predominantly black, brown or red, occasionally bicolored or with fascia, metallic iridescence absent; large species with inconspicuous appressed setae on appendages and sternites, setae increasingly prevalent and more conspicuous in small species, erect squamulae only on male ventrites. Eyes large, oblong ovate, somewhat encroaching base of rostrum, forehead slightly to distinctly (when rostrum slender) narrower than width of rostrum at base; rostrum moderately thick (most) to slender (elongate species), at most slightly longer than pronotum, dorsal transition to forehead slightly angular and without fovea; antenna inserted almost always at mid-length, antennal sulcus descending to ventral margin of rostrum in front of eye, scape not quite reaching eye, funicle of 7 articles, club oblong-ovate in small species, distal articles increasingly truncated in large species and therefore club shorter than in small species; mandibles clunky and with inner faces fitting into each other in large species, increasingly more delicate and at least partially decussate in lower size range. Pronotum bell-shaped with distinct anterior constriction to almost perfectly conical, basal margin slightly (small species) to moderately (large species) protracted to, but not notched by, scutellar shield; disc slightly (small species) to strongly (large species) vaulted, with confluent or separate punctation, interspaces often forming oblique ridges; anterolateral margin straight or with subtle postocular lobe, some small species with fringe of squamiform setae; scutellar shield with median furrow and pair of distal tubercles; procoxae separated by 0.2–1.5x their own width, width of intercoxal lobe correlating with widths of prothorax and body (even within species and between sexes) and less so with body size, channel subcordate and shallow when coxae widely apart in humped species with contracted prosternum, narrower and deeper when coxae approximated ( Figs. 13–15 ), bordered laterally by ridge ending before coxa; metaventrite slightly (small species) to steeply (large species) sloping toward mesoventrite, male metaventrite often more or less tumid with deeply engraved discrimen; sclerolepidia peg-shaped, distinct, evanescent in large species; elytra conjointly rounded and concealing distal tergite, striae deep, often punctate but without setae, interstriae almost always ridged; hind wings developed. Femora clavate in small species, increasingly subparallel in larger species, ventral margin denticulate, denticles arranged linearly, somewhat irregularly or (rarely) in seemingly 2 rows, distal denticle distinct and present on all legs, proximal denticles increasingly smaller, reduced on middle leg and often absent on front leg, denticles generally reduced in very small species ( Figs. 5–10 ); tibiae increasingly curved in upper size spectrum, premucro generally present but indistinct in small species; claws flat, basally subconnate. Male ventrites 1, 2 and 5 with modified, often erect setae; male tergite 7 with stridulatory files, male tergite 8 gently sloping, not transversely kinked ( Fig. 11 ); basal apodemes of penis generally not much more than 2x longer than body of penis, endophallus with short to moderately long flagellum, flagellum with elongate basal appendage, in at least one species endophalic structures reduced to this basal sclerite, tegmen with long apodeme, parameroidal lobes well-developed ( Figs. 16– 25 ); female tergite 7 without stridulatory files, gently sloping, not transversely kinked ( Fig. 12 ); duct approximately as long as coxites, insertion in bursa subdistal. Variation. The few species with representative series from several sites indicate that individual specimens can deviate substantially from each other in body proportions, size, color and surface texture. Large specimens tend to be stouter, have darker integument and more distinct femoral denticles. Possible influencing factors are environmental settings, larval substrate, sex and age.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/326487E81937FFD3FF67AF95FDEDFA94#F2D765751937FFD3FF37AB23FDEDFA94">this account</a> <a href="https://treatment.plazi.org/id/326487E81937FFD3FF67AF95FDEDFA94">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/curculionidae/"><span>Curculionidae</span> <span class="n">10</span></a></li>
+<li><a href="/taxon/curculionoidea/"><span>Curculionoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cucujiformia/"><span>Cucujiformia</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/polyphaga/"><span>Polyphaga</span> <span class="n">567</span></a></li>
+<li><a href="/taxon/coleoptera/"><span>Coleoptera</span> <span class="n">654</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/acalles/"><i>Acalles</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/alloplinthus/"><i>Alloplinthus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/conotrachelus/"><i>Conotrachelus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/cyphorhinus-genus/"><i>Cyphorhinus</i> <span class="n">1,834</span></a></li>
+<li><a href="/taxon/dendroctonus/"><i>Dendroctonus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hylobius/"><i>Hylobius</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/orchestes/"><i>Orchestes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/polygraphus/"><i>Polygraphus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ips/"><i>Ips</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gasterocercus/"><i>Gasterocercus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/mogulones/"><i>Mogulones</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/mononychus/"><i>Mononychus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/oreocharis-genus/"><i>Oreocharis</i> <span class="n">51</span></a></li>
+<li><a href="/taxon/plinthus/"><i>Plinthus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/thamnophilus-genus/"><i>Thamnophilus</i> <span class="n">14,926</span></a></li>
+<li><a href="/taxon/acythopeus/"><i>Acythopeus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ambrosiodmus/"><i>Ambrosiodmus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anisandrus/"><i>Anisandrus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anthobaris/"><i>Anthobaris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arixyleborus/"><i>Arixyleborus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/baiocis/"><i>Baiocis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cyclorhipidion/"><i>Cyclorhipidion</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/euwallacea/"><i>Euwallacea</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/coptus/"><i>Coptus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/heilipus/"><i>Heilipus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/eusynnada/"><i>Eusynnada</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hadronotus/"><i>Hadronotus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/nyphaeba/"><i>Nyphaeba</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/phloeophagus/"><i>Phloeophagus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pantiala/"><i>Pantiala</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/phelypera/"><i>Phelypera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/scolytodes/"><i>Scolytodes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenoscelodes/"><i>Stenoscelodes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/stethobaroides/"><i>Stethobaroides</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/strattis/"><i>Strattis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/synorchestes/"><i>Synorchestes</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tepperia/"><i>Tepperia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/thyestetha/"><i>Thyestetha</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/trigonopterus/"><i>Trigonopterus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/entiminae/"><span>Entiminae</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Chryasus</i></td><td>Genus</td><td>Curculionidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Chryasus">Plazi/Chryasus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/chryasus/&quot;,
+  &quot;name&quot;: &quot;Chryasus&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/chryasus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8HG98&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Curculionidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/curculionidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8HG98</p>
+</div></footer>
+</body>
+</html>

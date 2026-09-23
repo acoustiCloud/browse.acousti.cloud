@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Larnaca</title>
+<meta name="description" content="Larnaca in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/larnaca/">
+<meta property="og:title" content="Bioacoustics of Larnaca">
+<meta property="og:description" content="Larnaca in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NTC8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/larnaca/", "name": "Larnaca", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/larnaca/", "sameAs": "https://api.audioblast.org/taxon/CoL/8NTC8", "parentTaxon": {"@type": "Taxon", "name": "Gryllacridini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/gryllacridini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Orthoptera", "item": "https://browse.acousti.cloud/taxon/orthoptera/"}, {"@type": "ListItem", "position": 7, "name": "Ensifera", "item": "https://browse.acousti.cloud/taxon/ensifera-suborder/"}, {"@type": "ListItem", "position": 8, "name": "Tettigoniidea", "item": "https://browse.acousti.cloud/taxon/tettigoniidea/"}, {"@type": "ListItem", "position": 9, "name": "Stenopelmatoidea", "item": "https://browse.acousti.cloud/taxon/stenopelmatoidea/"}, {"@type": "ListItem", "position": 10, "name": "Gryllacrididae", "item": "https://browse.acousti.cloud/taxon/gryllacrididae/"}, {"@type": "ListItem", "position": 11, "name": "Gryllacridinae", "item": "https://browse.acousti.cloud/taxon/gryllacridinae/"}, {"@type": "ListItem", "position": 12, "name": "Gryllacridini", "item": "https://browse.acousti.cloud/taxon/gryllacridini/"}, {"@type": "ListItem", "position": 13, "name": "Larnaca", "item": "https://browse.acousti.cloud/taxon/larnaca/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera-suborder/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/stenopelmatoidea/"><span class="rk">Superfamily</span><span>Stenopelmatoidea</span></a><span class="sep">›</span><a href="/taxon/gryllacrididae/"><span class="rk">Family</span><span>Gryllacrididae</span></a><span class="sep">›</span><a href="/taxon/gryllacridinae/"><span class="rk">Subfamily</span><span>Gryllacridinae</span></a><span class="sep">›</span><a href="/taxon/gryllacridini/"><span class="rk">Tribe</span><span>Gryllacridini</span></a></nav>
+<h1>Bioacoustics of <i>Larnaca</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Body moderate, robust, black to dark brown. Occiput smooth or with inconspicuous spots; fastigium verticis wider than scape. Antennal scape elongate, with a swelling on internal margin near base. Eyes prominent; median and lateral ocelli conspicuous. Anterior margin of pronotum slightly projecting, posterior margin truncate. Meso- and metasternum rounded, not or scarcely lobed. Tegmina usually much longer than pronotum and not reaching apices of hind femora, black or yellowish brown, veins reduced, blackish or darker than the cells; R vein usually simple, sometimes simply forked close to tip; Rs arising from radial stem about the middle, usually simple or arising before the middle then forked again; M vein simple, not united with R vein at base of tegmina; Cu vein simple, free. Hind wings reduced or absent, hyaline or a little somky; Rs+M with simple. Fore coxae with a small, sharp spine. Fore and middle unarmed on ventral surface, hind femora with outer spines on ventral surface. Fore and middle tibiae with 4 pairs of long and developed moving spurs on ventral surface, of the basal spurs slightly longer than apical ones; apices of middle tibiae unarmed or with 1 apical spur on inner margin. Hind tibiae with 2 rows of spines on dorsal surface and 1–2 inner spines on ventral surface. Male. Abdomen without stridulatory area. Ninth abdominal tergite obviously projecting backwards, with 1 pair of heavily sclerotized crossed hooks; bases of hooks with mobile rounded convexities, apex acute; cerci styliform. Subgenital plate broad, subapical area with normal and clearly developed styli. Female. Copulatory depressions situated on the apical area of seventh abdominal tergite. Apical area of subgenital plate not bent forwards and downwards. Ovipositor as long as or shorter than hind femora, strongly bent upwards, dorsal and ventral margin s smooth.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B7E528DD1684463AA8FA03FB47BCA2#C30407B5DD1684463AA8F9B1FC90B815">this account</a> <a href="https://treatment.plazi.org/id/03B7E528DD1684463AA8FA03FB47BCA2">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Small, subapterous species ( Figs. 71 L–M). Head: Face robust but not particularly large; in frontal view roughly oval; forehead nearly smooth; fastigium verticis much wider than scapus; ocelli indistinct ( Fig. 71N ). Abdominal tergites two and three each with two rows of stridulatory pegs (8–9, 14; 16, 23–24; n = 1 male ; Fig. 72L ). Wings reduced to minute scales; tegmen and hind wing visible pointing ventrad as in adults not dorsad as in nymphs. Legs: Fore coxa with large spine at fore margin; fore and mid femora unarmed; fore and mid tibiae with four pairs of large ventral spines and one pair of smaller ventral spurs; hind femur with 8–9 external and 13 internal spines on ventral margins, increasing in size towards posterior end; hind tibia with spaced spines on both dorsal margins, ventral margins with one pre-apical spine each; with 3 apical spurs on both sides. Coloration. General color brown; head and posterior abdominal tergites medium brown, thoracic and anterior abdominal tergites blackish brown, pro-, meso- and metanotum with light brown medial band or spot; sternites light brown; legs light brown, genicular areas of femora and tibiae dark brown. Face medium reddish brown, compound eyes dark brown. Male. Eighth abdominal tergite prolonged, at least twice as long as preceding tergites. Ninth abdominal tergite curved down and furrowed in midline except in basal area, in apical area forming a pair of semi-globes that are extended on inner ventral margin into a short swollen projection that carries at tip on ventral margin a compressed, elongate triangular spine; in situ spines from both sides crossing each other ( Figs. 72 I–J). Tenth abdominal tergite narrow. Paraproctes forming large plates mediad of bases of cerci. Subgenital plate ventral surface convex, in apical third with converging lateral margins; apical margin truncate; styli small, arising laterally at about base of apical third and little surpassing tip of plate ( Fig. 72K ). Female unknown. Measurements ( 1 male ).—body w/o wings: 17; pronotum: 3.3; tegmen: 0.7; hind femur: 7.5 mm .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/535994569787FF51FF75FD02FAF9B8BD#93EA76CB9787FF51FF25FB0BFAF9B8BD">this account</a> <a href="https://treatment.plazi.org/id/535994569787FF51FF75FD02FAF9B8BD">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Head: Face not particularly large; in frontal view ovoid; forehead nearly smooth; fastigium verticis little wider than scapus; ocelli distinct but of same color as areas around them: Median ocellus distinct ( Fig. 71P ). Abdominal tergites two and three without stridulatory pegs. Wings: squamipterous, tegmen very narrow and shorter than pronotum, just surpassing hind margin of metanotum, with 8 parallel veins; hind wings absent ( Fig. 73G ). Legs: Fore coxa with small spine at fore margin; fore and mid femora unarmed; fore tibia with 4 pairs of moderately large ventral spines and 1 pair of smaller ventral spurs; mid tibia with 3 pairs of large ventral spines and 1 pair of minute ventral spurs; hind femur with 7–9 external and 8–9 internal spines on ventral margins, on external margin irregularly spaced; hind tibia with spines on both dorsal margins, ventral margins each with one rather short pre-apical spine; with 3 apical spurs on both sides. Coloration ( Fig. 101G ): General color yellowish brown; vertex and pronotum with black hieroglyphic marks; meso- and metanotum and first abdominal tergite with darkened hind margin; hind legs with black genicular area, dorsal spines of hind tibia black and sitting on black spots, joint area of hind tibia and tarsus also black. Face with median ocellus and area above including fastigii yellowish brown, area below including margin of antennal scrobae and genae black; margin of clypeus and palpi yellowish. Tegmen yellowish transparent with darker veins. Male unknown. Female. Seventh abdominal sternite wide with little elevated central area, in about mid-length with an angular step, behind step with a deep, wide groove in midline; apical margin convex. Subgenital plate transverse, very short especially in middle, pressed against seventh sternite with basal margin concave, giving room for the extension of seventh sternite ( Figs. 73 H–I). Base of ovipositor laterally at very base with a short obtuse cone at each side, in between covered by a short membranous triangular area, with concave anterior margin and rounded tip. Ovipositor sickle- or hook-shaped; with margins narrowing towards tip ( Fig. 73G ). Measurements ( 1 female ).—body w/o wings: 23; pronotum: 4.5; tegmen: 3; hind femur: 12.5; antenna: 70; ovipositor: 7.5 mm . Remark. The right fore leg and both mid legs are smaller than the left fore leg and the tibial spines of lower number and much smaller size. It is highly probably that at least the right fore leg is a regenerated leg for a leg lost or damaged during post-embryonic development and therefore has less and shorter spines.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/535994569798FF51FF75FC7AFB74BD12#93EA76CB9798FF51FF25FA63FB74BD12">this account</a> <a href="https://treatment.plazi.org/id/535994569798FF51FF75FC7AFB74BD12">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Small species ( Fig. 73D ). Head: Face ovoid, surface nearly smooth but in middle rather matt, with very fine transverse riffles and scattered impressed dots; fastigium verticis much wider than scapus, separated by an indistinct transverse suture from fastigium frontis; ocelli distinct; subocular furrow in dorsal area weak and narrow, in ventral area wide and distinct ( Fig. 71J ). Third abdominal tergite with 3 remnant stridulatory pegs. Wings hardly overlapping each other in middle; leaving tip of abdomen free ( Fig. 71K ). Tegmen: apart from the two subcostal veins, with 7 full length veins in nearly equal distance from each other, only the second of these veins forks once behind middle of tegmen. Legs: Fore coxa with a spine at fore margin; fore and mid femora unarmed; fore and mid tibiae with four pairs of large ventral spines and one pair of smaller ventral spurs; hind femur with 8–11 external and 9–11 internal spines on ventral margins; hind tibia with spaced spines on both dorsal margins; ventral margins with one pre-apical spine each; with 3 apical spurs on both sides. Coloration. General color brown; head mostly black but vertex brown, pronotum fully black; fore and mid femora and tarsi black but leaving basal and apical areas and internal side of mid femur brown; genicular area of hind femur and all of hind tibiae black. Face fully black, only fastigium verticis and base of antennae dark reddish brown; ocelli of lighter color; compound eyes yellow; ventral area of clypeus dirty yellow; maxillary palpi black but tips of joints yellow or at last segment reddish; labial palpi yellow. Tegmen dark orange brown, near tip white; main veins black near base, otherwise as veinlets brown; hind wing semi-transparent, colorless; main veins dark brown, veinlets brown. Male unknown. Female. Seventh abdominal sternite wider than preceding sternites; with a large, about triangular groove in middle starting with angular base in subbasal area and ending with convex margin in basal area of subgenital plate. Subgenital plate short, band-shaped, in middle constricted from anterior and posterior side ( Fig. 73E ). Ventral valves of ovipositor at very base with a rounded ventral projection, in between covered by a short membranous triangular flap with convex lateral margins and acutely produced tip ( Fig. 73F ). Ovipositor falcate, most strongly upcurved in subbasal area, margins gradually approaching towards apex; tip broken. Measurements ( 1 female ).—body w/wings: 20.5; body w/o wings: 20.5; pronotum: 4.5; tegmen: 12; tegmen width: 5; hind femur: 10.5; antenna: 85; ovipositor: 7.5 mm .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/535994569799FF4EFF75FA8AFBABBC8A#93EA76CB9799FF4EFF25F8CBFCC5BC50">this account</a> <a href="https://treatment.plazi.org/id/535994569799FF4EFF75FA8AFBABBC8A">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Rather short and stout species ( Fig. 73A ). Head: Face ovoid; forehead with distinct transverse furrows and fine riffles and scattered impressed dots; fastigium verticis wider than scapus, separated by a transverse suture from fastigium frontis; ocelli distinct; subocular furrow wide and shallow ( Fig. 71I ). Abdominal tergites two and three without stridulatory pegs. Wings just covering abdomen, not reaching hind knees ( Fig. 71H ). Tegmen rather narrow; left tegmen with 13 parallel post-subcostal veins; there are several fusion, division and connection events between radius, media and cubitus anterior resulting in a meshwork of veins; cubitus posterior undivided, free throughout; with 7 anal veins, A1+A2 and A3+A4 with a short common stem, the last branch weak. Legs: Fore coxa with a large spine at fore margin; fore and mid femora unarmed; fore and mid tibiae with four pairs of large ventral spines and one pair of smaller ventral spurs; hind femur with 13–14 external and 10–12 internal spines on ventral margins; hind tibia with spaced spines on both dorsal margins, ventral margins with one pre-apical spine each; with 3 apical spurs on both sides. Coloration. General color brown with black marks; vertex black; pronotum black with 5 larger and some small brown spots; brown with black bands on femora and tibiae, black marks in genicular areas, on tibiae and tarsi. Face dark reddish brown, anterior area of fastigium verticis, part of fastigium frontis, antennal scrobae, antennae, mandibles and labrum black; ocelli yellow; lower part of clypeus yellow with a roughly TT-shaped black spot; maxillary palpi light yellow. Tegmen orange brown, at tip semi-transparent white, very base black, veins dark reddish brown to black; hind wing semi-transparent white, main veins dark brown, cross-veins brown. Male unknown. Female. Seventh abdominal sternite transverse, wider than preceding sclerite, with latero-apical margins rounded; surface in middle of basal area with a little curved transverse bulge, in more than apical half with a large medial groove with smooth shining surface and provided before hind margin with a pair of small shallow oval grooves, lateral margins of groove gradually raised into a styliform process on each side, apical margin of groove faintly convex. Subgenital plate very short and wide, base covered by seventh sternite; on both lateral ends with a small cone, in midline furrowed; leaving base of ovipositor nearly uncovered. Subgenital plate with a distinct, little compressed, apically rounded coniform process in middle ( Fig. 73C ). Ovipositor falcate, most strongly upcurved in subbasal area, margins gradually approaching towards apex; tip subacute ( Fig. 73B ). Measurements ( 1 female ).—body w/wings: 32; body w/o wings: 29; pronotum: 7; tegmen: 21.5; hind femur: 17; antenna: 105; ovipositor: 11.5 mm .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/53599456979BFF4FFF75F961FB12BBED#93EA76CB9799FF4FFF25FF1AFDB5BBB2">this account</a> <a href="https://treatment.plazi.org/id/53599456979BFF4FFF75F961FB12BBED">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Rather short and stout, medium sized species. Head: Face ovoid, nearly smooth or matt; fastigium verticis wider than scapus, suture between fastigium verticis and fastigium frontis weak; ocelli distinct; subocular furrow strongly expressed. Abdominal tergites two and three without stridulatory pegs, rarely with few remnant pegs. Wings just covering abdomen or little shorter, not reaching hind knees. Tegmen ovoid; apart from the two subcostal veins, with eight or nine full length veins in nearly equal distance from each other, plus a shorter vein before hind margin. In holotype on the left tegmen the second of the post-subcostal veins divides behind basal third into two branches, on the right tegmen the second and the third post-subcostal veins divide before apical third and in mid-length respectively; cubitus anterior with uni-branched base, this vein forked into two veins (media and cubitus anterior?) between end of basal third and middle of tegmen on both tegmina; cubitus posterior undivided, free throughout; with 6 anal veins, the first two branches fused or closely approached at base, the last branch weak. In a paratype with nine full length post-subcostal veins the second of the post-subcostal veins (RS?) appears behind basal third as a fusion of cross-veins from the first and third veins (R and MA?). Legs: Fore coxa with a spine at fore margin; fore and mid femora unarmed; fore and mid tibiae with four pairs of large ventral spines and one pair of smaller ventral spurs; hind femur with 6–10 external and 9–15 internal spines on ventral margins; hind tibia with spaced spines on both dorsal margins, ventral margins with one preapical spine; with 3 apical spurs on both sides. Coloration. General color medium to dark brown with black marks; vertex dark reddish brown; pronotum yellow brown with black ornaments and black hind and lateral margins; anterior margin of general color ( Fig. 71A ). Legs brown with black strokes and spots; especially tibiae on external side with a longitudinal black band, on hind tibia that band sends lateral branches to the dorsal spines. Face dark reddish brown, anterior area of fastigium verticis, fastigium frontis, antennal scrobae, antennae, apical halves of mandibles and labrum black; ocelli whitish yellow; clypeus bordered with black but very lateral margins white, in middle yellow and red; maxillary palpi light yellow. Tegmen orange brown, at tip semi-transparent white, very base black, veins dark reddish brown to black; hind wing semi-transparent white, main veins black, cross-veins brown. Male. Eighth abdominal tergite prolonged and slightly globular. Ninth abdominal tergite globular with a distinct furrow and then divided in midline; in apical area swollen on both sides of midline, at ventro-internal angle prolonged into a long spiniform process, in apical area compressed and with finely granular surface, tip subacute ( Fig. 72 A–D). Tenth abdominal tergite largely reduced. Epiproct triangular with wide medial furrow; paraproctes form extended plates from base of cerci. Subgenital plate at base flat, then bent ventrad and afterwards bent dorsad; posterior area in apical view flat; apical margin in middle with two short conical projections, in between roundly excised; styli curved and distinctly conical, inserted in posterior area of lateral margins ( Fig. 72B, D ). Female (only known from photographs, Fig. 101E ). General habitus and coloration as in male. Ovipositor curved with simple, subobtuse tip. Variation. The specimens at hand come from nearby localities. Those from Ngo Luong agree with those from Cuc Phuong in size; wings and color pattern are nearly identical, but in specimens from Ngo Luong of slightly darker basic color. Regarding the male abdominal appendages, the specimens from Ngo Luong have the projection of the ninth abdominal tergite rather narrow, in apical view straight but little curved towards the body, not stout and somewhat down-curved as in the specimens from Cuc Phuong. The apical area of the subgenital plate is straight, pointing behind, not up-bent as in the latter. Those differences are regarded as individual variation and may partly also result from deformation during conservation. Measurements ( 4 males ).—body w/wings: 32–36; body w/o wings: 28–36; pronotum: 7.0–7.5; tegmen: 20.5– 23.0; tegmen width: 8.5–9.5; hind femur: 15.5–18.0; antenna: 100 mm .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/53599456979CFF4DFF75FA89FC4BB9B7#93EA76CB979BFF4DFF25FF1AFC4BB9B7">this account</a> <a href="https://treatment.plazi.org/id/53599456979CFF4DFF75FA89FC4BB9B7">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Rather short and stout species. Head: Face ovoid, wide; forehead with transverse riffles and scattered impressed dots; fastigium verticis wider than scapus, ocelli distinct; fastigium frontis separated from fastigium verticis by a very fine suture; subocular furrows distinct ( Fig. 71E, G ). Abdominal tergites two and three without stridulatory pegs. Wings: Wings covering abdomen and reaching hind knees; not fully covering abdomen in type ( Fig. 71D ). venation of tegmen ( Figs. 1A , 71F ): apart from the two subcostal veins, with nine full length veins without branching and in sub-equal distance from each other, plus a shorter vein before hind margin. Legs: Fore coxa with a large spine at fore margin; fore and mid femora unarmed; fore and mid tibiae with four pairs of large ventral spines and one pair of smaller ventral spurs; hind femur with 13–15 external and 14 internal spines on ventral margins; hind tibia with spaced spines on both dorsal margins, ventral margins with one preapical spine; with 3 apical spurs on both sides. Coloration of type : General color yellowish brown with black ornaments; rim and some scattered marks of pronotum and antennae black. Face reddish brown; fastigium verticis and fastigium frontis black with yellow ocelli; base of antennae, labrum, and mandibles also black; clypeus pale yellow with dark brown spots. Tegmen reddish brown, tip transparent with reddish brown veins. Coloration of specimen from Tay Yen Tu: General color brown with black marks; pronotum brown with black margin; genicular area of hind leg with black ornament, hind tibiae with black dorsal band and black spines; fore tibiae and all tarsi with black lateral bands. Face red brown with a black band between compound eyes including antennal scrobae and base of antennae; ocelli light orange; clypeus black on both sides but very lateral margin white, in middle orange to yellow; labrum and mandibles black. Tegmen orange brown, at tip semi-transparent white, with a small black spot at base, veins brown, darker towards base; hind wing semi-transparent white, main veins blackish, cross-veins dark grey. Male. Eighth abdominal tergite prolonged. Ninth abdominal tergite globular, furrowed along midline; in apical area with an oval swelling on both sides of midline prolonged at ventro-medial angle into a compressed process faintly curved proximad, with finely granular, subobtuse or subacute tip ( Figs. 72 E–G). Subgenital plate wider than long; in about basal half with slightly diverging margins, in about mid-length on both sides with a transverse furrow (in type distinct, in male from Tay Yen Tu faint), not reaching central area of plate; apical margin oblique on both sides and with a distinct, rounded notch in middle; curved and conical styli inserted at apico-lateral angles, largely surpassing tip of subgenital plate ( Fig. 72H ). Female unknown. Measurements of type after Griffini 1930 ( 1 male ).—body w/o wings: 35; pronotum: 7.4; tegmen: 21.3; hind femur: 17.8 mm . Measurements ( 1 male ).—body w/wings: 32; body w/o wings: 27; pronotum: 7.8; tegmen: 22.5; tegmen width: 8.5; hind femur: 16; antenna: 110 mm .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/53599456979FFF4AFF75FA84FDB9BB91#93EA76CB979DFF4AFF25F8FDFDB9BB91">this account</a> <a href="https://treatment.plazi.org/id/53599456979FFF4AFF75FA84FDB9BB91">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/gryllacridini/"><span>Gryllacridini</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllacridinae/"><span>Gryllacridinae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllacrididae/"><span>Gryllacrididae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/stenopelmatoidea/"><span>Stenopelmatoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera-suborder/"><span>Ensifera</span> <span class="n">116,644</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">143,044</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/larnaca-larnaca/"><i>Larnaca (Larnaca)</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/camptonotus/"><i>Camptonotus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllacrae/"><span>Gryllacrae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/australogryllacris/"><i>Australogryllacris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/brachyntheisogryllacris/"><i>Brachyntheisogryllacris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/melaneremus/"><i>Melaneremus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/melanogryllacris/"><i>Melanogryllacris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/microlarnaca/"><i>Microlarnaca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/neanias/"><i>Neanias</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/neolarnaca/"><i>Neolarnaca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/otidiogryllacris/"><i>Otidiogryllacris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/papuoneanias/"><i>Papuoneanias</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/glolarnaca/"><i>Glolarnaca</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/neortus/"><i>Neortus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/minigryllacris/"><i>Minigryllacris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/monseremus/"><i>Monseremus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/paraneanias/"><i>Paraneanias</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/caudafistulus/"><i>Caudafistulus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/astyloplatum/"><i>Astyloplatum</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/anancistrogerae/"><span>Anancistrogerae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/metriogryllacrae/"><span>Metriogryllacrae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/fiancogryllacris/"><i>Fiancogryllacris</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Larnaca</i></td><td>Genus</td><td>Gryllacrididae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Larnaca">Plazi/Larnaca</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/larnaca/&quot;,
+  &quot;name&quot;: &quot;Larnaca&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/larnaca/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8NTC8&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Gryllacridini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/gryllacridini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8NTC8</p>
+</div></footer>
+</body>
+</html>

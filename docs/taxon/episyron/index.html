@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Episyron</title>
+<meta name="description" content="Episyron in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/episyron/">
+<meta property="og:title" content="Bioacoustics of Episyron">
+<meta property="og:description" content="Episyron in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4DFJ">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/episyron/", "name": "Episyron", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/episyron/", "sameAs": "https://api.audioblast.org/taxon/CoL/4DFJ", "parentTaxon": {"@type": "Taxon", "name": "Pompilidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/pompilidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hymenoptera", "item": "https://browse.acousti.cloud/taxon/hymenoptera/"}, {"@type": "ListItem", "position": 7, "name": "Apocrita", "item": "https://browse.acousti.cloud/taxon/apocrita/"}, {"@type": "ListItem", "position": 8, "name": "Aculeata", "item": "https://browse.acousti.cloud/taxon/aculeata/"}, {"@type": "ListItem", "position": 9, "name": "Vespoidea", "item": "https://browse.acousti.cloud/taxon/vespoidea/"}, {"@type": "ListItem", "position": 10, "name": "Pompilidae", "item": "https://browse.acousti.cloud/taxon/pompilidae/"}, {"@type": "ListItem", "position": 11, "name": "Episyron", "item": "https://browse.acousti.cloud/taxon/episyron/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hymenoptera/"><span class="rk">Order</span><span>Hymenoptera</span></a><span class="sep">›</span><a href="/taxon/apocrita/"><span class="rk">Suborder</span><span>Apocrita</span></a><span class="sep">›</span><a href="/taxon/aculeata/"><span class="rk">Infraorder</span><span>Aculeata</span></a><span class="sep">›</span><a href="/taxon/vespoidea/"><span class="rk">Superfamily</span><span>Vespoidea</span></a><span class="sep">›</span><a href="/taxon/pompilidae/"><span class="rk">Family</span><span>Pompilidae</span></a></nav>
+<h1>Bioacoustics of <i>Episyron</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">distribution · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Distribution. All major zoogeographic regions. Key to the species of the genus Episyron Schiødte, 1837 from China Females 1 Hind tibia mostly black, outer surface with yellow spots basally (Figs 6 A , 7 A , 8 A ) 2 – Hind tibia mostly reddish (Figs 1 A , 2 A , 3 A , 4 A , 5 A , 9 A , 10 A , 11 A , 12 A , 13 A , 14 A ) 3 2 Apical marginal band of fore wing narrow, not including SMC 2 (Fig. 6 E ); median comb spine of fore metatarsus comparatively long, as long as its maximum width; spines of legs black (Fig. 6 F ) E. arrogans ( Smith, 1873 ) – Apical marginal band of fore wing very broad, covering apical SMC 2 and whole of SMC 3 (Fig. 8 E ); median comb spine of fore metatarsus comparatively short, scarcely half as long as its maximum width (Fig. 8 F ); spines of legs pale brown (Fig. 8 A ) E. latimarginatus Tsuneki, 1989 3 Tarsomere 1 with four long flattened outer spines, slightly widening or almost parallel-sided toward subapex (Figs 3 F , 9 F ) 4 – Tarsomere 1 with three long flattened outer spines or three medium length, cylindrical tapering outer spines (Figs 1 F , 4 F , 6 F , 8 F , 11 F ) 5 4 POD : OOD = 1.34–1.67; MID 1.85–1.89 times eye width (Fig. 3 B ); tegulae and metasoma without spots or bands (Fig. 3 A, D ) E. immaculatus Song &amp; Ma, sp. nov. – POD : OOD = 1.18–1.33; MID 2.48–3.11 times eye width (Fig. 9 B ); tegulae and metasoma with yellow spots or bands (Fig. 9 A, D ) E. rufipes ( Linnaeus, 1758 ) 5 Comb spine of fore metatarsus comparatively short, length less than twice metatarsus maximum width (Fig. 13 F ) 6 – Comb spine of fore metatarsus comparatively long, length exceeding twice metatarsus maximum width (Figs 1 F , 4 F , 11 F ) 7 6 Apical third of all femora, all of tibiae, spurs, tarsomere 1 and spines, tarsomere 2 partly yellowish or brown (Fig. 13 A ); T 2 –6 each with orange marks or band; squamiform pubescence on Tl coppery (Fig. 13 A, D ) E. vagabundus hopponis ( Matsumura, 1912 ) – Mid and hind legs black; Tl, 2 and 5 yellow maculated; squamiform pubescence on Tl silvery, mixed with weak bluish sheen E. rufotibialis Tsuneki, 1989 7 Antenna 1-4 (5) fulvous; mesosoma in large part fulvous, basal T 2 –3 with wide yellow or fulvous band, T 4–6 almost entirely fulvous; basal S 1 –4 more or less black, S 4–6 almost entirely fulvous (Fig. 1 A ) E. fulvimaculatus Song &amp; Li, sp. nov. – Antenna black; mesosoma in large part black, only some terga have yellow spots and bands (Figs 4 A , 11 A ) 8 8 Fore tarsus with long flattened spines; fore femora apically, most mid and hind femora (all or outer), fore tibia (all or outer), mid and hind tibia reddish (Fig. 4 A ); F 1 length 4.4–4.9 times its maximum width E. albonotatum ( Vander Linden, 1827 ) – Fore tarsus with cylindrical tapering outer spines; fore and mid legs black, hind tibia reddish (apically black) (Fig. 11 A ); F 1 length 7.13–7.43 times its maximum width E. rufotibius Anju, Girish Kumar &amp; Thejass, 2024 Males (males are unknown for E. immaculatus Song &amp; Ma, sp. nov., E. latimarginatus Tsuneki, 1989 , and E. rufotibialis Tsuneki, 1989 ) 1 Hind tibia largely black (Fig. 7 A ) E. arrogans ( Smith, 1873 ) – Hind tibia partly reddish (Figs 2 A , 5 A , 10 A , 12 A , 14 A ) 2 2 Posterior margin of pronotum and mesonotum with yellow or fulvous band or spot (Figs 2 A , 14 A ) 3 – Posterior margin of pronotum and mesonotum without band or spot (Figs 5 A , 10 A , 12 A ) 4 3 Marks on T 2 - T 3 basolaterally and T 7 yellow brown or fulvous (Fig. 2 A ); F 1 length 1.42–1.64 times its maximum width E. fulvimaculatus Song &amp; Li, sp. nov. – Marks on T 3 basolaterally (usually concealed) and T 7 yellow (Fig. 14 A ); F 1 length 2.11–2.32 times its maximum width E. vagabundus hopponis ( Matsumura, 1912 ) 4 Pterostigma elongated, its posterior margin parallel to anterior (Figs 10 E , 12 E ) 5 – Pterostigma not elongated, its posterior margin rounded (Fig. 5 E ) E. albonotatum ( Vander Linden, 1827 ) 5 Mid legs black, hind tibia reddish (apically black); spur white; squamiform pubescence usually with bluish or yellow – green sheen (Fig. 12 A, D ) E. rufotibius Anju, Girish Kumar &amp; Thejass, 2024 – Apical mid femora, half of hind femora and mid and hind tibiae reddish; spur brown; squamiform pubescence usually brown (Fig. 10 A, D ) E. rufipes ( Linnaeus, 1758 )</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/6361FC135A36559395FEA35D62B57519#SECID0ENFAE">this account</a> <a href="https://treatment.plazi.org/id/6361FC135A36559395FEA35D62B57519">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pompilidae/"><span>Pompilidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vespoidea/"><span>Vespoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/aculeata/"><span>Aculeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/apocrita/"><span>Apocrita</span> <span class="n">1,381</span></a></li>
+<li><a href="/taxon/hymenoptera/"><span>Hymenoptera</span> <span class="n">1,589</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/telostholus/"><i>Telostholus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Episyron</i></td><td>Genus</td><td>Pompilidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Episyron">Plazi/Episyron</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/episyron/&quot;,
+  &quot;name&quot;: &quot;Episyron&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/episyron/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4DFJ&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pompilidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pompilidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4DFJ</p>
+</div></footer>
+</body>
+</html>

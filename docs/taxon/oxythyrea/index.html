@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Oxythyrea</title>
+<meta name="description" content="Oxythyrea in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/oxythyrea/">
+<meta property="og:title" content="Bioacoustics of Oxythyrea">
+<meta property="og:description" content="Oxythyrea in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/6BJ8">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/oxythyrea/", "name": "Oxythyrea", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/oxythyrea/", "sameAs": "https://api.audioblast.org/taxon/CoL/6BJ8", "parentTaxon": {"@type": "Taxon", "name": "Leucocelina", "taxonRank": "subtribe", "url": "https://browse.acousti.cloud/taxon/leucocelina/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Coleoptera", "item": "https://browse.acousti.cloud/taxon/coleoptera/"}, {"@type": "ListItem", "position": 7, "name": "Polyphaga", "item": "https://browse.acousti.cloud/taxon/polyphaga/"}, {"@type": "ListItem", "position": 8, "name": "Staphyliniformia", "item": "https://browse.acousti.cloud/taxon/staphyliniformia/"}, {"@type": "ListItem", "position": 9, "name": "Scarabaeoidea", "item": "https://browse.acousti.cloud/taxon/scarabaeoidea/"}, {"@type": "ListItem", "position": 10, "name": "Scarabaeidae", "item": "https://browse.acousti.cloud/taxon/scarabaeidae/"}, {"@type": "ListItem", "position": 11, "name": "Cetoniinae", "item": "https://browse.acousti.cloud/taxon/cetoniinae/"}, {"@type": "ListItem", "position": 12, "name": "Cetoniini", "item": "https://browse.acousti.cloud/taxon/cetoniini/"}, {"@type": "ListItem", "position": 13, "name": "Leucocelina", "item": "https://browse.acousti.cloud/taxon/leucocelina/"}, {"@type": "ListItem", "position": 14, "name": "Oxythyrea", "item": "https://browse.acousti.cloud/taxon/oxythyrea/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/coleoptera/"><span class="rk">Order</span><span>Coleoptera</span></a><span class="sep">›</span><a href="/taxon/polyphaga/"><span class="rk">Suborder</span><span>Polyphaga</span></a><span class="sep">›</span><a href="/taxon/staphyliniformia/"><span class="rk">Series Zoology</span><span>Staphyliniformia</span></a><span class="sep">›</span><a href="/taxon/scarabaeoidea/"><span class="rk">Superfamily</span><span>Scarabaeoidea</span></a><span class="sep">›</span><a href="/taxon/scarabaeidae/"><span class="rk">Family</span><span>Scarabaeidae</span></a><span class="sep">›</span><a href="/taxon/cetoniinae/"><span class="rk">Subfamily</span><span>Cetoniinae</span></a><span class="sep">›</span><a href="/taxon/cetoniini/"><span class="rk">Tribe</span><span>Cetoniini</span></a><span class="sep">›</span><a href="/taxon/leucocelina/"><span class="rk">Subtribe</span><span>Leucocelina</span></a></nav>
+<h1>Bioacoustics of <i>Oxythyrea</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1 Raster more or less horseshoe-shaped, various habitats ( Fig. 10B–C, E–H, K–L, N–Q ).............................. 4 - Raster composed of two or more parallel rows of pali. Habitat in sand dunes, usually near shoreline of the Mediterranean Sea ( Fig. 10 A , D, I, J, M, R )................................................................................ 2 2 Raster ( Fig. 10I , R ) monostichous (sometimes few pali scattered around main row), each row of pali with approximately 18–23 pali on each side, tegilla and dorsal parts of last abdominal segment covered with more or less sparse setae, medium and long setae sparse, almost absent. Zygum ( Fig. 5I ) with transverse, arcuate or angulate row of 12–15 stout setae and posterior group of another 4–7 stout setae. Habitat in shoreline sand dunes ( Tunisia , Libya )............................. O. tripolitana - Raster monostichous or polystichous with more than 24 pali on each side, tegilla and dorsal parts of last abdominal segment densely setose with numerous medium and long setae ( Fig. 10 A , D, J, M ). Zygum with transverse, arcuate or angulate row of 11–15 stout setae and posterior group of another 10–14 stout setae ( Fig. 5 A , D )................................... 3 3 Cranium width 2.55–2.7 mm ; cranium pale brown, sclerotised parts of antennomeres uniformly pale brown ( Fig. 4 A ). Habitat in shoreline sand dunes ( Cyprus , Israel , Lebanon , Syria , Egypt ).......................................... O. abigail - Cranium width 2.89–3.04 mm ; cranium chestnut brown, sclerotised parts of antennomeres brown to dark brown, often with ultimate and penultimate antennomera darker than the preceding antennomers ( Fig. 4D ). Note: the discrimination between O. abigail and O. dulcis based purely on larval characters is merely impossible and the characters given here might be an artefact of the breeding conditions or of the storing of the larval samples. Habitat in shoreline sand dunes ( Montenegro , Greece , western and southern coast of Turkey )................................................................... O. dulcis 4 Dorsum of last abdominal segment more or less truncate, with distinct round field of short ovate or scale-like setae (exception- ally also hammate setae) bordered by more or less distinct ring of long erect setae ( Fig. 11B, C, F ). Distance between ridges of mandibular stridulatory field more or less equal, or only slightly dwindling towards both ends ( Fig. 7B, C, F )............ 5 - Dorsum of last abdominal segment not truncate, lacking distinct round field and the circular row of long setae, setae on dorsum of last abdominal segment hammate. Distance between ridges of mandibular stridulatory area distinctly uneven: ridges very fine in proximal third, while very distant in remaining area (distance between two ridges about 4 times larger than in proximal area). Note: rarely sparse circular row of long setae is present on dorsum of last abdominal segment also in O. funesta ( Fig. 11E, M ), thus it is important to examine carefully mandibular stridulatory area ( Figs. 7E ; 8 A , B )!..................... 7 5 Dorsum of last abdominal segment with circular row of long setae composed of only single row of setae, circular field with short ovate setae ( Fig. 11B ). Chaetopariae of epipharynx with 45–52 and 30–36 setae on right and left side respectively, cranial width between 2.01 and 2.21 mm , mandibular stridulatory area with 9–11 ridges ( Figs. 7B , 8E ). Wide range of habitats, usually open grasslands and shrubs, steppe, with more continental climatic conditions (Eastern Mediterranean to Central Asia)................................................................................................ O. albopicta - Dorsum of last abdominal segment: circular row of long setae composed usually of more than one row of setae, inner circular field with short ovate or scale-like setae ( Fig. 11C, F ). Chaetopariae of epipharynx with more than 54 and 36 setae on right and left side, respectively; stridulatory area of mandibles with 13–25 ridges ( Figs. 7C, F , 8F , 9C )......................... 6 6 Body whitish, setose fields of each (sub)lobe yellowish-brown. Oval field on dorsum of last abdominal segment with short ovate setae. Chaetopariae of epipharynx with 63–77 and 36–53 setae on right and left side, respectively; stridulatory area of mandibles with 13–20 ridges ( Figs. 7C , 8F ). Wide spectrum of habitats in different altitudes (Eastern Mediterranean to Central Asia)...................................................................................... O. cinctella - Body more or less uniformly whitish. Oval field on dorsum of last abdominal segment with short scale-like setae. Chaetopariae of epipharynx with 54–70 and 43–53 setae on right and left side, respectively; stridulatory area of mandibles with 20–25 ridges ( Figs. 7F , 9C ). Wide spectrum of habitats in different altitudes ( Cyprus , Israel , Jordan , Lebanon , Syria , Egypt , Turkey )................................................................................................... O. noemi 7 O. funesta complex ( O. funesta , O. pantherina , O. subcalva ). Note: The discrimination of larval forms of these three species remains merely impossible without knowledge of the origin of the material. Larvae from Europe and Asia belong to O. funesta . However, specimens from Northern Africa remain impossible to determine according to their morphological characters. The only clue might be the size ( O. pantherina tends to be slightly larger with cranial width above 2.55 mm ), and the ecological characteristics of the locality ( O. funesta is usually found in wetter coastal areas and mountain ranges, while O. subcalva lives in more dry conditions on the edge of sandy deserts).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03CA879D6226661843A7FA2EFD4DFC19#C37965006226661843A7FA6BFD4DFC19">this account</a> <a href="https://treatment.plazi.org/id/03CA879D6226661843A7FA2EFD4DFC19">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/leucocelina/"><span>Leucocelina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cetoniini/"><span>Cetoniini</span> <span class="n">10</span></a></li>
+<li><a href="/taxon/cetoniinae/"><span>Cetoniinae</span> <span class="n">14</span></a></li>
+<li><a href="/taxon/scarabaeidae/"><span>Scarabaeidae</span> <span class="n">139</span></a></li>
+<li><a href="/taxon/scarabaeoidea/"><span>Scarabaeoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/staphyliniformia/"><span>Staphyliniformia</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/polyphaga/"><span>Polyphaga</span> <span class="n">567</span></a></li>
+<li><a href="/taxon/coleoptera/"><span>Coleoptera</span> <span class="n">654</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<p class="none">No sibling taxa held.</p>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Oxythyrea</i></td><td>Genus</td><td>Scarabaeidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Oxythyrea">Plazi/Oxythyrea</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/oxythyrea/&quot;,
+  &quot;name&quot;: &quot;Oxythyrea&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/oxythyrea/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/6BJ8&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Leucocelina&quot;,
+    &quot;taxonRank&quot;: &quot;subtribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/leucocelina/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/6BJ8</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Physopelta</title>
+<meta name="description" content="Physopelta in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/physopelta/">
+<meta property="og:title" content="Bioacoustics of Physopelta">
+<meta property="og:description" content="Physopelta in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/6PZW">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/physopelta/", "name": "Physopelta", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/physopelta/", "sameAs": "https://api.audioblast.org/taxon/CoL/6PZW", "parentTaxon": {"@type": "Taxon", "name": "Physopeltini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/physopeltini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hemiptera", "item": "https://browse.acousti.cloud/taxon/hemiptera/"}, {"@type": "ListItem", "position": 7, "name": "Heteroptera", "item": "https://browse.acousti.cloud/taxon/heteroptera/"}, {"@type": "ListItem", "position": 8, "name": "Pentatomomorpha", "item": "https://browse.acousti.cloud/taxon/pentatomomorpha/"}, {"@type": "ListItem", "position": 9, "name": "Pyrrhocoroidea", "item": "https://browse.acousti.cloud/taxon/pyrrhocoroidea/"}, {"@type": "ListItem", "position": 10, "name": "Largidae", "item": "https://browse.acousti.cloud/taxon/largidae/"}, {"@type": "ListItem", "position": 11, "name": "Physopeltinae", "item": "https://browse.acousti.cloud/taxon/physopeltinae/"}, {"@type": "ListItem", "position": 12, "name": "Physopeltini", "item": "https://browse.acousti.cloud/taxon/physopeltini/"}, {"@type": "ListItem", "position": 13, "name": "Physopelta", "item": "https://browse.acousti.cloud/taxon/physopelta/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hemiptera/"><span class="rk">Order</span><span>Hemiptera</span></a><span class="sep">›</span><a href="/taxon/heteroptera/"><span class="rk">Suborder</span><span>Heteroptera</span></a><span class="sep">›</span><a href="/taxon/pentatomomorpha/"><span class="rk">Infraorder</span><span>Pentatomomorpha</span></a><span class="sep">›</span><a href="/taxon/pyrrhocoroidea/"><span class="rk">Superfamily</span><span>Pyrrhocoroidea</span></a><span class="sep">›</span><a href="/taxon/largidae/"><span class="rk">Family</span><span>Largidae</span></a><span class="sep">›</span><a href="/taxon/physopeltinae/"><span class="rk">Subfamily</span><span>Physopeltinae</span></a><span class="sep">›</span><a href="/taxon/physopeltini/"><span class="rk">Tribe</span><span>Physopeltini</span></a></nav>
+<h1>Bioacoustics of <i>Physopelta</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Body smaller (8.5–12.6 mm), red. Antennomere 1 short, much shorter than antennomere 2 or length of pronotum. Sexual dimorphism indistinct, callar lobe only weakly gibbose in both sexes ( Figs 62−63 ). Profemora of both sexes not incrassate ( Figs 62−63 ), their ventral surface with a longitudinal furrow, provided with a row of small denticles on each sides of the furrow, and two larger teeth anteapically on dorsal surface ( Figs 66−67 ). Meso- and metafemora lacking both denticles and longitudinal furrow. Tibiae unarmed in both sexes. Labium surpassing metacoxae. Stridulatory organs on fore leg lacking ( Figs 64−65 ). Peritreme of metathoracic scent gland oriented longitudinally, crescent-shaped, projecting both anteriad and posteriad of ostiole ( Figs 68−69 ). Paramere with apex short and narrow, outer margin basally with small angulate process ( Figs 75−79 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B66912FF840457FE21FF1DFC6FFD36#C3058B8FFF840457FF1EFEF2FCB9FDB1">this account</a> <a href="https://treatment.plazi.org/id/03B66912FF840457FE21FF1DFC6FFD36">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Body smaller (males 11.18–12.26 mm, females 11.39–12.47 mm). Antennomere 1 short, much shorter than both antennomere 2 and length of pronotum. Sexual dimorphism not expressed. Callar lobe distinctly gibbose in both sexes ( Figs 60–61 ). Profemora of both sexes strongly incrassate ( Figs 51 , 60–61 ), ventral surface with longitudinal furrow, row of small denticles on each side of furrow, and two larger teeth anteapically on dorsal surface ( Figs 50–51 ). Tibiae ventrally unarmed in both sexes. Ventral sides of meso- and metafemora with small denticles along their entire length. Stridulatory organs lacking, procoxa ventrally without tubercle ( Figs 48–49 ). Peritreme of metathoracic scent gland oriented longitudinally, crescent-shaped, projecting both anteriad and posteriad of ostiole (as on Figs 68–69 ). Paramere with apex short and narrow, outer margin basally with small angulate process ( Figs 55–59 ). Differential diagnosis. Physopeltoides subgen. nov. and Neophysopelta share the following characters, suggesting a possible sister relationship of both taxa: i) antennomere 1 shorter than antennomere 2; ii) profemora incrassate; iii) meso- and metafemora ventrally with longitudinal furrow of small denticles. However, in Physopeltoides subgen. nov. the characters ii) and iii) occur in both sexes, whereas in Neophysopelta these are developed only in males. Afrophysopelta subgen. nov. differs from Physopeltoides subgen. nov. In its profemora not incrassate and meso- and metafemora ventrally unarmed. On the other hand, Afrophysopelta subgen. nov. and Physopeltoides subgen. nov. share the same shape of peritreme and paramere.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B66912FF9A0448FE23FC5DFBADFEC9#C3058B8FFF9A0449FF1EFC32FBB5F9F1">this account</a> <a href="https://treatment.plazi.org/id/03B66912FF9A0448FE23FC5DFBADFEC9">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Body large (15.7–21.0 mm) and wide (5.1–7.0 mm). Labium reaching between metacoxae. Antennomere 1 long in both sexes, invariably longer than antennomere 2, as long as or sometimes even longer than pronotum. Sexual dimorphism well expressed, callar lobe strongly gibbose in males ( Fig. 13 ), weakly gibbose in females ( Fig. 14 ). Profemora in males strongly incrassate, ventral surface with longitudinal furrow in its entire length bordered with a number of spines on both sides ( Fig. 5 ). In females profemora distinctly more slender, with fewer spines. Protibia ventrally with a strong anteapical tooth and a row of small denticles along its entire length in males ( Figs 5 , 15 ), unarmed in females. Mesofemora of males ventrally with a row of small denticles, these missing in females. Allometry of males exists: the sexually dimorphic characters are much more expressed in some males than in others. Stridulatory organs in form of a large tooth (strigil) on protrochanter, matching a depression on ventral surface of procoxa (plectrum) ( Figs 1−2 ). Peritreme of metathoracic scent glands horizontal, more or less scimitar-shaped with rounded apex, from ostiole directed laterad to slightly posterolaterad ( Figs 3−4 ). Paramere with apex longer and narrower, outer margin basally angulately produced ( Figs 8−12 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B66912FFB10462FED2FC1FFCB8F9FC#C3058B8FFFB10462FFF8FBCFFDA7FA3C">this account</a> <a href="https://treatment.plazi.org/id/03B66912FFB10462FED2FC1FFCB8F9FC">at Plazi</a></p>
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1(4) Stridulatory organs present on procoxa and protrochanter ( Figs 1−2 , 17−18 ). Peritreme of metathoracic scent glands horizontal, scimitar-shaped, directed laterad to posterolaterad ( Figs 3−4 , 20, 22 ). Sexual dimorphism and allometry in males well developed. Mostly large species (with few exceptions, 10.5–21.0 mm). Oriental and Australian Regions....................................................................................................................................2 2(3) Antennomere 1 longer than antennomere 2. Males with a strong, orthogonally directed apical tooth on ventral surface of protibia ( Figs 5 , 15 ). Stridulatory organ in form of a strong tooth (strigil) on protrochanter and a depression on ventral surface of procoxa (plectrum) ( Figs 1−2 ). Peritreme of metathoracic scent glands directed laterad ( Figs 3−4 ). Paramere with apex longer and narrower, outer margin angulately produced basally ( Figs 8−12 ). Large species: 15.7–21.0 mm. ................................... ........................................................................... Physopelta Amyot &amp; Serville, 1843 3(2) Antennomere 1 shorter than antennomere 2 (except Ph. finisterrae ). Tibiae in males apically without tooth. Stridulatory organ in form of a tooth on procoxa (strigil) and a wrinkled cuticule on protrochanter (plectrum) ( Figs 17−18 ). Peritreme of metathoracic scent glands directed posterolaterad ( Figs 20, 22 ). Paramere with apex shorter and narrower, outer margin without distinct angulate process ( Figs 30−34 ). Smaller species: 10.5–15.1 mm. ................................ Neophysopelta Ahmad &amp; Abbas, 1987 stat. nov. 4(1) Stridulatory organs on fore leg absent ( Figs 48−49 , 64−65 ). Peritreme of metathoracic scent glands longitudinal, crescent-shaped, projecting both anteriad and posteriad ( Figs 68−69 ). Sexual dimorphism and allometry in males not developed.Antennomere 1 shorter than antennomere 2. Smaller species (8.5–12.6 mm). Subsaharan Africa including Madagascar and Mascarenes. ..................................................................................... 5 5(6) Callar lobe distinctly gibbose; profemora incrassate ( Figs 60−61 ); meso- and metafemora of both sexes ventrally with a row of small denticles along their entire length. ............ ....................................................................................... Physopeltoides subgen. nov. 6(5) Callar lobe weakly gibbose; profemora not incrassate ( Figs 62−63 ); meso- and metafemora ventrally without row of small denticles. .......... Afrophysopelta subgen. nov.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B66912FFB30462FE1CFC2AFBC0FC89#C3058B8FFFB00462FF1EFAEDFBC0FC89">this account</a> <a href="https://treatment.plazi.org/id/03B66912FFB30462FE1CFC2AFBC0FC89">at Plazi</a></p>
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Discussion. The present revision of the genus Physopelta in its traditional concept (i.e., excluding Delacampius ) revealed that it is not a monophyletic taxon. While Physopelta festiva and Ph. apicalis must be excluded from the genus, the remaining species belonging to Physopelta can be further divided into four well-delimited subgenera. In contrast with the two Afrotropical subgenera proposed in the present paper ( Afrophysopelta subgen. nov. , Physopeltoides subgen. nov. ) which lack any sexual dimorphism, the two subgenera from the Oriental and Australian Regions ( Physopelta s. str. , Neophysopelta sensu novo) have developed sexual dimorphism: males have more gibbose callar lobe, incrassate profemora, and a longitudinal row of small denticles on the ventral surface of the protibia. This sexual dimorphism is also connected with allometry causing individual differences among the conspecific males. This sexual dimorphism and allometry were described by STEHLÍK (2007: 127) who provided colour photos of a normal male, an allometric male, and a female of Physopelta ( Neophysopelta ) gutta gutta ( Burmeister, 1834 ) and Ph. ( N. ) quadriguttata Bergroth, 1894 . Moreover, males of Physopelta s. str. have a strong spine anteapically on the ventral surface of the protibia, which is missing in females. The presence of a longitudinal row of small denticles on the ventral surface of the meso- and metafemora, which could be sexually dimorphic and may also vary within the allometry in males, is recognized here as useful character for defining genera within Physopeltinae . This character was used for the first time in descriptions of Physopelta trimaculata Stehlík &amp; Jindra, 2008 and Ph. kotheae Stehlík &amp; Jindra, 2008 ( STEHLÍK &amp; JINDRA 2008a ). In some cases, a longitudinal furrow on the ventral surface of the metafemora may even be present. The Oriental subgenera Physopelta s. str. and Neophysopelta possess stridulatory organs, which has a specific structure in both of the subgenera, and which are missing in the Afrotropical Physopeltoides subgen. nov. and Afrophysopelta subgen. nov. These stridulatory organs, described here for the first time, seems to be unique within all known Heteroptera . Key to the subgenera of Physopelta</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B66912FFB30462FE1CFC2AFBC0FC89#C3058B8FFFB00463FF1EFE7DFCC5FACE">this account</a> <a href="https://treatment.plazi.org/id/03B66912FFB30462FE1CFC2AFBC0FC89">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Head not shortened, not positioned much lower than pronotum. Callar lobe of pronotum usually strongly gibbose in male and less gibbose in female (different among subgenera). Pronotum not constricted, its lateral margins narrow, only slightly concave medially. Profemora ventrally with a longitudinal furrow ( Figs 5 , 19 , 51 , 66−67 , 98 ). Stridulatory organs (when present) on coxa and trochanter of fore leg ( Figs 1−2 , 17−18 ). Macropterous. Male abdomen never prolonged behind apex of hemelytra. Body length 9.5–20.0 mm.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03B66912FFB30462FE1CFC2AFBC0FC89#C3058B8FFFB00463FF1EFF1DFEAFFE6E">this account</a> <a href="https://treatment.plazi.org/id/03B66912FFB30462FE1CFC2AFBC0FC89">at Plazi</a></p>
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Remarks. Physopelta strongly resembles the genus Delacampius Distant, 1903 , but the former can be distinguished from the latter by the following characteristics: antennomere III more than 0.5 times as long as antennomere IV; calli sometimes more convex in male than in female; lateral margin of pronotum not or slightly emarginate between calli and disc, always without wrinkle; corium of fore wing always without wrinkle; procoxa sometimes with a horn-shaped projection (procoxal projection); and protrochanter sometimes with wrinkles (protrochanteral wrinkles). In contrast, Delacampius has the following features: antennomere III approximately 0.5 times as long as antennomere IV; calli equally convex in both sexes; lateral margin of pronotum deeply emarginate between calli and disc, sometimes with several wrinkles (stridulatory organ); corium of fore wing sometimes with several wrinkles (stridulatory organ); procoxa always without projection; protrochanter always without wrinkle. In the genus Physopelta , four subgenera are currently recognized: Afrophysopelta and Physopeltoides from the Afrotropical Region, Neophysopelta from the Oceanian, Oriental, and Palaearctic Regions, and the nominotypical Physopelta from the Oriental Region ( Stehlík 2013 ). Five species of Physopelta , all belonging to Neophysopelta , have been known from Japan , Korea , and Taiwan : Ph . ( N .) cincticollis , Ph . ( N .) gutta gutta , Ph . ( N .) parviceps , Ph . ( N .) quadriguttata , and Ph . ( N .) slanbuschii ( Stehlík 2013 ; Ishikawa 2016 ). Conclusively, we recognize five species of Physopelta , all belonging to Neophysopelta , from Japan , Korea , and Taiwan : Ph . ( N .) gutta gutta , Ph . ( N. ) fusciscutellata sp. nov. , Ph . ( N. ) lutaspidata sp. nov. , Ph . ( N .) parviceps , and Ph . ( N .) quadriguttata . Species of the subgenera Physopelta s. str. and Neophysopelta have sexual dimorphism in the swelling degree of the calli, the width of the femur, and the curvature of the protibia ( Stehlík 2013 ). Sexual dimorphism is more distinct in larger male than in smaller male ( Stehlík 2007 ). Physopelta species were diagnosed by previous authors based on the differences in the morphological characteristics such as body shape, size of the compound eye, shape of the antenna, and the presence or absence of the procoxal projection and protrochanteral wrinkles (e.g. Stål 1863 ; Blöte 1931 ; Rédei et al . 2009 ; Kohno et al . 2012 ; Stehlík 2013 ). These characteristics are also useful for the identification of the new species described below. In addition, the structure of male and female terminalia provide good characters for identification among at least the eastern Asian species. An apparatus consisting of a projection of procoxa and wrinkles of the protrochanter has been named “stridulatory organ” by Stehlík (2013) ; however, the stridulatory behavior of Physopelta species has not been observed so far. Also, the procoxal projection on procoxa in Ph . ( N .) parviceps is present in macropterous morph but is absent in brachypterous morph, and Ph . ( N .) lutaspidata sp. nov. has only the wrinkles in the protrochanter. Therefore, a horn-shaped projection of procoxa and wrinkles of the protrochanter are here renamed as procoxal projection and protrochanteral wrinkles, respectively. The antennomeral oligomery is confirmed in Ph . ( N .) gutta gutta ( Fig. 1A ) and Ph . ( N .) parviceps ( Fig. 2B, F ). These three individuals lack antennomere III. Similar teratological forms are known in Cimicomorpha Leston, Pendergrast &amp; Southwood, 1954, Gerromorpha Popov, 1971, Leptopodomorpha Popov, 1971, and Pentatomomorpha ( Leston 1952 ; Štusák &amp; Stehlík 1978 ; Yasunaga 2018 ; Taszakowski &amp; Kaszyca-Taszakowska 2020 , etc.). Thus, the antennomeral oligomery may be common in other Physopelta species as other heteropterans. Although only dozens of individuals are found on their host plants at noon, hundreds of individuals of Physopelta species are sometimes attracted to artificial light at night ( Fig. 17 ). On the other hand, Ph . ( N .) gutta gutta was collected from a volcanic island, whose flora does not include its host plants, Mallotus japonicus (L.f.) Müll.Arg. ( Euphorbiaceae ) and its close relatives (cf. Ohba 1989 ; Komatsu et al . 2009 ). Thus, some species of Physopelta appears to have strong phototaxis and flight ability.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/351AAE4D0259FFE33295B9A3FD55FE30#F5A94CD00259FFE332C5BA45FD55FE30">this account</a> <a href="https://treatment.plazi.org/id/351AAE4D0259FFE33295B9A3FD55FE30">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/physopeltini/"><span>Physopeltini</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/physopeltinae/"><span>Physopeltinae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/largidae/"><span>Largidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/pyrrhocoroidea/"><span>Pyrrhocoroidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/pentatomomorpha/"><span>Pentatomomorpha</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/heteroptera/"><span>Heteroptera</span> <span class="n">38</span></a></li>
+<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">72,144</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/neophysopelta/"><i>Neophysopelta</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/riegeriana/"><i>Riegeriana</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Physopelta</i></td><td>Genus</td><td>Largidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Physopelta">Plazi/Physopelta</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/physopelta/&quot;,
+  &quot;name&quot;: &quot;Physopelta&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/physopelta/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/6PZW&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Physopeltini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/physopeltini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/6PZW</p>
+</div></footer>
+</body>
+</html>

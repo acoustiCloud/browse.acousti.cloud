@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Habetia</title>
+<meta name="description" content="Habetia in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/habetia/">
+<meta property="og:title" content="Bioacoustics of Habetia">
+<meta property="og:description" content="Habetia in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8NS8Z">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/habetia/", "name": "Habetia", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/habetia/", "sameAs": "https://api.audioblast.org/taxon/CoL/8NS8Z", "parentTaxon": {"@type": "Taxon", "name": "Agraeciini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/agraeciini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Orthoptera", "item": "https://browse.acousti.cloud/taxon/orthoptera/"}, {"@type": "ListItem", "position": 7, "name": "Ensifera", "item": "https://browse.acousti.cloud/taxon/ensifera-suborder/"}, {"@type": "ListItem", "position": 8, "name": "Tettigoniidea", "item": "https://browse.acousti.cloud/taxon/tettigoniidea/"}, {"@type": "ListItem", "position": 9, "name": "Tettigonioidea", "item": "https://browse.acousti.cloud/taxon/tettigonioidea/"}, {"@type": "ListItem", "position": 10, "name": "Tettigoniidae", "item": "https://browse.acousti.cloud/taxon/tettigoniidae/"}, {"@type": "ListItem", "position": 11, "name": "Conocephalinae", "item": "https://browse.acousti.cloud/taxon/conocephalinae/"}, {"@type": "ListItem", "position": 12, "name": "Agraeciini", "item": "https://browse.acousti.cloud/taxon/agraeciini/"}, {"@type": "ListItem", "position": 13, "name": "Habetia", "item": "https://browse.acousti.cloud/taxon/habetia/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera-suborder/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/tettigoniidea/"><span class="rk">Infraorder</span><span>Tettigoniidea</span></a><span class="sep">›</span><a href="/taxon/tettigonioidea/"><span class="rk">Superfamily</span><span>Tettigonioidea</span></a><span class="sep">›</span><a href="/taxon/tettigoniidae/"><span class="rk">Family</span><span>Tettigoniidae</span></a><span class="sep">›</span><a href="/taxon/conocephalinae/"><span class="rk">Subfamily</span><span>Conocephalinae</span></a><span class="sep">›</span><a href="/taxon/agraeciini/"><span class="rk">Tribe</span><span>Agraeciini</span></a></nav>
+<h1>Bioacoustics of <i>Habetia</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Discussion. The genus Habetia comprises species with very long ovipositor, which is about one and a half time as long as the body from head to tip, and other species, in which the ovipositor is about as long as the body. In both groups the female subgenital plate ends into a pair of long apical projections with acute tip, and in most species the baso-lateral area of the subgenital plate is, to a variable degree, extended dorsad. In few species it is only faintly or not dorsally extended, e.g., in the type species H. spada . The males that belong to species with very long female ovipositor have so far known always sclerotized but simple, strongly curved and thus nearly U-shaped titillators, while males of species with moderately long female ovipositor have more complex titillators by adding additional branches or connecting septa between more basal and apical areas. But their basic shape is also based on the Ushaped curvature. An intermediate species is H. dentata sp. nov. that has simple titillators as in the first group but the female subgenital plate resembles more the species in the second group. Regarding the male subgenital plate, there are several species-specific modifications. But in most species, they consist of a basal disc with convex and upcurved lateral margins, that are toward end narrowed and with straight or little concave lateral margins and then end into narrow extensions with the styli at tip. In the males that belong to species with long female ovipositor the apical extensions are rather short, while in the second group the apical extensions are usually strongly prolonged and usually upcurved. From the species of the first group, the subgenital plate of H. pedala sp. nov. is most closely to an intermediate form. The stridulatory file on the underside of the male left tegmen also shows a difference between both groups of species. In the large species there is a distinct step in the subapical area of the file that is missing in the file of the smaller species. However, in H. dentata , that agrees in titillators with the species of the first group, there is a weak step in subapical area of the file, which is thus intermediate between the shapes of the files in both groups. A common character uniting both groups is the basic shape of the male cerci that are cylindrical or slightly conical and little curved mediad or substraight. They carry in apical area a dorsal carina or a crest and are provided at or little before end with a compressed internal projection that is at end divided into two short branches, which vary however between species in size, length, and orientation, in few species one of the apical branches is reduced. Only H. dentata has that basic shape of the cerci more strongly modified.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/FA08E75DAA3C805BFDC037DC92A56FF1#3ABB05C0AA3B805BFD90301592A56FF1">this account</a> <a href="https://treatment.plazi.org/id/FA08E75DAA3C805BFDC037DC92A56FF1">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Fastigium verticis conical, shorter than scapus; ventral margin compressed, separated by a shallow sinuosity from fastigium frontis. Frons shining, sub-smooth with few shallowly impressed dots. Pronotum shining, sub-smooth; disc with lateral angles rounded, only in very apical area shouldered and disc faintly raised and flattened; anterior margin broadly rounded but truncate or slightly concave in middle; posterior margin slightly convex, almost straight, or truncate, in few species distinctly convex; first transverse sulcus little expressed, interrupted in middle; second sulcus distinct on paranota. Paranota longer than high; ventral margin slightly concave or almost straight, weakly descending posteriorly, ventro-posterior angle little produced, humeral sinus hardly expressed. Prosternal spines of medium length, shorter than coxa, only little varying between species. Mesosternal lobes varying from obtuse angular to little conical; metasternal lobes rounded or angularly rounded with hind margin often nearly truncate; medial plate with a spine at both posterior angles. Wings varying from just covering abdomen to distinctly surpassing hind knees; tegmen narrow, anterior margin convex in proximal area, narrowing posteriorly, in apical fourth to third with sub-parallel fore and hind margins; tip rounded; male stridulatory area free or only basal area little covered; hind wings of about same length as tegmen. All femora with spines on both ventral margins, on ventro-external margin of hind femur spines often start behind basal quarter or third or rarely nearly in mid-length and increase in size toward end of femur; on ventrointernal margin of hind femur the spines start closer to base and are very small or minute in basal half, and often, but not in all species, there are long gaps between successive spines in apical half, and only a few distinct or long spines near tip, in other species there are no large gaps and the spines increase regularly in size to tip. Knee lobes of fore and mid femur with a spine on both sides, posterior spine on anterior femur often small; hind femur bi-spinose on both sides, as exception in very few specimens only uni-spinose on one hind femur but not on both. Anterior tibia with tibial tympana conchate, anterior surface below tympana convex or flattened with both angles rounded, posterior angles provided with spines. Coloration. Most species of uniformly light general color, in museum specimens yellowish or brown, in few with remnants of green; alive individuals might be often green. Face of general color, only few species with black ornaments; mandibles either of general color or partly or fully black. Tegmen usually with little suspicious dark spots within cells, in some individuals or species these dark spots very conspicuous thus that the tegmen appears brown with the veins and veinlets yellowish. Female ovipositor for the greatest part light brown, sometimes darkened. Male. Cerci elongate, little curved or nearly straight, with a subapical or apical internal process that usually divides at tip; cercus trunk at least in apical area with a dorsal rim or other elevation varying in shape between species. Subgenital plate in basal area broad, apical area varying between species; the apical margin can be incised, subtruncate, projecting, or divided into a pair of more or less upcurved projections that carry the short styli at tip. Male phallus. The basic shape of the sclerotized parts of the male phallus consists in the simplest form of a pair of about U-shaped titillators that have the basal area connected by a very narrow septum but are still somewhat moveable against each other, with the very base free, faintly widened, and little curved, while the end of the titillators is truncate or rounded without modifications. That basic shape is found, with variations, in the largest species of the genus. In two of them, the subgenital plate shows unique modifications. In most species of the genus the titillators are modified and can become highly complex in some of them. One of the most common modification is the division of both titillators at about the curvature into pairs of basal and apical branches. While the basal branches are rather short and less modified, the apical branches are prolonged and modified in various ways. The structure can become more complex by semi-sclerotized septa between the basal and the re-curved apical area or by the separation of the apical areas from the basal branches. Apart from that there exists a pair of elongate lateral sclerites that are formed of a central spindle with three projecting lamellae that are widest in about mid-length, narrow at both ends; and there is also a pair of small rounded sclerites in the membranes on top of the titillators. The latter two pairs of sclerites are rather uniform between species except for size. Female. Subgenital plate variable between species, often with basal area rather strongly upcurved on both sides, ventral disc prolonged behind and terminating into a pair of usually upcurved, spine-like projections. Ovipositor laterally compressed and long to very long and, except at base, straight, with shape and length varying between species; the dorsal margin varies and can be straight, convex, or strongly raised. The valves of the ovipositor are laterally compressed and obtuse at tip thus probably not strong enough to burrow into the soil. The ovipositor might be adapted to deposit eggs into the leaf-sheaths of tall grasses or other plants. Oviposition in plant tissue is also known for other Conocephalinae .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/FA08E75DAA3C805BFDC037DC92A56FF1#3ABB05C0AA3C805AFD9030DC93676B2D">this account</a> <a href="https://treatment.plazi.org/id/FA08E75DAA3C805BFDC037DC92A56FF1">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/agraeciini/"><span>Agraeciini</span> <span class="n">759</span></a></li>
+<li><a href="/taxon/conocephalinae/"><span>Conocephalinae</span> <span class="n">6,751</span></a></li>
+<li><a href="/taxon/tettigoniidae/"><span>Tettigoniidae</span> <span class="n">83,915</span></a></li>
+<li><a href="/taxon/tettigonioidea/"><span>Tettigonioidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tettigoniidea/"><span>Tettigoniidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera-suborder/"><span>Ensifera</span> <span class="n">116,644</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">143,044</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/habetia-imitatrix/"><i>Habetia imitatrix</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-pallida/"><i>Habetia pallida</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-dentata/"><i>Habetia dentata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-bivittata/"><i>Habetia bivittata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-tuta/"><i>Habetia tuta</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-wau/"><i>Habetia wau</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-lalibu/"><i>Habetia lalibu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-pilleata/"><i>Habetia pilleata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-curvata/"><i>Habetia curvata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/habetia-simbai/"><i>Habetia simbai</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/afroanthracites/"><i>Afroanthracites</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/austrosalomona/"><i>Austrosalomona</i> <span class="n">50</span></a></li>
+<li><a href="/taxon/coptaspis/"><i>Coptaspis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/dendrobia/"><i>Dendrobia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/eppia/"><i>Eppia</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/hyperomerus/"><i>Hyperomerus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/loja/"><i>Loja</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/mesagraecia/"><i>Mesagraecia</i> <span class="n">69</span></a></li>
+<li><a href="/taxon/nicsara/"><i>Nicsara</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/palaeoagraecia/"><i>Palaeoagraecia</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/parasubria/"><i>Parasubria</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/ragoniella/"><i>Ragoniella</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/sphyrometopa/"><i>Sphyrometopa</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/subria/"><i>Subria</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/agraeciina/"><span>Agraeciina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/liarina/"><span>Liarina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/oxylakina/"><span>Oxylakina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/salomonina/"><span>Salomonina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/larifugagraecia/"><i>Larifugagraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/lesinina/"><span>Lesinina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/barbaragraecia/"><i>Barbaragraecia</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/axylus-infratribe/"><span>Axylus</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/paramacroxiphus/"><i>Paramacroxiphus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/philmontis/"><i>Philmontis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pseudomacroxiphus/"><i>Pseudomacroxiphus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pseudonicsara/"><i>Pseudonicsara</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/geoffagraecia/"><i>Geoffagraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/wuyjugu/"><i>Wuyjugu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/parahabetia/"><i>Parahabetia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/warimiri/"><i>Warimiri</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/timbarragraecia/"><i>Timbarragraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kokominiagraecia/"><i>Kokominiagraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cooloolagraecia/"><i>Cooloolagraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/australiagraeciina/"><span>Australiagraeciina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/morocera/"><i>Morocera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/papucera/"><i>Papucera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/angustocera/"><i>Angustocera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cuspicera/"><i>Cuspicera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/glennagraecia/"><i>Glennagraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kaindiagraecia/"><i>Kaindiagraecia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/philmontoides/"><i>Philmontoides</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Habetia</i></td><td>Genus</td><td>Tettigoniidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Habetia">Plazi/Habetia</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/habetia/&quot;,
+  &quot;name&quot;: &quot;Habetia&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/habetia/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8NS8Z&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Agraeciini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/agraeciini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8NS8Z</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Chironomidae</title>
+<meta name="description" content="Chironomidae in audioBlast: 16 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/chironomidae/">
+<meta property="og:title" content="Bioacoustics of Chironomidae">
+<meta property="og:description" content="Chironomidae in audioBlast: 16 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/84X">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/chironomidae/", "name": "Chironomidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/chironomidae/", "sameAs": "https://api.audioblast.org/taxon/CoL/84X", "parentTaxon": {"@type": "Taxon", "name": "Diptera", "taxonRank": "order", "url": "https://browse.acousti.cloud/taxon/diptera/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Diptera", "item": "https://browse.acousti.cloud/taxon/diptera/"}, {"@type": "ListItem", "position": 7, "name": "Chironomidae", "item": "https://browse.acousti.cloud/taxon/chironomidae/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/diptera/"><span class="rk">Order</span><span>Diptera</span></a></nav>
+<h1>Bioacoustics of <span>Chironomidae</span></h1>
+<p class="rank">Family</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>16</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1 Ventromental plate lacks striae, with few weak distal hooks / lappets ( Fig. 2E, F ).................................. 2 1&#x27; Ventromental plate striate, usually also with some distal hooks / lappets ( Fig. 2C, D )............................... 5 2(1) Head conventional, not flattened dorsoventrally or wedge-shaped ( Fig. 7F ). Mentum with median tooth protruding ( Fig. 7A, B ). Thoracic segments dilate only in pharate P. Abdomen cylindrical, not tapering, with well-developed procercus..................................................................................... tribe Xiaomyiini .......... 3 2&#x27; Head dorsoventrally flattened, tapered, wedge-shaped ( Fig. 2E ). Mentum strongly concave with characteristic arrangement of teeth ( Figs. 2F , 7C, D ). Thoracic segments swollen prior to pre-P. stage ( Fig. 7E ). Abdomen tapers, without or with reduced procercus............................................................................................ 4 3(2) Median tooth of mentum sagittate (like arrow head) ( Fig. 7A ).......................... Shangomyia Saether &amp; Wang [ S. impectinata Saether &amp; Wang , lotic, L. wood miner; regionally widespread, India to Borneo, oriental China , Cranston 2003 ; Tang &amp; Cranston 2019 ] 3’ Median tooth of mentum rounded, less protruding ( Fig. 7B )............................... Xiaomyia Saether &amp; Wang [ X. aequipedes Saether &amp; Wang , lotic. Regionally widespread, India , Thailand to oriental China . Tang &amp; Cranston 2019 ] 4(2) 3rd antennal segment short, subequal to 5th; 3rd &amp; 5th each 1/2 length of 4th ( Fig. 7G )................ Harrisius Freeman [tentative L, P, wood-mining, Thailand ; Australia , N.Z.; Borkent 1984 ] 4&#x27; 3rd antennal segment shorter than 4th, both longer than 5th ( Fig. 7H )......................... Stenochironomus Kieffer [abundant, L, wood- or leaf-miners;&gt; 12 spp., inc. Thailand , Malaysia , oriental China ; global, Borkent 1984 ] 5(1) Lauterborn organs large, alternate on segments 2 and 3 ( Fig. 7I, O, P ). Antenna 6-segmented (rarely 5 or 7).............. 6 5&#x27; Lauterborn organs absent to small, rarely large, opposite ( Fig. 8E, F ), rarely alternate. Antenna 5–9 segmented........... 18 6(5) Ventromental plate wedge-shaped ( Fig. 7J ). Body with dorsal hump on segment 11 ( Fig. 7F ), with long lateral tubules. L. in transportable case...................................................................... Zavreliella Kieffer [ Z. marmorata (v. d. Wulp), oriental China , Z. cranstoni Reiss , Sarawak ( Malaysia ), Reiss 1990 ; Z. shidai Cao &amp; Tang , oriental China , Cao &amp; Tang 2017 ; global] 6&#x27; Ventromental plate elongate, rarely wedge-shaped. Body without dorsal hump on segment 11, lacking lateral tubules. L. free-living, tubicolous or with fixed case ( Rheotanytarsus )........................................................ 7 7(6) Median tooth of mentum single, domed, pale ( Fig. 7K ).................................... Paralauterborniella Lenz [widespread, P. nigrohalteralis (Malloch) , Thailand , P. ershanensis Tang , oriental China , Tang 2016 ; Holarctic, Neotropical] 7&#x27; Median mentum with 2–4 pale teeth, or mentum all dark...................................................... 8 8(7) Mandibular and mental teeth all uniformly brown-black or yellow............................................... 9 8&#x27; At least dorsal mandibular tooth pale. Median 3–4 teeth of mentum contrastingly pale.............................. 16 9(8) Median mentum not clearly delimited as dorsomentum ( Fig. 7L, N )............................................ 10 9&#x27; Median mentum delimited as dorsomentum by anteriorly-directed median ventromental plate, comprising 4 or 6 median mental teeth ( Fig. 2C )...................................................................................... 11 10(9) Median mentum with 2 recessed small teeth, ventromental plate semilunar ( Fig. 7L ). Mandible with basal striae ( Fig. 7M ).................................................................................. Xylochironomus Cranston [L. wood-mining, 1–2 undescribed spp., L, P. ♂ , Thailand , oriental China ; Australia ; Cranston 2006 ] 10&#x27; Median mentum with 2 large teeth, ventromental plate fan-like ( Fig. 7N ). Mandible lacks striae........ Polypedilum Kieffer [part: P. nubifer Skuse , P. tobaseptimum Kikuchi &amp; Sasa , widespread; P. quasinubifer Cranston , Singapore , Thailand ; Australia . Cranston et al. 2016a ] 11(9) Basal Lauterborn organ in mid-3rd segment, 2nd apical on 3rd ( Fig. 7O )............................ Skusella Freeman [lotic, perhaps hyporheic, Singapore , Malaysia (inc. Brunei ), Thailand , 3 spp., oriental China . Australia , Neotropics; Cranston &amp; Tang 2018 ] 11’ Lauterborn organs apical on 2nd and 3rd antennal segments ( Fig. 7P, Q )......................................... 12 12(11) 4th antennal segment narrowed alongside apical Lauterborn organ, curved ( Fig. 7P )................................ 13 12’ 4th antennal segment parallel-sided, straight ( Fig. 7Q )....................................................... 15 13(12) Ventromental plate elongate ( Fig 2C, D ). Antennal ring organ near middle.................... Conochironomus Freeman [lotic, lentic, modestly speciose, C. tobaterdecimus (Kikuchi &amp; Sasa) , Indonesia ( Sumatra ), Thailand , Malaysia ; C. nuengthai Cranston , Thailand , oriental China ; C. sawngthai Cranston , Thailand , C. jat Tang , oriental China ( Hainan ). Australia , Afrotropical; Cranston 2016, Pramual et al . 2016 , Tang 2018 ] 13’ Ventromental plate triangular. Antennal ring organ basal..................................................... 14 14(13) Mentum pale, median flat, comprising similar-sized teeth across ventromentum..................... Kribiodosis Kieffer [lotic or lentic, K. cantonensis Tang , oriental China ( Guangdong ) Han et al . 2021b ; 1 sp. Malaysia ( Sarawak ); Brunei ; Afrotropical] 14’ Median mentum comprising paired dark central teeth protruding well beyond first laterals in 4 toothed ventromentum..................................................................................... Yaeprimus Sasa &amp; Suzuki [oriental China , Y. isigaabeus Sasa &amp; Suzuki , Y. balteatus Han &amp; Tang ; Japan , Afrotropical; Yamamoto &amp; Yamamoto 2009 , Han et al . 2020 ] 15(12) Mentum black, with 4 median ventromental teeth comprising small paired centrals flanked by larger teeth.1st lateral teeth of dorsomentum shorter than subequal remainder, diminishing to outermost ( Fig. 8A )................ Imparipecten Freeman [L, P. Thailand ; Australia , Neotropics] 15’ Mentum paler, not black, median ventromental teeth various, including Chironomus -like triple tooth ( Fig. 8B ); first lateral teeth of dorsomentum scarcely reduced relative to outer dorsomental teeth ( Fig. 8C )................. Stictochironomus Kieffer [ S. affinis India , Australia , Indonesia , Singapore , Malaysia , oriental China ( Cranston &amp; Tang 2018 ), Thailand ; S. translucens Johannsen , Indonesia , oriental China , plus S. multannulatus (Tokunaga) , S. simantomaculatus (Sasa, Suzuki &amp; Sakai) , S. quadrimaculatus Song &amp; Qi , S. trifuscipes Song &amp; Qi ( Song et al. 2024 ) , oriental China , Japan ; global] 16(8) Mentum with 3 median teeth (but may lack small central tooth) ( Fig. 8G )........................ Microtendipes Kieffer [ M. umbrosus Freeman , regionally widespread, common ( Tang &amp; Niitsuma 2017 ); diverse ( Song et al . 2023 ), Burma , Thailand to oriental China ; global] 16’ Mentum with even number of 4 or more median teeth ( Fig. 8H )............................................... 17 17(16) Mandible with 2 inner teeth. Basal Lauterborn organ subapical on segment 2 ( Fig. 8D, E )............ Paratendipes Kieffer [Lotic, widespread, Burma as ♂ (Reiss, ZSM ); Pe common in lotic drift in Malaysia, Thailand ; L in Malaysia , Indonesia ; oriental China , 5 spp. as ♂♂ ; global] 17&#x27; Mandible with 3 inner teeth. Basal Lauterborn organ apical on segment 2....................... Paraskusella Cranston [ad, Borneo ( Sarawak ); L, Africa, Australia ( Cranston 2018b ). 18(5) S1 setal bases fused, SII on pedestals ( Fig. 8I ). Antenna 5 segmented with distinct Lauterborn organs ( Fig. 8K, L, M ) sometimes on pedestal. Ventromental plates approximated ( Figs. 8J , 3B ) or separated by up to 3 teeth width ( Fig. 9B, L )......................................................................................tribe Tanytarsini ............ 19 18’ S1 setal bases rarely fused, SII rarely on pedestal. Antenna 5–8 segmented, not on pedestals, Lauterborn organs prominent, opposite, rarely alternate or indistinct. Ventromental plates well separated medially ( Fig. 10B, D, F ).................. 33 19(18) Ventromental plates medially separated by&gt; width of 3 median mental teeth ( Fig. 8P, Q )............................ 20 19’ Ventromental plates meet or separated only by width of median mental tooth ( Figs. 8J , 9B )......................... 25 20(19) Antennal pedestal with large multispined / palmate process ( Fig. 8N )........................................... 21 20’ Antennal pedestal simple, without such palmate process..................................................... 22 21(20) Antennal pedestal with spur and multispined process....................................... ... Neostempellina Reiss [lotic, Burma , Reiss, ZSM; N. simantoneoa (Sasa, Suzuki &amp; Sakai) , oriental China . Holarctic, Afrotropical] 21’ Antennal pedestal with only multispined process ( Fig. 8N )...................................... Stempellina Bause [L., Indonesia ( Java ) (Zavřel 1934; ♂ S. clavata Guo &amp; Wang ( Guo &amp; Wang 2004 ) , oriental China ( Yunnan ); spp. Thailand , Singapore ; Burma , Reiss, ZSM; Holarctic, Neotropical, Australia ] 22(20) Lauterborn organs alternate on 2nd antennal segment ( Fig. 8O )................................................ 23 22’ Lauterborn organs opposite, apical on 2nd antennal segment ( Figs. 8K, L ; 9D–F ).................................. 24 23(22) Premandible with 4 teeth. Postoccipital plate well developed, continuous............................. Zavrelia Kieffer [ Thailand , oriental China Z. bragremia Guo &amp; Wang as ♂ ; Ekrem &amp; Stur 2009 ; Neotropical] 23’ Premandible with 2–3 teeth; if 4 teeth, then postoccipital plate split........................... Stempellinella Brundin [ Thailand , S. tamaseptima (Sasa) +2 spp. unreared ♂♂ oriental China ; Japan , Holarctic, Neotropical] 24(22) Mentum with concave anterior margin. Clypeal seta S3 simple (seldom bifurcate) on small pedestal.. Thienemanniola Kieffer [lentic, oriental China ; T. motoharui (Tokunaga) ; includes Biwatendipes Tokunaga , Japan ] 24’ Mentum with straight or convex anterior margin ( Fig. 8Q ). Clypeal seta S3 simple (seldom bifurcate) on prominent pedestal.................................................................................... Yuasaiella Tokunaga [ Y. kyotensis Tokunaga , widespread N. China , Japan , e. Palaearctic, perhaps = C. tokunagaia Zorina ;? senior syn. of Constempellina Brundin ] 25(19) Premandible with 3–5 main teeth....................................................................... 26 25’ Premandible with 2 main teeth (additional lateral spine or basal tooth may be present)............................. 29 26(25) Mentum with 4 pairs of lateral teeth. Lauterborn organs small, sessile. Maritime .................................. 27 26’ Mentum with 5 pairs of lateral teeth. Lauterborn organs on pedestals ( Fig. 9E, F ). Freshwater....................... 28 27(26) Posterior parapod claws numerous (c. 60). Abdominal segment VIII tapered....................... Pontomyia Edwards [coastal and open ocean; 3 regional spp., Huang et al . 2014 ; Pacific, Indian and Western Atlantic] 27’ Posterior parapod claws sparse (less than 20). Abdominal segment VIII conventional................. Yaetanyarsus Sasa [coastal, North Pacific, Thailand (Andaman Sea),&gt; 14 Pacific spp., Tang et al . 2022b ] 28(26) Antennal segment 2 wedge-shaped, not longer than 3rd; Lauterborn organs large, on pedicels usually shorter than organs ( Fig. 8L, M ). Posterior parapod claws smooth or some with fine internal serrations.................... Cladotanytarsus Kieffer [lotic, lentic, diverse, widespread; taxonomy uncertain; global] 28’ Antennal segment 2 cylindrical, longer than 3rd; Lauterborn organs small, on long pedicels ( Fig. 8K ). Posterior parapod claws simple, or some serrate / combs, or with pad or row of hooklets; none serrate...................... Tanytarsus v.d. Wulp [lotic, lectic, diverse, speciose, widespread:&gt;24 spp. oriental China ; T. oscillans Johannsen nuisance in Singapore reservoirs; global] 29(25) Antennal segment 2 subequal to 3 rd . Premandible with lateral spine and 2 apical teeth............ Neozavrelia Goetghebuer [Burma (Reiss ZSM ), Thailand , Pe; oriental China : 5 spp, ♂ , only, Guo &amp; Wang 2005 ; Holarctic, Neotropical, Australia ] 29’ Antennal segment 2 usually longer than segment 3 ( Fig. 9D, F ). Premandible lacks lateral spine...................... 30 30(29) Mandible with lateral hump ( Fig. 9A ). Mentum with 3 central teeth projecting well beyond more lateral teeth ( Fig. 9B )........................................................................................... Sublettea Roback [ S. wilesi Ashe &amp; O’Connor , Sulawesi; 2+ undescribed regional spp., Pe common Borneo, oriental China ; Nearctic, Neotropical] 30’ Mandible without lateral hump (apex may be constricted). Central mental teeth weakly projecting.................... 31 31(30) Pedicels of Lauterborn organs short ( Fig. 9D ). Ventromental plate striae appear block-like ( Fig. 9C ). Pecten epipharyngis plate multitoothed comb or incompletely divided in three parts..................................... Rheotanytarsus Bause [Rheophilic, widespread,&gt; 20 described regional spp., few immature stages; Kyerematen et al . 2000 ; global] 31’ Lauterborn organs, sessile, placed on short or long pedicels ( Fig. 9E, F ). Ventromental plate striae fine. Pecten epipharyngis plate 3–5 distally rounded, pointed or serrated scales ( Fig. 9G, H ).............................................. 32 32(31) Lauterborn organs sessile or on pedicels no more than 2× longer than antennal segments 3–5 combined ( Fig. 9F ). Pecten epipharyngis 3–5 pointed or lobe-like scales ( Fig. 9G ), occasionally 3 serrate plates............... Paratanytarsus Bause [widespread, lotic and lentic, moderately speciose, 7+ from oriental China , 2 as P, no L; Li &amp; Tang 2021 ; P. grimmii Schneider , parthenogenetic; global] 32’ Lauterborn organs placed on pedicels always more than 2× longer than antennal segments 3–5 combined. Pecten epipharyngis always 3 apically serrate scales ( Fig. 9H ).................................................. Micropsectra Kieffer [lotic, lentic, immature stages difficult, regional status unclear, M. atrofasciata Kieffer , oriental China , sp. indet. N. Burma (Reiss, unpubl. ZSM; global exc. Australia ] 33(18) Labrum with S I partially or fully plumose, S II never blade-like; labral lamella usually well-developed ( Fig. 9I ). Pecten epipharyngis plate wide, distally toothed ( Fig. 9J ) or divided into 3, usually toothed, rarely finger-like. Pecten mandibularis strong ( Fig. 9K ), rarely absent.......................................................................... 34 33&#x27; Labrum with S I and S II simple, frequently bladelike, S I rarely divided into 3–5 slender lobes. Labral lamella usually absent. Pecten epipharyngis single scale, sometimes large, toothed, more commonly small, without distinct teeth though sometimes lobed or serrate. Pecten mandibularis absent or few lamellae......... &#x27; Harnischia complex’, tribe Chironomini ........56 34(33) Ventromental plate bar-like, in near-contact medially ( Fig. 9L ). Insertion of seta subdentalis on same side (dorsal) of mandible as seta interna ( Fig. 9M ).......................................................... ..’tribe Pseudochironomini’ [ ♂ Manoa Fittkau , M. xianjuensis Qi &amp; Lin , oriental China ( Zhejiang ) Qi et al . 2017 ; ♂ , Pe , oriental China ( Guangdong, Yunnan ); Pe , Thailand ; Neotropical ] 34’ Ventromental plate very variable, not bar-like or rarely in near median contact. Seta subdentalis inserted opposite side (ventral) of mandible to seta interna............................................................................ 35 35(34) Median tooth or teeth of mentum recessed ( Fig. 9P, R, S ).................................................... 36 35&#x27; Median mentum not recessed (e.g., Fig. 10D, F )........................................................... 39 36(35) Mentum shining black; 1st lateral tooth broad, slightly flanged; anterior margin of ventomental plate scalloped ( Fig. 9N ). Mandible with well-developed seta interna. Separate frons, clypeal and labral sclerites..............? Hyporhygma Reiss [lotic, leaf-miner, oriental China : Pe nr genus, Wei &amp; Tang 2019 . Nearctic] 36&#x27; Mentum brown; 1st lateral tooth lower than 2nd, ventromental plate with smooth anterior margin ( Fig. 9P, S ). Mandible lacks seta interna ( Fig. 9S, T ). Dorsal head sclerites differ......................................................... 37 37(36) Mentum with single median tooth in shallow recess; 1st lateral tooth lower than 2nd ( Fig. 9P ). Mandible with 4 inner teeth; seta subdentalis narrow and straight ( Fig. 9Q ). Pecten epipharyngis scales distally toothed. Clypeal and labral sclerites fused into single sclerite........................................................................ Kribiodorum Kieffer [syn. Stelechomyia Reiss. Wood-mining, K. malicky Cranston , Thailand , K. belalong Cranston , Brunei , Borneo; Cranston 2018a ; Afrotropical, Nearctic, Neotropical] 37’ Mentum deeply cleft without median teeth ( Fig. 9S ). Mandible with clumped 3 inner teeth; seta subdentalis broad, long, sinuous ( Fig. 9S, T ). Pecten epipharyngis scales simple. Clypeal sclerite fragmented, labral sclerite small, medial to SI seta....... 38 38(37) Occipital margin with triangulum occipitale. Ventromental plate&gt; 2× as long as high ( Fig. 9R ). Antenna blade extending wellbeyond flagellum........................................................................ Nilodosis Kieffer [L, Indonesian Borneo: Kalimantan; Malaysia , Thailand , oriental China ; Tang &amp; Yamamoto 2012 ; N. austrosinensis Tang &amp; Cranston 2017 ; previously confused with extralimital Fissimentum Cranston &amp; Nolte ] 38’ Occipital margin conventional. Ventromental plate squat, seldom wider than high ( Fig. 9S ). Antenna blade ends short of flagellum........................................................................... Kribiocosmus Kieffer [L, Peninsular Malaysia , as Fissimentum sp. ( Ahmad &amp; Siti Hafizah 2017 ), undescribed ♂ , China ( Hainan , Yunnan ), Japan ( Okinawa ) as K. kanazawai Yamamoto ] 39(35) Mental and mandibular teeth pale ( Fig. 10A, B ). Mentum characteristic ( Fig. 10B ). Small, &lt; 7 mm ..... Nilothauma Kieffer [lotic, Thailand , 8 spp. oriental China , ♂♂ , Yan et al . 2005a ; Adam &amp; Saether 1999 ; global]. 39&#x27; Mental and mandibular teeth dark (brown or black) in part at least. Mentum teeth different. Usually&gt; 5 mm ............ 40 40(39) Labrum with lamellar setal brush ( Fig. 10C ). Typical mentum ( Fig. 10D ) often worn flat.......... Xenochironomus Kieffer [sponge-feeder (hence worn teeth); X. xenolabis (Kieffer) , X. canterburyensis (Freeman) , X. glaber Yu &amp; Wang. oriental China ( Yu &amp; Wang 2010 ); L, Thailand ; Holarctic, Australia , N.Z., Neotropics] 40&#x27; Labrum conventional, lacking lamellar brush. Mentum teeth otherwise arranged.................................. 40 41(40) Mandible with basal striae ( Fig. 10E ). Median mentum with tripartite central tooth ( Fig. 10F ). Premandible with 2 ( Fig. 10G ) or rarely 5–7 teeth ( Fig. 10H ). Typically,1–2 pairs of ventral tubules ( Fig. 10I )...................... Chironomus Meigen [speciose, morphological taxonomy difficult, 5, 6 or 7 pmd teeth in C. javanus Kieffer , C. vitellinus Freeman and C. okinawanus Hasegawa &amp; Sasa. Benthalia Kieffer is included; molecular data Pramaul et al . 2016; global] 41&#x27; Mandible without basal striae. Ventral tubules absent or with 1 pair. Premandible variably toothed.................... 42 42(41) Ventromental plate&gt;1.5 x width of mentum, contiguous medially, narrowly drawn-out laterally ( Fig. 10 K, N ). Premandible teeth 2, or 5+....................................................................................... 43 42&#x27; Ventromental plate &lt;1.5 × as wide as mentum, not narrowly drawn-out laterally and not contiguous medially ( Fig. 10F, W, X, Z ). Premandibles with no more than 3 teeth............................................................... 45 43(42) Frons with +/- ovoid fenestra (fen, thinned cuticle) ( Fig. 10J ). Premandible with&gt;5 teeth ( Fig. 10T )... Kiefferulus Goetghebuer [Lentic, widespread, 5–6 spp. oriental China , saline coastal-subcoastal K. longilobus (Kieffer) is potential nuisance; K. nodulosus Hashimoto (? = K. trigonum Song et al . ) eutrophic inc. Thai rice-fields, oriental China ( Hainan , Guangdong , Yunnan ) ( Hashimoto et al . 1981 , Song et al . 2020 ); Nilodorum and Carteronica of regional auctt. are synonyms; L key for Thailand ( Cranston 2007 ); Molecular data, Pramual et al. 2016 ; global] 43’ Frons usually lacks fenestra ( Fig. 10M, O, Y ).............................................................. 44 44(43) Frons fused with tuberculose clypeus ( Fig. 10M ). Mandible with pale dorsal tooth and 3 inner teeth, dorsally with hump; seta subdentalis simple ( Fig. 10L ).............................................................. Lipiniella Shilova [L., ♂ , oriental China ( Yunnan, Guangdong ); Holarctic inc. Japan ] 44&#x27; Frons, clypeus and labral sclerites separate ( Fig. 10O ). Mandible with 4 flattened inner teeth, dorsal tooth absent ( Fig. 10P ).......................................................................................... Axarus Roback [L., Thailand , 1 sp. , oriental China ( Guangdong , Zhejiang ). Holarctic , Neotropical ] 45(42) Ventromental plate distinctly narrower than mentum width ( Fig. 10Q ). Pecten epipharyngis single, with &lt;13 broad, blunt apical teeth ( Fig. 10S )....................................................................... Dicrotendipes Kieffer [ D. pelochloris ( Kieffer) , widespread regionally, 7+ spp. oriental China ; marine D. inouei Hashimoto , others lentic freshwater. L key Thailand ( Cranston 2007 ); global] 45&#x27; Ventromental plate as wide or wider than mentum width ( Fig. 10T ). Pecten epipharyngis 3 separate scales, or if single, often with&gt; 15 pointed, mostly slender teeth, also on surface ( Fig. 10S )............................................. 46 46(45) Frons or frontoclypeus with fenestra of thinned cuticle ( Fig. 10W )............................................. 47 46&#x27; Dorsal head smooth without fenestra ( Fig. 10Y )............................................................ 49 47(46) Premandible with&gt;5 sharp teeth ( Fig. 10T ). Seta subdentalis broad, distally serrate ( Fig. 10U )........... Kiefferulus (part) [see couplet 39 for details] 47&#x27; Premandible with 2 pointed apical teeth. Seta subdentalis simple, slender....................................... 48 48(47) Separate clypeal sclerite present; frons smooth, anteriorly with oval fenestra or small distal-median depression or mark, with concave anterior margin ( Fig. 10V )..................................... Glyptotendipes Keiffer (s.g. Heynotendipes ) [ G. ( Heytotendipes ) cf. signatus Kieffer , oriental China ; Holarctic] 48&#x27; Frontoclypeus fused, with large cordate to subovate fenestra, sclerite granular in mid-section, with convex anterior margin ( Fig. 10W )............................................................................. Einfeldia (s.s.) Kieffer [= Einfeldia ‘group A’; minimally E. pagana (Meigen) in oriental China , Japan ; Holarctic, Australia ; Cranston et al . 2016b ] 49(46) Mentum divided into median ventromentum; anteromedially-directed ends of ventromental plate links to base of teeth delimitating from more lateral dorsomental teeth ( Fig. 10X, Z )................................................ 50 49&#x27; Inner (median) margins of ventromental plate not directed anteriorly, or if weakly indicated, then fused to mentum posterior to bases of mental teeth; median/central ventromentum indistinct................................................ 55 50(49) Mandible with deeply incised mola proximal to teeth ( Fig. 10X ). Mentum strongly arched ( Fig. 10X, Z )........ Endotribelos Grodhaus [L, Thailand , Chiang Mai , L, Phrae ; L/P, oriental China ( Endotribelos of Qi et al . 2013 = Endochironomus pekanus ), Li &amp; Tang 2024 ] 50’ Mandible with smooth rounded mola. Mentum less arched.................................................... 50 51(50) SI plumose on inner side only ( Fig. 11A, B )............................................................... 52 51’ SI plumose on both sides.............................................................................. 54 52(51) Premandible with 4 distinct teeth. Pecten epipharyngis only with apical teeth ( Fig. 11C, D )... Ainuyusurika Sasa &amp; Shirasaka [marine, 2 spp. oriental China ; Japan , Korea ( Russia : Sakhalin ); Han &amp; Tang 2019 , inc. Zhouomyia Saether &amp; Wang ] 52&#x27; Premandible with 2–3 teeth. Pecten epipharyngis with additional basal teeth ( Fig. 11E )............................. 53 53(52) Anterior margin of cardo tuberculate ( Fig. 11F ). Mandible with 3 inner teeth ( Fig. 11G ), seta premandibularis apically divided........................................................................... Endochironomus Kieffer [L, Thailand ; in oriental China , E. pekanus (as Endotribelos of Qi et al . 2013 ) ( Li &amp; Tang 2024 ). Holarctic] 53’ Anterior margin of cardo smooth or tuberculate. Mandible with 4 inner teeth ( Fig. 11H ), seta premandibularis apically divided, or mandible with 3 inner teeth and simple seta praemandibularis........................... Synendotendipes Grodhaus [L, oriental China ; Holarctic] 54(51) Mandible usually with 4 inner teeth ( Fig. 11I ).................................................. Sergentia Kieffer [ S. kizakiensis (Tokunaga) oriental China , Zhejiang , Wang et al . 2019 ; Holarctic (*? inseparable from Phaenopsectra )] 54’ Mandible with 3 inner teeth........................................................... Phaenopsectra Kieffer [ P. flavipes Meigen , oriental China ; Holarctic] 55(49) Clypeus and frons fused as frontoclypeus, with straight anterior margin, broadened into lobes anterolaterally ( Fig. 11J, K )....................................................................................... Polypedilum Kieffer [very speciose, taxonomy based on ♂ , keys Pe, L cannot reliably differentiate even to subgenus; Cranston et al . 2016; Tang et al. 2022a ; global] 55&#x27; Clypeus and frons distinct, anterior margin concave ( Fig. 11L )....................... Glyptotendipes Kieffer (s.s., part) [ Thailand ; oriental China , inc. G. (s.s.) tokunagai Sasa &amp; Kawai; Japan ; widespread Holarctic] 56(33) Antenna&gt; half head length, with 7–8 segments ( Fig. 11M, N, O ).............................................. 57 56’ Antenna 3 × as wide as long ( Fig. 11P )......................................................... 59 58’ Mentum convex (arched) or linear; if concave than mentum completely pale. Ventromental plate &lt;2× as wide as long.... 61 59(58) Antenna 7-segmented ( Fig. 11Q ). Mentum with 7 pairs of lateral teeth ( Fig. 11P )............ Demicryptochironomus Lenz [7 spp., oriental China , in 2 subgenera, s.s., Irmakia , D. ( I.) bullum (Song &amp; Wang) (based on newly associated material), unidentified Pe, Malaysia (inc. Borneo); Holarctic, Japan , Australia ] 59’ Antenna 5-segmented ( Fig. 11R )........................................................................ 60 60(59) Mentum with 4–6 pairs of lateral teeth ( Fig. 11S ). Ventromental plate conventional.............. Cryptochironomus Kieffer [widespread, abundant, 5+ spp. oriental China ; global] 60 Mentum with 7 pairs of lateral teeth, Ventromental plate elongate, wrapped around ventral head............ Gillotia Kieffer [lotic, lentic, perhaps rare, ♂ C. distractus Johannsen, Indonesia ( Java ) likely belongs; distinctive Pe oriental China ( Yunnan , Luosuo R ); Holarctic, Afrotropical, India ] 61(58) Antenna 5 segmented ( Fig. 11T )........................................................................ 62 61’ Antenna 6–7 segmented ( Fig. 12R, T )................................................................... 67 62(61) Pecten epipharyngis plate broad, multitoothed ( Fig. 11U ). Premandible with 2–4 teeth.............. Parachironomus Lenz [lotic, lentic, Thailand , 4–5 spp. inc. widespread P. atrophus (Kieffer) , P. gracilior (Kieffer) oriental China ; Yan et al . 2015 ; Japan ; global] 62’ Pecten epipharyngis plate simple, rounded or weakly lobed; premandible bifid ( Fig. 11X ) or pecten epipharyngis plate triangular, shallowly trifid and premandible with several small inner teeth................................................ 63 63(62) Premandible apically bifid............................................................................. 64 63’ Premandible with&gt;2 teeth............................................................................. 66 64(63) Outline of mentum nearly linear, median tooth trifid ( Fig. 11W ); antennal blade extends to or beyond flagellum ( Fig. 11V )................................................................................. Microchironomus Kieffer [lentic, some saline tolerance, 4+ spp., Thailand , Indonesia , Malaysia , Singapore , oriental China ; inc. M. lacteipennis (Kieffer) Taiwan , widespread M. tener (Kieffer) ; Holarctic, Australia ] 64’ Outline of mentum convex (arched), with median tooth single ( Fig. 12A, D ) or notched laterally, appearing trifid, medially notched, or double; antennal blade shorter than flagellum.................................................... 65 65(64) Median tooth of mentum broadly rounded or laterally notched to appear trifid, set well forward of lateral teeth so median mentum slopes sharply ( Fig. 12A ); basal segment of antenna about 2–2.5 × longer than wide and subequal to length of flagellum ( Fig. 12B ).......................................................................... Cryptotendipes Lenz [4–5 spp. Key to L., oriental China , Yan et al . 2005b , C. nodus Yan, Tang &amp; Wang , ♂ . oriental China , Hainan ; Holarctic, Australia ] 65’ Median tooth of mentum usually double or notched medially, may be broadly rounded but not extending far forward of lateral teeth, so mentum less sloped ( Fig. 12D ); basal segment of antenna 2.8–4×&gt; than flagellum ( Fig. 12C )... Cladopelma Kieffer [many regional synonyms, 2 spp. oriental China , widespread C. edwardsi (Kruseman) ; Japan , Holarctic, Australia ] 66(63) Antennal segments 2 and 3 subequal ( Fig. 12G ); ventromental plate weakly striate ( Fig.12E, F )......... Harnischia Kieffer [ Thailand ; 4 spp. oriental China ; Holarctic, Australia ] 66’ Antennal segment 2 much longer than 3rd ( Fig. 12H ); ventromental plate coarsely striate ( Fig. 12I )............................................................................... Paracladopelma Harnisch [ Thailand , Malaysia , 2 spp. oriental China ; Holarctic] 67(61) Antenna 6-segmented ( Fig. 12R ); mandible with seta interna ( Fig. 12O )......................................... 68 67’ Antenna 7-segmented ( Fig. 12T ); mandible without seta interna ( Fig. 12V, X ).................................... 72 68(67) Mandible with dorsal tooth ( Fig. 12K ).................................................................... 69 68’ Mandible lacks dorsal tooth ( Fig. 12V, X )................................................................. 70 69(68) Each anterior abdominal segment 1–7 subdivided, thus appearing 17 segmented. Posterior parapod elongate. Premandible with 2 broad teeth, at least 2 procercus setae&gt; 50% body length ( Fig. 12L )........................ Olecryptotendipes Zorina [lotic, psammophilic, ♂ O. exilis , O. melasmus , both Yan, Wang &amp; Bu, oriental China ( Hainan , Fujian , Shaanxi ), Yan et al. 2012 ; e. Palaearctic] 69’ Abdominal segmentation conventional, 10 segmented. Posterior parapod short. Premandible with 6 small teeth, procercus setae conventional ( Fig. 12J )................................................................. Hanochironomus Ree [marine/seashore, H. tumerestylus Ree , Korea , Japan , oriental China ] 70(68) Procercus anal setae&gt; 50% body length ( Fig. 12M ). Mentum with 4 dark teeth flanking broad pale median tooth ( Fig. 12N )................................................................................. Anuncotendipes Cranston [L, distinctive, lotic (burrows in clay banks), Thailand ; Australia ] 70’ Procercus anal setae conventional, &lt;25% of body length ( Fig. 12P ). Mentum with 5 or more lateral teeth ( Fig. 12Q, U )... 70 71(70) Most ventromental plate striae complete to anterior margin ( Fig. 12Q ).............................. Saetheria Jackson [psammophilic, c. 4 spp, oriental China , S. tylus (Townes) ; Malaysia , Thailand . Japan . Holarctic, Australia , Neotropics] 71’ Ventromental plate striae not reaching anterior margin, separate row of short striae near anterior of plate ( Fig. 12S ).............................................................................................. Kloosia Kluseman [lotic, K. koreana Reiss , Korea , oriental China ; Japan . Holarctic, Afrotropical] 72(67) Mentum with even number of teeth ( Fig. 12U ); mandible with elongate apical tooth, innermost teeth enlarged ( Fig. 12V )........................................................................................... Robackia Saether [Lotic, lentic, psammophilic; R. pilicauda Saether , R . parallela Yan &amp; Wang , oriental China ; Pe common Malaysia inc. Borneo, Thailand +; Holarctic, Australia ] 72’ Mentum with odd number of teeth, median tooth trifid ( Fig. 12W ) but simple if worn; mandible conventional with modestlength apical tooth ( Fig. 12X )............................................................... Beckidia Saether [Lotic, psammophilic, Thailand , oriental China , L, Pe,? B. tethys Saether. Holarctic, Afrotropical ]</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/E31D87D42E60FFCE20ECFBA9B3CCC6D1#23AE65492E60FFCE20ECFA7EB3CCC6D1">this account</a> <a href="https://treatment.plazi.org/id/E31D87D42E60FFCE20ECFBA9B3CCC6D1">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">16 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">Chironomus spec. - sound during hetching</div><div class="d">48 s</div><div class="m">
+<span>Ernst, Stephan</span>
+<span>1996-07-03</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Chironomus_spec_V_2028_11_2">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Chironomus_spec_V_2028_11_2">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">46 s</div><div class="m">
+<span>Frommolt, Karl-Heinz</span>
+<span>1989-05-26</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Chironomus_spec_V_1790_1_1">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Chironomus_spec_V_1790_1_1">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">141.607 s</div><div class="m">
+<span>Frommolt, Karl-Heinz</span>
+<span>2014-05-25</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Chironomus_spec_DIG_176_82_0">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Chironomus_spec_DIG_176_82_0">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">39 s</div><div class="m">
+<span>Schubert, Michael</span>
+<span>1970-05-30</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=SUB:Chironomus_spec_Sub_CD0006_14">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/SUB:Chironomus_spec_Sub_CD0006_14">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">143 s</div><div class="m">
+<span>Schubert, Michael</span>
+<span>1970-05-30</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=SUB:Chironomus_spec_Sub_CD0006_15">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/SUB:Chironomus_spec_Sub_CD0006_15">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">90 s</div><div class="m">
+<span>Schubert, Michael</span>
+<span>1970-05-30</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=SUB:Chironomus_spec_Sub_CD0006_16">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/SUB:Chironomus_spec_Sub_CD0006_16">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - call</div><div class="d">68 s</div><div class="m">
+<span>Schubert, Michael</span>
+<span>1972-06-03</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=SUB:Insecta_spec._Sub_CD0016_01">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/SUB:Insecta_spec._Sub_CD0016_01">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - call</div><div class="d">88 s</div><div class="m">
+<span>Schubert, Michael</span>
+<span>1972-06-03</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=SUB:Insecta_spec._Sub_CD0016_02">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/SUB:Insecta_spec._Sub_CD0016_02">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - sound during hetching</div><div class="d">48 s</div><div class="m">
+<span>Ernst, Stephan</span>
+<span>1996-07-03</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Chironomus_spec_V_2028_11_2">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Chironomus_spec_V_2028_11_2">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">46 s</div><div class="m">
+<span>Frommolt, Karl-Heinz</span>
+<span>1989-05-26</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Chironomus_spec_V_1790_1_1">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Chironomus_spec_V_1790_1_1">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">141.607 s</div><div class="m">
+<span>Frommolt, Karl-Heinz</span>
+<span>2014-05-25</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=TSA:Chironomus_spec_DIG_176_82_0">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/TSA:Chironomus_spec_DIG_176_82_0">record</a></span>
+</div></div>
+<div class="rec"><div class="t">Chironomus spec. - flight sound</div><div class="d">39 s</div><div class="m">
+<span>Schubert, Michael</span>
+<span>1970-05-30</span>
+<span><span class="srcof" title="Animal Sound Archive"><span class="mk mono" aria-hidden="true">TSA</span>TSA</span></span>
+<span><a href="https://view.audioblast.org/?source=TSA&amp;id=SUB:Chironomus_spec_Sub_CD0006_14">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/TSA/SUB:Chironomus_spec_Sub_CD0006_14">record</a></span>
+</div></div>
+</div>
+<p class="more">4 more in the <a href="https://audioblast.org/?page=recordingstaxa&amp;family=Chironomidae">audioBlast browser</a>.</p>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/diptera/"><span>Diptera</span> <span class="n">157</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/chironominae/"><span>Chironominae</span> <span class="n">8</span></a></li>
+<li><a href="/taxon/orthocladiinae/"><span>Orthocladiinae</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/bombyliidae/"><span>Bombyliidae</span> <span class="n">4</span></a></li>
+<li><a href="/taxon/cecidomyiidae/"><span>Cecidomyiidae</span> <span class="n">6</span></a></li>
+<li><a href="/taxon/tipulidae/"><span>Tipulidae</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/asilidae/"><span>Asilidae</span> <span class="n">8</span></a></li>
+<li><a href="/taxon/culicidae/"><span>Culicidae</span> <span class="n">7</span></a></li>
+<li><a href="/taxon/ephydridae/"><span>Ephydridae</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/calliphoridae/"><span>Calliphoridae</span> <span class="n">6</span></a></li>
+<li><a href="/taxon/drosophilidae/"><span>Drosophilidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chloropidae/"><span>Chloropidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/corethrellidae/"><span>Corethrellidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/hybotidae/"><span>Hybotidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/limoniidae/"><span>Limoniidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/stratiomyidae/"><span>Stratiomyidae</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/syrphidae/"><span>Syrphidae</span> <span class="n">100</span></a></li>
+<li><a href="/taxon/tabanidae/"><span>Tabanidae</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/tachinidae/"><span>Tachinidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/tephritidae/"><span>Tephritidae</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/acroceridae/"><span>Acroceridae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/dolichopodidae/"><span>Dolichopodidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/platystomatidae/"><span>Platystomatidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/simuliidae/"><span>Simuliidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/anthomyiidae/"><span>Anthomyiidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/agromyzidae/"><span>Agromyzidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/hippoboscidae/"><span>Hippoboscidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/celyphidae/"><span>Celyphidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/sepedon/"><i>Sepedon</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/mycetophilidae/"><span>Mycetophilidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/sciomyzidae/"><span>Sciomyzidae</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><span>Chironomidae</span></td><td>Family</td><td>Chironomidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Chironomidae">Plazi/Chironomidae</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/chironomidae/&quot;,
+  &quot;name&quot;: &quot;Chironomidae&quot;,
+  &quot;taxonRank&quot;: &quot;family&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/chironomidae/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/84X&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Diptera&quot;,
+    &quot;taxonRank&quot;: &quot;order&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/diptera/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/84X</p>
+</div></footer>
+</body>
+</html>

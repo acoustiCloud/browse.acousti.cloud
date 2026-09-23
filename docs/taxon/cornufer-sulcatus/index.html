@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Cornufer sulcatus</title>
+<meta name="description" content="Cornufer sulcatus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/cornufer-sulcatus/">
+<meta property="og:title" content="Bioacoustics of Cornufer sulcatus">
+<meta property="og:description" content="Cornufer sulcatus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/YGCP">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/cornufer-sulcatus/", "name": "Cornufer sulcatus", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/cornufer-sulcatus/", "sameAs": "https://api.audioblast.org/taxon/CoL/YGCP", "parentTaxon": {"@type": "Taxon", "name": "Cornufer", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/cornufer/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Ceratobatrachidae", "item": "https://browse.acousti.cloud/taxon/ceratobatrachidae/"}, {"@type": "ListItem", "position": 11, "name": "Ceratobatrachinae", "item": "https://browse.acousti.cloud/taxon/ceratobatrachinae/"}, {"@type": "ListItem", "position": 12, "name": "Cornufer", "item": "https://browse.acousti.cloud/taxon/cornufer/"}, {"@type": "ListItem", "position": 13, "name": "Cornufer sulcatus", "item": "https://browse.acousti.cloud/taxon/cornufer-sulcatus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/ceratobatrachidae/"><span class="rk">Family</span><span>Ceratobatrachidae</span></a><span class="sep">›</span><a href="/taxon/ceratobatrachinae/"><span class="rk">Subfamily</span><span>Ceratobatrachinae</span></a><span class="sep">›</span><a href="/taxon/cornufer/"><span class="rk">Genus</span><i>Cornufer</i></a></nav>
+<h1>Bioacoustics of <i>Cornufer sulcatus</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. A small species of Platymantis (males to 21.6 mm and 0.8 g ) with relatively short snout (EN/ IN = 0.81–0.91); small eye (EY/SN = 0.82–0.89); long, parallel dorsal skin ridges ( Fig. 1 C, D); fingertips only slightly flattened and barely expanded ( Fig. 2 B); first finger slightly longer than the second; dorsal surface of snout smooth, without warts; abdomen with reticulate pattern in which the granules are largely white and their interstices brown; rear of thighs with largely clear straw (orange in life) patch distally that may have a few brown flecks; tubercles of plantar and palmar surfaces lighter than surrounding skin; and call consisting of Comparisons with other species. Platymantis sulcatus may be easily distinguished from most other Platymantis of the Bismarck and Solomon Islands . From P. adiastolus , P. browni , P. guppyi , P. m a c ro s c e l e s , P. mamusiorum , P. nakanaiorum , P. neckeri , P. n e x i p u s , P. rhipiphalcus , and P. schmidti the new species differs in having discs of the fingers poorly developed and scarcely wider than the penultimate phalanges (vs. considerably wider than penultimate phalanges); from P. acrochordus in its smaller size and in lacking (vs. having) sharply pointed fingertips; from P. aculeodactylus in having dorsal ridges and in lacking (vs. having) sharply pointed fingertips; from P. macrops and P. p a r k e r i in having the first finger slightly longer (vs. shorter) than the second; from P. boulengeri , P. gilliardi , P. magnus , P. myersi , P. papuensis , P. solomonis , and P. w e b e r i by its much smaller adult size (males to 34 mm in P. gilliardi , 64 mm in P. magnus , 69 mm in P. m y e r s i , 44 mm in P. papuensis , 49 mm in P. solomonis , 40 mm in P. w e b e r i ; males unknown in P. boulengeri but females to 80 mm ). Platymantis sulcatus is most similar in size and general appearance to P. mimicus and P. akarithymus , especially to the latter. From P. mimicus , P. sulcatus may be distinguished by its smaller size (males to 40 mm SVL in P. mimicus ), first finger slightly longer than the second (vs. distinctly longer in P. mimicus ), relatively smaller eye (EY/SN = 1.04–1.11 in P. m i m i c u s ), shorter snout (EN/IN = 0.97 in P. mimicus ), and long (vs. short) dorsal ridges</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/A25287C6FFA9D368FF23DC1BFD9FFAE4#62E1655BFFA9D365FF72DD8EFEA7FD98">this account</a> <a href="https://treatment.plazi.org/id/A25287C6FFA9D368FF23DC1BFD9FFAE4">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>From Platymantis akarithymus , P. sulcatus differs in its smaller adult size (males to 25.4 mm and 1.7 g in P. akarithymus ), shorter snout (EN/IN = 0.89–1.08 in P. akarithymus ), long dorsal ridges (short in P. akarithymus ), absence of warts on dorsal surface of snout (prominent in P. akarithymus ), abdomen with reticulate pattern in which the granules are largely white and their interstices brown (straw with scattered brown punctations in P. akarithymus ), rear of thighs with light-colored patch distally that is orange in life (area heavily and uniformly dusted with brown in P. akarithymus ), tubercles on feet and hands lighter color than surrounding skin (same color in P. akarithymus ), call consisting of a series of 3–5 rapid, mostly unpulsed clicks produced in groups of up to seven calls (vs. a call consisting of a single, nasal note produced at irregular intervals in groups of up to 31 calls in P. akarithymus ), and behavior of calling during dusk and just after dark (vs. diurnally in P. akarithymus ). Description of holotype . An adult male with left lateral incision and liver removed. Vocal slits present. Head wide (HW/SV = 0.42), wider than long (HW/HL = 1.03), with oblique loreal region; canthus rostralis rounded, concave when viewed from above; nostrils small, directed laterally, much closer to tip of snout than to eyes; internarial distance wider than distance from naris to eye (EN/IN = 0.87); snout slightly rounded when viewed from side, acutely rounded when viewed from above; eyes large (EY/SV = 0.15); eyelid approximately equal to width of interorbital distance; tympanum distinct, fairly large (TY/SV = 0.089) but smaller than eye (TY/EY = 0.61), with a distinct annulus. Supratympanic fold short, not well-differentiated from pustules immediately behind. Dorsal surfaces granular with series of long ridges; first pair of these arrayed immediately to either side of vertebral column, extending from anterior plane of eyes to mid-body; second pair lateral to this, extending from behind center of eyes to level of hindlimb insertion, most prominent of series; third pair lateral to these, again prominent, dorsolateral, extending from lateral margin of eyes to level of hindlimb insertion; a weakly raised ridge (right side) or series of ridges (left side) between these last two pairs of prominent ridges. Sides with small pustules. Ventral surfaces generally smooth but granular on abdomen. Fingers unwebbed, relative lengths 3&gt;1&gt;2&gt;4; tips flattened but bearing terminal grooves only on third finger, only slightly wider than penultimate phalanges ( Fig. 2 B). Subarticular and metacarpal tubercles well-developed. Toes unwebbed, bearing flattened discs with terminal grooves, except on first toe, which is slightly flattened but lacks terminal groove; relative lengths 4&gt;3&gt;5&gt;2&gt;1. Toe discs larger than finger tips but only slightly wider than penultimate phalanges ( Fig. 2 E). Subarticular tubercles well-developed; inner metatarsal tubercle small and oval, outer a raised circular cone; entire plantar surface covered by rows of small supernumerary tubercles. Hind legs moderately long (TL/SV = 0.49). Color in preservative . Dorsal ground color medium brown with narrow tan mid-dorsal stripe extending from tip of snout to above vent. Second pair of long dorsal ridges outlined in black for most of length; dorsolateral pair slightly lighter brown than remainder of dorsum. Subtending each dorsolateral ridge posteriorly is an elongate black blotch. A series of indefinite black blotches or mottling extends posteriorly from behind eye to mid-body. Face with large brown blotches along maxilla and lighter blotch anterior to eye; snout darker; another series of brown blotches along mandibular margin. Tympanum blotched with dark brown on upper third and with annulus largely margined in dark brown. Iris silver with minute black punctations. Chin , throat, and chest with dirty white ground color heavily clouded with dark brown. Each granule of abdomen dirty white, with interstices margined in brown, imparting impression of series of dirty white spots. Overall appearance of venter is two-toned, with chin, throat, and chest appearing darker than the abdomen. Front, back, and lower surfaces of thighs with pale orange cast, densely flecked with brown below but with sparser brown flecking or punctations anteriorly and posteriorly. Dorsal surfaces of thighs and shanks with three irregular dark brown bands on a lighter brown ground color. Palmar and plantar surfaces brown; subarticular, metacarpal, and metatarsal tubercles dirty white. Each small plantar tubercle dirty white, giving plantar surfaces a speckled appearance. Measurements (in mm) . SV = 19.1, TL = 9.4, HW = 8.0, HL = 7.8, IN = 2.3, EN = 2.0, SN = 3.4, EY = 2.8, TY = 1.7, FD = 0.53, TD = 0.69. Variation. The range of mensural variation in the samples is not large ( Table 1 ). The most significant morphological variation is in the development of the dorsal ridges and in color pattern. Two of the paratypes (BPBM 22222, FK 10885) have elongate, parallel dorsal ridges similar to the holotype but these are narrower and not as elevated, also being four on each side. Two others (BPBM 22189, 22193) also have series of elongate ridges but these are not so uniformly or extensively developed, with several of the rows being reduced to series of shorter ridges or pustules. The last specimen (BPBM 22184) has the ridges least developed of all, with the dorsolateral pair fairly well developed but with the dorsal pairs reduced to an irregular scattering of low, elongate pustules. Two paratypes (BPBM 22193, FK 10885) are colored dorsally and laterally largely as the holotype except that there is less or no black margining of the dorsal ridges. Two specimens (BPBM 22184, 22222) have the mid-dorsal region distinctly lighter than the lateral regions, giving the appearance of a broad dorsal stripe ( Fig. 1 B, D). In one of these specimens (BPBM 22222) the dorsum is medium brown; in the other dirty white with an elongate, vertebral smudge of black. In both specimens, the two-toned appearance results from the increased melanization of the lateral surfaces and its heightened contrast with the dorsal coloration. The final specimen (BPBM 22189) is olive green mottled dorsally and laterally with dark brown ( Fig. 1 C). All paratypes agree with the holotype in having the chin, throat, and chest darker than the abdomen and in having the abdominal coloration consisting of a network of white granules; the chin and throat of BPBM 22222 are darker than in the remaining specimens. The orange flush on the thighs is present in all specimens but is most densely suffused with brown in FK 10885. All specimens have the speckled appearance to the plantar surfaces, but the contrast is least obvious in BPBM 22222. Color in life . In life, BPBM 22189 was noted to have a dorsum mottled brown and olive green with a short tan line extending posteroventrally from the corner of mouth ( Fig. 1 C); light gray and tan iris; orangered groin, front of thighs, and rear of thighs; gray venter heavily flecked with light gray and with charcoal gray on chin. Specimen BPBM 22184 ( Fig. 1 B) was noted to have: “Broad orange-brown dorsal band, darker vertebrally, narrowly bordered below by black. Sides dark purple-brown. Iris bright medium brown. Venter light gray, dusted with darker gray between granules of abdomen, flecked with dark gray on chin and throat. Bright orange-red patch in groin and on rear of shanks. Rear of thighs mottled light and dark brown.” Call. Platymantis sulcatus exhibited a very narrow window of calling activity. Animals began calling just before dark and quit calling soon after dark; total calling activity was rarely more than one hour per night. Males could also be heard calling occasionally for a few minutes just before dawn. Frogs called perched on small fallen limbs and were never more than a few cm above the forest floor; one animal was found calling under leaf litter. We recorded 45 complete calls from two individuals, BPBM 22189 and 22192 ( Figs. 5–7 ; Tables 3 , 4 ). All but six of the calls consisted of a train of 2–6 similar, unpulsed notes. The exceptions, all from BPBM 22192, consisted of a single, unpulsed call note. The call notes from both individuals were remarkably constant, with a mean duration of 13 ms (range 9–23; n = 169) ( Fig. 6 ; Table 3 ). The overall acoustic impression of the call was that of rapid plinking with a small hammer. Call Note/Internote Number Specimen 1 Note Internote 2 Note 3 4 Internote Note Internote Note Internote 5 Note Internote 6 Note BPBM 22189 Mean Min Max 0.012 0.010 0.014 0.105 0.075 0.133 0.013 0.011 0.014 0.103 0.013 0.108 0.014 0.092 0.011 0.011 0.013 0.113 0.014 0.124 0.015 0.129 0.121 0.146 0.014 0.013 0.015 - - - - - - n 20 20 20 20 20 16 16 11 11 - - BPBM 22192 Mean Min 0.012 0.010 0.093 0.074 0.012 0.009 0.091 0.013 0.095 0.014 0.075 0.010 0.080 0.011 0.106 0.098 0.014 0.014 0.126 0.126 0.015 0.015 Max 0.023 0.132 0.015 0.132 0.014 0.111 0.015 0.121 0.015 0.126 0.015 n 25 18 19 17 18 13 13 6 6 1 1 Call Note No. Specimen 1 2 3 4 5 6 BPBM 22189 Mean 3210 Min 3010 3330 3100 3360 3380 3350 3350 3360 3350 - - Max 3350 3440 3530 3530 3440 - BPBM 22192 n 20 Mean 3340 20 3580 20 16 3650 3690 11 3590 - 3700 Min 3010 3100 3100 3530 3010 3700 Max 3700 n 25 3780 19 3780 3780 18 13 3700 6 3700 1 The calls of BPBM 22189 were organized into three groups of six or seven calls each ( Fig. 7 A, B). In the three complete call groups that we recorded from BPBM 22189, the first call in each group invariably consisted of three notes. The second call consisted of three notes in one call group and included four notes in the other two call groups. The third call consisted of four notes in all three call groups. All subsequent calls included five notes (e.g., Fig. 5 ). The first call in the group was invariably the fastest, with a mean repetition rate of 10.3 notes/s. The second three-note call in the first group had a repetition rate of 9.7 notes/s. The remaining 16 four- and five-note calls had a mean repetition rate of 8.1 notes/s (range 7.4–9.7). The mean duration for three-note calls was 0.210 (range 0.202-0.219). This increased to 0.359 for the four-note calls (range 0.355–0.365) and to 0.527 for five-note calls (range 0.426–0.526). The mean interval between calls in a group for BPBM 22189 was 2.3 s . This interval was greatest between the first and second calls with a mean of 3.7 s (range 2.1 – 5.3; Fig. 7 B). Interval length then progressively declined through the fourth or fifth call and stabilized at ~1.7– 1.8 s. The repetition rates of calls in a group averaged 0.38 calls/s (range 0.33 – 0.43; n = 3). The call sequence for BPBM 22192 was somewhat different ( Fig. 7 C). This individual called 25 times over a 155-second recording period at intervals ranging from 0.2 to 16.6 s. Twenty-two of the calls were issued in seven groups. One of the call groups had seven calls, one had five, and the rest had two or three calls. The three calls that were not in a group were issued at 10- or 11-second intervals over a 30-second sequence. Each of these latter three calls included three notes. The calls that included two or more notes ( n = 39) were delivered at a mean repetition rate of 9.8 notes/s (range 7.4 – 14.1). The cadence of calls within a calling group for BPBM 22192 was similar to that of BPBM 22189 but direct comparison was difficult because most call groups included only two or three calls. In the call group from BPBM 22192 having seven calls (at the end of the sequence in Fig. 7 C), the interval between the first and second calls (2.0 sec) was the longest interval in the group, as in the call groups of BPBM 22189. However, the intervals between the remaining calls did not progressively decline (as in BPBM 22189) but ranged from 1.2 to 1.6 s throughout the call. In addition, the number of notes reached a peak in the middle rather than the end of the call sequence. The first call in the group had four notes. This increased to five in the next two calls and then to six in the fourth call. It declined to five notes and then to four notes before increasing again to five in the final call. The mean dominant frequency across notes for the calls of BPBM 22189 was 3320 Hz (range of note means 3210–3410, Table 4 ). The call notes had significant harmonic development with subsidiary peaks at ~1800 and 4400 Hz ( Fig. 5 B). The mean dominant frequency across notes for BPBM 22192 was somewhat higher, 3490 Hz (range 3010–3700, Table 4 ). The dominant frequency in both individuals tended to increase over the course of each call ( Table 4 ). This increase was roughly 150 Hz in BPBM 22189 and more than twice that in BPBM 22192. The interval between call groups ranged from 36 to 46 s for BPBM 22189 and from 13 to 37 s for BPBM 22192. The call of Platymantis sulcatus is more complex than that of the morphologically similar P. akarithymus but has the same basic elements. It differs from P. akarithymus in having fewer calls per call group (1–7 calls vs. 10–31 in P. akarithymus ), in having a greater number of notes per call (1–6 notes vs. 1 in P. akarithymus ), a shorter call note (13 ms vs. ~ 53 in P. akarithymus ), and notes that are mostly unpulsed (vs. pulsed in P. akarithymus ). Ecological notes . Platymantis sulcatus is an inhabitant of leaf-litter in primary and old secondary rainforests from at least 520–865 m elevation. The species is syntopic with Platymantis adiastolus , P. akarithymus , P. boulengeri , P. browni , P. gilliardi , P. m a c ro s c e l e s , P. n e x i p u s , P. s c h m i d t i , and the new species whose description follows.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/A25287C6FFA9D368FF23DC1BFD9FFAE4#62E1655BFFABD368FF72DCE0FE5EFB44">this account</a> <a href="https://treatment.plazi.org/id/A25287C6FFA9D368FF23DC1BFD9FFAE4">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/cornufer/"><i>Cornufer</i> <span class="n">81</span></a></li>
+<li><a href="/taxon/ceratobatrachinae/"><span>Ceratobatrachinae</span> <span class="n">59</span></a></li>
+<li><a href="/taxon/ceratobatrachidae/"><span>Ceratobatrachidae</span> <span class="n">61</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/cornufer-papuensis/"><i>Cornufer papuensis</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/cornufer-pelewensis/"><i>Cornufer pelewensis</i> <span class="n">10</span></a></li>
+<li><a href="/taxon/cornufer-punctatus/"><i>Cornufer punctatus</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/cornufer-vertebralis/"><i>Cornufer vertebralis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/cornufer-guentheri/"><i>Cornufer guentheri</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/cornufer-hedigeri/"><i>Cornufer hedigeri</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/cornufer-solomonis/"><i>Cornufer solomonis</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/cornufer-akarithymus/"><i>Cornufer akarithymus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-citrinospilus/"><i>Cornufer citrinospilus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-bufonulus/"><i>Cornufer bufonulus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-admiraltiensis/"><i>Cornufer admiraltiensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-desticans/"><i>Cornufer desticans</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-exedrus/"><i>Cornufer exedrus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-gilliardi/"><i>Cornufer gilliardi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-latro/"><i>Cornufer latro</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/cornufer-parilis/"><i>Cornufer parilis</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Platymantis sulcatus</i></td><td>Species</td><td>Ceratobatrachidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Platymantis sulcatus">Plazi/Platymantis sulcatus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/cornufer-sulcatus/&quot;,
+  &quot;name&quot;: &quot;Cornufer sulcatus&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/cornufer-sulcatus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/YGCP&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Cornufer&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/cornufer/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/YGCP</p>
+</div></footer>
+</body>
+</html>

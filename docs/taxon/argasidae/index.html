@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Argasidae</title>
+<meta name="description" content="Argasidae in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/argasidae/">
+<meta property="og:title" content="Bioacoustics of Argasidae">
+<meta property="og:description" content="Argasidae in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/6PN">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/argasidae/", "name": "Argasidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/argasidae/", "sameAs": "https://api.audioblast.org/taxon/CoL/6PN", "parentTaxon": {"@type": "Taxon", "name": "Ixodida", "taxonRank": "order", "url": "https://browse.acousti.cloud/taxon/ixodida/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Parasitiformes", "item": "https://browse.acousti.cloud/taxon/parasitiformes/"}, {"@type": "ListItem", "position": 7, "name": "Ixodida", "item": "https://browse.acousti.cloud/taxon/ixodida/"}, {"@type": "ListItem", "position": 8, "name": "Argasidae", "item": "https://browse.acousti.cloud/taxon/argasidae/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/parasitiformes/"><span class="rk">Superorder</span><span>Parasitiformes</span></a><span class="sep">›</span><a href="/taxon/ixodida/"><span class="rk">Order</span><span>Ixodida</span></a></nav>
+<h1>Bioacoustics of <span>Argasidae</span></h1>
+<p class="rank">Family</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>2. Antricola centralis de la Cruz and Estrada-Peña, 1995 ( Carios ) 3. Antricola cernyi de la Cruz, 1978 ( Carios ) 4. Antricola coprophilus (McIntosh, 1935) ( Carios ) . This is the type species of the genus Antricola ; it was originally named Ornithodoros coprophilus . 5. Antricola delacruzi Estrada-Peña, Barros-Battesti and Venzal, 2004 ( Carios ) 6. Antricola granasi de la Cruz, 1973 ( Carios ) 7. Antricola guglielmonei Estrada-Peña, Barros-Battesti and Venzal, 2004 ( Carios ) 8. Antricola habanensis de la Cruz, 1976 ( Carios ) 9. Antricola hummelincki de la Cruz and Estrada-Peña, 1995 ( Carios ) 10. Antricola inexpectata Estrada-Peña, Barros-Battesti and Venzal, 2004 ( Carios ) 11. Antricola marginatus (Banks, 1910) ( Carios , Parantricola ). This is the type species of the genus Parantricola ; it was originally named Ornithodoros marginatus . 12. Antricola martelorum de la Cruz, 1978 ( Carios ) 13. Antricola mexicanus Hoffmann, 1958 ( Carios ) . Some authors have listed the year 1958 for the original description of Antricola mexicanus while others have used the year 1959. An inquiry to the U.S. Library of Congress has shown that Hoffmann (1958) was actually published in 1958. 14. Antricola naomiae de la Cruz, 1978 ( Carios ) 15. Antricola occidentalis de la Cruz, 1978 ( Carios ) 16. Antricola siboneyi de la Cruz and Estrada-Peña, 1995 ( Carios ) 17. Antricola silvai Č erný, 1967 ( Carios ) 1. Argas abdussalami Hoogstraal and McCarthy, 1965 2. Argas africolumbae Hoogstraal, Kaiser, Walker, Ledger, Converse and Rice, 1975 3. Argas arboreus Kaiser, Hoogstraal and Kohls, 1964 4. Argas assimilis Teng and Song, 1983 5. Argas australiensis Kohls and Hoogstraal, 1962 ( Carios ) 6. Argas beijingensis Teng, 1983 7. Argas beklemischevi Pospelova-Shtrom, Vasil ´yeva and Semashko, 1963 8. Argas boueti Roubaud and Colas-Belcour, 1933 ( Carios ) 9. Argas brevipes Banks, 1908 10. Argas brumpti Neumann, 1907 ( Ogadenus ) . This is the type species of the genus Ogadenus . 11. Argas bureschi Dryenski, 1957 12. Argas ceylonensis Hoogstraal and Kaiser, 1968 ( Carios ) 13. Argas confusus Hoogstraal, 1955 ( Carios ) 14. Argas cooleyi Kohls and Hoogstraal, 1960 . If Ornithodoros cooleyi McIvor, 1941 belongs to Argas , it has priority here. 15. Argas cordiformis Hoogstraal and Kohls, 1967 ( Carios ) 16. Argas cucumerinus Neumann, 1901 17. Argas dalei Clifford, Keirans, Hoogstraal and Corwin, 1976 18. Argas daviesi Kaiser and Hoogstraal, 1973 ( Carios ) 19. Argas delicatus Neumann, 1910 . This species is very close to A. vulgaris , as discussed in Guglielmone et al. (2009). We consider both names valid until the types can be compared. 20. Argas dewae Kaiser and Hoogstraal, 1974 ( Carios ) 21. Argas dulus Keirans, Clifford and Capriles, 1971 22. Argas echinops Hoogstraal, Uilenberg and Blanc, 1967 ( Ogadenus ) 23. Argas falco Kaiser and Hoogstraal, 1974 24. Argas giganteus Kohls and Clifford, 1968 25. Argas gilcolladoi Estrada-Peña, Lucientes and Sánchez, 1987 26. Argas hermanni Audouin, 1826 27. Argas himalayensis Hoogstraal and Kaiser, 1973 28. Argas hoogstraali Morel and Vassiliades, 1965 ( Ogadenus ) 29. Argas japonicus Yamaguti, Clifford and Tipton, 1968 30. Argas keiransi Estrada-Peña, Venzal and González-Acuña, 2003 31. Argas lagenoplastis Froggatt, 1906 32. Argas latus Filippova, 1961 33. Argas lowryae Kaiser and Hoogstraal, 1975 34. Argas macrodermae Hoogstraal, Moorhouse, Wolf and Wassef, 1977 ( Carios ) 35. Argas macrostigmatus Filippova, 1961 36. Argas magnus Neumann, 1896 37. Argas miniatus Koch, 1844 38. Argas monachus Keirans, Radovsky and Clifford, 1973 39. Argas monolakensis Schwan, Corwin and Brown, 1992 40. Argas moreli Keirans, Hoogstraal and Clifford, 1979 41. Argas neghmei Kohls and Hoogstraal, 1961 42. Argas nullarborensis Hoogstraal and Kaiser, 1973 43. Argas persicus (Oken, 1818) 44. Argas polonicus Siuda, Hoogstraal, Clifford and Wassef, 1979 45. Argas pusillus Kohls, 1950 ( Carios ) 46. Argas radiatus Railliet, 1893 47. Argas reflexus (Fabricius, 1794) . This is the type species of the genus Argas ; it was originally named Acarus reflexus . 48. Argas ricei Hoogstraal, Kaiser, Clifford and Keirans, 1975 49. Argas robertsi Hoogstraal, Kaiser and Kohls, 1968 50. Argas sanchezi Dugès, 1887 51. Argas sinensis Jeu and Zhu, 1982 ( Carios ) 52. Argas streptopelia Kaiser, Hoogstraal and Horner, 1970 53. Argas striatus Bedford, 1932 54. Argas theilerae Hoogstraal and Kaiser, 1970 55. Argas transgariepinus White, 1846 ( Ogadenus ) 56. Argas transversus Banks, 1902 ( Microargas , Ornithodoros ). This is the type species of the genus Microargas ; it was originally named Argas transversa . 57. Argas tridentatus Filippova, 1961 58. Argas vespertilionis (Latreille, 1796) ( Carios ) . This is the type species of the genus Carios ; it was originally named Carios vespertilionis . Camicas et al. (1998) and Barker and Murrell (2008) consider Argas / Carios fischeri Audouin, 1826 a valid name, while Guglielmone et al. (2009) follow Hoogstraal (1958) and Filippova (1964) in considering this name a provisional synonym of A. vespertilionis . 59. Argas vulgaris Filippova, 1961 . See A. delicatus . 60. Argas walkerae Kaiser and Hoogstraal, 1969 61. Argas zumpti Hoogstraal, Kaiser and Kohls, 1968 1. Nothoaspis reddelli Keirans and Clifford, 1975 ( Carios ) . This is the type species of the genus Nothoaspis . 1. Ornithodoros acinus Whittick, 1938 ( Alveonasus , Argas ) 2. Ornithodoros alactagalis Issaakjan, 1936 ( Alectorobius ) 3. Ornithodoros amblus Chamberlin, 1920 ( Alectorobius , Carios ) 4. Ornithodoros antiquus Poinar, 1995 . Fossil. 5. Ornithodoros apertus Walton, 1962 6. Ornithodoros aragaoi Fonseca, 1960 ( Alectorobius , Carios ). We consider this name to be provisionally valid, pending type comparison with O . rudis (Guglielmone et al. 2009) . 7. Ornithodoros arenicolous Hoogstraal, 1953 ( Alectorobius ) 8. Ornithodoros asperus Warburton, 1918 ( Alectorobius ) . See O . verrucosus . 9. Ornithodoros azteci Matheson, 1935 ( Alectorobius , Carios ) 10. Ornithodoros batuensis Hirst, 1929 ( Alectorobius , Carios ) 11. Ornithodoros brasiliensis Aragão, 1923 ( Alectorobius ) 12. Ornithodoros brodyi Matheson, 1935 ( Alectorobius , Carios ) 13. Ornithodoros camicasi (Sylla, Cornet and Marchand, 1997) ( Alectorobius , Carios ) 14. Ornithodoros canestrinii (Birula, 1895) ( Argas , Alveonasus ) 15. Ornithodoros capensis Neumann, 1901 ( Alectorobius , Carios ) 16. Ornithodoros casebeeri Jones and Clifford, 1972 ( Alectorobius , Carios ) 17. Ornithodoros cheikhi Vermeil, Marjolet and Vermeil, 1997 ( Alectorobius , Carios ) 18. Ornithodoros chironectes Jones and Clifford, 1972 ( Alectorobius , Carios ) 19. Ornithodoros chiropterphila Dhanda and Rajagopalan, 1971 ( Alectorobius , Carios ) 20. Ornithodoros cholodkovskyi Pavlovsky, 1930 ( Alectorobius ) 21. Ornithodoros clarki Jones and Clifford, 1972 ( Carios ) 22. Ornithodoros collocaliae Hoogstraal, Kadarsan, Kaiser and Van Peenen, 1974 ( Alectorobius , Carios ) 23. Ornithodoros compactus Walton, 1962 24. Ornithodoros concanensis Cooley and Kohls, 1941 ( Alectorobius , Carios ) 25. Ornithodoros coniceps (Canestrini, 1890) ( Alectorobius , Carios ) 26. Ornithodoros cooleyi McIvor, 1941 ( Alveonasus , Argas ). If this species belongs to Argas , it has priority over A. cooleyi Kohls and Hoogstraal, 1960 . 27. Ornithodoros coriaceus Koch, 1844 28. Ornithodoros cyclurae de la Cruz, 1984 ( Alectorobius , Carios ) 29. Ornithodoros darwini Kohls, Clifford and Hoogstraal, 1969 ( Alectorobius , Carios ) 30. Ornithodoros delanoei Roubaud and Colas-Belcour, 1931 ( Alveonasus , Argas ) 31. Ornithodoros denmarki Kohls, Sonenshine and Clifford, 1965 ( Alectorobius , Carios ) 32. Ornithodoros dugesi Mazzotti, 1943 ( Alectorobius , Carios ). We consider this name to be provisionally valid (Guglielmone et al. 2009), although it is generally regarded as a synonym of O . talaje . 33. Ornithodoros dusbabeki Č erný, 1967 ( Alectorobius , Carios ) 34. Ornithodoros dyeri Cooley and Kohls, 1940 ( Alectorobius , Carios ) 35. Ornithodoros eboris Theiler, 1959 ( Alveonasus , Argas ) 36. Ornithodoros echimys Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 37. Ornithodoros elongatus Kohls, Sonenshine and Clifford, 1965 ( Alectorobius , Carios ) 38. Ornithodoros eptesicus Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 39. Ornithodoros eremicus Cooley and Kohls, 1941 40. Ornithodoros erraticus (Lucas, 1849) ( Alectorobius ) 41. Ornithodoros faini Hoogstraal, 1960 ( Alectorobius , Carios ) 42. Ornithodoros foleyi Parrot, 1928 ( Alveonasus , Argas ) 43. Ornithodoros fonsecai ( Labruna and Venzal, 2009 ) (n. syn.) ( Alectorobius , Carios ). This species was recently described by Labruna and Venzal (2009) , who placed it in the genus Carios . However, its morphology indicates that it should be included as a member of Ornithodoros (as in this classification) or Alectorobius . 44. Ornithodoros furcosus Neumann, 1908 ( Alectorobius ) 45. Ornithodoros galapagensis Kohls, Clifford and Hoogstraal, 1969 ( Alectorobius , Carios ) 46. Ornithodoros graingeri Heisch and Guggisberg, 1953 ( Alectorobius ) 47. Ornithodoros grenieri Klein, 1965 ( Alectorobius ) 48. Ornithodoros gurneyi Warburton, 1926 49. Ornithodoros hadiae (Klompen, Keirans and Durden, 1995) ( Alectorobius , Carios ) 50. Ornithodoros hasei (Schulze, 1935) ( Alectorobius , Carios ) 51. Ornithodoros hermsi Wheeler, Herms and Meyer, 1935 ( Alectorobius ) 52. Ornithodoros indica Rau and Rao, 1971 53. Ornithodoros jerseyi (Klompen and Grimaldi, 2001) ( Carios ) . Fossil. 54. Ornithodoros jul Schulze, 1940 ( Alectorobius , Carios ) 55. Ornithodoros kelleyi Cooley and Kohls, 1941 ( Alectorobius , Carios ) 56. Ornithodoros knoxjonesi Jones and Clifford, 1972 ( Alectorobius , Carios ). We consider this name provisionally valid, pending comparison with O . dyeri (Guglielmone et al. 2009) . 57. Ornithodoros kohlsi Guglielmone and Keirans, 2002 ( Alectorobius , Carios ). Originally named O . boliviensis Kohls and Clifford, 1964 , which is preoccupied (Guglielmone et al . 2009). 58. Ornithodoros lahorensis Neumann, 1908 ( Alveonasus , Argas ). This is the type species of the genus Alveonasus . 59. Ornithodoros macmillani Hoogstraal and Kohls, 1966 ( Alectorobius ) 60. Ornithodoros madagascariensis Hoogstraal, 1962 ( Alectorobius , Carios ) 61. Ornithodoros marinkellei Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 62. Ornithodoros maritimus Vermeil and Marguet, 1967 ( Alectorobius , Carios ) 63. Ornithodoros marmosae Jones and Clifford, 1972 ( Alectorobius , Carios ) 64. Ornithodoros marocanus Velu, 1919 . We consider this name provisionally valid, pending type comparison with O . erraticus (Guglielmone et al. 2009) . 65. Ornithodoros mimon Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 66. Ornithodoros mormoops Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 67. Ornithodoros moubata (Murray, 1877) 68. Ornithodoros muesebecki Hoogstraal, 1969 ( Alectorobius , Carios ) 69. Ornithodoros multisetosus (Klompen, Keirans and Durden, 1995) ( Alectorobius , Carios ) 70. Ornithodoros natalinus Č erný and Dusbábek, 1967 ( Alectorobius , Carios ) 71. Ornithodoros nattereri Warburton, 1927 . We consider this name provisionally valid, pending comparison with O . rostratus (Guglielmone et al . 2009) . 72. Ornithodoros nicollei Mooser, 1932 73. Ornithodoros normandi Larrousse, 1923 ( Alectorobius ) 74. Ornithodoros papuensis (Klompen, Keirans and Durden, 1995) ( Alectorobius , Carios ) 75. Ornithodoros papillipes (Birula, 1895) ( Alectorobius ) . This species is considered a synonym of O . tholozani by many Western scientists ( Hoogstraal, 1985 ), but East European workers strongly defend the validity of this name with arguments that are scientifically sound ( Filippova, 1966 ). The uncertain status of these taxa has led us to treat them both as provisionally valid. 76. Ornithodoros parkeri Cooley, 1936 ( Alectorobius ) 77. Ornithodoros peringueyi Bedford and Hewitt, 1925 ( Argas , Ogadenus ) 78. Ornithodoros peropteryx Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 79. Ornithodoros peruvianus Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 80. Ornithodoros peusi (Schulze, 1943) ( Argas , Ogadenus ) 81. Ornithodoros piriformis Warburton, 1918 ( Alectorobius , Carios ) 82. Ornithodoros porcinus Walton, 1962 83. Ornithodoros procaviae Theodor and Costa, 1960 ( Alectorobius ) 84. Ornithodoros puertoricensis Fox, 1947 ( Alectorobius , Carios ) 85. Ornithodoros rennellensis Clifford and Sonenshine, 1962 ( Alectorobius , Carios ) 86. Ornithodoros rioplatensis Venzal, Estrada-Peña and Mangold, 2008 ( Alectorobius , Carios ) 87. Ornithodoros rondoniensis (Labruna, Terassini, Camargo, Brandão, Ribeiro and Estrada-Peña, 2008) ( Alectorobius , Carios ). 88. Ornithodoros rossi Kohls, Sonenshine and Clifford, 1965 ( Alectorobius , Carios ) 89. Ornithodoros rostratus Aragão, 1911 90. Ornithodoros rudis Karsch, 1880 ( Alectorobius , Carios ) 91. Ornithodoros salahi Hoogstraal, 1953 ( Alectorobius , Carios ) 92. Ornithodoros savignyi ( Audouin, 1826 ) . This is the type species of the genus Ornithodoros ; it was originally named Argas savignyi . There is discrepancy concerning the year of description, which some authors consider to be 1827; this discrepancy also includes the reference for the description. 93. Ornithodoros sawaii Kitaoka and Suzuki, 1973 ( Alectorobius , Carios ) 94. Ornithodoros setosus Kohls, Clifford and Jones, 1969 ( Alectorobius , Carios ) 95. Ornithodoros solomonis Dumbleton, 1959 ( Alectorobius , Carios ) 96. Ornithodoros sonrai Sautet and Witkowski, 1943 ( Alectorobius ) 97. Ornithodoros sparnus Kohls and Clifford, 1963 ( Alectorobius , Otobius ) 98. Ornithodoros spheniscus Hoogstraal, Wassef, Hays and Keirans, 1985 ( Alectorobius , Carios ) 99. Ornithodoros stageri Cooley and Kohls, 1941 ( Alectorobius , Carios ) 100. Ornithodoros tadaridae Č erný and Dusbábek, 1967 ( Alectorobius , Carios ) 101. Ornithodoros talaje (Guérin-Méneville, 1849) ( Alectorobius , Carios ). This is the type species of the genus Alectorobius ; it was originally named Argas talaje . See also O . dugesi . 102. Ornithodoros tartakovskyi Olenev, 1931 ( Alectorobius ) 103. Ornithodoros tholozani (Laboulbène and Mégnin, 1882) ( Alectorobius ) . See also O . papillipes . 104. Ornithodoros tiptoni Jones and Clifford, 1972 ( Alectorobius , Carios ) 105. Ornithodoros turicata (Dugès, 1876) ( Alectorobius ) 106. Ornithodoros tuttlei Jones and Clifford, 1972 ( Alectorobius , Carios ) 107. Ornithodoros vansomereni Keirans, Hoogstraal and Clifford, 1977 ( Argas , Ogadenus ) 108. Ornithodoros verrucosus Olenev, Zasukhin and Fenyuk, 1934 ( Alectorobius ) is considered a synonym of O . asperus by Western workers ( Hoogstraal, 1985 ), but Russian scientists present sound evidence for its validity ( Filippova, 1966 ). We tentatively accept both taxa, pending further studies. 109. Ornithodoros viguerasi Cooley and Kohls, 1941 ( Alectorobius , Carios ) 110. Ornithodoros yumatensis Cooley and Kohls, 1941 ( Alectorobius , Carios ) 111. Ornithodoros yunkeri Keirans, Clifford and Hoogstraal, 1984 ( Alectorobius , Carios ) 112. Ornithodoros zumpti Heisch and Guggisberg, 1953 ( Alectorobius ) 1. Otobius lagophilus Cooley and Kohls, 1940 2. Otobius megnini (Dugès, 1883) . This is the type species of the genus Otobius ; it was originally named Argas megnini .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/66335A625A66A83AFF41FF39FEAEFAF8#A680B8FF5A66A83AFF13FEABFEAEFAF8">this account</a> <a href="https://treatment.plazi.org/id/66335A625A66A83AFF41FF39FEAEFAF8">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/ixodida/"><span>Ixodida</span> <span class="n">2</span></a></li>
+<li><a href="/taxon/parasitiformes/"><span>Parasitiformes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/ixodidae/"><span>Ixodidae</span> <span class="n">2</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><span>Argasidae</span></td><td>Family</td><td>Argasidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Argasidae">Plazi/Argasidae</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/argasidae/&quot;,
+  &quot;name&quot;: &quot;Argasidae&quot;,
+  &quot;taxonRank&quot;: &quot;family&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/argasidae/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/6PN&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Ixodida&quot;,
+    &quot;taxonRank&quot;: &quot;order&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/ixodida/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/6PN</p>
+</div></footer>
+</body>
+</html>

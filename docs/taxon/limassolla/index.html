@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Limassolla</title>
+<meta name="description" content="Limassolla in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/limassolla/">
+<meta property="og:title" content="Bioacoustics of Limassolla">
+<meta property="og:description" content="Limassolla in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8HFJW">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/limassolla/", "name": "Limassolla", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/limassolla/", "sameAs": "https://api.audioblast.org/taxon/CoL/8HFJW", "parentTaxon": {"@type": "Taxon", "name": "Typhlocybina", "taxonRank": "subtribe", "url": "https://browse.acousti.cloud/taxon/typhlocybina/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hemiptera", "item": "https://browse.acousti.cloud/taxon/hemiptera/"}, {"@type": "ListItem", "position": 7, "name": "Auchenorrhyncha", "item": "https://browse.acousti.cloud/taxon/auchenorrhyncha/"}, {"@type": "ListItem", "position": 8, "name": "Cicadomorpha", "item": "https://browse.acousti.cloud/taxon/cicadomorpha/"}, {"@type": "ListItem", "position": 9, "name": "Clypeata", "item": "https://browse.acousti.cloud/taxon/clypeata/"}, {"@type": "ListItem", "position": 10, "name": "Membracoidea", "item": "https://browse.acousti.cloud/taxon/membracoidea/"}, {"@type": "ListItem", "position": 11, "name": "Cicadellidae", "item": "https://browse.acousti.cloud/taxon/cicadellidae/"}, {"@type": "ListItem", "position": 12, "name": "Typhlocybinae", "item": "https://browse.acousti.cloud/taxon/typhlocybinae/"}, {"@type": "ListItem", "position": 13, "name": "Typhlocybini", "item": "https://browse.acousti.cloud/taxon/typhlocybini/"}, {"@type": "ListItem", "position": 14, "name": "Typhlocybina", "item": "https://browse.acousti.cloud/taxon/typhlocybina/"}, {"@type": "ListItem", "position": 15, "name": "Limassolla", "item": "https://browse.acousti.cloud/taxon/limassolla/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hemiptera/"><span class="rk">Order</span><span>Hemiptera</span></a><span class="sep">›</span><a href="/taxon/auchenorrhyncha/"><span class="rk">Suborder</span><span>Auchenorrhyncha</span></a><span class="sep">›</span><a href="/taxon/cicadomorpha/"><span class="rk">Infraorder</span><span>Cicadomorpha</span></a><span class="sep">›</span><a href="/taxon/clypeata/"><span class="rk">Parvorder</span><span>Clypeata</span></a><span class="sep">›</span><a href="/taxon/membracoidea/"><span class="rk">Superfamily</span><span>Membracoidea</span></a><span class="sep">›</span><a href="/taxon/cicadellidae/"><span class="rk">Family</span><span>Cicadellidae</span></a><span class="sep">›</span><a href="/taxon/typhlocybinae/"><span class="rk">Subfamily</span><span>Typhlocybinae</span></a><span class="sep">›</span><a href="/taxon/typhlocybini/"><span class="rk">Tribe</span><span>Typhlocybini</span></a><span class="sep">›</span><a href="/taxon/typhlocybina/"><span class="rk">Subtribe</span><span>Typhlocybina</span></a></nav>
+<h1>Bioacoustics of <i>Limassolla</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1. Aedeagus without processes ( Limassolla multipunctata group)................................................. 2 - Aedeagus with processes............................................................................... 8 2. Aedeagal shaft compressed, much wider in lateral view than in posterior view..................................... 3 - Aedeagal shaft tubular, approximately same width in lateral and posterior views................................... 5 3. Aedeagal shaft with dorsal margin strongly sclerotized, apex concave in posterior view.................................................................................................. L. lingchuanensis ( Chou &amp; Zhang, 1985 ) - Aedeagal shaft uniformly sclerotized, apex rounded or tapered in posterior view................................... 4 4. Aedeagus with posterior margin evenly rounded in lateral view; subgenital plate with two long macrosetae subbasally............................................................................... L. emmrichi Dworakowska, 1972 - Aedeagus with posterior margin subquadrate in lateral view; subgenital plate with single long macroseta subbasally............................................................................... L. multipunctata (Matsumura, 1920) 5. Aedeagal shaft apex rounded or obliquely truncate in lateral and posterior views.......... L. ishiharai Dworakowska, 1972 - Aedeagal shaft tapered to sharp point or irregular in lateral or posterior views..................................... 6 6. Aedeagal shaft apex tapered to sharp point in lateral and posterior views............ L. rubrolimbata Zhang &amp; Chou, 1988 - Aedeagal shaft apex irregularly rounded in lateral and posterior views........................................... 7 7. Aedeagal shaft with longitudinal lateral ridge; connective without median anterior lobe................ L. kunyica sp. nov. - Aedeagus shaft without lateral ridge; connective with median anterior lobe.......................... L. uncata sp. nov. 8. Aedeagus with apical and basal processes, either single or paired ( Limassolla dworakowskae group).................... 9 - Aedeagus with either apical or basal processes, but not both.................................................. 12 9. Aedeagal shaft with paired apical processes............................................................... 10 - Aedeagal shaft with single apical process................................................................. 11 10. Aedeagus apical processes lamella-like, with serrated lateral margins..................... L. yingjianga Song &amp; Li, 2011 - Aedeagus apical processes teeth-like................................................ L. unica Zhang &amp; Xiao, 2000 11. Aedeagus with paired basal processes......................................... L. dworakowskae Chou &amp; Ma, 1981 - Aedeagus with single basal process............................................... L. qianfoensis Song &amp; Li, 2011 12. Aedeagus with 1–4 apical processes, no basal process ( Limassolla dispunctata group).............................. 13 - Aedeagus with basal process or processes, no apical process ( Limassolla aureata group)............................ 22 13. Aedeagal shaft with two pairs of apical processes........................................................... 14 - Aedeagal shaft with one pair of apical processes............................................................ 17 14. Apical processes of aedeagal shaft petiolate at base......................................................... 15 - Apical processes of aedeagal shaft directly bifurcate................................... L. diospyri Chou &amp; Ma, 1981 15. Two pairs of apical processes of aedeagal shaft bifurcate...................................................... 16 - One pair of apical processes of aedeagal shaft bifurcate.............................. L. dispunctata Chou &amp; Ma, 1981 16. Aedeagus apical processes length similar to preapical processes.......................... L . hebeiensis Cai et al ., 1992 - Aedeagus apical processes shorter than preapical processes.......................... L . dangjinensis Sumin et al ., 2020 17. Aedeagus with pair of apical processes extended distad and unpaired preapical processes extended basad......................................................................................... L. discoloris Zhang &amp; Chou, 1988 - Aedeagal processes arising from apex of shaft............................................................. 18 18. Apex of aedeagus with three processes, one extended distally and two extended basad....... L. koreana Hossain et al ., 2019 - Aedeagus with one pair of processes, without unpaired process............................................... 19 19. Aedeagus apical processes extended distad................................................................ 20 - Aedeagus apical processes extended basad................................................................ 21 20. Forewing mostly dark with large pale spots; aedeagus abruptly narrowed preapically in lateral view.................................................................................................... L. kakii Chou &amp; Ma, 1981 - Forewing mostly pale with small dark spots; aedeagus evenly tapered preapically in lateral view...... L. bicruralis sp. nov. 21. Each aedeagal process wide and flat, with distinct preapical angle............................ L. rutila Song &amp; Li, 2011 - Each aedeagal process narrow and long, without preapical angle..................... L. yunnanana Zhang &amp; Chou, 1988 22. Aedeagus with pair of basal processes.................................................................... 23 - Aedeagus with single basal process...................................................................... 25 23. Aedeagus with basal processes broad, longer than shaft............................. L. galewskii Dworakowska, 1969 - Aedeagus with basal processes slender, shorter than aedeagal shaft............................................. 24 24. Gonopore apical............................................................. L. fasciata Zhang &amp; Chou, 1988 - Gonopore subapical............................................................. L. forcipata Song &amp; Li, 2011 25. Aedeagus with basal process shorter than shaft............................................................. 26 - Aedeagus with basal process as long as or longer than shaft................................................... 28 26. Basal process of aedeagus denticulate...................................................... L. spinulata sp. nov. - Basal process of aedeagus smooth....................................................................... 27 27. Aedeagus with basal process well separated from shaft in lateral view..................... L. auriculata Song &amp; Li, 2011 - Aedeagus with basal process closely appressed to shaft in lateral view........................ L. nigropunctata sp. nov. 28. Connective with median anterior lobe, aedeagus with shaft emarginate apically in lateral view................................................................................................... L. discreta Chou &amp; Zhang, 1985 - Connective without median anterior lobe.................................................................. 29 29. Aedeagus basal process longer than aedeagal shaft, apex bifurcate in posterior view..... L. multimacula Chiang et al ., 1988 - Aedeagus basal process as long as aedeagal shaft, apex tapered in posterior view............. L. lanyua Chiang et al ., 1989</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03D987C5FFBCFFE9FF507D93FA57FAF4#C36A6558FFBCFFE9FF507C0EFA57FAF4">this account</a> <a href="https://treatment.plazi.org/id/03D987C5FFBCFFE9FF507D93FA57FAF4">at Plazi</a></p>
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>(Modified from Song &amp; Li 2011 . Note: L. bielawskii Dworakowska, 1969 and L. dostali Dworakowska &amp; Lauterer, 1975 are omitted because they are known only from females.)</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03D987C5FFBCFFE9FF507D93FA57FAF4#C36A6558FFBCFFEAFF507C77FC86FAE0">this account</a> <a href="https://treatment.plazi.org/id/03D987C5FFBCFFE9FF507D93FA57FAF4">at Plazi</a></p>
+<p class="topic">Description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description. Generic characteristics as in Linnavuori (1962 ); description based on Linnavuori (1962 ), Zhang (1990 ) and Song and Li (2012 ), with additional features from new species as follows: body small, length 2.0– 3.6 mm ; coloration bright, dominant hues red, orange, yellow, scattered dark maculae forming characteristic pattern; vertex with median part conically produced, widest part slightly narrower than maximum width of pronotum (Fig. 1 a, e, i, m, q); face convex, ocelli completely absent (Fig. 1 b, f, j, n, r); coronal suture distinct; pronotum transverse, anterior margin weakly arcuate, posterior margin nearly straight or slightly emarginate; vertex and pronotum usually with red, orange or yellow maculae, maculation variable in form, mostly longitudinal fasciae, lateral spots or irregular patches (Fig. 1 a, e, i, m, q); mesoscutellum small, nearly triangular, base often with small pale or dark maculae, apex darker; forewing elongate, surface smooth, numerous scattered dark maculae, maculation variable in size, number and arrangement within and between species (Figs 1 , 2 I , 3 I , 4 I , 5 I , 6 I ); third apical cell triangular, base distinctly constricted and petiolate; fourth apical cell apically obsolescent in some species, not reaching wing margin; hindwing hyaline, venation simplified (Figs 2 J , 3 J , 4 J , 5 J , 6 J ), submarginal vein anastomosing with CuA near mCuA (Fig. 2 J ). Abdominal apodemes well developed (Figs 2 D , 3 D , 4 H , 5 D , 6 D ). Male genitalia : Pygofer lobe asetose of macrosetae, lateral surface with thin microsetae (Figs 2 A , 3 A , 4 A , 5 A , 6 A ); ventral margin with well-developed ventral pygofer appendage from inner surface, posterodorsally directed, dorsal pygofer appendage present or absent (Figs 2 B , 3 B , 4 B , 5 C , 6 B ). Subgenital plate abruptly constricted subapically, ventral surface with a row of macrosetae, or only one (or two) macrosetae basally (Figs 2 A , 3 A , 4 A , 5 A , 6 A ). Style broad subbasally, apex pediform (Figs 2 G , 3 G , 4 F , 5 F , 6 G ), fine setae on subapex or neck in some species (Figs 2 G , 3 G , 4 F ). Connective generally Y-shaped, with short lateral arms and long or short stem; median process small or reduced and absent (Figs 2 F , 3 F , 4 G , 5 G , 6 F ). Aedeagus highly heteromorphic, usually with processes; processes divergent in shape and insertion position (Figs 2 E , 3 E , 4 D , 5 E , 6 E ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/105B8D39D5DC56A497226485DCCEA492#79837DA55E22B60F40A5A4332505D483">this account</a> <a href="https://treatment.plazi.org/id/105B8D39D5DC56A497226485DCCEA492">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/typhlocybina/"><span>Typhlocybina</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/typhlocybini/"><span>Typhlocybini</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/typhlocybinae/"><span>Typhlocybinae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadellidae/"><span>Cicadellidae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/membracoidea/"><span>Membracoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/clypeata/"><span>Clypeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadomorpha/"><span>Cicadomorpha</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/auchenorrhyncha/"><span>Auchenorrhyncha</span> <span class="n">60,410</span></a></li>
+<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">72,144</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/limassolla-limassolla/"><i>Limassolla (Limassolla)</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/eurhadina/"><i>Eurhadina</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/narta/"><i>Narta</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Limassolla</i></td><td>Genus</td><td>Cicadellidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Limassolla">Plazi/Limassolla</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/limassolla/&quot;,
+  &quot;name&quot;: &quot;Limassolla&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/limassolla/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8HFJW&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Typhlocybina&quot;,
+    &quot;taxonRank&quot;: &quot;subtribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/typhlocybina/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8HFJW</p>
+</div></footer>
+</body>
+</html>

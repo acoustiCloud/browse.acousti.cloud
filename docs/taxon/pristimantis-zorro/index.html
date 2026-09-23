@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Pristimantis zorro</title>
+<meta name="description" content="Pristimantis zorro in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/pristimantis-zorro/">
+<meta property="og:title" content="Bioacoustics of Pristimantis zorro">
+<meta property="og:description" content="Pristimantis zorro in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/SCHW9">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/pristimantis-zorro/", "name": "Pristimantis zorro", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/pristimantis-zorro/", "sameAs": "https://api.audioblast.org/taxon/CoL/SCHW9", "parentTaxon": {"@type": "Taxon", "name": "Pristimantis", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/pristimantis/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Brachycephaloidea", "item": "https://browse.acousti.cloud/taxon/brachycephaloidea/"}, {"@type": "ListItem", "position": 11, "name": "Strabomantidae", "item": "https://browse.acousti.cloud/taxon/strabomantidae/"}, {"@type": "ListItem", "position": 12, "name": "Pristimantinae", "item": "https://browse.acousti.cloud/taxon/pristimantinae/"}, {"@type": "ListItem", "position": 13, "name": "Pristimantis", "item": "https://browse.acousti.cloud/taxon/pristimantis/"}, {"@type": "ListItem", "position": 14, "name": "Pristimantis zorro", "item": "https://browse.acousti.cloud/taxon/pristimantis-zorro/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/brachycephaloidea/"><span class="rk">Superfamily</span><span>Brachycephaloidea</span></a><span class="sep">›</span><a href="/taxon/strabomantidae/"><span class="rk">Family</span><span>Strabomantidae</span></a><span class="sep">›</span><a href="/taxon/pristimantinae/"><span class="rk">Subfamily</span><span>Pristimantinae</span></a><span class="sep">›</span><a href="/taxon/pristimantis/"><span class="rk">Genus</span><i>Pristimantis</i></a></nav>
+<h1>Bioacoustics of <i>Pristimantis zorro</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of the holotype . Adult male, head as wide as long; snout relatively short, acuminate in dorsal and truncate in lateral view, but with small conical papilla at tip (snout–eye distance 16% of SVL); canthus rostralis indistinct; loreal region slightly concave; nostrils directed anterolaterally, protuberant, inter-nostrils area slightly concave in dorsal view; interorbital area flat, as broad as upper eyelid; cranial crests absent; upper eyelid without tubercles; tympanic membrane and tympanic annulus distinct, round; supratympanic fold differentiated; tympanum diameter 26% of eye diameter; postrictal tubercles low, inconspicuous. Choanae small, nearly rounded, not concealed by palatal shelf of maxillary; dentigerous process of the vomer present, elliptical, low, with three teeth each; tongue longer that wide, posterior one-half free from floor of mouth. Texture of skin of dorsum, flanks and venter smooth, dorsolateral, thoracic and discoidal folds absent; cloacal sheath absent. Forearm slender; radio–ulna length 20% of SVL; ulnar tubercles and ulnar fold absent; hand length longer than radio–ulna length (hand length 31% of SVL); fingers with narrow lateral fringes; relative lengths of fingers I &lt;II &lt;IV &lt;III; palmar tubercle bifid, thenar tubercle oval, inconspicuous; subarticular tubercles round, low; supernumerary palmar tubercles present at the base of all fingers, low, inconspicuous; disc cover of Finger I slightly expanded, those of Fingers II–IV extensively expanded; outer discs of fingers as wide as those of toes; all disc covers with elliptical ventral pads defined by circummarginal grooves. Nuptial pads absent. Hind limbs relatively slender; tibia length 56% of SVL; foot length 76% of tibia length; tarsal fold and tarsal tubercles absent; heel (tibia-tarsal articulation) without tubercles; toes with narrow lateral fringes; subarticular tubercles round, low; inner metatarsal tubercle oval, about 2x as long as wide; subconical outer tubercle; supernumerary plantar tubercles inconspicuous; disc covers slightly expanded; toes with defined pads; disc pads nearly ellipti- cal; relative lengths of toes I &lt;II &lt;III &lt;V &lt;IV; tip of Toe V reaching distal border of distal subarticular tubercle of Toe IV; tip of Toe III reaching proximal border of medial subarticular tubercle of Toe IV. Coloration of the holotype . In life, the holotype of Pristimantis zorro sp. nov is yellow dorsally, with some dark brown blotches and spots and yellow-green in the supra-ocular region. The holotype has a well-defined canthal brown stripe covering the front of the face, extending to the inter-nostrils region and forming a facial mask. The inter-orbital brown bar and supra-tympanic brown stripe is present, extending towards the flanks to the middle of the body. The wrist of the hands is intensely pigmented in the dorsal region; the flanks and limbs have scattered brown spots; throat, axillae, undersides and posterior surfaces of thighs immaculate with light yellow coloration; venter is white; palmar and plantar side light yellow; ventral side of limbs and thighs light yellow without spots or marks. The iris is cooper with fine brown reticulation ( Fig. 2A ). In preservative, the yellow of the body turned into pale cream, both on the dorsum and on the flanks; the brown botches o and marks became darker almost black and dorsum show traces of very small black dots throughout the body, only perceptible to stereoscope. In addition, arm and legs cream with dark brown spots and blotches, cream belly without marks. Measurements of the holotype (in millimeters). SVL: 20.1; HL: 7.5 HW: 7.7; ED: 3.0; END: 2.4; NSD: 0.9; IND: 1.7; AMD: 4.4; TD: 0.8; FAL: 4.0; FAB: 1.2; HAL: 62; THL: 10.7; TL: 11.3; TAL: 5.6; FL: 8.6; TFD: 1.0; FTD: 1.9. Morphometric Measurement Min. Males (n = 11) Max. Mean S.D. SVL = snout-vent length 19.5 21.5 20.5 0.495 HL = head lenght 7.0 7.8 7.4 0.305 HW = head width 7.4 8.4 8.0 0.298 ED = eye diameter 2.7 3.1 2.9 0.133 END = eye to nostril distance 2.2 2.6 2.5 0.118 NSD = nostril to tip of snout distance 0.8 1.0 0.9 0.060 IND = internarial distance 1.6 1.8 1.7 0.094 AMD = distance between the anterior margins of eyes 4.1 4.8 4.5 0.218 TD = tympanum diameter 0.7 1.0 0.9 0.092 FAL = forearm length 3.8 4.8 4.4 0.279 FAB = forearm breadth 1.2 1.6 1.4 0.117 HAL = hand length 5.7 6.7 6.3 0.330 THL = thigh length 9.6 11.4 10.6 0.576 TL = tibia length 10.9 12.2 11.6 0.463 TAL = tarsal length 5.3 6.4 6.0 0.304 FL = foot lenght 8.4 10.2 9.3 0.502 TFD = third finger disk diameter 0.9 1.2 1.0 0.087 FFD = fourth toe disk diameter 0.8 1.1 0.9 0.083 Variation of type series. Pristimantis zorro sp. nov. has dorsum light yellow in (MHUA-A 8815, 8816) to green-yellow (MHUA-A 8814, 8817) and presenting conspicuous brown spots, blotches and marks with variably extension ( Fig. 2 ). Individuals have a well-defined canthal brown stripe and blotch covering the front of the face; in addition to a strong pigmentation in the inter-nostrils region forming a mask-like pattern. The extension and shape of the inter-orbital brown bar and supra-tympanic brown stripe vary between specimens, and is weakly stained in the inter-orbital region in MHUA-A 11165 ( Fig. 3 ) and in the supratimpanic region in MHUA-A 8816, and partially interrupted in MHUA-A 11165, MHUA-A 11167. The brown coloration of the marks on the wrist is less intense in MHUA-A 8814 and MHUA-A 8816. Additionally, in MHUA-A 8813, 8814 there are two spots in both the scapular and the urostil region. Variations in morphometric measurements are shown in Table 1 . Vocalization. The advertisement call of Pristimantis zorro sp. nov. consists of single-pulsed, short note lacking frequency modulation, with a duration of 0.109 ± 0.015 ( 0.062 –0.155 ) seconds ( Fig. 4A ). We observed up to three harmonics per note. The interval between notes is 1.258 ± 0.547 ( 0.179 –3.763 ) seconds (Table 3). Call rate ranges from 34 to 68 calls per minute. The dominant frequency is 2.954 ± 94.434 ( 2.842 –3.186 kHz), minimum frequency 2.855 ± 0.091 ( 2.670 –3.186 ) kHz, and maximum frequency 3.092 ± 56.584 ( 2.928 –3.273 ). In qualitative terms, the amplitude of note suddenly increases and it quickly falls into a funnel at the end of it ( Fig. 4B ). Acoustic measurements MHUAA8813 (N=58) MHUAA8815 (N=78) MHUAA12092 (N=38) MHUAA12093 (N=70) MHUAA12094 (N=68) Summary (N=312) Call duration (s) 0.101±0.749 (0.087–0.126) 0.108±0.017 (0.062–0.155) 0.093±0.003 (0.087–0.099) 0.120±0.009 (0.094–0.134) 0.084±0.009 (0.068–0.114) 0.109±0.015 (0.062–0.155) Intercall interval duration (s) 1.490±0.514 (0.975–3.270) 0.827±0.464 (0.179–3.115) 1.450±0.514 (0.975–3.270) 1.185±0.332 (0.713–2.873) 1.142±0.747 (0.805–4.257) 1.258±0.547 (0.179–3.270) Calls rate (No. Calls/ min) 38 68 38 40 34 46 Low frequency (kHz) 2,928 2,922±0.077 (2,670–3,186) 2,928 2,756 3,010±0.3353 (2,958–3,100) 2,855±0.091 (2,670–3,186) Dominant frequency (Hz) 3,010±0.1939 (2,928–3,100) 3,008±0.7874 (2,842–3.186) 3,014 3,014 3,093±0.1387 (2,842–3,186) 2.954±94.434 (2,842–3,186) High frequency (Hz) 3,100 3,092±0.5658 (2,928–3,273) 3,100 2,842 3,184±0.2949 (3,100–3,273) 3.092±56.584 (2,928–3.273) No. Harmonics 1 3 1 1 0 0–3 Harmonic frequency (Hz) 5,598–6,029 5,684–5,943 8,441–8,957 14,211–14,901 5,943 6,048 – 5,598–6,048 8,441–8,957 14,211–14,901 SVL (mm) 20.1 20.5 20.5 20.7 20.6 20.1–20.7 T. Air (°C) 16.0 17.0 16.7 20.0 21.8 16.0–21.8 Geographic distribution and natural history. Pristimantis zorro sp. nov. is known only from the type locality at elevations ca. 1860 m a.s.l., near the Peñol-Guatape hydroelectric reservoir, on the northeastern Cordillera Central, in Antioquia , Colombia ( Fig. 5 ). We found individuals on shrubs at 1.0 to 4.0 m from the ground, in open areas and on the side of the road next to mature forest. We observed and collected active frogs between 1830–2100 h. We heard calls at night, during both clear and full moon nights, and overcast and rainy nights. Reproductive activity of females, and other natural history characteristics remain unknown. Sympatric congeneric species include P. factiosus , P. helvolus , P. lemur , P. permixtus , P. aff. paisa P. aff. suetus , and P. aff. viejas .</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03D7C10CFF9DF629A8892614FB1B5189#C3642391FF9AF626A8D921F8FBE355E7">this account</a> <a href="https://treatment.plazi.org/id/03D7C10CFF9DF629A8892614FB1B5189">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/pristimantis/"><i>Pristimantis</i> <span class="n">650</span></a></li>
+<li><a href="/taxon/pristimantinae/"><span>Pristimantinae</span> <span class="n">443</span></a></li>
+<li><a href="/taxon/strabomantidae/"><span>Strabomantidae</span> <span class="n">248</span></a></li>
+<li><a href="/taxon/brachycephaloidea/"><span>Brachycephaloidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/pristimantis-achatinus/"><i>Pristimantis achatinus</i> <span class="n">27</span></a></li>
+<li><a href="/taxon/pristimantis-calcarulatus/"><i>Pristimantis calcarulatus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-cedros/"><i>Pristimantis cedros</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-charlottevillensis/"><i>Pristimantis charlottevillensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-conspicillatus/"><i>Pristimantis conspicillatus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-cruentus/"><i>Pristimantis cruentus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-danae/"><i>Pristimantis danae</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-erythropleura/"><i>Pristimantis erythropleura</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-espedeus/"><i>Pristimantis espedeus</i> <span class="n">188</span></a></li>
+<li><a href="/taxon/pristimantis-inguinalis/"><i>Pristimantis inguinalis</i> <span class="n">15</span></a></li>
+<li><a href="/taxon/pristimantis-labiosus/"><i>Pristimantis labiosus</i> <span class="n">30</span></a></li>
+<li><a href="/taxon/pristimantis-lacrimosus/"><i>Pristimantis lacrimosus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-medemi/"><i>Pristimantis medemi</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-paisa/"><i>Pristimantis paisa</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/pristimantis-petersi/"><i>Pristimantis petersi</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-piceus/"><i>Pristimantis piceus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-platydactylus/"><i>Pristimantis platydactylus</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/pristimantis-ramagii/"><i>Pristimantis ramagii</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/pristimantis-reichlei/"><i>Pristimantis reichlei</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-ridens/"><i>Pristimantis ridens</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-savagei/"><i>Pristimantis savagei</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-taeniatus/"><i>Pristimantis taeniatus</i> <span class="n">39</span></a></li>
+<li><a href="/taxon/pristimantis-toftae/"><i>Pristimantis toftae</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-trachyblepharis/"><i>Pristimantis trachyblepharis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/pristimantis-unistrigatus/"><i>Pristimantis unistrigatus</i> <span class="n">105</span></a></li>
+<li><a href="/taxon/pristimantis-urichi/"><i>Pristimantis urichi</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/pristimantis-wagteri/"><i>Pristimantis wagteri</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-zeuctotylus/"><i>Pristimantis zeuctotylus</i> <span class="n">21</span></a></li>
+<li><a href="/taxon/pristimantis-bogotensis/"><i>Pristimantis bogotensis</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/pristimantis-festae/"><i>Pristimantis festae</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-paulodutrai/"><i>Pristimantis paulodutrai</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/pristimantis-incertus/"><i>Pristimantis incertus</i> <span class="n">28</span></a></li>
+<li><a href="/taxon/pristimantis-crepitaculus/"><i>Pristimantis crepitaculus</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/pristimantis-relictus/"><i>Pristimantis relictus</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/pristimantis-anolirex/"><i>Pristimantis anolirex</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-chiastonotus/"><i>Pristimantis chiastonotus</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/pristimantis-euphronides/"><i>Pristimantis euphronides</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-luteolateralis/"><i>Pristimantis luteolateralis</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-lymani/"><i>Pristimantis lymani</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-marmoratus/"><i>Pristimantis marmoratus</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/pristimantis-myersi/"><i>Pristimantis myersi</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-nyctophylax/"><i>Pristimantis nyctophylax</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-parvillus/"><i>Pristimantis parvillus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-peruvianus/"><i>Pristimantis peruvianus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-w-nigrum/"><i>Pristimantis w-nigrum</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-zimmermanae/"><i>Pristimantis zimmermanae</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/pristimantis-gutturalis/"><i>Pristimantis gutturalis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-crenunguis/"><i>Pristimantis crenunguis</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-frater/"><i>Pristimantis frater</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-fenestratus/"><i>Pristimantis fenestratus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pristimantis-guianensis/"><i>Pristimantis guianensis</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-cryptopictus/"><i>Pristimantis cryptopictus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/pristimantis-aureoventris/"><i>Pristimantis aureoventris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-muchimuk/"><i>Pristimantis muchimuk</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-munozi/"><i>Pristimantis munozi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-pleurostriatus/"><i>Pristimantis pleurostriatus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-rivasi/"><i>Pristimantis rivasi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-ventrigranulosus/"><i>Pristimantis ventrigranulosus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-yantzaza/"><i>Pristimantis yantzaza</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-bambu/"><i>Pristimantis bambu</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-asimus/"><i>Pristimantis asimus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-blasi/"><i>Pristimantis blasi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-carylae/"><i>Pristimantis carylae</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-chocolatebari/"><i>Pristimantis chocolatebari</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-chinguelas/"><i>Pristimantis chinguelas</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-fouqueti/"><i>Pristimantis fouqueti</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pristimantis-flavus/"><i>Pristimantis flavus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Pristimantis zorro</i></td><td>Species</td><td>Craugastoridae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Pristimantis zorro">Plazi/Pristimantis zorro</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/pristimantis-zorro/&quot;,
+  &quot;name&quot;: &quot;Pristimantis zorro&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pristimantis-zorro/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/SCHW9&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Pristimantis&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/pristimantis/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/SCHW9</p>
+</div></footer>
+</body>
+</html>

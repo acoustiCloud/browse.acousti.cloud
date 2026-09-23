@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Ptenopus carpi</title>
+<meta name="description" content="Ptenopus carpi in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/ptenopus-carpi/">
+<meta property="og:title" content="Bioacoustics of Ptenopus carpi">
+<meta property="og:description" content="Ptenopus carpi in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4PT7B">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/ptenopus-carpi/", "name": "Ptenopus carpi", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/ptenopus-carpi/", "sameAs": "https://api.audioblast.org/taxon/CoL/4PT7B", "parentTaxon": {"@type": "Taxon", "name": "Ptenopus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/ptenopus/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Reptilia", "item": "https://browse.acousti.cloud/taxon/reptilia/"}, {"@type": "ListItem", "position": 9, "name": "Squamata", "item": "https://browse.acousti.cloud/taxon/squamata/"}, {"@type": "ListItem", "position": 10, "name": "Gekkota", "item": "https://browse.acousti.cloud/taxon/gekkota/"}, {"@type": "ListItem", "position": 11, "name": "Gekkonidae", "item": "https://browse.acousti.cloud/taxon/gekkonidae/"}, {"@type": "ListItem", "position": 12, "name": "Ptenopus", "item": "https://browse.acousti.cloud/taxon/ptenopus/"}, {"@type": "ListItem", "position": 13, "name": "Ptenopus carpi", "item": "https://browse.acousti.cloud/taxon/ptenopus-carpi/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/reptilia/"><span class="rk">Class</span><span>Reptilia</span></a><span class="sep">›</span><a href="/taxon/squamata/"><span class="rk">Order</span><span>Squamata</span></a><span class="sep">›</span><a href="/taxon/gekkota/"><span class="rk">Suborder</span><span>Gekkota</span></a><span class="sep">›</span><a href="/taxon/gekkonidae/"><span class="rk">Family</span><span>Gekkonidae</span></a><span class="sep">›</span><a href="/taxon/ptenopus/"><span class="rk">Genus</span><i>Ptenopus</i></a></nav>
+<h1>Bioacoustics of <i>Ptenopus carpi</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">natural history · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Natural history. The breeding season for P. carpi appears to be between April (earliest recorded calls) and August, with some juveniles having been found between November and February. Ptenopus carpi does not call nearly as often as congeners (similar to P. sceletus sp. nov. ) but appears to spend more time wandering on the surface, even far from its burrow. It is active much later into the night than congeners, often only emerging well after dark, and its activity is not dampened by cold or foggy conditions (as in most other species, except P. sceletus sp. nov. and, occasionally, P. adamanteus sp. nov. ). The burrow is usually shallower and simpler than those of other species but may have two to three side-branches and typically has an escape exit (as in other species). Gravid females observed (FB) generally contain two eggs, which are presumably laid in the burrow, as in other species. Ptenopus carpi utters two different calls: The advertisement call and the single-pulse call, also previously noticed for the closely related P. sceletus sp. nov. ( Gramentz 2008 ). Gramentz (2008) , based on observations in captivity, suggested the single-pulse call may be a threat call, but FB’s observations suggest this is not the function. This call is not notably uttered in response to disturbance or the close presence of a threat, and the first individuals to utter this call were often far from the observer. This call is uttered frequently in the wild by both P. carpi and P. sceletus sp. nov. , usually late at night after chorusing has ceased. Individuals clearly respond to each other, with several answering the first call uttered within a second or two. It is possible that this is a spacing mechanism, or a way for individuals to keep track of the population’s general location as they wander on the surface. A squeak may be uttered if the animal is molested (as with other species) but this is not similar to the single-pulse, which is identical to a single note in the advertisement call. For more details on the natural history of P. carpi , see previous works ( Brain 1962 ; Haacke 1975 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/3CDFB40878D25FF390CEBBA7D255FA8D#SECID0EFFGK">this account</a> <a href="https://treatment.plazi.org/id/3CDFB40878D25FF390CEBBA7D255FA8D">at Plazi</a></p>
+<p class="topic">comments · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Comment. The type locality of P. carpi is “ gravel plain approximately 1 mile north of the Kuisib R. [Kuiseb River] at Gobabeb, Central Namib Desert [ Erongo Region ], S. W. A. [ Namibia ] ” ( -23.5456 , 15.0400 ). Currently, no P. carpi can be found at this location. The closest location of current occurrence from Gobabeb, is 9 km to the northwest. Charles Brain’s son, Conrad Brain, who had attended the field trip, claims that they were a little lost that evening and likely the real type locality was more to the northwest, where the species currently occurs (Brain pers. comm. 2023). Here, we split “ P. carpi ” into two species. The topotypical population south of the Swakop River is assigned the name P. carpi sensu stricto , while P. sceletus sp. nov. is described from north of the Swakop River, below. We hereby restrict the range of P. carpi sensu stricto to between the Kuiseb and Swakop rivers. In light of this revision, the advertisement call of P. carpi sensu stricto has not been recorded or described before; Gramentz (2008) briefly described the call of P. sceletus sp. nov. (based on a single specimen collected north of the Swakop River) under the name “ P. carpi ”. Ptenopus carpi sensu stricto is the only member of this genus that lacks sexual dichromatism, with both sexes displaying a yellow gular patch (Fig. 20 E ). The observations of FB contradict the original description of P. carpi ( Brain 1962 ) in which females, collected in the month of May, apparently had no gular patch. Haacke (1975) , who collected P. carpi extensively from around the type locality, made observations corresponding with our own: That all P. carpi females possess a yellow gular patch. Haacke surmised that the presence of these patches on females may be seasonal. However, we have collected, photographed and observed multiple P. carpi sensu stricto females from across their range including the type locality and throughout the year (see Table S 1; many additional observed individuals not tabled) and have not observed any female P. carpi sensu stricto without a gular patch; nor have we observed a gular patch in any P. sceletus sp. nov. females. Since the gular patches fade shortly after specimen preservation (not mentioned by previous authors), we argue that Brain (1962) may have assumed that sexual dichromatism was present while describing the species based on the preserved specimens, and failed to notice the gular patches on the live females. Alternatively, the gular patch may be missing under rare circumstances, although under what circumstances we shall not surmise.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/3CDFB40878D25FF390CEBBA7D255FA8D#SECID0ELRFK">this account</a> <a href="https://treatment.plazi.org/id/3CDFB40878D25FF390CEBBA7D255FA8D">at Plazi</a></p>
+<p class="topic">Advertisement call · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Advertisement call. The advertisement call (Figs 3 , 20 I ) consists of 10 (9–12) notes uttered in slow succession, with a note rate of 2.25s - 1 (range 1.68–3.01). Note duration is short (26 ms [range 22–29]) and regular with note 1 duration deviance 12.8 % (range 5.5–24.8). The inter-note intervals are the longest of any species (560 ms [range 323–682]) and usually irregular, the inter-note interval range being the highest of any species (84 % [range 62–105]); intervals are longer at the start and sometimes end of the call, but notably shorter in the middle: The call starts slow, speeds up, and then sometimes slows again. Median call density is the lowest of all species (0.06 [range 0.05–0.08]) and call duration is very long ( 3.6s [range 3.3–3.8]). The basal frequency is 392 Hz (range 310–517) but very soft and usually inestimable, with harmonic bands louder towards the dominant frequencies, with the upper dominant frequency at 3.5 kHz (3.3–3.8) and a clear lower dominant frequency (sometimes more emphasised than the upper) around 1.4 kHz (1.1–1.9), less than half the upper dominant or frequency. Frequency appears to remain constant throughout the notes and call, as with the (human) perceived pitch, which is low and monotonous compared to most other species. The call is also notably softer than most other species. Bandwidth (90 %) is difficult to estimate consistently, but is broad: approximately 2–5 kHz. The call seems to vary more than other species, with calls sometimes having as few as one to three notes, especially late at night. Call period (mean 349 s) varies greatly, but is usually much lower than other species, and has not been recorded any faster than 2 min during peak chorus activity. This species does not chorus as notably as other species. Calling activity is crepuscular to nocturnal, calls starting well after sunset and often continuing throughout the night to some degree. One instance of a notable chorus was recorded near Walvis Bay airport on 19 April 2018 . Chorusing started abruptly at ~ 25 min after sunset, and lasted for about 20 minutes, with very reduced calling activity continuing later into the night. Calling appears to be somewhat seasonal with a peak around April to August, coinciding with lower fog incidence. Calling activity is more pronounced on warmer evenings but may continue despite cold, foggy conditions. As with other species, P. carpi calls from the burrow entrance, although it may also call (advertisement call) occasionally while roaming. This could not be observed directly, but a wandering gecko was often spotted in the area where a call was just heard. Having said that, wandering geckos are easier to spot than geckos in a burrow.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/3CDFB40878D25FF390CEBBA7D255FA8D#SECID0EY6FK">this account</a> <a href="https://treatment.plazi.org/id/3CDFB40878D25FF390CEBBA7D255FA8D">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/ptenopus/"><i>Ptenopus</i> <span class="n">71</span></a></li>
+<li><a href="/taxon/gekkonidae/"><span>Gekkonidae</span> <span class="n">665</span></a></li>
+<li><a href="/taxon/gekkota/"><span>Gekkota</span> <span class="n">324</span></a></li>
+<li><a href="/taxon/squamata/"><span>Squamata</span> <span class="n">1,307</span></a></li>
+<li><a href="/taxon/reptilia/"><span>Reptilia</span> <span class="n">1,542</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/ptenopus-garrulus/"><i>Ptenopus garrulus</i> <span class="n">32</span></a></li>
+<li><a href="/taxon/ptenopus-kochi/"><i>Ptenopus kochi</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/ptenopus-maculatus/"><i>Ptenopus maculatus</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/ptenopus-circumsyrticus/"><i>Ptenopus circumsyrticus</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/ptenopus-australis/"><i>Ptenopus australis</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/ptenopus-adamanteus/"><i>Ptenopus adamanteus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/ptenopus-kenkenses/"><i>Ptenopus kenkenses</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/ptenopus-sceletus/"><i>Ptenopus sceletus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Ptenopus carpi</i></td><td>Species</td><td>Gekkonidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Ptenopus carpi">Plazi/Ptenopus carpi</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/ptenopus-carpi/&quot;,
+  &quot;name&quot;: &quot;Ptenopus carpi&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/ptenopus-carpi/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4PT7B&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Ptenopus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/ptenopus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4PT7B</p>
+</div></footer>
+</body>
+</html>

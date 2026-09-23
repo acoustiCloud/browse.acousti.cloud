@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Neoponera</title>
+<meta name="description" content="Neoponera in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/neoponera/">
+<meta property="og:title" content="Bioacoustics of Neoponera">
+<meta property="og:description" content="Neoponera in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CMDMJ">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/neoponera/", "name": "Neoponera", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/neoponera/", "sameAs": "https://api.audioblast.org/taxon/CoL/CMDMJ", "parentTaxon": {"@type": "Taxon", "name": "Ponerini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/ponerini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hymenoptera", "item": "https://browse.acousti.cloud/taxon/hymenoptera/"}, {"@type": "ListItem", "position": 7, "name": "Apocrita", "item": "https://browse.acousti.cloud/taxon/apocrita/"}, {"@type": "ListItem", "position": 8, "name": "Aculeata", "item": "https://browse.acousti.cloud/taxon/aculeata/"}, {"@type": "ListItem", "position": 9, "name": "Formicoidea", "item": "https://browse.acousti.cloud/taxon/formicoidea/"}, {"@type": "ListItem", "position": 10, "name": "Formicidae", "item": "https://browse.acousti.cloud/taxon/formicidae/"}, {"@type": "ListItem", "position": 11, "name": "Ponerinae", "item": "https://browse.acousti.cloud/taxon/ponerinae/"}, {"@type": "ListItem", "position": 12, "name": "Ponerini", "item": "https://browse.acousti.cloud/taxon/ponerini/"}, {"@type": "ListItem", "position": 13, "name": "Neoponera", "item": "https://browse.acousti.cloud/taxon/neoponera/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hymenoptera/"><span class="rk">Order</span><span>Hymenoptera</span></a><span class="sep">›</span><a href="/taxon/apocrita/"><span class="rk">Suborder</span><span>Apocrita</span></a><span class="sep">›</span><a href="/taxon/aculeata/"><span class="rk">Infraorder</span><span>Aculeata</span></a><span class="sep">›</span><a href="/taxon/formicoidea/"><span class="rk">Superfamily</span><span>Formicoidea</span></a><span class="sep">›</span><a href="/taxon/formicidae/"><span class="rk">Family</span><span>Formicidae</span></a><span class="sep">›</span><a href="/taxon/ponerinae/"><span class="rk">Subfamily</span><span>Ponerinae</span></a><span class="sep">›</span><a href="/taxon/ponerini/"><span class="rk">Tribe</span><span>Ponerini</span></a></nav>
+<h1>Bioacoustics of <i>Neoponera</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">biology_ecology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Ecology and behavior. Neoponera is among the most behaviorally diverse of all ponerine genera. While relatively little is known about most members of the genus, certain species groups (especially the N. apicalis , N. laevigata , and N. villosa groups) have been heavily studied and have become model systems for studies of social and foraging behavior. Phylogenetic evidence suggests that the ancestral Neoponera was an epigeic generalist predator and scavenger that foraged on the ground (see discussion of phylogenetic relationships within Neoponera , below). This is still apparently the pattern followed by those Neoponera species formerly placed in Mesoponera (such as N. aenescens ; Longino, 2013 ), as well as members of the N. apicalis species group (see below). From this ancestral condition two major deviations occurred: the ancestor of the N. laevigata group became a specialized mass raider of termites, while the ancestor of most members of Neoponera ( s.s. ) took the unusual step among ponerines of becoming arboreal. Colonies of most Neoponera species are small, with typically fewer than 200 workers (e.g., N. carinulata , N. crenata , N. lineaticeps , and N. unidentata : Longino, 2013 ; N. apicalis species group: Fresneau, 1985 ; Fresneau &amp; Dupuy, 1988 ; Düssmann et al. , 1996 ; Gobin et al. , 2003a ; N. villosa species group: D’Ettorre et al. , 2006 ). Exceptions include N. goeldii , whose colonies can have at least 500 workers ( Denis et al. , 2007 ), the N. laevigata species group, which have colony sizes of up to at least 1,800 workers ( Leal &amp; Oliveira, 1995 ; Longino, 2013 ), and N. luteola , which reportedly has colonies with tens or hundreds of thousands of workers ( Yu &amp; Davidson, 1997 ). An interesting behavior observed in some Neoponera species is the collection of drops of water or honeydew between the mandibles ( e.g., in N. apicalis : Fresneau &amp; Dupuy, 1988 ). N. villosa workers collect drops of liquid between their mandibles and act as “social buckets” by distributing the liquid to their nestmates ( Déjean &amp; Corbara, 1990b ; Hölldobler &amp; Wilson, 1990 ; Paul &amp; Roces, 2003 ); some of the liquid may be used to control nest humidity ( Hölldobler &amp; Wilson, 1990 ). The ants use their mandibles as an external crop, to compensate for their lack of proper structures for internal liquid storage. Among those Neoponera species that are terrestrial generalist predators and scavengers, only the members of the N. apicalis species group ( N. apicalis , N obscuricornis , and N. verenae ) have been heavily studied, though they are behaviorally quite derived and should not necessarily be considered typical of terrestrial generalist Neoponera . The N. apicalis species group was revised by Wild (2005) , who provided a good summary of the habits of these species and noted that most published studies on N. obscuricornis actually involved N. verenae . Individual workers forage diurnally among leaf litter or on low vegetation for live and dead insects , vertebrate carcasses, fruit, and nectar sources, and look and behave similarly to pompilid wasps ( Fresneau, 1985 ; Fresneau &amp; Dupuy, 1988 ; Wild, 2002 ; Sujii et al. , 2004 ; Longino, 2013 ). The foraging behavior of N. apicalis was studied in detail by Fresneau (1985) , and modeled by Goss et al. (1989) . Computer scientists have used models of N. apicalis foraging behavior to develop highly efficient search algorithms for complex problems in computer science ( e.g. Monmarché et al. , 2000 ; Wang &amp; Ip, 2005 ; Admane et al. , 2006 ; Luh &amp; Lin, 2008 ). Duelli &amp; Duelli-Klein (1976) found that workers of P. verenae can navigate using patterns of polarization of sunlight. Members of the N. apicalis species group construct small nests in rotting wood or soil ( Traniello &amp; Hölldobler, 1984 ; Fresneau &amp; Dupuy, 1988 ; Pezon et al. , 2005 ; Wild, 2002 , 2005 ). Colonies emigrate frequently to new nest sites via tandem running ( Fresneau, 1985 ; Pezon et al. , 2005 ), which is mediated by a pheromone produced in the pygidial gland (studied in N. verenae : Traniello &amp; Hölldobler, 1984 ). The reproductive and social behaviors of the N. apicalis group have been extensively studied. Colonies are facultatively polygynous ( N. apicalis : Fresneau &amp; Dupuy, 1988 ; N. verenae : Traniello &amp; Hölldobler, 1984 ) and may include intercaste queens which both mate and lay eggs ( N. verenae : Düssman et al. , 1996 ). Workers apparently are unable to mate and in queenright colonies will usually only lay trophic eggs (queens largely suppress worker reproduction), but in queenless nests workers will lay haploid eggs (Düssman et al. , 1996; Dietemann &amp; Peeters, 2000 ). Workers form dominance hierarchies in both queenright and queenless colonies, with the highest ranked individuals dominating the egg laying ( Oliveira &amp; Hölldobler, 1990 , 1991 ; Düssman et al. , 1996; Gobin et al. , 2003a ). Gobin et al. (2003a) found that such dominance interactions impose a significant energetic cost on the colony. Ovarian development in N. verenae workers and queens is related to their social status ( Fresneau, 1984 ). The division of labor among N. apicalis workers is similar to that of most ants , with the exception that queens engage in colony work to an unusually high degree ( Fresneau &amp; Dupuy, 1988 ). Several studies have examined the structure and secretions of glands in members of the N. apicalis species group, including the labial glands ( N. verenae : Lommelen et al. , 2002 , 2003 ), Dufour’s and venom glands ( N. apicalis : Schmidt et al. , 1984 ; Lopez &amp; Morgan, 1997 ; N. verenae : Morgan et al. , 2003 ), metapleural gland ( Hölldobler &amp; Engel-Siegel, 1994 ), postpharyngeal gland and cuticular hydrocarbons ( N. apicalis Soroker et al. , 1998 , 2003 ; Hefetz et al. , 2001 ), and mandibular gland ( N. verenae : Morgan et al. , 1999 ). Giovannotti (1996) and Pavan et al. (1997) studied the structure and acoustics of the stridulatory organ in N. apicalis . Species related to N. apicalis were used to explore the role of acoustics in the speciation process. Ferreira et al. (2010) found that what had been considered to be a single species actually consisted of several distinct but cryptic species. A close examination of the stridulatory organ, both morphologically and acoustically, revealed that each of the identified morphs within “ N. apicalis ” possessed a distinct morphology and that all sympatric morphs made distinctive sounds. The differentiation observed in the stridulatory organs were the result of both worker size and intrinsic features of the organ and the distinct acoustic signals produced were the result of differences in both organ morphology and the behaviour of the ants . Ferreira et al. (2010) also found that divergence in acoustic signals only occurred among sympatric morphs and that in cases where morphs were allopatric their signals were similar. They conclude that the acoustic signals may be the result of inter-specific competitive interactions and that this character system is a useful tool in identifying and diagnosing complexes of closely related species. Excepting the N. apicalis group, most species of Neoponera ( s.s. ) are arboreal, nesting in dead branches, stem internodes, among epiphytes, or in other suitable microhabitats in trees, and primarily foraging arboreally ( e.g., N. crenata : Wild, 2002 ; Longino, 2013 ; N. foetida , N. lineaticeps , N. striatinodis , N. theresiae , N. unidentata : Longino, 2013 ; N. goeldii : see below; N. luteola : Davidson &amp; Fisher , 1991 ; Yu &amp; Davidson, 1997 ; N. villosa : Déjean, 1990 ; Heinze et al. , 1996 ; Déjean &amp; Olmsted, 1997 ; Trunzer et al. , 1999 ; Wild, 2002 ; D’Ettorre &amp; Heinze, 2005 ; Longino, 2013 ; multiple species frequently collected in trees: Morini et al. , 2006 ). In at least some cases, the relationships between arboreal Neoponera species and their host trees seem to be mutualistic, with the ants effectively defending their hosts from herbivores and the ants in return receiving nest sites and food from extrafloral nectaries and Müllerian bodies ( e.g., N. luteola in Cecropia sp. : Davidson &amp; Fisher , 1991 ; Yu &amp; Davidson, 1997 ; N. villosa in various host species: Déjean &amp; Corbara, 1990a ; Déjean et al. , 1992 ; Longino, 2013 ). N. goeldii is an interesting arboreal species which colonizes disturbed areas, encourages the growth of certain epiphytes, and then nests in the resulting ant-gardens ( Orivel &amp; Déjean, 1999 ; Marini, 1999 ; Déjean et al. , 2000 ; Orivel &amp; Déjean, 2000 ; Denis et al. , 2006a ). A single monogynous colony will occupy several such gardens, clustered within a small area ( Denis et al. , 2006a ). Workers occupying queenless nests form dominance hierarchies and have increased ovarian activity relative to those in queenright nests ( Denis et al. , 2006b , 2008). As with most or all Neoponera , workers of N. goeldii lack spermathecae and can only lay haploid eggs ( Denis et al. , 2007 ). Worker reproductive status is conveyed by their cuticular hydrocarbon profile ( Denis et al. , 2006b ). N. goeldii workers are aggressive toward members of other colonies ( Denis et al. , 2006b ). The hunting strategies employed by N. goeldii (a generalist predator) were reported by Orivel et al. (2000). Orivel et al. (2001) discovered that the venom of N. goeldii contains a suite of novel anti-bacterial and anti-insecticidal compounds, which they named “ponericins.” Orivel &amp; Déjean (2001) measured the toxicity of venom from several Neoponera species and found that their venom tended to be much more potent than that of measured Mayaponera , Brachyponera , Pseudoponera , Bothroponera , and Pachycondyla species. Their study suffered from a lack of phylogenetic consideration (they treated all tested species as congeners in Pachycondyla , with no underlying phylogeny), but they hypothesized that the high venom toxicity of some Neoponera species is an adaptation to hunting prey in an arboreal environment. Their hypothesis may very well be correct, but a phylogenetically-corrected analysis of their data would likely lack the power to find statistical significance. The most thoroughly studied arboreal Neoponera species are N. villosa and its close relative N. inversa ( Lucas et al. , 2002 ) , whose social behaviors have attracted a great deal of attention. Colonies of N. villosa and N. inversa are often co-founded by multiple queens, who organize themselves into dominance hierarchies and stay together even after the first workers eclose, in a rare example of stable primary polygyny ( Trunzer et al. , 1998 ; Kolmer &amp; Heinze, 2000 ; Tentschert et al. , 2001 ; Kolmer et al. , 2002 ; D’Ettorre et al. , 2005). In such polygynous colonies, subordinate queens forage and dominant queens stay in the nest and guard the brood, though they all lay eggs at the same rate. Queens of these species are unusual in that they often (or usually) mate with more than one male ( Kolmer et al. , 2002 ; Kellner et al. , 2007 ). Colonies of N. villosa have from one to five queens, with two-queen colonies being the most common and the most stable ( Trunzer et al. , 1998 ; D’Ettorre et al. , 2005), while single queen colonies are most common in N. inversa ( D’Ettorre et al. , 2006 ) . Queens can distinguish between individual nestmate queens using chemical cues, and at least in N. inversa can remember them for at least 24 hours ( D’Ettorre &amp; Heinze, 2005 ; Dreier et al. , 2007 ). Queens of N. inversa suppress worker reproduction, as workers separated from the queens will begin to lay eggs ( van Zweden et al. , 2007 ). Workers police each other through aggression and by eating worker-derived eggs, which have a distinct chemical profile from queen-derived eggs ( Heinze et al. , 1996 ; D’Ettorre et al. , 2004a, 2006; van Zweden et al. , 2007 ). Some workers seem to be behaviorally specialized for policing ( van Zweden et al. , 2007 ). Workers of a species near N. inversa lack spermathecae and do not mate , but in orphaned colonies will form linear dominance hierarchies and begin laying haploid eggs ( Heinze et al. , 2002 ). Similarly, workers in orphaned colonies of N. villosa aggressively compete through biting and antennal boxing, forming linear dominance hierarchies in which dominant individuals lay eggs ( Heinze et al. , 1996 ; Trunzer et al. , 1999 ). Workers in N. villosa can also lay trophic eggs ( Mathias &amp; Caetano, 1995a ). The fertility and rank of both queens and workers is communicated by their cuticular hydrocarbon profiles ( Tentschert et al. , 2001 ; Heinze et al. , 2003; D’Ettorre et al. , 2004b). The role of cuticular hydrocarbons in nestmate recognition has been studied in N. villosa ( Lucas et al. , 2004 ) . Foraging workers of N. villosa exhibit great flexibility in predatory behaviors depending on the type and status of prey encountered (Déjean et al. , 1990; Déjean &amp; Corbara, 1990a , 1998). Morphological and ultrastructural studies have examined N. villosa larval fat body cells ( Zara et al. , 2003 ), larvae ( Zara &amp; Caetano, 2001 ), oocytes ( Mathias &amp; Caetano, 1998 ; Caperucci &amp; Mathias, 2006 ), corpora alata ( Mathias &amp; Caetano, 1995b ), ovarioles ( Mathias &amp; Caetano, 1996 ), and mandibular glands ( Duffield &amp; Blum, 1973 ; Mathias et al. , 1991 ). Trindl et al. (2004) isolated several microsatellite loci for N. inversa . The three Neoponera species formerly placed in the genus Termitopone ( N. commutata , N. laevigata and N. marginata ) are mass-raiding termite specialists. The prey preferences of these species correlate with their body size, as N. commutata (which is far larger than the other two species) preys exclusively on the very large termites of the genus Syntermes , while N. laevigata and N. marginata prey on a variety of smaller termites ( Wheeler, 1936 ; Mill, 1984 ). Wheeler (1936) reported that workers of N. laevigata and N. marginata are dimorphic for size, but Longino (2013) states that workers of N. laevigata in Costa Rica are continuously polymorphic. Raids by N. marginata occur infrequently (every two to three weeks) and may last for over 24 hours ( Leal &amp; Oliveira, 1995 ; Hölldobler et al. , 1996a ), and though the number of workers employed in raids of this species is unreported, raiding parties of N. laevigata contain hundreds of workers ( Wheeler, 1936 ). N. marginata raids termite nests, while N. commutata raids only surface columns of Syntermes ( Mill, 1984 ) . Raids are often, but not always, initiated by scouts who locate potential prey and then return to their nest to recruit nestmates ( Mill, 1982a , 1984). Colonies of N. marginata contain roughly 500 to 1,600 workers and usually multiple dealate queens ( Leal &amp; Oliveira, 1995 ; Hölldobler et al. , 1996a ), and colonies of N. laevigata are reported to be of roughly similar size ( Longino, 2013 ). Nests are constructed in the ground under logs or leaf litter ( Wheeler, 1936 ; Hölldobler &amp; Traniello, 1980 ; Mill, 1984 ), and emigrations are infrequent, occurring on average every 150 days in N. marginata ( Leal &amp; Oliveira, 1995 ) . In N. marginata , emigrations to new nest sites are initiated by scouts who recruit nestmates with a trail pheromone from their pygidial gland ( Hölldobler &amp; Traniello, 1980 ; Hölldobler et al. , 1996a ). Recruitment rates are enhanced by a rapid shaking motion of the body by the scouts or other workers ( Hölldobler, 1999 ; Hölldobler et al. , 1996a ). Trail pheromones from the pygidial gland are also used during raids ( Hölldobler et al. , 1996a ). Mill (1982b) described in detail an emigration by N. commutata . Blum (1966) reported that the hindgut was the source of trail pheromones in N. laevigata . Workers of N. marginata have specialized magnetic organs in their bodies (especially in their antennae) which provide them with a sense of direction and help orient them during emigrations ( Acosta-Avalos et al. , 1999 , 2001 ; Wajnberg et al. , 2000 ; Esquivel et al. , 2004 ; Wajnberg et al. , 2004 ). Colony reproduction in N. marginata occurs by budding or by either haplometrotic or (more commonly) pleiometrotic foundation ( Leal &amp; Oliveira, 1995 ). Phylogenetic and taxonomic considerations. Neoponera has had a fairly complex taxonomic history. Emery (1901) erected the genus to hold those New World “ Pachycondyla ” species with preocular carinae and eyes located laterally near the midline of the head. Subsequent authors continued to treat Neoponera as a distinct genus until Brown (1973 ; also in Bolton , 1994 ) synonymized it under Pachycondyla without justification. Forel (1901b) erected the subgenus Eumecopone to hold two species (now N. agilis and N. rostrata ) which differ from typical Neoponera in having extremely long mandibles ( Emery, 1911 ). Wheeler (1936) created a new genus, Termitopone , in which he placed three termitophagous species (now N. commutata , N. laevigata , and N. marginata ). Wheeler also erected a monotypic subgenus of Termitopone , Syntermitopone , for N. commutata ; Borgmeier (1959) later made Syntermitopone a junior synonym of Termitopone . Brown (1973) eventually synonymized Eumecopone , Termitopone , and Syntermitopone under Pachycondyla along with Neoponera and several other ponerine genera. Based on strong molecular and morphological evidence, we are reviving Neoponera as a distinct genus, retaining Eumecopone as its junior synonym, designating Termitopone and Syntermitopone as new junior synonyms, and combining within it several “ Pachycondyla ” species formerly considered members of Mesoponera . Schmidt&#x27;s (2013) molecular phylogeny of the Ponerinae lends strong support to a clade consisting of (among sampled species) the type species of Neoponera , N. villosa , three other species traditionally placed in Neoponera ( N. apicalis , N. carinulata , and N. unidentata ), two members of the former genus Termitopone ( N. commutata and N. marginata ), and two species formerly considered Mesoponera ( N. aenescens and N. fauveli ). This clade is inferred to be sister to Dinoponera plus Pachycondyla , but the split between Neoponera and these other genera is old enough, and the morphological and behavioral differences significant enough, to warrant separate generic status. Morphological evidence also supports the new synonymizations and combinations described above. Neoponera as defined here is characterized by several apomorphies: moderately large eyes which are located laterally at or near the midline of the head, prominent arolia, and a stridulitrum on the pretergite of A4. Members of Neoponera ( s.s. ) are also characterized by the presence of distinct preocular carinae ( N. commutata also has preocular carinae, though these were apparently independently evolved). Neoponera ( s.s. ) forms one half of the basal split in the genus, with “ Termitopone ” and the “ Mesoponera ” species forming the other half (at least among species sampled by Schmidt (2013)) . All of these taxa are very closely related, however, and a separate genus is not justified for the “ Termitopone / Mesoponera ” clade. Though Schmidt (2013) did not sample either “ Eumecopone ” species in his molecular phylogeny, their morphological traits strongly suggest that they are simply Neoponera with unusually long mandibles.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03775906A6EF2CB7FF17FB121192F88A#C3C4BB9BA6ED2CB7FF47FBD91192F88A">this account</a> <a href="https://treatment.plazi.org/id/03775906A6EF2CB7FF17FB121192F88A">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/ponerini/"><span>Ponerini</span> <span class="n">12</span></a></li>
+<li><a href="/taxon/ponerinae/"><span>Ponerinae</span> <span class="n">12</span></a></li>
+<li><a href="/taxon/formicidae/"><span>Formicidae</span> <span class="n">117</span></a></li>
+<li><a href="/taxon/formicoidea/"><span>Formicoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/aculeata/"><span>Aculeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/apocrita/"><span>Apocrita</span> <span class="n">1,381</span></a></li>
+<li><a href="/taxon/hymenoptera/"><span>Hymenoptera</span> <span class="n">1,589</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/neoponera-apicalis/"><i>Neoponera apicalis</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/leptogenys/"><i>Leptogenys</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/megaponera/"><i>Megaponera</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/pseudoneoponera/"><i>Pseudoneoponera</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/dinoponera/"><i>Dinoponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pachycondyla/"><i>Pachycondyla</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/phrynoponera/"><i>Phrynoponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/plectroctena/"><i>Plectroctena</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/psalidomyrmex/"><i>Psalidomyrmex</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/streblognathus/"><i>Streblognathus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/austroponera/"><i>Austroponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/bothroponera/"><i>Bothroponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/euponera/"><i>Euponera</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/rasopone/"><i>Rasopone</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Neoponera</i></td><td>Genus</td><td>Formicidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Neoponera">Plazi/Neoponera</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/neoponera/&quot;,
+  &quot;name&quot;: &quot;Neoponera&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/neoponera/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CMDMJ&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Ponerini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/ponerini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CMDMJ</p>
+</div></footer>
+</body>
+</html>

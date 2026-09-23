@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Chiasmocleis jacki</title>
+<meta name="description" content="Chiasmocleis jacki in audioBlast: 9 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/chiasmocleis-jacki/">
+<meta property="og:title" content="Bioacoustics of Chiasmocleis jacki">
+<meta property="og:description" content="Chiasmocleis jacki in audioBlast: 9 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/MWZHQ">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/chiasmocleis-jacki/", "name": "Chiasmocleis jacki", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/chiasmocleis-jacki/", "sameAs": "https://api.audioblast.org/taxon/CoL/MWZHQ", "parentTaxon": {"@type": "Taxon", "name": "Chiasmocleis", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/chiasmocleis/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Microhylidae", "item": "https://browse.acousti.cloud/taxon/microhylidae/"}, {"@type": "ListItem", "position": 11, "name": "Gastrophryninae", "item": "https://browse.acousti.cloud/taxon/gastrophryninae/"}, {"@type": "ListItem", "position": 12, "name": "Chiasmocleis", "item": "https://browse.acousti.cloud/taxon/chiasmocleis/"}, {"@type": "ListItem", "position": 13, "name": "Chiasmocleis jacki", "item": "https://browse.acousti.cloud/taxon/chiasmocleis-jacki/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/microhylidae/"><span class="rk">Family</span><span>Microhylidae</span></a><span class="sep">›</span><a href="/taxon/gastrophryninae/"><span class="rk">Subfamily</span><span>Gastrophryninae</span></a><span class="sep">›</span><a href="/taxon/chiasmocleis/"><span class="rk">Genus</span><i>Chiasmocleis</i></a></nav>
+<h1>Bioacoustics of <i>Chiasmocleis jacki</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>9</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">etymology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Etymology. The specific epithet, a patronym formed as a noun in the genitive case, refers to Jack Dalton, the second tallest brother of the Dalton gang, the outlaw characters of Morris and Goscinny comic books Lucky Luke, reminding the different in size of the four species of Chiasmocleis co-occurring in the Guiana Shield, the new species being intermediary in body size. Definition. The new species is characterized by the following unique combination of characters: SVL small, mean SVL in adult males 15.4 mm (range 14.8–16.3 mm , n = 5) and mean SVL in adult females 18.8 mm (range 19.2–20.2 mm , n = 4) ( Table 1 ); body ovoid, robust; head much narrower than body, snout rounded in dorsal and lateral views; four distinctive fingers; Fingers I , II and III fringed proximally, particularly Finger III; fingers not webbed; FI developed but small with a rounded or slightly pointed tip, subarticular tubercle large two tubercules on FIII and FIV and only one on FI and II; rounded or slightly pointed and slightly swollen tips of FIII and IV; adpressed FI reaches the base of subarticular tubercle of FII; adpressed FIV reaches the base of distal tubercle of FIII; thenar and palmar tubercle present in all individuals; relative finger lengths I&lt;II&lt;IV&lt;III. Upper surface of arms with brick-coloured blotches in life, grey in preservative. Dorsolateral stripes enlarging posteriorly and illdefined dorsally. Eyes with a copper iris. Five distinctive toes, first very small; toes slightly fringed except Toe V and distally on FIV, more pronounced proximally on TI–III; toes not webbed; TI with without subarticular tubercle; adpressed TI does not reach subarticular tubercle of TII; adpressed TV does not reach or reaches only the middle of the middle subarticular tubercle of TIV; TII–IV with terminal discs. Thigh with ventral surface dark brown with blueish speckles in life, whitish in preservative. Some males with few small dermal spines on chin. Advertisement call with 7–8 notes, intercall silences 0.14 s and dominant frequency 3.84 kHz ( Fig. 3 ). Morphological comparisons with other Chiasmocleis . Phylogenetically the new species is part of the Chiasmocleis hudsoni species group, as defined by Peloso et al . (2014) . We focus our comparisons to the known species in the group. Chiasmocleis jacki is most similar to C. haddadi and C. hudsoni , three species that co-occur in the Guiana Shield, for which we provide more detailed comparisons. Chiasmocleis jacki sp. nov. can mainly be distinguished from its closest relative C. haddadi (in parentheses) by its larger body size (SVL range = 14.8–16.3 mm vs. 12.9–14.7 in males; 18.5–20.2 mm vs. 17.2 in the female); dorsolateral stripes ill-defined dorsally (well defined); smaller eyes (7.4–8.9 % vs. 8.9–9.7% of SVL) ( Fig. 6 ); its advertisement call with shorter calls (0.09 vs 0.32s ), longer silences among calls (0.14 vs 0.06 s ) and lower dominant frequency (3.84 vs 4.57 kHz) ( Fig. 3 ). Chiasmocleis jacki sp. nov. can mainly be distinguished from C. hudsoni (in parentheses) by its dorsolateral stripes ill-defined dorsally (absent or poorly defined); upper surface of arms with brick-coloured blotches sometimes entirely brick coloured (dark brown sometimes with clear speckles); ventral surface of thigh with blueish speckles cream in preservative over a dark brown background (no speckles and light brown background in preservative to orange in life); an advertisement call with more notes (7–8 vs 5 notes), longer silences among calls (0.14 vs 0.013 s ) and lower dominant frequency (3.84 vs 4.94 kHz). Chiasmocleis jacki differs from C. antenori , C. carvalhoi , C. magnova , C. parkeri C. tridactyla in having four fully developed fingers, although FI is small (FI not evident externally in C. antenori , C. carvalhoi , C. tridactyla ; FI and FIV much reduced in C. parkeri ; FVI much reduced in C. magnova ) and by its reticulated ventral colour pattern (dark with scattered light spots in C. antenori , C. magnova and C. parkeri ; beige with white spots or blotches in C. carvalhoi ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03E887FBFFB5FF922CA9F26AFAB5C21C#C35B6566FFB5FF912CF9F0D7FEEFC0F0">this account</a> <a href="https://treatment.plazi.org/id/03E887FBFFB5FF922CA9F26AFAB5C21C">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description of the holotype . An adult male, SVL 15.9 mm . Body ovoid, relatively robust. Head wider than long (1.2X), much narrower than body trunk; nostrils not protuberant, positioned anterolaterally, directed laterally; snout rounded in dorsal and in lateral views; canthus rostralis indistinct; interorbital region flat. Eyes small; tympanum not visible; pupil round; supratympanic fold indistinct. Tongue large, elongate, with free lateral and posterior edges, extended beyond the extent of the jaw; vocal slits present, one on each side of the tongue; choanae small, rounded, widely separated, anterior to eye; vomerine teeth absent. Vocal sac not externally evident, many small white dermal spines on the chin. Arms slender, FI reduced, FII, FIII, and FIV well developed; tips of FII and FIII rounded and of FI and FIV slightly pointed; no webbing between fingers; Fingers I, II and III fringed proximally, particularly Finger III; relative finger lengths I&lt;II&lt;IV&lt;III. Subarticular tubercles well developed on all fingers; one subarticular tubercle on FI and FII, two on FIII and FIV; no supernumerary tubercles; thenar tubercle present, rounded; palmar (metacarpal) tubercle divided, not prominent. No dermal spines visible on arms, hands, or fingers. Legs short (combined THL, TBL, and FL 1.7 X the SVL), relatively robust, lacking tubercles, tibial and tarsal ridges; toes not webbed; TI weakly developed (tip fails to reach subarticular tubercle on TII); relative toe lengths I&lt;II&lt;V&lt;III&lt;IV; toes slightly fringed except Toe V and distally on FIV, more pronounced proximally on TI–III; toe tips rounded with small discs on all except TI. Inner metatarsal tubercle present. Subarticular tubercles present on all toes except TI; no outer metatarsal tubercle; toes without dermal spines. Skin smooth dorsally and ventrally. Colour of holotype in life. Dorsum uniform dark brown or mostly dark brown with a few scattered small white dots. Poorly defined dorsolateral stripes clearer than dorsum enlarging posteriorly; canthus rostralis and border of eyelid yellowish-cream. Upper surface of arms brick-coloured with brown blotches; upper surface of legs from thighs to feet reddish-brown with dark brown vermiculations; eye iris copper; throat, chest, ventral sides of flanks and ventral surfaces of limbs dark brown with blueish coloured speckles denser on the belly and forming a marbled pattern. Colour of holotype in preservative. After seven years in 70 % ethanol, colours of the specimen faded, dorsum became brown, arms became light brown and ventral speckles became cream coloured; the throat appears darker than the other ventral surface ( Fig. 5 ). Variation in the type series. Proportions vary little among the types . Males are smaller than females ( 14.8–16.3 mm vs. 18.5–20.2). Dermal spines on the throat can be completely absent. Dorsal coulour pattern varies little except the number and position of the small white dots and the extent of brick colouration on the arms. Ventral colouration varies extensively from large blotches to a dense marbled pattern ( Fig. 6 ). Advertisement call. A single specimen calling from the under the leaf litter was recorded from about 2 m away at air temperatures between 23‒25°C and 90‒100% relative humidity. Descriptive statistics of call parameters are presented in Table 2 . Chiasmocleis jacki emits series of short calls of 7–8 pulsed notes. These calls last 0.092 s on average (range 0.078 –0.105 ) between silence lasting 0.138 s on average (range 0.109 –0.166 s). The notes are very short and fused (note length mean = 0.010 s ; range 0.009 –0.011 s). These notes are emitted with an upward and then downward amplitude within the call. The dominant frequency is 3.84 kHz on average (range 3.82–3.86 kHz) ( Fig. 3 , Table 2 ). CL (s) SC (s) NL (s) SL (s) NN DF (kHz) C. haddadi (n=6) 0.320 0.060 0.015 0.035 6.8 4.573 Min 0.259 0.046 0.013 0.031 6.0 4.167 Max 0.353 0.091 0.019 0.040 7.3 4.748 C. aff. haddadi (n=1) 0.093 0.138 0.01 0 7.5 3.845 C. hudsoni (n=4) 0.083 0.013 0.011 0.007 5.0 4.943 Min 0.077 0.009 0.008 0.005 5.0 4.829 Max 0.093 0.018 0.014 0.012 5.0 5.127 Natural history and distribution. Chiasmocleis jacki is found in terra firme primary forest and seemingly calls far from any water body. An imago (AF2880 Mitaraka) has been found nearby the unique calling male (not collected) observed so far, but other imagos have been found (AF2595—St Eugene) at considerable distance from water as well as nearby water (Saut Richard). Moreover, gravid females with large sized eggs have been examined. Its sister species, C. haddadi , lays large terrestrial eggs that hatch nearby the water that the exotrophic tadpoles reach after hatching, which is similar to what has been observed in C. hudsoni ( Lima et al . 2006 ; pers. obs. in FG). We therefore suspect that its mode of development is endotrophic, like several closely related species in western Amazonia such as C. antenori ( Krugel &amp; Richter 1995 ) . This species is only known from a few localities east of the Approuague river, French Guiana (Savane Virginie, Noussiri, Armontabo, Alikéné, Mont Bakra, Roche Dachine, Trois Saut) and in Amapá , Brazil (Lourenço, Porto Grande, Rio Vila Nova) but also in Saül, in the Mitaraka massif and in the northern half of French Guiana as far as Saint-Eugène ( Fig. 1 ). It is probably more widely distributed in the interior of the Guianas region but most likely remains endemic to the easternmost part of the Guiana region. It probably coexists in syntopy with C. haddadi since their ranges overlap at least in central French Guiana, although they have not yet been observed in syntopy.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03E887FBFFB5FF922CA9F26AFAB5C21C#C35B6566FFBAFF922CF9F2BDFAB5C21C">this account</a> <a href="https://treatment.plazi.org/id/03E887FBFFB5FF922CA9F26AFAB5C21C">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">9 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">XC928986 Chiasmocleis jacki</div><div class="d">42 s</div><div class="m">
+<span>Augustin Bussac</span>
+<span>2024-05-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=928986">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/928986">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC928984 Chiasmocleis jacki</div><div class="d">38 s</div><div class="m">
+<span>Augustin Bussac</span>
+<span>2024-01-21</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=928984">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/928984">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC952408 Chiasmocleis jacki</div><div class="d">27 s</div><div class="m">
+<span>Arnaud Aury</span>
+<span>2024-05-28</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=952408">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/952408">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC928986 Chiasmocleis jacki</div><div class="d">42 s</div><div class="m">
+<span>Augustin Bussac</span>
+<span>2024-05-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=928986">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/928986">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC928984 Chiasmocleis jacki</div><div class="d">38 s</div><div class="m">
+<span>Augustin Bussac</span>
+<span>2024-01-21</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=928984">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/928984">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC952408 Chiasmocleis jacki</div><div class="d">27 s</div><div class="m">
+<span>Arnaud Aury</span>
+<span>2024-05-28</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=952408">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/952408">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC928986 Chiasmocleis jacki</div><div class="d">42 s</div><div class="m">
+<span>Augustin Bussac</span>
+<span>2024-05-15</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=928986">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/928986">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC928984 Chiasmocleis jacki</div><div class="d">38 s</div><div class="m">
+<span>Augustin Bussac</span>
+<span>2024-01-21</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=928984">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/928984">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC952408 Chiasmocleis jacki</div><div class="d">27 s</div><div class="m">
+<span>Arnaud Aury</span>
+<span>2024-05-28</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=952408">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/952408">record</a></span>
+</div></div>
+</div>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/chiasmocleis/"><i>Chiasmocleis</i> <span class="n">83</span></a></li>
+<li><a href="/taxon/gastrophryninae/"><span>Gastrophryninae</span> <span class="n">4,258</span></a></li>
+<li><a href="/taxon/microhylidae/"><span>Microhylidae</span> <span class="n">6,621</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/chiasmocleis-avilapiresae/"><i>Chiasmocleis avilapiresae</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/chiasmocleis-bassleri/"><i>Chiasmocleis bassleri</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/chiasmocleis-hudsoni/"><i>Chiasmocleis hudsoni</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/chiasmocleis-shudikarensis/"><i>Chiasmocleis shudikarensis</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/chiasmocleis-haddadi/"><i>Chiasmocleis haddadi</i> <span class="n">33</span></a></li>
+<li><a href="/taxon/chiasmocleis-leucosticta/"><i>Chiasmocleis leucosticta</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/chiasmocleis-supercilialba/"><i>Chiasmocleis supercilialba</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Chiasmocleis jacki</i></td><td>Species</td><td>Microhylidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Chiasmocleis jacki">Plazi/Chiasmocleis jacki</a></td></tr>
+<tr><td><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></td><td><i>Chiasmocleis jacki</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/xeno-canto/Chiasmocleis jacki">xeno-canto/Chiasmocleis jacki</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/chiasmocleis-jacki/&quot;,
+  &quot;name&quot;: &quot;Chiasmocleis jacki&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/chiasmocleis-jacki/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/MWZHQ&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Chiasmocleis&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/chiasmocleis/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/MWZHQ</p>
+</div></footer>
+</body>
+</html>

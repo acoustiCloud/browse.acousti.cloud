@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Salka</title>
+<meta name="description" content="Salka in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/salka/">
+<meta property="og:title" content="Bioacoustics of Salka">
+<meta property="og:description" content="Salka in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/8HFV4">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/salka/", "name": "Salka", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/salka/", "sameAs": "https://api.audioblast.org/taxon/CoL/8HFV4", "parentTaxon": {"@type": "Taxon", "name": "Erythroneurini", "taxonRank": "tribe", "url": "https://browse.acousti.cloud/taxon/erythroneurini/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Hemiptera", "item": "https://browse.acousti.cloud/taxon/hemiptera/"}, {"@type": "ListItem", "position": 7, "name": "Auchenorrhyncha", "item": "https://browse.acousti.cloud/taxon/auchenorrhyncha/"}, {"@type": "ListItem", "position": 8, "name": "Cicadomorpha", "item": "https://browse.acousti.cloud/taxon/cicadomorpha/"}, {"@type": "ListItem", "position": 9, "name": "Clypeata", "item": "https://browse.acousti.cloud/taxon/clypeata/"}, {"@type": "ListItem", "position": 10, "name": "Membracoidea", "item": "https://browse.acousti.cloud/taxon/membracoidea/"}, {"@type": "ListItem", "position": 11, "name": "Cicadellidae", "item": "https://browse.acousti.cloud/taxon/cicadellidae/"}, {"@type": "ListItem", "position": 12, "name": "Typhlocybinae", "item": "https://browse.acousti.cloud/taxon/typhlocybinae/"}, {"@type": "ListItem", "position": 13, "name": "Erythroneurini", "item": "https://browse.acousti.cloud/taxon/erythroneurini/"}, {"@type": "ListItem", "position": 14, "name": "Salka", "item": "https://browse.acousti.cloud/taxon/salka/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/hemiptera/"><span class="rk">Order</span><span>Hemiptera</span></a><span class="sep">›</span><a href="/taxon/auchenorrhyncha/"><span class="rk">Suborder</span><span>Auchenorrhyncha</span></a><span class="sep">›</span><a href="/taxon/cicadomorpha/"><span class="rk">Infraorder</span><span>Cicadomorpha</span></a><span class="sep">›</span><a href="/taxon/clypeata/"><span class="rk">Parvorder</span><span>Clypeata</span></a><span class="sep">›</span><a href="/taxon/membracoidea/"><span class="rk">Superfamily</span><span>Membracoidea</span></a><span class="sep">›</span><a href="/taxon/cicadellidae/"><span class="rk">Family</span><span>Cicadellidae</span></a><span class="sep">›</span><a href="/taxon/typhlocybinae/"><span class="rk">Subfamily</span><span>Typhlocybinae</span></a><span class="sep">›</span><a href="/taxon/erythroneurini/"><span class="rk">Tribe</span><span>Erythroneurini</span></a></nav>
+<h1>Bioacoustics of <i>Salka</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Species checklist of Salka from China S . abbotta Chiang &amp; Knight, 1990: 229 , Fig. 22. China ( Taiwan) S . acicula Song &amp; Li, 2016: 227 , Figs 1–7 . China ( Hainan ) S . addonica Chiang &amp; Knight, 1990: 231 , Fig. 23. China ( Taiwan) S . aequilonga Lin &amp; Zhang sp. nov. Figs 1q–t , 7 . China ( Zhejiang ) S . arenaria Sohi &amp; Mann, 1994: 32 , Figs 1–8 . China ( Taiwan) S . armata Dworakowska, 1976: 42 , Figs 295–303; Sohi &amp; Mann, 1994:33 . China ( Taiwan) S . asna Dworakowska, 1976: 42 , Figs 283–294; Sohi &amp; Mann, 1994:33 . China ( Taiwan) S . belanda Sohi &amp; Mann, 1994: 33 , Figs 9 –18. China ( Taiwan) S . cambera Song &amp; Li, 2016: 449 , Figs 8 –15. China ( Henan ) S . canara Sohi &amp; Mann, 1994:34 , Figs 19–30. China ( Taiwan) S . cerviprocessa Song &amp; Li, 2012: 51 , Figs 1–8 . China ( Guizhou ) S . congjianga Song &amp; Li, 2012: 52 , Figs 9 –18. China ( Guizhou ) S . crassiprocessa Zhang, Yang &amp; Huang, 2009:25 , Figs 1 –11, 71–72. China ( Yunnan ) S . decorata Dworakowska, 2010: 48 , Figs 1 –10. China ( Taiwan) S . delphiura Lin &amp; Zhang sp. nov. Figs 1a–d , 3 . China ( Hunan ) S . diacora Chiang &amp; Knight, 1990: 232 , Fig. 24. China ( Taiwan) S . diaoluoensis Zhang, Yang &amp; Huang, 2009: 29 , Figs 27–32, 77–78. China ( Hainan ) S . dipteriga Lin &amp; Zhang sp. nov. Figs 1e–h , 4 . China ( Hunan ) S . extrela Chiang &amp; Knight, 1990: 234 , Fig. 25. China ( Taiwan) S . fanjinga Song &amp; Li, 2012: 52 , Figs 19–25. China ( Guizhou ) S . fujiwara Chiang &amp; Knight, 1990: 235 , Fig. 26. China ( Taiwan) S . gaza Dworakowska, 2010: 53 , Figs 53–63. China ( Taiwan) S . guilinensis Song &amp; Li, 2012: 55 , Figs 26–33. China ( Guangxi ) S . gviazdka Dworakowska, 2010: 49 , Figs 11–20. China ( Taiwan) S . hadija Sohi &amp; Mann, 1994: 36 , Figs 49–57. China ( Taiwan) S . jaga Sohi &amp; Mann, 1994: 36 , Figs 58–65. China ( Taiwan) S . jianfengensis Zhang, Yang &amp; Huang, 2009: 29 , Figs 21–26, 75–76, 89. China ( Hainan ) S . jiangshiensis Zhang, Yang &amp; Huang, 2009: 33 , Figs 47–53, 83–84. China ( Fujian ) S . kerzhneri Dworakowska, 2006 China ( Yunnan ); Vietnam S . lamella Zhang, Yang &amp; Huang, 2009: 26 , Figs 12–20, 73–74. China ( Yunnan ) S . lamellipenia Lin &amp; Zhang sp. nov. Figs 1i–l , 5 . China ( Hunan ) S . limboserrata Lin &amp; Zhang sp. nov. Figs 1m –p , 6 . China ( Hunan ) S . lobata Dworakowska, 1976: 42 , Figs 304–311. China ( Taiwan) S . longihamata Zhang, Yang &amp; Huang, 2009: 36 , Figs 54–61, 85–86. China ( Yunnan ) S . longipenia Lin &amp; Zhang sp. nov. Figs 1u–x , 8 . China ( Guangxi ) S . longiprocessa Zhang, Yang &amp; Huang, 2009: 33 , Figs 39–46, 81–82. China ( Yunnan ) S . mamiya Dworakowska, 2010: 52 , Figs 42–52. China ( Taiwan) S . musica Sohi &amp; Mann, 1994: 40 , Figs 85–94. China ( Taiwan) S . nangongensis Zhang, Yang &amp; Huang, 2009: 29 , Figs 33–38, 79–80. China ( Yunnan ) S . nigricans ( Matsumura, 1932 ) : 114; Chiang &amp; Knight, 1990: 236 , Fig. 27. China ( Taiwan) S . opta Dworakowska, 2010: 55 , Figs 75–87. China ( Taiwan) S . qusa Dworakowska, 2010: 56 , Figs 88–98. China ( Taiwan) S . remanei Dworakowska, 2010: 50 , Figs 21–31. China ( Taiwan) S . rubronigra Sohi &amp; Mann, 1994: 44 , Figs 120–130. China ( Taiwan) S . singularis Zhang, Yang &amp; Huang, 2009: 36 , Figs 62–70, 87–88, 90. China ( Yunnan ) S . sinica Sohi &amp; Mann, 1994: 46 , Figs 139–147. China ( Hubei , Chongqing , Zhejiang , Fujian , Jiangxi , Guangdong , Taiwan , Guangxi, Yunnan, Guizhou) S . songae Song &amp; Li, 2012: 56 , Figs 34–41. China ( Yunnan ) S . taopenna Lin &amp; Zhang sp. nov. Figs 2a–d , 9 . China ( Hunan ) S . taoyuanensis Song &amp; Li, 2012: 56 , Figs 42–48. China ( Taiwan) S . triangula Chiang &amp; Knight, 1990: 239 , Fig. 28. China ( Taiwan) S . triprocessa Song &amp; Li, 2012: 58 , Figs 49–57. China ( Taiwan) S . wiejska Dworakowska, 2010: 51 , Figs 32–41. China ( Taiwan) S . xepima Sohi &amp; Mann, 1994: 49 , Figs 158–167. China ( Taiwan) S . yeroboa Dworakowska, 2010: 54 , Figs 64–74. China ( Taiwan) S . yvona Dworakowska, 2010: 57 , Figs 99–109. China ( Taiwan) S . zoza Sohi &amp; Mann, 1994: 50 , Figs 168–177. China ( Taiwan) Key to species of the genus Salka from China (males)</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/BA25878AFFA82C35FF5AC79EDD8F635B#7A966517FFA92C34FF5AC3DFDB3865E5">this account</a> <a href="https://treatment.plazi.org/id/BA25878AFFA82C35FF5AC79EDD8F635B">at Plazi</a></p>
+<p class="topic">key · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>1. Pygofer lobe with dorsal appendage only ( Figs 3a, c 1 , c 2 , 4a, c , 6a, c , 9a, c )....................................... 2 - Pygofer lobe with dorsal and ventral appendage ( Figs 5a, c , 7a, c, d , 8a, c )....................................... 21 2. Aedeagal shaft with paired apical processes ( Figs 3g , h )....................................................... 3 - Aedeagal shaft without paired apical processes ( Figs 4g , h , 6g , h , 9g , h )......................................... 11 3. Aedeagal shaft with basal process on ventral side............................................................ 4 - Aedeagal shaft without basal process on ventral side ( Figs 3g , h )................................................ 5 4. Aedeagus with 1 preatrium process.................................................... S. congjianga Song &amp; Li - Aedeagus with pair of preatrium processes.................................. S . longiprocessa Zhang, Yang &amp; Huang 5. Aedeagus with pair of serrated lamellae subapically................................. S . lamella Zhang, Yang &amp; Huang - Aedeagus without serrated lamellae subapically ( Figs 3g , h )................................................... 6 6. Aedeagus with apical processes more than 1/2 length of shaft ( Figs 3g , h )........................................ 7 - Aedeagal shaft with apical processes short, spinelike........................................ S . fanjinga Song &amp; Li 7. Aedeagal apical processes bifurcated medially or subapically.................................................. 8 - Aedeagal apical processes not bifurcated ( Figs 3g , h )......................................................... 9 8. Aedeagal apical processes bifurcated subapically......................................... S . guilinensis Song &amp; Li - Aedeagal apical processes bifurcated medially.......................................... S . kerzhneri Dworakowska 9. Aedeagal dorsal apodeme slim and stick-like ( Figs 3g , h )..................................................... 10 - Aedeagal dorsal apodeme broad............................................ S . nangongensis Zhang, Yang &amp; Huang 10. Pygofer dorsal appendage with apex not bifurcated............................ S . crassiprocessa Zhang, Yang &amp; Huang - Pygofer dorsal appendage with apex bifurcated ( Figs 3g , h )......................... S . delphiura Lin &amp; Zhang sp. nov. 11. Aedeagal shaft with basal process on ventral side........................................................... 12 - Aedeagal shaft without basal process on ventral side ( Figs 4g , h , 6g , h , 9g , h )..................................... 13 12. Aedeagal preatrium process not bifurcated...................................... S . singularis Zhang, Yang &amp; Huang - Aedeagal preatrium process bifurcated............................................... S . cerviprocessa Song &amp; Li 13. Aedeagal shaft without processes........................................................................ 14 - Aedeagal shaft with processes ( Figs 4g , h , 6g , h , 9g , h )...................................................... 15 14. Aedeagal shaft with lateral margins serrated distally in ventral view............... S . longihamata Zhang, Yang &amp; Huang - Aedeagal shaft with lateral margins smoothed distally in ventral view............................ S . songae Song &amp; Li 15. Aedeagal shaft with 1 process below apex ( Figs 9g , h )....................................................... 16 - Aedeagal shaft with 1 pair of processes below apex ( Figs 4g , h , 6g , h ).......................................... 17 16. Aedeagal shaft with 1 basal process on dorsal side.......................................... S . cambera Song &amp; Li - Aedeagal shaft with 1 subapical process on dorsal side ( Figs 9g , h ).................... S . taopenna Lin &amp; Zhang sp. nov. 17. Aedeagal shaft with processes basally..................................................... S . zoza Sohi &amp; Mann - Aedeagal shaft with processes medially or subapically ( Figs 4g , h , 6g , h )........................................ 18 18. Aedeagal shaft processes with both margins serrated ( Figs 6g , h )............................................... 19 - Aedeagal shaft processes with both margins smooth ( Figs 4g , h )............................................... 20 19. Aedeagus with preatrium process ( Figs 6g , h ).................................. S . limboserrata Lin &amp; Zhang sp. nov. - Aedeagus without preatrium process................................................... S . belanda Sohi &amp; Mann 20. Aedeagal shaft with processes slim......................................... S . diaoluoensis Zhang, Yang &amp; Huang - Aedeagal shaft with processes broad ( Figs 4g , h ).................................. S . dipteriga Lin &amp; Zhang sp. nov. 21. Aedeagus with preatrium process........................................................................ 22 - Aedeagus without preatrium process ( Figs 5g , h , 7h, i , 8g , h ).................................................. 23 22. Pygofer ventral appendage with apex exceeding hind margin of pygofer lobe..................... S . sinica Sohi &amp; Mann - Pygofer ventral appendage with apex not exceeding hind margin of pygofer lobe................... S . opta Dworakowska 23. Aedeagal shaft with basal process....................................................................... 24 - Aedeagal shaft without basal process ( Figs 5g , h , 7h, i , 8g , h )................................................. 28 24. Aedeagal shaft with 1 basal process................................................. S . diacora Chiang &amp; Knight - Aedeagal shaft with 1 pair of basal processes.............................................................. 25 25. Aedeagal shaft with paired basal and apical processes.................................... S . taoyuanensis Song &amp; Li - Aedeagal shaft with paired basal processes only............................................................ 26 26. Style with 3 apical teeth.............................................................. S . musica Sohi &amp; Mann - Style with 2 apical teeth............................................................................... 27 27. Subgenital plate with 1 lamelliform process on inner margin..................... S . jiangshiensis Zhang, Yang &amp; Huang - Subgenital plate without process on inner margin........................................... S . hadija Sohi &amp; Mann 28. Aedeagal shaft without apical process ( Figs 5g , h , 7h, i , 8g , h )................................................. 29 - Aedeagal shaft with apical process....................................................................... 37 29. Aedeagal shaft with process medially or subapically......................................................... 30 - Aedeagal shaft without processes subapically ( Figs 5g , h , 7h, i , 8g , h )........................................... 33 30. Aedeagal shaft with 1 process subapically............................................ S . fujiwara Chiang &amp; Knight - Aedeagal shaft with 1 pair of processes medially or subapically................................................ 31 31. Aedeagal shaft with processes subapically............................................. S . extrela Chiang &amp; Knight - Aedeagal shaft with processes medially................................................................... 32 32. Aedeagal shaft with 1 pair of triangular processes near middle................................ S . xepima Sohi &amp; Mann - Aedeagal shaft with 1 pair of finger-like processes near middle................................. S . acicula Song &amp; Li 33. Pygofer dorsal appendage expanded medially on dorsal side............................ S . addonica Chiang &amp; Knight - Pygofer dorsal appendage not expanded medially on dorsal side ( Figs 5a, c , 7a, c , 8a, c )............................ 34 34. Aedeagal shaft curved in lateral view ( Figs 5g , h , 7h, i )...................................................... 35 - Aedeagal shaft almost straight in lateral view ( Figs 8g , h ).................................................... 36 35. Aedeagus with preatrium developed ( Figs 5g , h )................................ S . lamellipenia Lin &amp; Zhang sp. nov. - Aedeagus with preatrium rudimentary ( Figs 7h, i )............................... S . aequilonga Lin &amp; Zhang sp. nov. 36. Aedeagal shaft exceeding hind margin of pygofer lobe ( Figs 8g , h )................... S . longipenia Lin &amp; Zhang sp. nov. - Aedeagal shaft not exceeding hind margin of pygofer lobe.................................. S . arenaria Sohi &amp; Mann 37. Aedeagal shaft with 1 or 3 apical processes................................................................ 38 - Aedeagal shaft with 1 pair of apical processes.............................................................. 43 38. Aedeagal shaft with 3 apical processes................................................................... 39 - Aedeagal shaft with 1 apical process..................................................................... 40 39. Pygofer ventral appendage with apex exceeding hind margin of pygofer lobe................... S . triprocessa Song &amp; Li - Pygofer ventral appendage with apex not exceeding hind margin of pygofer lobe.................. S . qusa Dworakowska 40. Pygofer ventral appendage with apex not exceeding hind margin of pygofer lobe................. S . lobata Dworakowska - Pygofer ventral appendage with apex exceeding hind margin of pygofer lobe..................................... 41 41. Pygofer ventral appendage with apex distinctly exceeding hind margin of pygofer lobe............................. 42 - Pygofer ventral appendage with apex slightly exceeding hind margin of pygofer lobe............ S . yeroboa Dworakowska 42. Aedeagal shaft with 1 process subapically............................................... S . remanei Dworakowska - Aedeagal shaft without process subapically............................................ S . abbotta Chiang &amp; Knight 43. Aedeagal shaft with asymmetrical apical processes.......................................................... 44 - Aedeagal shaft with symmetrical apical processes.......................................................... 49 44. Aedeagal shaft processes close to shaft............................................... S . rubronigra Sohi &amp; Mann - Aedeagal shaft processes not close to shaft................................................................ 45 45. Aedeagal shaft with longer process bifurcated.............................................................. 46 - Aedeagal shaft with longer process not bifurcated........................................................... 47 46. Aedeagal shaft with shorter process not bifurcated........................................... S . jaga Sohi &amp; Mann , - Aedeagal shaft with shorter process bifurcated............................................. S . gaza Dworakowska 47. Aedeagal shaft with ventral margin serrated............................................ S . gviazdka Dworakowska - Aedeagal shaft with ventral margin smooth................................................................ 48 48. Aedeagal shaft with apical process robust............................................... S . wiejska Dworakowska - Aedeagal shaft with apical process slim............................................. S . triangula Chiang &amp; Knight 49. Aedeagal shaft with angulated subapical process on dorsal side................................ S . asna Dworakowska - Aedeagal shaft without subapical process on dorsal side...................................................... 50 50. Aedeagal shaft with lateral margins serrated near middle in ventral view........................ S . canara Sohi &amp; Mann - Aedeagal shaft with lateral margins not serrated near middle in ventral view...................................... 51 51. Apical processes longer than or almost equal to 1/2 length of aedeagal shaft...................................... 52 - Apical processes shorter than 1/2 length of aedeagal shaft.................................................... 53 52. Apical processes longer than 1/2 length of aedeagal shaft........................ S . jianfengensis Zhang, Yang &amp; Huang - Apical processes almost equal to 1/2 length of aedeagal shaft.............................. S . decorata Dworakowska 53. Aedeagal shaft bent dorsad at right angle near midlength................................... S . armata Dworakowska - Aedeagal shaft only slightly and gradually curved dorsad or sinuate............................................ 54 54. Aedeagal shaft without asymmetrical angulate processes near middle........................................... 55 - Aedeagal shaft with asymmetrical angulate processeses near middle.......................... S . mamiya Dworakowska 55. Pygofer ventral appendage with apex exceeding hind margin of pygofer lobe.................... S . yvona Dworakowska - Pygofer ventral appendage with apex not exceeding hind margin of pygofer lobe................ S . nigricans (Matsumura)</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/BA25878AFFA82C35FF5AC79EDD8F635B#7A966517FFAC2C35FF5AC1F9DD8F635B">this account</a> <a href="https://treatment.plazi.org/id/BA25878AFFA82C35FF5AC79EDD8F635B">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/erythroneurini/"><span>Erythroneurini</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/typhlocybinae/"><span>Typhlocybinae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadellidae/"><span>Cicadellidae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/membracoidea/"><span>Membracoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/clypeata/"><span>Clypeata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/cicadomorpha/"><span>Cicadomorpha</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/auchenorrhyncha/"><span>Auchenorrhyncha</span> <span class="n">60,410</span></a></li>
+<li><a href="/taxon/hemiptera/"><span>Hemiptera</span> <span class="n">72,144</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<ul>
+<li><a href="/taxon/salka-cerviprocessa/"><i>Salka cerviprocessa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/salka-songae/"><i>Salka songae</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/salka-acicula/"><i>Salka acicula</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/alnetoidia/"><i>Alnetoidia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kapsa/"><i>Kapsa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/mitjaevia/"><i>Mitjaevia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/singapora/"><i>Singapora</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/tautoneura/"><i>Tautoneura</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/elbelus/"><i>Elbelus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/gambialoa/"><i>Gambialoa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/hepneriana/"><i>Hepneriana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/kaukania/"><i>Kaukania</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/matsumurina/"><i>Matsumurina</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/parathaia/"><i>Parathaia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pseudothaia/"><i>Pseudothaia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/qadria/"><i>Qadria</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/seriana/"><i>Seriana</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/thaia/"><i>Thaia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/thapaia/"><i>Thapaia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/ziczacella/"><i>Ziczacella</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/dentaneura/"><i>Dentaneura</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/etmaria/"><i>Etmaria</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/arboridia/"><i>Arboridia</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/shibinga/"><i>Shibinga</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/pseudothaia-caudata/"><i>Pseudothaia caudata</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/diomma/"><i>Diomma</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/guizhoura/"><i>Guizhoura</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Salka</i></td><td>Genus</td><td>Cicadellidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Salka">Plazi/Salka</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/salka/&quot;,
+  &quot;name&quot;: &quot;Salka&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/salka/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/8HFV4&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Erythroneurini&quot;,
+    &quot;taxonRank&quot;: &quot;tribe&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/erythroneurini/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/8HFV4</p>
+</div></footer>
+</body>
+</html>

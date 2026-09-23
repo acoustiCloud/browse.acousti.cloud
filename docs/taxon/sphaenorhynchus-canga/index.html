@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Sphaenorhynchus canga</title>
+<meta name="description" content="Sphaenorhynchus canga in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/sphaenorhynchus-canga/">
+<meta property="og:title" content="Bioacoustics of Sphaenorhynchus canga">
+<meta property="og:description" content="Sphaenorhynchus canga in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4YKZR">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/sphaenorhynchus-canga/", "name": "Sphaenorhynchus canga", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/sphaenorhynchus-canga/", "sameAs": "https://api.audioblast.org/taxon/CoL/4YKZR", "parentTaxon": {"@type": "Taxon", "name": "Sphaenorhynchus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/sphaenorhynchus/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Hylidae", "item": "https://browse.acousti.cloud/taxon/hylidae/"}, {"@type": "ListItem", "position": 11, "name": "Sphaenorhynchus", "item": "https://browse.acousti.cloud/taxon/sphaenorhynchus/"}, {"@type": "ListItem", "position": 12, "name": "Sphaenorhynchus canga", "item": "https://browse.acousti.cloud/taxon/sphaenorhynchus-canga/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/hylidae/"><span class="rk">Family</span><span>Hylidae</span></a><span class="sep">›</span><a href="/taxon/sphaenorhynchus/"><span class="rk">Genus</span><i>Sphaenorhynchus</i></a></nav>
+<h1>Bioacoustics of <i>Sphaenorhynchus canga</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Remarks. Males of Sphaenorhynchus canga sp. nov. distinguish from those of S. orophilus by the robustness of the forearm (more robust forearm in S. orophilus ). This character is related to the degree of development of the m. flexor carpi radialis in terms of volume and width of its origin (Faivovich 2002). This muscle shows various degrees of development in some breeding males of Scinax , from a rectangular, almost flat, strip to a broad-based, triangular, and thick, bulbous belly (Faivovich 2002). Although the taxonomic distribution of this character in Sphaenorhynchus is unknown, the difference between S. canga sp. nov. (slender forearm) and S. orophilus (more robust forearm) is sufficient to differ them (see Fig. 4 ). Similar character states have been used by Faivovich (2005) to differentiate males of Scinax aromothyella from those of S. berthae . The acoustic parameters of the advertisement call of the new species (call duration of 0.008– 1.23 s; 1–9 notes, note duration of 0.005– 0.020 s, interval between notes of 0.05– 0.23 s, and dominant frequency of 2067.2–4550.0 Hz) are similar to those of Sphaenorhynchus orophilus (call duration of 0.30–2.33, 2–12 notes, note duration of 0.01– 0.03 s, interval between notes of 0.16– 0.27 s dominant frequency of 1609–2700 Hz; Heyer et al. 1990 ; Toledo et al. 2014 ). Nevertheless, the call type II (territorial/aggressive call) of S. canga sp. nov. is different from that of S. orophilus (call duration of 0.25 s and 20–25 notes or pulses; Heyer et al. 1990 ) by its longer duration and lower number of notes and pulses (call duration of 0.66– 1.02 s, 3–6 notes, with 1–13 pulses). This kind of call was also reported for S. palustris (call duration of 0.47– 0.83 s, 4–6 notes, interval between notes of 0.048– 0.17 s, and two kinds of notes; see Lacerda &amp; Moura 2013 ), and it is similar to the pattern described for the new species (call duration of 0.66– 1.02 s, 3–6 notes, interval between notes of 0.14– 0.23 s, and two kinds of notes).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/4C74C25DD01AFFBA11C2FE0AFB21BE9F#8CC720C0D015FFB91192FB8FFB2BBA84">this account</a> <a href="https://treatment.plazi.org/id/4C74C25DD01AFFBA11C2FE0AFB21BE9F">at Plazi</a></p>
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. The new species can be diagnosed by the following set of characters: (1) SVL 26.2–30.2 mm in males; (2) tympanic membrane absent; (3) snout protruding in profile; (4) vocal sac single, subgular, moderately developed, extending to the middle of the pectoral region, with longitudinal folds; (5) canthal white line present; (6) dorsolateral white line from the eye to sacral region; (7) dorsolateral black line from the tip of snout extending beyond the eye to gradually disappearing up to the flanks; (8) slender forearm in males; (9) ulnar fold absent or when present poorly developed and/or slightly crenulated; (10) glandular subcloacal dermal fold; (11) vomerine teeth present; (12) premaxilla and maxilla almost completely edentulous, each bearing 1–5 extremely small teeth; (13) tadpole with a medium-sized spiracle (SL 25–29% of BL); (14) presence of large marginal papillae (about twice the size of the small ones), arranged together or alternating with the small papillae; and (15) advertisement call (0.008– 1.23 s of duration), composed of 1–9 pulsed notes, each with duration of 0.005– 0.020 s. Comparison with other species. The SVL (26.2–30.2) distinguishes males of Sphaenorhynchus canga sp. nov. from those of S. carneus (15.1–19.8; Duellman 1974 ), S. mirim (15.7–18.2; Caramaschi et al. 2009), S. pauloalvini (17.9–22.2, 19.7 ± 1.5, n = 22), and S. planicola (19.1–24.1, 21.2 ± 1.4, n = 22). The absence of tympanic membrane differentiates the new species from S. lacteus and S. pauloalvini (tympanic membrane present; Fig. 3 B). The protruding snout in lateral view separates S. canga sp. nov. from S. pauloalvini and S. planicola (truncated in lateral view). A moderately developed vocal sac, extending approximately to the middle of the pectoral region differentiates males of S. canga sp. nov. from those of S. prasinus (less developed, reaching the anterior region of pectoral region), S. mirim and S. planicola (well developed, extending laterally and toward the posterior pectoral region). Additionally, the vocal sac of the new species is characterized by the presence of longitudinal lateral folds, which are absent in S. botocudo , S. mirim , S. pauloalvini , and S. prasinus . The presence of a dorsolateral black line from the tip of snout extending beyond the eye to gradually disappearing up to the flanks clearly separates Sphaenorhynchus canga sp. nov. from S. dorisae and S. mirim (absent), S. lacteus and S. prasinus (only canthal black line), S. botocudo (from the tip of snout to the sacral region, but with a depression in the middle of the flanks; see also Fig. 3 in Caramaschi et al. 2009), and S. bromelicola (from the tip of snout to the sacral region, but reddish pigmented; Bokermann 1966 ). The presence of canthal/ dorsolateral white lines delimited below by a dorsolateral black line differentiates the new species from S. dorisae , S. mirim , S. pauloalvini and S. planicola (absent in these species). Ulnar fold absent or when present poorly developed and/or slightly crenulated distinguishes the new species from Sphaenorhynchus dorisae , S. lacteus , S. mirim , S. planicola and S. prasinus (well developed and smooth ulnar dermal fold). Also, the lack of dermal appendages on elbow and heel separates the new species from S. dorisae (dermal fold on elbow and triangular calcar appendage), and S. mirim , S. planicola and S. prasinus (dermal fold on elbow and round calcar appendage). The presence of a glandular dermal fold on the subcloacal region differentiates S. canga sp. nov. from S. carneus and S. pauloalvini (absent), S. dorisae (dermal flap with triangular lateral margins), and S. lacteus , S. mirim , S. planicola and S. prasinus (dermal flap with round lateral margins). The presence of vomerine teeth distinguishes Sphaenorhynchus canga sp. nov. from S. carneus (absent in this species). In addition, the new species distinguishes from S. carneus , S. dorisae , S. mirim and S. planicola by the presence of premaxillary and maxillary teeth (absent in these species). Otherwise, a premaxilla and maxilla almost completely edentulous, each bearing 1–5 extremely small teeth differentiates the new species from S. botocudo , S. bromelicola , S. caramaschii , S. lacteus , S. palustris , S. prasinus , and S. surdus (premaxilla and maxilla, each bearing at least ten teeth). The new species is also distinguished from the others species of the genus by some larval characteristics. External morphological characters that distinguish tadpoles of Sphaenorhynchus canga sp. nov. are also presented in the Table 1. Sphaenorhynchus canga sp. nov. is promptly separated from S. caramaschii , S. carneus , S. dorisae , S. lacteus , S. pauloalvini , S. planicola , and S. prasinus (short spiracle; Lynch &amp; Suárez-Mayorga 2011 ; Araujo- Vieira et al . 2015), and S. palustris (extreme long spiracle; Nunes et al. 2007 ; Araujo-Vieira et al . 2015 ) by having a medium-sized spiracle (SL 25–29% of BL; see also Araujo-Vieira et al . 2015 ). The A-2 gap is larger in S. canga sp. nov. ( Fig. 8 D), whereas it is smaller (equivalent to A-2 lateral segment) in S. carneus , S. dorisae , S. palustris , S. pauloalvini , S. planicola , and S. prasinus ( Suárez-Mayorga &amp; Lynch 2001 ) . It differs from S. palustris by having A-2 larger than A-1 (A-1&gt; A- 2 in S. palustris ); S. bromelicola by having P-1 slightly larger than P-2, (P-1 = P- 2 in S. bromelicola ); S. dorisae by the absence of posterior gap in marginal papillae (present in S. dorisae ; Suárez- Mayorga &amp; Lynch 2001 ); and S. carneus by having the labial tooth row formula 2(2)/3(1) [1/2-3(1) in S. carneus ; Suárez-Mayorga &amp; Lynch 2001 ]. The presence of longitudinal dark stripes on the tail musculature distinguishes the new species from Sphaenorhynchus dorisae , S. lacteus , S. planicola and S. prasinus (absent in these species), S. carneus (on the medial muscle line), and S. pauloalvini (on the ventral muscle margin). Tadpoles of S. canga sp. nov. also differ from those of S. bromelicola , S. dorisae , S. pauloalvini , and S. surdus (small and homogeneously sized marginal papillae; see also Suárez-Mayorga &amp; Lynch 2001 ; Lynch &amp; Suárez-Mayorga 2011 ; Caramaschi 2010 ; Araujo- Vieira et al . 2015), by having larger marginal papillae (at least about twice the size of the smaller papillae) arranged together or alternating with the smaller ones in the oral disc. The advertisement call of Sphaenorhynchus canga sp. nov. further differentiates it from that of S. caramaschii (call duration of 5.23– 11.0 s , 22–43 notes/call, and note duration of 0.037– 0.07 s; Toledo et al. 2007; Toledo et al. 2014 ) by its shorter duration, lower number of notes/call, and shorter note duration (call duration of 0.008– 1.23 s, 1–9 notes/call, and note duration of 0.005– 0.020 s); S. mirim (9–25 pulses/note; Lacerda et al. 2011 ) by its lower number of pulses/note (1–5 pulses/note); S. pauloalvini and S. prasinus (interval between notes of 0.01– 0.02 s in S. pauloalvini , and 0.014– 0.018 s in S. prasinus ; Toledo et al. 2014 ) by its larger interval between notes (0.05– 0.23 s); and S. planicola (note duration of 0.08– 0.17 s, and interval between notes of 0.24 s ; Toledo et al. 2014 ) by its shorter note duration and shorter interval between notes (note duration of 0.005– 0.020 s, and interval between notes of 0.05– 0.23 s). The new species can be differentiated from the holotype of Sphaenorhynchus platycephalus (SVL 33.0 mm; holotype IZUW 90; female) by the presence of subcloacal ornamentation; and vomerine, premaxillary and maxillary teeth, all of which S. platycephalus lacks ( Harding 1991 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/4C74C25DD01AFFBA11C2FE0AFB21BE9F#8CC720C0D01AFFB01192F88AFC46BE26">this account</a> <a href="https://treatment.plazi.org/id/4C74C25DD01AFFBA11C2FE0AFB21BE9F">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Measurements of the holotype (mm). SVL 27.0; HL 7.9; HW 7.4; IND 1.8; IOD 3.4; ED 2.3; END 2.6; HAL 8.8; THL 12.4; TL 12.3; FL 12.5; 3FD 0.9; 4TD 0.9. Variation in the type series. The variation is related to males, since that we did not collect females. Snout shape varies between rounded, truncated and slightly mucronated in dorsal view. Ulnar folds are absent, when present are poorly developed, and/or slightly crenulated. Dermal ornamentations on the outer surface of tarsus vary from small tubercles arranged in line to a slightly crenulated dermal fold. The glandular subcloacal dermal fold varies from discrete to evident. In most individuals, the dark line from the snout extends to the sacral region, in some individuals ends in the middle of the flanks. Dorsal pigmentation varies in intensity and coverage of the dark blotches, from totally uniform green to a strongly brownish blotched dorsum ( Fig. 6 B–D). Some individuals present a second dorsolateral dark line that is above the white line and extends from the posterior corner of eye to the groin ( Fig. 6 B). A white longitudinal blotch under the eye is present in most of individuals ( Fig. 6 B and D). Subgular region varies from finely and conspicuously dark spotted. Measurements of the type series ( n = 25, mean ± standard error, range into parenthesis). SVL 28.1 ± 1.1 (26.2–30.2); HL 7.9 ± 0.4 (6.8–8.5); HW 8.3 ± 0.5 (7.4–9.3); IND 1.9 ± 0.1 (1.7–2.2); IOD 3.6 ± 0.3 (3.0–4.3); ED 2.6 ± 0.2 (2.2–3.7); END 2.6 ± 0.2 (2.2–3.0); HAL 8.7 ± 0.4 (7.9–9.2; n = 20); THL 12.9 ± 1.0 (11.2–15.3); TL 13.2 ± 1.0 (10.4–15.2); FL 12.8 ± 0.5 (11.6–14.0; n = 21); 3FD 1.1 ± 0.1 (0.9–1.3; n = 24); 4TD 1.1 ± 0.1 (0.8–1.3). Call . Air temperature during recordings: 24–25°C. A total of 119 calls emitted by six males were recorded. We recognized two different call types : type I and type II. The call type I corresponds to the advertisement call [ Fig. 7 A–B; n = 6 males (UFMG-A 7192, 7194, 7205; 7207–7209); n = 116 calls], which consist of 1–9 pulsed notes (2.05 ± 1.43; n = 116 calls) with duration of 0.008– 1.23 s (0.20 ± 0.25; n = 116 calls), the interval between calls is 2.74– 20.19 s (8.47 ± 3.79; n = 107 intervals). Note duration is 0.005– 0.020 s (0.010 ± 0.003; n = 237 notes) and the interval between notes is 0.05– 0.23 s (0.16 ± 0.02; n = 119 intervals). The notes contain 1–5 pulses (2.5 ± 0.8; n = 190 notes), which with duration of 0.001– 0.017 s (0.004 ± 0.002; n = 467 pulses); pulse rate of 58.8–444.4 pulses/s (247.0 ± 73.8; n = 190 notes). A total of 47 notes are composed by compacted pulses, for which is difficult to count the number of pulses per note. The dominant frequency is 2067.2–4550.0 Hz (2841.7 ± 537.9; n = 237 notes). A first note with smaller amplitude and dominant frequency of 1550.4–2584.0 Hz (2080.0±371; n = 14 notes) are sometimes at the beginning of the call ( Fig. 7 A). The call type II is probably a territorial/aggressive call ( Wells 2007 ), and apparently is given before the advertisement call. The call type II [ Fig. 7 C–D; n = 1 male (UFMG-A 7192); n = 3 calls] consists of 3–6 pulsed notes (4.33 ± 1.25; n = 3 calls) with duration of 0.66– 1.02 s (0.83 ± 0.14; n = 3 calls); the interval between notes is 0.14– 0.23 s (0.18 ± 0.03; n = 10 intervals). The call type II contains two different kinds of notes: the first note is longer (0.19– 0.20 s; 0.19 ± 0.004; n = 3 notes) with 13 pulses, each with duration of 0.004– 0.011 s (0.006 ± 0.001; n = 39 pulses); pulse rate of 64.7–68.1 pulses/s (65.9 ± 1.5; n = 3 notes), and interval between pulses of 0.002– 0.037 s (0.009 ± 0.007; n = 37 intervals). The dominant frequency of the first note is 2584.0 Hz ( n = 3 notes). The following notes (from second to sixth notes) have durations of 0.005– 0.009 s (0.008 ± 0.001; n = 10 notes) with 1– 2 pulses (1.8 ± 0.4; n = 10 notes), each with duration of 0.003– 0.006 s (0.004 ± 0.001; n = 16 pulses); pulse rate of 111.1–333.3 pulses/s (229.3 ± 60.5; n = 10 notes). The dominant frequency is 1722.7–2584.0 Hz (2446.2 ± 264.6; n =10 notes). Tadpole description. Body depressed (BH/BW = 0.73–0.97), ovoid, or elongated elliptical in dorsal view, triangular/depressed in lateral view, from 0.31 to 0.35 times the TL ( Fig. 8 A–C). Snout rounded in dorsal (BWN/ BWE = 0.59–0.66), and lateral views. Eyes medium-sized (ED/BL = 0.18–0.24), laterally located (IOD/BWE = 1.00), visible in ventral view. Nostrils elliptical, medium-sized (ND/BL = 0.035–0.047) laterally located, anterolaterally directed, nearer the tip of snout than to eyes (NSD/ESD = 0.41–0.48); well-developed fleshy flanges on the marginal rim (valved nostrils sensu Cruz 1973 ; Araujo-Vieira et al. 2015 ). Spiracle sinistral, lateral (SDEH/ BH = 0.48–0.68), posterodorsally directed, medium-sized (SL/BL = 0.25–0.29), opening on the end of posterior third of the body (SED/BL = 0.91–1.0); centripetal wall longer than the external wall. Intestinal tube circularly coiled, positioned at a right angle to the longitudinal body axis, with the switchback point dislocated from the center of abdominal region. Vent tube medial, posteroventraly directed, short, entirely fused to the ventral fin, positioned above the inferior margin of the ventral fin; ventral and dorsal walls of the same length. Oral disc smallsized (ODW/BW = 0.23–0.30, measured with oral disc folded), anteroventrally positioned, not emarginated; a single row of elongated and short intercalated marginal papillae (large papillae about twice larger than the small papillae) with a wide anterior gap; few (1–3) submarginal papillae randomly distributed laterally in the oral disc ( Fig. 8 D); LTRF 2(2)/3(1); A-2 with a wide gap (approximately equivalent to three times the lateral segment of A- 2) and slightly larger than A-1, P-1 slightly larger than P-2, which is larger than P-3; jaw sheaths narrow, finely serrated on the margins, anterior jaw sheath M-shaped and posterior jaw sheath V-shaped, posterior jaw-sheath wider than anterior. Tail of intermediate height (MTH/TAL = 0.28–0.34) with a slightly robust musculature (TMH/ BH = 0.49–0.60); dorsal fin higher than ventral fin, or of the same height (DFH/VFH = 0.84–1.00); tail tip acute. Dorsal and ventral fins of intermediate height (DFH/TAL = 0.08–0.11; VFH/TAL = 0.07–0.09), with slightly convex free margins; dorsal fin emerging on the posterior third of the body at a median slope; maximum height at the middle third of the tail. Ventral fin origin concealed by the vent tube. The lateral line is distinct in life and in preserved specimens. All the lines present transversally oriented elliptical whitish stitches. Supraorbital line with 17–20 stitches that converge anteriorly on the head medially to the nares and continues anteroventrally where it encounters a small irregular prenasal series of 3−4 stitches. Poorly developed infraorbital line (5–7 dispersed stitches) begins behind the eyes, extends slightly curved in the lateral profile of the snout. Oral and angular lines indistinct. Posterior infraorbital and supraorbital lines consisting of small aggregate series of four to five stitches, each. Two series of lines extend from the middle of the body throughout the tail: the dorsal line, medially located, consists anteriorly in a short row of 3−4 stitches, which after a gap, continues with 22–28 stitches, until half of tail length, in the dorsal fin base; the second, laterally located, consisting of 12–15 stitches joins the middle caudal series, which presents 13–15 stitches until the half of tail. The ventral body line is poorly defined, with 5–7 stitches anterodorsally to the spiracle. Tadpole coloration. In life, general pattern greenish-brown ( Fig. 9 A–B). Body marbled with regularlyscattered dark spots and irregular dark brown spots; presence of dorsal, wide, light, longitudinal stripes from the eyes to the tail-body junction; spiracle light green; iris black with a wide golden ring around the pupil; ventral surface of the body marbled with golden large spots, including the vent tube. Tail musculature and fins (specially along its external margins) with large, round, dark and golden smudged spots; presence of continuous longitudinal dark stripes starting from the end of the body, until the final third of the tail: one on the medial muscle line, and the other two in the dorsal and ventral margins of the caudal musculature; fins equally pigmented; in life, a light blotch in the margin of the dorsal fin, in the region of its anterior origin. In formalin 10%, general pattern light-brown. The body stripes become faded, remaining only lighter areas on the region anteriorly to the emergence of the dorsal fin. The abdomen and caudal coloration also fades and loses its golden spots. Measurements ( n = 6, mean ± standard error, range into parenthesis) . TL 51.9 ± 1.9 (49.0–54.3); BL 17.0 ± 0.4 (16.2–17.3); TAL 34.9 ± 2.0 (31.7–37.0); MTH 10.6 ± 0.7 (9.8–11.6); TMH 5.8± 0.3 (5.8–6.1); BH 10.6 ± 0.3 (10.1–10.8); BW 12.0 ± 0.6 (10.9–12.5); BWN 5.5 ± 0.2 (5.3–5.8); BWE 9.1 ± 0.4 (8.5–9.7); ESD 6.3 ± 0.1 (6.1–6.6); ED 2.0 ± 0.1 (1.8–2.2); ODW 3.1 ± 0.3 (2.9–3.5); END 3.6 ± 0.2 (3.3–3.8); NSD 2.9 ± 0.1 (2.8–3.1); ND 0.8 ± 0.1 (0.6–0.9); TMW 5.8 ± 0.3 (5.3–6.1); IND 4.7 ± 0.5 (4.3–5.6); IOD 8.4 ± 0.3 (8.2–9.0); DFH 3.2 ± 0.5 (2.7–4.2); VFH 2.8 ± 0.3 (2.5–3.1); SED 16.4 ± 1.0 (15.1–17.5); SL 4.6 ± 0.3 (4.2–5.1); SDEH 6.0 ± 0.7 (5.1–6.9). Variation. Tadpoles did not present large morphological variation. In four specimens, the intestinal tube is located more centrally in the abdominal region. Two specimens in stages 27 and 29 have a single row of aligned marginal papillae anteriorly, tending to be biserial laterally and posteriorly. Natural History. Sphaenorhynchus canga sp. nov. occurs in permanent, semi-permanent, and less frequently in temporary natural ponds over ironstone outcrops (known as canga ) on flat terrain ( Fig. 9 C). These ponds are surrounded by campos rupestres (rupestrian grasslands) vegetation, a mosaic of habitat types including exposed grasslands, rock surfaces, cerrado, gallery forests, and small isolated areas of arborescent vegetation. For a review of the ecology and evolution of plant diversity in campo rupestres , and a characterization of the vegetation and conservation of the canga see Silveira et al . (2015) and Jacobi et al. (2007 ; 2011 ), respectively. Calling activity is concentrated in the hot and rainy season (October–March) although few males can occasionally be found calling in permanent ponds in the dry season (April–September). Males were found in relatively high densities during the beginning of rainy season (November–January). Males start calling at evening extending through the night. In rainy or foggy days, they can also call during daytime. Most males called from the floating vegetation ( Fig. 6 A), usually several species of grasses, sedges and Nymphoides sp. ( Menyanthaceae ), above the deepest area of the pond (ca. 1.5 m ). The reproductive mode is number 1 ( sensu Haddad &amp; Prado 2005 ): eggs and exotrophic tadpoles in lentic water. Tadpoles occur in lentic, temporary, or permanent water bodies, in open areas. They are nektonic and remain associated with macrophytes at deeper regions of the water bodies. Tadpoles in early development stages were observed in January, and froglets were seen in May. This suggests a developmental period of about 5 months. Tadpoles can be found until September. Tadpoles in earlier stages were easily found on the shallow margins of the pond whereas later stages were harder to find as they stayed on the on the middle of the water column at greater depths. Geographic distribution and conservation . The Espinhaço Range is characterized by high endemic anuran species richness ( Leite et al. 2008 ; Carvalho et al. 2013 ), where usually anuran species are narrowly distributed restricted to single or few localities (e.g. Bokermann &amp; Sazima 1973 ; Leite et al . 2011 ; Leite et al . 2012 ; Barata et al. 2013 ). Sphaenorhynchus canga sp. nov. is known from its type locality at Chapada de Canga , at the Municipality of Mariana, close to its limit with the Municipality of Catas Altas, southeastern portion of the Iron Quadrangle, southernmost portion of the Espinhaço Range, State of Minas Gerais, southeastern Brazil ( Fig. 10 ), where it was observed in five ponds ( type locality— 20°07&#x27;40&#x27;&#x27; S , 43°23&#x27;05&#x27;&#x27; W ; 1.5 km W MG-129— 20º7&#x27;32&#x27;&#x27; S , 43º23&#x27;23&#x27;&#x27; W ; 1.3 km NW MG-129— 20º9&#x27;48&#x27;&#x27; S , 43º24&#x27;27&#x27;&#x27; W ; 0.09 km N MG-129— 20º9&#x27;44&#x27;&#x27; S , 43º25&#x27;58&#x27;&#x27; W ; and 5.2 km S MG-129— 20°12&#x27;26&quot; S , 43°25&#x27;03&quot; W ). The species extent of occurrence measured by a minimum convex polygon (EO, sensu IUCN 2001 ) has only 17.2 km 2, whereas considering the entire local canga environment it would be ca. 50 km 2, the new species does not occur within reserves. A previous anuran inventory (i.e. Canelas &amp; Bertolucci 2007 ) did not record the species on the Reserva Particular do Patrimônio (RPPN) Natural Santuário do Caraça, Serra do Caraça, Municipality of Catas Altas, a relatively well sampled locality situated approximately 13 km (straight line) from Chapada de Canga . The Iron Quadrangle is the best sampled region in the State of Minas Gerais due to its proximity to the Municipality of Belo Horizonte (the state capital, where the two most important and representatives anuran collections are located, i.e. UFMG and MCNAM) and research centers. Moreover, in the last ten years the region has become target of many inventories for environmental licensing purposes as the cangas are in the spotlight of most mining companies. About 40% of the ironstone outcrops canga were destroyed in less than 40 years, remaining around 11.172 ha of these iron rich formations in the state of Minas Gerais, less than 280 ha (2.5%) of which are included in reserves ( Carmo 2010 ). Natural ponds on canga are rare and unique fresh water habitats within the Iron Quadrangle. We mapped only nine other ponds with characteristics similar to the ponds where the new species is found, all located at Chapada de Canga , reinforcing its rarity and relevance for conservation of these threatened environment.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/4C74C25DD01AFFBA11C2FE0AFB21BE9F#8CC720C0D01FFFB91192F8A1FA82BFD4">this account</a> <a href="https://treatment.plazi.org/id/4C74C25DD01AFFBA11C2FE0AFB21BE9F">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/sphaenorhynchus/"><i>Sphaenorhynchus</i> <span class="n">83</span></a></li>
+<li><a href="/taxon/hylidae/"><span>Hylidae</span> <span class="n">97,132</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/sphaenorhynchus-caramaschii/"><i>Sphaenorhynchus caramaschii</i> <span class="n">36</span></a></li>
+<li><a href="/taxon/sphaenorhynchus-lacteus/"><i>Sphaenorhynchus lacteus</i> <span class="n">33</span></a></li>
+<li><a href="/taxon/sphaenorhynchus-planicola/"><i>Sphaenorhynchus planicola</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/sphaenorhynchus-surdus/"><i>Sphaenorhynchus surdus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/sphaenorhynchus-platycephalus/"><i>Sphaenorhynchus platycephalus</i> <span class="n">6</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Sphaenorhynchus canga</i></td><td>Species</td><td>Hylidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Sphaenorhynchus canga">Plazi/Sphaenorhynchus canga</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/sphaenorhynchus-canga/&quot;,
+  &quot;name&quot;: &quot;Sphaenorhynchus canga&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/sphaenorhynchus-canga/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4YKZR&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Sphaenorhynchus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/sphaenorhynchus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4YKZR</p>
+</div></footer>
+</body>
+</html>

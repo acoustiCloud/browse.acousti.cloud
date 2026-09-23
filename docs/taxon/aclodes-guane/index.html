@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Aclodes guane</title>
+<meta name="description" content="Aclodes guane in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/aclodes-guane/">
+<meta property="og:title" content="Bioacoustics of Aclodes guane">
+<meta property="og:description" content="Aclodes guane in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CW2BH">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/aclodes-guane/", "name": "Aclodes guane", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/aclodes-guane/", "sameAs": "https://api.audioblast.org/taxon/CoL/CW2BH", "parentTaxon": {"@type": "Taxon", "name": "Aclodes", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/aclodes/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Hexapoda", "item": "https://browse.acousti.cloud/taxon/hexapoda/"}, {"@type": "ListItem", "position": 5, "name": "Insecta", "item": "https://browse.acousti.cloud/taxon/insecta/"}, {"@type": "ListItem", "position": 6, "name": "Orthoptera", "item": "https://browse.acousti.cloud/taxon/orthoptera/"}, {"@type": "ListItem", "position": 7, "name": "Ensifera", "item": "https://browse.acousti.cloud/taxon/ensifera-suborder/"}, {"@type": "ListItem", "position": 8, "name": "Gryllidea", "item": "https://browse.acousti.cloud/taxon/gryllidea/"}, {"@type": "ListItem", "position": 9, "name": "Grylloidea", "item": "https://browse.acousti.cloud/taxon/grylloidea/"}, {"@type": "ListItem", "position": 10, "name": "Phalangopsidae", "item": "https://browse.acousti.cloud/taxon/phalangopsidae/"}, {"@type": "ListItem", "position": 11, "name": "Paragryllinae", "item": "https://browse.acousti.cloud/taxon/paragryllinae/"}, {"@type": "ListItem", "position": 12, "name": "Aclodini", "item": "https://browse.acousti.cloud/taxon/aclodini/"}, {"@type": "ListItem", "position": 13, "name": "Aclodes", "item": "https://browse.acousti.cloud/taxon/aclodes/"}, {"@type": "ListItem", "position": 14, "name": "Aclodes guane", "item": "https://browse.acousti.cloud/taxon/aclodes-guane/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/hexapoda/"><span class="rk">Subphylum</span><span>Hexapoda</span></a><span class="sep">›</span><a href="/taxon/insecta/"><span class="rk">Class</span><span>Insecta</span></a><span class="sep">›</span><a href="/taxon/orthoptera/"><span class="rk">Order</span><span>Orthoptera</span></a><span class="sep">›</span><a href="/taxon/ensifera-suborder/"><span class="rk">Suborder</span><span>Ensifera</span></a><span class="sep">›</span><a href="/taxon/gryllidea/"><span class="rk">Infraorder</span><span>Gryllidea</span></a><span class="sep">›</span><a href="/taxon/grylloidea/"><span class="rk">Superfamily</span><span>Grylloidea</span></a><span class="sep">›</span><a href="/taxon/phalangopsidae/"><span class="rk">Family</span><span>Phalangopsidae</span></a><span class="sep">›</span><a href="/taxon/paragryllinae/"><span class="rk">Subfamily</span><span>Paragryllinae</span></a><span class="sep">›</span><a href="/taxon/aclodini/"><span class="rk">Tribe</span><span>Aclodini</span></a><span class="sep">›</span><a href="/taxon/aclodes/"><span class="rk">Genus</span><i>Aclodes</i></a></nav>
+<h1>Bioacoustics of <i>Aclodes guane</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Male genitalia ( holotype ISLA 126145, Figs 1–6 )—Phallic complex longer than broad and medially broadened. Pseudepiphallus : median lophi divided into anterior and posterior portion; anterior portion sclerotized, convex, with a secondary, less sclerotized dorsally projected bump in the center, anterior margin rounded, slightly projected and inclined towards the anterior region of the body ( Figs 2 and 3 , Ps.ap); posterior portion sclerotized, central region more sclerotized than the rest of the structure, lateral segments of the junction area with the median lophi anterior portion concave, posterior margin m-shaped, covered in small setae, and bearing two lateral projections— the pseudepiphallic apical lobes ( Figs 2, 4 and 6 , Ps.pp); apical lobes sclerotized, moderately elongated, sinuous in ventral view, curved dorsally and slightly away from the center of the genitalia, broadened at the base and tapered at the apex, which is fin-shaped (in lateral view) and ventrally covered in setae ( Figs 1 to 3, Ps.al); arms sclerotized, subtriangular, broadened laterally, and posteriorly connected to the pseudepiphallic apical lobes ( Figs 2 and 3 , Ps.arm ); ventral parameres sclerotized, exhibiting a dorsal projection running parallel to the dorsal parameres (Ps. p2), characterized by a rounded apex pointing towards the posterior end of the genitalia while inclined towards its center, ventrally subtriangular (in ventral view), articulated with the ectophallic lateral bars (Ect.lb), region near the apex of the ectophallic lateral bars internally concave and more sclerotized than the rest of the structure ( Figs 1, 3 and 6 , Ps.p1); dorsal parameres sclerotized, ventrally concave, inner margin more sclerotized when compared to the remainder of the structure, with a small and rounded ventral projection, posterior projection as long as the ventral paramere (Ps.p1) dorsal projection, with a rounded apex pointing towards the posterior end of the genitalia while inclined towards its center ( Figs 1 and 6 , Ps.p2); rami elongated, longer than the ectophallic apodeme (Ect. ap), broadened at the base, tapered at the end, S-shaped in lateral view, proximal half slightly externally concave, distal half internally concave, apex curving towards the central axis of the genitalia ( Figs 1 to 3, R). Ectophallic invagination : ectophallic arc well-developed, sclerotized, dorsally projected, central portion ventrally concave, located between the pseudepiphallic posterior portion and the base of the endophallic sclerite, posterior margin connected to the membranous sheath surrounding the endophallic sclerite posterior portion (End.sc.p), anterior margin irregular, forming an arc characterized by a broad and quadrangular central retraction ( Fig. 2 , Ect.arc); apodemes slightly sclerotized, elongated, slightly longer than the endophallic sclerite, inclined towards the center of the genitalia, apex curving away in the opposite direction (in dorsal view) ( Figs 2 and 3 , Ect.ap); lateral bars well-developed, sinuous, sclerotized, ventrally projected, reaching the ventral apex of the ventral paramere, broadened near the apex, which is fin-shaped, ventral inner margin with a small acute projection towards the center of the genitalia ( Figs 1 to 5, Ect.lb). Endophallus sclerite : anterior portion well-developed, sclerotized, V-shaped (in ventral view), with a long membranous apodeme on the opposite side of the central groove, akin to a keel ( Figs 1 and 6 , End.sc.a); duct short and highly sclerotized, its base roughly heart-shaped in ventral view ( Figs 1 and 6 , End. sc.d); posterior portion also heart-shaped, inserted in the central ventral concavity of the pseudepiphallic median lophi posterior portion, but not connected to it, surrounded by a trapezoidal and membranous sheath, which has in its posterior central portion a U-shaped sclerotized region ( Figs 1, 5 and 6 , End.sc.p). ♀ 126151 126152 126146 126147 M SD Head width 4.031 4.036 3.621 3.785 3.868 0.202 Head length 2.633 2.606 2.29 2.482 2.503 0.156 Intraocular distance 1.779 1.97 1.806 1.702 1.814 0.113 Compound eye width 0.736 0.706 0.65 0.71 0.701 0.036 Compound eye length 1.528 1.593 1.549 1.488 1.535 0.047 Pronotum width 4.867 4.82 4.378 4.438 4.626 0.253 Pronotum length 3.069 3.04 2.813 2.733 2.914 0.166 Ovipositor length 20.025 14.226 14.391 19.711 17.088 3.213 Left femur I length 8.323 7.885 7.036 7.451 7.674 0.555 Left tibia I length 8.809 8.073 7.484 7.929 8.074 0.551 Left tarsus I length 7.369 6.729 6.347 6.815 6.815 0.422 Left femur II length 8.231 7.883 7.497 7.369 7.745 0.391 Left tibia II length 9.329 8.475 8.099 8.144 8.512 0.570 Left tarsus II length 7.116 6.754 5.901 6.799 6.643 0.520 Left femur III length 17.3 15.815 14.383 15.591 15.772 1.197 Left tibia III length 17.462 15.626 14.5 15.721 15.827 1.223 Left tarsus III length 8.67 7.729 7.525 8.257 8.045 0.518 Body length 20.675 21.842 18.051 18.415 19.746 1.817 Variations in male genitalia ( paratypes ISLA 126143, ISLA 126144, ISLA 126150)—Pseudepiphallic dorsal (Ps.p2) and ventral (Ps.p1) parameres exhibit slight variations in their inclination relative to the longitudinal axis of the phallic complex; ectophallic lateral bars and pseudepiphallic ventral parameres show slight variations in the angle formed by the two contacting structures (in lateral view); apices of the ectophallic apodemes may be positioned closer together at the center of the genitalia or farther apart, near the internal face of the pseudepiphallic rami; apices of the ectophallic apodemes can be rounded, as in the holotype , or acute; the position of the endophallus (and consequently, the ectophallic arch that accompanies it) varies, being either interiorized or exteriorized, projecting slightly beyond the pseudepiphallic median lophi posterior portion, as in the holotype , or retracted between the parameres of the pseudepiphallus; posterior portion of the endophallus may be less sclerotized, semicircular in shape and exhibit two small, sclerotized, ear-like folds on each side (similar to those observed in Aclodes oscari sp. nov. , but even more developed). Male body morphology and color ( holotype ISLA 126145, Figs 7–15 )— Body color : vertex brown, with four parallel anteroposterior yellowish-brown stripes; ocellar regions yellow; fastigium, frons, and subgena dark brown, covered with yellowish spots; dorsal portion of the gena is brown, the middle portion is lighter and yellowish-brown, while the ventral portion is dark brown, following the coloration pattern of the subgena; clypeus and labrum yellow, apex of labrum white; mandibles and laciniae yellowish-brown, with sclerotized apex; galeae, labium, maxillary palps, and labial palps yellowish-white; scape, pedicel, and flagellum brown; pronotum brown, divided in the middle by a yellowish-brown anteroposterior stripe and covered with yellowish-brown spots, with the lateral portion darker and the apex of lateral lobes light yellow; right tegmen yellowish-brown; tergites brown or dark brown, sprinkled with yellowish-brown and yellowish-white spots; sternites yellowish-white; supra-anal plate brown; subgenital plate dark brown, with a yellowish-white spot in the center and two oval black spots near the base; cerci yellowish-brown; legs exhibiting alternating dark and light rings, with the external face of the hind femur covered with brown stripes; tympanum white. Head ( Figs 8, 9 and 11 ): elongated dorsoventrally, slightly pubescent; fastigium covered with elongated setae and measuring approximately half the length of the antennal scape; maxillary palps pubescent, with palpomeres I and II short and globose, palpomeres III and IV elongated and of similar length, and palpomere V longer than the others with a clavate apex; labial palps also pubescent, with palpomeres I, II, and III progressively increasing in size, apex of palpomere III dilated; ocelli depigmented; compound eye slightly reduced, with a small portion of the dorsal region near the coronal suture depigmented. Thorax ( Figs 7 and 12 ): pronotum slightly pubescent, broader than long; anterior and posterior margins arched and covered with long setae; lateral lobes subtriangular, directed ventrally and slightly towards the posterior region of the body; metanotal glands absent. Abdomen ( Figs 12 to 15): pubescent; supra-anal plate approximately trapezoidal, slightly longer than the paraprocts, with a rounded posterior margin covered with long setae and lateral margins featuring a small invagination in the centroposterior portion; subgenital plate elongated, approximately twice as long as the supra-anal plate, rectangular in shape, with a slightly curved posterior margin, elongated setae, and a small central dent; cerci pubescent, with elongated setae throughout their length, and globose setae on the inner portion of their bases. Right tegmen ( Figs 10 and 12 ): slightly sclerotized, roughly oval, reaching the anterior portion of the fourth tergite; mirror almost rhomboid, with a complete crossvein perpendicular to the longitudinal axis of the tegmen and an incomplete crossvein near the posterior margin; harp with one incomplete and three complete crossveins; basal field 1A and 2A veins well-defined, converging and then dividing again into two distinct veins; lateral field with two parallel longitudinal veins and numerous weakly marked, anastomosed crossveins. Fore-legs (similar to Figs 16 and 17 — paratype , ISLA 126143): pubescent, proximal portion of the internal face of the tibia bearing an oval tympanum; apex with two ventral spurs; tarsomere serrated ventrally. Middle-legs (similar to Figs 16 and 17 — paratype , ISLA 126143): also pubescent, apex of the tibia with three spurs (two ventral and one lateral on the external face); tarsomere also serrated ventrally. Hind-legs (similar to Figs 18 and 19 — paratype , ISLA 126143): pubescent, femur developed; tibia longer than the femur, bearing two longitudinal rows of dorsal spines (left tibia with three external and four internal dorsal spines, right tibia with four dorsal spines on both sides), and two sets of apical spurs, three internal and three external (on the inner side, the most ventral spur, spur d, being extremely reduced); tarsomere I longer than the sum of the length of tarsomeres II and III, with one longitudinal, externally positioned, dorsal row of a few (four or five) short spines, plus one small spine on the apex of the inner dorsal side, and two apical spurs, with the internal spur being longer than the external one. Variations in body morphology ( paratypes )—Harp with five complete crossveins, stridulatory file with 109 teeth ( ISLA 126143, Fig. 20 ). Harp with one incomplete and four complete crossveins, stridulatory file with 99 teeth ( ISLA 126144, Fig. 21 ). Harp with five complete crossveins, stridulatory file with 117 teeth ( ISLA 126150, Fig. 22 ). Left and right tibiae III featuring two longitudinal rows of four dorsal spines ( ISLA 126143, ISLA 126144); tibia III outer row bearing five spines, the two most proximal close to each other ( ISLA 126147). Tympanum droplet-shaped ( ISLA 126143, Fig. 17 ). Supra-anal plate as long as the paraprocts ( ISLA 126143, ISLA 126144, ISLA 126150). Female body morphology and color ( paratype ISLA 126151, Figs 23–29 )—Slightly larger than the male. Body color : coloration pattern similar to the holotype , except for the vertex, pronotum, and supra-anal and subgenital plates; vertex with two yellowish-brown anteroposterior stripes converging at the base of the coronal suture, where there is a rounded yellowish spot; pronotum with two yellowish-brown oval spots in the posterior portion; supra-anal plate brown, with three well-defined regions separated by a central whitish ring ( Fig. 25 ); subgenital plate yellowish-white ( Fig. 26 ); ovipositor orange-brown, with a dark brown apex. Tegmina ( Fig. 24 ): reduced, without apparent veins, rounded, positioned on the sides of the mesonotum, reaching the anterior margin of the metanotum. Legs ( Fig. 23 ): similar to those of the holotype ; proximal portion of the internal face of tibia I bearing an oval tympanum; dorsal face of tibia III with two rows of four spines (outer row of right tibia III lacking the most proximal spine, its insertion point present); sets of apical spurs equal to those of the holotype . Ovipositor ( Figs 27 to 29): elongated, longer than the cerci, lance-shaped, slightly curved ventrally, with a sclerotized, tapered apex, triangular in dorsal view. Copulatory papilla : membranous.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03CCC67E611EFF8C9F84FA4DFEF8FB92#C37F24E36118FF8A9FD4FA93FD2EF811">this account</a> <a href="https://treatment.plazi.org/id/03CCC67E611EFF8C9F84FA4DFEF8FB92">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/aclodes/"><i>Aclodes</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/aclodini/"><span>Aclodini</span> <span class="n">1</span></a></li>
+<li><a href="/taxon/paragryllinae/"><span>Paragryllinae</span> <span class="n">12</span></a></li>
+<li><a href="/taxon/phalangopsidae/"><span>Phalangopsidae</span> <span class="n">279</span></a></li>
+<li><a href="/taxon/grylloidea/"><span>Grylloidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gryllidea/"><span>Gryllidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/ensifera-suborder/"><span>Ensifera</span> <span class="n">116,644</span></a></li>
+<li><a href="/taxon/orthoptera/"><span>Orthoptera</span> <span class="n">143,044</span></a></li>
+<li><a href="/taxon/insecta/"><span>Insecta</span> <span class="n">217,330</span></a></li>
+<li><a href="/taxon/hexapoda/"><span>Hexapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/aclodes-cryptos/"><i>Aclodes cryptos</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/aclodes-spelaea/"><i>Aclodes spelaea</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aclodes-pequegna/"><i>Aclodes pequegna</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aclodes-paz/"><i>Aclodes paz</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/aclodes-oscari/"><i>Aclodes oscari</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Aclodes guane</i></td><td>Species</td><td>Phalangopsidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Aclodes guane">Plazi/Aclodes guane</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/aclodes-guane/&quot;,
+  &quot;name&quot;: &quot;Aclodes guane&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/aclodes-guane/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CW2BH&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Aclodes&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/aclodes/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CW2BH</p>
+</div></footer>
+</body>
+</html>

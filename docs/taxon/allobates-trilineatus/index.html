@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Allobates trilineatus</title>
+<meta name="description" content="Allobates trilineatus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/allobates-trilineatus/">
+<meta property="og:title" content="Bioacoustics of Allobates trilineatus">
+<meta property="og:description" content="Allobates trilineatus in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/BV2Q">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/allobates-trilineatus/", "name": "Allobates trilineatus", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/allobates-trilineatus/", "sameAs": "https://api.audioblast.org/taxon/CoL/BV2Q", "parentTaxon": {"@type": "Taxon", "name": "Allobates", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/allobates/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Dendrobatoidea", "item": "https://browse.acousti.cloud/taxon/dendrobatoidea/"}, {"@type": "ListItem", "position": 11, "name": "Aromobatidae", "item": "https://browse.acousti.cloud/taxon/aromobatidae/"}, {"@type": "ListItem", "position": 12, "name": "Allobatinae", "item": "https://browse.acousti.cloud/taxon/allobatinae/"}, {"@type": "ListItem", "position": 13, "name": "Allobates", "item": "https://browse.acousti.cloud/taxon/allobates/"}, {"@type": "ListItem", "position": 14, "name": "Allobates trilineatus", "item": "https://browse.acousti.cloud/taxon/allobates-trilineatus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/dendrobatoidea/"><span class="rk">Superfamily</span><span>Dendrobatoidea</span></a><span class="sep">›</span><a href="/taxon/aromobatidae/"><span class="rk">Family</span><span>Aromobatidae</span></a><span class="sep">›</span><a href="/taxon/allobatinae/"><span class="rk">Subfamily</span><span>Allobatinae</span></a><span class="sep">›</span><a href="/taxon/allobates/"><span class="rk">Genus</span><i>Allobates</i></a></nav>
+<h1>Bioacoustics of <i>Allobates trilineatus</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis. Morphological diagnosis. Based on our new species definition, we compared Allobates trilineatus s.s . with all Allobates species from Amazonia. Character states of A. trilineatus are in parentheses. Preserved males of A. amissibilis Kok, Hölting, &amp; Ernst, 2013 , A. brunneus (Cope, 1887) , A. caeruleodactylus ( Lima &amp; Caldwell, 2001), A. carajas Simões, Rojas , &amp; Lima , 2019, A. crombiei ( Morales, 2002 ) , A. flaviventris Melo-Sampaio, Souza, &amp; Peloso, 2013 , A. granti (Kok, MacCulloch, Gaucher, Poelman, Bourne, Lathrop, &amp; Lenglet, 2006) , A. grillisimilis Simões, Sturaro, Peloso , &amp; Lima , 2013, A. insperatus ( Morales, 2002 ) , A. juami Simões, Gagliardi-Urrutia, Rojas-Runjaic, &amp; Castroviejo-Fisher, 2018 , A. juanii ( Morales, 1994 ) , A. magnussoni Lima , Simões, &amp; Kaefer, 2014, A. mcdiarmidi (Reynolds &amp; Foster, 1992) , A. ornatus ( Morales, 2002 ) , A. subfolionidificans ( Lima , Sanchez, &amp; Souza, 2007), A. sumtuosus ( Morales, 2002 ) , A. tapajos Lima , Simões, &amp; Kaefer, 2015, and A. tinae Melo-Sampaio, Oliveira, &amp; Prates, 2018 have throat, chest and belly cream with scattered melanophores mainly on chin and occasionally extending from throat to belly; vocal sacs generally cream (males with dark gray throat, chest, and belly; vocal sac dark gray in live and preserved specimens). In A. brunneus , A. carajas , A, crombiei , A. flaviventris , A. juanii , A. magnussoni , A. ornatus , and A. tapajos , the dorsolateral stripe broadens posteriorly to eyelid forming an hourglass or wavy pattern (pale dorsolateral stripe solid and straight, not broadening on any region posterior to the eye). Pale dorsolateral stripe absent in A. amissibilis , A. caeruleodactylus , A. granti , A. subfolionidificans (pale dorsolateral stripe present and conspicuous). Finger III not swollen in males of A. grillisimilis , A. insperatus , A. juami , A. sumtuosus , A. tapajos , and A. tinae (preaxial side of Finger III swollen). Live specimens of Allobates femoralis ( Boulenger, 1884 ) , A. hodli Simões , Lima , &amp; Farias, 2010, A. myersi (Pyburn, 1981) , and A. zaparo (Silverstone, 1976) have bright yellow, orange or red flash marks on dorsal surface of thigh in life, and black and white marbling on belly and ventral surface of thigh in preserved and live specimens (yellow, orange or red flash marks on thigh and black and white marbling absent). Adults of these species are also larger, with SVL = 22.2–28.1 mm in A. hodli , 26.4–32.8 mm in A. myersi , and 16.5–31.5 mm in A. zaparo (SVL = 14.6–16.6 mm ). Allobates marchesianus (Melin, 1941) has granular dorsal skin, inconspicuous pale ventrolateral stripe, Finger III not swollen in adult males, and tip of Toe III reaching the proximal margin of the central subarticular tubercle of Toe IV (skin of dorsum shagreened, conspicuous white ventrolateral stripe, swollen Finger III in adult males, and tip of Toe III surpassing the central subarticular tubercle of Toe IV). Allobates masniger ( Morales, 2002 ) , A. nidicola (Caldwell &amp; Lima , 2003), and A. nunciatus Moraes, Pavan , &amp; Lima , 2019 lack pale dorsolateral stripe (pale dorsolateral stripe present and conspicuous), Finger III not swollen in males (Finger III swollen on preaxial side), tip of Finger III reaching the proximal margin of the central subarticular tubercle of Toe IV in A. nidicola (Toe III surpassing the central subarticular tubercle of Toe IV). Larger adults, with SVL = 17.9–20.1 mm in A. masniger , 18.5–21.4 mm in A. nidicola , 21.1–23.4 mm in A. nunciatus ( 14.6–16.6 mm ). Allobates melanolaemus ( Grant &amp; Rodriguez, 2001 ) and A. paleovarzensis Lima , Caldwell, Biavati, &amp; Montanarin, 2010 have granular skin on dorsal surfaces (skin on dorsum shagreened), a pale dorsolateral and ventrolateral stripes weakly marked, sometimes diffuse and inconspicuous, in A. paleovarzensis (dorsolateral and ventrolateral stripes solid and conspicuous), Finger III hardly swollen in adult males of A. paleovarzensis and not swollen in adult males of A. melanolaemus (Finger III markedly swollen in adult males), larger adults, with SVL = 21.1–23.4 mm in A. melanolemus and 18.3–22.4 mm in A. paleovarzensis ( 14.6–16.6 mm ). Allobates pacaas Melo-Sampaio, Prates, Peloso, Recoder, Dal Vechio, Marques-Souza &amp; Rodrigues, 2020 has a dorsum with hourglass-shaped pattern and adult males with Finger III not swollen on preaxial side (dorsal coloration uniform, with no hourglass pattern, Finger III of adult males swollen on preaxial side). Allobates bacurau Simões, 2016 has a dorsum moderately granular, tan brown, and ventral surfaces with no iridescent white marks or spots in live and preserved specimens (dorsum shagreened, darker brown, iridescent marks or spots present on ventral surfaces). Acoustic diagnosis. The advertisement call formed by the emission of groups of note-pairs distinguishes Allobates trilineatus s.s . from all congeneric species, except A. granti , A. hodli , A. kingsburyi , A. magnussoni and A. tapajos . Note-pairs are emitted continuously, not arranged in discrete groups, in advertisement calls of A. magnussoni , and A. tapajos . The first note of each note-pair in calls of A. magnussoni is approximately twice as long as the second note ( Lima et al . 2014 ) and the first and second notes are also split by a 0.07– 0.12 s silent interval, while both notes are of similar duration and longer than silent interval between notes in A. trilineatus s . s . In calls of A. tapajos , notes within the same note-pair are split by a 0.11– 0.16 s silent interval, and consecutive note pairs are separated by a 0.30– 0.49 s silent interval ( Lima et al. 2015 ), much longer than silent intervals between notes and note-pairs of A. trilineatus s.s. Notes of calls of Allobates flaviventris are emitted with a peak frequency of 4.3–4.6 kHz, lower than peak frequency of notes of A. trilineatus s.s. , and consecutive note-pairs are split by a longer silent interval, ranging between 0.31– 0.41 s ( Lima et al. 2014 ). Note-pair groups are narrowly spaced in A. granti , duration of silent interval between consecutive groups ranging between 0.46– 1.78 s ( Kok et al. 2006 ; Kok &amp; Ernst 2007), much shorter than in A. trilineatus s.s . Calls of A. hodli are emitted with a peak frequency ranging between 2.9–3.6 kHz, much lower than peak frequency of calls of A. trilineatus s.s . ; duration of note-pairs in calls of A. hodli are also longer, ranging between 0.14– 0.20 s ( Simões et al. 2010 ). Groups of note-pairs are longer, ranging between 16.30– 25.43 s and containing 34–96 note-pairs in A. kingsburyi ; notes are also emitted with a peak frequency of 3.0–4.7 kHz (Castillo- Trenn &amp; Coloma 2008), lower than that of A. trilineatus . Taxa Voucher 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 1 CRBIIAP 1740 0.0 Allobates sp. 2 MCP 14533 0.0 0.0 3 MCP 14539 0.5 0.5 0.0 4 MJH 7477 4.7 4.7 4.8 0.0 5 KU 215175 4.8 4.8 4.8 2.3 0.0 6 KU 215172 4.8 4.8 4.8 2.3 0.0 0.0 7 KU215174 4.5 4.5 4.5 2.0 0.4 0.4 0.0 8 MTR28420 4.5 4.5 4.5 1.6 1.3 1.3 0.9 0.0 9 MNRJ 91676 4.8 4.8 4.8 2.0 1.2 1.2 0.9 0.7 0.0 10 OMNH 36026 4.8 4.8 4.8 2.0 1.2 1.2 0.9 0.7 0.7 0.0 11 LSUMZ13690 4.7 4.7 4.7 1.8 1.1 1.1 0.7 0.5 0.5 0.2 0.0 Allobates aff. trilineatus 12 LSUMZ13691 13 MCP 13639 4.7 4.3 4.7 4.3 4.7 4.3 1.8 1.8 1.1 1.4 1.1 1.4 0.7 1.1 0.5 0.5 0.5 1.1 0.2 1.1 0.0 0.9 0.0 0.9 0.0 14 MCP 13618 4.3 4.3 4.3 1.8 1.4 1.4 1.1 0.5 1.1 1.1 0.9 0.9 0.0 0.0 15 MTR28494 4.5 4.5 4.5 1.6 1.2 1.2 0.9 0.9 0.9 0.9 0.7 0.7 0.7 0.7 0.0 16 MNRJ 91666 5.5 5.5 5.7 2.1 2.9 2.9 2.5 2.5 2.5 2.5 2.3 2.3 2.7 2.7 2.1 0.0 17 MCP10212 4.7 4.7 4.8 1.8 2.3 2.3 2.0 2.0 2.0 2.0 1.8 1.8 2.0 2.0 1.4 1.2 0.0 18 MNRJ 91668 4.7 4.7 4.8 1.8 2.3 2.3 2.0 2.0 2.0 2.0 1.8 1.8 2.0 2.0 1.4 1.2 0.0 0.0 19 MNRJ 91664 4.5 4.5 4.7 1.6 1.8 1.8 1.4 1.8 1.8 1.8 1.6 1.6 2.0 2.0 1.4 1.4 0.9 0.9 0.0 20 MNRJ 91663 4.5 4.5 4.7 1.6 1.8 1.8 1.4 1.8 1.8 1.8 1.6 1.6 2.0 2.0 1.4 1.4 0.9 0.9 0.0 0.0 21 MCP 13628 4.7 4.7 4.8 1.8 2.0 2.0 1.6 2.0 2.0 2.0 1.8 1.8 2.1 2.1 1.6 1.4 1.1 1.1 0.2 0.2 0.0 22 AF4493 5.7 5.7 5.9 2.8 3.1 3.1 2.8 3.1 3.5 3.1 3.1 3.1 2.8 2.8 3.1 3.8 2.8 2.8 2.1 2.1 2.4 0.0 23 MCP 14309 5.0 5.0 5.2 2.7 2.9 2.9 2.5 2.9 2.9 2.7 2.5 2.5 2.5 2.5 2.3 3.1 2.2 2.2 1.8 1.8 2.0 0.9 0.0 Allobates trilineatus s.s. 24 MCP 14317 5.0 5.0 5.2 2.7 2.9 2.9 2.5 2.9 2.9 2.7 2.5 2.5 2.5 2.5 2.3 3.1 2.2 2.2 1.8 1.8 2.0 0.9 0.0 0.0 25 MCP 14304 4.9 4.9 5.1 2.5 2.7 2.7 2.3 2.7 2.7 2.5 2.3 2.3 2.3 2.3 2.2 2.9 2.0 2.0 1.6 1.6 1.8 0.7 0.2 0.2 0.0 26 MCP 14306 4.9 4.9 5.0 2.5 2.7 2.7 2.3 2.7 2.7 2.5 2.3 2.3 2.3 2.3 2.2 2.9 2.0 2.0 1.6 1.6 1.8 0.7 0.2 0.2 0.0 0.0 . Geographic distribution. The type series of Allobates trilineatus was described from Yurimaguas, Alto Amazonas, Loreto , Peru . We collected our new samples from Munichis village, Yurimaguas, approximately 12.5 km west of Yurimaguas airport. A single sample (AF4493) collected from Pongo-Barranquita, department of San Martin , Peru , about 44 km southwest of Yurimaguas, is closely related to topotypic samples ( Fig. 14 ). These localities are situated in the interfluve between the rivers Marañon and Huallaga ( Fig. 2 ) and it is reasonable to suggest that A. trilineatus s.s. is distributed in more localities within this interfluve. Based on molecular evidence ( i.e. , uncorrectedpairwise genetic distances &lt;3% and sister phylogenetic relationship), specimens from the Brazilian state of Acre and from southern Peru in Panguana, Huanuco , and Puerto Maldonado, Madre de Dios , are herein identified as A. aff. trilineatus , pending examination of morphological and acoustic diagnostic characters. Additionally, we suggest that earlier records of A. trilineatus from Amazonian localities of Colombia , Ecuador , and northern Peru ( Fig. 2 ) should be checked for consistency with our phenotypic and molecular data.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03D82D22FFF6F300FF1EFC6B4FDBF83D#C36BCFBFFFE3F300FF4EF9E64FDBF83D">this account</a> <a href="https://treatment.plazi.org/id/03D82D22FFF6F300FF1EFC6B4FDBF83D">at Plazi</a></p>
+<p class="topic">discussion · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>REMARKS Colostethus brunneus and C. marchesianus have been reported from Peru ( Duellman and Toft, 1979 ; Toft and Duellman, 1979 ; Schlüter, 1980 ; Frost, 1985; Rodríguez, 1992 ; Rodríguez et al., 1993 ; Rodríguez and Duellman, 1994; Wild, 1996 ; Parmelee, 1999 ). However, none of the material we examined is referable to those taxa, and we suspect that previous reports were based on erroneously determined specimens of C. trilineatus . The diffuse, pale region extending from the groin to midway along the flank is located in the same area as the oblique lateral stripe and is presumably homologous with it. However, this pattern does not conform to any of the previously delimited states (i.e., complete from groin to eye, e.g., C. nubicola [Dunn, 1924]; broken into series of spots, e.g., C. agilis Ruiz­Carranza and Lynch, 1985 ; partial or incomplete, e.g., C. kingsburyi [Boulenger, 1918]), and it is frequently overlooked. It is often difficult to code unambiguously, as it is hard to distinguish from chafing, fading, and other preservational artifacts, or from the white spots and flecks that are roughly uniformly scattered over the flank of many species of Colostethus . Nevertheless, all well­preserved and live exemplars of a number of similar species possess this diffuse, pale area on the flank, and we have not noticed it in any species west of the Amazonian slopes of the Andes. In the Amazon basin, we have observed this state in C. brunneus , C. juanii (in which it is usually quite prominent), C. trilineatus , C. melanolaemus (named below), and at least five unnamed species. The discovery of the swollen second finger in some specimens was initially taken as evidence for the recognition of two species. However, related evidence indicates that this interpretation was spurious. Specimens with the swollen second finger were all found in sympatry with specimens that exhibit swelling only of the third finger. Field notes and other data do not indicate differences in microhabitat selection, and the specimens are otherwise indistinguishable (e.g., fig. 5). Similarly, both conditions were found at localities separated by&gt; 700 km (Panguana in the middle portion of the range, and Cocha Cashu and Cuzco Amazónico in the southern portion), and the swollen second­finger morphology was detected only in the three largest samples. The expression of swelling of the third finger is known to vary among males taken in large series ( Myers et al., 1991 ; personal obs., TG), probably as a function of reproductive activity, and it is likely that the swollen second finger would serve the same function and undergo the same kind of variation. This claim is further supported by our observation of apparently continuous variation in the amount of swelling of the second finger (which prevented us from clearly assigning several specimens to either of the morphological classes). It should be noted, however, that swelling of Finger II does not appear to covary with age (inferred from SVL) or other secondary sex characters that often vary with reproductive activity (e.g., throat color; fig. 5). 5 AMNH FS 8689, the specimen recorded at the type locality, differs from other examined Colostethus trilineatus in having an hourglass dorsal color pattern. Although the possibility exists that this specimen is not conspecific with the other material taken at the type locality, in all other respects it falls well within the range of variation seen in other populations of C. trilineatus , and this hourglass dorsal pattern occurs commonly as part of the repertory of intraspecific variation in numerous species of Colostethus , including C. brunneus ( Cope, 1887 ; Morales, 1994 ; personal obs., TG), C. juanii ( Morales, 1994 ; personal obs., TG), C. mandelorum Schmidt, 1932 (Rivero, ‘‘1982’’ [1984]; La Marca, 1993 ), and C. sanmartini Rivero, Langone, and Prigioni, 1986 . Gonzalez et al. (1999: 185 , fig. 5A) also provide a photograph of an unidentified specimen with this dorsal pattern. Based on available data, we are unable to conclude that more than one species occurs at the type locality of C. trilineatus . Several differences in temporal patterning are observed between the vocalizations recorded at the type locality and those reported for Panguana ( Schlüter , 1980 ) and Cuzco Amazónico ( Coloma , 1995 ; De la Riva et al., 1996 ). 4 Calls recorded at the latter two localities consist of couplets repeated at roughly 200 msec intervals; each note of the couplets has a duration of &lt;30 msec. Rodríguez and Duellman (1994: 16) report a similar call of ‘‘two chirplike notes produced at a rate of about 72 per minute’’, but no further data are provided. In contrast, the calls recorded at the type locality are composed of single notes (i.e., not couplets) of usually&gt; 40 msec duration, repeated at &lt;90 msec intervals. Although these differences in amplitude modulation could conceivably indicate the existence of two species, the calls of the three populations are spectrally identical and no significant morphological differences were detected among the specimens examined. 5 It has long been known that signal structure may vary greatly among populations, individuals, and even calls of the same individual ( Bogert, 1960 ; see Junca´, 1998 and Myers et al., 1998 , as well as the discussion of C. juanii , below, for examples of variation of temporal patterning in dendrobatids). When acoustic samples are small and the differences between them unaccompanied by morphological or other correlates, taxonomic interpretations should be conservative. For this reason, we continue to refer to all these frogs as C. trilineatus . In contrast to the above, another similar species occurs in the same vicinity as Colostethus trilineatus , but differs in both temporal and spectral call parameters as well as in morphology. Consequently, we name it</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/C35F879EFF9FFFDBFD6671BAFB192D4B#03EC6503FF94FFDBFECD7185FB192D4B">this account</a> <a href="https://treatment.plazi.org/id/C35F879EFF9FFFDBFD6671BAFB192D4B">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>AMNH FS 8689 (16.0 mm SVL) was collected at Yurimaguas, the type locality. A recording of this frog (AMNH herpetology reel 272, made by Javier Icochea at 15:18 h on 25 September 1993 , 27°C) includes 27 calls in 3.08 min of continuous tape (0.15 calls per sec). The advertisement call (fig. 7) is a series of short, high­pitched peeps. Calls consist of 9–13 notes ( n = 26, x = 11.2 ± 0.3 notes, mode = 10 notes; one obviously anomalous call of four notes is excluded). Call duration is 972–1550 msec ( n = 26, x = 1260 ± 29.8 msec). Detailed data were taken from the first two calls on the tape, constituting 12 and 11 notes, respectively. In both calls, the first two notes are shortest (both 41.8 msec in call 1; 39.5 and 41.0 msec, respectively, in call 2). Similarly, internote duration between the first two notes of both calls is less than half of that of the other notes (25.8 msec in call 1; 29.9 msec in call 2). Video spectrographic scrolling revealed that in 17 of the 27 calls the internote duration between the first two notes is conspicuously less than between the remaining notes. For the remaining notes, note duration is 43.0–45.3 msec ( n = 19, x = 43.79 ± 0.15 msec); internote duration is 71.1–88.7 msec ( n = 17, x = 77.92 ± 1.25 msec). Each note weakly frequency modulated from lower to higher, with emphasized frequencies of the 23 notes between 4920 and 6040 Hz. Minor frequency modulation is detected among the notes of each call, in which notes are emitted at increasing frequencies, then decreasing frequencies, and again increasing frequencies, before terminating at a relatively high frequency.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/C35F879EFF9FFFDBFD6671BAFB192D4B#03EC6503FF95FFD8FD7C77D1FF7C2C65">this account</a> <a href="https://treatment.plazi.org/id/C35F879EFF9FFFDBFD6671BAFB192D4B">at Plazi</a></p>
+<p class="topic">biology_ecology · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>NATURAL HISTORY: Colostethus trilineatus is a forest­dwelling species not closely associated with bodies of water. Numerous aspects of its ecology have been reported (usually under the name C. marchesianus ) by Toft and Duellman (1979) , Aichinger (1987) , Rodríguez (1992) , Duellman and Mendelson (1995) , Wild (1996) , and Parmelee (1999) . VOCALIZATIONS</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/C35F879EFF9FFFDBFD6671BAFB192D4B#03EC6503FF95FFD9FD7C7691FBA72AC7">this account</a> <a href="https://treatment.plazi.org/id/C35F879EFF9FFFDBFD6671BAFB192D4B">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/allobates/"><i>Allobates</i> <span class="n">815</span></a></li>
+<li><a href="/taxon/allobatinae/"><span>Allobatinae</span> <span class="n">442</span></a></li>
+<li><a href="/taxon/aromobatidae/"><span>Aromobatidae</span> <span class="n">753</span></a></li>
+<li><a href="/taxon/dendrobatoidea/"><span>Dendrobatoidea</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/allobates-fratisenescus/"><i>Allobates fratisenescus</i> <span class="n">10</span></a></li>
+<li><a href="/taxon/allobates-conspicuus/"><i>Allobates conspicuus</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/allobates-carajas/"><i>Allobates carajas</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-granti/"><i>Allobates granti</i> <span class="n">84</span></a></li>
+<li><a href="/taxon/allobates-femoralis/"><i>Allobates femoralis</i> <span class="n">592</span></a></li>
+<li><a href="/taxon/allobates-paleovarzensis/"><i>Allobates paleovarzensis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-talamancae/"><i>Allobates talamancae</i> <span class="n">90</span></a></li>
+<li><a href="/taxon/allobates-tapajos/"><i>Allobates tapajos</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/allobates-insperatus/"><i>Allobates insperatus</i> <span class="n">8</span></a></li>
+<li><a href="/taxon/allobates-zaparo/"><i>Allobates zaparo</i> <span class="n">10</span></a></li>
+<li><a href="/taxon/allobates-marchesianus/"><i>Allobates marchesianus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/allobates-niputidea/"><i>Allobates niputidea</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/allobates-ripicolus/"><i>Allobates ripicolus</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/allobates-hodli/"><i>Allobates hodli</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-magnussoni/"><i>Allobates magnussoni</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-algorei/"><i>Allobates algorei</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-bacurau/"><i>Allobates bacurau</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-grillisimilis/"><i>Allobates grillisimilis</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-flaviventris/"><i>Allobates flaviventris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-melanolaemus/"><i>Allobates melanolaemus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-sumtuosus/"><i>Allobates sumtuosus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/allobates-vicinus/"><i>Allobates vicinus</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Allobates trilineatus</i></td><td>Species</td><td>Aromobatidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Allobates trilineatus">Plazi/Allobates trilineatus</a></td></tr>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Colostethus trilineatus</i></td><td>Species</td><td>Dendrobatidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Colostethus trilineatus">Plazi/Colostethus trilineatus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/allobates-trilineatus/&quot;,
+  &quot;name&quot;: &quot;Allobates trilineatus&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/allobates-trilineatus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/BV2Q&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Allobates&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/allobates/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/BV2Q</p>
+</div></footer>
+</body>
+</html>

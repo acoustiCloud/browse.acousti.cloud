@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Physalaemus atlanticus</title>
+<meta name="description" content="Physalaemus atlanticus in audioBlast: 9 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/physalaemus-atlanticus/">
+<meta property="og:title" content="Bioacoustics of Physalaemus atlanticus">
+<meta property="og:description" content="Physalaemus atlanticus in audioBlast: 9 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/4HF8T">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/physalaemus-atlanticus/", "name": "Physalaemus atlanticus", "taxonRank": "species", "url": "https://browse.acousti.cloud/taxon/physalaemus-atlanticus/", "sameAs": "https://api.audioblast.org/taxon/CoL/4HF8T", "parentTaxon": {"@type": "Taxon", "name": "Physalaemus", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/physalaemus/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Anura", "item": "https://browse.acousti.cloud/taxon/anura/"}, {"@type": "ListItem", "position": 10, "name": "Leptodactylidae", "item": "https://browse.acousti.cloud/taxon/leptodactylidae/"}, {"@type": "ListItem", "position": 11, "name": "Leiuperinae", "item": "https://browse.acousti.cloud/taxon/leiuperinae/"}, {"@type": "ListItem", "position": 12, "name": "Physalaemus", "item": "https://browse.acousti.cloud/taxon/physalaemus/"}, {"@type": "ListItem", "position": 13, "name": "Physalaemus atlanticus", "item": "https://browse.acousti.cloud/taxon/physalaemus-atlanticus/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/anura/"><span class="rk">Order</span><span>Anura</span></a><span class="sep">›</span><a href="/taxon/leptodactylidae/"><span class="rk">Family</span><span>Leptodactylidae</span></a><span class="sep">›</span><a href="/taxon/leiuperinae/"><span class="rk">Subfamily</span><span>Leiuperinae</span></a><span class="sep">›</span><a href="/taxon/physalaemus/"><span class="rk">Genus</span><i>Physalaemus</i></a></nav>
+<h1>Bioacoustics of <i>Physalaemus atlanticus</i></h1>
+<p class="rank">Species</p>
+</div></header>
+<div class="glance"><div class="wrap">
+<div><b>9</b> <span>recordings</span></div>
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Paratopotypes — CFBH 1504, adult female collected on 20–21 September 1991 by C. F. B. Haddad, J. P. Pombal Jr., R. P. Bastos, L. P. C. Morellato, and E. C. Pombal; CFBH 1711, adult female collected on 3 October 1992 by R. P. Bastos and A. R. Silveira; CFBH 2108 adult female collected on 28 December 1993 – 02 January 1994 by C. F. B. Haddad; CFBH 3208, 3209, 3211, 3215­20, nine adult males collected with the holotype ; CFBH 3212–3214, three adult females collected with the holotype . Paratypes — ZUEC 620, adult female collected at Praia Domingas Dias, Municipality of Ubatuba ( 23°26’ S , 45°04’ W ), State of São Paulo, Brazil , on 9 January 1971 by I. Sazima and M. Schneider; ZUEC 2617, adult female collected at Praia Domingas Dias, Municipality of Ubatuba, State of São Paulo, Brazil , on 3–7 March 1973 by I. Sazima, M. Sazima, and O . C. de Oliveira. Diagnosis— Physalaemus atlanticus belongs to the Physalaemus signifer group (sensu Lynch, 1970 ), and is characterized by the following set of characters: (1) small size (males 20.1–22.1 mm SVL, females 21.0– 23.9 mm SVL); (2) canthus rostralis distinct; (3) dorsal skin texture smooth to slightly rugose; (4) belly orange in life; (5) pulsed advertisement call with duration of 0.6– 0.84 s and frequency between 0.9–1.8 kHz. Comparison with other species— Physalaemus atlanticus differs from P. bokermanni by its larger size ( P. bokermanni males 15.9–17.0 mm SVL; Cardoso &amp; Haddad 1985 ), advertisement call with lower frequencies, longer duration, higher pulse rate, and higher number of pulses/call, ( Cardoso &amp; Haddad 1985 ). Physalaemus atlanticus differs from P. c a e t e by its smaller size ( P. caete males 23.5–25.8 mm SVL; Pombal &amp; Madureira 1997 ), snout more acuminate, smoother dorsal skin, and more pigmented chest. Physalaemus atlanticus differs from P. crombiei by its slightly larger size ( P. crombiei males 18.9– 20.0 mm SVL; Heyer &amp; Wolf 1989 ), its narrower snout, belly orange (pinkish in P. crombiei ), advertisement call without a set of notes, with longer duration, and with lower pulse rate ( Heyer &amp; Wolf 1989 ). The new species differs from P. maculiventris (males 18.6–20.9 mm SVL; n = 5) by having a broad head and snout, snout less acuminate in dorsal view, ventral blotches absent (very conspicuous in P. maculiventris ), and advertisement call with lower frequencies and longer duration ( Heyer et al. 1990 ). Physalaemus atlanticus differs from P. moreirae by its smaller size ( P. m o re i r a e males 25.0–27.0 mm SVL; Heyer 1985 , as P. franciscae ), snout narrower and more acuminate, and advertisement call with higher frequencies, without a set of notes, and with lower pulse rate ( Heyer 1985 , as P. f r a n ­ ciscae ; Heyer &amp; Wolf 1989 , as P. franciscae ). Physalaemus atlanticus differs from P. nanus by its larger size ( P. nanus males 17.9–18.2 mm SVL, n = 5), eyes more prominent, chest more pigmented, belly orange (yellow in P. nanus , CFBH personal observation), and advertisement call with longer duration, lower frequencies, and without a set of notes ( Haddad &amp; Pombal 1998 ). Physalaemus atlanticus differs from P. s i g n i f e r by its slightly smaller size ( P. s i g n i f e r males 20.7–25.3 mm SVL, n = 5), snout more acuminate, smaller black spot on inguinal glands, and advertisement call with higher frequencies and pulsed structure ( Bokermann 1966 ; Wogel et al. 2002 ). Finally, Physalaemus atlanticus differs from the morphologically cryptic species P. spiniger (males 17.1–21.3 mm SVL, Haddad &amp; Pombal 1998 ), by its distinct advertisement call with longer duration, lower frequencies, and lower pulse rate (pulse rate of 396 pulses/s in P. s p i n i g e r ; C. F. B. Haddad unpublished data; Haddad &amp; Pombal 1998 ). Description of holotype— Body robust ( Fig. 1 ); head wider than long; snout rounded and protruding in dorsal and lateral views, respectively ( Fig. 2 A, B); nostril slightly protuberant and directed laterally; canthus rostralis distinct, slightly curved; loreal region slightly concave; eye slightly protuberant; tympanum indistinct; distinct supratympanic fold from tympanic region to shoulder; narrow and weak dorsolateral fold extending from posterior corner of eye to inguinal region; males with subgular vocal sac expanded externally and extending to border of chest; vocal slits present; choanae small, nearly round; tongue narrow, long; vomerine teeth absent; maxillary and premaxillary teeth present. Arms slender, forearms robust; fingers short; brown nuptial pad on thumb; subarticular tubercles single, protruding and rounded; outer metacarpal tubercle large and ovoid; inner metacarpal tubercle medium­sized and nearly elliptical; supernumerary tubercles small; finger tips slightly expanded; finger lengths I IV &lt;II &lt;III ( Fig. 2 C). Legs moderately robust; tibia longer than thigh; tarsal fold weakly developed; foot with an inner metatarsal tubercle slightly protruding and ovoid; outer metatarsal tubercle small, protruding, and rounded; well developed subarticular tubercles, single, protruding, and round to elliptical; toe tips slightly expanded; toe lengths I &lt;II &lt;V &lt;III &lt;IV ( Fig. 2 D). Inguinal gland large; dorsal and ventral skin smooth. Color of the holotype in preservative— Dorsum light brown with a dark brown interorbital bar; on the shoulder there is a dark brown arrow pointing to the head followed by three branches starting at the posterior part of the arrow; the two lateral branches end over the black spots on the inguinal gland, and the middle branch ends before the cloaca, where it bifurcates; a white line on the dorsolateral fold; flanks below dorsolateral fold dark brown; forearm light brown, with dark brown stain; elbow dark brown; thigh, tibia, and foot light brown, similar to the color of dorsum; dark brown transverse bar on thigh, tibia, and tarsus; cloacal region and posterior surface of thigh dark brown; belly cream; chest and throat brown. Color in life of the holotype— Dorsum light brown; dorsal marks (interorbital bar and arrow) brown bordered by a whitish line; dark brown lateral stripe from posterior corner of eye through tympanic region to groin; groin orange; inguinal gland with two black spots; forearm, thigh, tibia, and foot light brown with a dark brown transverse bar; chest and throat dark brown with white spots; belly, axilla, and ventral surfaces of thigh, tibia, foot, and arm orange; anal region black; iris brown with dark brown reticulations. Measurements of the holotype (mm)— SVL 20.5, HL 5.8, HW 7.0, TD 1.1, ED 2.0, IOD 2.4, END 1.8, IND 1.8, THL 9.7, TBL 10.2, FL 10.3. Variation in the type series— The tympanum varies from indistinct to weakly distinct. Coloration of the dorsum varies from light brown to gray. Interorbital bar and arrowshaped mark sometimes with a narrow light border. In life and preservative, the dorsal marks are not evident in some specimens. Dorsal skin texture varies from smooth to slightly rugose. Females are significantly larger ( P &lt;0.037) than males. Forearms are slen­ der in females. Females lack vocal sac and vocal slits. Measurements of 10 males and eight females are presented in Table 1 . Males ( n = 10) Females ( n = 8) Vocalizations— Advertisement calls are given frequently (approximately 48 calls/ min). The advertisement call is composed of one pulsed note with mean duration of 0.67 s (SD = 0.07, range = 0.6– 0.84 s, n = 17 vocalizations from 3 males ) and with a mean of 82.3 pulses/call (SD = 8.0, range = 74–98, n = 12 vocalizations from 3 males ); pulse rate about 122 pulses/s; pulse duration about 0.005 s ; interpulse interval generally less than 0.005 s ; the pulses generally are isolated, but some pulses are in pairs or trios; in the final part of the vocalization a mean number of 17.3 pulses (SD = 2.7, range = 13–21, n = 12 vocalizations from 3 males ) are grouped. Frequency between approximately 0.9–1.8 kHz ( Fig. 3 A–C). x SD Range x SD Range SVL 21.1 0.8 20.1–22.1 22.4 1.2 21.0–23.9 HL 6.0 0.3 5.6–6.3 6.2 0.4 5.7–7.0 HW 7.2 0.2 7.0–7.5 7.1 0.3 6.5–7.4 TD 1.1 0.1 1.0–1.3 1.2 0.3 0.9–1.7 ED 2.1 0.1 2.0–2.3 2.2 0.1 2.0–2.4 IOD 2.4 0.2 2.0–2.6 2.3 0.2 2.1–2.6 END 1.8 0.1 1.6–1.9 1.8 0.1 1.7–1.9 IND 1.9 0.1 1.8–2.0 1.9 0.1 1.8–2.0 THL 10.2 0.5 9.7–11.1 10.4 0.3 9.9–10.9 TBL 10.4 0.5 9.7–11.2 10.7 0.4 10.1–11.3 FL 10.4 0.5 9.6–11.2 10.4 0.4 9.7–11.0 Two types of interactions were identified when two neighbor males were emitting advertisement calls: (1) synchronized alternation and (2) synchronized partial overlap ( Fig. 3 C). In the first type a male intercalates its call in the interval between two calls of its neighbor; this is repeated up to five times before the second type starts. In the second type , a male superimposes the initial part of its calls to the final part of the calls of its neighbor; this interaction can be repeated 10 or more times in a series. The first type corresponded to 39% and the second type to 61% of the analyzed interactions ( n = 33). Tadpoles— Larvae were obtained in ponds and from a foam nest collected at the type locality and reared in laboratory. The following description is based on five tadpoles (CFBH 6295) in developmental stage 37 ( Gosner 1960 ). Body ovoid in dorsal and ventral views (4A, C), depressed/globular in lateral view ( Fig. 4 B); body wider than high; snout rounded; eyes small, dorsolateral; nostrils dorsal, small and rounded; nostrils about midway between the eyes and the tip of snout; spiracle sinistral, its opening posterior to the middle of body; cloacal tube medium sized, medial; caudal musculature slender; dorsal fin originating on body; dorsal fin wider than ventral fin. Oral disc directed ventrally, laterally indented, and bordered by one or two rows of small papillae, interrupted along a large area on the anterior labium; tooth row formula 2 (2)/3 (1); jaw sheath strongly developed and serrate; posterior jaw sheath v­shaped ( Fig. 4 D). In preservative, dorsum pale brown; throat and belly transparent; caudal musculature with scattered pale brown pigmentation; fins transparent with scattered white dots. Five tadpoles in developmental stage 37 measured (range, average, SD): total length 19.2–21.2 (20.2, 0.89); body length 6.5–7.5 (7.01, 0.38); body height 3.2–3.9 (3.49, 0.24); body width 4.6–5.4 (5.01, 0.37); internarial distance 0.75–0.90 (0.82, 0.05); interorbital distance 1.1–1.3 (1.16, 0.11); eye­nostril distance 0.6–0.7 (0.63, 0.03); eye diameter 0.8– 0.9 (0.8, 0.04). Newly metamorphosed individuals averaged 8.1 mm SVL (SD = 0.26, range = 7.8–8.4, n = 6). Distribution— Physalaemus atlanticus is known only from the municipality of Ubatuba, in the northern coast of São Paulo State, Brazil . All the specimens collected and observed were near the sea shore at an altitude of 0–50m , associated with ponds or leaf litter from the coastal plain forest in the Atlantic rain forest. The restricted distribution of the new species is characteristic of other species in the P. signifer group ( Heyer &amp; Wolf 1989 ). Reproduction and natural history— Physalaemus atlanticus reproduces throughout the rainy season (October–February) near places on the forest floor subject to flooding. Males call at the edges of forest ponds, in most cases from under the leaf litter. The eggs are embedded in a foam nest built on the water surface and anchored to the margins of ponds or, alternatively, on the wet leaf litter near the ponds. Embryos develop within the foam mass, and exotrophic tadpoles develop in small ponds or rock crevices (see below). The mean number of eggs per foam nest is 80.9 (SD = 25.9, range = 51–124, n = 8). Eggs are unpigmented, with average diameter of 1.6 mm (SD = 0.13, range = 1.4–1.9 mm , n = 60 eggs from six clutches), and with thin capsules of about 1.7 mm in diameter. One egg clutch reared in laboratory from stage 1 ( Gosner 1960 ) started to metamorphose after 23 days. We observed couples of P. atlanticus constructing foam nests within crevices atop the rocky seashore, close to the forest edge. The crevices held water throughout the rainy season and leaves and plant debris accumulated there, providing nourishment for microorganisms, immature aquatic phases of terrestrial insects, and presumably for the tadpoles as well. Besides tadpoles of Physalaemus atlanticus , we found tadpoles of the hylid Scinax hayi scraping on the plant debris within these micro­ponds. We recorded as many as seven foam nests in a crevice about 60 cm long, 35 cm wide, and 20 cm deep. These were adherent to each other and formed a single large mass. On three occasions we observed two couples constructing their foam nests close to each other; both clutches adhered to each other at the end of the process. On a smaller crevice, a single male attracted two females on the same night, and the formed couples constructed two foam nests that adhered to each other. During the foam nest construction the male kicks his legs alternately while in amplexus with the female. We observed predation on Physalaemus atlanticus by snakes twice. A gravid female was found in the gut of an adult Liophis miliaris (Colubridae) , and an adult male was observed while being swallowed by a juvenile Bothrops jararaca (Viperidae) at dawn. Etymology— The specific name, a Latinized adjective, refers to the habitat of the new species, the Atlantic rain forest in southeastern Brazil , where the new species may be found at the seashore.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/03BFA83EFFFA13187B7B5727FDC2B067#C30C4AA3FFFA13187B4B53E0FDC2B067">this account</a> <a href="https://treatment.plazi.org/id/03BFA83EFFFA13187B7B5727FDC2B067">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Recordings</h2>
+<p class="note">9 in audioBlast.</p><div class="recs">
+<div class="rec"><div class="t">XC971495 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">388 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2022-11-24</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=971495">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/971495">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1048024 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">474 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2020-02-17</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1048024">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1048024">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC965582 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">254 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2022-07-28</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=965582">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/965582">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC971495 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">388 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2022-11-24</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=971495">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/971495">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1048024 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">474 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2020-02-17</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1048024">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1048024">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC965582 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">254 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2022-07-28</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=965582">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/965582">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC971495 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">388 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2022-11-24</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=971495">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/971495">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC1048024 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">474 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2020-02-17</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=1048024">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/1048024">record</a></span>
+</div></div>
+<div class="rec"><div class="t">XC965582 Physalaemus atlanticus - advertisement call, territorial call</div><div class="d">254 s</div><div class="m">
+<span>Henry Miller Alexandre</span>
+<span>2022-07-28</span>
+<span><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></span>
+<span><a href="https://view.audioblast.org/?source=xeno-canto&amp;id=965582">listen ›</a></span>
+<span><a href="https://api.audioblast.org/recording/xeno-canto/965582">record</a></span>
+</div></div>
+</div>
+</div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/physalaemus/"><i>Physalaemus</i> <span class="n">991</span></a></li>
+<li><a href="/taxon/leiuperinae/"><span>Leiuperinae</span> <span class="n">1,316</span></a></li>
+<li><a href="/taxon/leptodactylidae/"><span>Leptodactylidae</span> <span class="n">4,812</span></a></li>
+<li><a href="/taxon/anura/"><span>Anura</span> <span class="n">209,175</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/physalaemus-aguirrei/"><i>Physalaemus aguirrei</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/physalaemus-albifrons/"><i>Physalaemus albifrons</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/physalaemus-albonotatus/"><i>Physalaemus albonotatus</i> <span class="n">84</span></a></li>
+<li><a href="/taxon/physalaemus-atim/"><i>Physalaemus atim</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/physalaemus-barrioi/"><i>Physalaemus barrioi</i> <span class="n">2</span></a></li>
+<li><a href="/taxon/physalaemus-biligonigerus/"><i>Physalaemus biligonigerus</i> <span class="n">90</span></a></li>
+<li><a href="/taxon/physalaemus-bokermanni/"><i>Physalaemus bokermanni</i> <span class="n">9</span></a></li>
+<li><a href="/taxon/physalaemus-carrizorum/"><i>Physalaemus carrizorum</i> <span class="n">3</span></a></li>
+<li><a href="/taxon/physalaemus-centralis/"><i>Physalaemus centralis</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/physalaemus-cicada/"><i>Physalaemus cicada</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/physalaemus-cuvieri/"><i>Physalaemus cuvieri</i> <span class="n">312</span></a></li>
+<li><a href="/taxon/physalaemus-fernandezae/"><i>Physalaemus fernandezae</i> <span class="n">20</span></a></li>
+<li><a href="/taxon/physalaemus-fischeri/"><i>Physalaemus fischeri</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/physalaemus-gracilis/"><i>Physalaemus gracilis</i> <span class="n">147</span></a></li>
+<li><a href="/taxon/physalaemus-kroyeri/"><i>Physalaemus kroyeri</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/physalaemus-lateristriga/"><i>Physalaemus lateristriga</i> <span class="n">12</span></a></li>
+<li><a href="/taxon/physalaemus-lisei/"><i>Physalaemus lisei</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/physalaemus-obtectus/"><i>Physalaemus obtectus</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/physalaemus-riograndensis/"><i>Physalaemus riograndensis</i> <span class="n">51</span></a></li>
+<li><a href="/taxon/physalaemus-signifer/"><i>Physalaemus signifer</i> <span class="n">18</span></a></li>
+<li><a href="/taxon/physalaemus-nattereri/"><i>Physalaemus nattereri</i> <span class="n">14</span></a></li>
+<li><a href="/taxon/physalaemus-olfersii/"><i>Physalaemus olfersii</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/physalaemus-spiniger/"><i>Physalaemus spiniger</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/physalaemus-ephippifer/"><i>Physalaemus ephippifer</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/physalaemus-nanus/"><i>Physalaemus nanus</i> <span class="n">87</span></a></li>
+<li><a href="/taxon/physalaemus-moreirae/"><i>Physalaemus moreirae</i> <span class="n">24</span></a></li>
+<li><a href="/taxon/physalaemus-cristinae/"><i>Physalaemus cristinae</i> <span class="n">4</span></a></li>
+<li><a href="/taxon/physalaemus-erikae/"><i>Physalaemus erikae</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-erythros/"><i>Physalaemus erythros</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-feioi/"><i>Physalaemus feioi</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-irroratus/"><i>Physalaemus irroratus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-orophilus/"><i>Physalaemus orophilus</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-maculiventris/"><i>Physalaemus maculiventris</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-araxa/"><i>Physalaemus araxa</i> <span class="n">—</span></a></li>
+<li><a href="/taxon/physalaemus-claptoni/"><i>Physalaemus claptoni</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="xeno-canto"><img class="mk" src="/logo/xeno-canto.png" alt="" width="16" height="16" loading="lazy">xeno-canto</span></td><td><i>Physalaemus atlanticus</i></td><td>Species</td><td>—</td><td class="n"><a href="https://api.audioblast.org/taxon/xeno-canto/Physalaemus atlanticus">xeno-canto/Physalaemus atlanticus</a></td></tr>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Physalaemus atlanticus</i></td><td>Species</td><td>Leiuperidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Physalaemus atlanticus">Plazi/Physalaemus atlanticus</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/physalaemus-atlanticus/&quot;,
+  &quot;name&quot;: &quot;Physalaemus atlanticus&quot;,
+  &quot;taxonRank&quot;: &quot;species&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/physalaemus-atlanticus/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/4HF8T&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Physalaemus&quot;,
+    &quot;taxonRank&quot;: &quot;genus&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/physalaemus/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/4HF8T</p>
+</div></footer>
+</body>
+</html>

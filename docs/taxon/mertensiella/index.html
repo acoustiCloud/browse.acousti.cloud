@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Mertensiella</title>
+<meta name="description" content="Mertensiella in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/mertensiella/">
+<meta property="og:title" content="Bioacoustics of Mertensiella">
+<meta property="og:description" content="Mertensiella in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/5PFT">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/mertensiella/", "name": "Mertensiella", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/mertensiella/", "sameAs": "https://api.audioblast.org/taxon/CoL/5PFT", "parentTaxon": {"@type": "Taxon", "name": "Salamandrinae", "taxonRank": "subfamily", "url": "https://browse.acousti.cloud/taxon/salamandrinae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Chordata", "item": "https://browse.acousti.cloud/taxon/chordata/"}, {"@type": "ListItem", "position": 4, "name": "Vertebrata", "item": "https://browse.acousti.cloud/taxon/vertebrata/"}, {"@type": "ListItem", "position": 5, "name": "Gnathostomata", "item": "https://browse.acousti.cloud/taxon/gnathostomata/"}, {"@type": "ListItem", "position": 6, "name": "Osteichthyes", "item": "https://browse.acousti.cloud/taxon/osteichthyes/"}, {"@type": "ListItem", "position": 7, "name": "Tetrapoda", "item": "https://browse.acousti.cloud/taxon/tetrapoda/"}, {"@type": "ListItem", "position": 8, "name": "Amphibia", "item": "https://browse.acousti.cloud/taxon/amphibia/"}, {"@type": "ListItem", "position": 9, "name": "Caudata", "item": "https://browse.acousti.cloud/taxon/caudata/"}, {"@type": "ListItem", "position": 10, "name": "Salamandridae", "item": "https://browse.acousti.cloud/taxon/salamandridae/"}, {"@type": "ListItem", "position": 11, "name": "Salamandrinae", "item": "https://browse.acousti.cloud/taxon/salamandrinae/"}, {"@type": "ListItem", "position": 12, "name": "Mertensiella", "item": "https://browse.acousti.cloud/taxon/mertensiella/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/chordata/"><span class="rk">Phylum</span><span>Chordata</span></a><span class="sep">›</span><a href="/taxon/vertebrata/"><span class="rk">Subphylum</span><span>Vertebrata</span></a><span class="sep">›</span><a href="/taxon/gnathostomata/"><span class="rk">Infraphylum</span><span>Gnathostomata</span></a><span class="sep">›</span><a href="/taxon/osteichthyes/"><span class="rk">Parvphylum</span><span>Osteichthyes</span></a><span class="sep">›</span><a href="/taxon/tetrapoda/"><span class="rk">Megaclass</span><span>Tetrapoda</span></a><span class="sep">›</span><a href="/taxon/amphibia/"><span class="rk">Class</span><span>Amphibia</span></a><span class="sep">›</span><a href="/taxon/caudata/"><span class="rk">Order</span><span>Caudata</span></a><span class="sep">›</span><a href="/taxon/salamandridae/"><span class="rk">Family</span><span>Salamandridae</span></a><span class="sep">›</span><a href="/taxon/salamandrinae/"><span class="rk">Subfamily</span><span>Salamandrinae</span></a></nav>
+<h1>Bioacoustics of <i>Mertensiella</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Otic–occipitum complex ( Fig. 4D ) The prominentiae semicircularis anterioris, lateralis and posterioris are evident and rounded. Among them, a deep middle depression shows no minor foramina in its floor. The prominentia semicircularis posterioris is extended posteriorly and ventrally between the cotyle and the parotic process. The circular fenestra ovalis is almost perpendicular to the vertical, and its anterior edge is anterior to the mid-length of the complex. The low parietal crest begins from the proximal edge of the tectum synoticum and reaches the anteriormost point of the prominentia semicircularis anterioris; it is higher in its posterior part. The parotic crest is particularly high on top of the prominentia semicircularis lateralis. The parotic process is absent. The tectum synoticum is rectangular in dorsal view, and its anterior edge in medial view is posterior to the mid-length of the complex. The tectum is extended medially beyond the prefacial commissure, but a small concavity is visible between them. The tectum synoticum is almost as medially extended as the hypochordal commissure. The postoticum foramen is circular, surrounded posteriorly by both the cotyle and the lamina of the tectum synoticum. The articular surfaces of the otic process and the processus basalis are kidney-shaped and separated by a deep sulcus petrosus. The otic process forms a short and cylindrical anterolateral process, which is more anteriorly developed than the processus basalis. The basicapsular commissure is extended medially beyond the prefacial one, and the foramen prooticum is not surrounded by bone. The auditory cavity is deep, with isolated foramina for the different branches of the acoustic nerve. In ventral view, a low medial crest runs along the medial side of the ventral surface of the complex. The crista retrosellaris between the basicapsular and hypochordal commissures occupies less than half of the fenestra basicranialis. The fenestra basicranialis is a wide concavity between the crista and the hypochordal commissure. The ventral surface bears one or more small foramina in addition to the foramen faciale, and the sulcus carotis is medially extended beyond the low medial crest. Atlas ( Fig. 6F ) The neural canal is circular in anterior view, with a height similar to or slightly higher than that of the occipital joints. In posterior view, the neural canal is twice as wide as the circular cotyle. The occipital joints are circular or elliptical, with the minor axis being horizontal (or sub-horizontal). The articular facets of the odontoid process are separated by a wide groove on the ventral surface. In ventral view, the base of the odontoid process is wider than each occipital joint. The neural crest is absent or low, hourglass-shaped (broadening anteriorly and posteriorly), and its anterior end lies posterior to the anterior edge of the neural arch. The secondary crests broaden anteriorly; they are higher than the neural crest and parallel to the dorsal edge of the neural arch. A short neural spine is generally present. The incisura vertebralis cranialis is wide. In lateral view, the dorsal edge of the neural arch is sub-horizontal. The neural arch between the incisura caudalis and the cotyle is convex. The maximum concavity of the incisura vertebralis caudalis is dorsal to the horizontal plane containing the maximum concavity of the incisura vertebralis cranialis. The inferior and lateral crests are low or absent. In posterior view, the neural arch is dorsally convex (inverted U-shaped) or flat. Less than onethird of the postzygapophyses is extended posteriorly beyond the cotyle in lateral view. In dorsal view, the neural arch is flat anteriorly and posteriorly, or a small incisura dorsalis is visible in the middle of the posterior edge. The cotyle is generally not visible in dorsal view. The ventral surface bears more than two foramina. Precaudal vertebrae ( Fig. 10A ) The vertebrae are opisthocoelous, elongate and dorsoventrally flattened, such that in lateral view, only one-fifth of the vertebral height is formed by the neural arch dorsal to the prezygapophyses. The neural canal is pentagonal or elliptical, with a horizontal major axis. Diapophyses and parapophyses are connected by a lamina that usually reaches their distal ends. The lamina of the transverse processes is distally linear or only slightly concave. The neural crest is blade-like and not posteriorly enlarged, and it starts anteriorly from the line connecting the posterior edges of the prezygapophyses or posterior to it. The neural spine is low or absent. The lateral surface of the vertebra shows more than one foramen. In anterior view, a foramen is visible at the base of parapophyses. The anterior zygapophyseal crests are low or absent, whereas the posterior ones are present and contact the transverse processes distally or at their mid-length. In lateral view, the anterior edge of the neural arch dorsal to the prezygapophyses is generally not visible, and it is vertical between them and the condyle. The incisura vertebralis caudalis is usually deep and not covered by the transverse processes, and the neural arch between it and the cotyle is inclined, concave or convex. Less than half of the postzygapophyses is extended posteriorly beyond the cotyle. The small incisura dorsalis in dorsal view is formed by the neural arch, and it is visible only in part in posterior view (the dorsal edge of the neural arch is slightly wavy). In dorsal view, the anterior edge of the neural arch is concave, and the condyle is visible, whereas the cotyle is not visible. Pre- and postzygapophyses are elliptical. In all specimens, the postzygapophyses show a peculiar ventrolateral fold. The ventral lamina is absent or reduced in size (in this case, symmetrically rhomboidal). The posterior ventral crests do not reach the cotyle. The ventral surface is generally smooth. Caudal vertebrae ( Fig. 12E ) The caudal vertebrae are not particularly high (height/ length ratio &lt;1.25), with a generally rectangular shape in lateral view, owing to the large posterodorsal and posteroventral edges of the neural and haemal arches, which are bifurcated posteriorly. The neural canal is elliptical, whereas the haemal canal is pentagonal or circular. The neural canal is as high as and slightly wider than (or as wide as) the haemal canal. The transverse processes are transformed into horizontal laminae or absent. The neural and haemal crests are high, posteriorly enlarged and symmetrical. The haemal crest generally projects more anteriorly than the haemal arch, forming a sharp or rounded tip in lateral view. Anterior and posterior zygapophyseal crests are horizontal or ventrally concave. The posterior ventral crests start a bit dorsally to the posteroventral tip of the haemal crest, and the ventral crest is sometimes forked posteriorly. In lateral view, anterior and posterior ventral crests form an angle&gt; 130°. The anterior ventral crests are project anteriorly to a variable exent compared with the haemal arch. The lateral surface is highly perforated, with multiple crests and small foramina, and a large foramen on the haemal arch is variably present. In lateral view, the anterior edge of the haemal arch is convex or anteriorly inclined between the centrum and the anterior ventral crest, and concave or posteriorly inclined ventral to the anterior ventral crest. The posteroventral end of the haemal arch forms a sharp tip in lateral view.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/9750C307FF824C3DFE8AF3ADFD1DFA1D#57E3219AFF824C3DFF1CF212FD1DFA1D">this account</a> <a href="https://treatment.plazi.org/id/9750C307FF824C3DFE8AF3ADFD1DFA1D">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/salamandrinae/"><span>Salamandrinae</span> <span class="n">6</span></a></li>
+<li><a href="/taxon/salamandridae/"><span>Salamandridae</span> <span class="n">19</span></a></li>
+<li><a href="/taxon/caudata/"><span>Caudata</span> <span class="n">32</span></a></li>
+<li><a href="/taxon/amphibia/"><span>Amphibia</span> <span class="n">209,209</span></a></li>
+<li><a href="/taxon/tetrapoda/"><span>Tetrapoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/osteichthyes/"><span>Osteichthyes</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/gnathostomata/"><span>Gnathostomata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/vertebrata/"><span>Vertebrata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/chordata/"><span>Chordata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/salamandra/"><i>Salamandra</i> <span class="n">6</span></a></li>
+<li><a href="/taxon/chioglossa/"><i>Chioglossa</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Mertensiella</i></td><td>Genus</td><td>Salamandridae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Mertensiella">Plazi/Mertensiella</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/mertensiella/&quot;,
+  &quot;name&quot;: &quot;Mertensiella&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/mertensiella/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/5PFT&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Salamandrinae&quot;,
+    &quot;taxonRank&quot;: &quot;subfamily&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/salamandrinae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/5PFT</p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bioacoustics of Sicarius</title>
+<meta name="description" content="Sicarius in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<link rel="canonical" href="https://browse.acousti.cloud/taxon/sicarius/">
+<meta property="og:title" content="Bioacoustics of Sicarius">
+<meta property="og:description" content="Sicarius in audioBlast: 0 recordings, 0 trait measurements, and the sources that hold them.">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/ld+json" href="https://api.audioblast.org/taxon/CoL/CVPKF">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap">
+<style>
+:root{
+  --paper:#f4f6f7; --surface:#ffffff; --sunk:#eceff2;
+  --ink:#121a20; --muted:#5b6b78; --rule:#dbe1e6;
+  --accent:#a8480c; --accent-soft:#f3e3d8; --signal:#14595f;
+  --display:"Spectral",Georgia,"Times New Roman",serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --gut:clamp(16px,4vw,40px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}}
+:root[data-theme="dark"]{
+  --paper:#0d1216; --surface:#141c22; --sunk:#19232a;
+  --ink:#e4ebf0; --muted:#94a5b2; --rule:#25313a;
+  --accent:#e5945c; --accent-soft:#2e2019; --signal:#63b6bc;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+     font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:var(--gut)}
+a{color:var(--signal);text-underline-offset:2px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+
+.masthead{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead .wrap{padding-block:clamp(22px,4vw,40px) clamp(18px,3vw,28px)}
+.crumb{margin:0 0 14px;font-family:var(--data);font-size:12.5px;color:var(--muted);
+       display:flex;flex-wrap:wrap;gap:3px 7px;align-items:baseline;line-height:1.7}
+.crumb i{font-style:italic}
+.crumb .sep{color:var(--rule)}
+.crumb a{color:var(--muted);text-decoration:none;display:inline-flex;flex-direction:column;
+         gap:1px;padding-bottom:1px;border-bottom:1px solid transparent}
+.crumb a:hover{color:var(--accent);border-bottom-color:currentColor}
+.crumb .rk{font-size:9px;letter-spacing:.11em;text-transform:uppercase;opacity:.62;line-height:1.3}
+.crumb .sep{align-self:flex-end;padding-bottom:2px}
+h1{margin:0;font-family:var(--display);font-weight:600;
+   font-size:clamp(2rem,6vw,3.2rem);line-height:1.05;letter-spacing:-.01em;text-wrap:balance}
+h1 i{font-style:italic}
+.lede{margin:18px 0 0;max-width:62ch;font-family:var(--display);font-size:1.12rem;
+      line-height:1.65;color:var(--ink)}
+.groups{margin:0;padding:0;list-style:none;display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:0 28px}
+.groups li{border-bottom:1px solid var(--rule)}
+.groups a{display:grid;grid-template-columns:1fr auto;align-items:baseline;gap:2px 14px;
+          padding:11px 0;text-decoration:none;color:var(--ink)}
+.groups a:hover{color:var(--accent)}
+.groups .what{font-family:var(--display);font-size:1.12rem;line-height:1.3}
+.groups .sci{grid-row:2;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.groups .n{grid-row:1;font-family:var(--data);font-size:12.5px;
+           font-variant-numeric:tabular-nums;color:var(--muted)}
+.groups a:hover .n,.groups a:hover .sci{color:var(--accent)}
+.srcof{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;vertical-align:baseline}
+.mk{width:16px;height:16px;flex:none;border-radius:3px;object-fit:contain}
+.mk.mono{display:inline-flex;align-items:center;justify-content:center;background:var(--muted);
+         color:var(--surface);font-family:var(--data);font-size:9px;font-weight:600;line-height:1}
+.tiles{margin:0 0 6px;padding:0;list-style:none;display:grid;
+       grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.tiles li{border-bottom:1px solid var(--rule)}
+.tiles a{display:flex;justify-content:space-between;gap:12px;padding:7px 0;align-items:baseline;
+         text-decoration:none;color:var(--ink)}
+.tiles a:hover{color:var(--accent)}
+.tiles .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tiles a:hover .n{color:var(--accent)}
+.rank{margin:9px 0 0;font-family:var(--data);font-size:12px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--accent)}
+.vern{margin:16px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:7px 18px;
+      font-family:var(--display);font-size:1.06rem}
+.vern li{display:flex;align-items:baseline;gap:7px}
+.vern code{font-family:var(--data);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;
+           color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:1px 5px}
+
+.glance{background:var(--sunk);border-bottom:1px solid var(--rule)}
+.glance .wrap{padding-block:15px;display:flex;flex-wrap:wrap;gap:9px 28px}
+.glance div{display:flex;align-items:baseline;gap:7px}
+.glance b{font-family:var(--data);font-weight:500;font-variant-numeric:tabular-nums}
+.glance span{font-size:12.5px;color:var(--muted)}
+
+section{border-bottom:1px solid var(--rule)}
+section .wrap{padding-block:clamp(28px,4.5vw,44px)}
+h2{margin:0 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;letter-spacing:.16em;
+   text-transform:uppercase;color:var(--accent)}
+.note{margin:0 0 22px;font-size:13.5px;color:var(--muted);max-width:68ch}
+.prose{max-width:72ch;font-family:var(--display);font-size:1.1rem;line-height:1.72}
+.prose p{margin:0 0 1em}
+.src{margin:-.4em 0 1.6em;font-family:var(--data);font-size:11.5px;color:var(--muted)}
+.src a{color:var(--muted)}
+.src a:hover{color:var(--accent)}
+.topic{margin:0 0 7px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+       text-transform:uppercase;color:var(--muted)}
+
+.traits{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
+        background:var(--rule);border:1px solid var(--rule)}
+.trait{background:var(--surface);padding:15px 17px;display:flex;flex-direction:column;gap:6px}
+.trait h3{margin:0;font-size:13.5px;font-weight:600;line-height:1.35}
+.trait h3 a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--rule)}
+.vals{margin:0;font-family:var(--data);font-size:1.15rem;font-variant-numeric:tabular-nums;
+      color:var(--signal);line-height:1.3;word-break:break-word}
+.qual{margin:0;font-size:11.5px;color:var(--muted)}
+.vals a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
+.vals a:hover{color:var(--accent);border-bottom-color:currentColor}
+h3.sub{margin:30px 0 6px;font-family:var(--data);font-size:11.5px;font-weight:500;
+       letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+tr:target td{background:var(--accent-soft)}
+
+.recs{border:1px solid var(--rule);background:var(--surface)}
+.rec{display:grid;grid-template-columns:1fr auto;gap:3px 18px;padding:13px 17px;
+     border-bottom:1px solid var(--rule);align-items:baseline}
+.rec:last-child{border-bottom:none}
+.rec .t{font-weight:500;font-size:14.5px}
+.rec .d{font-family:var(--data);font-size:13px;font-variant-numeric:tabular-nums;color:var(--signal)}
+.rec .m{grid-column:1/-1;font-family:var(--data);font-size:11.5px;color:var(--muted);
+        display:flex;flex-wrap:wrap;gap:3px 13px}
+.more{margin:14px 0 0;font-size:13px;color:var(--muted)}
+
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+figure{margin:0;background:var(--surface);border:1px solid var(--rule);overflow:hidden;
+       display:flex;flex-direction:column}
+figure img{display:block;width:100%;height:auto;background:var(--sunk)}
+figcaption{padding:10px 13px;font-size:12px;color:var(--muted);font-family:var(--data);
+           display:flex;flex-direction:column;gap:3px;border-top:1px solid var(--rule)}
+figcaption b{color:var(--ink);font-weight:500;letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+
+.nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px}
+.nav h3{margin:0 0 10px;font-family:var(--data);font-size:11px;letter-spacing:.12em;
+        text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column}
+.nav li{border-bottom:1px solid var(--rule)}
+.nav li:last-child{border-bottom:none}
+.nav a{display:flex;justify-content:space-between;gap:14px;padding:8px 0;text-decoration:none;
+       align-items:baseline;color:var(--ink)}
+.nav a:hover{color:var(--accent)}
+.nav .n{font-family:var(--data);font-size:12px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.nav a:hover .n{color:var(--accent)}
+.nav .none{color:var(--muted);font-size:12.5px;padding:8px 0}
+
+table.grid{width:100%;border-collapse:collapse;font-size:14px}
+table.grid th{text-align:left;font-family:var(--data);font-size:10.5px;letter-spacing:.1em;
+      text-transform:uppercase;color:var(--muted);font-weight:500;
+      padding:0 18px 9px 0;border-bottom:1px solid var(--rule);white-space:nowrap}
+table.grid td{padding:10px 18px 10px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.grid td.n{font-family:var(--data);font-variant-numeric:tabular-nums;white-space:nowrap}
+.scroll{overflow-x:auto}
+
+.refs{margin:0;padding:0;list-style:none;max-width:78ch;display:flex;flex-direction:column;gap:15px}
+.refs li{padding-left:15px;border-left:2px solid var(--rule);font-size:14.5px;line-height:1.55}
+.refs .who{font-weight:500}
+.refs .where{color:var(--muted);font-size:13.5px}
+
+details{border:1px solid var(--rule);background:var(--surface)}
+summary{padding:13px 17px;cursor:pointer;font-family:var(--data);font-size:12.5px;color:var(--ink)}
+summary::marker{color:var(--accent)}
+pre{margin:0;padding:17px;background:var(--sunk);border-top:1px solid var(--rule);
+    overflow-x:auto;font-family:var(--data);font-size:11.5px;line-height:1.6}
+
+footer .wrap{padding-block:30px 40px;font-size:12.5px;color:var(--muted);
+             display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+footer .iri{font-family:var(--data);font-size:11.5px;word-break:break-all}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<script type="application/ld+json">{"@context": ["https://schema.org/", {"dwc": "http://rs.tdwg.org/dwc/terms/"}], "@type": "Taxon", "@id": "https://browse.acousti.cloud/taxon/sicarius/", "name": "Sicarius", "taxonRank": "genus", "url": "https://browse.acousti.cloud/taxon/sicarius/", "sameAs": "https://api.audioblast.org/taxon/CoL/CVPKF", "parentTaxon": {"@type": "Taxon", "name": "Sicariidae", "taxonRank": "family", "url": "https://browse.acousti.cloud/taxon/sicariidae/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Eukaryota", "item": "https://browse.acousti.cloud/taxon/eukaryota/"}, {"@type": "ListItem", "position": 2, "name": "Animalia", "item": "https://browse.acousti.cloud/taxon/animalia/"}, {"@type": "ListItem", "position": 3, "name": "Arthropoda", "item": "https://browse.acousti.cloud/taxon/arthropoda/"}, {"@type": "ListItem", "position": 4, "name": "Chelicerata", "item": "https://browse.acousti.cloud/taxon/chelicerata/"}, {"@type": "ListItem", "position": 5, "name": "Arachnida", "item": "https://browse.acousti.cloud/taxon/arachnida/"}, {"@type": "ListItem", "position": 6, "name": "Araneae", "item": "https://browse.acousti.cloud/taxon/araneae/"}, {"@type": "ListItem", "position": 7, "name": "Sicariidae", "item": "https://browse.acousti.cloud/taxon/sicariidae/"}, {"@type": "ListItem", "position": 8, "name": "Sicarius", "item": "https://browse.acousti.cloud/taxon/sicarius/"}]}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+<nav class="crumb" aria-label="Classification"><a href="/taxon/eukaryota/"><span class="rk">Domain</span><span>Eukaryota</span></a><span class="sep">›</span><a href="/taxon/animalia/"><span class="rk">Kingdom</span><span>Animalia</span></a><span class="sep">›</span><a href="/taxon/arthropoda/"><span class="rk">Phylum</span><span>Arthropoda</span></a><span class="sep">›</span><a href="/taxon/chelicerata/"><span class="rk">Subphylum</span><span>Chelicerata</span></a><span class="sep">›</span><a href="/taxon/arachnida/"><span class="rk">Class</span><span>Arachnida</span></a><span class="sep">›</span><a href="/taxon/araneae/"><span class="rk">Order</span><span>Araneae</span></a><span class="sep">›</span><a href="/taxon/sicariidae/"><span class="rk">Family</span><span>Sicariidae</span></a></nav>
+<h1>Bioacoustics of <i>Sicarius</i></h1>
+<p class="rank">Genus</p>
+</div></header>
+<div class="glance"><div class="wrap">
+</div></div>
+<section><div class="wrap"><h2>Account</h2>
+<p class="note">What the sources say about this taxon, as written.</p><div class="prose">
+<p class="topic">diagnosis · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Diagnosis . Sicarius species differ from those of Loxosceles by having the dorsal surface of the carapace, opisthosoma, and legs covered by club-shaped macrosetae and setae with hairlettes to which soil particles adhere ( Figs 2 , 22–24, 26 , 29 , 33–40 ; Duncan et al. 2007 ); endites without serrula; a stridulatory apparatus composed by a line of several picks (usually three to seven) in the prolateral face of the palpal femur ( Figs 13–16 ) and a rugose retrolateral surface in the chelicerae, with closely spaced ridges ( Figs 3–4 ) ( Loxosceles species usually have only one minute pick in the palpal femur, and the ridges in the chelicerae are shallow and more widely spaced; Labarque &amp; Ramírez 2012 ); a greatly elongated distal tooth in the leg tarsal claws ( Fig. 17 ); spinnerets that are covered by dense tufts of setae, without colulus ( Figs 31–32 ); posterior respiratory system without lateral trachea ( Fig. 9 ); and presence, in adult females, of a dense tuft of plumose setae just anterior to the spinnerets ( Figs 10–11 , 31 ; Levi &amp; Levi 1969 , figs 7–8). Sicarius is also characteristic by their distinct behavior of burying themselves in fine sediment ( Fig. 41 ; Reinskind 1966) and by the unique shape of their eggsacs ( Figs 45, 46 ; Levi &amp; Levi 1969 ; Aguilar &amp; Méndez 1971 ).</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/038987D6FF9DFFC7FF2E7766FDB174E8#C33A654BFF9DFFC3FF2E743AFB3B76DA">this account</a> <a href="https://treatment.plazi.org/id/038987D6FF9DFFC7FF2E7766FDB174E8">at Plazi</a></p>
+<p class="topic">description · <span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></p><p>Description (only for Brazilian Caatinga species) . Carapace wider than long, with narrower cephalic region ( Fig. 2 ). Carapace with two central groups of club-shaped macrosetae in its median region, surrounded by ten smaller groups of macrosetae ( Figs 2 , 29 ). Club-shaped macrosetae present in the lateral borders of the thoracic region ( Figs 2 , 29 ). Frontal face of the chelicerae densely covered by club-shaped macrosetae ( Figs 3, 5–6 ) with a sculptured surface ( Fig. 7 ). Retrolateral face of the chelicerae with a ridged cuticle, which is part of the stridulatory apparatus ( Figs 3–4 ). Chelicerae without cheliceral teeth, with a large, white, rounded promarginal lobe and an acute cheliceral lamina ( Fig. 12 ). Prolateral face of the palpal femur with three to seven short, robust and pyramidal picks ( Figs 13–16 ). Six eyes grouped in two lateral pairs and a median pair. Lateral eyes sitting on small protuberances covered by club-shaped macrosetae ( Fig. 2 ). Labium longer than wide, distally pointed and partially fused to sternum ( Figs 5–6 ). Endites longer than labium and distally bent, almost touching each other anteriorly to the labium ( Figs 5–6 ). Sternum cordiform, with a posterior notch ( Fig. 5 ). Anterior face of the leg femora with 1-6 groups of black setae ( Figs 18–20 , 30 ; often reduced in S. tropicus ); these setae seem to lack hairlettes and the number and disposition of their groups is variable both within and among species. These groups of black setae are often associated with chemosensory setae ( Fig. 20 , arrow). Femora with four dorsal rows of club-shaped macrosetae and a thin longitudinal line of totally exposed cuticle ( Fig. 19 ). Tibiae with eight rows of pointed macrosetae, two dorsal, four lateral and two ventral; the two ventral ones have large macrosetae interposed with small macrosetae as in Mimetidae . Trichobotriae with rounded, broad, shallow sockets ( Fig. 21 ). Tarsal claws with distal tooth distinctively longer than the others ( Fig. 17 ). Lateral and dorsal faces of the opisthosoma covered by club-shaped macrosetae ( Figs 8 , 27 ) arranged in 4–8 paired groups of 3–20 macrosetae. Adult females with a dense group of plumose setae anterior to the spinnerets ( Figs 10–11 , 31 ; Levi &amp; Levi 1969 , figs 7–8). Colulus absent ( Fig. 32 ). Spinnerets short and covered by dense groups of black, clavate setae. Anterior lateral spinnerets with piriform gland spigots, posterior median spinnerets and posterior lateral spinnerets with aciniform gland spigots ( Fig. 32 ). Setae from the carapace, abdomen and appendages with hairlettes to which soil particles adhere ( Figs 22–24, 26–27 ). Carapace and chelicerae reddish-brown; sternum brownish-orange; endites brown; labium brown, with an anterior white border; legs yellowish orange; opisthosoma brownish-grey, lightly colored. All species very similar in external morphology ( Figs 33–40 ). Very subtle sexual dimorphism: males have legs approximately 30% longer and smaller opisthosomas, but are very similar in body length to females. The number of picks in the palpal femur does not seem to vary between sexes of the same species. Male palpal cymbium cup-shaped, sometimes slightly anteriorly projected ( Figs 48 , 64 , 88 , 104 ), dorsally covered by club-shaped macrosetae ( Figs 124, 126, 128, 130 ) and with feathery setae near the insertion of the bulb ( Figs 25 , 125, 127, 129, 131 ). Piriform palpal bulb, usually simple, with three distinguishable regions: a rounded base where the coiled sperm ducts are visible by transparency, a tapered cone-like body and a thin embolus that may be bent in relation to the body ( Fig. 28 ). The embolus is complex and has a keel in S. ornatus n. sp. ( Figs 104–109 , 130–133 ). Females with internal genitalia small and very lightly sclerotized ( Figs 134–141 ), composed of a dorsal membrane ( Figs 9 , 142–149 ), inserted posteriorly to the epigastric furrow, and a ventral region from which the spermathecae are projected ( Figs 142–148 ), inserted anteriorly to the epigastric furrow. Spermathecae with numerous branches which have a rounded to oval reservoir in the apex and are covered with small pores, especially on the ventral surface ( Figs 134–141 , 147, 149 ). These pores have a small flagellum arising from them ( Figs 147, 149 ) and may be glandular openings. Subadult females have incipient spermathecae, without pores, which sometimes allow correct identification ( Figs 62–63 , 86–87 , 102–103 , 122–123 ), but they differ from adult females by lacking the setae tuft near the spinnerets. Genitalic variation. The genitalia of both sexes vary in shape within species, especially in females. No two individuals have the same number and shape of spermathecae branches. Actually, even in the same individual the spermathecae is usually asymmetrical. This variation is geographically structured: individuals from the same population usually have more similar genitalia than those of different populations. This sometimes may hamper identification, for the variation within species is almost as large as that among species. Similar variation in female genitalic morphology has already been reported for Loxosceles intermedia Mello-Leitão ( Buckup 1980 ) . To delimit species, we associated female morphotypes with those of males, since both sexes are frequently collected together, and took hints from geographical distribution. Sometimes a reliable identification can only be made if males from the same locality are known, but there are localities where two species coexist. We tried to represent as much of the variation of each species as we could, but as more localities are sampled, more variants will likely be discovered. Natural history and behavior. Sicarius spiders from Brazil are found almost exclusively in the Brazilian Caatinga, with isolated records from Restinga (xeric coastal vegetation growing on sandy soils) and dry forest enclaves in the Cerrado domain (a Neotropical savanna) ( Figs 150–166 ). They are frequently found in caves in Caatinga areas. Individuals remain buried under fine, dry sediment during daytime ( Fig. 41 ), always under some cover: fallen logs, rocks, palm leaves, dry cattle dung, etc. Their burying behavior is stereotyped and has been described in detail by Reiskind (1966) . Individuals are often found near exuviae, suggesting they are relatively sedentary. Exuviae are usually found hanging upside down from rocks, logs and cave walls ( Fig. 42 ). Sometimes different individuals are found sharing the same log or site, especially adult couples. When disturbed, Sicarius spiders remain almost completely motionless, probably relying on the camouflage provided by the soil particles adhered to their cuticles as a defense. However, they also move their palps in a dorsoventral fashion, scratching the palpal picks against the ridged surface of the chelicerae. This can be noticed as a very subtle vibration. As this behavior was only observed by us when Sicarius spiders were held with a forceps or otherwise molested, we believe it to be a response to predators; the mechanism by which it helps avoiding predation is not known, however. The possibility of a sexual function of the stridulating behavior also cannot be dismissed (see Huber 1995 for a description of stridulatory behavior in courtship of pholcid spiders). They appear to be generalists in relation to feeding behavior, being observed preying upon different orders of insects, other spiders and even conspecifics in the field. They usually grab prey passing nearby when they are buried, and eat it either covered or not. We found spermatic webs of males of S. tropicus ( Fig. 43 ), which are Y-shaped as reported by Levi (1967) . The only species of which we have observed mating is S. cariri n. sp. : we found a couple engaged in copulation in the field ( Fig. 44 ), in the same position reported by Levi &amp; Levi (1969) for an Argentinian species, for which we believe this may be a conserved behavior in at least some species. Eggsacs have the same shape reported for other South American species of the genus ( Figs 45, 46 ; Levi &amp; Levi 1969 ; Aguilar &amp; Méndez 1971 ) and are found adhered upside-down under logs and stones. Sometimes three to four eggsacs are found piled up, the ones in the base already with a small hole in the lid from where juveniles leave. It seems that juveniles remain in the eggsac for some time after the eggs hatch: we have opened eggsacs found in the field and juveniles readily came out. These notes come from anecdotal observations from the field and laboratory, but we believe many of the behaviors observed by us may be widespread in South American species of the genus. For more details on natural history, see species descriptions.</p><p class="src"><a href="https://api.audioblast.org/description/Plazi/038987D6FF9DFFC7FF2E7766FDB174E8#C33A654BFF9DFFC7FF7E75A0FDB174E8">this account</a> <a href="https://treatment.plazi.org/id/038987D6FF9DFFC7FF2E7766FDB174E8">at Plazi</a></p>
+</div></div></section>
+<section><div class="wrap"><h2>Browse</h2>
+<p class="note">Counts are recordings at or below each taxon, so an empty branch shows as empty before you click it. A dash means the join view holds no column for that rank and cannot roll up to it.</p><div class="nav">
+<div><h3>Higher classification</h3>
+<ul>
+<li><a href="/taxon/sicariidae/"><span>Sicariidae</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/araneae/"><span>Araneae</span> <span class="n">90</span></a></li>
+<li><a href="/taxon/arachnida/"><span>Arachnida</span> <span class="n">103</span></a></li>
+<li><a href="/taxon/chelicerata/"><span>Chelicerata</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/arthropoda/"><span>Arthropoda</span> <span class="n">—</span></a></li>
+<li><a href="/taxon/animalia/"><span>Animalia</span> <span class="n">5,422,847</span></a></li>
+<li><a href="/taxon/eukaryota/"><span>Eukaryota</span> <span class="n">—</span></a></li>
+</ul>
+</div>
+<div><h3>Contains</h3>
+<p class="none">Nothing below this taxon in audioBlast.</p>
+</div>
+<div><h3>Alongside</h3>
+<ul>
+<li><a href="/taxon/loxosceles/"><i>Loxosceles</i> <span class="n">—</span></a></li>
+</ul>
+</div>
+</div></div></section>
+<section><div class="wrap"><h2>Sources</h2>
+<p class="note">The rows audioBlast holds for this taxon, each matched to the same Catalogue of Life node. Where a source classifies it differently, its own classification is kept.</p>
+<div class="scroll"><table class="grid"><thead><tr><th>Source</th><th>Its name</th><th>Its rank</th><th>Its family</th><th>Record</th></tr></thead><tbody>
+<tr><td><span class="srcof" title="Plazi"><img class="mk" src="/logo/plazi.png" alt="" width="16" height="16" loading="lazy">Plazi</span></td><td><i>Sicarius</i></td><td>Genus</td><td>Sicariidae</td><td class="n"><a href="https://api.audioblast.org/taxon/Plazi/Sicarius">Plazi/Sicarius</a></td></tr>
+</tbody></table></div></div></section>
+<section><div class="wrap"><h2>Machine-readable</h2>
+<p class="note">Bioschemas is in the head of this page. The Darwin Core RDF lives at the API address below, which negotiates JSON-LD and Turtle.</p>
+<details><summary>Bioschemas Taxon, as embedded</summary><pre>{
+  &quot;@context&quot;: [
+    &quot;https://schema.org/&quot;,
+    {
+      &quot;dwc&quot;: &quot;http://rs.tdwg.org/dwc/terms/&quot;
+    }
+  ],
+  &quot;@type&quot;: &quot;Taxon&quot;,
+  &quot;@id&quot;: &quot;https://browse.acousti.cloud/taxon/sicarius/&quot;,
+  &quot;name&quot;: &quot;Sicarius&quot;,
+  &quot;taxonRank&quot;: &quot;genus&quot;,
+  &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/sicarius/&quot;,
+  &quot;sameAs&quot;: &quot;https://api.audioblast.org/taxon/CoL/CVPKF&quot;,
+  &quot;parentTaxon&quot;: {
+    &quot;@type&quot;: &quot;Taxon&quot;,
+    &quot;name&quot;: &quot;Sicariidae&quot;,
+    &quot;taxonRank&quot;: &quot;family&quot;,
+    &quot;url&quot;: &quot;https://browse.acousti.cloud/taxon/sicariidae/&quot;
+  }
+}</pre></details>
+</div></section>
+<footer><div class="wrap">
+<p>Built from the <a href="https://api.audioblast.org">audioBlast API</a>. Classification from the Catalogue of Life (COL26.9), records from the sources listed above.</p>
+<p class="iri">https://api.audioblast.org/taxon/CoL/CVPKF</p>
+</div></footer>
+</body>
+</html>
